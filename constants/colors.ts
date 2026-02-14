@@ -35,14 +35,3 @@ export const Colors = {
   darkBackground: '#1A1A1A',
   darkText: '#FFFFFF',
 };
-
-export const CategoryColors = {
-  favorites: Colors.softYellow,
-  conversation: Colors.pink,
-  people: Colors.lightBlue,
-  sentiments: Colors.softYellow,
-  food: Colors.mintGreen,
-  animals: Colors.pink,
-  school: Colors.peach,
-  activities: Colors.lavender,
-};

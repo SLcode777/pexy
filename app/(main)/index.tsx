@@ -1,0 +1,164 @@
+import { useState, useEffect } from 'react';
+import {
+  View,
+  Text,
+  TouchableOpacity,
+  FlatList,
+  StyleSheet,
+  SafeAreaView,
+} from 'react-native';
+import { router } from 'expo-router';
+import { useTranslation } from 'react-i18next';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Colors } from '@/constants/colors';
+import { CATEGORIES } from '@/constants/categories';
+import { getUserProfile } from '@/lib/db/operations';
+import { speakWithPreferences } from '@/lib/speakWithPreferences';
+import type { Category } from '@/types';
+
+export default function HomeScreen() {
+  const { t, i18n } = useTranslation();
+  const insets = useSafeAreaInsets();
+  const [userName, setUserName] = useState('');
+
+  useEffect(() => {
+    loadUserProfile();
+  }, []);
+
+  const loadUserProfile = async () => {
+    const profile = await getUserProfile();
+    if (profile) {
+      setUserName(profile.name);
+    }
+  };
+
+  const handleCategoryPress = (category: Category) => {
+    // Speak category name with user's preferred voice
+    const categoryName = category.translations[i18n.language] || category.translations.fr;
+    speakWithPreferences(categoryName);
+
+    // Navigate to category page
+    // @ts-expect-error - Expo Router dynamic routes typing issue
+    router.push(`/category/${category.id}`);
+  };
+
+  const renderCategory = ({ item }: { item: Category }) => {
+    const categoryName = item.translations[i18n.language] || item.translations.fr;
+
+    return (
+      <TouchableOpacity
+        style={[styles.categoryCard, { backgroundColor: item.color }]}
+        onPress={() => handleCategoryPress(item)}
+        activeOpacity={0.7}
+      >
+        <Text style={styles.categoryIcon}>{item.icon}</Text>
+        <Text style={styles.categoryName}>{categoryName}</Text>
+      </TouchableOpacity>
+    );
+  };
+
+  return (
+    <SafeAreaView style={styles.container}>
+      {/* Header */}
+      <View style={[styles.header, { paddingTop: insets.top + 8 }]}>
+        <Text style={styles.greeting}>
+          Bonjour {userName || 'Utilisateur'} 👋
+        </Text>
+      </View>
+
+      {/* Search bar */}
+      <TouchableOpacity
+        style={styles.searchContainer}
+        onPress={() => router.push('/search')}
+        activeOpacity={0.7}
+      >
+        <Text style={styles.searchIcon}>🔍</Text>
+        <Text style={styles.searchPlaceholder}>
+          {t('common.search_placeholder')}
+        </Text>
+      </TouchableOpacity>
+
+      {/* Categories grid */}
+      <FlatList
+        data={CATEGORIES}
+        renderItem={renderCategory}
+        keyExtractor={item => item.id}
+        numColumns={2}
+        contentContainerStyle={styles.grid}
+        columnWrapperStyle={styles.row}
+        showsVerticalScrollIndicator={false}
+      />
+    </SafeAreaView>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.background,
+  },
+  header: {
+    padding: 24,
+    paddingTop: 16,
+  },
+  greeting: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    color: Colors.text,
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: Colors.backgroundSecondary,
+    marginHorizontal: 24,
+    marginBottom: 16,
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: Colors.border,
+  },
+  searchIcon: {
+    fontSize: 20,
+    marginRight: 8,
+  },
+  searchPlaceholder: {
+    flex: 1,
+    fontSize: 16,
+    color: Colors.textSecondary,
+  },
+  grid: {
+    paddingHorizontal: 16,
+    paddingBottom: 24,
+  },
+  row: {
+    gap: 16,
+    marginBottom: 16,
+  },
+  categoryCard: {
+    flex: 1,
+    aspectRatio: 1,
+    borderRadius: 20,
+    padding: 16,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  categoryIcon: {
+    fontSize: 48,
+    marginBottom: 8,
+  },
+  categoryName: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: Colors.text,
+    textAlign: 'center',
+  },
+});

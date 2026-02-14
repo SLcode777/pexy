@@ -11,6 +11,7 @@ export const userProfile = sqliteTable('user_profile', {
   avatarId: text('avatar_id').notNull(),
   language: text('language').notNull().default('fr'),
   ttsSpeed: real('tts_speed').notNull().default(1.0),
+  ttsVoiceId: text('tts_voice_id'), // ID de la voix TTS préférée
   createdAt: text('created_at').default(sql`CURRENT_TIMESTAMP`),
   updatedAt: text('updated_at').default(sql`CURRENT_TIMESTAMP`),
 });

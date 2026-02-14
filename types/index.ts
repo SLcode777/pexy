@@ -31,7 +31,7 @@ export interface Category {
 }
 
 // Avatar types
-export type AvatarGender = 'boy' | 'girl' | 'mixed';
+export type AvatarGender = "boy" | "girl" | "mixed";
 
 export interface Avatar {
   id: string;
@@ -46,4 +46,4 @@ export interface AppSettings {
 }
 
 // TTS types
-export type TTSSpeed = 0.5 | 1.0 | 1.5 | 2.0;
+export type TTSSpeed = 0.5 | 1.0 | 1.25 | 2.0;

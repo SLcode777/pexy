@@ -1,0 +1,509 @@
+{
+  "category": "transport",
+  "pictograms": [
+    {
+      "id": "train",
+      "image": "🚂",
+      "translations": {
+        "fr": {
+          "label": "Train",
+          "phrases": [
+            { "emoji": "🎫", "text": "Je prends le train." },
+            { "emoji": "🚉", "text": "Je vais à la gare." },
+            { "emoji": "⏰", "text": "À quelle heure part le train ?" },
+            { "emoji": "❤️", "text": "J'aime le train." }
+          ]
+        },
+        "en": {
+          "label": "Train",
+          "phrases": [
+            { "emoji": "🎫", "text": "I take the train." },
+            { "emoji": "🚉", "text": "I'm going to the station." },
+            { "emoji": "⏰", "text": "What time does the train leave?" },
+            { "emoji": "❤️", "text": "I love trains." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "car",
+      "image": "🚗",
+      "translations": {
+        "fr": {
+          "label": "Voiture",
+          "phrases": [
+            { "emoji": "🚗", "text": "Je vais en voiture." },
+            { "emoji": "🔑", "text": "Je cherche mes clés de voiture." },
+            { "emoji": "⛽", "text": "Il faut faire le plein d'essence." },
+            { "emoji": "❤️", "text": "J'aime les voitures." }
+          ]
+        },
+        "en": {
+          "label": "Car",
+          "phrases": [
+            { "emoji": "🚗", "text": "I'm going by car." },
+            { "emoji": "🔑", "text": "I'm looking for my car keys." },
+            { "emoji": "⛽", "text": "We need to fill up the tank." },
+            { "emoji": "❤️", "text": "I love cars." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bike",
+      "image": "🚴",
+      "translations": {
+        "fr": {
+          "label": "Vélo",
+          "phrases": [
+            { "emoji": "🚴", "text": "Je fais du vélo." },
+            { "emoji": "🔧", "text": "Mon vélo est cassé." },
+            { "emoji": "🪖", "text": "Je mets mon casque." },
+            { "emoji": "❤️", "text": "J'aime faire du vélo." }
+          ]
+        },
+        "en": {
+          "label": "Bike",
+          "phrases": [
+            { "emoji": "🚴", "text": "I'm riding a bike." },
+            { "emoji": "🔧", "text": "My bike is broken." },
+            { "emoji": "🪖", "text": "I'm putting on my helmet." },
+            { "emoji": "❤️", "text": "I love cycling." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "motorcycle",
+      "image": "🏍️",
+      "translations": {
+        "fr": {
+          "label": "Moto",
+          "phrases": [
+            { "emoji": "🏍️", "text": "Je fais de la moto." },
+            { "emoji": "🪖", "text": "Je mets mon casque de moto." },
+            { "emoji": "🔊", "text": "Quel bruit fait une moto ?" },
+            { "emoji": "❤️", "text": "J'aime les motos." }
+          ]
+        },
+        "en": {
+          "label": "Motorcycle",
+          "phrases": [
+            { "emoji": "🏍️", "text": "I ride a motorcycle." },
+            { "emoji": "🪖", "text": "I'm putting on my motorcycle helmet." },
+            { "emoji": "🔊", "text": "What sound does a motorcycle make?" },
+            { "emoji": "❤️", "text": "I love motorcycles." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "skateboard",
+      "image": "🛹",
+      "translations": {
+        "fr": {
+          "label": "Planche à roulettes",
+          "phrases": [
+            { "emoji": "🛹", "text": "Je fais du skateboard." },
+            { "emoji": "🏞️", "text": "Je vais au skatepark." },
+            { "emoji": "🤕", "text": "Je suis tombé de ma planche." },
+            { "emoji": "❤️", "text": "J'aime le skateboard." }
+          ]
+        },
+        "en": {
+          "label": "Skateboard",
+          "phrases": [
+            { "emoji": "🛹", "text": "I'm skateboarding." },
+            { "emoji": "🏞️", "text": "I'm going to the skatepark." },
+            { "emoji": "🤕", "text": "I fell off my skateboard." },
+            { "emoji": "❤️", "text": "I love skateboarding." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sailboat",
+      "image": "⛵",
+      "translations": {
+        "fr": {
+          "label": "Voilier",
+          "phrases": [
+            { "emoji": "⛵", "text": "Je fais de la voile." },
+            { "emoji": "🌊", "text": "Je navigue sur l'eau." },
+            { "emoji": "💨", "text": "Il y a du vent." },
+            { "emoji": "❤️", "text": "J'aime les voiliers." }
+          ]
+        },
+        "en": {
+          "label": "Sailboat",
+          "phrases": [
+            { "emoji": "⛵", "text": "I'm sailing." },
+            { "emoji": "🌊", "text": "I'm sailing on the water." },
+            { "emoji": "💨", "text": "It's windy." },
+            { "emoji": "❤️", "text": "I love sailboats." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "boat",
+      "image": "🚤",
+      "translations": {
+        "fr": {
+          "label": "Bateau",
+          "phrases": [
+            { "emoji": "🚤", "text": "Je prends le bateau." },
+            { "emoji": "🌊", "text": "Je suis sur un bateau." },
+            { "emoji": "🤢", "text": "J'ai le mal de mer." },
+            { "emoji": "❤️", "text": "J'aime les bateaux." }
+          ]
+        },
+        "en": {
+          "label": "Boat",
+          "phrases": [
+            { "emoji": "🚤", "text": "I'm taking the boat." },
+            { "emoji": "🌊", "text": "I'm on a boat." },
+            { "emoji": "🤢", "text": "I'm seasick." },
+            { "emoji": "❤️", "text": "I love boats." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bus",
+      "image": "🚌",
+      "translations": {
+        "fr": {
+          "label": "Bus",
+          "phrases": [
+            { "emoji": "🚌", "text": "Je prends le bus." },
+            { "emoji": "🚏", "text": "J'attends le bus." },
+            { "emoji": "🎫", "text": "Je cherche mon ticket de bus." },
+            { "emoji": "❤️", "text": "J'aime prendre le bus." }
+          ]
+        },
+        "en": {
+          "label": "Bus",
+          "phrases": [
+            { "emoji": "🚌", "text": "I take the bus." },
+            { "emoji": "🚏", "text": "I'm waiting for the bus." },
+            { "emoji": "🎫", "text": "I'm looking for my bus ticket." },
+            { "emoji": "❤️", "text": "I love taking the bus." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "minibus",
+      "image": "🚐",
+      "translations": {
+        "fr": {
+          "label": "Minibus",
+          "phrases": [
+            { "emoji": "🚐", "text": "Je prends le minibus." },
+            { "emoji": "👥", "text": "On va tous ensemble en minibus." },
+            { "emoji": "🎒", "text": "Je monte dans le minibus." },
+            { "emoji": "❤️", "text": "J'aime le minibus." }
+          ]
+        },
+        "en": {
+          "label": "Minibus",
+          "phrases": [
+            { "emoji": "🚐", "text": "I take the minibus." },
+            { "emoji": "👥", "text": "We're all going together in the minibus." },
+            { "emoji": "🎒", "text": "I'm getting in the minibus." },
+            { "emoji": "❤️", "text": "I love the minibus." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wheelchair",
+      "image": "🦽",
+      "translations": {
+        "fr": {
+          "label": "Fauteuil roulant",
+          "phrases": [
+            { "emoji": "🦽", "text": "J'utilise un fauteuil roulant." },
+            { "emoji": "🚪", "text": "J'ai besoin d'une rampe." },
+            { "emoji": "🤝", "text": "Peux-tu m'aider avec mon fauteuil ?" },
+            { "emoji": "💪", "text": "Je me déplace en fauteuil roulant." }
+          ]
+        },
+        "en": {
+          "label": "Wheelchair",
+          "phrases": [
+            { "emoji": "🦽", "text": "I use a wheelchair." },
+            { "emoji": "🚪", "text": "I need a ramp." },
+            { "emoji": "🤝", "text": "Can you help me with my wheelchair?" },
+            { "emoji": "💪", "text": "I get around in a wheelchair." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taxi",
+      "image": "🚕",
+      "translations": {
+        "fr": {
+          "label": "Taxi",
+          "phrases": [
+            { "emoji": "🚕", "text": "Je prends un taxi." },
+            { "emoji": "👋", "text": "J'appelle un taxi." },
+            { "emoji": "📍", "text": "Je donne l'adresse au chauffeur." },
+            { "emoji": "💰", "text": "Combien coûte le taxi ?" }
+          ]
+        },
+        "en": {
+          "label": "Taxi",
+          "phrases": [
+            { "emoji": "🚕", "text": "I'm taking a taxi." },
+            { "emoji": "👋", "text": "I'm calling a taxi." },
+            { "emoji": "📍", "text": "I'm giving the address to the driver." },
+            { "emoji": "💰", "text": "How much does the taxi cost?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "airplane",
+      "image": "✈️",
+      "translations": {
+        "fr": {
+          "label": "Avion",
+          "phrases": [
+            { "emoji": "✈️", "text": "Je prends l'avion." },
+            { "emoji": "🎫", "text": "J'ai mon billet d'avion." },
+            { "emoji": "🧳", "text": "Je fais ma valise pour l'avion." },
+            { "emoji": "❤️", "text": "J'aime voyager en avion." }
+          ]
+        },
+        "en": {
+          "label": "Airplane",
+          "phrases": [
+            { "emoji": "✈️", "text": "I'm taking a plane." },
+            { "emoji": "🎫", "text": "I have my plane ticket." },
+            { "emoji": "🧳", "text": "I'm packing my suitcase for the plane." },
+            { "emoji": "❤️", "text": "I love flying." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "caravan",
+      "image": "🚙",
+      "translations": {
+        "fr": {
+          "label": "Caravane",
+          "phrases": [
+            { "emoji": "🚙", "text": "On part en caravane." },
+            { "emoji": "🏕️", "text": "On fait du camping en caravane." },
+            { "emoji": "🗺️", "text": "On voyage en caravane." },
+            { "emoji": "❤️", "text": "J'aime les caravanes." }
+          ]
+        },
+        "en": {
+          "label": "Caravan",
+          "phrases": [
+            { "emoji": "🚙", "text": "We're going in a caravan." },
+            { "emoji": "🏕️", "text": "We're camping in a caravan." },
+            { "emoji": "🗺️", "text": "We're traveling in a caravan." },
+            { "emoji": "❤️", "text": "I love caravans." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hot_air_balloon",
+      "image": "🎈",
+      "translations": {
+        "fr": {
+          "label": "Montgolfière",
+          "phrases": [
+            { "emoji": "🎈", "text": "Je vole en montgolfière." },
+            { "emoji": "☁️", "text": "Je suis dans les nuages." },
+            { "emoji": "😍", "text": "C'est magnifique d'en haut." },
+            { "emoji": "❤️", "text": "J'aime les montgolfières." }
+          ]
+        },
+        "en": {
+          "label": "Hot Air Balloon",
+          "phrases": [
+            { "emoji": "🎈", "text": "I'm flying in a hot air balloon." },
+            { "emoji": "☁️", "text": "I'm in the clouds." },
+            { "emoji": "😍", "text": "It's beautiful from up here." },
+            { "emoji": "❤️", "text": "I love hot air balloons." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fire_truck",
+      "image": "🚒",
+      "translations": {
+        "fr": {
+          "label": "Camion de pompier",
+          "phrases": [
+            { "emoji": "🚒", "text": "J'ai vu un camion de pompier." },
+            { "emoji": "🔥", "text": "Les pompiers éteignent le feu." },
+            { "emoji": "🚨", "text": "J'entends la sirène des pompiers." },
+            { "emoji": "❤️", "text": "J'aime les camions de pompier." }
+          ]
+        },
+        "en": {
+          "label": "Fire Truck",
+          "phrases": [
+            { "emoji": "🚒", "text": "I saw a fire truck." },
+            { "emoji": "🔥", "text": "The firefighters are putting out the fire." },
+            { "emoji": "🚨", "text": "I hear the fire truck siren." },
+            { "emoji": "❤️", "text": "I love fire trucks." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "police_car",
+      "image": "🚓",
+      "translations": {
+        "fr": {
+          "label": "Voiture de police",
+          "phrases": [
+            { "emoji": "🚓", "text": "J'ai vu une voiture de police." },
+            { "emoji": "👮", "text": "Il y a des policiers." },
+            { "emoji": "🚨", "text": "J'entends la sirène de police." },
+            { "emoji": "❤️", "text": "J'aime les voitures de police." }
+          ]
+        },
+        "en": {
+          "label": "Police Car",
+          "phrases": [
+            { "emoji": "🚓", "text": "I saw a police car." },
+            { "emoji": "👮", "text": "There are police officers." },
+            { "emoji": "🚨", "text": "I hear the police siren." },
+            { "emoji": "❤️", "text": "I love police cars." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ambulance",
+      "image": "🚑",
+      "translations": {
+        "fr": {
+          "label": "Ambulance",
+          "phrases": [
+            { "emoji": "🚑", "text": "Une ambulance arrive." },
+            { "emoji": "🏥", "text": "L'ambulance va à l'hôpital." },
+            { "emoji": "🚨", "text": "J'entends l'ambulance." },
+            { "emoji": "🤕", "text": "Quelqu'un est blessé." }
+          ]
+        },
+        "en": {
+          "label": "Ambulance",
+          "phrases": [
+            { "emoji": "🚑", "text": "An ambulance is coming." },
+            { "emoji": "🏥", "text": "The ambulance is going to the hospital." },
+            { "emoji": "🚨", "text": "I hear the ambulance." },
+            { "emoji": "🤕", "text": "Someone is injured." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "stretcher",
+      "image": "🛏️",
+      "translations": {
+        "fr": {
+          "label": "Brancard",
+          "phrases": [
+            { "emoji": "🛏️", "text": "On utilise un brancard." },
+            { "emoji": "🏥", "text": "On m'emmène sur un brancard." },
+            { "emoji": "🤕", "text": "Je suis allongé sur le brancard." },
+            { "emoji": "🚑", "text": "Le brancard est dans l'ambulance." }
+          ]
+        },
+        "en": {
+          "label": "Stretcher",
+          "phrases": [
+            { "emoji": "🛏️", "text": "We're using a stretcher." },
+            { "emoji": "🏥", "text": "I'm being taken on a stretcher." },
+            { "emoji": "🤕", "text": "I'm lying on the stretcher." },
+            { "emoji": "🚑", "text": "The stretcher is in the ambulance." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "helicopter",
+      "image": "🚁",
+      "translations": {
+        "fr": {
+          "label": "Hélicoptère",
+          "phrases": [
+            { "emoji": "🚁", "text": "Je vois un hélicoptère." },
+            { "emoji": "🔊", "text": "J'entends l'hélicoptère." },
+            { "emoji": "☁️", "text": "L'hélicoptère vole dans le ciel." },
+            { "emoji": "❤️", "text": "J'aime les hélicoptères." }
+          ]
+        },
+        "en": {
+          "label": "Helicopter",
+          "phrases": [
+            { "emoji": "🚁", "text": "I see a helicopter." },
+            { "emoji": "🔊", "text": "I hear the helicopter." },
+            { "emoji": "☁️", "text": "The helicopter is flying in the sky." },
+            { "emoji": "❤️", "text": "I love helicopters." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "truck",
+      "image": "🚚",
+      "translations": {
+        "fr": {
+          "label": "Camion",
+          "phrases": [
+            { "emoji": "🚚", "text": "Je vois un gros camion." },
+            { "emoji": "📦", "text": "Le camion transporte des colis." },
+            { "emoji": "🔊", "text": "Quel bruit fait un camion ?" },
+            { "emoji": "❤️", "text": "J'aime les camions." }
+          ]
+        },
+        "en": {
+          "label": "Truck",
+          "phrases": [
+            { "emoji": "🚚", "text": "I see a big truck." },
+            { "emoji": "📦", "text": "The truck is carrying packages." },
+            { "emoji": "🔊", "text": "What sound does a truck make?" },
+            { "emoji": "❤️", "text": "I love trucks." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spaceship",
+      "image": "🚀",
+      "translations": {
+        "fr": {
+          "label": "Vaisseau spatial",
+          "phrases": [
+            { "emoji": "🚀", "text": "Je vole dans l'espace." },
+            { "emoji": "🌌", "text": "Je voyage vers les étoiles." },
+            { "emoji": "👨‍🚀", "text": "Je suis astronaute." },
+            { "emoji": "❤️", "text": "J'aime les vaisseaux spatiaux." }
+          ]
+        },
+        "en": {
+          "label": "Spaceship",
+          "phrases": [
+            { "emoji": "🚀", "text": "I'm flying in space." },
+            { "emoji": "🌌", "text": "I'm traveling to the stars." },
+            { "emoji": "👨‍🚀", "text": "I'm an astronaut." },
+            { "emoji": "❤️", "text": "I love spaceships." }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -21,6 +21,7 @@ export const initDatabase = () => {
         avatar_id TEXT NOT NULL,
         language TEXT NOT NULL DEFAULT 'fr',
         tts_speed REAL NOT NULL DEFAULT 1.0,
+        tts_voice_id TEXT,
         created_at TEXT DEFAULT CURRENT_TIMESTAMP,
         updated_at TEXT DEFAULT CURRENT_TIMESTAMP
       );
@@ -56,6 +57,23 @@ export const initDatabase = () => {
     expoDb.execSync(`
       CREATE INDEX IF NOT EXISTS idx_custom_phrases_pictogram ON custom_phrases(pictogram_id);
     `);
+
+    // Migrations: Add tts_voice_id column if it doesn't exist
+    try {
+      // Check if column exists
+      const tableInfo = expoDb.getAllSync('PRAGMA table_info(user_profile)') as any[];
+      const hasVoiceIdColumn = tableInfo.some((col: any) => col.name === 'tts_voice_id');
+
+      if (!hasVoiceIdColumn) {
+        console.log('🔄 Adding tts_voice_id column to user_profile...');
+        expoDb.execSync(`
+          ALTER TABLE user_profile ADD COLUMN tts_voice_id TEXT;
+        `);
+        console.log('✅ Migration completed: tts_voice_id column added');
+      }
+    } catch (error) {
+      console.error('⚠️ Migration error (non-critical):', error);
+    }
 
     console.log('✅ Database initialized successfully');
   } catch (error) {

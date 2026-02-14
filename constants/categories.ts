@@ -1,25 +1,51 @@
 import { Category } from '@/types';
-import { CategoryColors } from './colors';
+import { Colors } from './colors';
 
 /**
- * Default categories for the app
- * More categories and pictograms will be added in data/pictograms
+ * All categories for the app (28 categories)
  */
 
 export const CATEGORIES: Category[] = [
   {
-    id: 'favorites',
-    icon: '⭐',
-    color: CategoryColors.favorites,
+    id: 'letters',
+    icon: '🔤',
+    color: Colors.mintGreen,
     translations: {
-      fr: 'Favoris',
-      en: 'Favorites',
+      fr: 'Lettres',
+      en: 'Letters',
+    },
+  },
+  {
+    id: 'numbers',
+    icon: '🔢',
+    color: Colors.lightBlue,
+    translations: {
+      fr: 'Chiffres',
+      en: 'Numbers',
+    },
+  },
+  {
+    id: 'transport',
+    icon: '🚗',
+    color: Colors.softYellow,
+    translations: {
+      fr: 'Transports',
+      en: 'Transport',
+    },
+  },
+  {
+    id: 'clothes',
+    icon: '👕',
+    color: Colors.lavender,
+    translations: {
+      fr: 'Vêtements',
+      en: 'Clothes',
     },
   },
   {
     id: 'conversation',
     icon: '💬',
-    color: CategoryColors.conversation,
+    color: Colors.pink,
     translations: {
       fr: 'Conversation',
       en: 'Conversation',
@@ -28,7 +54,7 @@ export const CATEGORIES: Category[] = [
   {
     id: 'people',
     icon: '👥',
-    color: CategoryColors.people,
+    color: Colors.peach,
     translations: {
       fr: 'Personnes',
       en: 'People',
@@ -37,7 +63,7 @@ export const CATEGORIES: Category[] = [
   {
     id: 'sentiments',
     icon: '😊',
-    color: CategoryColors.sentiments,
+    color: Colors.softYellow,
     translations: {
       fr: 'Sentiments',
       en: 'Sentiments',
@@ -45,8 +71,8 @@ export const CATEGORIES: Category[] = [
   },
   {
     id: 'food',
-    icon: '🍎',
-    color: CategoryColors.food,
+    icon: '🍽️',
+    color: Colors.coral,
     translations: {
       fr: 'Nourriture',
       en: 'Food',
@@ -54,8 +80,8 @@ export const CATEGORIES: Category[] = [
   },
   {
     id: 'animals',
-    icon: '🐱',
-    color: CategoryColors.animals,
+    icon: '🐾',
+    color: Colors.mintGreen,
     translations: {
       fr: 'Animaux',
       en: 'Animals',
@@ -64,19 +90,172 @@ export const CATEGORIES: Category[] = [
   {
     id: 'school',
     icon: '📚',
-    color: CategoryColors.school,
+    color: Colors.lightBlue,
     translations: {
-      fr: 'L\'école',
+      fr: 'École',
       en: 'School',
     },
   },
   {
     id: 'activities',
     icon: '🎯',
-    color: CategoryColors.activities,
+    color: Colors.lavender,
     translations: {
       fr: 'Activités',
       en: 'Activities',
+    },
+  },
+  {
+    id: 'shapes',
+    icon: '⬛',
+    color: Colors.pink,
+    translations: {
+      fr: 'Formes',
+      en: 'Shapes',
+    },
+  },
+  {
+    id: 'colors',
+    icon: '🎨',
+    color: Colors.peach,
+    translations: {
+      fr: 'Couleurs',
+      en: 'Colors',
+    },
+  },
+  {
+    id: 'toys',
+    icon: '🧸',
+    color: Colors.softYellow,
+    translations: {
+      fr: 'Jouets',
+      en: 'Toys',
+    },
+  },
+  {
+    id: 'drinks',
+    icon: '🥤',
+    color: Colors.lightBlue,
+    translations: {
+      fr: 'Boissons',
+      en: 'Drinks',
+    },
+  },
+  {
+    id: 'snacks',
+    icon: '🍪',
+    color: Colors.coral,
+    translations: {
+      fr: 'Collations',
+      en: 'Snacks',
+    },
+  },
+  {
+    id: 'professions',
+    icon: '👷',
+    color: Colors.mintGreen,
+    translations: {
+      fr: 'Professions',
+      en: 'Professions',
+    },
+  },
+  {
+    id: 'party',
+    icon: '🎉',
+    color: Colors.lavender,
+    translations: {
+      fr: 'Fête',
+      en: 'Party',
+    },
+  },
+  {
+    id: 'fruits',
+    icon: '🍎',
+    color: Colors.pink,
+    translations: {
+      fr: 'Fruits',
+      en: 'Fruits',
+    },
+  },
+  {
+    id: 'vegetables',
+    icon: '🥕',
+    color: Colors.mintGreen,
+    translations: {
+      fr: 'Légumes',
+      en: 'Vegetables',
+    },
+  },
+  {
+    id: 'sports',
+    icon: '⚽',
+    color: Colors.peach,
+    translations: {
+      fr: 'Sports',
+      en: 'Sports',
+    },
+  },
+  {
+    id: 'travel',
+    icon: '✈️',
+    color: Colors.lightBlue,
+    translations: {
+      fr: 'Voyage',
+      en: 'Travel',
+    },
+  },
+  {
+    id: 'gardening',
+    icon: '🌱',
+    color: Colors.mintGreen,
+    translations: {
+      fr: 'Jardinage',
+      en: 'Gardening',
+    },
+  },
+  {
+    id: 'medical',
+    icon: '🏥',
+    color: Colors.coral,
+    translations: {
+      fr: 'Médical',
+      en: 'Medical',
+    },
+  },
+  {
+    id: 'cooking',
+    icon: '🍳',
+    color: Colors.softYellow,
+    translations: {
+      fr: 'Cuisine',
+      en: 'Cooking',
+    },
+  },
+  {
+    id: 'places',
+    icon: '🏛️',
+    color: Colors.lavender,
+    translations: {
+      fr: 'Lieux',
+      en: 'Places',
+    },
+  },
+  {
+    id: 'care',
+    icon: '🧼',
+    color: Colors.pink,
+    translations: {
+      fr: 'Soins',
+      en: 'Care',
+    },
+  },
+  {
+    id: 'home',
+    icon: '🏠',
+    color: Colors.peach,
+    translations: {
+      fr: 'Maison',
+      en: 'Home',
     },
   },
 ];
