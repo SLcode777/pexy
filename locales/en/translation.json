@@ -1,0 +1,50 @@
+{
+  "common": {
+    "search_placeholder": "Type your phrases...",
+    "favorites": "Favorites",
+    "add_phrase": "Add a new phrase",
+    "settings": "Settings",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "next": "Next",
+    "back": "Back",
+    "done": "Done"
+  },
+  "onboarding": {
+    "welcome_title": "Congratulations!",
+    "welcome_message": "Your user profile is complete. You can start using the Pexy AAC application",
+    "welcome_button": "Get Started",
+    "avatar_title": "Choose an avatar!",
+    "avatar_message": "Choose an avatar for the person who will use this AAC application.",
+    "avatar_filter_boy": "Boy",
+    "avatar_filter_girl": "Girl",
+    "avatar_filter_mixed": "Mixed",
+    "profile_title": "Create a profile!",
+    "profile_message": "Choose a profile name or tell us the first name of the person who will use this application.",
+    "profile_placeholder": "your name"
+  },
+  "categories": {
+    "favorites": "Favorites",
+    "conversation": "Conversation",
+    "people": "People",
+    "sentiments": "Sentiments",
+    "food": "Food",
+    "animals": "Animals",
+    "school": "School",
+    "activities": "Activities"
+  },
+  "settings": {
+    "title": "Settings",
+    "profile_name": "Profile name",
+    "avatar": "Avatar",
+    "language": "Language",
+    "tts_speed": "Speech speed",
+    "tts_speed_slow": "Slow",
+    "tts_speed_normal": "Normal",
+    "tts_speed_fast": "Fast",
+    "about": "About"
+  }
+}
