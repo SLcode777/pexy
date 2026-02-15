@@ -3,110 +3,215 @@
   "pictograms": [
     {
       "id": "desk",
-      "image": "🪑",
+      "image": "assets/pictos/school/desk.webp",
       "translations": {
         "fr": {
           "label": "Bureau",
           "phrases": [
-            { "emoji": "🪑", "text": "Je m'assieds au bureau." },
-            { "emoji": "🪑", "text": "Mon bureau est rangé." },
-            { "emoji": "🪑", "text": "C'est mon bureau." },
-            { "emoji": "🪑", "text": "Je travaille au bureau." }
+            {
+              "emoji": "🪑",
+              "text": "Je m'assieds au bureau."
+            },
+            {
+              "emoji": "🪑",
+              "text": "Mon bureau est rangé."
+            },
+            {
+              "emoji": "🪑",
+              "text": "C'est mon bureau."
+            },
+            {
+              "emoji": "🪑",
+              "text": "Je travaille au bureau."
+            }
           ]
         },
         "en": {
           "label": "Desk",
           "phrases": [
-            { "emoji": "🪑", "text": "I sit at the desk." },
-            { "emoji": "🪑", "text": "My desk is tidy." },
-            { "emoji": "🪑", "text": "It's my desk." },
-            { "emoji": "🪑", "text": "I work at the desk." }
+            {
+              "emoji": "🪑",
+              "text": "I sit at the desk."
+            },
+            {
+              "emoji": "🪑",
+              "text": "My desk is tidy."
+            },
+            {
+              "emoji": "🪑",
+              "text": "It's my desk."
+            },
+            {
+              "emoji": "🪑",
+              "text": "I work at the desk."
+            }
           ]
         }
       }
     },
     {
       "id": "chair",
-      "image": "🪑",
+      "image": "assets/pictos/school/chair.webp",
       "translations": {
         "fr": {
           "label": "Chaise",
           "phrases": [
-            { "emoji": "🪑", "text": "Je m'assieds sur la chaise." },
-            { "emoji": "🪑", "text": "C'est ma chaise." },
-            { "emoji": "🪑", "text": "La chaise est confortable." },
-            { "emoji": "🪑", "text": "Je veux une chaise." }
+            {
+              "emoji": "🪑",
+              "text": "Je m'assieds sur la chaise."
+            },
+            {
+              "emoji": "🪑",
+              "text": "C'est ma chaise."
+            },
+            {
+              "emoji": "🪑",
+              "text": "La chaise est confortable."
+            },
+            {
+              "emoji": "🪑",
+              "text": "Je veux une chaise."
+            }
           ]
         },
         "en": {
           "label": "Chair",
           "phrases": [
-            { "emoji": "🪑", "text": "I sit on the chair." },
-            { "emoji": "🪑", "text": "It's my chair." },
-            { "emoji": "🪑", "text": "The chair is comfortable." },
-            { "emoji": "🪑", "text": "I want a chair." }
+            {
+              "emoji": "🪑",
+              "text": "I sit on the chair."
+            },
+            {
+              "emoji": "🪑",
+              "text": "It's my chair."
+            },
+            {
+              "emoji": "🪑",
+              "text": "The chair is comfortable."
+            },
+            {
+              "emoji": "🪑",
+              "text": "I want a chair."
+            }
           ]
         }
       }
     },
     {
       "id": "book",
-      "image": "📚",
+      "image": "assets/pictos/school/book.webp",
       "translations": {
         "fr": {
           "label": "Livre",
           "phrases": [
-            { "emoji": "📚", "text": "Je lis un livre." },
-            { "emoji": "📚", "text": "Je veux un livre." },
-            { "emoji": "😊", "text": "J'aime ce livre." },
-            { "emoji": "📚", "text": "Mon livre est intéressant." }
+            {
+              "emoji": "📚",
+              "text": "Je lis un livre."
+            },
+            {
+              "emoji": "📚",
+              "text": "Je veux un livre."
+            },
+            {
+              "emoji": "😊",
+              "text": "J'aime ce livre."
+            },
+            {
+              "emoji": "📚",
+              "text": "Mon livre est intéressant."
+            }
           ]
         },
         "en": {
           "label": "Book",
           "phrases": [
-            { "emoji": "📚", "text": "I'm reading a book." },
-            { "emoji": "📚", "text": "I want a book." },
-            { "emoji": "😊", "text": "I like this book." },
-            { "emoji": "📚", "text": "My book is interesting." }
+            {
+              "emoji": "📚",
+              "text": "I'm reading a book."
+            },
+            {
+              "emoji": "📚",
+              "text": "I want a book."
+            },
+            {
+              "emoji": "😊",
+              "text": "I like this book."
+            },
+            {
+              "emoji": "📚",
+              "text": "My book is interesting."
+            }
           ]
         }
       }
     },
     {
       "id": "notebook",
-      "image": "📓",
+      "image": "assets/pictos/school/notebook.webp",
       "translations": {
         "fr": {
           "label": "Carnet",
           "phrases": [
-            { "emoji": "📓", "text": "J'écris dans mon carnet." },
-            { "emoji": "📓", "text": "Je veux mon carnet." },
-            { "emoji": "📓", "text": "C'est mon carnet." },
-            { "emoji": "📓", "text": "Je prends des notes." }
+            {
+              "emoji": "📓",
+              "text": "J'écris dans mon carnet."
+            },
+            {
+              "emoji": "📓",
+              "text": "Je veux mon carnet."
+            },
+            {
+              "emoji": "📓",
+              "text": "C'est mon carnet."
+            },
+            {
+              "emoji": "📓",
+              "text": "Je prends des notes."
+            }
           ]
         },
         "en": {
           "label": "Notebook",
           "phrases": [
-            { "emoji": "📓", "text": "I write in my notebook." },
-            { "emoji": "📓", "text": "I want my notebook." },
-            { "emoji": "📓", "text": "It's my notebook." },
-            { "emoji": "📓", "text": "I'm taking notes." }
+            {
+              "emoji": "📓",
+              "text": "I write in my notebook."
+            },
+            {
+              "emoji": "📓",
+              "text": "I want my notebook."
+            },
+            {
+              "emoji": "📓",
+              "text": "It's my notebook."
+            },
+            {
+              "emoji": "📓",
+              "text": "I'm taking notes."
+            }
           ]
         }
       }
     },
     {
       "id": "school-bag",
-      "image": "🎒",
+      "image": "assets/pictos/school/school-bag.webp",
       "translations": {
         "fr": {
           "label": "Cartable",
           "phrases": [
-            { "emoji": "🎒", "text": "Je porte mon cartable." },
-            { "emoji": "🎒", "text": "C'est mon cartable." },
-            { "emoji": "🎒", "text": "Mon cartable est lourd." },
+            {
+              "emoji": "🎒",
+              "text": "Je porte mon cartable."
+            },
+            {
+              "emoji": "🎒",
+              "text": "C'est mon cartable."
+            },
+            {
+              "emoji": "🎒",
+              "text": "Mon cartable est lourd."
+            },
             {
               "emoji": "🎒",
               "text": "Je range mes affaires dans mon cartable."
@@ -116,373 +221,742 @@
         "en": {
           "label": "School bag",
           "phrases": [
-            { "emoji": "🎒", "text": "I'm wearing my school bag." },
-            { "emoji": "🎒", "text": "It's my school bag." },
-            { "emoji": "🎒", "text": "My school bag is heavy." },
-            { "emoji": "🎒", "text": "I put my things in my school bag." }
+            {
+              "emoji": "🎒",
+              "text": "I'm wearing my school bag."
+            },
+            {
+              "emoji": "🎒",
+              "text": "It's my school bag."
+            },
+            {
+              "emoji": "🎒",
+              "text": "My school bag is heavy."
+            },
+            {
+              "emoji": "🎒",
+              "text": "I put my things in my school bag."
+            }
           ]
         }
       }
     },
     {
       "id": "blackboard",
-      "image": "📋",
+      "image": "assets/pictos/school/blackboard.webp",
       "translations": {
         "fr": {
           "label": "Tableau noir",
           "phrases": [
-            { "emoji": "📋", "text": "J'écris au tableau." },
-            { "emoji": "📋", "text": "Le prof écrit au tableau." },
-            { "emoji": "📋", "text": "Je regarde le tableau." },
-            { "emoji": "📋", "text": "C'est le tableau de classe." }
+            {
+              "emoji": "📋",
+              "text": "J'écris au tableau."
+            },
+            {
+              "emoji": "📋",
+              "text": "Le prof écrit au tableau."
+            },
+            {
+              "emoji": "📋",
+              "text": "Je regarde le tableau."
+            },
+            {
+              "emoji": "📋",
+              "text": "C'est le tableau de classe."
+            }
           ]
         },
         "en": {
           "label": "Blackboard",
           "phrases": [
-            { "emoji": "📋", "text": "I write on the board." },
-            { "emoji": "📋", "text": "The teacher writes on the board." },
-            { "emoji": "📋", "text": "I look at the board." },
-            { "emoji": "📋", "text": "It's the class board." }
+            {
+              "emoji": "📋",
+              "text": "I write on the board."
+            },
+            {
+              "emoji": "📋",
+              "text": "The teacher writes on the board."
+            },
+            {
+              "emoji": "📋",
+              "text": "I look at the board."
+            },
+            {
+              "emoji": "📋",
+              "text": "It's the class board."
+            }
           ]
         }
       }
     },
     {
       "id": "teacher",
-      "image": "👨‍🏫",
+      "image": "assets/pictos/school/teacher.webp",
       "translations": {
         "fr": {
-          "label": "Prof",
+          "label": "Professeur",
           "phrases": [
-            { "emoji": "👨‍🏫", "text": "C'est mon prof." },
-            { "emoji": "👨‍🏫", "text": "Le prof explique." },
-            { "emoji": "✋", "text": "Je lève la main pour parler au prof." },
-            { "emoji": "👨‍🏫", "text": "Le prof est gentil." }
+            {
+              "emoji": "👨‍🏫",
+              "text": "C'est mon professeur."
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "Le professeur explique."
+            },
+            {
+              "emoji": "✋",
+              "text": "Je lève la main pour parler au professeur."
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "Le professeur est gentil."
+            }
           ]
         },
         "en": {
           "label": "Teacher",
           "phrases": [
-            { "emoji": "👨‍🏫", "text": "This is my teacher." },
-            { "emoji": "👨‍🏫", "text": "The teacher explains." },
+            {
+              "emoji": "👨‍🏫",
+              "text": "This is my teacher."
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "The teacher explains."
+            },
             {
               "emoji": "✋",
               "text": "I raise my hand to talk to the teacher."
             },
-            { "emoji": "👨‍🏫", "text": "The teacher is kind." }
+            {
+              "emoji": "👨‍🏫",
+              "text": "The teacher is kind."
+            }
           ]
         }
       }
     },
     {
       "id": "school-bus",
-      "image": "🚌",
+      "image": "assets/pictos/school/school-bus.webp",
       "translations": {
         "fr": {
           "label": "Bus scolaire",
           "phrases": [
-            { "emoji": "🚌", "text": "Je prends le bus scolaire." },
-            { "emoji": "🚌", "text": "Le bus arrive." },
-            { "emoji": "🚌", "text": "Je monte dans le bus." },
-            { "emoji": "🚌", "text": "Le bus va à l'école." }
+            {
+              "emoji": "🚌",
+              "text": "Je prends le bus scolaire."
+            },
+            {
+              "emoji": "🚌",
+              "text": "Le bus arrive."
+            },
+            {
+              "emoji": "🚌",
+              "text": "Je monte dans le bus."
+            },
+            {
+              "emoji": "🚌",
+              "text": "Le bus va à l'école."
+            }
           ]
         },
         "en": {
           "label": "School Bus",
           "phrases": [
-            { "emoji": "🚌", "text": "I take the school bus." },
-            { "emoji": "🚌", "text": "The bus is coming." },
-            { "emoji": "🚌", "text": "I get on the bus." },
-            { "emoji": "🚌", "text": "The bus goes to school." }
+            {
+              "emoji": "🚌",
+              "text": "I take the school bus."
+            },
+            {
+              "emoji": "🚌",
+              "text": "The bus is coming."
+            },
+            {
+              "emoji": "🚌",
+              "text": "I get on the bus."
+            },
+            {
+              "emoji": "🚌",
+              "text": "The bus goes to school."
+            }
           ]
         }
       }
     },
     {
       "id": "pencil",
-      "image": "✏️",
+      "image": "assets/pictos/school/pencil.webp",
       "translations": {
         "fr": {
           "label": "Crayon",
           "phrases": [
-            { "emoji": "✏️", "text": "J'écris avec un crayon." },
-            { "emoji": "✏️", "text": "Je veux un crayon." },
-            { "emoji": "✏️", "text": "Mon crayon est cassé." },
-            { "emoji": "✏️", "text": "Je dessine avec mon crayon." }
+            {
+              "emoji": "✏️",
+              "text": "J'écris avec un crayon."
+            },
+            {
+              "emoji": "✏️",
+              "text": "Je veux un crayon."
+            },
+            {
+              "emoji": "✏️",
+              "text": "Mon crayon est cassé."
+            },
+            {
+              "emoji": "✏️",
+              "text": "Je dessine avec mon crayon."
+            }
           ]
         },
         "en": {
           "label": "Pencil",
           "phrases": [
-            { "emoji": "✏️", "text": "I write with a pencil." },
-            { "emoji": "✏️", "text": "I want a pencil." },
-            { "emoji": "✏️", "text": "My pencil is broken." },
-            { "emoji": "✏️", "text": "I draw with my pencil." }
+            {
+              "emoji": "✏️",
+              "text": "I write with a pencil."
+            },
+            {
+              "emoji": "✏️",
+              "text": "I want a pencil."
+            },
+            {
+              "emoji": "✏️",
+              "text": "My pencil is broken."
+            },
+            {
+              "emoji": "✏️",
+              "text": "I draw with my pencil."
+            }
           ]
         }
       }
     },
     {
       "id": "eraser",
-      "image": "🧽",
+      "image": "assets/pictos/school/eraser.webp",
       "translations": {
         "fr": {
           "label": "Gomme",
           "phrases": [
-            { "emoji": "🧽", "text": "J'efface avec la gomme." },
-            { "emoji": "🧽", "text": "Je veux une gomme." },
-            { "emoji": "🧽", "text": "Ma gomme fonctionne bien." },
-            { "emoji": "🧽", "text": "J'ai fait une erreur, je gomme." }
+            {
+              "emoji": "🧽",
+              "text": "J'efface avec la gomme."
+            },
+            {
+              "emoji": "🧽",
+              "text": "Je veux une gomme."
+            },
+            {
+              "emoji": "🧽",
+              "text": "Ma gomme fonctionne bien."
+            },
+            {
+              "emoji": "🧽",
+              "text": "J'ai fait une erreur, je gomme."
+            }
           ]
         },
         "en": {
           "label": "Eraser",
           "phrases": [
-            { "emoji": "🧽", "text": "I erase with the eraser." },
-            { "emoji": "🧽", "text": "I want an eraser." },
-            { "emoji": "🧽", "text": "My eraser works well." },
-            { "emoji": "🧽", "text": "I made a mistake, I erase." }
+            {
+              "emoji": "🧽",
+              "text": "I erase with the eraser."
+            },
+            {
+              "emoji": "🧽",
+              "text": "I want an eraser."
+            },
+            {
+              "emoji": "🧽",
+              "text": "My eraser works well."
+            },
+            {
+              "emoji": "🧽",
+              "text": "I made a mistake, I erase."
+            }
           ]
         }
       }
     },
     {
       "id": "ruler",
-      "image": "📏",
+      "image": "assets/pictos/school/ruler.webp",
       "translations": {
         "fr": {
           "label": "Règle",
           "phrases": [
-            { "emoji": "📏", "text": "J'utilise une règle." },
-            { "emoji": "📏", "text": "Je veux une règle." },
-            { "emoji": "📏", "text": "Je trace une ligne avec la règle." },
-            { "emoji": "📏", "text": "Ma règle est droite." }
+            {
+              "emoji": "📏",
+              "text": "J'utilise une règle."
+            },
+            {
+              "emoji": "📏",
+              "text": "Je veux une règle."
+            },
+            {
+              "emoji": "📏",
+              "text": "Je trace une ligne avec la règle."
+            },
+            {
+              "emoji": "📏",
+              "text": "Ma règle est droite."
+            }
           ]
         },
         "en": {
           "label": "Ruler",
           "phrases": [
-            { "emoji": "📏", "text": "I use a ruler." },
-            { "emoji": "📏", "text": "I want a ruler." },
-            { "emoji": "📏", "text": "I draw a line with the ruler." },
-            { "emoji": "📏", "text": "My ruler is straight." }
+            {
+              "emoji": "📏",
+              "text": "I use a ruler."
+            },
+            {
+              "emoji": "📏",
+              "text": "I want a ruler."
+            },
+            {
+              "emoji": "📏",
+              "text": "I draw a line with the ruler."
+            },
+            {
+              "emoji": "📏",
+              "text": "My ruler is straight."
+            }
           ]
         }
       }
     },
     {
       "id": "pencil-sharpener",
-      "image": "✂️",
+      "image": "assets/pictos/school/pencil-sharpener.webp",
       "translations": {
         "fr": {
           "label": "Taille-crayon",
           "phrases": [
-            { "emoji": "✂️", "text": "Je taille mon crayon." },
-            { "emoji": "✂️", "text": "Je veux un taille-crayon." },
-            { "emoji": "✂️", "text": "Mon crayon a besoin d'être taillé." },
-            { "emoji": "✂️", "text": "Le taille-crayon est utile." }
+            {
+              "emoji": "✂️",
+              "text": "Je taille mon crayon."
+            },
+            {
+              "emoji": "✂️",
+              "text": "Je veux un taille-crayon."
+            },
+            {
+              "emoji": "✂️",
+              "text": "Mon crayon a besoin d'être taillé."
+            },
+            {
+              "emoji": "✂️",
+              "text": "Le taille-crayon est utile."
+            }
           ]
         },
         "en": {
           "label": "Pencil Sharpener",
           "phrases": [
-            { "emoji": "✂️", "text": "I sharpen my pencil." },
-            { "emoji": "✂️", "text": "I want a pencil sharpener." },
-            { "emoji": "✂️", "text": "My pencil needs sharpening." },
-            { "emoji": "✂️", "text": "The sharpener is useful." }
+            {
+              "emoji": "✂️",
+              "text": "I sharpen my pencil."
+            },
+            {
+              "emoji": "✂️",
+              "text": "I want a pencil sharpener."
+            },
+            {
+              "emoji": "✂️",
+              "text": "My pencil needs sharpening."
+            },
+            {
+              "emoji": "✂️",
+              "text": "The sharpener is useful."
+            }
           ]
         }
       }
     },
     {
       "id": "math",
-      "image": "🔢",
+      "image": "assets/pictos/school/math.webp",
       "translations": {
         "fr": {
           "label": "Mathématiques",
           "phrases": [
-            { "emoji": "🔢", "text": "Je fais des maths." },
-            { "emoji": "🔢", "text": "J'aime les mathématiques." },
-            { "emoji": "🔢", "text": "Les maths c'est facile." },
-            { "emoji": "🔢", "text": "J'ai un cours de maths." }
+            {
+              "emoji": "🔢",
+              "text": "Je fais des maths."
+            },
+            {
+              "emoji": "🔢",
+              "text": "J'aime les mathématiques."
+            },
+            {
+              "emoji": "🔢",
+              "text": "Les maths c'est facile."
+            },
+            {
+              "emoji": "🔢",
+              "text": "J'ai un cours de maths."
+            }
           ]
         },
         "en": {
           "label": "Math",
           "phrases": [
-            { "emoji": "🔢", "text": "I'm doing math." },
-            { "emoji": "🔢", "text": "I like mathematics." },
-            { "emoji": "🔢", "text": "Math is easy." },
-            { "emoji": "🔢", "text": "I have a math class." }
+            {
+              "emoji": "🔢",
+              "text": "I'm doing math."
+            },
+            {
+              "emoji": "🔢",
+              "text": "I like mathematics."
+            },
+            {
+              "emoji": "🔢",
+              "text": "Math is easy."
+            },
+            {
+              "emoji": "🔢",
+              "text": "I have a math class."
+            }
           ]
         }
       }
     },
     {
       "id": "literature",
-      "image": "📖",
+      "image": "assets/pictos/school/literature.webp",
       "translations": {
         "fr": {
           "label": "Littérature",
           "phrases": [
-            { "emoji": "📖", "text": "Je lis en cours de littérature." },
-            { "emoji": "📖", "text": "J'aime la littérature." },
-            { "emoji": "📖", "text": "C'est le cours de français." },
-            { "emoji": "📖", "text": "J'étudie un livre." }
+            {
+              "emoji": "📖",
+              "text": "Je lis en cours de littérature."
+            },
+            {
+              "emoji": "📖",
+              "text": "J'aime la littérature."
+            },
+            {
+              "emoji": "📖",
+              "text": "C'est le cours de français."
+            },
+            {
+              "emoji": "📖",
+              "text": "J'étudie un livre."
+            }
           ]
         },
         "en": {
           "label": "Literature",
           "phrases": [
-            { "emoji": "📖", "text": "I read in literature class." },
-            { "emoji": "📖", "text": "I like literature." },
-            { "emoji": "📖", "text": "It's the English class." },
-            { "emoji": "📖", "text": "I'm studying a book." }
+            {
+              "emoji": "📖",
+              "text": "I read in literature class."
+            },
+            {
+              "emoji": "📖",
+              "text": "I like literature."
+            },
+            {
+              "emoji": "📖",
+              "text": "It's the English class."
+            },
+            {
+              "emoji": "📖",
+              "text": "I'm studying a book."
+            }
           ]
         }
       }
     },
     {
       "id": "science",
-      "image": "🔬",
+      "image": "assets/pictos/school/science.webp",
       "translations": {
         "fr": {
           "label": "Science",
           "phrases": [
-            { "emoji": "🔬", "text": "J'ai cours de science." },
-            { "emoji": "🔬", "text": "J'aime les sciences." },
-            { "emoji": "🔬", "text": "Je fais une expérience." },
-            { "emoji": "🔬", "text": "Les sciences c'est intéressant." }
+            {
+              "emoji": "🔬",
+              "text": "J'ai cours de science."
+            },
+            {
+              "emoji": "🔬",
+              "text": "J'aime les sciences."
+            },
+            {
+              "emoji": "🔬",
+              "text": "Je fais une expérience."
+            },
+            {
+              "emoji": "🔬",
+              "text": "Les sciences c'est intéressant."
+            }
           ]
         },
         "en": {
           "label": "Science",
           "phrases": [
-            { "emoji": "🔬", "text": "I have science class." },
-            { "emoji": "🔬", "text": "I like science." },
-            { "emoji": "🔬", "text": "I'm doing an experiment." },
-            { "emoji": "🔬", "text": "Science is interesting." }
+            {
+              "emoji": "🔬",
+              "text": "I have science class."
+            },
+            {
+              "emoji": "🔬",
+              "text": "I like science."
+            },
+            {
+              "emoji": "🔬",
+              "text": "I'm doing an experiment."
+            },
+            {
+              "emoji": "🔬",
+              "text": "Science is interesting."
+            }
           ]
         }
       }
     },
     {
       "id": "art",
-      "image": "🎨",
+      "image": "assets/pictos/school/art.webp",
       "translations": {
         "fr": {
           "label": "Arts plastiques",
           "phrases": [
-            { "emoji": "🎨", "text": "J'ai cours d'arts plastiques." },
-            { "emoji": "🎨", "text": "J'aime les arts plastiques." },
-            { "emoji": "🎨", "text": "Je peins en cours d'arts." },
-            { "emoji": "🎨", "text": "Je fais un dessin." }
+            {
+              "emoji": "🎨",
+              "text": "J'ai cours d'arts plastiques."
+            },
+            {
+              "emoji": "🎨",
+              "text": "J'aime les arts plastiques."
+            },
+            {
+              "emoji": "🎨",
+              "text": "Je peins en cours d'arts."
+            },
+            {
+              "emoji": "🎨",
+              "text": "Je fais un dessin."
+            }
           ]
         },
         "en": {
           "label": "Art",
           "phrases": [
-            { "emoji": "🎨", "text": "I have art class." },
-            { "emoji": "🎨", "text": "I like art." },
-            { "emoji": "🎨", "text": "I paint in art class." },
-            { "emoji": "🎨", "text": "I'm making a drawing." }
+            {
+              "emoji": "🎨",
+              "text": "I have art class."
+            },
+            {
+              "emoji": "🎨",
+              "text": "I like art."
+            },
+            {
+              "emoji": "🎨",
+              "text": "I paint in art class."
+            },
+            {
+              "emoji": "🎨",
+              "text": "I'm making a drawing."
+            }
           ]
         }
       }
     },
     {
       "id": "music-class",
-      "image": "🎵",
+      "image": "assets/pictos/school/music-class.webp",
       "translations": {
         "fr": {
           "label": "Cours de musique",
           "phrases": [
-            { "emoji": "🎵", "text": "J'ai cours de musique." },
-            { "emoji": "🎵", "text": "J'aime le cours de musique." },
-            { "emoji": "🎵", "text": "Je chante en cours de musique." },
-            { "emoji": "🎵", "text": "J'apprends un instrument." }
+            {
+              "emoji": "🎵",
+              "text": "J'ai cours de musique."
+            },
+            {
+              "emoji": "🎵",
+              "text": "J'aime le cours de musique."
+            },
+            {
+              "emoji": "🎵",
+              "text": "Je chante en cours de musique."
+            },
+            {
+              "emoji": "🎵",
+              "text": "J'apprends un instrument."
+            }
           ]
         },
         "en": {
           "label": "Music Class",
           "phrases": [
-            { "emoji": "🎵", "text": "I have music class." },
-            { "emoji": "🎵", "text": "I like music class." },
-            { "emoji": "🎵", "text": "I sing in music class." },
-            { "emoji": "🎵", "text": "I'm learning an instrument." }
+            {
+              "emoji": "🎵",
+              "text": "I have music class."
+            },
+            {
+              "emoji": "🎵",
+              "text": "I like music class."
+            },
+            {
+              "emoji": "🎵",
+              "text": "I sing in music class."
+            },
+            {
+              "emoji": "🎵",
+              "text": "I'm learning an instrument."
+            }
           ]
         }
       }
     },
     {
       "id": "geography",
-      "image": "🌍",
+      "image": "assets/pictos/school/geography.webp",
       "translations": {
         "fr": {
           "label": "Géographie",
           "phrases": [
-            { "emoji": "🌍", "text": "J'ai cours de géographie." },
-            { "emoji": "🌍", "text": "J'aime la géographie." },
-            { "emoji": "🗺️", "text": "J'étudie les cartes." },
-            { "emoji": "🌍", "text": "J'apprends les pays." }
+            {
+              "emoji": "🌍",
+              "text": "J'ai cours de géographie."
+            },
+            {
+              "emoji": "🌍",
+              "text": "J'aime la géographie."
+            },
+            {
+              "emoji": "🗺️",
+              "text": "J'étudie les cartes."
+            },
+            {
+              "emoji": "🌍",
+              "text": "J'apprends les pays."
+            }
           ]
         },
         "en": {
           "label": "Geography",
           "phrases": [
-            { "emoji": "🌍", "text": "I have geography class." },
-            { "emoji": "🌍", "text": "I like geography." },
-            { "emoji": "🗺️", "text": "I study maps." },
-            { "emoji": "🌍", "text": "I'm learning countries." }
+            {
+              "emoji": "🌍",
+              "text": "I have geography class."
+            },
+            {
+              "emoji": "🌍",
+              "text": "I like geography."
+            },
+            {
+              "emoji": "🗺️",
+              "text": "I study maps."
+            },
+            {
+              "emoji": "🌍",
+              "text": "I'm learning countries."
+            }
           ]
         }
       }
     },
     {
       "id": "telescope",
-      "image": "🔭",
+      "image": "assets/pictos/school/telescope.webp",
       "translations": {
         "fr": {
           "label": "Télescope",
           "phrases": [
-            { "emoji": "🔭", "text": "J'utilise un télescope." },
-            { "emoji": "🔭", "text": "J'observe les étoiles." },
-            { "emoji": "🌟", "text": "Je regarde dans le télescope." },
-            { "emoji": "🔭", "text": "Le télescope grossit les images." }
+            {
+              "emoji": "🔭",
+              "text": "J'utilise un télescope."
+            },
+            {
+              "emoji": "🔭",
+              "text": "J'observe les étoiles."
+            },
+            {
+              "emoji": "🌟",
+              "text": "Je regarde dans le télescope."
+            },
+            {
+              "emoji": "🔭",
+              "text": "Le télescope grossit les images."
+            }
           ]
         },
         "en": {
           "label": "Telescope",
           "phrases": [
-            { "emoji": "🔭", "text": "I use a telescope." },
-            { "emoji": "🔭", "text": "I observe the stars." },
-            { "emoji": "🌟", "text": "I look through the telescope." },
-            { "emoji": "🔭", "text": "The telescope magnifies images." }
+            {
+              "emoji": "🔭",
+              "text": "I use a telescope."
+            },
+            {
+              "emoji": "🔭",
+              "text": "I observe the stars."
+            },
+            {
+              "emoji": "🌟",
+              "text": "I look through the telescope."
+            },
+            {
+              "emoji": "🔭",
+              "text": "The telescope magnifies images."
+            }
           ]
         }
       }
     },
     {
       "id": "glue",
-      "image": "🧴",
+      "image": "assets/pictos/school/glue.webp",
       "translations": {
         "fr": {
           "label": "Colle",
           "phrases": [
-            { "emoji": "🧴", "text": "J'utilise de la colle." },
-            { "emoji": "✂️", "text": "Je colle du papier." },
-            { "emoji": "🧴", "text": "La colle est blanche." },
-            { "emoji": "📄", "text": "Je fais du bricolage." }
+            {
+              "emoji": "🧴",
+              "text": "J'utilise de la colle."
+            },
+            {
+              "emoji": "✂️",
+              "text": "Je colle du papier."
+            },
+            {
+              "emoji": "🧴",
+              "text": "La colle est blanche."
+            },
+            {
+              "emoji": "📄",
+              "text": "Je fais du bricolage."
+            }
           ]
         },
         "en": {
           "label": "Glue",
           "phrases": [
-            { "emoji": "🧴", "text": "I use glue." },
-            { "emoji": "✂️", "text": "I glue paper." },
-            { "emoji": "🧴", "text": "The glue is white." },
-            { "emoji": "📄", "text": "I do crafts." }
+            {
+              "emoji": "🧴",
+              "text": "I use glue."
+            },
+            {
+              "emoji": "✂️",
+              "text": "I glue paper."
+            },
+            {
+              "emoji": "🧴",
+              "text": "The glue is white."
+            },
+            {
+              "emoji": "📄",
+              "text": "I do crafts."
+            }
           ]
         }
       }

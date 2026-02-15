@@ -1,6 +1,6 @@
 {
   "common": {
-    "search_placeholder": "Tapez vos phrases...",
+    "search_placeholder": "Cherche un mot ou une phrase...",
     "favorites": "Favoris",
     "add_phrase": "Ajouter une nouvelle phrase",
     "settings": "Paramètres",
@@ -15,16 +15,16 @@
   },
   "onboarding": {
     "welcome_title": "Félicitations !",
-    "welcome_message": "Votre profil d'utilisateur est complété. Vous pouvez commencer à utiliser l'application Pexy AAC",
+    "welcome_message": "Ton profil d'utilisateur est complété. Tu peux commencer à utiliser l'application Pexy",
     "welcome_button": "Démarrer",
-    "avatar_title": "Choisissez un avatar !",
-    "avatar_message": "Choisissez un avatar pour la personne qui va utiliser cette application AAC.",
+    "avatar_title": "Choisis un avatar !",
+    "avatar_message": "Choisis un avatar pour la personne qui va utiliser cette application.",
     "avatar_filter_boy": "Garçon",
     "avatar_filter_girl": "Fille",
     "avatar_filter_mixed": "Mixte",
-    "profile_title": "Créez un profil !",
-    "profile_message": "Choisissez un nom de profil ou indiquez-nous le prénom de la personne qui va utiliser cette application.",
-    "profile_placeholder": "votre nom"
+    "profile_title": "Créé un profil !",
+    "profile_message": "Indique le prénom de la personne qui va utiliser cette application.",
+    "profile_placeholder": "ton nom"
   },
   "categories": {
     "letters": "Lettres",

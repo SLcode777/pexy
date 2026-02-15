@@ -1,26 +1,29 @@
-import { useState, useEffect } from 'react';
+import { PictogramImage } from "@/components/PictogramImage";
+import { Colors } from "@/constants/colors";
 import {
-  View,
-  Text,
-  TouchableOpacity,
-  ScrollView,
-  StyleSheet,
-  Alert,
-} from 'react-native';
-import { router, useLocalSearchParams, useFocusEffect } from 'expo-router';
-import { useCallback } from 'react';
-import { useTranslation } from 'react-i18next';
-import { useSafeAreaInsets, SafeAreaView } from 'react-native-safe-area-context';
-import { Colors } from '@/constants/colors';
-import { getPictogram } from '@/lib/pictograms';
-import { speakWithPreferences } from '@/lib/speakWithPreferences';
-import {
+  deleteCustomPhrase,
+  getCustomPhrases,
   isFavorite,
   toggleFavorite,
-  getCustomPhrases,
-  deleteCustomPhrase,
-} from '@/lib/db/operations';
-import type { Pictogram, Phrase } from '@/types';
+} from "@/lib/db/operations";
+import { getPictogram } from "@/lib/pictograms";
+import { speakWithPreferences } from "@/lib/speakWithPreferences";
+import type { Pictogram } from "@/types";
+import { router, useFocusEffect, useLocalSearchParams } from "expo-router";
+import { useCallback, useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import {
+  Alert,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+import {
+  SafeAreaView,
+  useSafeAreaInsets,
+} from "react-native-safe-area-context";
 
 interface CustomPhrase {
   id: number;
@@ -29,7 +32,10 @@ interface CustomPhrase {
 }
 
 export default function PictogramScreen() {
-  const { categoryId, id } = useLocalSearchParams<{ categoryId: string; id: string }>();
+  const { categoryId, id } = useLocalSearchParams<{
+    categoryId: string;
+    id: string;
+  }>();
   const { i18n } = useTranslation();
   const insets = useSafeAreaInsets();
   const [pictogram, setPictogram] = useState<Pictogram | null>(null);
@@ -41,7 +47,7 @@ export default function PictogramScreen() {
   useFocusEffect(
     useCallback(() => {
       loadCustomPhrases();
-    }, [id, i18n.language])
+    }, [id, i18n.language]),
   );
 
   useEffect(() => {
@@ -73,7 +79,9 @@ export default function PictogramScreen() {
 
   const handleSpeakLabel = () => {
     if (pictogram) {
-      const label = pictogram.translations[i18n.language]?.label || pictogram.translations.fr.label;
+      const label =
+        pictogram.translations[i18n.language]?.label ||
+        pictogram.translations.fr.label;
       speakWithPreferences(label);
     }
   };
@@ -85,29 +93,29 @@ export default function PictogramScreen() {
   const handleAddPhrase = () => {
     // @ts-expect-error - Expo Router dynamic routes typing issue
     router.push({
-      pathname: '/add-phrase',
+      pathname: "/add-phrase",
       params: { pictogramId: id },
     });
   };
 
   const handleDeleteCustomPhrase = (customPhrase: CustomPhrase) => {
     Alert.alert(
-      'Supprimer la phrase',
+      "Supprimer la phrase",
       `Voulez-vous vraiment supprimer "${customPhrase.text}" ?`,
       [
         {
-          text: 'Supprimer',
-          style: 'destructive',
+          text: "Supprimer",
+          style: "destructive",
           onPress: async () => {
             await deleteCustomPhrase(customPhrase.id);
             await loadCustomPhrases();
           },
         },
         {
-          text: 'Annuler',
-          style: 'cancel',
+          text: "Annuler",
+          style: "cancel",
         },
-      ]
+      ],
     );
   };
 
@@ -129,27 +137,46 @@ export default function PictogramScreen() {
     );
   }
 
-  const translation = pictogram.translations[i18n.language] || pictogram.translations.fr;
+  const translation =
+    pictogram.translations[i18n.language] || pictogram.translations.fr;
 
   return (
     <SafeAreaView style={styles.container}>
       {/* Header */}
       <View style={[styles.header, { paddingTop: insets.top + 8 }]}>
-        <TouchableOpacity onPress={() => router.back()} style={styles.closeButton}>
+        <TouchableOpacity
+          onPress={() => router.back()}
+          style={styles.closeButton}
+        >
           <Text style={styles.closeIcon}>✖️</Text>
         </TouchableOpacity>
 
         <View style={styles.headerActions}>
-          <TouchableOpacity onPress={handleToggleFavorite} style={styles.iconButton}>
-            <Text style={styles.icon}>{isFav ? '⭐' : '☆'}</Text>
+          <TouchableOpacity
+            onPress={handleToggleFavorite}
+            style={styles.iconButton}
+          >
+            <Text style={styles.icon}>{isFav ? "⭐" : "☆"}</Text>
           </TouchableOpacity>
         </View>
       </View>
 
-      <ScrollView contentContainerStyle={[styles.content, { paddingBottom: insets.bottom + 24 }]}>
+      <ScrollView
+        contentContainerStyle={[
+          styles.content,
+          { paddingBottom: insets.bottom + 24 },
+        ]}
+      >
         {/* Pictogram */}
-        <TouchableOpacity onPress={handleSpeakLabel} style={styles.pictogramContainer}>
-          <Text style={styles.pictogramImage}>{pictogram.image}</Text>
+        <TouchableOpacity
+          onPress={handleSpeakLabel}
+          style={styles.pictogramContainer}
+        >
+          <PictogramImage
+            source={pictogram.image}
+            size={120}
+            style={{ borderRadius: 20 }}
+          />
           <Text style={styles.pictogramLabel}>{translation.label}</Text>
           <Text style={styles.speakerIcon}>🔊</Text>
         </TouchableOpacity>
@@ -177,7 +204,7 @@ export default function PictogramScreen() {
                 onPress={() => handleSpeakPhrase(phrase.text)}
                 activeOpacity={0.7}
               >
-                <Text style={styles.phraseEmoji}>{phrase.emoji || '💬'}</Text>
+                <Text style={styles.phraseEmoji}>{phrase.emoji || "💬"}</Text>
                 <Text style={styles.phraseText}>{phrase.text}</Text>
               </TouchableOpacity>
               <TouchableOpacity
@@ -197,7 +224,9 @@ export default function PictogramScreen() {
             activeOpacity={0.7}
           >
             <Text style={styles.addPhraseIcon}>➕</Text>
-            <Text style={styles.addPhraseText}>Ajouter une nouvelle phrase</Text>
+            <Text style={styles.addPhraseText}>
+              Ajouter une nouvelle phrase
+            </Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
@@ -211,9 +240,9 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.background,
   },
   header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
@@ -222,21 +251,21 @@ const styles = StyleSheet.create({
   closeButton: {
     width: 40,
     height: 40,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   closeIcon: {
     fontSize: 20,
   },
   headerActions: {
-    flexDirection: 'row',
+    flexDirection: "row",
     gap: 12,
   },
   iconButton: {
     width: 40,
     height: 40,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   icon: {
     fontSize: 28,
@@ -245,7 +274,7 @@ const styles = StyleSheet.create({
     padding: 24,
   },
   pictogramContainer: {
-    alignItems: 'center',
+    alignItems: "center",
     marginBottom: 32,
   },
   pictogramImage: {
@@ -254,7 +283,7 @@ const styles = StyleSheet.create({
   },
   pictogramLabel: {
     fontSize: 24,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     color: Colors.text,
     marginBottom: 8,
   },
@@ -265,13 +294,13 @@ const styles = StyleSheet.create({
     gap: 12,
   },
   phraseRow: {
-    flexDirection: 'row',
+    flexDirection: "row",
     gap: 8,
   },
   phraseCard: {
     flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     backgroundColor: Colors.backgroundSecondary,
     padding: 16,
     borderRadius: 16,
@@ -279,18 +308,18 @@ const styles = StyleSheet.create({
     borderColor: Colors.border,
   },
   customPhraseCard: {
-    backgroundColor: Colors.softYellow,
+    backgroundColor: Colors.backgroundSecondary,
     borderColor: Colors.primary,
-    borderWidth: 2,
+    borderWidth: 1,
   },
   deleteButton: {
     width: 48,
     height: 48,
-    backgroundColor: Colors.coral,
+    // backgroundColor: Colors.coral,
     borderRadius: 12,
-    justifyContent: 'center',
-    alignItems: 'center',
-    alignSelf: 'center',
+    justifyContent: "center",
+    alignItems: "center",
+    alignSelf: "center",
   },
   deleteIcon: {
     fontSize: 20,
@@ -303,17 +332,17 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     color: Colors.text,
-    fontWeight: '500',
+    fontWeight: "500",
   },
   addPhraseButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     backgroundColor: Colors.lightBlue,
     padding: 16,
     borderRadius: 16,
     borderWidth: 2,
     borderColor: Colors.primary,
-    borderStyle: 'dashed',
+    borderStyle: "dashed",
     marginTop: 8,
   },
   addPhraseIcon: {
@@ -324,12 +353,12 @@ const styles = StyleSheet.create({
     flex: 1,
     fontSize: 16,
     color: Colors.text,
-    fontWeight: '600',
+    fontWeight: "600",
   },
   loadingContainer: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   loadingText: {
     fontSize: 16,
@@ -338,7 +367,7 @@ const styles = StyleSheet.create({
   errorText: {
     fontSize: 16,
     color: Colors.error,
-    textAlign: 'center',
+    textAlign: "center",
     marginTop: 24,
   },
 });

@@ -8,7 +8,9 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "update-pictos": "node ./scripts/update-picto-json.js && node ./scripts/generate-picto-map.js",
+    "generate-pictos": "node ./scripts/generate-picto-map.js"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",

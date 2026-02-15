@@ -1,16 +1,16 @@
 import { Colors } from "@/constants/colors";
-import { useUserProfile } from "@/hooks/useUserProfile";
 import { useBackup } from "@/hooks/useBackup";
-import { updateUserProfile, clearAllData } from "@/lib/db/operations";
+import { useUserProfile } from "@/hooks/useUserProfile";
+import { clearAllData, updateUserProfile } from "@/lib/db/operations";
 import {
   getTTSLanguage,
   getVoicesByLanguage,
   speak,
   type TTSVoice,
 } from "@/lib/tts";
+import { useRouter } from "expo-router";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useRouter } from "expo-router";
 import {
   ActivityIndicator,
   Alert,
@@ -28,7 +28,8 @@ export default function SettingsScreen() {
   const { t, i18n } = useTranslation();
   const router = useRouter();
   const { profile, loading: profileLoading, refreshProfile } = useUserProfile();
-  const { handleExport, handleImport, exportLoading, importLoading } = useBackup();
+  const { handleExport, handleImport, exportLoading, importLoading } =
+    useBackup();
   const [voices, setVoices] = useState<TTSVoice[]>([]);
   const [loadingVoices, setLoadingVoices] = useState(true);
   const [selectedVoiceId, setSelectedVoiceId] = useState<string | null>(null);
@@ -52,7 +53,11 @@ export default function SettingsScreen() {
 
     console.log(
       `📢 Loading voices for language: ${languageCode}`,
-      availableVoices.map((v) => ({ name: v.name, id: v.identifier, lang: v.language })),
+      availableVoices.map((v) => ({
+        name: v.name,
+        id: v.identifier,
+        lang: v.language,
+      })),
     );
 
     setVoices(availableVoices);
@@ -160,7 +165,7 @@ export default function SettingsScreen() {
             }
           },
         },
-      ]
+      ],
     );
   };
 
@@ -184,7 +189,7 @@ export default function SettingsScreen() {
           style={styles.testButton}
           onPress={() => handleTestVoice(voice)}
         >
-          <Text style={styles.testButtonText}>🔊 Tester</Text>
+          <Text style={styles.testButtonText}>🔊</Text>
         </TouchableOpacity>
       </View>
     );
@@ -321,9 +326,7 @@ export default function SettingsScreen() {
             style={styles.testSpeedButton}
             onPress={() => handleTestSpeed(profile?.ttsSpeed || 1.0)}
           >
-            <Text style={styles.testSpeedButtonText}>
-              🔊 Tester la vitesse
-            </Text>
+            <Text style={styles.testSpeedButtonText}>🔊 Tester la vitesse</Text>
           </TouchableOpacity>
         </View>
 
@@ -339,15 +342,15 @@ export default function SettingsScreen() {
               <Text style={styles.emptyText}>Aucune voix disponible</Text>
             </View>
           ) : (
-            <View style={styles.voicesList}>
-              {voices.map(renderVoiceItem)}
-            </View>
+            <View style={styles.voicesList}>{voices.map(renderVoiceItem)}</View>
           )}
         </View>
 
         {/* Data Management */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>💾 {t("settings.data_management")}</Text>
+          <Text style={styles.sectionTitle}>
+            💾 {t("settings.data_management")}
+          </Text>
 
           <View style={styles.backupButtonsContainer}>
             <TouchableOpacity
@@ -377,7 +380,9 @@ export default function SettingsScreen() {
               ) : (
                 <>
                   <Text style={styles.backupIcon}>📥</Text>
-                  <Text style={[styles.backupButtonText, styles.importButtonText]}>
+                  <Text
+                    style={[styles.backupButtonText, styles.importButtonText]}
+                  >
                     {t("settings.import_backup")}
                   </Text>
                 </>
@@ -385,17 +390,20 @@ export default function SettingsScreen() {
             </TouchableOpacity>
           </View>
 
-          <Text style={styles.backupHint}>
-            {t("settings.backup_hint")}
-          </Text>
+          <Text style={styles.backupHint}>{t("settings.backup_hint")}</Text>
 
           {/* Dev: Reset Database Button */}
-          <TouchableOpacity
-            style={styles.resetButton}
-            onPress={handleResetDatabase}
-          >
-            <Text style={styles.resetButtonText}>🔄 Reset Database (Dev)</Text>
-          </TouchableOpacity>
+          {__DEV__ && (
+            <View style={styles.section}>
+              <Text style={styles.sectionTitle}>👩‍💻 Dev Only</Text>
+              <TouchableOpacity
+                style={styles.resetButton}
+                onPress={handleResetDatabase}
+              >
+                <Text style={styles.resetButtonText}>🔄 Reset Database</Text>
+              </TouchableOpacity>
+            </View>
+          )}
         </View>
       </ScrollView>
 
@@ -492,7 +500,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.backgroundSecondary,
     padding: 16,
     borderRadius: 12,
-    borderWidth: 2,
+    borderWidth: 1,
     borderColor: Colors.border,
     alignItems: "center",
   },
@@ -506,7 +514,7 @@ const styles = StyleSheet.create({
     color: Colors.text,
   },
   languageButtonTextActive: {
-    color: Colors.darkText,
+    color: Colors.text,
   },
   speedButtons: {
     flexDirection: "row",
@@ -517,7 +525,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.backgroundSecondary,
     padding: 12,
     borderRadius: 12,
-    borderWidth: 2,
+    borderWidth: 1,
     borderColor: Colors.border,
     alignItems: "center",
   },
@@ -531,10 +539,10 @@ const styles = StyleSheet.create({
     color: Colors.text,
   },
   speedButtonTextActive: {
-    color: Colors.darkText,
+    color: Colors.text,
   },
   testSpeedButton: {
-    backgroundColor: Colors.softYellow,
+    backgroundColor: Colors.backgroundSecondary,
     padding: 12,
     borderRadius: 12,
     borderWidth: 1,
@@ -596,7 +604,7 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.backgroundSecondary,
     padding: 16,
     borderRadius: 12,
-    borderWidth: 2,
+    borderWidth: 1,
     borderColor: Colors.border,
     flexDirection: "row",
     alignItems: "center",
@@ -624,12 +632,12 @@ const styles = StyleSheet.create({
     color: Colors.primary,
   },
   testButton: {
-    paddingVertical: 16,
-    paddingHorizontal: 12,
-    backgroundColor: Colors.softYellow,
+    paddingHorizontal: 10,
+    backgroundColor: Colors.backgroundSecondary,
     borderRadius: 12,
     borderWidth: 1,
     borderColor: Colors.border,
+    justifyContent: "center",
   },
   testButtonText: {
     fontSize: 14,
@@ -705,13 +713,13 @@ const styles = StyleSheet.create({
     color: Colors.darkText,
   },
   backupButtonsContainer: {
-    flexDirection: "row",
+    flexDirection: "column",
     gap: 12,
   },
   exportButton: {
     flex: 1,
     backgroundColor: Colors.softYellow,
-    padding: 16,
+    padding: 8,
     borderRadius: 12,
     borderWidth: 1,
     borderColor: Colors.border,
@@ -724,7 +732,7 @@ const styles = StyleSheet.create({
   importButton: {
     flex: 1,
     backgroundColor: Colors.primary,
-    padding: 16,
+    padding: 8,
     borderRadius: 12,
     borderWidth: 1,
     borderColor: Colors.primary,
@@ -743,7 +751,7 @@ const styles = StyleSheet.create({
     color: Colors.text,
   },
   importButtonText: {
-    color: Colors.darkText,
+    color: Colors.text,
   },
   backupHint: {
     fontSize: 12,
@@ -751,19 +759,20 @@ const styles = StyleSheet.create({
     textAlign: "center",
     marginTop: 12,
     lineHeight: 18,
+    marginBottom: 24,
   },
   resetButton: {
     marginTop: 16,
     backgroundColor: Colors.coral,
     padding: 16,
     borderRadius: 12,
-    borderWidth: 1,
+    // borderWidth: 1,
     borderColor: Colors.border,
     alignItems: "center",
   },
   resetButtonText: {
     fontSize: 14,
     fontWeight: "600",
-    color: Colors.darkText,
+    color: Colors.text,
   },
 });

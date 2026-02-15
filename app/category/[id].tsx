@@ -1,22 +1,26 @@
-import { useState, useEffect } from 'react';
+import { PictogramCard } from "@/components/PictogramCard";
+import { CATEGORIES } from "@/constants/categories";
+import { Colors } from "@/constants/colors";
+import { loadPictograms } from "@/lib/pictograms";
+import { speakWithPreferences } from "@/lib/speakWithPreferences";
+import type { Pictogram } from "@/types";
+import { router, useLocalSearchParams } from "expo-router";
+import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
-  View,
-  Text,
-  TouchableOpacity,
+  Dimensions,
   FlatList,
   StyleSheet,
-  Dimensions,
-} from 'react-native';
-import { router, useLocalSearchParams } from 'expo-router';
-import { useTranslation } from 'react-i18next';
-import { useSafeAreaInsets, SafeAreaView } from 'react-native-safe-area-context';
-import { Colors } from '@/constants/colors';
-import { CATEGORIES } from '@/constants/categories';
-import { loadPictograms } from '@/lib/pictograms';
-import { speakWithPreferences } from '@/lib/speakWithPreferences';
-import type { Pictogram } from '@/types';
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
+import {
+  SafeAreaView,
+  useSafeAreaInsets,
+} from "react-native-safe-area-context";
 
-const { width: SCREEN_WIDTH } = Dimensions.get('window');
+const { width: SCREEN_WIDTH } = Dimensions.get("window");
 const CARD_GAP = 12;
 const HORIZONTAL_PADDING = 16;
 const CARD_WIDTH = (SCREEN_WIDTH - HORIZONTAL_PADDING * 2 - CARD_GAP * 2) / 3;
@@ -28,7 +32,7 @@ export default function CategoryScreen() {
   const [pictograms, setPictograms] = useState<Pictogram[]>([]);
   const [loading, setLoading] = useState(true);
 
-  const category = CATEGORIES.find(c => c.id === id);
+  const category = CATEGORIES.find((c) => c.id === id);
 
   useEffect(() => {
     loadCategoryPictograms();
@@ -43,7 +47,9 @@ export default function CategoryScreen() {
 
   const handlePictogramPress = (pictogram: Pictogram) => {
     // Speak pictogram label with user's preferred voice
-    const label = pictogram.translations[i18n.language]?.label || pictogram.translations.fr.label;
+    const label =
+      pictogram.translations[i18n.language]?.label ||
+      pictogram.translations.fr.label;
     speakWithPreferences(label);
 
     // Navigate to pictogram detail
@@ -53,23 +59,23 @@ export default function CategoryScreen() {
 
   const handleCategoryNamePress = () => {
     if (category) {
-      const categoryName = category.translations[i18n.language] || category.translations.fr;
+      const categoryName =
+        category.translations[i18n.language] || category.translations.fr;
       speakWithPreferences(categoryName);
     }
   };
 
   const renderPictogram = ({ item }: { item: Pictogram }) => {
-    const label = item.translations[i18n.language]?.label || item.translations.fr.label;
+    const label =
+      item.translations[i18n.language]?.label || item.translations.fr.label;
 
     return (
-      <TouchableOpacity
-        style={styles.pictogramCard}
+      <PictogramCard
+        image={item.image}
+        label={label}
         onPress={() => handlePictogramPress(item)}
-        activeOpacity={0.7}
-      >
-        <Text style={styles.pictogramImage}>{item.image}</Text>
-        <Text style={styles.pictogramLabel}>{label}</Text>
-      </TouchableOpacity>
+        size={CARD_WIDTH}
+      />
     );
   };
 
@@ -81,18 +87,25 @@ export default function CategoryScreen() {
     );
   }
 
-  const categoryName = category.translations[i18n.language] || category.translations.fr;
+  const categoryName =
+    category.translations[i18n.language] || category.translations.fr;
 
   return (
     <SafeAreaView style={styles.container}>
       {/* Header */}
       <View style={[styles.header, { paddingTop: insets.top + 8 }]}>
-        <TouchableOpacity onPress={() => router.back()} style={styles.backButton}>
+        <TouchableOpacity
+          onPress={() => router.back()}
+          style={styles.backButton}
+        >
           <Text style={styles.backIcon}>←</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity onPress={handleCategoryNamePress} style={styles.titleContainer}>
-          <Text style={styles.categoryIcon}>{category.icon}</Text>
+        <TouchableOpacity
+          onPress={handleCategoryNamePress}
+          style={styles.titleContainer}
+        >
+          {/* <Text style={styles.categoryIcon}>{category.icon}</Text> */}
           <Text style={styles.title}>{categoryName}</Text>
           <Text style={styles.speakerIcon}>🔊</Text>
         </TouchableOpacity>
@@ -107,13 +120,15 @@ export default function CategoryScreen() {
         </View>
       ) : pictograms.length === 0 ? (
         <View style={styles.emptyContainer}>
-          <Text style={styles.emptyText}>Aucun pictogramme disponible pour cette catégorie</Text>
+          <Text style={styles.emptyText}>
+            Aucun pictogramme disponible pour cette catégorie
+          </Text>
         </View>
       ) : (
         <FlatList
           data={pictograms}
           renderItem={renderPictogram}
-          keyExtractor={item => item.id}
+          keyExtractor={(item) => item.id}
           numColumns={3}
           contentContainerStyle={styles.grid}
           columnWrapperStyle={styles.row}
@@ -130,9 +145,9 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.background,
   },
   header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
@@ -141,16 +156,16 @@ const styles = StyleSheet.create({
   backButton: {
     width: 40,
     height: 40,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   backIcon: {
     fontSize: 28,
     color: Colors.text,
   },
   titleContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
     gap: 8,
   },
   categoryIcon: {
@@ -158,7 +173,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 20,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     color: Colors.text,
   },
   speakerIcon: {
@@ -178,8 +193,8 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.backgroundSecondary,
     borderRadius: 16,
     padding: 12,
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
+    justifyContent: "center",
     borderWidth: 1,
     borderColor: Colors.border,
   },
@@ -189,14 +204,14 @@ const styles = StyleSheet.create({
   },
   pictogramLabel: {
     fontSize: 11,
-    fontWeight: '600',
+    fontWeight: "600",
     color: Colors.text,
-    textAlign: 'center',
+    textAlign: "center",
   },
   loadingContainer: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
   loadingText: {
     fontSize: 16,
@@ -204,19 +219,19 @@ const styles = StyleSheet.create({
   },
   emptyContainer: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     padding: 24,
   },
   emptyText: {
     fontSize: 16,
     color: Colors.textSecondary,
-    textAlign: 'center',
+    textAlign: "center",
   },
   errorText: {
     fontSize: 16,
     color: Colors.error,
-    textAlign: 'center',
+    textAlign: "center",
     marginTop: 24,
   },
 });

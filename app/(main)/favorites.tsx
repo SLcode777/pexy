@@ -15,6 +15,7 @@ import { Colors } from '@/constants/colors';
 import { getFavorites } from '@/lib/db/operations';
 import { loadFavoritePictograms } from '@/lib/pictograms';
 import { speakWithPreferences } from '@/lib/speakWithPreferences';
+import { PictogramCard } from '@/components/PictogramCard';
 import type { Pictogram } from '@/types';
 
 const { width: SCREEN_WIDTH } = Dimensions.get('window');
@@ -62,14 +63,12 @@ export default function FavoritesScreen() {
     const label = item.translations[i18n.language]?.label || item.translations.fr.label;
 
     return (
-      <TouchableOpacity
-        style={styles.pictogramCard}
+      <PictogramCard
+        image={item.image}
+        label={label}
         onPress={() => handlePictogramPress(item)}
-        activeOpacity={0.7}
-      >
-        <Text style={styles.pictogramImage}>{item.image}</Text>
-        <Text style={styles.pictogramLabel}>{label}</Text>
-      </TouchableOpacity>
+        size={CARD_WIDTH}
+      />
     );
   };
 
