@@ -1,0 +1,437 @@
+{
+  "category": "shapes",
+  "pictograms": [
+    {
+      "id": "circle",
+      "image": "⭕",
+      "translations": {
+        "fr": {
+          "label": "Cercle",
+          "phrases": [
+            { "emoji": "⭕", "text": "C'est un cercle." },
+            { "emoji": "⭕", "text": "Je dessine un cercle." },
+            { "emoji": "⭕", "text": "Le cercle est rond." },
+            { "emoji": "⭕", "text": "J'aime les cercles." }
+          ]
+        },
+        "en": {
+          "label": "Circle",
+          "phrases": [
+            { "emoji": "⭕", "text": "It's a circle." },
+            { "emoji": "⭕", "text": "I draw a circle." },
+            { "emoji": "⭕", "text": "The circle is round." },
+            { "emoji": "⭕", "text": "I like circles." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "triangle",
+      "image": "🔺",
+      "translations": {
+        "fr": {
+          "label": "Triangle",
+          "phrases": [
+            { "emoji": "🔺", "text": "C'est un triangle." },
+            { "emoji": "🔺", "text": "Je dessine un triangle." },
+            { "emoji": "🔺", "text": "Le triangle a trois côtés." },
+            { "emoji": "🔺", "text": "J'aime les triangles." }
+          ]
+        },
+        "en": {
+          "label": "Triangle",
+          "phrases": [
+            { "emoji": "🔺", "text": "It's a triangle." },
+            { "emoji": "🔺", "text": "I draw a triangle." },
+            { "emoji": "🔺", "text": "The triangle has three sides." },
+            { "emoji": "🔺", "text": "I like triangles." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "square",
+      "image": "🟦",
+      "translations": {
+        "fr": {
+          "label": "Carré",
+          "phrases": [
+            { "emoji": "🟦", "text": "C'est un carré." },
+            { "emoji": "🟦", "text": "Je dessine un carré." },
+            { "emoji": "🟦", "text": "Le carré a quatre côtés égaux." },
+            { "emoji": "🟦", "text": "J'aime les carrés." }
+          ]
+        },
+        "en": {
+          "label": "Square",
+          "phrases": [
+            { "emoji": "🟦", "text": "It's a square." },
+            { "emoji": "🟦", "text": "I draw a square." },
+            { "emoji": "🟦", "text": "The square has four equal sides." },
+            { "emoji": "🟦", "text": "I like squares." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rectangle",
+      "image": "▬",
+      "translations": {
+        "fr": {
+          "label": "Rectangle",
+          "phrases": [
+            { "emoji": "▬", "text": "C'est un rectangle." },
+            { "emoji": "▬", "text": "Je dessine un rectangle." },
+            { "emoji": "▬", "text": "Le rectangle est long." },
+            { "emoji": "▬", "text": "J'aime les rectangles." }
+          ]
+        },
+        "en": {
+          "label": "Rectangle",
+          "phrases": [
+            { "emoji": "▬", "text": "It's a rectangle." },
+            { "emoji": "▬", "text": "I draw a rectangle." },
+            { "emoji": "▬", "text": "The rectangle is long." },
+            { "emoji": "▬", "text": "I like rectangles." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "star",
+      "image": "⭐",
+      "translations": {
+        "fr": {
+          "label": "Étoile",
+          "phrases": [
+            { "emoji": "⭐", "text": "C'est une étoile." },
+            { "emoji": "⭐", "text": "Je dessine une étoile." },
+            { "emoji": "✨", "text": "L'étoile brille." },
+            { "emoji": "⭐", "text": "J'aime les étoiles." }
+          ]
+        },
+        "en": {
+          "label": "Star",
+          "phrases": [
+            { "emoji": "⭐", "text": "It's a star." },
+            { "emoji": "⭐", "text": "I draw a star." },
+            { "emoji": "✨", "text": "The star shines." },
+            { "emoji": "⭐", "text": "I like stars." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pentagon",
+      "image": "⬟",
+      "translations": {
+        "fr": {
+          "label": "Pentagone",
+          "phrases": [
+            { "emoji": "⬟", "text": "C'est un pentagone." },
+            { "emoji": "⬟", "text": "Je dessine un pentagone." },
+            { "emoji": "⬟", "text": "Le pentagone a cinq côtés." },
+            { "emoji": "⬟", "text": "J'aime les pentagones." }
+          ]
+        },
+        "en": {
+          "label": "Pentagon",
+          "phrases": [
+            { "emoji": "⬟", "text": "It's a pentagon." },
+            { "emoji": "⬟", "text": "I draw a pentagon." },
+            { "emoji": "⬟", "text": "The pentagon has five sides." },
+            { "emoji": "⬟", "text": "I like pentagons." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hexagon",
+      "image": "⬡",
+      "translations": {
+        "fr": {
+          "label": "Hexagone",
+          "phrases": [
+            { "emoji": "⬡", "text": "C'est un hexagone." },
+            { "emoji": "⬡", "text": "Je dessine un hexagone." },
+            { "emoji": "⬡", "text": "L'hexagone a six côtés." },
+            { "emoji": "⬡", "text": "J'aime les hexagones." }
+          ]
+        },
+        "en": {
+          "label": "Hexagon",
+          "phrases": [
+            { "emoji": "⬡", "text": "It's a hexagon." },
+            { "emoji": "⬡", "text": "I draw a hexagon." },
+            { "emoji": "⬡", "text": "The hexagon has six sides." },
+            { "emoji": "⬡", "text": "I like hexagons." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cross",
+      "image": "➕",
+      "translations": {
+        "fr": {
+          "label": "Croix",
+          "phrases": [
+            { "emoji": "➕", "text": "C'est une croix." },
+            { "emoji": "➕", "text": "Je dessine une croix." },
+            { "emoji": "➕", "text": "La croix a quatre branches." },
+            { "emoji": "➕", "text": "J'aime les croix." }
+          ]
+        },
+        "en": {
+          "label": "Cross",
+          "phrases": [
+            { "emoji": "➕", "text": "It's a cross." },
+            { "emoji": "➕", "text": "I draw a cross." },
+            { "emoji": "➕", "text": "The cross has four branches." },
+            { "emoji": "➕", "text": "I like crosses." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ellipse",
+      "image": "⬭",
+      "translations": {
+        "fr": {
+          "label": "Ellipse",
+          "phrases": [
+            { "emoji": "⬭", "text": "C'est une ellipse." },
+            { "emoji": "⬭", "text": "Je dessine une ellipse." },
+            { "emoji": "⬭", "text": "L'ellipse est ovale." },
+            { "emoji": "⬭", "text": "J'aime les ellipses." }
+          ]
+        },
+        "en": {
+          "label": "Ellipse",
+          "phrases": [
+            { "emoji": "⬭", "text": "It's an ellipse." },
+            { "emoji": "⬭", "text": "I draw an ellipse." },
+            { "emoji": "⬭", "text": "The ellipse is oval." },
+            { "emoji": "⬭", "text": "I like ellipses." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "arrow",
+      "image": "➡️",
+      "translations": {
+        "fr": {
+          "label": "Flèche",
+          "phrases": [
+            { "emoji": "➡️", "text": "C'est une flèche." },
+            { "emoji": "➡️", "text": "Je dessine une flèche." },
+            { "emoji": "👉", "text": "La flèche indique la direction." },
+            { "emoji": "➡️", "text": "J'aime les flèches." }
+          ]
+        },
+        "en": {
+          "label": "Arrow",
+          "phrases": [
+            { "emoji": "➡️", "text": "It's an arrow." },
+            { "emoji": "➡️", "text": "I draw an arrow." },
+            { "emoji": "👉", "text": "The arrow shows the direction." },
+            { "emoji": "➡️", "text": "I like arrows." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "crescent",
+      "image": "🌙",
+      "translations": {
+        "fr": {
+          "label": "Croissant",
+          "phrases": [
+            { "emoji": "🌙", "text": "C'est un croissant." },
+            { "emoji": "🌙", "text": "Je dessine un croissant." },
+            { "emoji": "🌙", "text": "Le croissant est comme la lune." },
+            { "emoji": "🌙", "text": "J'aime les croissants." }
+          ]
+        },
+        "en": {
+          "label": "Crescent",
+          "phrases": [
+            { "emoji": "🌙", "text": "It's a crescent." },
+            { "emoji": "🌙", "text": "I draw a crescent." },
+            { "emoji": "🌙", "text": "The crescent is like the moon." },
+            { "emoji": "🌙", "text": "I like crescents." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "heart",
+      "image": "❤️",
+      "translations": {
+        "fr": {
+          "label": "Cœur",
+          "phrases": [
+            { "emoji": "❤️", "text": "C'est un cœur." },
+            { "emoji": "❤️", "text": "Je dessine un cœur." },
+            { "emoji": "💕", "text": "Le cœur représente l'amour." },
+            { "emoji": "❤️", "text": "J'aime les cœurs." }
+          ]
+        },
+        "en": {
+          "label": "Heart",
+          "phrases": [
+            { "emoji": "❤️", "text": "It's a heart." },
+            { "emoji": "❤️", "text": "I draw a heart." },
+            { "emoji": "💕", "text": "The heart represents love." },
+            { "emoji": "❤️", "text": "I like hearts." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "diamond",
+      "image": "💎",
+      "translations": {
+        "fr": {
+          "label": "Diamant",
+          "phrases": [
+            { "emoji": "💎", "text": "C'est un diamant." },
+            { "emoji": "💎", "text": "Je dessine un diamant." },
+            { "emoji": "✨", "text": "Le diamant brille." },
+            { "emoji": "💎", "text": "J'aime les diamants." }
+          ]
+        },
+        "en": {
+          "label": "Diamond",
+          "phrases": [
+            { "emoji": "💎", "text": "It's a diamond." },
+            { "emoji": "💎", "text": "I draw a diamond." },
+            { "emoji": "✨", "text": "The diamond shines." },
+            { "emoji": "💎", "text": "I like diamonds." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cylinder",
+      "image": "🗜️",
+      "translations": {
+        "fr": {
+          "label": "Cylindre",
+          "phrases": [
+            { "emoji": "🗜️", "text": "C'est un cylindre." },
+            { "emoji": "🗜️", "text": "Je dessine un cylindre." },
+            { "emoji": "🗜️", "text": "Le cylindre est rond et long." },
+            { "emoji": "🗜️", "text": "J'aime les cylindres." }
+          ]
+        },
+        "en": {
+          "label": "Cylinder",
+          "phrases": [
+            { "emoji": "🗜️", "text": "It's a cylinder." },
+            { "emoji": "🗜️", "text": "I draw a cylinder." },
+            { "emoji": "🗜️", "text": "The cylinder is round and long." },
+            { "emoji": "🗜️", "text": "I like cylinders." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ring",
+      "image": "💍",
+      "translations": {
+        "fr": {
+          "label": "Anneau",
+          "phrases": [
+            { "emoji": "💍", "text": "C'est un anneau." },
+            { "emoji": "💍", "text": "Je dessine un anneau." },
+            { "emoji": "💍", "text": "L'anneau est circulaire." },
+            { "emoji": "💍", "text": "J'aime les anneaux." }
+          ]
+        },
+        "en": {
+          "label": "Ring",
+          "phrases": [
+            { "emoji": "💍", "text": "It's a ring." },
+            { "emoji": "💍", "text": "I draw a ring." },
+            { "emoji": "💍", "text": "The ring is circular." },
+            { "emoji": "💍", "text": "I like rings." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "semicircle",
+      "image": "🌗",
+      "translations": {
+        "fr": {
+          "label": "Demi-cercle",
+          "phrases": [
+            { "emoji": "🌗", "text": "C'est un demi-cercle." },
+            { "emoji": "🌗", "text": "Je dessine un demi-cercle." },
+            { "emoji": "🌗", "text": "Le demi-cercle est une moitié de cercle." },
+            { "emoji": "🌗", "text": "J'aime les demi-cercles." }
+          ]
+        },
+        "en": {
+          "label": "Semicircle",
+          "phrases": [
+            { "emoji": "🌗", "text": "It's a semicircle." },
+            { "emoji": "🌗", "text": "I draw a semicircle." },
+            { "emoji": "🌗", "text": "The semicircle is half a circle." },
+            { "emoji": "🌗", "text": "I like semicircles." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "trapezoid",
+      "image": "🔷",
+      "translations": {
+        "fr": {
+          "label": "Trapèze",
+          "phrases": [
+            { "emoji": "🔷", "text": "C'est un trapèze." },
+            { "emoji": "🔷", "text": "Je dessine un trapèze." },
+            { "emoji": "🔷", "text": "Le trapèze a quatre côtés." },
+            { "emoji": "🔷", "text": "J'aime les trapèzes." }
+          ]
+        },
+        "en": {
+          "label": "Trapezoid",
+          "phrases": [
+            { "emoji": "🔷", "text": "It's a trapezoid." },
+            { "emoji": "🔷", "text": "I draw a trapezoid." },
+            { "emoji": "🔷", "text": "The trapezoid has four sides." },
+            { "emoji": "🔷", "text": "I like trapezoids." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cube",
+      "image": "🧊",
+      "translations": {
+        "fr": {
+          "label": "Cube",
+          "phrases": [
+            { "emoji": "🧊", "text": "C'est un cube." },
+            { "emoji": "🧊", "text": "Je dessine un cube." },
+            { "emoji": "🧊", "text": "Le cube a six faces." },
+            { "emoji": "🧊", "text": "J'aime les cubes." }
+          ]
+        },
+        "en": {
+          "label": "Cube",
+          "phrases": [
+            { "emoji": "🧊", "text": "It's a cube." },
+            { "emoji": "🧊", "text": "I draw a cube." },
+            { "emoji": "🧊", "text": "The cube has six faces." },
+            { "emoji": "🧊", "text": "I like cubes." }
+          ]
+        }
+      }
+    }
+  ]
+}

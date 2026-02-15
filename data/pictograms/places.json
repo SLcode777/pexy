@@ -1,0 +1,605 @@
+{
+  "category": "places",
+  "pictograms": [
+    {
+      "id": "park",
+      "image": "🏞️",
+      "translations": {
+        "fr": {
+          "label": "Parc",
+          "phrases": [
+            { "emoji": "🏞️", "text": "Je vais au parc." },
+            { "emoji": "🏞️", "text": "Je veux aller au parc." },
+            { "emoji": "🏞️", "text": "J'aime le parc." },
+            { "emoji": "🏞️", "text": "Je joue au parc." }
+          ]
+        },
+        "en": {
+          "label": "Park",
+          "phrases": [
+            { "emoji": "🏞️", "text": "I go to the park." },
+            { "emoji": "🏞️", "text": "I want to go to the park." },
+            { "emoji": "🏞️", "text": "I like the park." },
+            { "emoji": "🏞️", "text": "I play at the park." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mall",
+      "image": "🏬",
+      "translations": {
+        "fr": {
+          "label": "Centre commercial",
+          "phrases": [
+            { "emoji": "🏬", "text": "Je vais au centre commercial." },
+            { "emoji": "🏬", "text": "Je veux aller au centre commercial." },
+            { "emoji": "🛍️", "text": "Je fais du shopping." },
+            { "emoji": "🏬", "text": "J'aime le centre commercial." }
+          ]
+        },
+        "en": {
+          "label": "Mall",
+          "phrases": [
+            { "emoji": "🏬", "text": "I go to the mall." },
+            { "emoji": "🏬", "text": "I want to go to the mall." },
+            { "emoji": "🛍️", "text": "I go shopping." },
+            { "emoji": "🏬", "text": "I like the mall." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "store",
+      "image": "🏪",
+      "translations": {
+        "fr": {
+          "label": "Magasin",
+          "phrases": [
+            { "emoji": "🏪", "text": "Je vais au magasin." },
+            { "emoji": "🏪", "text": "Je veux aller au magasin." },
+            { "emoji": "🛒", "text": "J'achète au magasin." },
+            { "emoji": "🏪", "text": "Le magasin est ouvert." }
+          ]
+        },
+        "en": {
+          "label": "Store",
+          "phrases": [
+            { "emoji": "🏪", "text": "I go to the store." },
+            { "emoji": "🏪", "text": "I want to go to the store." },
+            { "emoji": "🛒", "text": "I buy at the store." },
+            { "emoji": "🏪", "text": "The store is open." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "restaurant-place",
+      "image": "🍽️",
+      "translations": {
+        "fr": {
+          "label": "Restaurant",
+          "phrases": [
+            { "emoji": "🍽️", "text": "Je vais au restaurant." },
+            { "emoji": "🍽️", "text": "Je veux aller au restaurant." },
+            { "emoji": "🍽️", "text": "Je mange au restaurant." },
+            { "emoji": "🍽️", "text": "J'aime le restaurant." }
+          ]
+        },
+        "en": {
+          "label": "Restaurant",
+          "phrases": [
+            { "emoji": "🍽️", "text": "I go to the restaurant." },
+            { "emoji": "🍽️", "text": "I want to go to the restaurant." },
+            { "emoji": "🍽️", "text": "I eat at the restaurant." },
+            { "emoji": "🍽️", "text": "I like the restaurant." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cinema",
+      "image": "🎬",
+      "translations": {
+        "fr": {
+          "label": "Cinéma",
+          "phrases": [
+            { "emoji": "🎬", "text": "Je vais au cinéma." },
+            { "emoji": "🎬", "text": "Je veux aller au cinéma." },
+            { "emoji": "🍿", "text": "Je regarde un film au cinéma." },
+            { "emoji": "🎬", "text": "J'aime le cinéma." }
+          ]
+        },
+        "en": {
+          "label": "Cinema",
+          "phrases": [
+            { "emoji": "🎬", "text": "I go to the cinema." },
+            { "emoji": "🎬", "text": "I want to go to the cinema." },
+            { "emoji": "🍿", "text": "I watch a movie at the cinema." },
+            { "emoji": "🎬", "text": "I like the cinema." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "school-place",
+      "image": "🏫",
+      "translations": {
+        "fr": {
+          "label": "École",
+          "phrases": [
+            { "emoji": "🏫", "text": "Je vais à l'école." },
+            { "emoji": "🏫", "text": "Je suis à l'école." },
+            { "emoji": "📚", "text": "J'apprends à l'école." },
+            { "emoji": "🏫", "text": "J'aime l'école." }
+          ]
+        },
+        "en": {
+          "label": "School",
+          "phrases": [
+            { "emoji": "🏫", "text": "I go to school." },
+            { "emoji": "🏫", "text": "I'm at school." },
+            { "emoji": "📚", "text": "I learn at school." },
+            { "emoji": "🏫", "text": "I like school." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "library",
+      "image": "📚",
+      "translations": {
+        "fr": {
+          "label": "Bibliothèque",
+          "phrases": [
+            { "emoji": "📚", "text": "Je vais à la bibliothèque." },
+            { "emoji": "📚", "text": "Je veux aller à la bibliothèque." },
+            { "emoji": "📖", "text": "Je lis à la bibliothèque." },
+            { "emoji": "📚", "text": "J'aime la bibliothèque." }
+          ]
+        },
+        "en": {
+          "label": "Library",
+          "phrases": [
+            { "emoji": "📚", "text": "I go to the library." },
+            { "emoji": "📚", "text": "I want to go to the library." },
+            { "emoji": "📖", "text": "I read at the library." },
+            { "emoji": "📚", "text": "I like the library." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carnival",
+      "image": "🎡",
+      "translations": {
+        "fr": {
+          "label": "Fête foraine",
+          "phrases": [
+            { "emoji": "🎡", "text": "Je vais à la fête foraine." },
+            { "emoji": "🎡", "text": "Je veux aller à la fête foraine." },
+            { "emoji": "🎢", "text": "Je joue à la fête foraine." },
+            { "emoji": "🎡", "text": "J'aime la fête foraine." }
+          ]
+        },
+        "en": {
+          "label": "Carnival",
+          "phrases": [
+            { "emoji": "🎡", "text": "I go to the carnival." },
+            { "emoji": "🎡", "text": "I want to go to the carnival." },
+            { "emoji": "🎢", "text": "I play at the carnival." },
+            { "emoji": "🎡", "text": "I like the carnival." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pharmacy",
+      "image": "💊",
+      "translations": {
+        "fr": {
+          "label": "Pharmacie",
+          "phrases": [
+            { "emoji": "💊", "text": "Je vais à la pharmacie." },
+            { "emoji": "💊", "text": "Je veux aller à la pharmacie." },
+            { "emoji": "💊", "text": "J'achète des médicaments à la pharmacie." },
+            { "emoji": "💊", "text": "La pharmacie est ouverte." }
+          ]
+        },
+        "en": {
+          "label": "Pharmacy",
+          "phrases": [
+            { "emoji": "💊", "text": "I go to the pharmacy." },
+            { "emoji": "💊", "text": "I want to go to the pharmacy." },
+            { "emoji": "💊", "text": "I buy medicine at the pharmacy." },
+            { "emoji": "💊", "text": "The pharmacy is open." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hospital-place",
+      "image": "🏥",
+      "translations": {
+        "fr": {
+          "label": "Hôpital",
+          "phrases": [
+            { "emoji": "🏥", "text": "Je vais à l'hôpital." },
+            { "emoji": "🏥", "text": "Je suis à l'hôpital." },
+            { "emoji": "🏥", "text": "Le docteur est à l'hôpital." },
+            { "emoji": "🏥", "text": "L'hôpital me soigne." }
+          ]
+        },
+        "en": {
+          "label": "Hospital",
+          "phrases": [
+            { "emoji": "🏥", "text": "I go to the hospital." },
+            { "emoji": "🏥", "text": "I'm at the hospital." },
+            { "emoji": "🏥", "text": "The doctor is at the hospital." },
+            { "emoji": "🏥", "text": "The hospital takes care of me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "amusement-park",
+      "image": "🎢",
+      "translations": {
+        "fr": {
+          "label": "Parc d'attractions",
+          "phrases": [
+            { "emoji": "🎢", "text": "Je vais au parc d'attractions." },
+            { "emoji": "🎢", "text": "Je veux aller au parc d'attractions." },
+            { "emoji": "🎢", "text": "Je fais des manèges." },
+            { "emoji": "🎢", "text": "J'aime le parc d'attractions." }
+          ]
+        },
+        "en": {
+          "label": "Amusement Park",
+          "phrases": [
+            { "emoji": "🎢", "text": "I go to the amusement park." },
+            { "emoji": "🎢", "text": "I want to go to the amusement park." },
+            { "emoji": "🎢", "text": "I ride the attractions." },
+            { "emoji": "🎢", "text": "I like the amusement park." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dormitory",
+      "image": "🏠",
+      "translations": {
+        "fr": {
+          "label": "Dortoir",
+          "phrases": [
+            { "emoji": "🏠", "text": "Je suis au dortoir." },
+            { "emoji": "🏠", "text": "Je vais au dortoir." },
+            { "emoji": "😴", "text": "Je dors au dortoir." },
+            { "emoji": "🏠", "text": "Le dortoir est calme." }
+          ]
+        },
+        "en": {
+          "label": "Dormitory",
+          "phrases": [
+            { "emoji": "🏠", "text": "I'm at the dormitory." },
+            { "emoji": "🏠", "text": "I go to the dormitory." },
+            { "emoji": "😴", "text": "I sleep at the dormitory." },
+            { "emoji": "🏠", "text": "The dormitory is quiet." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "laundry",
+      "image": "🧺",
+      "translations": {
+        "fr": {
+          "label": "Laverie",
+          "phrases": [
+            { "emoji": "🧺", "text": "Je vais à la laverie." },
+            { "emoji": "🧺", "text": "Je veux aller à la laverie." },
+            { "emoji": "👕", "text": "Je lave mes vêtements à la laverie." },
+            { "emoji": "🧺", "text": "La laverie lave bien." }
+          ]
+        },
+        "en": {
+          "label": "Laundry",
+          "phrases": [
+            { "emoji": "🧺", "text": "I go to the laundry." },
+            { "emoji": "🧺", "text": "I want to go to the laundry." },
+            { "emoji": "👕", "text": "I wash my clothes at the laundry." },
+            { "emoji": "🧺", "text": "The laundry washes well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hair-salon",
+      "image": "💇",
+      "translations": {
+        "fr": {
+          "label": "Salon de coiffure",
+          "phrases": [
+            { "emoji": "💇", "text": "Je vais au salon de coiffure." },
+            { "emoji": "💇", "text": "Je veux aller au salon de coiffure." },
+            { "emoji": "✂️", "text": "Je me fais couper les cheveux." },
+            { "emoji": "💇", "text": "J'aime le salon de coiffure." }
+          ]
+        },
+        "en": {
+          "label": "Hair Salon",
+          "phrases": [
+            { "emoji": "💇", "text": "I go to the hair salon." },
+            { "emoji": "💇", "text": "I want to go to the hair salon." },
+            { "emoji": "✂️", "text": "I get my hair cut." },
+            { "emoji": "💇", "text": "I like the hair salon." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hotel",
+      "image": "🏨",
+      "translations": {
+        "fr": {
+          "label": "Hôtel",
+          "phrases": [
+            { "emoji": "🏨", "text": "Je vais à l'hôtel." },
+            { "emoji": "🏨", "text": "Je suis à l'hôtel." },
+            { "emoji": "🛏️", "text": "Je dors à l'hôtel." },
+            { "emoji": "🏨", "text": "L'hôtel est confortable." }
+          ]
+        },
+        "en": {
+          "label": "Hotel",
+          "phrases": [
+            { "emoji": "🏨", "text": "I go to the hotel." },
+            { "emoji": "🏨", "text": "I'm at the hotel." },
+            { "emoji": "🛏️", "text": "I sleep at the hotel." },
+            { "emoji": "🏨", "text": "The hotel is comfortable." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kindergarten",
+      "image": "🧒",
+      "translations": {
+        "fr": {
+          "label": "Jardin d'enfants",
+          "phrases": [
+            { "emoji": "🧒", "text": "Je vais au jardin d'enfants." },
+            { "emoji": "🧒", "text": "Je suis au jardin d'enfants." },
+            { "emoji": "🎨", "text": "Je joue au jardin d'enfants." },
+            { "emoji": "🧒", "text": "J'aime le jardin d'enfants." }
+          ]
+        },
+        "en": {
+          "label": "Kindergarten",
+          "phrases": [
+            { "emoji": "🧒", "text": "I go to kindergarten." },
+            { "emoji": "🧒", "text": "I'm at kindergarten." },
+            { "emoji": "🎨", "text": "I play at kindergarten." },
+            { "emoji": "🧒", "text": "I like kindergarten." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "parking",
+      "image": "🅿️",
+      "translations": {
+        "fr": {
+          "label": "Parking",
+          "phrases": [
+            { "emoji": "🅿️", "text": "Je suis au parking." },
+            { "emoji": "🅿️", "text": "Je vais au parking." },
+            { "emoji": "🚗", "text": "Je gare la voiture au parking." },
+            { "emoji": "🅿️", "text": "Le parking est grand." }
+          ]
+        },
+        "en": {
+          "label": "Parking",
+          "phrases": [
+            { "emoji": "🅿️", "text": "I'm at the parking." },
+            { "emoji": "🅿️", "text": "I go to the parking." },
+            { "emoji": "🚗", "text": "I park the car at the parking." },
+            { "emoji": "🅿️", "text": "The parking is big." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "elevator",
+      "image": "🛗",
+      "translations": {
+        "fr": {
+          "label": "Ascenseur",
+          "phrases": [
+            { "emoji": "🛗", "text": "Je prends l'ascenseur." },
+            { "emoji": "🛗", "text": "Je veux prendre l'ascenseur." },
+            { "emoji": "⬆️", "text": "L'ascenseur monte." },
+            { "emoji": "⬇️", "text": "L'ascenseur descend." }
+          ]
+        },
+        "en": {
+          "label": "Elevator",
+          "phrases": [
+            { "emoji": "🛗", "text": "I take the elevator." },
+            { "emoji": "🛗", "text": "I want to take the elevator." },
+            { "emoji": "⬆️", "text": "The elevator goes up." },
+            { "emoji": "⬇️", "text": "The elevator goes down." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bank",
+      "image": "🏦",
+      "translations": {
+        "fr": {
+          "label": "Banque",
+          "phrases": [
+            { "emoji": "🏦", "text": "Je vais à la banque." },
+            { "emoji": "🏦", "text": "Je suis à la banque." },
+            { "emoji": "💰", "text": "Je retire de l'argent à la banque." },
+            { "emoji": "🏦", "text": "La banque est ouverte." }
+          ]
+        },
+        "en": {
+          "label": "Bank",
+          "phrases": [
+            { "emoji": "🏦", "text": "I go to the bank." },
+            { "emoji": "🏦", "text": "I'm at the bank." },
+            { "emoji": "💰", "text": "I withdraw money at the bank." },
+            { "emoji": "🏦", "text": "The bank is open." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "skyscraper",
+      "image": "🏙️",
+      "translations": {
+        "fr": {
+          "label": "Gratte-ciel",
+          "phrases": [
+            { "emoji": "🏙️", "text": "Je vois un gratte-ciel." },
+            { "emoji": "🏙️", "text": "Je suis dans le gratte-ciel." },
+            { "emoji": "🏙️", "text": "Le gratte-ciel est très haut." },
+            { "emoji": "🏙️", "text": "J'aime les gratte-ciel." }
+          ]
+        },
+        "en": {
+          "label": "Skyscraper",
+          "phrases": [
+            { "emoji": "🏙️", "text": "I see a skyscraper." },
+            { "emoji": "🏙️", "text": "I'm in the skyscraper." },
+            { "emoji": "🏙️", "text": "The skyscraper is very tall." },
+            { "emoji": "🏙️", "text": "I like skyscrapers." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "stadium",
+      "image": "🏟️",
+      "translations": {
+        "fr": {
+          "label": "Stade",
+          "phrases": [
+            { "emoji": "🏟️", "text": "Je vais au stade." },
+            { "emoji": "🏟️", "text": "Je veux aller au stade." },
+            { "emoji": "⚽", "text": "Je regarde un match au stade." },
+            { "emoji": "🏟️", "text": "J'aime le stade." }
+          ]
+        },
+        "en": {
+          "label": "Stadium",
+          "phrases": [
+            { "emoji": "🏟️", "text": "I go to the stadium." },
+            { "emoji": "🏟️", "text": "I want to go to the stadium." },
+            { "emoji": "⚽", "text": "I watch a game at the stadium." },
+            { "emoji": "🏟️", "text": "I like the stadium." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cruise-ship",
+      "image": "🚢",
+      "translations": {
+        "fr": {
+          "label": "Bateau de croisière",
+          "phrases": [
+            { "emoji": "🚢", "text": "Je suis sur le bateau de croisière." },
+            { "emoji": "🚢", "text": "Je veux prendre le bateau de croisière." },
+            { "emoji": "⚓", "text": "Le bateau de croisière navigue." },
+            { "emoji": "🚢", "text": "J'aime le bateau de croisière." }
+          ]
+        },
+        "en": {
+          "label": "Cruise Ship",
+          "phrases": [
+            { "emoji": "🚢", "text": "I'm on the cruise ship." },
+            { "emoji": "🚢", "text": "I want to take the cruise ship." },
+            { "emoji": "⚓", "text": "The cruise ship sails." },
+            { "emoji": "🚢", "text": "I like the cruise ship." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "forest",
+      "image": "🌲",
+      "translations": {
+        "fr": {
+          "label": "Forêt",
+          "phrases": [
+            { "emoji": "🌲", "text": "Je vais dans la forêt." },
+            { "emoji": "🌲", "text": "Je suis dans la forêt." },
+            { "emoji": "🌲", "text": "Je me promène dans la forêt." },
+            { "emoji": "🌲", "text": "J'aime la forêt." }
+          ]
+        },
+        "en": {
+          "label": "Forest",
+          "phrases": [
+            { "emoji": "🌲", "text": "I go to the forest." },
+            { "emoji": "🌲", "text": "I'm in the forest." },
+            { "emoji": "🌲", "text": "I walk in the forest." },
+            { "emoji": "🌲", "text": "I like the forest." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tent",
+      "image": "⛺",
+      "translations": {
+        "fr": {
+          "label": "Tente",
+          "phrases": [
+            { "emoji": "⛺", "text": "Je dors dans la tente." },
+            { "emoji": "⛺", "text": "Je veux une tente." },
+            { "emoji": "⛺", "text": "Je monte la tente." },
+            { "emoji": "⛺", "text": "J'aime camper dans la tente." }
+          ]
+        },
+        "en": {
+          "label": "Tent",
+          "phrases": [
+            { "emoji": "⛺", "text": "I sleep in the tent." },
+            { "emoji": "⛺", "text": "I want a tent." },
+            { "emoji": "⛺", "text": "I set up the tent." },
+            { "emoji": "⛺", "text": "I like camping in the tent." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beach",
+      "image": "🏖️",
+      "translations": {
+        "fr": {
+          "label": "Plage",
+          "phrases": [
+            { "emoji": "🏖️", "text": "Je vais à la plage." },
+            { "emoji": "🏖️", "text": "Je veux aller à la plage." },
+            { "emoji": "🏖️", "text": "Je joue à la plage." },
+            { "emoji": "🏖️", "text": "J'aime la plage." }
+          ]
+        },
+        "en": {
+          "label": "Beach",
+          "phrases": [
+            { "emoji": "🏖️", "text": "I go to the beach." },
+            { "emoji": "🏖️", "text": "I want to go to the beach." },
+            { "emoji": "🏖️", "text": "I play at the beach." },
+            { "emoji": "🏖️", "text": "I like the beach." }
+          ]
+        }
+      }
+    }
+  ]
+}

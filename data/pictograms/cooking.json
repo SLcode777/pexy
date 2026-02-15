@@ -1,0 +1,796 @@
+{
+  "pictograms": [
+    {
+      "id": "cooking-pot",
+      "image": "🍲",
+      "translations": {
+        "fr": {
+          "label": "Casserole",
+          "phrases": [
+            { "emoji": "🍲", "text": "Je cuisine dans une casserole." },
+            { "emoji": "🍲", "text": "La casserole est sur le feu." },
+            { "emoji": "🍲", "text": "Je remue dans la casserole." },
+            { "emoji": "🍲", "text": "La soupe mijote dans la casserole." }
+          ]
+        },
+        "en": {
+          "label": "Cooking Pot",
+          "phrases": [
+            { "emoji": "🍲", "text": "I cook in a pot." },
+            { "emoji": "🍲", "text": "The pot is on the stove." },
+            { "emoji": "🍲", "text": "I stir in the pot." },
+            { "emoji": "🍲", "text": "The soup simmers in the pot." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "frying-pan",
+      "image": "🍳",
+      "translations": {
+        "fr": {
+          "label": "Poêle",
+          "phrases": [
+            { "emoji": "🍳", "text": "Je cuisine dans une poêle." },
+            { "emoji": "🍳", "text": "Je fais frire des œufs." },
+            { "emoji": "🍳", "text": "La poêle est chaude." },
+            { "emoji": "🍳", "text": "Je retourne les aliments." }
+          ]
+        },
+        "en": {
+          "label": "Frying Pan",
+          "phrases": [
+            { "emoji": "🍳", "text": "I cook in a pan." },
+            { "emoji": "🍳", "text": "I fry eggs." },
+            { "emoji": "🍳", "text": "The pan is hot." },
+            { "emoji": "🍳", "text": "I flip the food." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "knife",
+      "image": "🔪",
+      "translations": {
+        "fr": {
+          "label": "Couteau",
+          "phrases": [
+            { "emoji": "🔪", "text": "Je coupe avec un couteau." },
+            { "emoji": "🔪", "text": "Le couteau est tranchant." },
+            { "emoji": "🔪", "text": "Je fais attention avec le couteau." },
+            { "emoji": "🔪", "text": "Je coupe les légumes." }
+          ]
+        },
+        "en": {
+          "label": "Knife",
+          "phrases": [
+            { "emoji": "🔪", "text": "I cut with a knife." },
+            { "emoji": "🔪", "text": "The knife is sharp." },
+            { "emoji": "🔪", "text": "I'm careful with the knife." },
+            { "emoji": "🔪", "text": "I cut the vegetables." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spoon",
+      "image": "🥄",
+      "translations": {
+        "fr": {
+          "label": "Cuillère",
+          "phrases": [
+            { "emoji": "🥄", "text": "Je remue avec une cuillère." },
+            { "emoji": "🥄", "text": "Je goûte avec la cuillère." },
+            { "emoji": "🥄", "text": "J'utilise une grande cuillère." },
+            { "emoji": "🥄", "text": "La cuillère sert à mélanger." }
+          ]
+        },
+        "en": {
+          "label": "Spoon",
+          "phrases": [
+            { "emoji": "🥄", "text": "I stir with a spoon." },
+            { "emoji": "🥄", "text": "I taste with the spoon." },
+            { "emoji": "🥄", "text": "I use a big spoon." },
+            { "emoji": "🥄", "text": "The spoon is for mixing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fork-knife",
+      "image": "🍴",
+      "translations": {
+        "fr": {
+          "label": "Fourchette",
+          "phrases": [
+            { "emoji": "🍴", "text": "J'utilise une fourchette." },
+            { "emoji": "🍴", "text": "La fourchette pique les aliments." },
+            { "emoji": "🍴", "text": "Je mets la table." },
+            { "emoji": "🍴", "text": "Fourchette et couteau." }
+          ]
+        },
+        "en": {
+          "label": "Fork",
+          "phrases": [
+            { "emoji": "🍴", "text": "I use a fork." },
+            { "emoji": "🍴", "text": "The fork picks up food." },
+            { "emoji": "🍴", "text": "I set the table." },
+            { "emoji": "🍴", "text": "Fork and knife." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "whisk",
+      "image": "🥄",
+      "translations": {
+        "fr": {
+          "label": "Fouet",
+          "phrases": [
+            { "emoji": "🥄", "text": "Je bats avec le fouet." },
+            { "emoji": "🥄", "text": "Le fouet mélange bien." },
+            { "emoji": "🥄", "text": "Je fouette les œufs." },
+            { "emoji": "🥄", "text": "Le fouet fait mousser." }
+          ]
+        },
+        "en": {
+          "label": "Whisk",
+          "phrases": [
+            { "emoji": "🥄", "text": "I beat with the whisk." },
+            { "emoji": "🥄", "text": "The whisk mixes well." },
+            { "emoji": "🥄", "text": "I whisk the eggs." },
+            { "emoji": "🥄", "text": "The whisk makes foam." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "oven",
+      "image": "🔥",
+      "translations": {
+        "fr": {
+          "label": "Four",
+          "phrases": [
+            { "emoji": "🔥", "text": "Je mets au four." },
+            { "emoji": "🔥", "text": "Le four chauffe." },
+            { "emoji": "🔥", "text": "Je préchauffe le four." },
+            { "emoji": "🔥", "text": "Ça cuit dans le four." }
+          ]
+        },
+        "en": {
+          "label": "Oven",
+          "phrases": [
+            { "emoji": "🔥", "text": "I put it in the oven." },
+            { "emoji": "🔥", "text": "The oven heats up." },
+            { "emoji": "🔥", "text": "I preheat the oven." },
+            { "emoji": "🔥", "text": "It bakes in the oven." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mixing-bowl",
+      "image": "🥣",
+      "translations": {
+        "fr": {
+          "label": "Bol",
+          "phrases": [
+            { "emoji": "🥣", "text": "Je mélange dans un bol." },
+            { "emoji": "🥣", "text": "Le bol contient les ingrédients." },
+            { "emoji": "🥣", "text": "Je verse dans le bol." },
+            { "emoji": "🥣", "text": "J'utilise un grand bol." }
+          ]
+        },
+        "en": {
+          "label": "Mixing Bowl",
+          "phrases": [
+            { "emoji": "🥣", "text": "I mix in a bowl." },
+            { "emoji": "🥣", "text": "The bowl contains ingredients." },
+            { "emoji": "🥣", "text": "I pour into the bowl." },
+            { "emoji": "🥣", "text": "I use a big bowl." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "plate-cooking",
+      "image": "🍽️",
+      "translations": {
+        "fr": {
+          "label": "Assiette",
+          "phrases": [
+            { "emoji": "🍽️", "text": "Je dresse dans une assiette." },
+            { "emoji": "🍽️", "text": "L'assiette est prête." },
+            { "emoji": "🍽️", "text": "Je sers sur une assiette." },
+            { "emoji": "🍽️", "text": "Le plat est dans l'assiette." }
+          ]
+        },
+        "en": {
+          "label": "Plate",
+          "phrases": [
+            { "emoji": "🍽️", "text": "I plate the food." },
+            { "emoji": "🍽️", "text": "The plate is ready." },
+            { "emoji": "🍽️", "text": "I serve on a plate." },
+            { "emoji": "🍽️", "text": "The dish is on the plate." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "measuring-cup",
+      "image": "🥛",
+      "translations": {
+        "fr": {
+          "label": "Verre doseur",
+          "phrases": [
+            { "emoji": "🥛", "text": "Je mesure avec le verre doseur." },
+            { "emoji": "🥛", "text": "Je verse la bonne quantité." },
+            { "emoji": "🥛", "text": "Le verre doseur est gradué." },
+            { "emoji": "🥛", "text": "Je suis la recette." }
+          ]
+        },
+        "en": {
+          "label": "Measuring Cup",
+          "phrases": [
+            { "emoji": "🥛", "text": "I measure with the measuring cup." },
+            { "emoji": "🥛", "text": "I pour the right amount." },
+            { "emoji": "🥛", "text": "The measuring cup has markings." },
+            { "emoji": "🥛", "text": "I follow the recipe." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cutting-board",
+      "image": "📋",
+      "translations": {
+        "fr": {
+          "label": "Planche à découper",
+          "phrases": [
+            { "emoji": "📋", "text": "Je coupe sur la planche." },
+            { "emoji": "📋", "text": "La planche protège le plan de travail." },
+            { "emoji": "📋", "text": "J'utilise une planche." },
+            { "emoji": "📋", "text": "Je hache les légumes sur la planche." }
+          ]
+        },
+        "en": {
+          "label": "Cutting Board",
+          "phrases": [
+            { "emoji": "📋", "text": "I cut on the board." },
+            { "emoji": "📋", "text": "The board protects the counter." },
+            { "emoji": "📋", "text": "I use a cutting board." },
+            { "emoji": "📋", "text": "I chop vegetables on the board." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grater",
+      "image": "🧀",
+      "translations": {
+        "fr": {
+          "label": "Râpe",
+          "phrases": [
+            { "emoji": "🧀", "text": "Je râpe le fromage." },
+            { "emoji": "🧀", "text": "J'utilise la râpe." },
+            { "emoji": "🧀", "text": "La râpe est tranchante." },
+            { "emoji": "🧀", "text": "Je râpe finement." }
+          ]
+        },
+        "en": {
+          "label": "Grater",
+          "phrases": [
+            { "emoji": "🧀", "text": "I grate the cheese." },
+            { "emoji": "🧀", "text": "I use the grater." },
+            { "emoji": "🧀", "text": "The grater is sharp." },
+            { "emoji": "🧀", "text": "I grate finely." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rolling-pin",
+      "image": "🥖",
+      "translations": {
+        "fr": {
+          "label": "Rouleau à pâtisserie",
+          "phrases": [
+            { "emoji": "🥖", "text": "J'étale la pâte." },
+            { "emoji": "🥖", "text": "J'utilise le rouleau." },
+            { "emoji": "🥖", "text": "Je roule la pâte." },
+            { "emoji": "🥖", "text": "La pâte devient fine." }
+          ]
+        },
+        "en": {
+          "label": "Rolling Pin",
+          "phrases": [
+            { "emoji": "🥖", "text": "I roll out the dough." },
+            { "emoji": "🥖", "text": "I use the rolling pin." },
+            { "emoji": "🥖", "text": "I roll the dough." },
+            { "emoji": "🥖", "text": "The dough becomes thin." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "blender",
+      "image": "🥤",
+      "translations": {
+        "fr": {
+          "label": "Mixeur",
+          "phrases": [
+            { "emoji": "🥤", "text": "Je mixe les ingrédients." },
+            { "emoji": "🥤", "text": "Le mixeur fait du bruit." },
+            { "emoji": "🥤", "text": "Je fais un smoothie." },
+            { "emoji": "🥤", "text": "Le mixeur mélange bien." }
+          ]
+        },
+        "en": {
+          "label": "Blender",
+          "phrases": [
+            { "emoji": "🥤", "text": "I blend the ingredients." },
+            { "emoji": "🥤", "text": "The blender is noisy." },
+            { "emoji": "🥤", "text": "I make a smoothie." },
+            { "emoji": "🥤", "text": "The blender mixes well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toaster",
+      "image": "🍞",
+      "translations": {
+        "fr": {
+          "label": "Grille-pain",
+          "phrases": [
+            { "emoji": "🍞", "text": "Je fais griller le pain." },
+            { "emoji": "🍞", "text": "Le grille-pain chauffe." },
+            { "emoji": "🍞", "text": "Le pain est doré." },
+            { "emoji": "🍞", "text": "Les toasts sont prêts." }
+          ]
+        },
+        "en": {
+          "label": "Toaster",
+          "phrases": [
+            { "emoji": "🍞", "text": "I toast the bread." },
+            { "emoji": "🍞", "text": "The toaster heats up." },
+            { "emoji": "🍞", "text": "The bread is golden." },
+            { "emoji": "🍞", "text": "The toast is ready." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "refrigerator",
+      "image": "🧊",
+      "translations": {
+        "fr": {
+          "label": "Réfrigérateur",
+          "phrases": [
+            { "emoji": "🧊", "text": "Je mets au frigo." },
+            { "emoji": "🧊", "text": "Le réfrigérateur garde au frais." },
+            { "emoji": "🧊", "text": "J'ouvre le frigo." },
+            { "emoji": "🧊", "text": "Les aliments sont au frais." }
+          ]
+        },
+        "en": {
+          "label": "Refrigerator",
+          "phrases": [
+            { "emoji": "🧊", "text": "I put it in the fridge." },
+            { "emoji": "🧊", "text": "The refrigerator keeps things cold." },
+            { "emoji": "🧊", "text": "I open the fridge." },
+            { "emoji": "🧊", "text": "The food is chilled." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kettle",
+      "image": "☕",
+      "translations": {
+        "fr": {
+          "label": "Bouilloire",
+          "phrases": [
+            { "emoji": "☕", "text": "Je fais bouillir de l'eau." },
+            { "emoji": "☕", "text": "La bouilloire siffle." },
+            { "emoji": "☕", "text": "L'eau est chaude." },
+            { "emoji": "☕", "text": "Je prépare du thé." }
+          ]
+        },
+        "en": {
+          "label": "Kettle",
+          "phrases": [
+            { "emoji": "☕", "text": "I boil water." },
+            { "emoji": "☕", "text": "The kettle whistles." },
+            { "emoji": "☕", "text": "The water is hot." },
+            { "emoji": "☕", "text": "I make tea." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "colander",
+      "image": "🍝",
+      "translations": {
+        "fr": {
+          "label": "Passoire",
+          "phrases": [
+            { "emoji": "🍝", "text": "J'égoutte les pâtes." },
+            { "emoji": "🍝", "text": "J'utilise une passoire." },
+            { "emoji": "🍝", "text": "L'eau s'écoule." },
+            { "emoji": "🍝", "text": "Je rince dans la passoire." }
+          ]
+        },
+        "en": {
+          "label": "Colander",
+          "phrases": [
+            { "emoji": "🍝", "text": "I drain the pasta." },
+            { "emoji": "🍝", "text": "I use a colander." },
+            { "emoji": "🍝", "text": "The water drains out." },
+            { "emoji": "🍝", "text": "I rinse in the colander." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "timer",
+      "image": "⏲️",
+      "translations": {
+        "fr": {
+          "label": "Minuteur",
+          "phrases": [
+            { "emoji": "⏲️", "text": "Je règle le minuteur." },
+            { "emoji": "⏲️", "text": "Le minuteur sonne." },
+            { "emoji": "⏲️", "text": "Je surveille le temps." },
+            { "emoji": "⏲️", "text": "C'est bientôt prêt." }
+          ]
+        },
+        "en": {
+          "label": "Timer",
+          "phrases": [
+            { "emoji": "⏲️", "text": "I set the timer." },
+            { "emoji": "⏲️", "text": "The timer rings." },
+            { "emoji": "⏲️", "text": "I watch the time." },
+            { "emoji": "⏲️", "text": "It's almost ready." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "recipe-book",
+      "image": "📖",
+      "translations": {
+        "fr": {
+          "label": "Livre de recettes",
+          "phrases": [
+            { "emoji": "📖", "text": "Je consulte le livre de recettes." },
+            { "emoji": "📖", "text": "Je suis la recette." },
+            { "emoji": "📖", "text": "Je cherche une recette." },
+            { "emoji": "📖", "text": "Le livre a de bonnes idées." }
+          ]
+        },
+        "en": {
+          "label": "Recipe Book",
+          "phrases": [
+            { "emoji": "📖", "text": "I check the recipe book." },
+            { "emoji": "📖", "text": "I follow the recipe." },
+            { "emoji": "📖", "text": "I look for a recipe." },
+            { "emoji": "📖", "text": "The book has good ideas." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "apron",
+      "image": "👔",
+      "translations": {
+        "fr": {
+          "label": "Tablier",
+          "phrases": [
+            { "emoji": "👔", "text": "Je mets mon tablier." },
+            { "emoji": "👔", "text": "Le tablier protège mes vêtements." },
+            { "emoji": "👔", "text": "Je cuisine avec un tablier." },
+            { "emoji": "👔", "text": "Mon tablier est propre." }
+          ]
+        },
+        "en": {
+          "label": "Apron",
+          "phrases": [
+            { "emoji": "👔", "text": "I put on my apron." },
+            { "emoji": "👔", "text": "The apron protects my clothes." },
+            { "emoji": "👔", "text": "I cook with an apron." },
+            { "emoji": "👔", "text": "My apron is clean." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "microwave",
+      "image": "📦",
+      "translations": {
+        "fr": {
+          "label": "Micro-ondes",
+          "phrases": [
+            { "emoji": "📦", "text": "Je réchauffe au micro-ondes." },
+            { "emoji": "📦", "text": "Le micro-ondes est rapide." },
+            { "emoji": "📦", "text": "Je mets 2 minutes." },
+            { "emoji": "📦", "text": "Le plat est chaud." }
+          ]
+        },
+        "en": {
+          "label": "Microwave",
+          "phrases": [
+            { "emoji": "📦", "text": "I heat in the microwave." },
+            { "emoji": "📦", "text": "The microwave is fast." },
+            { "emoji": "📦", "text": "I set it for 2 minutes." },
+            { "emoji": "📦", "text": "The dish is hot." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dishwasher",
+      "image": "🧽",
+      "translations": {
+        "fr": {
+          "label": "Lave-vaisselle",
+          "phrases": [
+            { "emoji": "🧽", "text": "Je mets au lave-vaisselle." },
+            { "emoji": "🧽", "text": "Le lave-vaisselle nettoie." },
+            { "emoji": "🧽", "text": "Je range la vaisselle sale." },
+            { "emoji": "🧽", "text": "Le lave-vaisselle tourne." }
+          ]
+        },
+        "en": {
+          "label": "Dishwasher",
+          "phrases": [
+            { "emoji": "🧽", "text": "I put it in the dishwasher." },
+            { "emoji": "🧽", "text": "The dishwasher cleans." },
+            { "emoji": "🧽", "text": "I load the dirty dishes." },
+            { "emoji": "🧽", "text": "The dishwasher runs." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salt-pepper",
+      "image": "🧂",
+      "translations": {
+        "fr": {
+          "label": "Sel et poivre",
+          "phrases": [
+            { "emoji": "🧂", "text": "J'assaisonne avec sel et poivre." },
+            { "emoji": "🧂", "text": "J'ajoute du sel." },
+            { "emoji": "🧂", "text": "Je goûte et j'assaisonne." },
+            { "emoji": "🧂", "text": "Un peu de sel suffit." }
+          ]
+        },
+        "en": {
+          "label": "Salt & Pepper",
+          "phrases": [
+            { "emoji": "🧂", "text": "I season with salt and pepper." },
+            { "emoji": "🧂", "text": "I add salt." },
+            { "emoji": "🧂", "text": "I taste and season." },
+            { "emoji": "🧂", "text": "A little salt is enough." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "deep-fryer",
+      "image": "🍟",
+      "translations": {
+        "fr": {
+          "label": "Friteuse",
+          "phrases": [
+            { "emoji": "🍟", "text": "J'utilise la friteuse." },
+            { "emoji": "🍟", "text": "Je fais des frites." },
+            { "emoji": "🔥", "text": "L'huile est chaude." },
+            { "emoji": "😋", "text": "Les frites sont croustillantes." }
+          ]
+        },
+        "en": {
+          "label": "Deep Fryer",
+          "phrases": [
+            { "emoji": "🍟", "text": "I use the deep fryer." },
+            { "emoji": "🍟", "text": "I make fries." },
+            { "emoji": "🔥", "text": "The oil is hot." },
+            { "emoji": "😋", "text": "The fries are crispy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "coffee-maker",
+      "image": "☕",
+      "translations": {
+        "fr": {
+          "label": "Cafetière",
+          "phrases": [
+            { "emoji": "☕", "text": "Je prépare du café." },
+            { "emoji": "☕", "text": "La cafetière fonctionne." },
+            { "emoji": "😊", "text": "Le café est prêt." },
+            { "emoji": "☕", "text": "J'aime l'odeur du café." }
+          ]
+        },
+        "en": {
+          "label": "Coffee Maker",
+          "phrases": [
+            { "emoji": "☕", "text": "I make coffee." },
+            { "emoji": "☕", "text": "The coffee maker works." },
+            { "emoji": "😊", "text": "The coffee is ready." },
+            { "emoji": "☕", "text": "I love the smell of coffee." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cooking-pot",
+      "image": "🍲",
+      "translations": {
+        "fr": {
+          "label": "Marmite",
+          "phrases": [
+            { "emoji": "🍲", "text": "Je cuisine dans une marmite." },
+            { "emoji": "🍲", "text": "La soupe mijote dans la marmite." },
+            { "emoji": "🥘", "text": "La marmite est grande." },
+            { "emoji": "🍲", "text": "Je remue la marmite." }
+          ]
+        },
+        "en": {
+          "label": "Cooking Pot",
+          "phrases": [
+            { "emoji": "🍲", "text": "I cook in a pot." },
+            { "emoji": "🍲", "text": "The soup simmers in the pot." },
+            { "emoji": "🥘", "text": "The pot is big." },
+            { "emoji": "🍲", "text": "I stir the pot." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spatula-cooking",
+      "image": "🥄",
+      "translations": {
+        "fr": {
+          "label": "Spatule",
+          "phrases": [
+            { "emoji": "🥄", "text": "J'utilise une spatule." },
+            { "emoji": "🍳", "text": "Je retourne les aliments." },
+            { "emoji": "🥄", "text": "La spatule est pratique." },
+            { "emoji": "😊", "text": "Je cuisine avec la spatule." }
+          ]
+        },
+        "en": {
+          "label": "Spatula",
+          "phrases": [
+            { "emoji": "🥄", "text": "I use a spatula." },
+            { "emoji": "🍳", "text": "I flip the food." },
+            { "emoji": "🥄", "text": "The spatula is useful." },
+            { "emoji": "😊", "text": "I cook with the spatula." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pizza-cutter",
+      "image": "🍕",
+      "translations": {
+        "fr": {
+          "label": "Couteau à pizza",
+          "phrases": [
+            { "emoji": "🍕", "text": "Je coupe la pizza." },
+            { "emoji": "🔪", "text": "Le couteau à pizza roule." },
+            { "emoji": "🍕", "text": "Je fais des parts égales." },
+            { "emoji": "😋", "text": "La pizza est prête." }
+          ]
+        },
+        "en": {
+          "label": "Pizza Cutter",
+          "phrases": [
+            { "emoji": "🍕", "text": "I cut the pizza." },
+            { "emoji": "🔪", "text": "The pizza cutter rolls." },
+            { "emoji": "🍕", "text": "I make equal slices." },
+            { "emoji": "😋", "text": "The pizza is ready." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grill",
+      "image": "🔥",
+      "translations": {
+        "fr": {
+          "label": "Grill",
+          "phrases": [
+            { "emoji": "🔥", "text": "Je cuisine au grill." },
+            { "emoji": "🥩", "text": "Je grille de la viande." },
+            { "emoji": "🔥", "text": "Le grill est chaud." },
+            { "emoji": "😋", "text": "Ça sent bon." }
+          ]
+        },
+        "en": {
+          "label": "Grill",
+          "phrases": [
+            { "emoji": "🔥", "text": "I cook on the grill." },
+            { "emoji": "🥩", "text": "I grill meat." },
+            { "emoji": "🔥", "text": "The grill is hot." },
+            { "emoji": "😋", "text": "It smells good." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "utensils",
+      "image": "🍴",
+      "translations": {
+        "fr": {
+          "label": "Ustensiles",
+          "phrases": [
+            { "emoji": "🍴", "text": "J'utilise des ustensiles." },
+            { "emoji": "🥄", "text": "Les ustensiles sont propres." },
+            { "emoji": "🍴", "text": "Je range les ustensiles." },
+            { "emoji": "🔪", "text": "J'ai besoin d'ustensiles." }
+          ]
+        },
+        "en": {
+          "label": "Utensils",
+          "phrases": [
+            { "emoji": "🍴", "text": "I use utensils." },
+            { "emoji": "🥄", "text": "The utensils are clean." },
+            { "emoji": "🍴", "text": "I put away the utensils." },
+            { "emoji": "🔪", "text": "I need utensils." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cooktop",
+      "image": "🔥",
+      "translations": {
+        "fr": {
+          "label": "Plaque de cuisson",
+          "phrases": [
+            { "emoji": "🔥", "text": "J'allume la plaque de cuisson." },
+            { "emoji": "🍳", "text": "Je cuisine sur la plaque." },
+            { "emoji": "🔥", "text": "La plaque chauffe." },
+            { "emoji": "🍲", "text": "Je pose la casserole sur la plaque." }
+          ]
+        },
+        "en": {
+          "label": "Cooktop",
+          "phrases": [
+            { "emoji": "🔥", "text": "I turn on the cooktop." },
+            { "emoji": "🍳", "text": "I cook on the cooktop." },
+            { "emoji": "🔥", "text": "The cooktop heats up." },
+            { "emoji": "🍲", "text": "I place the pot on the cooktop." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kitchen-scale",
+      "image": "⚖️",
+      "translations": {
+        "fr": {
+          "label": "Balance",
+          "phrases": [
+            { "emoji": "⚖️", "text": "Je pèse les ingrédients." },
+            { "emoji": "⚖️", "text": "J'utilise une balance." },
+            { "emoji": "📏", "text": "Je mesure avec précision." },
+            { "emoji": "⚖️", "text": "La balance est précise." }
+          ]
+        },
+        "en": {
+          "label": "Scale",
+          "phrases": [
+            { "emoji": "⚖️", "text": "I weigh the ingredients." },
+            { "emoji": "⚖️", "text": "I use a scale." },
+            { "emoji": "📏", "text": "I measure precisely." },
+            { "emoji": "⚖️", "text": "The scale is accurate." }
+          ]
+        }
+      }
+    }
+  ]
+}

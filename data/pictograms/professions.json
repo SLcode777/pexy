@@ -1,0 +1,1501 @@
+{
+  "pictograms": [
+    {
+      "id": "doctor",
+      "image": "👨‍⚕️",
+      "translations": {
+        "fr": {
+          "label": "Médecin",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "Je vais chez le médecin." },
+            { "emoji": "👨‍⚕️", "text": "Le médecin m'examine." },
+            { "emoji": "👨‍⚕️", "text": "Je veux être médecin." },
+            { "emoji": "👨‍⚕️", "text": "Le médecin me soigne." }
+          ]
+        },
+        "en": {
+          "label": "Doctor",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "I go to the doctor." },
+            { "emoji": "👨‍⚕️", "text": "The doctor examines me." },
+            { "emoji": "👨‍⚕️", "text": "I want to be a doctor." },
+            { "emoji": "👨‍⚕️", "text": "The doctor treats me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "firefighter",
+      "image": "👨‍🚒",
+      "translations": {
+        "fr": {
+          "label": "Pompier",
+          "phrases": [
+            { "emoji": "👨‍🚒", "text": "Le pompier éteint le feu." },
+            { "emoji": "👨‍🚒", "text": "J'appelle les pompiers." },
+            { "emoji": "👨‍🚒", "text": "Je veux être pompier." },
+            { "emoji": "👨‍🚒", "text": "Le pompier est courageux." }
+          ]
+        },
+        "en": {
+          "label": "Firefighter",
+          "phrases": [
+            { "emoji": "👨‍🚒", "text": "The firefighter puts out the fire." },
+            { "emoji": "👨‍🚒", "text": "I call the firefighters." },
+            { "emoji": "👨‍🚒", "text": "I want to be a firefighter." },
+            { "emoji": "👨‍🚒", "text": "The firefighter is brave." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "teacher",
+      "image": "👨‍🏫",
+      "translations": {
+        "fr": {
+          "label": "Enseignant",
+          "phrases": [
+            { "emoji": "👨‍🏫", "text": "Mon enseignant explique la leçon." },
+            { "emoji": "👨‍🏫", "text": "J'écoute mon enseignant." },
+            { "emoji": "👨‍🏫", "text": "Je veux être enseignant." },
+            { "emoji": "👨‍🏫", "text": "L'enseignant est gentil." }
+          ]
+        },
+        "en": {
+          "label": "Teacher",
+          "phrases": [
+            { "emoji": "👨‍🏫", "text": "My teacher explains the lesson." },
+            { "emoji": "👨‍🏫", "text": "I listen to my teacher." },
+            { "emoji": "👨‍🏫", "text": "I want to be a teacher." },
+            { "emoji": "👨‍🏫", "text": "The teacher is kind." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "police-officer",
+      "image": "👮",
+      "translations": {
+        "fr": {
+          "label": "Policier",
+          "phrases": [
+            { "emoji": "👮", "text": "Le policier aide les gens." },
+            { "emoji": "👮", "text": "Je vois un policier." },
+            { "emoji": "👮", "text": "Je veux être policier." },
+            { "emoji": "👮", "text": "Le policier protège la ville." }
+          ]
+        },
+        "en": {
+          "label": "Police Officer",
+          "phrases": [
+            { "emoji": "👮", "text": "The police officer helps people." },
+            { "emoji": "👮", "text": "I see a police officer." },
+            { "emoji": "👮", "text": "I want to be a police officer." },
+            { "emoji": "👮", "text": "The officer protects the city." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "farmer",
+      "image": "👨‍🌾",
+      "translations": {
+        "fr": {
+          "label": "Agriculteur",
+          "phrases": [
+            { "emoji": "👨‍🌾", "text": "L'agriculteur cultive les légumes." },
+            { "emoji": "👨‍🌾", "text": "L'agriculteur travaille aux champs." },
+            { "emoji": "👨‍🌾", "text": "Je veux être agriculteur." },
+            { "emoji": "👨‍🌾", "text": "L'agriculteur nourrit les animaux." }
+          ]
+        },
+        "en": {
+          "label": "Farmer",
+          "phrases": [
+            { "emoji": "👨‍🌾", "text": "The farmer grows vegetables." },
+            { "emoji": "👨‍🌾", "text": "The farmer works in the fields." },
+            { "emoji": "👨‍🌾", "text": "I want to be a farmer." },
+            { "emoji": "👨‍🌾", "text": "The farmer feeds the animals." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cook",
+      "image": "👨‍🍳",
+      "translations": {
+        "fr": {
+          "label": "Cuisinier",
+          "phrases": [
+            { "emoji": "👨‍🍳", "text": "Le cuisinier prépare le repas." },
+            { "emoji": "👨‍🍳", "text": "Le cuisinier cuisine bien." },
+            { "emoji": "👨‍🍳", "text": "Je veux être cuisinier." },
+            { "emoji": "👨‍🍳", "text": "Le cuisinier fait des gâteaux." }
+          ]
+        },
+        "en": {
+          "label": "Cook",
+          "phrases": [
+            { "emoji": "👨‍🍳", "text": "The cook prepares the meal." },
+            { "emoji": "👨‍🍳", "text": "The cook cooks well." },
+            { "emoji": "👨‍🍳", "text": "I want to be a cook." },
+            { "emoji": "👨‍🍳", "text": "The cook makes cakes." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mechanic",
+      "image": "👨‍🔧",
+      "translations": {
+        "fr": {
+          "label": "Mécanicien",
+          "phrases": [
+            { "emoji": "👨‍🔧", "text": "Le mécanicien répare la voiture." },
+            { "emoji": "👨‍🔧", "text": "Le mécanicien utilise des outils." },
+            { "emoji": "👨‍🔧", "text": "Je veux être mécanicien." },
+            { "emoji": "👨‍🔧", "text": "Le mécanicien est habile." }
+          ]
+        },
+        "en": {
+          "label": "Mechanic",
+          "phrases": [
+            { "emoji": "👨‍🔧", "text": "The mechanic fixes the car." },
+            { "emoji": "👨‍🔧", "text": "The mechanic uses tools." },
+            { "emoji": "👨‍🔧", "text": "I want to be a mechanic." },
+            { "emoji": "👨‍🔧", "text": "The mechanic is skilled." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "scientist",
+      "image": "👨‍🔬",
+      "translations": {
+        "fr": {
+          "label": "Scientifique",
+          "phrases": [
+            { "emoji": "👨‍🔬", "text": "Le scientifique fait des expériences." },
+            { "emoji": "👨‍🔬", "text": "Le scientifique étudie la nature." },
+            { "emoji": "👨‍🔬", "text": "Je veux être scientifique." },
+            { "emoji": "👨‍🔬", "text": "Le scientifique découvre des choses." }
+          ]
+        },
+        "en": {
+          "label": "Scientist",
+          "phrases": [
+            { "emoji": "👨‍🔬", "text": "The scientist does experiments." },
+            { "emoji": "👨‍🔬", "text": "The scientist studies nature." },
+            { "emoji": "👨‍🔬", "text": "I want to be a scientist." },
+            { "emoji": "👨‍🔬", "text": "The scientist discovers things." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "artist",
+      "image": "👨‍🎨",
+      "translations": {
+        "fr": {
+          "label": "Artiste",
+          "phrases": [
+            { "emoji": "👨‍🎨", "text": "L'artiste peint un tableau." },
+            { "emoji": "👨‍🎨", "text": "L'artiste est créatif." },
+            { "emoji": "👨‍🎨", "text": "Je veux être artiste." },
+            { "emoji": "👨‍🎨", "text": "L'artiste fait de beaux dessins." }
+          ]
+        },
+        "en": {
+          "label": "Artist",
+          "phrases": [
+            { "emoji": "👨‍🎨", "text": "The artist paints a picture." },
+            { "emoji": "👨‍🎨", "text": "The artist is creative." },
+            { "emoji": "👨‍🎨", "text": "I want to be an artist." },
+            { "emoji": "👨‍🎨", "text": "The artist makes beautiful drawings." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "singer",
+      "image": "👨‍🎤",
+      "translations": {
+        "fr": {
+          "label": "Chanteur",
+          "phrases": [
+            { "emoji": "👨‍🎤", "text": "Le chanteur chante une chanson." },
+            { "emoji": "👨‍🎤", "text": "Le chanteur a une belle voix." },
+            { "emoji": "👨‍🎤", "text": "Je veux être chanteur." },
+            { "emoji": "👨‍🎤", "text": "Le chanteur est sur scène." }
+          ]
+        },
+        "en": {
+          "label": "Singer",
+          "phrases": [
+            { "emoji": "👨‍🎤", "text": "The singer sings a song." },
+            { "emoji": "👨‍🎤", "text": "The singer has a beautiful voice." },
+            { "emoji": "👨‍🎤", "text": "I want to be a singer." },
+            { "emoji": "👨‍🎤", "text": "The singer is on stage." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pilot",
+      "image": "👨‍✈️",
+      "translations": {
+        "fr": {
+          "label": "Pilote",
+          "phrases": [
+            { "emoji": "👨‍✈️", "text": "Le pilote conduit l'avion." },
+            { "emoji": "👨‍✈️", "text": "Le pilote vole dans le ciel." },
+            { "emoji": "👨‍✈️", "text": "Je veux être pilote." },
+            { "emoji": "👨‍✈️", "text": "Le pilote est responsable." }
+          ]
+        },
+        "en": {
+          "label": "Pilot",
+          "phrases": [
+            { "emoji": "👨‍✈️", "text": "The pilot flies the plane." },
+            { "emoji": "👨‍✈️", "text": "The pilot flies in the sky." },
+            { "emoji": "👨‍✈️", "text": "I want to be a pilot." },
+            { "emoji": "👨‍✈️", "text": "The pilot is responsible." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "astronaut",
+      "image": "👨‍🚀",
+      "translations": {
+        "fr": {
+          "label": "Astronaute",
+          "phrases": [
+            { "emoji": "👨‍🚀", "text": "L'astronaute va dans l'espace." },
+            { "emoji": "👨‍🚀", "text": "L'astronaute explore la lune." },
+            { "emoji": "👨‍🚀", "text": "Je veux être astronaute." },
+            { "emoji": "👨‍🚀", "text": "L'astronaute porte un casque." }
+          ]
+        },
+        "en": {
+          "label": "Astronaut",
+          "phrases": [
+            { "emoji": "👨‍🚀", "text": "The astronaut goes to space." },
+            { "emoji": "👨‍🚀", "text": "The astronaut explores the moon." },
+            { "emoji": "👨‍🚀", "text": "I want to be an astronaut." },
+            { "emoji": "👨‍🚀", "text": "The astronaut wears a helmet." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "construction-worker",
+      "image": "👷",
+      "translations": {
+        "fr": {
+          "label": "Ouvrier",
+          "phrases": [
+            { "emoji": "👷", "text": "L'ouvrier construit une maison." },
+            { "emoji": "👷", "text": "L'ouvrier travaille dur." },
+            { "emoji": "👷", "text": "Je veux être ouvrier." },
+            { "emoji": "👷", "text": "L'ouvrier porte un casque." }
+          ]
+        },
+        "en": {
+          "label": "Construction Worker",
+          "phrases": [
+            { "emoji": "👷", "text": "The worker builds a house." },
+            { "emoji": "👷", "text": "The worker works hard." },
+            { "emoji": "👷", "text": "I want to be a construction worker." },
+            { "emoji": "👷", "text": "The worker wears a helmet." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "judge",
+      "image": "🧑‍⚖️",
+      "translations": {
+        "fr": {
+          "label": "Juge",
+          "phrases": [
+            { "emoji": "🧑‍⚖️", "text": "Le juge rend la justice." },
+            { "emoji": "🧑‍⚖️", "text": "Le juge est au tribunal." },
+            { "emoji": "🧑‍⚖️", "text": "Je veux être juge." },
+            { "emoji": "🧑‍⚖️", "text": "Le juge est impartial." }
+          ]
+        },
+        "en": {
+          "label": "Judge",
+          "phrases": [
+            { "emoji": "🧑‍⚖️", "text": "The judge delivers justice." },
+            { "emoji": "🧑‍⚖️", "text": "The judge is in court." },
+            { "emoji": "🧑‍⚖️", "text": "I want to be a judge." },
+            { "emoji": "🧑‍⚖️", "text": "The judge is impartial." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nurse",
+      "image": "👩‍⚕️",
+      "translations": {
+        "fr": {
+          "label": "Infirmier",
+          "phrases": [
+            { "emoji": "👩‍⚕️", "text": "L'infirmier soigne les patients." },
+            { "emoji": "👩‍⚕️", "text": "L'infirmier aide le médecin." },
+            { "emoji": "👩‍⚕️", "text": "Je veux être infirmier." },
+            { "emoji": "👩‍⚕️", "text": "L'infirmier est attentionné." }
+          ]
+        },
+        "en": {
+          "label": "Nurse",
+          "phrases": [
+            { "emoji": "👩‍⚕️", "text": "The nurse cares for patients." },
+            { "emoji": "👩‍⚕️", "text": "The nurse helps the doctor." },
+            { "emoji": "👩‍⚕️", "text": "I want to be a nurse." },
+            { "emoji": "👩‍⚕️", "text": "The nurse is caring." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dentist",
+      "image": "🦷",
+      "translations": {
+        "fr": {
+          "label": "Dentiste",
+          "phrases": [
+            { "emoji": "🦷", "text": "Le dentiste soigne mes dents." },
+            { "emoji": "🦷", "text": "Je vais chez le dentiste." },
+            { "emoji": "🦷", "text": "Je veux être dentiste." },
+            { "emoji": "🦷", "text": "Le dentiste nettoie mes dents." }
+          ]
+        },
+        "en": {
+          "label": "Dentist",
+          "phrases": [
+            { "emoji": "🦷", "text": "The dentist treats my teeth." },
+            { "emoji": "🦷", "text": "I go to the dentist." },
+            { "emoji": "🦷", "text": "I want to be a dentist." },
+            { "emoji": "🦷", "text": "The dentist cleans my teeth." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pharmacist",
+      "image": "💊",
+      "translations": {
+        "fr": {
+          "label": "Pharmacien",
+          "phrases": [
+            { "emoji": "💊", "text": "Le pharmacien donne des médicaments." },
+            { "emoji": "💊", "text": "Je vais à la pharmacie." },
+            { "emoji": "💊", "text": "Je veux être pharmacien." },
+            { "emoji": "💊", "text": "Le pharmacien explique le traitement." }
+          ]
+        },
+        "en": {
+          "label": "Pharmacist",
+          "phrases": [
+            { "emoji": "💊", "text": "The pharmacist gives medications." },
+            { "emoji": "💊", "text": "I go to the pharmacy." },
+            { "emoji": "💊", "text": "I want to be a pharmacist." },
+            { "emoji": "💊", "text": "The pharmacist explains the treatment." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hairdresser",
+      "image": "💇",
+      "translations": {
+        "fr": {
+          "label": "Coiffeur",
+          "phrases": [
+            { "emoji": "💇", "text": "Le coiffeur coupe mes cheveux." },
+            { "emoji": "💇", "text": "Je vais chez le coiffeur." },
+            { "emoji": "💇", "text": "Je veux être coiffeur." },
+            { "emoji": "💇", "text": "Le coiffeur fait de belles coiffures." }
+          ]
+        },
+        "en": {
+          "label": "Hairdresser",
+          "phrases": [
+            { "emoji": "💇", "text": "The hairdresser cuts my hair." },
+            { "emoji": "💇", "text": "I go to the hairdresser." },
+            { "emoji": "💇", "text": "I want to be a hairdresser." },
+            { "emoji": "💇", "text": "The hairdresser makes nice hairstyles." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mail-carrier",
+      "image": "📬",
+      "translations": {
+        "fr": {
+          "label": "Facteur",
+          "phrases": [
+            { "emoji": "📬", "text": "Le facteur distribue le courrier." },
+            { "emoji": "📬", "text": "Le facteur apporte des lettres." },
+            { "emoji": "📬", "text": "Je veux être facteur." },
+            { "emoji": "📬", "text": "Le facteur passe tous les jours." }
+          ]
+        },
+        "en": {
+          "label": "Mail Carrier",
+          "phrases": [
+            { "emoji": "📬", "text": "The mail carrier delivers mail." },
+            { "emoji": "📬", "text": "The mail carrier brings letters." },
+            { "emoji": "📬", "text": "I want to be a mail carrier." },
+            { "emoji": "📬", "text": "The mail carrier comes every day." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "delivery-person",
+      "image": "📦",
+      "translations": {
+        "fr": {
+          "label": "Livreur",
+          "phrases": [
+            { "emoji": "📦", "text": "Le livreur apporte un colis." },
+            { "emoji": "📦", "text": "Le livreur livre rapidement." },
+            { "emoji": "📦", "text": "Je veux être livreur." },
+            { "emoji": "📦", "text": "Le livreur sonne à la porte." }
+          ]
+        },
+        "en": {
+          "label": "Delivery Person",
+          "phrases": [
+            { "emoji": "📦", "text": "The delivery person brings a package." },
+            { "emoji": "📦", "text": "The delivery person delivers quickly." },
+            { "emoji": "📦", "text": "I want to be a delivery person." },
+            { "emoji": "📦", "text": "The delivery person rings the bell." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bus-driver",
+      "image": "🚌",
+      "translations": {
+        "fr": {
+          "label": "Chauffeur de bus",
+          "phrases": [
+            { "emoji": "🚌", "text": "Le chauffeur conduit le bus." },
+            { "emoji": "🚌", "text": "Le chauffeur ouvre les portes." },
+            { "emoji": "🚌", "text": "Je veux être chauffeur de bus." },
+            { "emoji": "🚌", "text": "Le chauffeur connaît le chemin." }
+          ]
+        },
+        "en": {
+          "label": "Bus Driver",
+          "phrases": [
+            { "emoji": "🚌", "text": "The driver drives the bus." },
+            { "emoji": "🚌", "text": "The driver opens the doors." },
+            { "emoji": "🚌", "text": "I want to be a bus driver." },
+            { "emoji": "🚌", "text": "The driver knows the way." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "taxi-driver",
+      "image": "🚕",
+      "translations": {
+        "fr": {
+          "label": "Chauffeur de taxi",
+          "phrases": [
+            { "emoji": "🚕", "text": "Le chauffeur conduit le taxi." },
+            { "emoji": "🚕", "text": "Je prends un taxi." },
+            { "emoji": "🚕", "text": "Je veux être chauffeur de taxi." },
+            { "emoji": "🚕", "text": "Le chauffeur m'emmène à destination." }
+          ]
+        },
+        "en": {
+          "label": "Taxi Driver",
+          "phrases": [
+            { "emoji": "🚕", "text": "The driver drives the taxi." },
+            { "emoji": "🚕", "text": "I take a taxi." },
+            { "emoji": "🚕", "text": "I want to be a taxi driver." },
+            { "emoji": "🚕", "text": "The driver takes me to my destination." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "waiter",
+      "image": "🍽️",
+      "translations": {
+        "fr": {
+          "label": "Serveur",
+          "phrases": [
+            { "emoji": "🍽️", "text": "Le serveur apporte le repas." },
+            { "emoji": "🍽️", "text": "Le serveur prend la commande." },
+            { "emoji": "🍽️", "text": "Je veux être serveur." },
+            { "emoji": "🍽️", "text": "Le serveur est aimable." }
+          ]
+        },
+        "en": {
+          "label": "Waiter",
+          "phrases": [
+            { "emoji": "🍽️", "text": "The waiter brings the meal." },
+            { "emoji": "🍽️", "text": "The waiter takes the order." },
+            { "emoji": "🍽️", "text": "I want to be a waiter." },
+            { "emoji": "🍽️", "text": "The waiter is friendly." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "baker",
+      "image": "🥖",
+      "translations": {
+        "fr": {
+          "label": "Boulanger",
+          "phrases": [
+            { "emoji": "🥖", "text": "Le boulanger fait du pain." },
+            { "emoji": "🥖", "text": "Je vais chez le boulanger." },
+            { "emoji": "🥖", "text": "Je veux être boulanger." },
+            { "emoji": "🥖", "text": "Le boulanger se lève tôt." }
+          ]
+        },
+        "en": {
+          "label": "Baker",
+          "phrases": [
+            { "emoji": "🥖", "text": "The baker makes bread." },
+            { "emoji": "🥖", "text": "I go to the bakery." },
+            { "emoji": "🥖", "text": "I want to be a baker." },
+            { "emoji": "🥖", "text": "The baker wakes up early." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "butcher",
+      "image": "🥩",
+      "translations": {
+        "fr": {
+          "label": "Boucher",
+          "phrases": [
+            { "emoji": "🥩", "text": "Le boucher vend de la viande." },
+            { "emoji": "🥩", "text": "Je vais chez le boucher." },
+            { "emoji": "🥩", "text": "Je veux être boucher." },
+            { "emoji": "🥩", "text": "Le boucher coupe la viande." }
+          ]
+        },
+        "en": {
+          "label": "Butcher",
+          "phrases": [
+            { "emoji": "🥩", "text": "The butcher sells meat." },
+            { "emoji": "🥩", "text": "I go to the butcher." },
+            { "emoji": "🥩", "text": "I want to be a butcher." },
+            { "emoji": "🥩", "text": "The butcher cuts the meat." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "florist",
+      "image": "💐",
+      "translations": {
+        "fr": {
+          "label": "Fleuriste",
+          "phrases": [
+            { "emoji": "💐", "text": "Le fleuriste vend des fleurs." },
+            { "emoji": "💐", "text": "J'achète des fleurs chez le fleuriste." },
+            { "emoji": "💐", "text": "Je veux être fleuriste." },
+            { "emoji": "💐", "text": "Le fleuriste fait de beaux bouquets." }
+          ]
+        },
+        "en": {
+          "label": "Florist",
+          "phrases": [
+            { "emoji": "💐", "text": "The florist sells flowers." },
+            { "emoji": "💐", "text": "I buy flowers at the florist." },
+            { "emoji": "💐", "text": "I want to be a florist." },
+            { "emoji": "💐", "text": "The florist makes beautiful bouquets." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gardener",
+      "image": "🌻",
+      "translations": {
+        "fr": {
+          "label": "Jardinier",
+          "phrases": [
+            { "emoji": "🌻", "text": "Le jardinier cultive des plantes." },
+            { "emoji": "🌻", "text": "Le jardinier arrose les fleurs." },
+            { "emoji": "🌻", "text": "Je veux être jardinier." },
+            { "emoji": "🌻", "text": "Le jardinier tond la pelouse." }
+          ]
+        },
+        "en": {
+          "label": "Gardener",
+          "phrases": [
+            { "emoji": "🌻", "text": "The gardener grows plants." },
+            { "emoji": "🌻", "text": "The gardener waters the flowers." },
+            { "emoji": "🌻", "text": "I want to be a gardener." },
+            { "emoji": "🌻", "text": "The gardener mows the lawn." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "electrician",
+      "image": "⚡",
+      "translations": {
+        "fr": {
+          "label": "Électricien",
+          "phrases": [
+            { "emoji": "⚡", "text": "L'électricien répare l'électricité." },
+            { "emoji": "⚡", "text": "L'électricien installe des lampes." },
+            { "emoji": "⚡", "text": "Je veux être électricien." },
+            { "emoji": "⚡", "text": "L'électricien est prudent." }
+          ]
+        },
+        "en": {
+          "label": "Electrician",
+          "phrases": [
+            { "emoji": "⚡", "text": "The electrician fixes the electricity." },
+            { "emoji": "⚡", "text": "The electrician installs lights." },
+            { "emoji": "⚡", "text": "I want to be an electrician." },
+            { "emoji": "⚡", "text": "The electrician is careful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "plumber",
+      "image": "🔧",
+      "translations": {
+        "fr": {
+          "label": "Plombier",
+          "phrases": [
+            { "emoji": "🔧", "text": "Le plombier répare les fuites." },
+            { "emoji": "🔧", "text": "Le plombier installe les tuyaux." },
+            { "emoji": "🔧", "text": "Je veux être plombier." },
+            { "emoji": "🔧", "text": "Le plombier utilise une clé." }
+          ]
+        },
+        "en": {
+          "label": "Plumber",
+          "phrases": [
+            { "emoji": "🔧", "text": "The plumber fixes leaks." },
+            { "emoji": "🔧", "text": "The plumber installs pipes." },
+            { "emoji": "🔧", "text": "I want to be a plumber." },
+            { "emoji": "🔧", "text": "The plumber uses a wrench." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "architect",
+      "image": "📐",
+      "translations": {
+        "fr": {
+          "label": "Architecte",
+          "phrases": [
+            { "emoji": "📐", "text": "L'architecte dessine des bâtiments." },
+            { "emoji": "📐", "text": "L'architecte fait des plans." },
+            { "emoji": "📐", "text": "Je veux être architecte." },
+            { "emoji": "📐", "text": "L'architecte est créatif." }
+          ]
+        },
+        "en": {
+          "label": "Architect",
+          "phrases": [
+            { "emoji": "📐", "text": "The architect designs buildings." },
+            { "emoji": "📐", "text": "The architect makes plans." },
+            { "emoji": "📐", "text": "I want to be an architect." },
+            { "emoji": "📐", "text": "The architect is creative." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "photographer",
+      "image": "📷",
+      "translations": {
+        "fr": {
+          "label": "Photographe",
+          "phrases": [
+            { "emoji": "📷", "text": "Le photographe prend des photos." },
+            { "emoji": "📷", "text": "Le photographe a un appareil photo." },
+            { "emoji": "📷", "text": "Je veux être photographe." },
+            { "emoji": "📷", "text": "Le photographe capture des moments." }
+          ]
+        },
+        "en": {
+          "label": "Photographer",
+          "phrases": [
+            { "emoji": "📷", "text": "The photographer takes photos." },
+            { "emoji": "📷", "text": "The photographer has a camera." },
+            { "emoji": "📷", "text": "I want to be a photographer." },
+            { "emoji": "📷", "text": "The photographer captures moments." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "journalist",
+      "image": "📰",
+      "translations": {
+        "fr": {
+          "label": "Journaliste",
+          "phrases": [
+            { "emoji": "📰", "text": "Le journaliste écrit des articles." },
+            { "emoji": "📰", "text": "Le journaliste pose des questions." },
+            { "emoji": "📰", "text": "Je veux être journaliste." },
+            { "emoji": "📰", "text": "Le journaliste informe les gens." }
+          ]
+        },
+        "en": {
+          "label": "Journalist",
+          "phrases": [
+            { "emoji": "📰", "text": "The journalist writes articles." },
+            { "emoji": "📰", "text": "The journalist asks questions." },
+            { "emoji": "📰", "text": "I want to be a journalist." },
+            { "emoji": "📰", "text": "The journalist informs people." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "librarian",
+      "image": "📚",
+      "translations": {
+        "fr": {
+          "label": "Bibliothécaire",
+          "phrases": [
+            { "emoji": "📚", "text": "Le bibliothécaire classe les livres." },
+            {
+              "emoji": "📚",
+              "text": "Le bibliothécaire aide à trouver des livres."
+            },
+            { "emoji": "📚", "text": "Je veux être bibliothécaire." },
+            { "emoji": "📚", "text": "Le bibliothécaire aime la lecture." }
+          ]
+        },
+        "en": {
+          "label": "Librarian",
+          "phrases": [
+            { "emoji": "📚", "text": "The librarian organizes books." },
+            { "emoji": "📚", "text": "The librarian helps find books." },
+            { "emoji": "📚", "text": "I want to be a librarian." },
+            { "emoji": "📚", "text": "The librarian loves reading." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cashier",
+      "image": "💰",
+      "translations": {
+        "fr": {
+          "label": "Caissier",
+          "phrases": [
+            { "emoji": "💰", "text": "Le caissier encaisse l'argent." },
+            { "emoji": "💰", "text": "Le caissier scanne les articles." },
+            { "emoji": "💰", "text": "Je veux être caissier." },
+            { "emoji": "💰", "text": "Le caissier rend la monnaie." }
+          ]
+        },
+        "en": {
+          "label": "Cashier",
+          "phrases": [
+            { "emoji": "💰", "text": "The cashier collects money." },
+            { "emoji": "💰", "text": "The cashier scans items." },
+            { "emoji": "💰", "text": "I want to be a cashier." },
+            { "emoji": "💰", "text": "The cashier gives change." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salesperson",
+      "image": "🛍️",
+      "translations": {
+        "fr": {
+          "label": "Vendeur",
+          "phrases": [
+            { "emoji": "🛍️", "text": "Le vendeur aide les clients." },
+            { "emoji": "🛍️", "text": "Le vendeur présente les produits." },
+            { "emoji": "🛍️", "text": "Je veux être vendeur." },
+            { "emoji": "🛍️", "text": "Le vendeur est souriant." }
+          ]
+        },
+        "en": {
+          "label": "Salesperson",
+          "phrases": [
+            { "emoji": "🛍️", "text": "The salesperson helps customers." },
+            { "emoji": "🛍️", "text": "The salesperson presents products." },
+            { "emoji": "🛍️", "text": "I want to be a salesperson." },
+            { "emoji": "🛍️", "text": "The salesperson is smiling." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "secretary",
+      "image": "🗂️",
+      "translations": {
+        "fr": {
+          "label": "Secrétaire",
+          "phrases": [
+            { "emoji": "🗂️", "text": "Le secrétaire organise les documents." },
+            { "emoji": "🗂️", "text": "Le secrétaire répond au téléphone." },
+            { "emoji": "🗂️", "text": "Je veux être secrétaire." },
+            { "emoji": "🗂️", "text": "Le secrétaire prend des notes." }
+          ]
+        },
+        "en": {
+          "label": "Secretary",
+          "phrases": [
+            { "emoji": "🗂️", "text": "The secretary organizes documents." },
+            { "emoji": "🗂️", "text": "The secretary answers the phone." },
+            { "emoji": "🗂️", "text": "I want to be a secretary." },
+            { "emoji": "🗂️", "text": "The secretary takes notes." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "accountant",
+      "image": "🧮",
+      "translations": {
+        "fr": {
+          "label": "Comptable",
+          "phrases": [
+            { "emoji": "🧮", "text": "Le comptable gère les finances." },
+            { "emoji": "🧮", "text": "Le comptable fait des calculs." },
+            { "emoji": "🧮", "text": "Je veux être comptable." },
+            { "emoji": "🧮", "text": "Le comptable est précis." }
+          ]
+        },
+        "en": {
+          "label": "Accountant",
+          "phrases": [
+            { "emoji": "🧮", "text": "The accountant manages finances." },
+            { "emoji": "🧮", "text": "The accountant does calculations." },
+            { "emoji": "🧮", "text": "I want to be an accountant." },
+            { "emoji": "🧮", "text": "The accountant is precise." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "banker",
+      "image": "🏦",
+      "translations": {
+        "fr": {
+          "label": "Banquier",
+          "phrases": [
+            { "emoji": "🏦", "text": "Le banquier travaille à la banque." },
+            { "emoji": "🏦", "text": "Le banquier gère l'argent." },
+            { "emoji": "🏦", "text": "Je veux être banquier." },
+            { "emoji": "🏦", "text": "Le banquier donne des conseils." }
+          ]
+        },
+        "en": {
+          "label": "Banker",
+          "phrases": [
+            { "emoji": "🏦", "text": "The banker works at the bank." },
+            { "emoji": "🏦", "text": "The banker manages money." },
+            { "emoji": "🏦", "text": "I want to be a banker." },
+            { "emoji": "🏦", "text": "The banker gives advice." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "garbage-collector",
+      "image": "🗑️",
+      "translations": {
+        "fr": {
+          "label": "Éboueur",
+          "phrases": [
+            { "emoji": "🗑️", "text": "L'éboueur ramasse les ordures." },
+            { "emoji": "🗑️", "text": "L'éboueur nettoie la ville." },
+            { "emoji": "🗑️", "text": "Je veux être éboueur." },
+            { "emoji": "🗑️", "text": "L'éboueur passe le matin." }
+          ]
+        },
+        "en": {
+          "label": "Garbage Collector",
+          "phrases": [
+            { "emoji": "🗑️", "text": "The garbage collector picks up trash." },
+            { "emoji": "🗑️", "text": "The garbage collector cleans the city." },
+            { "emoji": "🗑️", "text": "I want to be a garbage collector." },
+            {
+              "emoji": "🗑️",
+              "text": "The garbage collector comes in the morning."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cleaner",
+      "image": "🧹",
+      "translations": {
+        "fr": {
+          "label": "Agent d'entretien",
+          "phrases": [
+            {
+              "emoji": "🧹",
+              "text": "L'agent d'entretien nettoie les bureaux."
+            },
+            { "emoji": "🧹", "text": "L'agent d'entretien utilise un balai." },
+            { "emoji": "🧹", "text": "Je veux être agent d'entretien." },
+            { "emoji": "🧹", "text": "L'agent d'entretien garde tout propre." }
+          ]
+        },
+        "en": {
+          "label": "Cleaner",
+          "phrases": [
+            { "emoji": "🧹", "text": "The cleaner cleans offices." },
+            { "emoji": "🧹", "text": "The cleaner uses a broom." },
+            { "emoji": "🧹", "text": "I want to be a cleaner." },
+            { "emoji": "🧹", "text": "The cleaner keeps everything clean." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "painter",
+      "image": "🎨",
+      "translations": {
+        "fr": {
+          "label": "Peintre",
+          "phrases": [
+            { "emoji": "🎨", "text": "Le peintre peint les murs." },
+            { "emoji": "🎨", "text": "Le peintre utilise de la peinture." },
+            { "emoji": "🎨", "text": "Je veux être peintre." },
+            { "emoji": "🎨", "text": "Le peintre colore la maison." }
+          ]
+        },
+        "en": {
+          "label": "Painter",
+          "phrases": [
+            { "emoji": "🎨", "text": "The painter paints walls." },
+            { "emoji": "🎨", "text": "The painter uses paint." },
+            { "emoji": "🎨", "text": "I want to be a painter." },
+            { "emoji": "🎨", "text": "The painter colors the house." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mason",
+      "image": "🧱",
+      "translations": {
+        "fr": {
+          "label": "Maçon",
+          "phrases": [
+            { "emoji": "🧱", "text": "Le maçon construit des murs." },
+            { "emoji": "🧱", "text": "Le maçon pose des briques." },
+            { "emoji": "🧱", "text": "Je veux être maçon." },
+            { "emoji": "🧱", "text": "Le maçon est fort." }
+          ]
+        },
+        "en": {
+          "label": "Mason",
+          "phrases": [
+            { "emoji": "🧱", "text": "The mason builds walls." },
+            { "emoji": "🧱", "text": "The mason lays bricks." },
+            { "emoji": "🧱", "text": "I want to be a mason." },
+            { "emoji": "🧱", "text": "The mason is strong." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "veterinarian",
+      "image": "🐾",
+      "translations": {
+        "fr": {
+          "label": "Vétérinaire",
+          "phrases": [
+            { "emoji": "🐾", "text": "Le vétérinaire soigne les animaux." },
+            { "emoji": "🐾", "text": "Je vais chez le vétérinaire." },
+            { "emoji": "🐾", "text": "Je veux être vétérinaire." },
+            { "emoji": "🐾", "text": "Le vétérinaire aime les animaux." }
+          ]
+        },
+        "en": {
+          "label": "Veterinarian",
+          "phrases": [
+            { "emoji": "🐾", "text": "The veterinarian treats animals." },
+            { "emoji": "🐾", "text": "I go to the veterinarian." },
+            { "emoji": "🐾", "text": "I want to be a veterinarian." },
+            { "emoji": "🐾", "text": "The veterinarian loves animals." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lawyer",
+      "image": "⚖️",
+      "translations": {
+        "fr": {
+          "label": "Avocat",
+          "phrases": [
+            { "emoji": "⚖️", "text": "L'avocat défend ses clients." },
+            { "emoji": "⚖️", "text": "L'avocat connaît la loi." },
+            { "emoji": "⚖️", "text": "Je veux être avocat." },
+            { "emoji": "⚖️", "text": "L'avocat parle au tribunal." }
+          ]
+        },
+        "en": {
+          "label": "Lawyer",
+          "phrases": [
+            { "emoji": "⚖️", "text": "The lawyer defends clients." },
+            { "emoji": "⚖️", "text": "The lawyer knows the law." },
+            { "emoji": "⚖️", "text": "I want to be a lawyer." },
+            { "emoji": "⚖️", "text": "The lawyer speaks in court." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "engineer",
+      "image": "⚙️",
+      "translations": {
+        "fr": {
+          "label": "Ingénieur",
+          "phrases": [
+            { "emoji": "⚙️", "text": "L'ingénieur conçoit des machines." },
+            { "emoji": "⚙️", "text": "L'ingénieur résout des problèmes." },
+            { "emoji": "⚙️", "text": "Je veux être ingénieur." },
+            { "emoji": "⚙️", "text": "L'ingénieur est intelligent." }
+          ]
+        },
+        "en": {
+          "label": "Engineer",
+          "phrases": [
+            { "emoji": "⚙️", "text": "The engineer designs machines." },
+            { "emoji": "⚙️", "text": "The engineer solves problems." },
+            { "emoji": "⚙️", "text": "I want to be an engineer." },
+            { "emoji": "⚙️", "text": "The engineer is smart." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "musician",
+      "image": "🎵",
+      "translations": {
+        "fr": {
+          "label": "Musicien",
+          "phrases": [
+            { "emoji": "🎵", "text": "Le musicien joue de la musique." },
+            { "emoji": "🎵", "text": "Le musicien a un instrument." },
+            { "emoji": "🎵", "text": "Je veux être musicien." },
+            { "emoji": "🎵", "text": "Le musicien compose des chansons." }
+          ]
+        },
+        "en": {
+          "label": "Musician",
+          "phrases": [
+            { "emoji": "🎵", "text": "The musician plays music." },
+            { "emoji": "🎵", "text": "The musician has an instrument." },
+            { "emoji": "🎵", "text": "I want to be a musician." },
+            { "emoji": "🎵", "text": "The musician composes songs." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "writer",
+      "image": "✍️",
+      "translations": {
+        "fr": {
+          "label": "Écrivain",
+          "phrases": [
+            { "emoji": "✍️", "text": "L'écrivain écrit des livres." },
+            { "emoji": "✍️", "text": "L'écrivain raconte des histoires." },
+            { "emoji": "✍️", "text": "Je veux être écrivain." },
+            { "emoji": "✍️", "text": "L'écrivain a beaucoup d'imagination." }
+          ]
+        },
+        "en": {
+          "label": "Writer",
+          "phrases": [
+            { "emoji": "✍️", "text": "The writer writes books." },
+            { "emoji": "✍️", "text": "The writer tells stories." },
+            { "emoji": "✍️", "text": "I want to be a writer." },
+            { "emoji": "✍️", "text": "The writer has a lot of imagination." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "detective",
+      "image": "🕵️",
+      "translations": {
+        "fr": {
+          "label": "Détective",
+          "phrases": [
+            { "emoji": "🕵️", "text": "Le détective résout des enquêtes." },
+            { "emoji": "🕵️", "text": "Le détective cherche des indices." },
+            { "emoji": "🕵️", "text": "Je veux être détective." },
+            { "emoji": "🕵️", "text": "Le détective est très observateur." }
+          ]
+        },
+        "en": {
+          "label": "Detective",
+          "phrases": [
+            { "emoji": "🕵️", "text": "The detective solves investigations." },
+            { "emoji": "🕵️", "text": "The detective looks for clues." },
+            { "emoji": "🕵️", "text": "I want to be a detective." },
+            { "emoji": "🕵️", "text": "The detective is very observant." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sailor",
+      "image": "⛵",
+      "translations": {
+        "fr": {
+          "label": "Marin",
+          "phrases": [
+            { "emoji": "⛵", "text": "Le marin navigue sur la mer." },
+            { "emoji": "⛵", "text": "Le marin travaille sur un bateau." },
+            { "emoji": "⛵", "text": "Je veux être marin." },
+            { "emoji": "⛵", "text": "Le marin connaît bien l'océan." }
+          ]
+        },
+        "en": {
+          "label": "Sailor",
+          "phrases": [
+            { "emoji": "⛵", "text": "The sailor sails on the sea." },
+            { "emoji": "⛵", "text": "The sailor works on a boat." },
+            { "emoji": "⛵", "text": "I want to be a sailor." },
+            { "emoji": "⛵", "text": "The sailor knows the ocean well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lifeguard",
+      "image": "🏊",
+      "translations": {
+        "fr": {
+          "label": "Sauveteur",
+          "phrases": [
+            { "emoji": "🏊", "text": "Le sauveteur surveille la plage." },
+            { "emoji": "🏊", "text": "Le sauveteur sauve des vies." },
+            { "emoji": "🏊", "text": "Je veux être sauveteur." },
+            { "emoji": "🏊", "text": "Le sauveteur nage très bien." }
+          ]
+        },
+        "en": {
+          "label": "Lifeguard",
+          "phrases": [
+            { "emoji": "🏊", "text": "The lifeguard watches the beach." },
+            { "emoji": "🏊", "text": "The lifeguard saves lives." },
+            { "emoji": "🏊", "text": "I want to be a lifeguard." },
+            { "emoji": "🏊", "text": "The lifeguard swims very well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "astronomer",
+      "image": "🔭",
+      "translations": {
+        "fr": {
+          "label": "Astronome",
+          "phrases": [
+            { "emoji": "🔭", "text": "L'astronome observe les étoiles." },
+            { "emoji": "🔭", "text": "L'astronome étudie l'univers." },
+            { "emoji": "🔭", "text": "Je veux être astronome." },
+            { "emoji": "🔭", "text": "L'astronome utilise un télescope." }
+          ]
+        },
+        "en": {
+          "label": "Astronomer",
+          "phrases": [
+            { "emoji": "🔭", "text": "The astronomer observes the stars." },
+            { "emoji": "🔭", "text": "The astronomer studies the universe." },
+            { "emoji": "🔭", "text": "I want to be an astronomer." },
+            { "emoji": "🔭", "text": "The astronomer uses a telescope." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "archaeologist",
+      "image": "🏺",
+      "translations": {
+        "fr": {
+          "label": "Archéologue",
+          "phrases": [
+            { "emoji": "🏺", "text": "L'archéologue fouille le sol." },
+            { "emoji": "🏺", "text": "L'archéologue découvre des objets anciens." },
+            { "emoji": "🏺", "text": "Je veux être archéologue." },
+            { "emoji": "🏺", "text": "L'archéologue étudie l'histoire." }
+          ]
+        },
+        "en": {
+          "label": "Archaeologist",
+          "phrases": [
+            { "emoji": "🏺", "text": "The archaeologist digs the ground." },
+            { "emoji": "🏺", "text": "The archaeologist discovers ancient objects." },
+            { "emoji": "🏺", "text": "I want to be an archaeologist." },
+            { "emoji": "🏺", "text": "The archaeologist studies history." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "magician",
+      "image": "🎩",
+      "translations": {
+        "fr": {
+          "label": "Magicien",
+          "phrases": [
+            { "emoji": "🎩", "text": "Le magicien fait des tours de magie." },
+            { "emoji": "🎩", "text": "Le magicien divertit le public." },
+            { "emoji": "🎩", "text": "Je veux être magicien." },
+            { "emoji": "🎩", "text": "Le magicien a un chapeau magique." }
+          ]
+        },
+        "en": {
+          "label": "Magician",
+          "phrases": [
+            { "emoji": "🎩", "text": "The magician performs magic tricks." },
+            { "emoji": "🎩", "text": "The magician entertains the audience." },
+            { "emoji": "🎩", "text": "I want to be a magician." },
+            { "emoji": "🎩", "text": "The magician has a magic hat." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "professional-athlete",
+      "image": "🏃",
+      "translations": {
+        "fr": {
+          "label": "Sportif professionnel",
+          "phrases": [
+            { "emoji": "🏃", "text": "Le sportif s'entraîne tous les jours." },
+            { "emoji": "🏃", "text": "Le sportif participe à des compétitions." },
+            { "emoji": "🏃", "text": "Je veux être sportif professionnel." },
+            { "emoji": "🏃", "text": "Le sportif est en excellente forme." }
+          ]
+        },
+        "en": {
+          "label": "Professional Athlete",
+          "phrases": [
+            { "emoji": "🏃", "text": "The athlete trains every day." },
+            { "emoji": "🏃", "text": "The athlete participates in competitions." },
+            { "emoji": "🏃", "text": "I want to be a professional athlete." },
+            { "emoji": "🏃", "text": "The athlete is in excellent shape." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lumberjack",
+      "image": "🪓",
+      "translations": {
+        "fr": {
+          "label": "Bûcheron",
+          "phrases": [
+            { "emoji": "🪓", "text": "Le bûcheron coupe des arbres." },
+            { "emoji": "🪓", "text": "Le bûcheron travaille dans la forêt." },
+            { "emoji": "🪓", "text": "Je veux être bûcheron." },
+            { "emoji": "🪓", "text": "Le bûcheron utilise une hache." }
+          ]
+        },
+        "en": {
+          "label": "Lumberjack",
+          "phrases": [
+            { "emoji": "🪓", "text": "The lumberjack cuts down trees." },
+            { "emoji": "🪓", "text": "The lumberjack works in the forest." },
+            { "emoji": "🪓", "text": "I want to be a lumberjack." },
+            { "emoji": "🪓", "text": "The lumberjack uses an axe." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "miner",
+      "image": "⛏️",
+      "translations": {
+        "fr": {
+          "label": "Mineur",
+          "phrases": [
+            { "emoji": "⛏️", "text": "Le mineur extrait des minéraux." },
+            { "emoji": "⛏️", "text": "Le mineur travaille sous terre." },
+            { "emoji": "⛏️", "text": "Je veux être mineur." },
+            { "emoji": "⛏️", "text": "Le mineur utilise une pioche." }
+          ]
+        },
+        "en": {
+          "label": "Miner",
+          "phrases": [
+            { "emoji": "⛏️", "text": "The miner extracts minerals." },
+            { "emoji": "⛏️", "text": "The miner works underground." },
+            { "emoji": "⛏️", "text": "I want to be a miner." },
+            { "emoji": "⛏️", "text": "The miner uses a pickaxe." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fisherman",
+      "image": "🎣",
+      "translations": {
+        "fr": {
+          "label": "Pêcheur",
+          "phrases": [
+            { "emoji": "🎣", "text": "Le pêcheur attrape des poissons." },
+            { "emoji": "🎣", "text": "Le pêcheur va en mer." },
+            { "emoji": "🎣", "text": "Je veux être pêcheur." },
+            { "emoji": "🎣", "text": "Le pêcheur utilise une canne à pêche." }
+          ]
+        },
+        "en": {
+          "label": "Fisherman",
+          "phrases": [
+            { "emoji": "🎣", "text": "The fisherman catches fish." },
+            { "emoji": "🎣", "text": "The fisherman goes to sea." },
+            { "emoji": "🎣", "text": "I want to be a fisherman." },
+            { "emoji": "🎣", "text": "The fisherman uses a fishing rod." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "priest",
+      "image": "⛪",
+      "translations": {
+        "fr": {
+          "label": "Prêtre",
+          "phrases": [
+            { "emoji": "⛪", "text": "Le prêtre célèbre la messe." },
+            { "emoji": "⛪", "text": "Le prêtre aide les gens." },
+            { "emoji": "⛪", "text": "Je veux être prêtre." },
+            { "emoji": "⛪", "text": "Le prêtre travaille à l'église." }
+          ]
+        },
+        "en": {
+          "label": "Priest",
+          "phrases": [
+            { "emoji": "⛪", "text": "The priest celebrates mass." },
+            { "emoji": "⛪", "text": "The priest helps people." },
+            { "emoji": "⛪", "text": "I want to be a priest." },
+            { "emoji": "⛪", "text": "The priest works at the church." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "soldier",
+      "image": "🪖",
+      "translations": {
+        "fr": {
+          "label": "Militaire",
+          "phrases": [
+            { "emoji": "🪖", "text": "Le militaire protège le pays." },
+            { "emoji": "🪖", "text": "Le militaire est discipliné." },
+            { "emoji": "🪖", "text": "Je veux être militaire." },
+            { "emoji": "🪖", "text": "Le militaire porte un uniforme." }
+          ]
+        },
+        "en": {
+          "label": "Soldier",
+          "phrases": [
+            { "emoji": "🪖", "text": "The soldier protects the country." },
+            { "emoji": "🪖", "text": "The soldier is disciplined." },
+            { "emoji": "🪖", "text": "I want to be a soldier." },
+            { "emoji": "🪖", "text": "The soldier wears a uniform." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carpenter",
+      "image": "🪚",
+      "translations": {
+        "fr": {
+          "label": "Menuisier",
+          "phrases": [
+            { "emoji": "🪚", "text": "Le menuisier travaille le bois." },
+            { "emoji": "🪚", "text": "Le menuisier fabrique des meubles." },
+            { "emoji": "🪚", "text": "Je veux être menuisier." },
+            { "emoji": "🪚", "text": "Le menuisier utilise une scie." }
+          ]
+        },
+        "en": {
+          "label": "Carpenter",
+          "phrases": [
+            { "emoji": "🪚", "text": "The carpenter works with wood." },
+            { "emoji": "🪚", "text": "The carpenter makes furniture." },
+            { "emoji": "🪚", "text": "I want to be a carpenter." },
+            { "emoji": "🪚", "text": "The carpenter uses a saw." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "truck-driver",
+      "image": "🚛",
+      "translations": {
+        "fr": {
+          "label": "Chauffeur poids-lourds",
+          "phrases": [
+            { "emoji": "🚛", "text": "Le chauffeur conduit un camion." },
+            { "emoji": "🚛", "text": "Le chauffeur transporte des marchandises." },
+            { "emoji": "🚛", "text": "Je veux être chauffeur poids-lourds." },
+            { "emoji": "🚛", "text": "Le chauffeur fait de longs trajets." }
+          ]
+        },
+        "en": {
+          "label": "Truck Driver",
+          "phrases": [
+            { "emoji": "🚛", "text": "The driver drives a truck." },
+            { "emoji": "🚛", "text": "The driver transports goods." },
+            { "emoji": "🚛", "text": "I want to be a truck driver." },
+            { "emoji": "🚛", "text": "The driver makes long trips." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "flight-attendant",
+      "image": "✈️",
+      "translations": {
+        "fr": {
+          "label": "Hôtesse de l'air",
+          "phrases": [
+            { "emoji": "✈️", "text": "L'hôtesse accueille les passagers." },
+            { "emoji": "✈️", "text": "L'hôtesse sert les repas dans l'avion." },
+            { "emoji": "✈️", "text": "Je veux être hôtesse de l'air." },
+            { "emoji": "✈️", "text": "L'hôtesse assure la sécurité des passagers." }
+          ]
+        },
+        "en": {
+          "label": "Flight Attendant",
+          "phrases": [
+            { "emoji": "✈️", "text": "The flight attendant welcomes passengers." },
+            { "emoji": "✈️", "text": "The flight attendant serves meals on the plane." },
+            { "emoji": "✈️", "text": "I want to be a flight attendant." },
+            { "emoji": "✈️", "text": "The flight attendant ensures passenger safety." }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -61,12 +61,12 @@ export const CATEGORIES: Category[] = [
     },
   },
   {
-    id: 'sentiments',
+    id: 'feelings',
     icon: '😊',
     color: Colors.softYellow,
     translations: {
       fr: 'Sentiments',
-      en: 'Sentiments',
+      en: 'Feelings',
     },
   },
   {
@@ -169,6 +169,15 @@ export const CATEGORIES: Category[] = [
     },
   },
   {
+    id: 'carnival',
+    icon: '🎡',
+    color: Colors.softYellow,
+    translations: {
+      fr: 'Fête Foraine',
+      en: 'Carnival',
+    },
+  },
+  {
     id: 'fruits',
     icon: '🍎',
     color: Colors.pink,
@@ -241,21 +250,30 @@ export const CATEGORIES: Category[] = [
     },
   },
   {
-    id: 'care',
+    id: 'selfcare',
     icon: '🧼',
     color: Colors.pink,
     translations: {
-      fr: 'Soins',
-      en: 'Care',
+      fr: 'Soin de soi',
+      en: 'Self Care',
     },
   },
   {
-    id: 'home',
+    id: 'household',
     icon: '🏠',
     color: Colors.peach,
     translations: {
-      fr: 'Maison',
-      en: 'Home',
+      fr: 'Dans la maison',
+      en: 'Household',
+    },
+  },
+  {
+    id: 'diabetes',
+    icon: '🩸',
+    color: Colors.coral,
+    translations: {
+      fr: 'Diabète',
+      en: 'Diabetes',
     },
   },
 ];

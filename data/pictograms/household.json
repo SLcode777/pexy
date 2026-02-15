@@ -1,0 +1,1013 @@
+{
+  "category": "household",
+  "pictograms": [
+    {
+      "id": "water-bottle",
+      "image": "🧴",
+      "translations": {
+        "fr": {
+          "label": "Bouteille d'eau",
+          "phrases": [
+            { "emoji": "🧴", "text": "Je bois dans ma bouteille d'eau." },
+            { "emoji": "🧴", "text": "Je veux ma bouteille d'eau." },
+            { "emoji": "💧", "text": "Ma bouteille est pleine." },
+            { "emoji": "🧴", "text": "J'aime ma bouteille d'eau." }
+          ]
+        },
+        "en": {
+          "label": "Water Bottle",
+          "phrases": [
+            { "emoji": "🧴", "text": "I drink from my water bottle." },
+            { "emoji": "🧴", "text": "I want my water bottle." },
+            { "emoji": "💧", "text": "My bottle is full." },
+            { "emoji": "🧴", "text": "I like my water bottle." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cup",
+      "image": "☕",
+      "translations": {
+        "fr": {
+          "label": "Tasse",
+          "phrases": [
+            { "emoji": "☕", "text": "Je bois dans une tasse." },
+            { "emoji": "☕", "text": "Je veux une tasse." },
+            { "emoji": "☕", "text": "Ma tasse est chaude." },
+            { "emoji": "☕", "text": "J'aime cette tasse." }
+          ]
+        },
+        "en": {
+          "label": "Cup",
+          "phrases": [
+            { "emoji": "☕", "text": "I drink from a cup." },
+            { "emoji": "☕", "text": "I want a cup." },
+            { "emoji": "☕", "text": "My cup is hot." },
+            { "emoji": "☕", "text": "I like this cup." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "coffee-cup",
+      "image": "☕",
+      "translations": {
+        "fr": {
+          "label": "Tasse à café",
+          "phrases": [
+            { "emoji": "☕", "text": "Je bois du café dans ma tasse." },
+            { "emoji": "☕", "text": "Je veux une tasse à café." },
+            { "emoji": "☕", "text": "Ma tasse de café est chaude." },
+            { "emoji": "☕", "text": "J'aime mon café." }
+          ]
+        },
+        "en": {
+          "label": "Coffee Cup",
+          "phrases": [
+            { "emoji": "☕", "text": "I drink coffee from my cup." },
+            { "emoji": "☕", "text": "I want a coffee cup." },
+            { "emoji": "☕", "text": "My coffee cup is hot." },
+            { "emoji": "☕", "text": "I like my coffee." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "keyboard",
+      "image": "⌨️",
+      "translations": {
+        "fr": {
+          "label": "Clavier",
+          "phrases": [
+            { "emoji": "⌨️", "text": "J'utilise le clavier." },
+            { "emoji": "⌨️", "text": "Je veux un clavier." },
+            { "emoji": "⌨️", "text": "Je tape sur le clavier." },
+            { "emoji": "⌨️", "text": "Mon clavier fonctionne bien." }
+          ]
+        },
+        "en": {
+          "label": "Keyboard",
+          "phrases": [
+            { "emoji": "⌨️", "text": "I use the keyboard." },
+            { "emoji": "⌨️", "text": "I want a keyboard." },
+            { "emoji": "⌨️", "text": "I type on the keyboard." },
+            { "emoji": "⌨️", "text": "My keyboard works well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "computer",
+      "image": "🖥️",
+      "translations": {
+        "fr": {
+          "label": "Ordinateur",
+          "phrases": [
+            { "emoji": "🖥️", "text": "J'utilise l'ordinateur." },
+            { "emoji": "🖥️", "text": "Je veux l'ordinateur." },
+            { "emoji": "🖥️", "text": "Je travaille sur l'ordinateur." },
+            { "emoji": "🖥️", "text": "J'aime l'ordinateur." }
+          ]
+        },
+        "en": {
+          "label": "Computer",
+          "phrases": [
+            { "emoji": "🖥️", "text": "I use the computer." },
+            { "emoji": "🖥️", "text": "I want the computer." },
+            { "emoji": "🖥️", "text": "I work on the computer." },
+            { "emoji": "🖥️", "text": "I like the computer." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "screen",
+      "image": "🖥️",
+      "translations": {
+        "fr": {
+          "label": "Écran",
+          "phrases": [
+            { "emoji": "🖥️", "text": "Je regarde l'écran." },
+            { "emoji": "🖥️", "text": "Je veux un écran." },
+            { "emoji": "🖥️", "text": "L'écran est allumé." },
+            { "emoji": "🖥️", "text": "L'écran est grand." }
+          ]
+        },
+        "en": {
+          "label": "Screen",
+          "phrases": [
+            { "emoji": "🖥️", "text": "I look at the screen." },
+            { "emoji": "🖥️", "text": "I want a screen." },
+            { "emoji": "🖥️", "text": "The screen is on." },
+            { "emoji": "🖥️", "text": "The screen is big." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "game-controller",
+      "image": "🎮",
+      "translations": {
+        "fr": {
+          "label": "Manette",
+          "phrases": [
+            { "emoji": "🎮", "text": "J'utilise la manette." },
+            { "emoji": "🎮", "text": "Je veux la manette." },
+            { "emoji": "🎮", "text": "Je joue avec la manette." },
+            { "emoji": "🎮", "text": "Ma manette fonctionne bien." }
+          ]
+        },
+        "en": {
+          "label": "Game Controller",
+          "phrases": [
+            { "emoji": "🎮", "text": "I use the controller." },
+            { "emoji": "🎮", "text": "I want the controller." },
+            { "emoji": "🎮", "text": "I play with the controller." },
+            { "emoji": "🎮", "text": "My controller works well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pencil-household",
+      "image": "✏️",
+      "translations": {
+        "fr": {
+          "label": "Crayon",
+          "phrases": [
+            { "emoji": "✏️", "text": "J'utilise un crayon." },
+            { "emoji": "✏️", "text": "Je veux un crayon." },
+            { "emoji": "✏️", "text": "J'écris avec le crayon." },
+            { "emoji": "✏️", "text": "Mon crayon est bien taillé." }
+          ]
+        },
+        "en": {
+          "label": "Pencil",
+          "phrases": [
+            { "emoji": "✏️", "text": "I use a pencil." },
+            { "emoji": "✏️", "text": "I want a pencil." },
+            { "emoji": "✏️", "text": "I write with the pencil." },
+            { "emoji": "✏️", "text": "My pencil is well sharpened." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eraser-household",
+      "image": "🧽",
+      "translations": {
+        "fr": {
+          "label": "Gomme",
+          "phrases": [
+            { "emoji": "🧽", "text": "J'utilise la gomme." },
+            { "emoji": "🧽", "text": "Je veux une gomme." },
+            { "emoji": "🧽", "text": "J'efface avec la gomme." },
+            { "emoji": "🧽", "text": "Ma gomme efface bien." }
+          ]
+        },
+        "en": {
+          "label": "Eraser",
+          "phrases": [
+            { "emoji": "🧽", "text": "I use the eraser." },
+            { "emoji": "🧽", "text": "I want an eraser." },
+            { "emoji": "🧽", "text": "I erase with the eraser." },
+            { "emoji": "🧽", "text": "My eraser erases well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pencil-sharpener-household",
+      "image": "✂️",
+      "translations": {
+        "fr": {
+          "label": "Taille-crayon",
+          "phrases": [
+            { "emoji": "✂️", "text": "J'utilise le taille-crayon." },
+            { "emoji": "✂️", "text": "Je veux un taille-crayon." },
+            { "emoji": "✂️", "text": "Je taille mon crayon." },
+            { "emoji": "✂️", "text": "Le taille-crayon marche bien." }
+          ]
+        },
+        "en": {
+          "label": "Pencil Sharpener",
+          "phrases": [
+            { "emoji": "✂️", "text": "I use the pencil sharpener." },
+            { "emoji": "✂️", "text": "I want a pencil sharpener." },
+            { "emoji": "✂️", "text": "I sharpen my pencil." },
+            { "emoji": "✂️", "text": "The sharpener works well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fan",
+      "image": "🪭",
+      "translations": {
+        "fr": {
+          "label": "Ventilateur",
+          "phrases": [
+            { "emoji": "🪭", "text": "J'allume le ventilateur." },
+            { "emoji": "🪭", "text": "Je veux le ventilateur." },
+            { "emoji": "💨", "text": "Le ventilateur fait du vent." },
+            { "emoji": "🪭", "text": "J'aime le ventilateur." }
+          ]
+        },
+        "en": {
+          "label": "Fan",
+          "phrases": [
+            { "emoji": "🪭", "text": "I turn on the fan." },
+            { "emoji": "🪭", "text": "I want the fan." },
+            { "emoji": "💨", "text": "The fan makes wind." },
+            { "emoji": "🪭", "text": "I like the fan." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "air-conditioner",
+      "image": "❄️",
+      "translations": {
+        "fr": {
+          "label": "Climatiseur",
+          "phrases": [
+            { "emoji": "❄️", "text": "J'allume la climatisation." },
+            { "emoji": "❄️", "text": "Je veux la climatisation." },
+            { "emoji": "❄️", "text": "La climatisation refroidit." },
+            { "emoji": "❄️", "text": "J'aime la climatisation." }
+          ]
+        },
+        "en": {
+          "label": "Air Conditioner",
+          "phrases": [
+            { "emoji": "❄️", "text": "I turn on the AC." },
+            { "emoji": "❄️", "text": "I want the AC." },
+            { "emoji": "❄️", "text": "The AC cools down." },
+            { "emoji": "❄️", "text": "I like the AC." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "heater",
+      "image": "🔥",
+      "translations": {
+        "fr": {
+          "label": "Chauffage",
+          "phrases": [
+            { "emoji": "🔥", "text": "J'allume le chauffage." },
+            { "emoji": "🔥", "text": "Je veux le chauffage." },
+            { "emoji": "🔥", "text": "Le chauffage réchauffe." },
+            { "emoji": "🔥", "text": "J'aime le chauffage." }
+          ]
+        },
+        "en": {
+          "label": "Heater",
+          "phrases": [
+            { "emoji": "🔥", "text": "I turn on the heater." },
+            { "emoji": "🔥", "text": "I want the heater." },
+            { "emoji": "🔥", "text": "The heater warms up." },
+            { "emoji": "🔥", "text": "I like the heater." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mobile-phone",
+      "image": "📱",
+      "translations": {
+        "fr": {
+          "label": "Téléphone portable",
+          "phrases": [
+            { "emoji": "📱", "text": "J'utilise mon téléphone." },
+            { "emoji": "📱", "text": "Je veux mon téléphone." },
+            { "emoji": "📱", "text": "Je regarde mon téléphone." },
+            { "emoji": "📱", "text": "J'aime mon téléphone." }
+          ]
+        },
+        "en": {
+          "label": "Mobile Phone",
+          "phrases": [
+            { "emoji": "📱", "text": "I use my phone." },
+            { "emoji": "📱", "text": "I want my phone." },
+            { "emoji": "📱", "text": "I look at my phone." },
+            { "emoji": "📱", "text": "I like my phone." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "backpack-household",
+      "image": "🎒",
+      "translations": {
+        "fr": {
+          "label": "Sac à dos",
+          "phrases": [
+            { "emoji": "🎒", "text": "Je porte mon sac à dos." },
+            { "emoji": "🎒", "text": "Je veux mon sac à dos." },
+            { "emoji": "🎒", "text": "Je range mes affaires dans mon sac." },
+            { "emoji": "🎒", "text": "J'aime mon sac à dos." }
+          ]
+        },
+        "en": {
+          "label": "Backpack",
+          "phrases": [
+            { "emoji": "🎒", "text": "I wear my backpack." },
+            { "emoji": "🎒", "text": "I want my backpack." },
+            { "emoji": "🎒", "text": "I put my things in my bag." },
+            { "emoji": "🎒", "text": "I like my backpack." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beach-chair",
+      "image": "🪑",
+      "translations": {
+        "fr": {
+          "label": "Chaise de plage",
+          "phrases": [
+            { "emoji": "🪑", "text": "Je m'assois sur la chaise de plage." },
+            { "emoji": "🪑", "text": "Je veux une chaise de plage." },
+            { "emoji": "🪑", "text": "La chaise de plage est confortable." },
+            { "emoji": "🪑", "text": "J'aime la chaise de plage." }
+          ]
+        },
+        "en": {
+          "label": "Beach Chair",
+          "phrases": [
+            { "emoji": "🪑", "text": "I sit on the beach chair." },
+            { "emoji": "🪑", "text": "I want a beach chair." },
+            { "emoji": "🪑", "text": "The beach chair is comfortable." },
+            { "emoji": "🪑", "text": "I like the beach chair." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "table",
+      "image": "🪑",
+      "translations": {
+        "fr": {
+          "label": "Table",
+          "phrases": [
+            { "emoji": "🪑", "text": "Je mange à table." },
+            { "emoji": "🪑", "text": "Je veux une table." },
+            { "emoji": "🪑", "text": "Je travaille à la table." },
+            { "emoji": "🪑", "text": "La table est grande." }
+          ]
+        },
+        "en": {
+          "label": "Table",
+          "phrases": [
+            { "emoji": "🪑", "text": "I eat at the table." },
+            { "emoji": "🪑", "text": "I want a table." },
+            { "emoji": "🪑", "text": "I work at the table." },
+            { "emoji": "🪑", "text": "The table is big." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "teapot",
+      "image": "🫖",
+      "translations": {
+        "fr": {
+          "label": "Théière",
+          "phrases": [
+            { "emoji": "🫖", "text": "J'utilise la théière." },
+            { "emoji": "🫖", "text": "Je veux la théière." },
+            { "emoji": "🫖", "text": "Je fais du thé avec la théière." },
+            { "emoji": "🫖", "text": "J'aime ma théière." }
+          ]
+        },
+        "en": {
+          "label": "Teapot",
+          "phrases": [
+            { "emoji": "🫖", "text": "I use the teapot." },
+            { "emoji": "🫖", "text": "I want the teapot." },
+            { "emoji": "🫖", "text": "I make tea with the teapot." },
+            { "emoji": "🫖", "text": "I like my teapot." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "soap-dispenser",
+      "image": "🧴",
+      "translations": {
+        "fr": {
+          "label": "Distributeur de savon",
+          "phrases": [
+            { "emoji": "🧴", "text": "J'utilise le distributeur de savon." },
+            { "emoji": "🧴", "text": "Je veux du savon." },
+            { "emoji": "🧼", "text": "Je me lave les mains avec du savon." },
+            { "emoji": "🧴", "text": "Le distributeur fonctionne bien." }
+          ]
+        },
+        "en": {
+          "label": "Soap Dispenser",
+          "phrases": [
+            { "emoji": "🧴", "text": "I use the soap dispenser." },
+            { "emoji": "🧴", "text": "I want soap." },
+            { "emoji": "🧼", "text": "I wash my hands with soap." },
+            { "emoji": "🧴", "text": "The dispenser works well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sock",
+      "image": "🧦",
+      "translations": {
+        "fr": {
+          "label": "Chaussette",
+          "phrases": [
+            { "emoji": "🧦", "text": "Je porte des chaussettes." },
+            { "emoji": "🧦", "text": "Je veux des chaussettes." },
+            { "emoji": "🧦", "text": "Mes chaussettes sont chaudes." },
+            { "emoji": "🧦", "text": "J'aime mes chaussettes." }
+          ]
+        },
+        "en": {
+          "label": "Sock",
+          "phrases": [
+            { "emoji": "🧦", "text": "I wear socks." },
+            { "emoji": "🧦", "text": "I want socks." },
+            { "emoji": "🧦", "text": "My socks are warm." },
+            { "emoji": "🧦", "text": "I like my socks." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "desk-household",
+      "image": "🪑",
+      "translations": {
+        "fr": {
+          "label": "Bureau",
+          "phrases": [
+            { "emoji": "🪑", "text": "Je travaille au bureau." },
+            { "emoji": "🪑", "text": "Je veux un bureau." },
+            { "emoji": "🪑", "text": "Mon bureau est rangé." },
+            { "emoji": "🪑", "text": "J'aime mon bureau." }
+          ]
+        },
+        "en": {
+          "label": "Desk",
+          "phrases": [
+            { "emoji": "🪑", "text": "I work at the desk." },
+            { "emoji": "🪑", "text": "I want a desk." },
+            { "emoji": "🪑", "text": "My desk is tidy." },
+            { "emoji": "🪑", "text": "I like my desk." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "printer",
+      "image": "🖨️",
+      "translations": {
+        "fr": {
+          "label": "Imprimante",
+          "phrases": [
+            { "emoji": "🖨️", "text": "J'utilise l'imprimante." },
+            { "emoji": "🖨️", "text": "Je veux l'imprimante." },
+            { "emoji": "🖨️", "text": "J'imprime avec l'imprimante." },
+            { "emoji": "🖨️", "text": "L'imprimante fonctionne bien." }
+          ]
+        },
+        "en": {
+          "label": "Printer",
+          "phrases": [
+            { "emoji": "🖨️", "text": "I use the printer." },
+            { "emoji": "🖨️", "text": "I want the printer." },
+            { "emoji": "🖨️", "text": "I print with the printer." },
+            { "emoji": "🖨️", "text": "The printer works well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "stove",
+      "image": "🔥",
+      "translations": {
+        "fr": {
+          "label": "Gazinière",
+          "phrases": [
+            { "emoji": "🔥", "text": "J'utilise la gazinière." },
+            { "emoji": "🔥", "text": "Je veux la gazinière." },
+            { "emoji": "🍳", "text": "Je cuisine sur la gazinière." },
+            { "emoji": "🔥", "text": "La gazinière est allumée." }
+          ]
+        },
+        "en": {
+          "label": "Stove",
+          "phrases": [
+            { "emoji": "🔥", "text": "I use the stove." },
+            { "emoji": "🔥", "text": "I want the stove." },
+            { "emoji": "🍳", "text": "I cook on the stove." },
+            { "emoji": "🔥", "text": "The stove is on." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "frying-pan",
+      "image": "🍳",
+      "translations": {
+        "fr": {
+          "label": "Poêle à frire",
+          "phrases": [
+            { "emoji": "🍳", "text": "J'utilise la poêle." },
+            { "emoji": "🍳", "text": "Je veux une poêle." },
+            { "emoji": "🍳", "text": "Je cuisine dans la poêle." },
+            { "emoji": "🍳", "text": "La poêle est chaude." }
+          ]
+        },
+        "en": {
+          "label": "Frying Pan",
+          "phrases": [
+            { "emoji": "🍳", "text": "I use the pan." },
+            { "emoji": "🍳", "text": "I want a pan." },
+            { "emoji": "🍳", "text": "I cook in the pan." },
+            { "emoji": "🍳", "text": "The pan is hot." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bed",
+      "image": "🛏️",
+      "translations": {
+        "fr": {
+          "label": "Lit",
+          "phrases": [
+            { "emoji": "🛏️", "text": "Je dors dans mon lit." },
+            { "emoji": "🛏️", "text": "Je veux mon lit." },
+            { "emoji": "😴", "text": "Mon lit est confortable." },
+            { "emoji": "🛏️", "text": "J'aime mon lit." }
+          ]
+        },
+        "en": {
+          "label": "Bed",
+          "phrases": [
+            { "emoji": "🛏️", "text": "I sleep in my bed." },
+            { "emoji": "🛏️", "text": "I want my bed." },
+            { "emoji": "😴", "text": "My bed is comfortable." },
+            { "emoji": "🛏️", "text": "I like my bed." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "paper-towel",
+      "image": "🧻",
+      "translations": {
+        "fr": {
+          "label": "Essuie-tout",
+          "phrases": [
+            { "emoji": "🧻", "text": "J'utilise l'essuie-tout." },
+            { "emoji": "🧻", "text": "Je veux de l'essuie-tout." },
+            { "emoji": "🧻", "text": "J'essuie avec l'essuie-tout." },
+            { "emoji": "🧻", "text": "L'essuie-tout absorbe bien." }
+          ]
+        },
+        "en": {
+          "label": "Paper Towel",
+          "phrases": [
+            { "emoji": "🧻", "text": "I use paper towel." },
+            { "emoji": "🧻", "text": "I want paper towel." },
+            { "emoji": "🧻", "text": "I wipe with paper towel." },
+            { "emoji": "🧻", "text": "Paper towel absorbs well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "curtain",
+      "image": "🪟",
+      "translations": {
+        "fr": {
+          "label": "Rideau",
+          "phrases": [
+            { "emoji": "🪟", "text": "J'ouvre le rideau." },
+            { "emoji": "🪟", "text": "Je ferme le rideau." },
+            { "emoji": "🪟", "text": "Le rideau est beau." },
+            { "emoji": "🪟", "text": "J'aime le rideau." }
+          ]
+        },
+        "en": {
+          "label": "Curtain",
+          "phrases": [
+            { "emoji": "🪟", "text": "I open the curtain." },
+            { "emoji": "🪟", "text": "I close the curtain." },
+            { "emoji": "🪟", "text": "The curtain is beautiful." },
+            { "emoji": "🪟", "text": "I like the curtain." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sofa",
+      "image": "🛋️",
+      "translations": {
+        "fr": {
+          "label": "Canapé",
+          "phrases": [
+            { "emoji": "🛋️", "text": "Je m'assois sur le canapé." },
+            { "emoji": "🛋️", "text": "Je veux le canapé." },
+            { "emoji": "🛋️", "text": "Le canapé est confortable." },
+            { "emoji": "🛋️", "text": "J'aime le canapé." }
+          ]
+        },
+        "en": {
+          "label": "Sofa",
+          "phrases": [
+            { "emoji": "🛋️", "text": "I sit on the sofa." },
+            { "emoji": "🛋️", "text": "I want the sofa." },
+            { "emoji": "🛋️", "text": "The sofa is comfortable." },
+            { "emoji": "🛋️", "text": "I like the sofa." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ruler-household",
+      "image": "📏",
+      "translations": {
+        "fr": {
+          "label": "Règle",
+          "phrases": [
+            { "emoji": "📏", "text": "J'utilise la règle." },
+            { "emoji": "📏", "text": "Je veux une règle." },
+            { "emoji": "📏", "text": "Je mesure avec la règle." },
+            { "emoji": "📏", "text": "La règle est droite." }
+          ]
+        },
+        "en": {
+          "label": "Ruler",
+          "phrases": [
+            { "emoji": "📏", "text": "I use the ruler." },
+            { "emoji": "📏", "text": "I want a ruler." },
+            { "emoji": "📏", "text": "I measure with the ruler." },
+            { "emoji": "📏", "text": "The ruler is straight." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wardrobe",
+      "image": "👔",
+      "translations": {
+        "fr": {
+          "label": "Penderie",
+          "phrases": [
+            { "emoji": "👔", "text": "Je range mes vêtements dans la penderie." },
+            { "emoji": "👔", "text": "Je veux une penderie." },
+            { "emoji": "👔", "text": "J'ouvre la penderie." },
+            { "emoji": "👔", "text": "Ma penderie est organisée." }
+          ]
+        },
+        "en": {
+          "label": "Wardrobe",
+          "phrases": [
+            { "emoji": "👔", "text": "I put my clothes in the wardrobe." },
+            { "emoji": "👔", "text": "I want a wardrobe." },
+            { "emoji": "👔", "text": "I open the wardrobe." },
+            { "emoji": "👔", "text": "My wardrobe is organized." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carpet",
+      "image": "🧶",
+      "translations": {
+        "fr": {
+          "label": "Tapis",
+          "phrases": [
+            { "emoji": "🧶", "text": "Je marche sur le tapis." },
+            { "emoji": "🧶", "text": "Je veux un tapis." },
+            { "emoji": "🧶", "text": "Le tapis est doux." },
+            { "emoji": "🧶", "text": "J'aime le tapis." }
+          ]
+        },
+        "en": {
+          "label": "Carpet",
+          "phrases": [
+            { "emoji": "🧶", "text": "I walk on the carpet." },
+            { "emoji": "🧶", "text": "I want a carpet." },
+            { "emoji": "🧶", "text": "The carpet is soft." },
+            { "emoji": "🧶", "text": "I like the carpet." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toaster",
+      "image": "🍞",
+      "translations": {
+        "fr": {
+          "label": "Grille-pain",
+          "phrases": [
+            { "emoji": "🍞", "text": "J'utilise le grille-pain." },
+            { "emoji": "🍞", "text": "Je veux le grille-pain." },
+            { "emoji": "🍞", "text": "Je fais griller du pain." },
+            { "emoji": "🍞", "text": "Le grille-pain fonctionne bien." }
+          ]
+        },
+        "en": {
+          "label": "Toaster",
+          "phrases": [
+            { "emoji": "🍞", "text": "I use the toaster." },
+            { "emoji": "🍞", "text": "I want the toaster." },
+            { "emoji": "🍞", "text": "I toast bread." },
+            { "emoji": "🍞", "text": "The toaster works well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "scale",
+      "image": "⚖️",
+      "translations": {
+        "fr": {
+          "label": "Balance",
+          "phrases": [
+            { "emoji": "⚖️", "text": "J'utilise la balance." },
+            { "emoji": "⚖️", "text": "Je veux une balance." },
+            { "emoji": "⚖️", "text": "Je me pèse sur la balance." },
+            { "emoji": "⚖️", "text": "La balance est précise." }
+          ]
+        },
+        "en": {
+          "label": "Scale",
+          "phrases": [
+            { "emoji": "⚖️", "text": "I use the scale." },
+            { "emoji": "⚖️", "text": "I want a scale." },
+            { "emoji": "⚖️", "text": "I weigh myself on the scale." },
+            { "emoji": "⚖️", "text": "The scale is accurate." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "remote-control",
+      "image": "📱",
+      "translations": {
+        "fr": {
+          "label": "Télécommande",
+          "phrases": [
+            { "emoji": "📱", "text": "J'utilise la télécommande." },
+            { "emoji": "📱", "text": "Je veux la télécommande." },
+            { "emoji": "📺", "text": "Je change de chaîne avec la télécommande." },
+            { "emoji": "📱", "text": "La télécommande fonctionne bien." }
+          ]
+        },
+        "en": {
+          "label": "Remote Control",
+          "phrases": [
+            { "emoji": "📱", "text": "I use the remote control." },
+            { "emoji": "📱", "text": "I want the remote control." },
+            { "emoji": "📺", "text": "I change channels with the remote." },
+            { "emoji": "📱", "text": "The remote works well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "trash-can",
+      "image": "🗑️",
+      "translations": {
+        "fr": {
+          "label": "Poubelle",
+          "phrases": [
+            { "emoji": "🗑️", "text": "Je jette à la poubelle." },
+            { "emoji": "🗑️", "text": "Je veux la poubelle." },
+            { "emoji": "🗑️", "text": "Je vide la poubelle." },
+            { "emoji": "🗑️", "text": "La poubelle est pleine." }
+          ]
+        },
+        "en": {
+          "label": "Trash Can",
+          "phrases": [
+            { "emoji": "🗑️", "text": "I throw in the trash." },
+            { "emoji": "🗑️", "text": "I want the trash can." },
+            { "emoji": "🗑️", "text": "I empty the trash." },
+            { "emoji": "🗑️", "text": "The trash is full." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "plastic-bag",
+      "image": "🛍️",
+      "translations": {
+        "fr": {
+          "label": "Sac plastique",
+          "phrases": [
+            { "emoji": "🛍️", "text": "J'utilise un sac plastique." },
+            { "emoji": "🛍️", "text": "Je veux un sac plastique." },
+            { "emoji": "🛍️", "text": "Je mets mes courses dans le sac." },
+            { "emoji": "🛍️", "text": "Le sac est solide." }
+          ]
+        },
+        "en": {
+          "label": "Plastic Bag",
+          "phrases": [
+            { "emoji": "🛍️", "text": "I use a plastic bag." },
+            { "emoji": "🛍️", "text": "I want a plastic bag." },
+            { "emoji": "🛍️", "text": "I put my groceries in the bag." },
+            { "emoji": "🛍️", "text": "The bag is strong." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "laptop",
+      "image": "💻",
+      "translations": {
+        "fr": {
+          "label": "Ordinateur portable",
+          "phrases": [
+            { "emoji": "💻", "text": "J'utilise mon ordinateur portable." },
+            { "emoji": "💻", "text": "Je veux mon ordinateur portable." },
+            { "emoji": "💻", "text": "Je travaille sur mon ordinateur portable." },
+            { "emoji": "💻", "text": "J'aime mon ordinateur portable." }
+          ]
+        },
+        "en": {
+          "label": "Laptop",
+          "phrases": [
+            { "emoji": "💻", "text": "I use my laptop." },
+            { "emoji": "💻", "text": "I want my laptop." },
+            { "emoji": "💻", "text": "I work on my laptop." },
+            { "emoji": "💻", "text": "I like my laptop." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pillow",
+      "image": "💤",
+      "translations": {
+        "fr": {
+          "label": "Oreiller",
+          "phrases": [
+            { "emoji": "💤", "text": "Je dors sur mon oreiller." },
+            { "emoji": "💤", "text": "Je veux mon oreiller." },
+            { "emoji": "💤", "text": "Mon oreiller est doux." },
+            { "emoji": "💤", "text": "J'aime mon oreiller." }
+          ]
+        },
+        "en": {
+          "label": "Pillow",
+          "phrases": [
+            { "emoji": "💤", "text": "I sleep on my pillow." },
+            { "emoji": "💤", "text": "I want my pillow." },
+            { "emoji": "💤", "text": "My pillow is soft." },
+            { "emoji": "💤", "text": "I like my pillow." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lamp",
+      "image": "💡",
+      "translations": {
+        "fr": {
+          "label": "Lampe",
+          "phrases": [
+            { "emoji": "💡", "text": "J'allume la lampe." },
+            { "emoji": "💡", "text": "Je veux une lampe." },
+            { "emoji": "💡", "text": "La lampe éclaire bien." },
+            { "emoji": "💡", "text": "J'aime ma lampe." }
+          ]
+        },
+        "en": {
+          "label": "Lamp",
+          "phrases": [
+            { "emoji": "💡", "text": "I turn on the lamp." },
+            { "emoji": "💡", "text": "I want a lamp." },
+            { "emoji": "💡", "text": "The lamp lights well." },
+            { "emoji": "💡", "text": "I like my lamp." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shelf",
+      "image": "📚",
+      "translations": {
+        "fr": {
+          "label": "Étagère",
+          "phrases": [
+            { "emoji": "📚", "text": "Je range sur l'étagère." },
+            { "emoji": "📚", "text": "Je veux une étagère." },
+            { "emoji": "📚", "text": "L'étagère est solide." },
+            { "emoji": "📚", "text": "J'aime mon étagère." }
+          ]
+        },
+        "en": {
+          "label": "Shelf",
+          "phrases": [
+            { "emoji": "📚", "text": "I put things on the shelf." },
+            { "emoji": "📚", "text": "I want a shelf." },
+            { "emoji": "📚", "text": "The shelf is solid." },
+            { "emoji": "📚", "text": "I like my shelf." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pencil-case",
+      "image": "✏️",
+      "translations": {
+        "fr": {
+          "label": "Trousse",
+          "phrases": [
+            { "emoji": "✏️", "text": "J'utilise ma trousse." },
+            { "emoji": "✏️", "text": "Je veux ma trousse." },
+            { "emoji": "✏️", "text": "Je range mes stylos dans ma trousse." },
+            { "emoji": "✏️", "text": "J'aime ma trousse." }
+          ]
+        },
+        "en": {
+          "label": "Pencil Case",
+          "phrases": [
+            { "emoji": "✏️", "text": "I use my pencil case." },
+            { "emoji": "✏️", "text": "I want my pencil case." },
+            { "emoji": "✏️", "text": "I put my pens in my pencil case." },
+            { "emoji": "✏️", "text": "I like my pencil case." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "plants",
+      "image": "🪴",
+      "translations": {
+        "fr": {
+          "label": "Plantes",
+          "phrases": [
+            { "emoji": "🪴", "text": "J'arrose les plantes." },
+            { "emoji": "🪴", "text": "Je veux des plantes." },
+            { "emoji": "🪴", "text": "Les plantes sont belles." },
+            { "emoji": "🪴", "text": "J'aime les plantes." }
+          ]
+        },
+        "en": {
+          "label": "Plants",
+          "phrases": [
+            { "emoji": "🪴", "text": "I water the plants." },
+            { "emoji": "🪴", "text": "I want plants." },
+            { "emoji": "🪴", "text": "The plants are beautiful." },
+            { "emoji": "🪴", "text": "I like plants." }
+          ]
+        }
+      }
+    }
+  ]
+}

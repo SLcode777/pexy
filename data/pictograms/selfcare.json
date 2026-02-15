@@ -1,0 +1,509 @@
+{
+  "category": "selfcare",
+  "pictograms": [
+    {
+      "id": "brush-teeth",
+      "image": "🦷",
+      "translations": {
+        "fr": {
+          "label": "Brosser les dents",
+          "phrases": [
+            { "emoji": "🦷", "text": "Je me brosse les dents." },
+            { "emoji": "🦷", "text": "Je veux brosser mes dents." },
+            { "emoji": "😁", "text": "Mes dents sont propres." },
+            { "emoji": "🦷", "text": "C'est l'heure de se brosser les dents." }
+          ]
+        },
+        "en": {
+          "label": "Brush Teeth",
+          "phrases": [
+            { "emoji": "🦷", "text": "I'm brushing my teeth." },
+            { "emoji": "🦷", "text": "I want to brush my teeth." },
+            { "emoji": "😁", "text": "My teeth are clean." },
+            { "emoji": "🦷", "text": "It's time to brush teeth." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wash-hands",
+      "image": "🧼",
+      "translations": {
+        "fr": {
+          "label": "Laver les mains",
+          "phrases": [
+            { "emoji": "🧼", "text": "Je me lave les mains." },
+            { "emoji": "🧼", "text": "Je veux laver mes mains." },
+            { "emoji": "✨", "text": "Mes mains sont propres." },
+            { "emoji": "💧", "text": "Je rince mes mains." }
+          ]
+        },
+        "en": {
+          "label": "Wash Hands",
+          "phrases": [
+            { "emoji": "🧼", "text": "I'm washing my hands." },
+            { "emoji": "🧼", "text": "I want to wash my hands." },
+            { "emoji": "✨", "text": "My hands are clean." },
+            { "emoji": "💧", "text": "I rinse my hands." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shower",
+      "image": "🚿",
+      "translations": {
+        "fr": {
+          "label": "Douche",
+          "phrases": [
+            { "emoji": "🚿", "text": "Je prends une douche." },
+            { "emoji": "🚿", "text": "Je veux me doucher." },
+            { "emoji": "🧼", "text": "Je me lave sous la douche." },
+            { "emoji": "✨", "text": "Je suis propre." }
+          ]
+        },
+        "en": {
+          "label": "Shower",
+          "phrases": [
+            { "emoji": "🚿", "text": "I'm taking a shower." },
+            { "emoji": "🚿", "text": "I want to shower." },
+            { "emoji": "🧼", "text": "I wash in the shower." },
+            { "emoji": "✨", "text": "I'm clean." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "haircut",
+      "image": "💇",
+      "translations": {
+        "fr": {
+          "label": "Coupe de cheveux",
+          "phrases": [
+            { "emoji": "💇", "text": "Je me coupe les cheveux." },
+            { "emoji": "✂️", "text": "Je vais chez le coiffeur." },
+            { "emoji": "💇", "text": "J'ai besoin d'une coupe." },
+            { "emoji": "😊", "text": "Ma coupe est belle." }
+          ]
+        },
+        "en": {
+          "label": "Haircut",
+          "phrases": [
+            { "emoji": "💇", "text": "I'm getting a haircut." },
+            { "emoji": "✂️", "text": "I'm going to the barber." },
+            { "emoji": "💇", "text": "I need a haircut." },
+            { "emoji": "😊", "text": "My haircut is nice." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sleep",
+      "image": "😴",
+      "translations": {
+        "fr": {
+          "label": "Dormir",
+          "phrases": [
+            { "emoji": "😴", "text": "Je dors." },
+            { "emoji": "🛏️", "text": "Je veux dormir." },
+            { "emoji": "💤", "text": "Je fais une sieste." },
+            { "emoji": "🌙", "text": "Bonne nuit !" }
+          ]
+        },
+        "en": {
+          "label": "Sleep",
+          "phrases": [
+            { "emoji": "😴", "text": "I'm sleeping." },
+            { "emoji": "🛏️", "text": "I want to sleep." },
+            { "emoji": "💤", "text": "I'm taking a nap." },
+            { "emoji": "🌙", "text": "Good night!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exercise",
+      "image": "💪",
+      "translations": {
+        "fr": {
+          "label": "Faire de l'exercice",
+          "phrases": [
+            { "emoji": "💪", "text": "Je fais de l'exercice." },
+            { "emoji": "🏃", "text": "Je m'entraîne." },
+            { "emoji": "😊", "text": "J'aime faire de l'exercice." },
+            { "emoji": "💪", "text": "Je deviens plus fort." }
+          ]
+        },
+        "en": {
+          "label": "Exercise",
+          "phrases": [
+            { "emoji": "💪", "text": "I'm exercising." },
+            { "emoji": "🏃", "text": "I'm working out." },
+            { "emoji": "😊", "text": "I like exercising." },
+            { "emoji": "💪", "text": "I'm getting stronger." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "yoga",
+      "image": "🧘",
+      "translations": {
+        "fr": {
+          "label": "Yoga",
+          "phrases": [
+            { "emoji": "🧘", "text": "Je fais du yoga." },
+            { "emoji": "🧘", "text": "Je veux faire du yoga." },
+            { "emoji": "😌", "text": "Le yoga me détend." },
+            { "emoji": "🧘", "text": "J'aime le yoga." }
+          ]
+        },
+        "en": {
+          "label": "Yoga",
+          "phrases": [
+            { "emoji": "🧘", "text": "I'm doing yoga." },
+            { "emoji": "🧘", "text": "I want to do yoga." },
+            { "emoji": "😌", "text": "Yoga relaxes me." },
+            { "emoji": "🧘", "text": "I like yoga." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "meditate",
+      "image": "🧘‍♂️",
+      "translations": {
+        "fr": {
+          "label": "Méditer",
+          "phrases": [
+            { "emoji": "🧘‍♂️", "text": "Je médite." },
+            { "emoji": "🧘‍♂️", "text": "Je veux méditer." },
+            { "emoji": "😌", "text": "La méditation me calme." },
+            { "emoji": "🧘‍♂️", "text": "J'aime méditer." }
+          ]
+        },
+        "en": {
+          "label": "Meditate",
+          "phrases": [
+            { "emoji": "🧘‍♂️", "text": "I'm meditating." },
+            { "emoji": "🧘‍♂️", "text": "I want to meditate." },
+            { "emoji": "😌", "text": "Meditation calms me." },
+            { "emoji": "🧘‍♂️", "text": "I like meditating." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "smile",
+      "image": "😊",
+      "translations": {
+        "fr": {
+          "label": "Sourire",
+          "phrases": [
+            { "emoji": "😊", "text": "Je souris." },
+            { "emoji": "😁", "text": "Je suis content, je souris." },
+            { "emoji": "😊", "text": "J'aime sourire." },
+            { "emoji": "😄", "text": "Mon sourire est joli." }
+          ]
+        },
+        "en": {
+          "label": "Smile",
+          "phrases": [
+            { "emoji": "😊", "text": "I'm smiling." },
+            { "emoji": "😁", "text": "I'm happy, I smile." },
+            { "emoji": "😊", "text": "I like smiling." },
+            { "emoji": "😄", "text": "My smile is nice." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cut-nails",
+      "image": "💅",
+      "translations": {
+        "fr": {
+          "label": "Couper les ongles",
+          "phrases": [
+            { "emoji": "💅", "text": "Je coupe mes ongles." },
+            { "emoji": "✂️", "text": "Mes ongles sont longs." },
+            { "emoji": "💅", "text": "Je veux couper mes ongles." },
+            { "emoji": "✨", "text": "Mes ongles sont propres." }
+          ]
+        },
+        "en": {
+          "label": "Cut Nails",
+          "phrases": [
+            { "emoji": "💅", "text": "I'm cutting my nails." },
+            { "emoji": "✂️", "text": "My nails are long." },
+            { "emoji": "💅", "text": "I want to cut my nails." },
+            { "emoji": "✨", "text": "My nails are clean." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "comb-hair",
+      "image": "🪮",
+      "translations": {
+        "fr": {
+          "label": "Peigner",
+          "phrases": [
+            { "emoji": "🪮", "text": "Je me peigne." },
+            { "emoji": "🪮", "text": "Je veux me peigner." },
+            { "emoji": "✨", "text": "Mes cheveux sont bien coiffés." },
+            { "emoji": "🪮", "text": "Je brosse mes cheveux." }
+          ]
+        },
+        "en": {
+          "label": "Comb Hair",
+          "phrases": [
+            { "emoji": "🪮", "text": "I'm combing my hair." },
+            { "emoji": "🪮", "text": "I want to comb my hair." },
+            { "emoji": "✨", "text": "My hair is well combed." },
+            { "emoji": "🪮", "text": "I brush my hair." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rest",
+      "image": "🛋️",
+      "translations": {
+        "fr": {
+          "label": "Se reposer",
+          "phrases": [
+            { "emoji": "🛋️", "text": "Je me repose." },
+            { "emoji": "😌", "text": "Je veux me reposer." },
+            { "emoji": "🛋️", "text": "J'ai besoin de repos." },
+            { "emoji": "😊", "text": "Je suis bien reposé." }
+          ]
+        },
+        "en": {
+          "label": "Rest",
+          "phrases": [
+            { "emoji": "🛋️", "text": "I'm resting." },
+            { "emoji": "😌", "text": "I want to rest." },
+            { "emoji": "🛋️", "text": "I need rest." },
+            { "emoji": "😊", "text": "I'm well rested." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "breathe",
+      "image": "💨",
+      "translations": {
+        "fr": {
+          "label": "Respirer",
+          "phrases": [
+            { "emoji": "💨", "text": "Je respire profondément." },
+            { "emoji": "😌", "text": "Je prends une grande respiration." },
+            { "emoji": "💨", "text": "Respirer me calme." },
+            { "emoji": "😊", "text": "Je respire bien." }
+          ]
+        },
+        "en": {
+          "label": "Breathe",
+          "phrases": [
+            { "emoji": "💨", "text": "I breathe deeply." },
+            { "emoji": "😌", "text": "I take a deep breath." },
+            { "emoji": "💨", "text": "Breathing calms me." },
+            { "emoji": "😊", "text": "I breathe well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "stretch",
+      "image": "🤸",
+      "translations": {
+        "fr": {
+          "label": "S'étirer",
+          "phrases": [
+            { "emoji": "🤸", "text": "Je m'étire." },
+            { "emoji": "🤸", "text": "Je veux m'étirer." },
+            { "emoji": "😌", "text": "M'étirer me fait du bien." },
+            { "emoji": "🤸", "text": "Je m'étire le matin." }
+          ]
+        },
+        "en": {
+          "label": "Stretch",
+          "phrases": [
+            { "emoji": "🤸", "text": "I'm stretching." },
+            { "emoji": "🤸", "text": "I want to stretch." },
+            { "emoji": "😌", "text": "Stretching feels good." },
+            { "emoji": "🤸", "text": "I stretch in the morning." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "drink-water",
+      "image": "💧",
+      "translations": {
+        "fr": {
+          "label": "Boire de l'eau",
+          "phrases": [
+            { "emoji": "💧", "text": "Je bois de l'eau." },
+            { "emoji": "💧", "text": "Je veux boire de l'eau." },
+            { "emoji": "💧", "text": "J'ai soif." },
+            { "emoji": "💧", "text": "L'eau est bonne pour moi." }
+          ]
+        },
+        "en": {
+          "label": "Drink Water",
+          "phrases": [
+            { "emoji": "💧", "text": "I'm drinking water." },
+            { "emoji": "💧", "text": "I want to drink water." },
+            { "emoji": "💧", "text": "I'm thirsty." },
+            { "emoji": "💧", "text": "Water is good for me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pray",
+      "image": "🙏",
+      "translations": {
+        "fr": {
+          "label": "Prier",
+          "phrases": [
+            { "emoji": "🙏", "text": "Je prie." },
+            { "emoji": "🙏", "text": "Je veux prier." },
+            { "emoji": "😌", "text": "La prière m'apaise." },
+            { "emoji": "🙏", "text": "Je me recueille." }
+          ]
+        },
+        "en": {
+          "label": "Pray",
+          "phrases": [
+            { "emoji": "🙏", "text": "I'm praying." },
+            { "emoji": "🙏", "text": "I want to pray." },
+            { "emoji": "😌", "text": "Prayer soothes me." },
+            { "emoji": "🙏", "text": "I meditate." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sauna",
+      "image": "🧖",
+      "translations": {
+        "fr": {
+          "label": "Sauna",
+          "phrases": [
+            { "emoji": "🧖", "text": "Je vais au sauna." },
+            { "emoji": "♨️", "text": "Le sauna me détend." },
+            { "emoji": "😌", "text": "Je transpire au sauna." },
+            { "emoji": "🧖", "text": "C'est relaxant." }
+          ]
+        },
+        "en": {
+          "label": "Sauna",
+          "phrases": [
+            { "emoji": "🧖", "text": "I go to the sauna." },
+            { "emoji": "♨️", "text": "The sauna relaxes me." },
+            { "emoji": "😌", "text": "I sweat in the sauna." },
+            { "emoji": "🧖", "text": "It's relaxing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "essential-oil",
+      "image": "🧴",
+      "translations": {
+        "fr": {
+          "label": "Huile essentielle",
+          "phrases": [
+            { "emoji": "🧴", "text": "J'utilise une huile essentielle." },
+            { "emoji": "🌿", "text": "L'huile sent bon." },
+            { "emoji": "😌", "text": "Ça me détend." },
+            { "emoji": "💆", "text": "Je me masse avec l'huile." }
+          ]
+        },
+        "en": {
+          "label": "Essential Oil",
+          "phrases": [
+            { "emoji": "🧴", "text": "I use essential oil." },
+            { "emoji": "🌿", "text": "The oil smells good." },
+            { "emoji": "😌", "text": "It relaxes me." },
+            { "emoji": "💆", "text": "I massage with the oil." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dental-floss",
+      "image": "🦷",
+      "translations": {
+        "fr": {
+          "label": "Fil dentaire",
+          "phrases": [
+            { "emoji": "🦷", "text": "J'utilise du fil dentaire." },
+            { "emoji": "🦷", "text": "Je nettoie entre mes dents." },
+            { "emoji": "😁", "text": "Mes dents sont propres." },
+            { "emoji": "🦷", "text": "C'est bon pour mes dents." }
+          ]
+        },
+        "en": {
+          "label": "Dental Floss",
+          "phrases": [
+            { "emoji": "🦷", "text": "I use dental floss." },
+            { "emoji": "🦷", "text": "I clean between my teeth." },
+            { "emoji": "😁", "text": "My teeth are clean." },
+            { "emoji": "🦷", "text": "It's good for my teeth." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "clean-ears",
+      "image": "👂",
+      "translations": {
+        "fr": {
+          "label": "Nettoyer les oreilles",
+          "phrases": [
+            { "emoji": "👂", "text": "Je nettoie mes oreilles." },
+            { "emoji": "🧼", "text": "Mes oreilles sont propres." },
+            { "emoji": "👂", "text": "Je fais attention." },
+            { "emoji": "✨", "text": "C'est important d'être propre." }
+          ]
+        },
+        "en": {
+          "label": "Clean Ears",
+          "phrases": [
+            { "emoji": "👂", "text": "I clean my ears." },
+            { "emoji": "🧼", "text": "My ears are clean." },
+            { "emoji": "👂", "text": "I'm careful." },
+            { "emoji": "✨", "text": "It's important to be clean." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nail-polish",
+      "image": "💅",
+      "translations": {
+        "fr": {
+          "label": "Vernis à ongles",
+          "phrases": [
+            { "emoji": "💅", "text": "Je mets du vernis à ongles." },
+            { "emoji": "💅", "text": "Mes ongles sont jolis." },
+            { "emoji": "✨", "text": "J'aime le vernis coloré." },
+            { "emoji": "💅", "text": "Je prends soin de mes ongles." }
+          ]
+        },
+        "en": {
+          "label": "Nail Polish",
+          "phrases": [
+            { "emoji": "💅", "text": "I put on nail polish." },
+            { "emoji": "💅", "text": "My nails are pretty." },
+            { "emoji": "✨", "text": "I like colorful polish." },
+            { "emoji": "💅", "text": "I take care of my nails." }
+          ]
+        }
+      }
+    }
+  ]
+}

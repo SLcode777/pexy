@@ -1,0 +1,967 @@
+{
+  "pictograms": [
+    {
+      "id": "shovel",
+      "image": "🥄",
+      "translations": {
+        "fr": {
+          "label": "Pelle",
+          "phrases": [
+            { "emoji": "🥄", "text": "J'utilise une pelle." },
+            { "emoji": "🥄", "text": "Je creuse avec la pelle." },
+            { "emoji": "🥄", "text": "La pelle sert à jardiner." },
+            { "emoji": "🥄", "text": "Je retourne la terre." }
+          ]
+        },
+        "en": {
+          "label": "Shovel",
+          "phrases": [
+            { "emoji": "🥄", "text": "I use a shovel." },
+            { "emoji": "🥄", "text": "I dig with the shovel." },
+            { "emoji": "🥄", "text": "The shovel is for gardening." },
+            { "emoji": "🥄", "text": "I turn the soil." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rake",
+      "image": "🌾",
+      "translations": {
+        "fr": {
+          "label": "Râteau",
+          "phrases": [
+            { "emoji": "🌾", "text": "J'utilise un râteau." },
+            { "emoji": "🌾", "text": "Je ramasse les feuilles." },
+            { "emoji": "🌾", "text": "Le râteau nettoie le jardin." },
+            { "emoji": "🌾", "text": "Je râtisse la terre." }
+          ]
+        },
+        "en": {
+          "label": "Rake",
+          "phrases": [
+            { "emoji": "🌾", "text": "I use a rake." },
+            { "emoji": "🌾", "text": "I collect the leaves." },
+            { "emoji": "🌾", "text": "The rake cleans the garden." },
+            { "emoji": "🌾", "text": "I rake the soil." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "watering-can",
+      "image": "🚿",
+      "translations": {
+        "fr": {
+          "label": "Arrosoir",
+          "phrases": [
+            { "emoji": "🚿", "text": "J'arrose les plantes." },
+            { "emoji": "🚿", "text": "Je remplis l'arrosoir." },
+            { "emoji": "🚿", "text": "Les plantes ont besoin d'eau." },
+            { "emoji": "🚿", "text": "J'utilise l'arrosoir." }
+          ]
+        },
+        "en": {
+          "label": "Watering Can",
+          "phrases": [
+            { "emoji": "🚿", "text": "I water the plants." },
+            { "emoji": "🚿", "text": "I fill the watering can." },
+            { "emoji": "🚿", "text": "The plants need water." },
+            { "emoji": "🚿", "text": "I use the watering can." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seedling",
+      "image": "🌱",
+      "translations": {
+        "fr": {
+          "label": "Graine",
+          "phrases": [
+            { "emoji": "🌱", "text": "Je plante des graines." },
+            { "emoji": "🌱", "text": "La graine pousse." },
+            { "emoji": "🌱", "text": "La petite pousse sort de terre." },
+            { "emoji": "🌱", "text": "Je sème les graines." }
+          ]
+        },
+        "en": {
+          "label": "Seedling",
+          "phrases": [
+            { "emoji": "🌱", "text": "I plant seeds." },
+            { "emoji": "🌱", "text": "The seed grows." },
+            { "emoji": "🌱", "text": "The little sprout comes out." },
+            { "emoji": "🌱", "text": "I sow the seeds." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "herb",
+      "image": "🌿",
+      "translations": {
+        "fr": {
+          "label": "Herbe aromatique",
+          "phrases": [
+            { "emoji": "🌿", "text": "Je cultive des herbes." },
+            { "emoji": "🌿", "text": "Les herbes sentent bon." },
+            { "emoji": "🌿", "text": "Je cueille du basilic." },
+            { "emoji": "🌿", "text": "Les herbes sont fraîches." }
+          ]
+        },
+        "en": {
+          "label": "Herb",
+          "phrases": [
+            { "emoji": "🌿", "text": "I grow herbs." },
+            { "emoji": "🌿", "text": "The herbs smell good." },
+            { "emoji": "🌿", "text": "I pick basil." },
+            { "emoji": "🌿", "text": "The herbs are fresh." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "blossom",
+      "image": "🌸",
+      "translations": {
+        "fr": {
+          "label": "Fleur",
+          "phrases": [
+            { "emoji": "🌸", "text": "Les fleurs sont belles." },
+            { "emoji": "🌸", "text": "Je plante des fleurs." },
+            { "emoji": "🌸", "text": "Les fleurs s'épanouissent." },
+            { "emoji": "🌸", "text": "J'aime les fleurs." }
+          ]
+        },
+        "en": {
+          "label": "Blossom",
+          "phrases": [
+            { "emoji": "🌸", "text": "The flowers are beautiful." },
+            { "emoji": "🌸", "text": "I plant flowers." },
+            { "emoji": "🌸", "text": "The flowers bloom." },
+            { "emoji": "🌸", "text": "I love flowers." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tree-garden",
+      "image": "🌳",
+      "translations": {
+        "fr": {
+          "label": "Arbre",
+          "phrases": [
+            { "emoji": "🌳", "text": "Je plante un arbre." },
+            { "emoji": "🌳", "text": "L'arbre grandit." },
+            { "emoji": "🌳", "text": "L'arbre donne de l'ombre." },
+            { "emoji": "🌳", "text": "J'arrose l'arbre." }
+          ]
+        },
+        "en": {
+          "label": "Tree",
+          "phrases": [
+            { "emoji": "🌳", "text": "I plant a tree." },
+            { "emoji": "🌳", "text": "The tree grows." },
+            { "emoji": "🌳", "text": "The tree gives shade." },
+            { "emoji": "🌳", "text": "I water the tree." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "plant",
+      "image": "🪴",
+      "translations": {
+        "fr": {
+          "label": "Plante",
+          "phrases": [
+            { "emoji": "🪴", "text": "J'ai une plante." },
+            { "emoji": "🪴", "text": "Je rempote la plante." },
+            { "emoji": "🪴", "text": "Le pot est décoratif." },
+            { "emoji": "🪴", "text": "Je prends soin de ma plante." }
+          ]
+        },
+        "en": {
+          "label": "Plant",
+          "phrases": [
+            { "emoji": "🪴", "text": "I have a plant." },
+            { "emoji": "🪴", "text": "I repot the plant." },
+            { "emoji": "🪴", "text": "The pot is decorative." },
+            { "emoji": "🪴", "text": "I take care of my plant." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gloves",
+      "image": "🧤",
+      "translations": {
+        "fr": {
+          "label": "Gants de jardinage",
+          "phrases": [
+            { "emoji": "🧤", "text": "Je mets mes gants." },
+            { "emoji": "🧤", "text": "Les gants protègent mes mains." },
+            { "emoji": "🧤", "text": "Je jardine avec des gants." },
+            { "emoji": "🧤", "text": "Mes mains sont propres." }
+          ]
+        },
+        "en": {
+          "label": "Gardening Gloves",
+          "phrases": [
+            { "emoji": "🧤", "text": "I put on my gloves." },
+            { "emoji": "🧤", "text": "The gloves protect my hands." },
+            { "emoji": "🧤", "text": "I garden with gloves." },
+            { "emoji": "🧤", "text": "My hands stay clean." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sun-garden",
+      "image": "🌞",
+      "translations": {
+        "fr": {
+          "label": "Soleil",
+          "phrases": [
+            { "emoji": "🌞", "text": "Le soleil brille sur le jardin." },
+            { "emoji": "🌞", "text": "Les plantes aiment le soleil." },
+            { "emoji": "🌞", "text": "Il fait beau aujourd'hui." },
+            { "emoji": "🌞", "text": "Le soleil fait pousser les plantes." }
+          ]
+        },
+        "en": {
+          "label": "Sun",
+          "phrases": [
+            { "emoji": "🌞", "text": "The sun shines on the garden." },
+            { "emoji": "🌞", "text": "Plants love the sun." },
+            { "emoji": "🌞", "text": "It's nice weather today." },
+            { "emoji": "🌞", "text": "The sun makes plants grow." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rain-garden",
+      "image": "🌧️",
+      "translations": {
+        "fr": {
+          "label": "Pluie",
+          "phrases": [
+            { "emoji": "🌧️", "text": "La pluie arrose le jardin." },
+            { "emoji": "🌧️", "text": "Les plantes boivent la pluie." },
+            { "emoji": "🌧️", "text": "Il pleut aujourd'hui." },
+            { "emoji": "🌧️", "text": "La pluie est bonne pour le jardin." }
+          ]
+        },
+        "en": {
+          "label": "Rain",
+          "phrases": [
+            { "emoji": "🌧️", "text": "The rain waters the garden." },
+            { "emoji": "🌧️", "text": "Plants drink the rain." },
+            { "emoji": "🌧️", "text": "It's raining today." },
+            { "emoji": "🌧️", "text": "Rain is good for the garden." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leaves",
+      "image": "🍂",
+      "translations": {
+        "fr": {
+          "label": "Feuilles",
+          "phrases": [
+            { "emoji": "🍂", "text": "Je ramasse les feuilles mortes." },
+            { "emoji": "🍂", "text": "Les feuilles tombent en automne." },
+            { "emoji": "🍂", "text": "Les feuilles sont colorées." },
+            { "emoji": "🍂", "text": "Je fais un tas de feuilles." }
+          ]
+        },
+        "en": {
+          "label": "Leaves",
+          "phrases": [
+            { "emoji": "🍂", "text": "I collect dead leaves." },
+            { "emoji": "🍂", "text": "Leaves fall in autumn." },
+            { "emoji": "🍂", "text": "The leaves are colorful." },
+            { "emoji": "🍂", "text": "I make a pile of leaves." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wheelbarrow",
+      "image": "🛒",
+      "translations": {
+        "fr": {
+          "label": "Brouette",
+          "phrases": [
+            { "emoji": "🛒", "text": "Je pousse la brouette." },
+            { "emoji": "🛒", "text": "La brouette transporte la terre." },
+            { "emoji": "🛒", "text": "J'utilise une brouette." },
+            { "emoji": "🛒", "text": "La brouette est pleine." }
+          ]
+        },
+        "en": {
+          "label": "Wheelbarrow",
+          "phrases": [
+            { "emoji": "🛒", "text": "I push the wheelbarrow." },
+            { "emoji": "🛒", "text": "The wheelbarrow carries soil." },
+            { "emoji": "🛒", "text": "I use a wheelbarrow." },
+            { "emoji": "🛒", "text": "The wheelbarrow is full." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "water-droplets",
+      "image": "💦",
+      "translations": {
+        "fr": {
+          "label": "Arrosage",
+          "phrases": [
+            { "emoji": "💦", "text": "J'arrose avec le tuyau." },
+            { "emoji": "💦", "text": "L'eau coule sur les plantes." },
+            { "emoji": "💦", "text": "Les plantes boivent l'eau." },
+            { "emoji": "💦", "text": "J'arrose le jardin." }
+          ]
+        },
+        "en": {
+          "label": "Watering",
+          "phrases": [
+            { "emoji": "💦", "text": "I water with the hose." },
+            { "emoji": "💦", "text": "Water flows on the plants." },
+            { "emoji": "💦", "text": "Plants drink the water." },
+            { "emoji": "💦", "text": "I water the garden." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bucket",
+      "image": "🪣",
+      "translations": {
+        "fr": {
+          "label": "Seau",
+          "phrases": [
+            { "emoji": "🪣", "text": "Je remplis le seau." },
+            { "emoji": "🪣", "text": "Le seau contient de l'eau." },
+            { "emoji": "🪣", "text": "J'utilise un seau." },
+            { "emoji": "🪣", "text": "Je transporte le seau." }
+          ]
+        },
+        "en": {
+          "label": "Bucket",
+          "phrases": [
+            { "emoji": "🪣", "text": "I fill the bucket." },
+            { "emoji": "🪣", "text": "The bucket contains water." },
+            { "emoji": "🪣", "text": "I use a bucket." },
+            { "emoji": "🪣", "text": "I carry the bucket." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rock",
+      "image": "🪨",
+      "translations": {
+        "fr": {
+          "label": "Pierre",
+          "phrases": [
+            { "emoji": "🪨", "text": "Je ramasse les pierres." },
+            { "emoji": "🪨", "text": "Je décore avec des pierres." },
+            { "emoji": "🪨", "text": "Les pierres bordent le chemin." },
+            { "emoji": "🪨", "text": "J'enlève les cailloux." }
+          ]
+        },
+        "en": {
+          "label": "Rock",
+          "phrases": [
+            { "emoji": "🪨", "text": "I pick up stones." },
+            { "emoji": "🪨", "text": "I decorate with stones." },
+            { "emoji": "🪨", "text": "Stones border the path." },
+            { "emoji": "🪨", "text": "I remove the pebbles." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "vegetable-garden",
+      "image": "🥬",
+      "translations": {
+        "fr": {
+          "label": "Potager",
+          "phrases": [
+            { "emoji": "🥬", "text": "Je cultive un potager." },
+            { "emoji": "🥬", "text": "Je récolte des légumes." },
+            { "emoji": "🥬", "text": "Mon potager grandit." },
+            { "emoji": "🥬", "text": "J'aime mon potager." }
+          ]
+        },
+        "en": {
+          "label": "Vegetable Garden",
+          "phrases": [
+            { "emoji": "🥬", "text": "I grow a vegetable garden." },
+            { "emoji": "🥬", "text": "I harvest vegetables." },
+            { "emoji": "🥬", "text": "My vegetable garden grows." },
+            { "emoji": "🥬", "text": "I love my vegetable garden." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "harvest",
+      "image": "🌾",
+      "translations": {
+        "fr": {
+          "label": "Récolte",
+          "phrases": [
+            { "emoji": "🌾", "text": "C'est l'heure de la récolte." },
+            { "emoji": "🌾", "text": "Je récolte les fruits." },
+            { "emoji": "🌾", "text": "La récolte est abondante." },
+            { "emoji": "🌾", "text": "Je cueille les légumes mûrs." }
+          ]
+        },
+        "en": {
+          "label": "Harvest",
+          "phrases": [
+            { "emoji": "🌾", "text": "It's harvest time." },
+            { "emoji": "🌾", "text": "I harvest the fruits." },
+            { "emoji": "🌾", "text": "The harvest is abundant." },
+            { "emoji": "🌾", "text": "I pick ripe vegetables." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tulip",
+      "image": "🌷",
+      "translations": {
+        "fr": {
+          "label": "Tulipe",
+          "phrases": [
+            { "emoji": "🌷", "text": "Je plante des tulipes." },
+            { "emoji": "🌷", "text": "Les tulipes fleurissent." },
+            { "emoji": "🌷", "text": "Les tulipes sont colorées." },
+            { "emoji": "🌷", "text": "J'aime les tulipes." }
+          ]
+        },
+        "en": {
+          "label": "Tulip",
+          "phrases": [
+            { "emoji": "🌷", "text": "I plant tulips." },
+            { "emoji": "🌷", "text": "The tulips bloom." },
+            { "emoji": "🌷", "text": "The tulips are colorful." },
+            { "emoji": "🌷", "text": "I love tulips." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rose",
+      "image": "🌹",
+      "translations": {
+        "fr": {
+          "label": "Rose",
+          "phrases": [
+            { "emoji": "🌹", "text": "Je cultive des roses." },
+            { "emoji": "🌹", "text": "Les roses sentent bon." },
+            { "emoji": "🌹", "text": "Les roses ont des épines." },
+            { "emoji": "🌹", "text": "J'arrose mes rosiers." }
+          ]
+        },
+        "en": {
+          "label": "Rose",
+          "phrases": [
+            { "emoji": "🌹", "text": "I grow roses." },
+            { "emoji": "🌹", "text": "Roses smell good." },
+            { "emoji": "🌹", "text": "Roses have thorns." },
+            { "emoji": "🌹", "text": "I water my rose bushes." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sunflower",
+      "image": "🌻",
+      "translations": {
+        "fr": {
+          "label": "Tournesol",
+          "phrases": [
+            { "emoji": "🌻", "text": "Je plante des tournesols." },
+            { "emoji": "🌻", "text": "Le tournesol suit le soleil." },
+            { "emoji": "🌻", "text": "Les tournesols sont grands." },
+            { "emoji": "🌻", "text": "J'aime les tournesols jaunes." }
+          ]
+        },
+        "en": {
+          "label": "Sunflower",
+          "phrases": [
+            { "emoji": "🌻", "text": "I plant sunflowers." },
+            { "emoji": "🌻", "text": "The sunflower follows the sun." },
+            { "emoji": "🌻", "text": "Sunflowers are tall." },
+            { "emoji": "🌻", "text": "I love yellow sunflowers." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pruning-shears",
+      "image": "✂️",
+      "translations": {
+        "fr": {
+          "label": "Sécateur",
+          "phrases": [
+            { "emoji": "✂️", "text": "Je taille avec le sécateur." },
+            { "emoji": "✂️", "text": "Le sécateur coupe les branches." },
+            { "emoji": "✂️", "text": "J'utilise un sécateur." },
+            { "emoji": "✂️", "text": "Je taille les plantes." }
+          ]
+        },
+        "en": {
+          "label": "Pruning Shears",
+          "phrases": [
+            { "emoji": "✂️", "text": "I prune with the shears." },
+            { "emoji": "✂️", "text": "The shears cut branches." },
+            { "emoji": "✂️", "text": "I use pruning shears." },
+            { "emoji": "✂️", "text": "I trim the plants." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ladybug",
+      "image": "🐞",
+      "translations": {
+        "fr": {
+          "label": "Coccinelle",
+          "phrases": [
+            { "emoji": "🐞", "text": "Je vois une coccinelle." },
+            { "emoji": "🐞", "text": "La coccinelle mange les pucerons." },
+            { "emoji": "🐞", "text": "La coccinelle aide le jardin." },
+            { "emoji": "🐞", "text": "Les coccinelles sont utiles." }
+          ]
+        },
+        "en": {
+          "label": "Ladybug",
+          "phrases": [
+            { "emoji": "🐞", "text": "I see a ladybug." },
+            { "emoji": "🐞", "text": "The ladybug eats aphids." },
+            { "emoji": "🐞", "text": "The ladybug helps the garden." },
+            { "emoji": "🐞", "text": "Ladybugs are useful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bee-garden",
+      "image": "🐝",
+      "translations": {
+        "fr": {
+          "label": "Abeille",
+          "phrases": [
+            { "emoji": "🐝", "text": "Les abeilles butinent les fleurs." },
+            { "emoji": "🐝", "text": "Les abeilles font du miel." },
+            { "emoji": "🐝", "text": "Les abeilles pollinisent." },
+            { "emoji": "🐝", "text": "J'entends les abeilles bourdonner." }
+          ]
+        },
+        "en": {
+          "label": "Bee",
+          "phrases": [
+            { "emoji": "🐝", "text": "Bees gather nectar from flowers." },
+            { "emoji": "🐝", "text": "Bees make honey." },
+            { "emoji": "🐝", "text": "Bees pollinate." },
+            { "emoji": "🐝", "text": "I hear bees buzzing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "butterfly-garden",
+      "image": "🦋",
+      "translations": {
+        "fr": {
+          "label": "Papillon",
+          "phrases": [
+            { "emoji": "🦋", "text": "Je vois un papillon." },
+            { "emoji": "🦋", "text": "Le papillon vole de fleur en fleur." },
+            { "emoji": "🦋", "text": "Les papillons sont colorés." },
+            { "emoji": "🦋", "text": "J'aime observer les papillons." }
+          ]
+        },
+        "en": {
+          "label": "Butterfly",
+          "phrases": [
+            { "emoji": "🦋", "text": "I see a butterfly." },
+            {
+              "emoji": "🦋",
+              "text": "The butterfly flies from flower to flower."
+            },
+            { "emoji": "🦋", "text": "Butterflies are colorful." },
+            { "emoji": "🦋", "text": "I love watching butterflies." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "worm",
+      "image": "🪱",
+      "translations": {
+        "fr": {
+          "label": "Ver de terre",
+          "phrases": [
+            { "emoji": "🪱", "text": "Les vers de terre aèrent le sol." },
+            { "emoji": "🪱", "text": "Je trouve des vers de terre." },
+            { "emoji": "🪱", "text": "Les vers sont bons pour le jardin." },
+            { "emoji": "🪱", "text": "Les vers vivent dans la terre." }
+          ]
+        },
+        "en": {
+          "label": "Earthworm",
+          "phrases": [
+            { "emoji": "🪱", "text": "Earthworms aerate the soil." },
+            { "emoji": "🪱", "text": "I find earthworms." },
+            { "emoji": "🪱", "text": "Worms are good for the garden." },
+            { "emoji": "🪱", "text": "Worms live in the soil." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "garden-fence",
+      "image": "🏡",
+      "translations": {
+        "fr": {
+          "label": "Jardin",
+          "phrases": [
+            { "emoji": "🏡", "text": "Mon jardin est beau." },
+            { "emoji": "🏡", "text": "Je travaille dans mon jardin." },
+            { "emoji": "🏡", "text": "J'aime mon jardin." },
+            { "emoji": "🏡", "text": "Le jardin est fleuri." }
+          ]
+        },
+        "en": {
+          "label": "Garden",
+          "phrases": [
+            { "emoji": "🏡", "text": "My garden is beautiful." },
+            { "emoji": "🏡", "text": "I work in my garden." },
+            { "emoji": "🏡", "text": "I love my garden." },
+            { "emoji": "🏡", "text": "The garden is blooming." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gardener-person",
+      "image": "👨‍🌾",
+      "translations": {
+        "fr": {
+          "label": "Jardinier",
+          "phrases": [
+            { "emoji": "👨‍🌾", "text": "Je suis jardinier." },
+            { "emoji": "👨‍🌾", "text": "Le jardinier s'occupe du jardin." },
+            { "emoji": "🌱", "text": "J'aime jardiner." },
+            { "emoji": "👨‍🌾", "text": "Le jardinier plante des fleurs." }
+          ]
+        },
+        "en": {
+          "label": "Gardener",
+          "phrases": [
+            { "emoji": "👨‍🌾", "text": "I'm a gardener." },
+            { "emoji": "👨‍🌾", "text": "The gardener takes care of the garden." },
+            { "emoji": "🌱", "text": "I like gardening." },
+            { "emoji": "👨‍🌾", "text": "The gardener plants flowers." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sprout",
+      "image": "🌱",
+      "translations": {
+        "fr": {
+          "label": "Germer",
+          "phrases": [
+            { "emoji": "🌱", "text": "La graine germe." },
+            { "emoji": "🌱", "text": "Je vois une pousse." },
+            { "emoji": "🌱", "text": "La plante commence à germer." },
+            { "emoji": "🌱", "text": "C'est le début de la vie." }
+          ]
+        },
+        "en": {
+          "label": "Sprout",
+          "phrases": [
+            { "emoji": "🌱", "text": "The seed sprouts." },
+            { "emoji": "🌱", "text": "I see a sprout." },
+            { "emoji": "🌱", "text": "The plant starts to sprout." },
+            { "emoji": "🌱", "text": "It's the beginning of life." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "garden-hose",
+      "image": "💦",
+      "translations": {
+        "fr": {
+          "label": "Tuyau",
+          "phrases": [
+            { "emoji": "💦", "text": "J'arrose avec le tuyau." },
+            { "emoji": "💦", "text": "Le tuyau est long." },
+            { "emoji": "💦", "text": "L'eau coule du tuyau." },
+            { "emoji": "🚿", "text": "J'utilise le tuyau d'arrosage." }
+          ]
+        },
+        "en": {
+          "label": "Hose",
+          "phrases": [
+            { "emoji": "💦", "text": "I water with the hose." },
+            { "emoji": "💦", "text": "The hose is long." },
+            { "emoji": "💦", "text": "Water flows from the hose." },
+            { "emoji": "🚿", "text": "I use the garden hose." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "scarecrow",
+      "image": "🧑‍🌾",
+      "translations": {
+        "fr": {
+          "label": "Épouvantail",
+          "phrases": [
+            { "emoji": "🧑‍🌾", "text": "L'épouvantail protège le jardin." },
+            { "emoji": "🐦", "text": "Il fait peur aux oiseaux." },
+            { "emoji": "🧑‍🌾", "text": "L'épouvantail est dans le champ." },
+            { "emoji": "🌾", "text": "Il garde les récoltes." }
+          ]
+        },
+        "en": {
+          "label": "Scarecrow",
+          "phrases": [
+            { "emoji": "🧑‍🌾", "text": "The scarecrow protects the garden." },
+            { "emoji": "🐦", "text": "It scares away birds." },
+            { "emoji": "🧑‍🌾", "text": "The scarecrow is in the field." },
+            { "emoji": "🌾", "text": "It guards the crops." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fertilizer",
+      "image": "💩",
+      "translations": {
+        "fr": {
+          "label": "Engrais",
+          "phrases": [
+            { "emoji": "💩", "text": "J'ajoute de l'engrais." },
+            { "emoji": "🌱", "text": "L'engrais nourrit les plantes." },
+            { "emoji": "💩", "text": "L'engrais aide à pousser." },
+            { "emoji": "🌿", "text": "Les plantes aiment l'engrais." }
+          ]
+        },
+        "en": {
+          "label": "Fertilizer",
+          "phrases": [
+            { "emoji": "💩", "text": "I add fertilizer." },
+            { "emoji": "🌱", "text": "Fertilizer feeds the plants." },
+            { "emoji": "💩", "text": "Fertilizer helps them grow." },
+            { "emoji": "🌿", "text": "Plants love fertilizer." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pitchfork",
+      "image": "🔱",
+      "translations": {
+        "fr": {
+          "label": "Fourche",
+          "phrases": [
+            { "emoji": "🔱", "text": "J'utilise une fourche." },
+            { "emoji": "🔱", "text": "La fourche retourne la terre." },
+            { "emoji": "🌾", "text": "Je travaille avec la fourche." },
+            { "emoji": "🔱", "text": "La fourche est solide." }
+          ]
+        },
+        "en": {
+          "label": "Pitchfork",
+          "phrases": [
+            { "emoji": "🔱", "text": "I use a pitchfork." },
+            { "emoji": "🔱", "text": "The pitchfork turns the soil." },
+            { "emoji": "🌾", "text": "I work with the pitchfork." },
+            { "emoji": "🔱", "text": "The pitchfork is strong." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fence",
+      "image": "🚧",
+      "translations": {
+        "fr": {
+          "label": "Clôture",
+          "phrases": [
+            { "emoji": "🚧", "text": "Je construis une clôture." },
+            { "emoji": "🚧", "text": "La clôture protège le jardin." },
+            { "emoji": "🏡", "text": "La clôture entoure le jardin." },
+            { "emoji": "🚧", "text": "La clôture est haute." }
+          ]
+        },
+        "en": {
+          "label": "Fence",
+          "phrases": [
+            { "emoji": "🚧", "text": "I build a fence." },
+            { "emoji": "🚧", "text": "The fence protects the garden." },
+            { "emoji": "🏡", "text": "The fence surrounds the garden." },
+            { "emoji": "🚧", "text": "The fence is tall." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "windmill",
+      "image": "🌬️",
+      "translations": {
+        "fr": {
+          "label": "Moulin à vent",
+          "phrases": [
+            { "emoji": "🌬️", "text": "Le moulin à vent tourne." },
+            { "emoji": "💨", "text": "Le vent fait tourner le moulin." },
+            { "emoji": "🌬️", "text": "Le moulin est dans le jardin." },
+            { "emoji": "💨", "text": "C'est décoratif." }
+          ]
+        },
+        "en": {
+          "label": "Windmill",
+          "phrases": [
+            { "emoji": "🌬️", "text": "The windmill spins." },
+            { "emoji": "💨", "text": "The wind turns the windmill." },
+            { "emoji": "🌬️", "text": "The windmill is in the garden." },
+            { "emoji": "💨", "text": "It's decorative." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spray-bottle",
+      "image": "🧴",
+      "translations": {
+        "fr": {
+          "label": "Vaporisateur",
+          "phrases": [
+            { "emoji": "🧴", "text": "J'utilise un vaporisateur." },
+            { "emoji": "💦", "text": "Je vaporise de l'eau." },
+            { "emoji": "🧴", "text": "Le vaporisateur hydrate les plantes." },
+            { "emoji": "🌿", "text": "Je pulvérise doucement." }
+          ]
+        },
+        "en": {
+          "label": "Spray Bottle",
+          "phrases": [
+            { "emoji": "🧴", "text": "I use a spray bottle." },
+            { "emoji": "💦", "text": "I spray water." },
+            { "emoji": "🧴", "text": "The spray bottle hydrates plants." },
+            { "emoji": "🌿", "text": "I mist gently." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tractor",
+      "image": "🚜",
+      "translations": {
+        "fr": {
+          "label": "Tracteur",
+          "phrases": [
+            { "emoji": "🚜", "text": "Le tracteur laboure le champ." },
+            { "emoji": "🚜", "text": "J'utilise un tracteur." },
+            { "emoji": "🌾", "text": "Le tracteur est puissant." },
+            { "emoji": "🚜", "text": "Le tracteur travaille la terre." }
+          ]
+        },
+        "en": {
+          "label": "Tractor",
+          "phrases": [
+            { "emoji": "🚜", "text": "The tractor plows the field." },
+            { "emoji": "🚜", "text": "I use a tractor." },
+            { "emoji": "🌾", "text": "The tractor is powerful." },
+            { "emoji": "🚜", "text": "The tractor works the land." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lawnmower",
+      "image": "🏡",
+      "translations": {
+        "fr": {
+          "label": "Tondeuse",
+          "phrases": [
+            { "emoji": "🏡", "text": "Je tonds la pelouse." },
+            { "emoji": "🌱", "text": "La tondeuse coupe l'herbe." },
+            { "emoji": "🏡", "text": "J'utilise la tondeuse." },
+            { "emoji": "🌿", "text": "La pelouse est tondue." }
+          ]
+        },
+        "en": {
+          "label": "Lawnmower",
+          "phrases": [
+            { "emoji": "🏡", "text": "I mow the lawn." },
+            { "emoji": "🌱", "text": "The lawnmower cuts grass." },
+            { "emoji": "🏡", "text": "I use the lawnmower." },
+            { "emoji": "🌿", "text": "The lawn is mowed." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bonsai",
+      "image": "🌳",
+      "translations": {
+        "fr": {
+          "label": "Bonsaï",
+          "phrases": [
+            { "emoji": "🌳", "text": "J'ai un bonsaï." },
+            { "emoji": "🌳", "text": "Le bonsaï est petit." },
+            { "emoji": "✂️", "text": "Je taille mon bonsaï." },
+            { "emoji": "🌳", "text": "Le bonsaï est beau." }
+          ]
+        },
+        "en": {
+          "label": "Bonsai",
+          "phrases": [
+            { "emoji": "🌳", "text": "I have a bonsai." },
+            { "emoji": "🌳", "text": "The bonsai is small." },
+            { "emoji": "✂️", "text": "I trim my bonsai." },
+            { "emoji": "🌳", "text": "The bonsai is beautiful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "birdhouse",
+      "image": "🏠",
+      "translations": {
+        "fr": {
+          "label": "Nichoir",
+          "phrases": [
+            { "emoji": "🏠", "text": "J'installe un nichoir." },
+            { "emoji": "🐦", "text": "Les oiseaux habitent le nichoir." },
+            { "emoji": "🏠", "text": "Le nichoir est dans l'arbre." },
+            { "emoji": "🐦", "text": "J'aime observer les oiseaux." }
+          ]
+        },
+        "en": {
+          "label": "Birdhouse",
+          "phrases": [
+            { "emoji": "🏠", "text": "I install a birdhouse." },
+            { "emoji": "🐦", "text": "Birds live in the birdhouse." },
+            { "emoji": "🏠", "text": "The birdhouse is in the tree." },
+            { "emoji": "🐦", "text": "I like watching birds." }
+          ]
+        }
+      }
+    }
+  ]
+}

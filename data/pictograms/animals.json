@@ -1,0 +1,1301 @@
+{
+  "category": "animals",
+  "pictograms": [
+    {
+      "id": "cat",
+      "image": "🐱",
+      "translations": {
+        "fr": {
+          "label": "Chat",
+          "phrases": [
+            { "emoji": "🐱", "text": "J'aime les chats." },
+            { "emoji": "😍", "text": "Le chat est mignon." },
+            { "emoji": "🐱", "text": "J'ai un chat." },
+            { "emoji": "😺", "text": "Le chat fait miaou." }
+          ]
+        },
+        "en": {
+          "label": "Cat",
+          "phrases": [
+            { "emoji": "🐱", "text": "I like cats." },
+            { "emoji": "😍", "text": "The cat is cute." },
+            { "emoji": "🐱", "text": "I have a cat." },
+            { "emoji": "😺", "text": "The cat goes meow." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dog",
+      "image": "🐶",
+      "translations": {
+        "fr": {
+          "label": "Chien",
+          "phrases": [
+            { "emoji": "🐶", "text": "J'aime les chiens." },
+            { "emoji": "😍", "text": "Le chien est gentil." },
+            { "emoji": "🐶", "text": "J'ai un chien." },
+            { "emoji": "🐕", "text": "Le chien fait ouaf." }
+          ]
+        },
+        "en": {
+          "label": "Dog",
+          "phrases": [
+            { "emoji": "🐶", "text": "I like dogs." },
+            { "emoji": "😍", "text": "The dog is nice." },
+            { "emoji": "🐶", "text": "I have a dog." },
+            { "emoji": "🐕", "text": "The dog goes woof." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fish",
+      "image": "🐠",
+      "translations": {
+        "fr": {
+          "label": "Poisson",
+          "phrases": [
+            { "emoji": "🐠", "text": "J'aime les poissons." },
+            { "emoji": "🐟", "text": "Le poisson nage." },
+            { "emoji": "🐠", "text": "J'ai un poisson." },
+            { "emoji": "💧", "text": "Le poisson vit dans l'eau." }
+          ]
+        },
+        "en": {
+          "label": "Fish",
+          "phrases": [
+            { "emoji": "🐠", "text": "I like fish." },
+            { "emoji": "🐟", "text": "The fish swims." },
+            { "emoji": "🐠", "text": "I have a fish." },
+            { "emoji": "💧", "text": "The fish lives in water." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rabbit",
+      "image": "🐰",
+      "translations": {
+        "fr": {
+          "label": "Lapin",
+          "phrases": [
+            { "emoji": "🐰", "text": "J'aime les lapins." },
+            { "emoji": "🥕", "text": "Le lapin mange des carottes." },
+            { "emoji": "🐰", "text": "Le lapin saute." },
+            { "emoji": "😊", "text": "Le lapin est doux." }
+          ]
+        },
+        "en": {
+          "label": "Rabbit",
+          "phrases": [
+            { "emoji": "🐰", "text": "I like rabbits." },
+            { "emoji": "🥕", "text": "The rabbit eats carrots." },
+            { "emoji": "🐰", "text": "The rabbit jumps." },
+            { "emoji": "😊", "text": "The rabbit is soft." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "butterfly",
+      "image": "🦋",
+      "translations": {
+        "fr": {
+          "label": "Papillon",
+          "phrases": [
+            { "emoji": "🦋", "text": "J'aime les papillons." },
+            { "emoji": "🦋", "text": "Le papillon vole." },
+            { "emoji": "🌸", "text": "Le papillon est sur la fleur." },
+            { "emoji": "✨", "text": "Le papillon est joli." }
+          ]
+        },
+        "en": {
+          "label": "Butterfly",
+          "phrases": [
+            { "emoji": "🦋", "text": "I like butterflies." },
+            { "emoji": "🦋", "text": "The butterfly flies." },
+            { "emoji": "🌸", "text": "The butterfly is on the flower." },
+            { "emoji": "✨", "text": "The butterfly is pretty." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bird",
+      "image": "🐦",
+      "translations": {
+        "fr": {
+          "label": "Oiseau",
+          "phrases": [
+            { "emoji": "🐦", "text": "J'aime les oiseaux." },
+            { "emoji": "🐦", "text": "L'oiseau vole." },
+            { "emoji": "🎵", "text": "L'oiseau chante." },
+            { "emoji": "🌳", "text": "L'oiseau est dans l'arbre." }
+          ]
+        },
+        "en": {
+          "label": "Bird",
+          "phrases": [
+            { "emoji": "🐦", "text": "I like birds." },
+            { "emoji": "🐦", "text": "The bird flies." },
+            { "emoji": "🎵", "text": "The bird sings." },
+            { "emoji": "🌳", "text": "The bird is in the tree." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "elephant",
+      "image": "🐘",
+      "translations": {
+        "fr": {
+          "label": "Éléphant",
+          "phrases": [
+            { "emoji": "🐘", "text": "J'aime les éléphants." },
+            { "emoji": "🐘", "text": "L'éléphant est grand." },
+            { "emoji": "💪", "text": "L'éléphant est fort." },
+            { "emoji": "🐘", "text": "L'éléphant a une trompe." }
+          ]
+        },
+        "en": {
+          "label": "Elephant",
+          "phrases": [
+            { "emoji": "🐘", "text": "I like elephants." },
+            { "emoji": "🐘", "text": "The elephant is big." },
+            { "emoji": "💪", "text": "The elephant is strong." },
+            { "emoji": "🐘", "text": "The elephant has a trunk." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lion",
+      "image": "🦁",
+      "translations": {
+        "fr": {
+          "label": "Lion",
+          "phrases": [
+            { "emoji": "🦁", "text": "J'aime les lions." },
+            { "emoji": "🦁", "text": "Le lion rugit." },
+            { "emoji": "👑", "text": "Le lion est le roi." },
+            { "emoji": "💪", "text": "Le lion est fort." }
+          ]
+        },
+        "en": {
+          "label": "Lion",
+          "phrases": [
+            { "emoji": "🦁", "text": "I like lions." },
+            { "emoji": "🦁", "text": "The lion roars." },
+            { "emoji": "👑", "text": "The lion is the king." },
+            { "emoji": "💪", "text": "The lion is strong." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "monkey",
+      "image": "🐵",
+      "translations": {
+        "fr": {
+          "label": "Singe",
+          "phrases": [
+            { "emoji": "🐵", "text": "J'aime les singes." },
+            { "emoji": "🍌", "text": "Le singe mange des bananes." },
+            { "emoji": "🐵", "text": "Le singe saute." },
+            { "emoji": "🌳", "text": "Le singe grimpe aux arbres." }
+          ]
+        },
+        "en": {
+          "label": "Monkey",
+          "phrases": [
+            { "emoji": "🐵", "text": "I like monkeys." },
+            { "emoji": "🍌", "text": "The monkey eats bananas." },
+            { "emoji": "🐵", "text": "The monkey jumps." },
+            { "emoji": "🌳", "text": "The monkey climbs trees." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "giraffe",
+      "image": "🦒",
+      "translations": {
+        "fr": {
+          "label": "Girafe",
+          "phrases": [
+            { "emoji": "🦒", "text": "J'aime les girafes." },
+            { "emoji": "🦒", "text": "La girafe est grande." },
+            { "emoji": "🦒", "text": "La girafe a un long cou." },
+            { "emoji": "🌳", "text": "La girafe mange les feuilles." }
+          ]
+        },
+        "en": {
+          "label": "Giraffe",
+          "phrases": [
+            { "emoji": "🦒", "text": "I like giraffes." },
+            { "emoji": "🦒", "text": "The giraffe is tall." },
+            { "emoji": "🦒", "text": "The giraffe has a long neck." },
+            { "emoji": "🌳", "text": "The giraffe eats leaves." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "zebra",
+      "image": "🦓",
+      "translations": {
+        "fr": {
+          "label": "Zèbre",
+          "phrases": [
+            { "emoji": "🦓", "text": "J'aime les zèbres." },
+            { "emoji": "🦓", "text": "Le zèbre a des rayures." },
+            { "emoji": "🦓", "text": "Le zèbre court vite." },
+            { "emoji": "🦓", "text": "Le zèbre est noir et blanc." }
+          ]
+        },
+        "en": {
+          "label": "Zebra",
+          "phrases": [
+            { "emoji": "🦓", "text": "I like zebras." },
+            { "emoji": "🦓", "text": "The zebra has stripes." },
+            { "emoji": "🦓", "text": "The zebra runs fast." },
+            { "emoji": "🦓", "text": "The zebra is black and white." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tiger",
+      "image": "🐯",
+      "translations": {
+        "fr": {
+          "label": "Tigre",
+          "phrases": [
+            { "emoji": "🐯", "text": "J'aime les tigres." },
+            { "emoji": "🐯", "text": "Le tigre rugit." },
+            { "emoji": "💪", "text": "Le tigre est fort." },
+            { "emoji": "🐯", "text": "Le tigre a des rayures." }
+          ]
+        },
+        "en": {
+          "label": "Tiger",
+          "phrases": [
+            { "emoji": "🐯", "text": "I like tigers." },
+            { "emoji": "🐯", "text": "The tiger roars." },
+            { "emoji": "💪", "text": "The tiger is strong." },
+            { "emoji": "🐯", "text": "The tiger has stripes." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bear",
+      "image": "🐻",
+      "translations": {
+        "fr": {
+          "label": "Ours",
+          "phrases": [
+            { "emoji": "🐻", "text": "J'aime les ours." },
+            { "emoji": "🐻", "text": "L'ours est grand." },
+            { "emoji": "💪", "text": "L'ours est fort." },
+            { "emoji": "🍯", "text": "L'ours aime le miel." }
+          ]
+        },
+        "en": {
+          "label": "Bear",
+          "phrases": [
+            { "emoji": "🐻", "text": "I like bears." },
+            { "emoji": "🐻", "text": "The bear is big." },
+            { "emoji": "💪", "text": "The bear is strong." },
+            { "emoji": "🍯", "text": "The bear likes honey." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "panda",
+      "image": "🐼",
+      "translations": {
+        "fr": {
+          "label": "Panda",
+          "phrases": [
+            { "emoji": "🐼", "text": "J'aime les pandas." },
+            { "emoji": "🐼", "text": "Le panda est mignon." },
+            { "emoji": "🎋", "text": "Le panda mange du bambou." },
+            { "emoji": "🐼", "text": "Le panda est noir et blanc." }
+          ]
+        },
+        "en": {
+          "label": "Panda",
+          "phrases": [
+            { "emoji": "🐼", "text": "I like pandas." },
+            { "emoji": "🐼", "text": "The panda is cute." },
+            { "emoji": "🎋", "text": "The panda eats bamboo." },
+            { "emoji": "🐼", "text": "The panda is black and white." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "koala",
+      "image": "🐨",
+      "translations": {
+        "fr": {
+          "label": "Koala",
+          "phrases": [
+            { "emoji": "🐨", "text": "J'aime les koalas." },
+            { "emoji": "🐨", "text": "Le koala est mignon." },
+            { "emoji": "🌳", "text": "Le koala vit dans les arbres." },
+            { "emoji": "😴", "text": "Le koala dort beaucoup." }
+          ]
+        },
+        "en": {
+          "label": "Koala",
+          "phrases": [
+            { "emoji": "🐨", "text": "I like koalas." },
+            { "emoji": "🐨", "text": "The koala is cute." },
+            { "emoji": "🌳", "text": "The koala lives in trees." },
+            { "emoji": "😴", "text": "The koala sleeps a lot." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kangaroo",
+      "image": "🦘",
+      "translations": {
+        "fr": {
+          "label": "Kangourou",
+          "phrases": [
+            { "emoji": "🦘", "text": "J'aime les kangourous." },
+            { "emoji": "🦘", "text": "Le kangourou saute." },
+            { "emoji": "🦘", "text": "Le kangourou a une poche." },
+            { "emoji": "🦘", "text": "Le kangourou vit en Australie." }
+          ]
+        },
+        "en": {
+          "label": "Kangaroo",
+          "phrases": [
+            { "emoji": "🦘", "text": "I like kangaroos." },
+            { "emoji": "🦘", "text": "The kangaroo jumps." },
+            { "emoji": "🦘", "text": "The kangaroo has a pouch." },
+            { "emoji": "🦘", "text": "The kangaroo lives in Australia." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "turtle",
+      "image": "🐢",
+      "translations": {
+        "fr": {
+          "label": "Tortue",
+          "phrases": [
+            { "emoji": "🐢", "text": "J'aime les tortues." },
+            { "emoji": "🐢", "text": "La tortue est lente." },
+            { "emoji": "🐢", "text": "La tortue a une carapace." },
+            { "emoji": "🐢", "text": "La tortue vit longtemps." }
+          ]
+        },
+        "en": {
+          "label": "Turtle",
+          "phrases": [
+            { "emoji": "🐢", "text": "I like turtles." },
+            { "emoji": "🐢", "text": "The turtle is slow." },
+            { "emoji": "🐢", "text": "The turtle has a shell." },
+            { "emoji": "🐢", "text": "The turtle lives long." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "frog",
+      "image": "🐸",
+      "translations": {
+        "fr": {
+          "label": "Grenouille",
+          "phrases": [
+            { "emoji": "🐸", "text": "J'aime les grenouilles." },
+            { "emoji": "🐸", "text": "La grenouille saute." },
+            { "emoji": "🐸", "text": "La grenouille fait coâ." },
+            { "emoji": "💧", "text": "La grenouille vit près de l'eau." }
+          ]
+        },
+        "en": {
+          "label": "Frog",
+          "phrases": [
+            { "emoji": "🐸", "text": "I like frogs." },
+            { "emoji": "🐸", "text": "The frog jumps." },
+            { "emoji": "🐸", "text": "The frog goes ribbit." },
+            { "emoji": "💧", "text": "The frog lives near water." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "snake",
+      "image": "🐍",
+      "translations": {
+        "fr": {
+          "label": "Serpent",
+          "phrases": [
+            { "emoji": "🐍", "text": "J'aime les serpents." },
+            { "emoji": "🐍", "text": "Le serpent rampe." },
+            { "emoji": "🐍", "text": "Le serpent est long." },
+            { "emoji": "😨", "text": "Le serpent fait peur." }
+          ]
+        },
+        "en": {
+          "label": "Snake",
+          "phrases": [
+            { "emoji": "🐍", "text": "I like snakes." },
+            { "emoji": "🐍", "text": "The snake crawls." },
+            { "emoji": "🐍", "text": "The snake is long." },
+            { "emoji": "😨", "text": "The snake is scary." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "crocodile",
+      "image": "🐊",
+      "translations": {
+        "fr": {
+          "label": "Crocodile",
+          "phrases": [
+            { "emoji": "🐊", "text": "J'aime les crocodiles." },
+            { "emoji": "🐊", "text": "Le crocodile a de grandes dents." },
+            { "emoji": "💧", "text": "Le crocodile vit dans l'eau." },
+            { "emoji": "😨", "text": "Le crocodile est dangereux." }
+          ]
+        },
+        "en": {
+          "label": "Crocodile",
+          "phrases": [
+            { "emoji": "🐊", "text": "I like crocodiles." },
+            { "emoji": "🐊", "text": "The crocodile has big teeth." },
+            { "emoji": "💧", "text": "The crocodile lives in water." },
+            { "emoji": "😨", "text": "The crocodile is dangerous." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "whale",
+      "image": "🐋",
+      "translations": {
+        "fr": {
+          "label": "Baleine",
+          "phrases": [
+            { "emoji": "🐋", "text": "J'aime les baleines." },
+            { "emoji": "🐋", "text": "La baleine est énorme." },
+            { "emoji": "🌊", "text": "La baleine vit dans l'océan." },
+            { "emoji": "🐋", "text": "La baleine chante." }
+          ]
+        },
+        "en": {
+          "label": "Whale",
+          "phrases": [
+            { "emoji": "🐋", "text": "I like whales." },
+            { "emoji": "🐋", "text": "The whale is huge." },
+            { "emoji": "🌊", "text": "The whale lives in the ocean." },
+            { "emoji": "🐋", "text": "The whale sings." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dolphin",
+      "image": "🐬",
+      "translations": {
+        "fr": {
+          "label": "Dauphin",
+          "phrases": [
+            { "emoji": "🐬", "text": "J'aime les dauphins." },
+            { "emoji": "🐬", "text": "Le dauphin nage vite." },
+            { "emoji": "🐬", "text": "Le dauphin saute." },
+            { "emoji": "😊", "text": "Le dauphin est intelligent." }
+          ]
+        },
+        "en": {
+          "label": "Dolphin",
+          "phrases": [
+            { "emoji": "🐬", "text": "I like dolphins." },
+            { "emoji": "🐬", "text": "The dolphin swims fast." },
+            { "emoji": "🐬", "text": "The dolphin jumps." },
+            { "emoji": "😊", "text": "The dolphin is smart." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "penguin",
+      "image": "🐧",
+      "translations": {
+        "fr": {
+          "label": "Manchot",
+          "phrases": [
+            { "emoji": "🐧", "text": "J'aime les manchots." },
+            { "emoji": "🐧", "text": "Le manchot vit dans le froid." },
+            { "emoji": "❄️", "text": "Le manchot vit en Antarctique." },
+            { "emoji": "🐧", "text": "Le manchot nage bien." }
+          ]
+        },
+        "en": {
+          "label": "Penguin",
+          "phrases": [
+            { "emoji": "🐧", "text": "I like penguins." },
+            { "emoji": "🐧", "text": "The penguin lives in the cold." },
+            { "emoji": "❄️", "text": "The penguin lives in Antarctica." },
+            { "emoji": "🐧", "text": "The penguin swims well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "owl",
+      "image": "🦉",
+      "translations": {
+        "fr": {
+          "label": "Chouette",
+          "phrases": [
+            { "emoji": "🦉", "text": "J'aime les chouettes." },
+            { "emoji": "🦉", "text": "La chouette vole la nuit." },
+            { "emoji": "🦉", "text": "La chouette fait hou-hou." },
+            { "emoji": "🦉", "text": "La chouette est sage." }
+          ]
+        },
+        "en": {
+          "label": "Owl",
+          "phrases": [
+            { "emoji": "🦉", "text": "I like owls." },
+            { "emoji": "🦉", "text": "The owl flies at night." },
+            { "emoji": "🦉", "text": "The owl goes hoot." },
+            { "emoji": "🦉", "text": "The owl is wise." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eagle",
+      "image": "🦅",
+      "translations": {
+        "fr": {
+          "label": "Aigle",
+          "phrases": [
+            { "emoji": "🦅", "text": "J'aime les aigles." },
+            { "emoji": "🦅", "text": "L'aigle vole haut." },
+            { "emoji": "👁️", "text": "L'aigle voit très bien." },
+            { "emoji": "💪", "text": "L'aigle est puissant." }
+          ]
+        },
+        "en": {
+          "label": "Eagle",
+          "phrases": [
+            { "emoji": "🦅", "text": "I like eagles." },
+            { "emoji": "🦅", "text": "The eagle flies high." },
+            { "emoji": "👁️", "text": "The eagle sees very well." },
+            { "emoji": "💪", "text": "The eagle is powerful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "duck",
+      "image": "🦆",
+      "translations": {
+        "fr": {
+          "label": "Canard",
+          "phrases": [
+            { "emoji": "🦆", "text": "J'aime les canards." },
+            { "emoji": "🦆", "text": "Le canard fait coin-coin." },
+            { "emoji": "💧", "text": "Le canard nage." },
+            { "emoji": "🦆", "text": "Le canard a des plumes." }
+          ]
+        },
+        "en": {
+          "label": "Duck",
+          "phrases": [
+            { "emoji": "🦆", "text": "I like ducks." },
+            { "emoji": "🦆", "text": "The duck goes quack." },
+            { "emoji": "💧", "text": "The duck swims." },
+            { "emoji": "🦆", "text": "The duck has feathers." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "swan",
+      "image": "🦢",
+      "translations": {
+        "fr": {
+          "label": "Cygne",
+          "phrases": [
+            { "emoji": "🦢", "text": "J'aime les cygnes." },
+            { "emoji": "🦢", "text": "Le cygne est élégant." },
+            { "emoji": "💧", "text": "Le cygne nage." },
+            { "emoji": "🦢", "text": "Le cygne est blanc." }
+          ]
+        },
+        "en": {
+          "label": "Swan",
+          "phrases": [
+            { "emoji": "🦢", "text": "I like swans." },
+            { "emoji": "🦢", "text": "The swan is elegant." },
+            { "emoji": "💧", "text": "The swan swims." },
+            { "emoji": "🦢", "text": "The swan is white." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chicken",
+      "image": "🐔",
+      "translations": {
+        "fr": {
+          "label": "Poule",
+          "phrases": [
+            { "emoji": "🐔", "text": "J'aime les poules." },
+            { "emoji": "🐔", "text": "La poule fait cot-cot." },
+            { "emoji": "🥚", "text": "La poule pond des œufs." },
+            { "emoji": "🐔", "text": "La poule vit à la ferme." }
+          ]
+        },
+        "en": {
+          "label": "Chicken",
+          "phrases": [
+            { "emoji": "🐔", "text": "I like chickens." },
+            { "emoji": "🐔", "text": "The chicken goes cluck." },
+            { "emoji": "🥚", "text": "The chicken lays eggs." },
+            { "emoji": "🐔", "text": "The chicken lives on the farm." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cow",
+      "image": "🐄",
+      "translations": {
+        "fr": {
+          "label": "Vache",
+          "phrases": [
+            { "emoji": "🐄", "text": "J'aime les vaches." },
+            { "emoji": "🐄", "text": "La vache fait meuh." },
+            { "emoji": "🥛", "text": "La vache donne du lait." },
+            { "emoji": "🐄", "text": "La vache vit à la ferme." }
+          ]
+        },
+        "en": {
+          "label": "Cow",
+          "phrases": [
+            { "emoji": "🐄", "text": "I like cows." },
+            { "emoji": "🐄", "text": "The cow goes moo." },
+            { "emoji": "🥛", "text": "The cow gives milk." },
+            { "emoji": "🐄", "text": "The cow lives on the farm." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pig",
+      "image": "🐷",
+      "translations": {
+        "fr": {
+          "label": "Cochon",
+          "phrases": [
+            { "emoji": "🐷", "text": "J'aime les cochons." },
+            { "emoji": "🐷", "text": "Le cochon fait groin-groin." },
+            { "emoji": "🐷", "text": "Le cochon est rose." },
+            { "emoji": "🐷", "text": "Le cochon vit à la ferme." }
+          ]
+        },
+        "en": {
+          "label": "Pig",
+          "phrases": [
+            { "emoji": "🐷", "text": "I like pigs." },
+            { "emoji": "🐷", "text": "The pig goes oink." },
+            { "emoji": "🐷", "text": "The pig is pink." },
+            { "emoji": "🐷", "text": "The pig lives on the farm." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sheep",
+      "image": "🐑",
+      "translations": {
+        "fr": {
+          "label": "Mouton",
+          "phrases": [
+            { "emoji": "🐑", "text": "J'aime les moutons." },
+            { "emoji": "🐑", "text": "Le mouton fait bêê." },
+            { "emoji": "🧶", "text": "Le mouton donne de la laine." },
+            { "emoji": "🐑", "text": "Le mouton vit à la ferme." }
+          ]
+        },
+        "en": {
+          "label": "Sheep",
+          "phrases": [
+            { "emoji": "🐑", "text": "I like sheep." },
+            { "emoji": "🐑", "text": "The sheep goes baa." },
+            { "emoji": "🧶", "text": "The sheep gives wool." },
+            { "emoji": "🐑", "text": "The sheep lives on the farm." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "horse",
+      "image": "🐴",
+      "translations": {
+        "fr": {
+          "label": "Cheval",
+          "phrases": [
+            { "emoji": "🐴", "text": "J'aime les chevaux." },
+            { "emoji": "🐴", "text": "Le cheval hennit." },
+            { "emoji": "🐴", "text": "Le cheval court vite." },
+            { "emoji": "🐴", "text": "Le cheval galope." }
+          ]
+        },
+        "en": {
+          "label": "Horse",
+          "phrases": [
+            { "emoji": "🐴", "text": "I like horses." },
+            { "emoji": "🐴", "text": "The horse neighs." },
+            { "emoji": "🐴", "text": "The horse runs fast." },
+            { "emoji": "🐴", "text": "The horse gallops." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mouse",
+      "image": "🐭",
+      "translations": {
+        "fr": {
+          "label": "Souris",
+          "phrases": [
+            { "emoji": "🐭", "text": "J'aime les souris." },
+            { "emoji": "🐭", "text": "La souris est petite." },
+            { "emoji": "🧀", "text": "La souris aime le fromage." },
+            { "emoji": "🐭", "text": "La souris fait couic." }
+          ]
+        },
+        "en": {
+          "label": "Mouse",
+          "phrases": [
+            { "emoji": "🐭", "text": "I like mice." },
+            { "emoji": "🐭", "text": "The mouse is small." },
+            { "emoji": "🧀", "text": "The mouse likes cheese." },
+            { "emoji": "🐭", "text": "The mouse squeaks." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bee",
+      "image": "🐝",
+      "translations": {
+        "fr": {
+          "label": "Abeille",
+          "phrases": [
+            { "emoji": "🐝", "text": "J'aime les abeilles." },
+            { "emoji": "🐝", "text": "L'abeille fait bzz." },
+            { "emoji": "🍯", "text": "L'abeille fait du miel." },
+            { "emoji": "🌸", "text": "L'abeille va sur les fleurs." }
+          ]
+        },
+        "en": {
+          "label": "Bee",
+          "phrases": [
+            { "emoji": "🐝", "text": "I like bees." },
+            { "emoji": "🐝", "text": "The bee goes buzz." },
+            { "emoji": "🍯", "text": "The bee makes honey." },
+            { "emoji": "🌸", "text": "The bee goes to flowers." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spider",
+      "image": "🕷️",
+      "translations": {
+        "fr": {
+          "label": "Araignée",
+          "phrases": [
+            { "emoji": "🕷️", "text": "J'aime les araignées." },
+            { "emoji": "🕸️", "text": "L'araignée fait une toile." },
+            { "emoji": "🕷️", "text": "L'araignée a huit pattes." },
+            { "emoji": "😨", "text": "L'araignée fait peur." }
+          ]
+        },
+        "en": {
+          "label": "Spider",
+          "phrases": [
+            { "emoji": "🕷️", "text": "I like spiders." },
+            { "emoji": "🕸️", "text": "The spider makes a web." },
+            { "emoji": "🕷️", "text": "The spider has eight legs." },
+            { "emoji": "😨", "text": "The spider is scary." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "crab",
+      "image": "🦀",
+      "translations": {
+        "fr": {
+          "label": "Crabe",
+          "phrases": [
+            { "emoji": "🦀", "text": "J'aime les crabes." },
+            { "emoji": "🦀", "text": "Le crabe a des pinces." },
+            { "emoji": "🏖️", "text": "Le crabe vit à la plage." },
+            { "emoji": "🦀", "text": "Le crabe marche de côté." }
+          ]
+        },
+        "en": {
+          "label": "Crab",
+          "phrases": [
+            { "emoji": "🦀", "text": "I like crabs." },
+            { "emoji": "🦀", "text": "The crab has claws." },
+            { "emoji": "🏖️", "text": "The crab lives at the beach." },
+            { "emoji": "🦀", "text": "The crab walks sideways." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "camel",
+      "image": "🐫",
+      "translations": {
+        "fr": {
+          "label": "Chameau",
+          "phrases": [
+            { "emoji": "🐫", "text": "J'aime les chameaux." },
+            { "emoji": "🐫", "text": "Le chameau a deux bosses." },
+            { "emoji": "🏜️", "text": "Le chameau vit dans le désert." },
+            { "emoji": "💪", "text": "Le chameau est résistant." }
+          ]
+        },
+        "en": {
+          "label": "Camel",
+          "phrases": [
+            { "emoji": "🐫", "text": "I like camels." },
+            { "emoji": "🐫", "text": "The camel has two humps." },
+            { "emoji": "🏜️", "text": "The camel lives in the desert." },
+            { "emoji": "💪", "text": "The camel is resilient." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "jellyfish",
+      "image": "🪼",
+      "translations": {
+        "fr": {
+          "label": "Méduse",
+          "phrases": [
+            { "emoji": "🪼", "text": "J'aime les méduses." },
+            { "emoji": "🪼", "text": "La méduse flotte dans l'eau." },
+            { "emoji": "🌊", "text": "La méduse vit dans l'océan." },
+            { "emoji": "⚠️", "text": "La méduse peut piquer." }
+          ]
+        },
+        "en": {
+          "label": "Jellyfish",
+          "phrases": [
+            { "emoji": "🪼", "text": "I like jellyfish." },
+            { "emoji": "🪼", "text": "The jellyfish floats in water." },
+            { "emoji": "🌊", "text": "The jellyfish lives in the ocean." },
+            { "emoji": "⚠️", "text": "The jellyfish can sting." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ostrich",
+      "image": "🪿",
+      "translations": {
+        "fr": {
+          "label": "Autruche",
+          "phrases": [
+            { "emoji": "🪿", "text": "J'aime les autruches." },
+            { "emoji": "🪿", "text": "L'autruche court très vite." },
+            { "emoji": "🪿", "text": "L'autruche est un grand oiseau." },
+            { "emoji": "🥚", "text": "L'autruche pond de gros œufs." }
+          ]
+        },
+        "en": {
+          "label": "Ostrich",
+          "phrases": [
+            { "emoji": "🪿", "text": "I like ostriches." },
+            { "emoji": "🪿", "text": "The ostrich runs very fast." },
+            { "emoji": "🪿", "text": "The ostrich is a big bird." },
+            { "emoji": "🥚", "text": "The ostrich lays big eggs." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "raccoon",
+      "image": "🦝",
+      "translations": {
+        "fr": {
+          "label": "Raton laveur",
+          "phrases": [
+            { "emoji": "🦝", "text": "J'aime les ratons laveurs." },
+            { "emoji": "🦝", "text": "Le raton laveur a un masque." },
+            { "emoji": "🦝", "text": "Le raton laveur est malin." },
+            { "emoji": "🌙", "text": "Le raton laveur est actif la nuit." }
+          ]
+        },
+        "en": {
+          "label": "Raccoon",
+          "phrases": [
+            { "emoji": "🦝", "text": "I like raccoons." },
+            { "emoji": "🦝", "text": "The raccoon has a mask." },
+            { "emoji": "🦝", "text": "The raccoon is clever." },
+            { "emoji": "🌙", "text": "The raccoon is active at night." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bat",
+      "image": "🦇",
+      "translations": {
+        "fr": {
+          "label": "Chauve-souris",
+          "phrases": [
+            { "emoji": "🦇", "text": "J'aime les chauves-souris." },
+            { "emoji": "🦇", "text": "La chauve-souris vole la nuit." },
+            { "emoji": "🦇", "text": "La chauve-souris dort à l'envers." },
+            { "emoji": "🌙", "text": "La chauve-souris est nocturne." }
+          ]
+        },
+        "en": {
+          "label": "Bat",
+          "phrases": [
+            { "emoji": "🦇", "text": "I like bats." },
+            { "emoji": "🦇", "text": "The bat flies at night." },
+            { "emoji": "🦇", "text": "The bat sleeps upside down." },
+            { "emoji": "🌙", "text": "The bat is nocturnal." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hippopotamus",
+      "image": "🦛",
+      "translations": {
+        "fr": {
+          "label": "Hippopotame",
+          "phrases": [
+            { "emoji": "🦛", "text": "J'aime les hippopotames." },
+            { "emoji": "🦛", "text": "L'hippopotame est gros." },
+            { "emoji": "💧", "text": "L'hippopotame vit dans l'eau." },
+            { "emoji": "🦛", "text": "L'hippopotame a une grande bouche." }
+          ]
+        },
+        "en": {
+          "label": "Hippopotamus",
+          "phrases": [
+            { "emoji": "🦛", "text": "I like hippopotamuses." },
+            { "emoji": "🦛", "text": "The hippopotamus is big." },
+            { "emoji": "💧", "text": "The hippopotamus lives in water." },
+            { "emoji": "🦛", "text": "The hippopotamus has a big mouth." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seal",
+      "image": "🦭",
+      "translations": {
+        "fr": {
+          "label": "Phoque",
+          "phrases": [
+            { "emoji": "🦭", "text": "J'aime les phoques." },
+            { "emoji": "🦭", "text": "Le phoque nage bien." },
+            { "emoji": "🐟", "text": "Le phoque mange du poisson." },
+            { "emoji": "❄️", "text": "Le phoque vit dans le froid." }
+          ]
+        },
+        "en": {
+          "label": "Seal",
+          "phrases": [
+            { "emoji": "🦭", "text": "I like seals." },
+            { "emoji": "🦭", "text": "The seal swims well." },
+            { "emoji": "🐟", "text": "The seal eats fish." },
+            { "emoji": "❄️", "text": "The seal lives in the cold." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "walrus",
+      "image": "🦭",
+      "translations": {
+        "fr": {
+          "label": "Morse",
+          "phrases": [
+            { "emoji": "🦭", "text": "J'aime les morses." },
+            { "emoji": "🦭", "text": "Le morse a de longues défenses." },
+            { "emoji": "❄️", "text": "Le morse vit dans l'Arctique." },
+            { "emoji": "💪", "text": "Le morse est très grand." }
+          ]
+        },
+        "en": {
+          "label": "Walrus",
+          "phrases": [
+            { "emoji": "🦭", "text": "I like walruses." },
+            { "emoji": "🦭", "text": "The walrus has long tusks." },
+            { "emoji": "❄️", "text": "The walrus lives in the Arctic." },
+            { "emoji": "💪", "text": "The walrus is very big." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seahorse",
+      "image": "🐴",
+      "translations": {
+        "fr": {
+          "label": "Hippocampe",
+          "phrases": [
+            { "emoji": "🐴", "text": "J'aime les hippocampes." },
+            { "emoji": "🐴", "text": "L'hippocampe nage debout." },
+            { "emoji": "🌊", "text": "L'hippocampe vit dans l'océan." },
+            { "emoji": "🐴", "text": "L'hippocampe est petit." }
+          ]
+        },
+        "en": {
+          "label": "Seahorse",
+          "phrases": [
+            { "emoji": "🐴", "text": "I like seahorses." },
+            { "emoji": "🐴", "text": "The seahorse swims upright." },
+            { "emoji": "🌊", "text": "The seahorse lives in the ocean." },
+            { "emoji": "🐴", "text": "The seahorse is small." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bull",
+      "image": "🐂",
+      "translations": {
+        "fr": {
+          "label": "Taureau",
+          "phrases": [
+            { "emoji": "🐂", "text": "J'aime les taureaux." },
+            { "emoji": "🐂", "text": "Le taureau a des cornes." },
+            { "emoji": "💪", "text": "Le taureau est puissant." },
+            { "emoji": "🐂", "text": "Le taureau vit à la ferme." }
+          ]
+        },
+        "en": {
+          "label": "Bull",
+          "phrases": [
+            { "emoji": "🐂", "text": "I like bulls." },
+            { "emoji": "🐂", "text": "The bull has horns." },
+            { "emoji": "💪", "text": "The bull is powerful." },
+            { "emoji": "🐂", "text": "The bull lives on the farm." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pelican",
+      "image": "🦆",
+      "translations": {
+        "fr": {
+          "label": "Pélican",
+          "phrases": [
+            { "emoji": "🦆", "text": "J'aime les pélicans." },
+            { "emoji": "🦆", "text": "Le pélican a un grand bec." },
+            { "emoji": "🐟", "text": "Le pélican mange du poisson." },
+            { "emoji": "🌊", "text": "Le pélican vit près de l'eau." }
+          ]
+        },
+        "en": {
+          "label": "Pelican",
+          "phrases": [
+            { "emoji": "🦆", "text": "I like pelicans." },
+            { "emoji": "🦆", "text": "The pelican has a big beak." },
+            { "emoji": "🐟", "text": "The pelican eats fish." },
+            { "emoji": "🌊", "text": "The pelican lives near water." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beaver",
+      "image": "🦫",
+      "translations": {
+        "fr": {
+          "label": "Castor",
+          "phrases": [
+            { "emoji": "🦫", "text": "J'aime les castors." },
+            { "emoji": "🦫", "text": "Le castor construit des barrages." },
+            { "emoji": "🌳", "text": "Le castor coupe des arbres." },
+            { "emoji": "💧", "text": "Le castor vit près de l'eau." }
+          ]
+        },
+        "en": {
+          "label": "Beaver",
+          "phrases": [
+            { "emoji": "🦫", "text": "I like beavers." },
+            { "emoji": "🦫", "text": "The beaver builds dams." },
+            { "emoji": "🌳", "text": "The beaver cuts trees." },
+            { "emoji": "💧", "text": "The beaver lives near water." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "goldfish",
+      "image": "🐠",
+      "translations": {
+        "fr": {
+          "label": "Poisson rouge",
+          "phrases": [
+            { "emoji": "🐠", "text": "J'aime les poissons rouges." },
+            { "emoji": "🐠", "text": "Le poisson rouge est orange." },
+            { "emoji": "🐠", "text": "Le poisson rouge nage dans un bocal." },
+            { "emoji": "🐠", "text": "Le poisson rouge est un animal de compagnie." }
+          ]
+        },
+        "en": {
+          "label": "Goldfish",
+          "phrases": [
+            { "emoji": "🐠", "text": "I like goldfish." },
+            { "emoji": "🐠", "text": "The goldfish is orange." },
+            { "emoji": "🐠", "text": "The goldfish swims in a bowl." },
+            { "emoji": "🐠", "text": "The goldfish is a pet." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rhinoceros",
+      "image": "🦏",
+      "translations": {
+        "fr": {
+          "label": "Rhinocéros",
+          "phrases": [
+            { "emoji": "🦏", "text": "J'aime les rhinocéros." },
+            { "emoji": "🦏", "text": "Le rhinocéros a une corne." },
+            { "emoji": "💪", "text": "Le rhinocéros est fort." },
+            { "emoji": "🦏", "text": "Le rhinocéros est très grand." }
+          ]
+        },
+        "en": {
+          "label": "Rhinoceros",
+          "phrases": [
+            { "emoji": "🦏", "text": "I like rhinoceroses." },
+            { "emoji": "🦏", "text": "The rhinoceros has a horn." },
+            { "emoji": "💪", "text": "The rhinoceros is strong." },
+            { "emoji": "🦏", "text": "The rhinoceros is very big." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "squid",
+      "image": "🦑",
+      "translations": {
+        "fr": {
+          "label": "Calamar",
+          "phrases": [
+            { "emoji": "🦑", "text": "J'aime les calamars." },
+            { "emoji": "🦑", "text": "Le calamar a des tentacules." },
+            { "emoji": "🌊", "text": "Le calamar vit dans l'océan." },
+            { "emoji": "🦑", "text": "Le calamar nage vite." }
+          ]
+        },
+        "en": {
+          "label": "Squid",
+          "phrases": [
+            { "emoji": "🦑", "text": "I like squids." },
+            { "emoji": "🦑", "text": "The squid has tentacles." },
+            { "emoji": "🌊", "text": "The squid lives in the ocean." },
+            { "emoji": "🦑", "text": "The squid swims fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beetle",
+      "image": "🪲",
+      "translations": {
+        "fr": {
+          "label": "Scarabée",
+          "phrases": [
+            { "emoji": "🪲", "text": "J'aime les scarabées." },
+            { "emoji": "🪲", "text": "Le scarabée a une carapace dure." },
+            { "emoji": "🪲", "text": "Le scarabée est un insecte." },
+            { "emoji": "🌳", "text": "Le scarabée vit dans la nature." }
+          ]
+        },
+        "en": {
+          "label": "Beetle",
+          "phrases": [
+            { "emoji": "🪲", "text": "I like beetles." },
+            { "emoji": "🪲", "text": "The beetle has a hard shell." },
+            { "emoji": "🪲", "text": "The beetle is an insect." },
+            { "emoji": "🌳", "text": "The beetle lives in nature." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "starfish",
+      "image": "⭐",
+      "translations": {
+        "fr": {
+          "label": "Étoile de mer",
+          "phrases": [
+            { "emoji": "⭐", "text": "J'aime les étoiles de mer." },
+            { "emoji": "⭐", "text": "L'étoile de mer a cinq branches." },
+            { "emoji": "🌊", "text": "L'étoile de mer vit dans l'océan." },
+            { "emoji": "🏖️", "text": "L'étoile de mer est sur la plage." }
+          ]
+        },
+        "en": {
+          "label": "Starfish",
+          "phrases": [
+            { "emoji": "⭐", "text": "I like starfish." },
+            { "emoji": "⭐", "text": "The starfish has five arms." },
+            { "emoji": "🌊", "text": "The starfish lives in the ocean." },
+            { "emoji": "🏖️", "text": "The starfish is on the beach." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "parakeet",
+      "image": "🦜",
+      "translations": {
+        "fr": {
+          "label": "Perruche",
+          "phrases": [
+            { "emoji": "🦜", "text": "J'aime les perruches." },
+            { "emoji": "🦜", "text": "La perruche est colorée." },
+            { "emoji": "🎵", "text": "La perruche chante." },
+            { "emoji": "🦜", "text": "La perruche est un oiseau de compagnie." }
+          ]
+        },
+        "en": {
+          "label": "Parakeet",
+          "phrases": [
+            { "emoji": "🦜", "text": "I like parakeets." },
+            { "emoji": "🦜", "text": "The parakeet is colorful." },
+            { "emoji": "🎵", "text": "The parakeet sings." },
+            { "emoji": "🦜", "text": "The parakeet is a pet bird." }
+          ]
+        }
+      }
+    }
+  ]
+}

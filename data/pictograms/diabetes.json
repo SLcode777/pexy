@@ -1,0 +1,244 @@
+{
+  "pictograms": [
+    {
+      "id": "blood-sugar",
+      "image": "🩸",
+      "translations": {
+        "fr": {
+          "label": "Glycémie",
+          "phrases": [
+            { "emoji": "🩸", "text": "Je contrôle ma glycémie." },
+            { "emoji": "🩸", "text": "Ma glycémie est stable." },
+            { "emoji": "🩸", "text": "Je mesure mon taux de sucre." },
+            { "emoji": "🩸", "text": "Ma glycémie est normale." }
+          ]
+        },
+        "en": {
+          "label": "Blood Sugar",
+          "phrases": [
+            { "emoji": "🩸", "text": "I check my blood sugar." },
+            { "emoji": "🩸", "text": "My blood sugar is stable." },
+            { "emoji": "🩸", "text": "I measure my sugar level." },
+            { "emoji": "🩸", "text": "My blood sugar is normal." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bolus",
+      "image": "💉",
+      "translations": {
+        "fr": {
+          "label": "Bolus",
+          "phrases": [
+            { "emoji": "💉", "text": "Je fais un bolus." },
+            { "emoji": "💉", "text": "Je calcule mon bolus." },
+            { "emoji": "💉", "text": "J'ai besoin d'un bolus." },
+            { "emoji": "💉", "text": "Le bolus corrige ma glycémie." }
+          ]
+        },
+        "en": {
+          "label": "Bolus",
+          "phrases": [
+            { "emoji": "💉", "text": "I give a bolus." },
+            { "emoji": "💉", "text": "I calculate my bolus." },
+            { "emoji": "💉", "text": "I need a bolus." },
+            { "emoji": "💉", "text": "The bolus corrects my blood sugar." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hypoglycemia",
+      "image": "📉",
+      "translations": {
+        "fr": {
+          "label": "Hypoglycémie",
+          "phrases": [
+            { "emoji": "📉", "text": "J'ai une hypoglycémie." },
+            { "emoji": "📉", "text": "Ma glycémie est trop basse." },
+            { "emoji": "📉", "text": "Je dois manger du sucre." },
+            { "emoji": "📉", "text": "Je me sens faible." }
+          ]
+        },
+        "en": {
+          "label": "Hypoglycemia",
+          "phrases": [
+            { "emoji": "📉", "text": "I have low blood sugar." },
+            { "emoji": "📉", "text": "My blood sugar is too low." },
+            { "emoji": "📉", "text": "I need to eat sugar." },
+            { "emoji": "📉", "text": "I feel weak." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hyperglycemia",
+      "image": "📈",
+      "translations": {
+        "fr": {
+          "label": "Hyperglycémie",
+          "phrases": [
+            { "emoji": "📈", "text": "J'ai une hyperglycémie." },
+            { "emoji": "📈", "text": "Ma glycémie est trop haute." },
+            { "emoji": "📈", "text": "J'ai besoin d'insuline." },
+            { "emoji": "📈", "text": "Je dois corriger." }
+          ]
+        },
+        "en": {
+          "label": "Hyperglycemia",
+          "phrases": [
+            { "emoji": "📈", "text": "I have high blood sugar." },
+            { "emoji": "📈", "text": "My blood sugar is too high." },
+            { "emoji": "📈", "text": "I need insulin." },
+            { "emoji": "📈", "text": "I need to correct." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "glucose-meter",
+      "image": "🩺",
+      "translations": {
+        "fr": {
+          "label": "Lecteur de glycémie",
+          "phrases": [
+            { "emoji": "🩺", "text": "J'utilise mon lecteur." },
+            { "emoji": "🩺", "text": "Je mesure ma glycémie." },
+            { "emoji": "🩺", "text": "Le lecteur affiche le résultat." },
+            { "emoji": "🩺", "text": "Je pique mon doigt." }
+          ]
+        },
+        "en": {
+          "label": "Glucose Meter",
+          "phrases": [
+            { "emoji": "🩺", "text": "I use my meter." },
+            { "emoji": "🩺", "text": "I measure my blood sugar." },
+            { "emoji": "🩺", "text": "The meter shows the result." },
+            { "emoji": "🩺", "text": "I prick my finger." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "insulin",
+      "image": "💊",
+      "translations": {
+        "fr": {
+          "label": "Insuline",
+          "phrases": [
+            { "emoji": "💊", "text": "Je prends mon insuline." },
+            { "emoji": "💊", "text": "J'ai besoin d'insuline." },
+            { "emoji": "💊", "text": "L'insuline baisse ma glycémie." },
+            { "emoji": "💊", "text": "Je calcule ma dose d'insuline." }
+          ]
+        },
+        "en": {
+          "label": "Insulin",
+          "phrases": [
+            { "emoji": "💊", "text": "I take my insulin." },
+            { "emoji": "💊", "text": "I need insulin." },
+            { "emoji": "💊", "text": "Insulin lowers my blood sugar." },
+            { "emoji": "💊", "text": "I calculate my insulin dose." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "insulin-pump",
+      "image": "📱",
+      "translations": {
+        "fr": {
+          "label": "Pompe à insuline",
+          "phrases": [
+            { "emoji": "📱", "text": "J'ai une pompe à insuline." },
+            { "emoji": "📱", "text": "Ma pompe délivre l'insuline." },
+            { "emoji": "📱", "text": "Je programme ma pompe." },
+            { "emoji": "📱", "text": "La pompe sonne." }
+          ]
+        },
+        "en": {
+          "label": "Insulin Pump",
+          "phrases": [
+            { "emoji": "📱", "text": "I have an insulin pump." },
+            { "emoji": "📱", "text": "My pump delivers insulin." },
+            { "emoji": "📱", "text": "I program my pump." },
+            { "emoji": "📱", "text": "The pump is beeping." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "catheter",
+      "image": "🩹",
+      "translations": {
+        "fr": {
+          "label": "Cathéter",
+          "phrases": [
+            { "emoji": "🩹", "text": "Je change mon cathéter." },
+            { "emoji": "🩹", "text": "Le cathéter délivre l'insuline." },
+            { "emoji": "🩹", "text": "Mon cathéter est collé." },
+            { "emoji": "🩹", "text": "Le cathéter doit être changé." }
+          ]
+        },
+        "en": {
+          "label": "Catheter",
+          "phrases": [
+            { "emoji": "🩹", "text": "I change my catheter." },
+            { "emoji": "🩹", "text": "The catheter delivers insulin." },
+            { "emoji": "🩹", "text": "My catheter is attached." },
+            { "emoji": "🩹", "text": "The catheter needs changing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "diabetologist",
+      "image": "👨‍⚕️",
+      "translations": {
+        "fr": {
+          "label": "Diabétologue",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "Je vais chez le diabétologue." },
+            { "emoji": "👨‍⚕️", "text": "Le diabétologue m'aide." },
+            { "emoji": "👨‍⚕️", "text": "J'ai rendez-vous avec mon diabétologue." },
+            { "emoji": "👨‍⚕️", "text": "Le diabétologue ajuste mon traitement." }
+          ]
+        },
+        "en": {
+          "label": "Diabetologist",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "I see the diabetologist." },
+            { "emoji": "👨‍⚕️", "text": "The diabetologist helps me." },
+            { "emoji": "👨‍⚕️", "text": "I have an appointment with my diabetologist." },
+            { "emoji": "👨‍⚕️", "text": "The diabetologist adjusts my treatment." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carbohydrates",
+      "image": "🍞",
+      "translations": {
+        "fr": {
+          "label": "Glucides",
+          "phrases": [
+            { "emoji": "🍞", "text": "Je compte les glucides." },
+            { "emoji": "🍞", "text": "Les glucides augmentent ma glycémie." },
+            { "emoji": "🍞", "text": "Je calcule mes glucides." },
+            { "emoji": "🍞", "text": "Combien de glucides dans ce repas ?" }
+          ]
+        },
+        "en": {
+          "label": "Carbohydrates",
+          "phrases": [
+            { "emoji": "🍞", "text": "I count carbohydrates." },
+            { "emoji": "🍞", "text": "Carbs raise my blood sugar." },
+            { "emoji": "🍞", "text": "I calculate my carbs." },
+            { "emoji": "🍞", "text": "How many carbs in this meal?" }
+          ]
+        }
+      }
+    }
+  ]
+}

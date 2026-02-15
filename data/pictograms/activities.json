@@ -1,0 +1,677 @@
+{
+  "category": "activities",
+  "pictograms": [
+    {
+      "id": "walking",
+      "image": "🚶",
+      "translations": {
+        "fr": {
+          "label": "Marche",
+          "phrases": [
+            { "emoji": "🚶", "text": "Je marche." },
+            { "emoji": "🚶", "text": "Je vais me promener." },
+            { "emoji": "👟", "text": "J'aime marcher." },
+            { "emoji": "🌳", "text": "Je marche dans le parc." }
+          ]
+        },
+        "en": {
+          "label": "Walking",
+          "phrases": [
+            { "emoji": "🚶", "text": "I'm walking." },
+            { "emoji": "🚶", "text": "I'm going for a walk." },
+            { "emoji": "👟", "text": "I like walking." },
+            { "emoji": "🌳", "text": "I walk in the park." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "running",
+      "image": "🏃",
+      "translations": {
+        "fr": {
+          "label": "Course à pied",
+          "phrases": [
+            { "emoji": "🏃", "text": "Je cours." },
+            { "emoji": "🏃", "text": "Je vais courir." },
+            { "emoji": "💪", "text": "J'aime courir." },
+            { "emoji": "🏃", "text": "Je cours vite." }
+          ]
+        },
+        "en": {
+          "label": "Running",
+          "phrases": [
+            { "emoji": "🏃", "text": "I'm running." },
+            { "emoji": "🏃", "text": "I'm going running." },
+            { "emoji": "💪", "text": "I like running." },
+            { "emoji": "🏃", "text": "I run fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "talking",
+      "image": "💬",
+      "translations": {
+        "fr": {
+          "label": "Discussion",
+          "phrases": [
+            { "emoji": "💬", "text": "Je discute." },
+            { "emoji": "💬", "text": "Je parle avec quelqu'un." },
+            { "emoji": "😊", "text": "J'aime discuter." },
+            { "emoji": "💬", "text": "On peut parler ?" }
+          ]
+        },
+        "en": {
+          "label": "Talking",
+          "phrases": [
+            { "emoji": "💬", "text": "I'm talking." },
+            { "emoji": "💬", "text": "I'm talking with someone." },
+            { "emoji": "😊", "text": "I like talking." },
+            { "emoji": "💬", "text": "Can we talk?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "reading",
+      "image": "📖",
+      "translations": {
+        "fr": {
+          "label": "Lecture",
+          "phrases": [
+            { "emoji": "📖", "text": "Je lis." },
+            { "emoji": "📚", "text": "Je veux lire un livre." },
+            { "emoji": "😊", "text": "J'aime lire." },
+            { "emoji": "📖", "text": "Je lis une histoire." }
+          ]
+        },
+        "en": {
+          "label": "Reading",
+          "phrases": [
+            { "emoji": "📖", "text": "I'm reading." },
+            { "emoji": "📚", "text": "I want to read a book." },
+            { "emoji": "😊", "text": "I like reading." },
+            { "emoji": "📖", "text": "I'm reading a story." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "football",
+      "image": "⚽",
+      "translations": {
+        "fr": {
+          "label": "Football",
+          "phrases": [
+            { "emoji": "⚽", "text": "Je joue au football." },
+            { "emoji": "⚽", "text": "Je veux jouer au foot." },
+            { "emoji": "😍", "text": "J'adore le football." },
+            { "emoji": "⚽", "text": "J'ai marqué un but !" }
+          ]
+        },
+        "en": {
+          "label": "Football",
+          "phrases": [
+            { "emoji": "⚽", "text": "I'm playing football." },
+            { "emoji": "⚽", "text": "I want to play soccer." },
+            { "emoji": "😍", "text": "I love football." },
+            { "emoji": "⚽", "text": "I scored a goal!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "basketball",
+      "image": "🏀",
+      "translations": {
+        "fr": {
+          "label": "Basketball",
+          "phrases": [
+            { "emoji": "🏀", "text": "Je joue au basketball." },
+            { "emoji": "🏀", "text": "Je veux jouer au basket." },
+            { "emoji": "😍", "text": "J'adore le basketball." },
+            { "emoji": "🏀", "text": "J'ai marqué un panier !" }
+          ]
+        },
+        "en": {
+          "label": "Basketball",
+          "phrases": [
+            { "emoji": "🏀", "text": "I'm playing basketball." },
+            { "emoji": "🏀", "text": "I want to play basketball." },
+            { "emoji": "😍", "text": "I love basketball." },
+            { "emoji": "🏀", "text": "I scored a basket!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "swimming",
+      "image": "🏊",
+      "translations": {
+        "fr": {
+          "label": "Natation",
+          "phrases": [
+            { "emoji": "🏊", "text": "Je nage." },
+            { "emoji": "🏊", "text": "Je veux aller nager." },
+            { "emoji": "😊", "text": "J'aime nager." },
+            { "emoji": "💧", "text": "Je nage dans la piscine." }
+          ]
+        },
+        "en": {
+          "label": "Swimming",
+          "phrases": [
+            { "emoji": "🏊", "text": "I'm swimming." },
+            { "emoji": "🏊", "text": "I want to go swimming." },
+            { "emoji": "😊", "text": "I like swimming." },
+            { "emoji": "💧", "text": "I swim in the pool." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "painting",
+      "image": "🎨",
+      "translations": {
+        "fr": {
+          "label": "Peinture",
+          "phrases": [
+            { "emoji": "🎨", "text": "Je peins." },
+            { "emoji": "🎨", "text": "Je veux peindre." },
+            { "emoji": "😊", "text": "J'aime la peinture." },
+            { "emoji": "🖼️", "text": "Je fais un tableau." }
+          ]
+        },
+        "en": {
+          "label": "Painting",
+          "phrases": [
+            { "emoji": "🎨", "text": "I'm painting." },
+            { "emoji": "🎨", "text": "I want to paint." },
+            { "emoji": "😊", "text": "I like painting." },
+            { "emoji": "🖼️", "text": "I'm making a picture." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "drawing",
+      "image": "✏️",
+      "translations": {
+        "fr": {
+          "label": "Dessin",
+          "phrases": [
+            { "emoji": "✏️", "text": "Je dessine." },
+            { "emoji": "✏️", "text": "Je veux dessiner." },
+            { "emoji": "😊", "text": "J'aime dessiner." },
+            { "emoji": "🖍️", "text": "Je fais un dessin." }
+          ]
+        },
+        "en": {
+          "label": "Drawing",
+          "phrases": [
+            { "emoji": "✏️", "text": "I'm drawing." },
+            { "emoji": "✏️", "text": "I want to draw." },
+            { "emoji": "😊", "text": "I like drawing." },
+            { "emoji": "🖍️", "text": "I'm making a drawing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cycling",
+      "image": "🚴",
+      "translations": {
+        "fr": {
+          "label": "Cyclisme",
+          "phrases": [
+            { "emoji": "🚴", "text": "Je fais du vélo." },
+            { "emoji": "🚴", "text": "Je veux faire du vélo." },
+            { "emoji": "😊", "text": "J'aime le vélo." },
+            { "emoji": "🚴", "text": "Je roule vite." }
+          ]
+        },
+        "en": {
+          "label": "Cycling",
+          "phrases": [
+            { "emoji": "🚴", "text": "I'm cycling." },
+            { "emoji": "🚴", "text": "I want to ride my bike." },
+            { "emoji": "😊", "text": "I like cycling." },
+            { "emoji": "🚴", "text": "I ride fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "skating",
+      "image": "⛸️",
+      "translations": {
+        "fr": {
+          "label": "Patinage",
+          "phrases": [
+            { "emoji": "⛸️", "text": "Je patine." },
+            { "emoji": "⛸️", "text": "Je veux patiner." },
+            { "emoji": "😊", "text": "J'aime le patinage." },
+            { "emoji": "❄️", "text": "Je patine sur la glace." }
+          ]
+        },
+        "en": {
+          "label": "Skating",
+          "phrases": [
+            { "emoji": "⛸️", "text": "I'm skating." },
+            { "emoji": "⛸️", "text": "I want to skate." },
+            { "emoji": "😊", "text": "I like skating." },
+            { "emoji": "❄️", "text": "I skate on ice." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "video-games",
+      "image": "🎮",
+      "translations": {
+        "fr": {
+          "label": "Jeux vidéo",
+          "phrases": [
+            { "emoji": "🎮", "text": "Je joue aux jeux vidéo." },
+            { "emoji": "🎮", "text": "Je veux jouer." },
+            { "emoji": "😍", "text": "J'adore les jeux vidéo." },
+            { "emoji": "🎮", "text": "J'ai gagné !" }
+          ]
+        },
+        "en": {
+          "label": "Video Games",
+          "phrases": [
+            { "emoji": "🎮", "text": "I'm playing video games." },
+            { "emoji": "🎮", "text": "I want to play." },
+            { "emoji": "😍", "text": "I love video games." },
+            { "emoji": "🎮", "text": "I won!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cleaning",
+      "image": "🧹",
+      "translations": {
+        "fr": {
+          "label": "Ménage",
+          "phrases": [
+            { "emoji": "🧹", "text": "Je fais le ménage." },
+            { "emoji": "🧹", "text": "Je veux nettoyer." },
+            { "emoji": "✨", "text": "Je range ma chambre." },
+            { "emoji": "🧹", "text": "J'aide à faire le ménage." }
+          ]
+        },
+        "en": {
+          "label": "Cleaning",
+          "phrases": [
+            { "emoji": "🧹", "text": "I'm cleaning." },
+            { "emoji": "🧹", "text": "I want to clean." },
+            { "emoji": "✨", "text": "I'm tidying my room." },
+            { "emoji": "🧹", "text": "I'm helping to clean." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toys",
+      "image": "🧸",
+      "translations": {
+        "fr": {
+          "label": "Jouets",
+          "phrases": [
+            { "emoji": "🧸", "text": "Je joue avec mes jouets." },
+            { "emoji": "🧸", "text": "Je veux mes jouets." },
+            { "emoji": "😊", "text": "J'aime mes jouets." },
+            { "emoji": "🧸", "text": "C'est mon jouet préféré." }
+          ]
+        },
+        "en": {
+          "label": "Toys",
+          "phrases": [
+            { "emoji": "🧸", "text": "I'm playing with my toys." },
+            { "emoji": "🧸", "text": "I want my toys." },
+            { "emoji": "😊", "text": "I like my toys." },
+            { "emoji": "🧸", "text": "It's my favorite toy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "puzzle",
+      "image": "🧩",
+      "translations": {
+        "fr": {
+          "label": "Puzzle",
+          "phrases": [
+            { "emoji": "🧩", "text": "Je fais un puzzle." },
+            { "emoji": "🧩", "text": "Je veux faire un puzzle." },
+            { "emoji": "😊", "text": "J'aime les puzzles." },
+            { "emoji": "🧩", "text": "J'ai terminé le puzzle !" }
+          ]
+        },
+        "en": {
+          "label": "Puzzle",
+          "phrases": [
+            { "emoji": "🧩", "text": "I'm doing a puzzle." },
+            { "emoji": "🧩", "text": "I want to do a puzzle." },
+            { "emoji": "😊", "text": "I like puzzles." },
+            { "emoji": "🧩", "text": "I finished the puzzle!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "comics",
+      "image": "📚",
+      "translations": {
+        "fr": {
+          "label": "Bandes dessinées",
+          "phrases": [
+            { "emoji": "📚", "text": "Je lis une BD." },
+            { "emoji": "📚", "text": "Je veux lire une BD." },
+            { "emoji": "😊", "text": "J'aime les bandes dessinées." },
+            { "emoji": "📚", "text": "Cette BD est drôle." }
+          ]
+        },
+        "en": {
+          "label": "Comics",
+          "phrases": [
+            { "emoji": "📚", "text": "I'm reading a comic." },
+            { "emoji": "📚", "text": "I want to read a comic." },
+            { "emoji": "😊", "text": "I like comics." },
+            { "emoji": "📚", "text": "This comic is funny." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chess",
+      "image": "♟️",
+      "translations": {
+        "fr": {
+          "label": "Jeu d'échecs",
+          "phrases": [
+            { "emoji": "♟️", "text": "Je joue aux échecs." },
+            { "emoji": "♟️", "text": "Je veux jouer aux échecs." },
+            { "emoji": "😊", "text": "J'aime les échecs." },
+            { "emoji": "♟️", "text": "Échec et mat !" }
+          ]
+        },
+        "en": {
+          "label": "Chess",
+          "phrases": [
+            { "emoji": "♟️", "text": "I'm playing chess." },
+            { "emoji": "♟️", "text": "I want to play chess." },
+            { "emoji": "😊", "text": "I like chess." },
+            { "emoji": "♟️", "text": "Checkmate!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tv",
+      "image": "📺",
+      "translations": {
+        "fr": {
+          "label": "Regarder la télévision",
+          "phrases": [
+            { "emoji": "📺", "text": "Je regarde la télé." },
+            { "emoji": "📺", "text": "Je veux regarder la télé." },
+            { "emoji": "😊", "text": "J'aime regarder la télé." },
+            { "emoji": "📺", "text": "Mon émission préférée." }
+          ]
+        },
+        "en": {
+          "label": "Watching TV",
+          "phrases": [
+            { "emoji": "📺", "text": "I'm watching TV." },
+            { "emoji": "📺", "text": "I want to watch TV." },
+            { "emoji": "😊", "text": "I like watching TV." },
+            { "emoji": "📺", "text": "My favorite show." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fishing",
+      "image": "🎣",
+      "translations": {
+        "fr": {
+          "label": "Pêcher",
+          "phrases": [
+            { "emoji": "🎣", "text": "Je pêche." },
+            { "emoji": "🎣", "text": "Je veux aller pêcher." },
+            { "emoji": "😊", "text": "J'aime la pêche." },
+            { "emoji": "🐟", "text": "J'ai attrapé un poisson !" }
+          ]
+        },
+        "en": {
+          "label": "Fishing",
+          "phrases": [
+            { "emoji": "🎣", "text": "I'm fishing." },
+            { "emoji": "🎣", "text": "I want to go fishing." },
+            { "emoji": "😊", "text": "I like fishing." },
+            { "emoji": "🐟", "text": "I caught a fish!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exercise",
+      "image": "💪",
+      "translations": {
+        "fr": {
+          "label": "Faire de l'exercice",
+          "phrases": [
+            { "emoji": "💪", "text": "Je fais de l'exercice." },
+            { "emoji": "💪", "text": "Je veux m'entraîner." },
+            { "emoji": "😊", "text": "J'aime faire du sport." },
+            { "emoji": "💪", "text": "Je deviens fort." }
+          ]
+        },
+        "en": {
+          "label": "Exercise",
+          "phrases": [
+            { "emoji": "💪", "text": "I'm exercising." },
+            { "emoji": "💪", "text": "I want to work out." },
+            { "emoji": "😊", "text": "I like exercising." },
+            { "emoji": "💪", "text": "I'm getting strong." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tennis",
+      "image": "🎾",
+      "translations": {
+        "fr": {
+          "label": "Tennis",
+          "phrases": [
+            { "emoji": "🎾", "text": "Je joue au tennis." },
+            { "emoji": "🎾", "text": "Je veux jouer au tennis." },
+            { "emoji": "😊", "text": "J'aime le tennis." },
+            { "emoji": "🎾", "text": "J'ai gagné le match !" }
+          ]
+        },
+        "en": {
+          "label": "Tennis",
+          "phrases": [
+            { "emoji": "🎾", "text": "I'm playing tennis." },
+            { "emoji": "🎾", "text": "I want to play tennis." },
+            { "emoji": "😊", "text": "I like tennis." },
+            { "emoji": "🎾", "text": "I won the match!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "music",
+      "image": "🎵",
+      "translations": {
+        "fr": {
+          "label": "Musique",
+          "phrases": [
+            { "emoji": "🎵", "text": "J'écoute de la musique." },
+            { "emoji": "🎵", "text": "Je veux écouter de la musique." },
+            { "emoji": "😍", "text": "J'adore la musique." },
+            { "emoji": "🎵", "text": "C'est ma chanson préférée." }
+          ]
+        },
+        "en": {
+          "label": "Music",
+          "phrases": [
+            { "emoji": "🎵", "text": "I'm listening to music." },
+            { "emoji": "🎵", "text": "I want to listen to music." },
+            { "emoji": "😍", "text": "I love music." },
+            { "emoji": "🎵", "text": "It's my favorite song." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dancing",
+      "image": "💃",
+      "translations": {
+        "fr": {
+          "label": "Danser",
+          "phrases": [
+            { "emoji": "💃", "text": "Je danse." },
+            { "emoji": "💃", "text": "Je veux danser." },
+            { "emoji": "😊", "text": "J'aime danser." },
+            { "emoji": "🎵", "text": "Je danse sur la musique." }
+          ]
+        },
+        "en": {
+          "label": "Dancing",
+          "phrases": [
+            { "emoji": "💃", "text": "I'm dancing." },
+            { "emoji": "💃", "text": "I want to dance." },
+            { "emoji": "😊", "text": "I like dancing." },
+            { "emoji": "🎵", "text": "I dance to music." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tourism",
+      "image": "🗼",
+      "translations": {
+        "fr": {
+          "label": "Tourisme",
+          "phrases": [
+            { "emoji": "🗼", "text": "Je fais du tourisme." },
+            { "emoji": "📷", "text": "Je visite des monuments." },
+            { "emoji": "🗺️", "text": "Je découvre de nouveaux endroits." },
+            { "emoji": "😊", "text": "J'aime le tourisme." }
+          ]
+        },
+        "en": {
+          "label": "Tourism",
+          "phrases": [
+            { "emoji": "🗼", "text": "I'm sightseeing." },
+            { "emoji": "📷", "text": "I visit monuments." },
+            { "emoji": "🗺️", "text": "I discover new places." },
+            { "emoji": "😊", "text": "I like tourism." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "use-pexy",
+      "image": "📱",
+      "translations": {
+        "fr": {
+          "label": "Utiliser Pexy",
+          "phrases": [
+            { "emoji": "📱", "text": "J'utilise Pexy." },
+            { "emoji": "💬", "text": "Pexy m'aide à communiquer." },
+            { "emoji": "😊", "text": "J'aime utiliser Pexy." },
+            { "emoji": "🗣️", "text": "Je parle avec Pexy." }
+          ]
+        },
+        "en": {
+          "label": "Use Pexy",
+          "phrases": [
+            { "emoji": "📱", "text": "I use Pexy." },
+            { "emoji": "💬", "text": "Pexy helps me communicate." },
+            { "emoji": "😊", "text": "I like using Pexy." },
+            { "emoji": "🗣️", "text": "I speak with Pexy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "send-messages",
+      "image": "💌",
+      "translations": {
+        "fr": {
+          "label": "Envoyer des messages",
+          "phrases": [
+            { "emoji": "💌", "text": "J'envoie un message." },
+            { "emoji": "📱", "text": "Je veux envoyer un message." },
+            { "emoji": "✉️", "text": "Je reçois des messages." },
+            { "emoji": "😊", "text": "J'aime envoyer des messages." }
+          ]
+        },
+        "en": {
+          "label": "Send Messages",
+          "phrases": [
+            { "emoji": "💌", "text": "I send a message." },
+            { "emoji": "📱", "text": "I want to send a message." },
+            { "emoji": "✉️", "text": "I receive messages." },
+            { "emoji": "😊", "text": "I like sending messages." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "knitting",
+      "image": "🧶",
+      "translations": {
+        "fr": {
+          "label": "Tricot",
+          "phrases": [
+            { "emoji": "🧶", "text": "Je fais du tricot." },
+            { "emoji": "🧶", "text": "Je tricote une écharpe." },
+            { "emoji": "😊", "text": "J'aime tricoter." },
+            { "emoji": "🧵", "text": "J'utilise de la laine." }
+          ]
+        },
+        "en": {
+          "label": "Knitting",
+          "phrases": [
+            { "emoji": "🧶", "text": "I'm knitting." },
+            { "emoji": "🧶", "text": "I knit a scarf." },
+            { "emoji": "😊", "text": "I like knitting." },
+            { "emoji": "🧵", "text": "I use wool." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bowling",
+      "image": "🎳",
+      "translations": {
+        "fr": {
+          "label": "Bowling",
+          "phrases": [
+            { "emoji": "🎳", "text": "Je joue au bowling." },
+            { "emoji": "🎳", "text": "Je veux faire du bowling." },
+            { "emoji": "😊", "text": "J'aime le bowling." },
+            { "emoji": "🎯", "text": "J'ai fait un strike!" }
+          ]
+        },
+        "en": {
+          "label": "Bowling",
+          "phrases": [
+            { "emoji": "🎳", "text": "I'm bowling." },
+            { "emoji": "🎳", "text": "I want to go bowling." },
+            { "emoji": "😊", "text": "I like bowling." },
+            { "emoji": "🎯", "text": "I got a strike!" }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,844 @@
+{
+  "pictograms": [
+    {
+      "id": "suitcase",
+      "image": "🧳",
+      "translations": {
+        "fr": {
+          "label": "Valise",
+          "phrases": [
+            { "emoji": "🧳", "text": "Je fais ma valise." },
+            { "emoji": "🧳", "text": "Ma valise est lourde." },
+            { "emoji": "🧳", "text": "Je prépare mon voyage." },
+            { "emoji": "🧳", "text": "Je range mes vêtements dans la valise." }
+          ]
+        },
+        "en": {
+          "label": "Suitcase",
+          "phrases": [
+            { "emoji": "🧳", "text": "I pack my suitcase." },
+            { "emoji": "🧳", "text": "My suitcase is heavy." },
+            { "emoji": "🧳", "text": "I prepare for my trip." },
+            { "emoji": "🧳", "text": "I put my clothes in the suitcase." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "briefcase",
+      "image": "💼",
+      "translations": {
+        "fr": {
+          "label": "Mallette",
+          "phrases": [
+            { "emoji": "💼", "text": "Je porte ma mallette." },
+            { "emoji": "💼", "text": "Mes documents sont dans la mallette." },
+            { "emoji": "💼", "text": "Je voyage pour le travail." },
+            { "emoji": "💼", "text": "Ma mallette est organisée." }
+          ]
+        },
+        "en": {
+          "label": "Briefcase",
+          "phrases": [
+            { "emoji": "💼", "text": "I carry my briefcase." },
+            { "emoji": "💼", "text": "My documents are in the briefcase." },
+            { "emoji": "💼", "text": "I travel for work." },
+            { "emoji": "💼", "text": "My briefcase is organized." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "backpack-travel",
+      "image": "🎒",
+      "translations": {
+        "fr": {
+          "label": "Sac à dos",
+          "phrases": [
+            { "emoji": "🎒", "text": "Je porte mon sac à dos." },
+            { "emoji": "🎒", "text": "Mon sac à dos est confortable." },
+            { "emoji": "🎒", "text": "Je range mes affaires dedans." },
+            { "emoji": "🎒", "text": "Je voyage avec mon sac à dos." }
+          ]
+        },
+        "en": {
+          "label": "Backpack",
+          "phrases": [
+            { "emoji": "🎒", "text": "I wear my backpack." },
+            { "emoji": "🎒", "text": "My backpack is comfortable." },
+            { "emoji": "🎒", "text": "I put my things inside." },
+            { "emoji": "🎒", "text": "I travel with my backpack." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "passport",
+      "image": "📗",
+      "translations": {
+        "fr": {
+          "label": "Passeport",
+          "phrases": [
+            { "emoji": "📗", "text": "J'ai besoin de mon passeport." },
+            { "emoji": "📗", "text": "Je montre mon passeport." },
+            { "emoji": "📗", "text": "Mon passeport est important." },
+            { "emoji": "📗", "text": "Je voyage à l'étranger." }
+          ]
+        },
+        "en": {
+          "label": "Passport",
+          "phrases": [
+            { "emoji": "📗", "text": "I need my passport." },
+            { "emoji": "📗", "text": "I show my passport." },
+            { "emoji": "📗", "text": "My passport is important." },
+            { "emoji": "📗", "text": "I travel abroad." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ticket-travel",
+      "image": "🎫",
+      "translations": {
+        "fr": {
+          "label": "Billet",
+          "phrases": [
+            { "emoji": "🎫", "text": "J'achète un billet." },
+            { "emoji": "🎫", "text": "Je montre mon billet." },
+            { "emoji": "🎫", "text": "Mon billet d'avion." },
+            { "emoji": "🎫", "text": "Je garde mon billet." }
+          ]
+        },
+        "en": {
+          "label": "Ticket",
+          "phrases": [
+            { "emoji": "🎫", "text": "I buy a ticket." },
+            { "emoji": "🎫", "text": "I show my ticket." },
+            { "emoji": "🎫", "text": "My plane ticket." },
+            { "emoji": "🎫", "text": "I keep my ticket." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "airplane-travel",
+      "image": "✈️",
+      "translations": {
+        "fr": {
+          "label": "Avion",
+          "phrases": [
+            { "emoji": "✈️", "text": "Je prends l'avion." },
+            { "emoji": "✈️", "text": "L'avion décolle." },
+            { "emoji": "✈️", "text": "Je voyage en avion." },
+            { "emoji": "✈️", "text": "L'avion vole dans le ciel." }
+          ]
+        },
+        "en": {
+          "label": "Airplane",
+          "phrases": [
+            { "emoji": "✈️", "text": "I take the plane." },
+            { "emoji": "✈️", "text": "The plane takes off." },
+            { "emoji": "✈️", "text": "I travel by plane." },
+            { "emoji": "✈️", "text": "The plane flies in the sky." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "train-travel",
+      "image": "🚂",
+      "translations": {
+        "fr": {
+          "label": "Train",
+          "phrases": [
+            { "emoji": "🚂", "text": "Je prends le train." },
+            { "emoji": "🚂", "text": "Le train roule sur les rails." },
+            { "emoji": "🚂", "text": "Je voyage en train." },
+            { "emoji": "🚂", "text": "Le train arrive en gare." }
+          ]
+        },
+        "en": {
+          "label": "Train",
+          "phrases": [
+            { "emoji": "🚂", "text": "I take the train." },
+            { "emoji": "🚂", "text": "The train runs on tracks." },
+            { "emoji": "🚂", "text": "I travel by train." },
+            { "emoji": "🚂", "text": "The train arrives at the station." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "car-travel",
+      "image": "🚗",
+      "translations": {
+        "fr": {
+          "label": "Voiture",
+          "phrases": [
+            { "emoji": "🚗", "text": "On voyage en voiture." },
+            { "emoji": "🚗", "text": "Je monte dans la voiture." },
+            { "emoji": "🚗", "text": "On fait un road trip." },
+            { "emoji": "🚗", "text": "La voiture roule sur l'autoroute." }
+          ]
+        },
+        "en": {
+          "label": "Car",
+          "phrases": [
+            { "emoji": "🚗", "text": "We travel by car." },
+            { "emoji": "🚗", "text": "I get in the car." },
+            { "emoji": "🚗", "text": "We go on a road trip." },
+            { "emoji": "🚗", "text": "The car drives on the highway." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bus-travel",
+      "image": "🚌",
+      "translations": {
+        "fr": {
+          "label": "Bus",
+          "phrases": [
+            { "emoji": "🚌", "text": "Je prends le bus." },
+            { "emoji": "🚌", "text": "Le bus nous emmène loin." },
+            { "emoji": "🚌", "text": "Je voyage en bus." },
+            { "emoji": "🚌", "text": "Le bus s'arrête ici." }
+          ]
+        },
+        "en": {
+          "label": "Bus",
+          "phrases": [
+            { "emoji": "🚌", "text": "I take the bus." },
+            { "emoji": "🚌", "text": "The bus takes us far." },
+            { "emoji": "🚌", "text": "I travel by bus." },
+            { "emoji": "🚌", "text": "The bus stops here." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "boat-travel",
+      "image": "⛴️",
+      "translations": {
+        "fr": {
+          "label": "Bateau",
+          "phrases": [
+            { "emoji": "⛴️", "text": "Je voyage en bateau." },
+            { "emoji": "⛴️", "text": "Le bateau navigue sur l'eau." },
+            { "emoji": "⛴️", "text": "Je prends le ferry." },
+            { "emoji": "⛴️", "text": "Le bateau traverse la mer." }
+          ]
+        },
+        "en": {
+          "label": "Boat",
+          "phrases": [
+            { "emoji": "⛴️", "text": "I travel by boat." },
+            { "emoji": "⛴️", "text": "The boat sails on water." },
+            { "emoji": "⛴️", "text": "I take the ferry." },
+            { "emoji": "⛴️", "text": "The boat crosses the sea." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "map",
+      "image": "🗺️",
+      "translations": {
+        "fr": {
+          "label": "Carte",
+          "phrases": [
+            { "emoji": "🗺️", "text": "Je regarde la carte." },
+            { "emoji": "🗺️", "text": "La carte montre le chemin." },
+            { "emoji": "🗺️", "text": "Je cherche ma destination." },
+            { "emoji": "🗺️", "text": "J'utilise une carte." }
+          ]
+        },
+        "en": {
+          "label": "Map",
+          "phrases": [
+            { "emoji": "🗺️", "text": "I look at the map." },
+            { "emoji": "🗺️", "text": "The map shows the way." },
+            { "emoji": "🗺️", "text": "I look for my destination." },
+            { "emoji": "🗺️", "text": "I use a map." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "camera-travel",
+      "image": "📷",
+      "translations": {
+        "fr": {
+          "label": "Appareil photo",
+          "phrases": [
+            { "emoji": "📷", "text": "Je prends des photos." },
+            { "emoji": "📷", "text": "J'immortalise mes souvenirs." },
+            { "emoji": "📷", "text": "Mon appareil photo est prêt." },
+            { "emoji": "📷", "text": "Je photographie les paysages." }
+          ]
+        },
+        "en": {
+          "label": "Camera",
+          "phrases": [
+            { "emoji": "📷", "text": "I take photos." },
+            { "emoji": "📷", "text": "I capture my memories." },
+            { "emoji": "📷", "text": "My camera is ready." },
+            { "emoji": "📷", "text": "I photograph the landscapes." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sunglasses-travel",
+      "image": "🕶️",
+      "translations": {
+        "fr": {
+          "label": "Lunettes de soleil",
+          "phrases": [
+            { "emoji": "🕶️", "text": "Je porte mes lunettes de soleil." },
+            { "emoji": "🕶️", "text": "Le soleil est fort." },
+            { "emoji": "🕶️", "text": "Mes lunettes me protègent." },
+            { "emoji": "🕶️", "text": "Je vais à la plage." }
+          ]
+        },
+        "en": {
+          "label": "Sunglasses",
+          "phrases": [
+            { "emoji": "🕶️", "text": "I wear my sunglasses." },
+            { "emoji": "🕶️", "text": "The sun is strong." },
+            { "emoji": "🕶️", "text": "My glasses protect me." },
+            { "emoji": "🕶️", "text": "I go to the beach." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hotel",
+      "image": "🏨",
+      "translations": {
+        "fr": {
+          "label": "Hôtel",
+          "phrases": [
+            { "emoji": "🏨", "text": "Je dors à l'hôtel." },
+            { "emoji": "🏨", "text": "Je réserve une chambre." },
+            { "emoji": "🏨", "text": "L'hôtel est confortable." },
+            { "emoji": "🏨", "text": "J'arrive à l'hôtel." }
+          ]
+        },
+        "en": {
+          "label": "Hotel",
+          "phrases": [
+            { "emoji": "🏨", "text": "I sleep at the hotel." },
+            { "emoji": "🏨", "text": "I book a room." },
+            { "emoji": "🏨", "text": "The hotel is comfortable." },
+            { "emoji": "🏨", "text": "I arrive at the hotel." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beach-vacation",
+      "image": "🏖️",
+      "translations": {
+        "fr": {
+          "label": "Plage",
+          "phrases": [
+            { "emoji": "🏖️", "text": "Je vais à la plage." },
+            { "emoji": "🏖️", "text": "Je me détends au bord de la mer." },
+            { "emoji": "🏖️", "text": "La plage est magnifique." },
+            { "emoji": "🏖️", "text": "Je profite des vacances." }
+          ]
+        },
+        "en": {
+          "label": "Beach",
+          "phrases": [
+            { "emoji": "🏖️", "text": "I go to the beach." },
+            { "emoji": "🏖️", "text": "I relax by the sea." },
+            { "emoji": "🏖️", "text": "The beach is beautiful." },
+            { "emoji": "🏖️", "text": "I enjoy my vacation." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mountain",
+      "image": "⛰️",
+      "translations": {
+        "fr": {
+          "label": "Montagne",
+          "phrases": [
+            { "emoji": "⛰️", "text": "Je vais à la montagne." },
+            { "emoji": "⛰️", "text": "La montagne est haute." },
+            { "emoji": "⛰️", "text": "Je fais de la randonnée." },
+            { "emoji": "⛰️", "text": "La vue est splendide." }
+          ]
+        },
+        "en": {
+          "label": "Mountain",
+          "phrases": [
+            { "emoji": "⛰️", "text": "I go to the mountain." },
+            { "emoji": "⛰️", "text": "The mountain is high." },
+            { "emoji": "⛰️", "text": "I go hiking." },
+            { "emoji": "⛰️", "text": "The view is splendid." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "compass",
+      "image": "🧭",
+      "translations": {
+        "fr": {
+          "label": "Boussole",
+          "phrases": [
+            { "emoji": "🧭", "text": "J'utilise une boussole." },
+            { "emoji": "🧭", "text": "La boussole indique le nord." },
+            { "emoji": "🧭", "text": "Je trouve mon chemin." },
+            { "emoji": "🧭", "text": "La boussole m'aide à naviguer." }
+          ]
+        },
+        "en": {
+          "label": "Compass",
+          "phrases": [
+            { "emoji": "🧭", "text": "I use a compass." },
+            { "emoji": "🧭", "text": "The compass points north." },
+            { "emoji": "🧭", "text": "I find my way." },
+            { "emoji": "🧭", "text": "The compass helps me navigate." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "globe",
+      "image": "🌍",
+      "translations": {
+        "fr": {
+          "label": "Globe terrestre",
+          "phrases": [
+            { "emoji": "🌍", "text": "Je voyage autour du monde." },
+            { "emoji": "🌍", "text": "Je découvre la planète." },
+            { "emoji": "🌍", "text": "Je visite différents pays." },
+            { "emoji": "🌍", "text": "Le monde est grand." }
+          ]
+        },
+        "en": {
+          "label": "Globe",
+          "phrases": [
+            { "emoji": "🌍", "text": "I travel around the world." },
+            { "emoji": "🌍", "text": "I discover the planet." },
+            { "emoji": "🌍", "text": "I visit different countries." },
+            { "emoji": "🌍", "text": "The world is big." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "departure",
+      "image": "🛫",
+      "translations": {
+        "fr": {
+          "label": "Départ",
+          "phrases": [
+            { "emoji": "🛫", "text": "L'avion décolle." },
+            { "emoji": "🛫", "text": "C'est l'heure du départ." },
+            { "emoji": "🛫", "text": "Je pars en voyage." },
+            { "emoji": "🛫", "text": "Mon vol décolle bientôt." }
+          ]
+        },
+        "en": {
+          "label": "Departure",
+          "phrases": [
+            { "emoji": "🛫", "text": "The plane takes off." },
+            { "emoji": "🛫", "text": "It's departure time." },
+            { "emoji": "🛫", "text": "I'm leaving on a trip." },
+            { "emoji": "🛫", "text": "My flight departs soon." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "arrival",
+      "image": "🛬",
+      "translations": {
+        "fr": {
+          "label": "Arrivée",
+          "phrases": [
+            { "emoji": "🛬", "text": "L'avion atterrit." },
+            { "emoji": "🛬", "text": "Je suis arrivé à destination." },
+            { "emoji": "🛬", "text": "C'est l'heure de l'arrivée." },
+            { "emoji": "🛬", "text": "Mon vol arrive." }
+          ]
+        },
+        "en": {
+          "label": "Arrival",
+          "phrases": [
+            { "emoji": "🛬", "text": "The plane lands." },
+            { "emoji": "🛬", "text": "I arrived at my destination." },
+            { "emoji": "🛬", "text": "It's arrival time." },
+            { "emoji": "🛬", "text": "My flight arrives." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "island-vacation",
+      "image": "🏝️",
+      "translations": {
+        "fr": {
+          "label": "Île paradisiaque",
+          "phrases": [
+            { "emoji": "🏝️", "text": "Je vais sur une île." },
+            { "emoji": "🏝️", "text": "L'île est paradisiaque." },
+            { "emoji": "🏝️", "text": "C'est mes vacances de rêve." },
+            { "emoji": "🏝️", "text": "Je me repose sur l'île." }
+          ]
+        },
+        "en": {
+          "label": "Island",
+          "phrases": [
+            { "emoji": "🏝️", "text": "I go to an island." },
+            { "emoji": "🏝️", "text": "The island is paradise." },
+            { "emoji": "🏝️", "text": "It's my dream vacation." },
+            { "emoji": "🏝️", "text": "I rest on the island." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "luggage-tag",
+      "image": "🏷️",
+      "translations": {
+        "fr": {
+          "label": "Étiquette à bagage",
+          "phrases": [
+            { "emoji": "🏷️", "text": "Je mets une étiquette sur ma valise." },
+            { "emoji": "🏷️", "text": "L'étiquette a mon nom." },
+            { "emoji": "🏷️", "text": "Je retrouve mes bagages." },
+            { "emoji": "🏷️", "text": "L'étiquette est importante." }
+          ]
+        },
+        "en": {
+          "label": "Luggage Tag",
+          "phrases": [
+            { "emoji": "🏷️", "text": "I put a tag on my suitcase." },
+            { "emoji": "🏷️", "text": "The tag has my name." },
+            { "emoji": "🏷️", "text": "I find my luggage." },
+            { "emoji": "🏷️", "text": "The tag is important." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tent",
+      "image": "⛺",
+      "translations": {
+        "fr": {
+          "label": "Tente",
+          "phrases": [
+            { "emoji": "⛺", "text": "Je monte ma tente." },
+            { "emoji": "⛺", "text": "Je dors sous la tente." },
+            { "emoji": "⛺", "text": "Je fais du camping." },
+            { "emoji": "⛺", "text": "Ma tente est installée." }
+          ]
+        },
+        "en": {
+          "label": "Tent",
+          "phrases": [
+            { "emoji": "⛺", "text": "I set up my tent." },
+            { "emoji": "⛺", "text": "I sleep in the tent." },
+            { "emoji": "⛺", "text": "I go camping." },
+            { "emoji": "⛺", "text": "My tent is set up." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beach-chair",
+      "image": "🪑",
+      "translations": {
+        "fr": {
+          "label": "Chaise de plage",
+          "phrases": [
+            { "emoji": "🪑", "text": "Je m'assieds sur ma chaise de plage." },
+            { "emoji": "🪑", "text": "La chaise est confortable." },
+            { "emoji": "🪑", "text": "Je me détends sur la chaise." },
+            { "emoji": "🪑", "text": "J'installe ma chaise au soleil." }
+          ]
+        },
+        "en": {
+          "label": "Beach Chair",
+          "phrases": [
+            { "emoji": "🪑", "text": "I sit on my beach chair." },
+            { "emoji": "🪑", "text": "The chair is comfortable." },
+            { "emoji": "🪑", "text": "I relax on the chair." },
+            { "emoji": "🪑", "text": "I set up my chair in the sun." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "room-service",
+      "image": "🛎️",
+      "translations": {
+        "fr": {
+          "label": "Service de chambre",
+          "phrases": [
+            { "emoji": "🛎️", "text": "Je commande le service de chambre." },
+            { "emoji": "🛎️", "text": "J'appelle la réception." },
+            { "emoji": "🛎️", "text": "Le service arrive bientôt." },
+            { "emoji": "🛎️", "text": "Je sonne pour avoir de l'aide." }
+          ]
+        },
+        "en": {
+          "label": "Room Service",
+          "phrases": [
+            { "emoji": "🛎️", "text": "I order room service." },
+            { "emoji": "🛎️", "text": "I call the reception." },
+            { "emoji": "🛎️", "text": "Service is coming soon." },
+            { "emoji": "🛎️", "text": "I ring for help." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "waiting-room",
+      "image": "💺",
+      "translations": {
+        "fr": {
+          "label": "Salle d'attente",
+          "phrases": [
+            { "emoji": "💺", "text": "Je suis dans la salle d'attente." },
+            { "emoji": "💺", "text": "J'attends mon vol." },
+            { "emoji": "💺", "text": "Les sièges sont confortables." },
+            { "emoji": "💺", "text": "Je patiente ici." }
+          ]
+        },
+        "en": {
+          "label": "Waiting Room",
+          "phrases": [
+            { "emoji": "💺", "text": "I'm in the waiting room." },
+            { "emoji": "💺", "text": "I wait for my flight." },
+            { "emoji": "💺", "text": "The seats are comfortable." },
+            { "emoji": "💺", "text": "I wait here." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "power-outlet",
+      "image": "🔌",
+      "translations": {
+        "fr": {
+          "label": "Prise électrique",
+          "phrases": [
+            { "emoji": "🔌", "text": "Je cherche une prise électrique." },
+            { "emoji": "🔌", "text": "Je branche mon téléphone." },
+            { "emoji": "🔌", "text": "J'ai besoin de recharger." },
+            { "emoji": "🔌", "text": "La prise fonctionne bien." }
+          ]
+        },
+        "en": {
+          "label": "Power Outlet",
+          "phrases": [
+            { "emoji": "🔌", "text": "I look for a power outlet." },
+            { "emoji": "🔌", "text": "I plug in my phone." },
+            { "emoji": "🔌", "text": "I need to charge." },
+            { "emoji": "🔌", "text": "The outlet works well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "boarding-pass",
+      "image": "🎟️",
+      "translations": {
+        "fr": {
+          "label": "Carte d'embarquement",
+          "phrases": [
+            { "emoji": "🎟️", "text": "J'ai ma carte d'embarquement." },
+            { "emoji": "🎟️", "text": "Je montre ma carte." },
+            { "emoji": "🎟️", "text": "Je peux embarquer." },
+            { "emoji": "🎟️", "text": "Ma carte est prête." }
+          ]
+        },
+        "en": {
+          "label": "Boarding Pass",
+          "phrases": [
+            { "emoji": "🎟️", "text": "I have my boarding pass." },
+            { "emoji": "🎟️", "text": "I show my pass." },
+            { "emoji": "🎟️", "text": "I can board." },
+            { "emoji": "🎟️", "text": "My pass is ready." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gps",
+      "image": "🛰️",
+      "translations": {
+        "fr": {
+          "label": "GPS",
+          "phrases": [
+            { "emoji": "🛰️", "text": "J'utilise le GPS." },
+            { "emoji": "🛰️", "text": "Le GPS me guide." },
+            { "emoji": "🛰️", "text": "Je suis les indications." },
+            { "emoji": "🛰️", "text": "Le GPS trouve le chemin." }
+          ]
+        },
+        "en": {
+          "label": "GPS",
+          "phrases": [
+            { "emoji": "🛰️", "text": "I use GPS." },
+            { "emoji": "🛰️", "text": "GPS guides me." },
+            { "emoji": "🛰️", "text": "I follow the directions." },
+            { "emoji": "🛰️", "text": "GPS finds the way." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "countryside",
+      "image": "🌾",
+      "translations": {
+        "fr": {
+          "label": "Campagne",
+          "phrases": [
+            { "emoji": "🌾", "text": "Je visite la campagne." },
+            { "emoji": "🌾", "text": "La campagne est paisible." },
+            { "emoji": "🌾", "text": "J'aime la nature." },
+            { "emoji": "🌾", "text": "Les champs sont magnifiques." }
+          ]
+        },
+        "en": {
+          "label": "Countryside",
+          "phrases": [
+            { "emoji": "🌾", "text": "I visit the countryside." },
+            { "emoji": "🌾", "text": "The countryside is peaceful." },
+            { "emoji": "🌾", "text": "I love nature." },
+            { "emoji": "🌾", "text": "The fields are beautiful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bed-hotel",
+      "image": "🛏️",
+      "translations": {
+        "fr": {
+          "label": "Lit",
+          "phrases": [
+            { "emoji": "🛏️", "text": "Le lit est confortable." },
+            { "emoji": "🛏️", "text": "Je me repose sur le lit." },
+            { "emoji": "🛏️", "text": "Ma chambre a un grand lit." },
+            { "emoji": "🛏️", "text": "Je dors bien." }
+          ]
+        },
+        "en": {
+          "label": "Bed",
+          "phrases": [
+            { "emoji": "🛏️", "text": "The bed is comfortable." },
+            { "emoji": "🛏️", "text": "I rest on the bed." },
+            { "emoji": "🛏️", "text": "My room has a big bed." },
+            { "emoji": "🛏️", "text": "I sleep well." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hotel-key",
+      "image": "🔑",
+      "translations": {
+        "fr": {
+          "label": "Clé de l'hôtel",
+          "phrases": [
+            { "emoji": "🔑", "text": "Je prends ma clé." },
+            { "emoji": "🔑", "text": "J'ouvre ma chambre." },
+            { "emoji": "🔑", "text": "Je garde ma clé." },
+            { "emoji": "🔑", "text": "La clé est à la réception." }
+          ]
+        },
+        "en": {
+          "label": "Hotel Key",
+          "phrases": [
+            { "emoji": "🔑", "text": "I take my key." },
+            { "emoji": "🔑", "text": "I open my room." },
+            { "emoji": "🔑", "text": "I keep my key." },
+            { "emoji": "🔑", "text": "The key is at the reception." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "campfire",
+      "image": "🔥",
+      "translations": {
+        "fr": {
+          "label": "Feu de camp",
+          "phrases": [
+            { "emoji": "🔥", "text": "Je fais un feu de camp." },
+            { "emoji": "🔥", "text": "Le feu réchauffe." },
+            { "emoji": "🔥", "text": "Je m'assieds autour du feu." },
+            { "emoji": "🔥", "text": "Le feu brille dans la nuit." }
+          ]
+        },
+        "en": {
+          "label": "Campfire",
+          "phrases": [
+            { "emoji": "🔥", "text": "I make a campfire." },
+            { "emoji": "🔥", "text": "The fire warms." },
+            { "emoji": "🔥", "text": "I sit around the fire." },
+            { "emoji": "🔥", "text": "The fire shines at night." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "diving",
+      "image": "🤿",
+      "translations": {
+        "fr": {
+          "label": "Plongée",
+          "phrases": [
+            { "emoji": "🤿", "text": "Je fais de la plongée." },
+            { "emoji": "🤿", "text": "Je mets mon masque de plongée." },
+            { "emoji": "🤿", "text": "J'explore sous l'eau." },
+            { "emoji": "🤿", "text": "La plongée est passionnante." }
+          ]
+        },
+        "en": {
+          "label": "Diving",
+          "phrases": [
+            { "emoji": "🤿", "text": "I go diving." },
+            { "emoji": "🤿", "text": "I put on my diving mask." },
+            { "emoji": "🤿", "text": "I explore underwater." },
+            { "emoji": "🤿", "text": "Diving is exciting." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "action-camera",
+      "image": "📹",
+      "translations": {
+        "fr": {
+          "label": "Caméra d'action",
+          "phrases": [
+            { "emoji": "📹", "text": "Je filme mes aventures." },
+            { "emoji": "📹", "text": "Ma caméra enregistre tout." },
+            { "emoji": "📹", "text": "Je capture des moments." },
+            { "emoji": "📹", "text": "Je fais une vidéo souvenir." }
+          ]
+        },
+        "en": {
+          "label": "Action Camera",
+          "phrases": [
+            { "emoji": "📹", "text": "I film my adventures." },
+            { "emoji": "📹", "text": "My camera records everything." },
+            { "emoji": "📹", "text": "I capture moments." },
+            { "emoji": "📹", "text": "I make a memory video." }
+          ]
+        }
+      }
+    }
+  ]
+}

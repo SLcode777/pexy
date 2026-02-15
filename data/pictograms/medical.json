@@ -1,0 +1,748 @@
+{
+  "pictograms": [
+    {
+      "id": "stethoscope",
+      "image": "🩺",
+      "translations": {
+        "fr": {
+          "label": "Stéthoscope",
+          "phrases": [
+            { "emoji": "🩺", "text": "Le docteur utilise un stéthoscope." },
+            { "emoji": "🩺", "text": "Le stéthoscope écoute mon cœur." },
+            { "emoji": "🩺", "text": "Le stéthoscope est froid." },
+            { "emoji": "🩺", "text": "Je respire profondément." }
+          ]
+        },
+        "en": {
+          "label": "Stethoscope",
+          "phrases": [
+            { "emoji": "🩺", "text": "The doctor uses a stethoscope." },
+            { "emoji": "🩺", "text": "The stethoscope listens to my heart." },
+            { "emoji": "🩺", "text": "The stethoscope is cold." },
+            { "emoji": "🩺", "text": "I breathe deeply." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "thermometer",
+      "image": "🌡️",
+      "translations": {
+        "fr": {
+          "label": "Thermomètre",
+          "phrases": [
+            { "emoji": "🌡️", "text": "On prend ma température." },
+            { "emoji": "🌡️", "text": "Le thermomètre mesure la fièvre." },
+            { "emoji": "🌡️", "text": "J'ai de la fièvre." },
+            { "emoji": "🌡️", "text": "Ma température est normale." }
+          ]
+        },
+        "en": {
+          "label": "Thermometer",
+          "phrases": [
+            { "emoji": "🌡️", "text": "They take my temperature." },
+            { "emoji": "🌡️", "text": "The thermometer measures fever." },
+            { "emoji": "🌡️", "text": "I have a fever." },
+            { "emoji": "🌡️", "text": "My temperature is normal." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pill",
+      "image": "💊",
+      "translations": {
+        "fr": {
+          "label": "Médicament",
+          "phrases": [
+            { "emoji": "💊", "text": "Je prends mon médicament." },
+            { "emoji": "💊", "text": "Le médicament me soigne." },
+            { "emoji": "💊", "text": "J'avale le comprimé." },
+            { "emoji": "💊", "text": "Le médicament aide à guérir." }
+          ]
+        },
+        "en": {
+          "label": "Medication",
+          "phrases": [
+            { "emoji": "💊", "text": "I take my medication." },
+            { "emoji": "💊", "text": "The medication heals me." },
+            { "emoji": "💊", "text": "I swallow the pill." },
+            { "emoji": "💊", "text": "The medication helps me heal." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "syringe",
+      "image": "💉",
+      "translations": {
+        "fr": {
+          "label": "Seringue",
+          "phrases": [
+            { "emoji": "💉", "text": "Je reçois une piqûre." },
+            { "emoji": "💉", "text": "L'infirmière fait une injection." },
+            { "emoji": "💉", "text": "La piqûre fait un peu mal." },
+            { "emoji": "💉", "text": "C'est un vaccin." }
+          ]
+        },
+        "en": {
+          "label": "Syringe",
+          "phrases": [
+            { "emoji": "💉", "text": "I get a shot." },
+            { "emoji": "💉", "text": "The nurse gives an injection." },
+            { "emoji": "💉", "text": "The shot hurts a little." },
+            { "emoji": "💉", "text": "It's a vaccine." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bandage",
+      "image": "🩹",
+      "translations": {
+        "fr": {
+          "label": "Pansement",
+          "phrases": [
+            { "emoji": "🩹", "text": "Je mets un pansement." },
+            { "emoji": "🩹", "text": "Le pansement protège la blessure." },
+            { "emoji": "🩹", "text": "J'ai un bobo." },
+            { "emoji": "🩹", "text": "Le pansement aide à guérir." }
+          ]
+        },
+        "en": {
+          "label": "Bandage",
+          "phrases": [
+            { "emoji": "🩹", "text": "I put on a bandage." },
+            { "emoji": "🩹", "text": "The bandage protects the wound." },
+            { "emoji": "🩹", "text": "I have a boo-boo." },
+            { "emoji": "🩹", "text": "The bandage helps it heal." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hospital",
+      "image": "🏥",
+      "translations": {
+        "fr": {
+          "label": "Hôpital",
+          "phrases": [
+            { "emoji": "🏥", "text": "Je vais à l'hôpital." },
+            { "emoji": "🏥", "text": "L'hôpital soigne les malades." },
+            { "emoji": "🏥", "text": "Je suis à l'hôpital." },
+            { "emoji": "🏥", "text": "L'hôpital est grand." }
+          ]
+        },
+        "en": {
+          "label": "Hospital",
+          "phrases": [
+            { "emoji": "🏥", "text": "I go to the hospital." },
+            { "emoji": "🏥", "text": "The hospital treats sick people." },
+            { "emoji": "🏥", "text": "I'm at the hospital." },
+            { "emoji": "🏥", "text": "The hospital is big." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ambulance",
+      "image": "🚑",
+      "translations": {
+        "fr": {
+          "label": "Ambulance",
+          "phrases": [
+            { "emoji": "🚑", "text": "L'ambulance arrive." },
+            { "emoji": "🚑", "text": "L'ambulance transporte les malades." },
+            { "emoji": "🚑", "text": "J'entends la sirène." },
+            { "emoji": "🚑", "text": "L'ambulance va vite." }
+          ]
+        },
+        "en": {
+          "label": "Ambulance",
+          "phrases": [
+            { "emoji": "🚑", "text": "The ambulance arrives." },
+            { "emoji": "🚑", "text": "The ambulance transports sick people." },
+            { "emoji": "🚑", "text": "I hear the siren." },
+            { "emoji": "🚑", "text": "The ambulance goes fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "doctor-medical",
+      "image": "👨‍⚕️",
+      "translations": {
+        "fr": {
+          "label": "Docteur",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "Le docteur m'examine." },
+            { "emoji": "👨‍⚕️", "text": "Le docteur me soigne." },
+            { "emoji": "👨‍⚕️", "text": "Je parle au docteur." },
+            { "emoji": "👨‍⚕️", "text": "Le docteur est gentil." }
+          ]
+        },
+        "en": {
+          "label": "Doctor",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "The doctor examines me." },
+            { "emoji": "👨‍⚕️", "text": "The doctor treats me." },
+            { "emoji": "👨‍⚕️", "text": "I talk to the doctor." },
+            { "emoji": "👨‍⚕️", "text": "The doctor is kind." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nurse-medical",
+      "image": "👩‍⚕️",
+      "translations": {
+        "fr": {
+          "label": "Infirmière",
+          "phrases": [
+            { "emoji": "👩‍⚕️", "text": "L'infirmière m'aide." },
+            { "emoji": "👩‍⚕️", "text": "L'infirmière prend ma tension." },
+            { "emoji": "👩‍⚕️", "text": "L'infirmière est douce." },
+            { "emoji": "👩‍⚕️", "text": "L'infirmière me soigne." }
+          ]
+        },
+        "en": {
+          "label": "Nurse",
+          "phrases": [
+            { "emoji": "👩‍⚕️", "text": "The nurse helps me." },
+            { "emoji": "👩‍⚕️", "text": "The nurse takes my blood pressure." },
+            { "emoji": "👩‍⚕️", "text": "The nurse is gentle." },
+            { "emoji": "👩‍⚕️", "text": "The nurse cares for me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wheelchair",
+      "image": "♿",
+      "translations": {
+        "fr": {
+          "label": "Fauteuil roulant",
+          "phrases": [
+            { "emoji": "♿", "text": "J'utilise un fauteuil roulant." },
+            { "emoji": "♿", "text": "Le fauteuil m'aide à me déplacer." },
+            { "emoji": "♿", "text": "Je roule avec le fauteuil." },
+            { "emoji": "♿", "text": "Le fauteuil est confortable." }
+          ]
+        },
+        "en": {
+          "label": "Wheelchair",
+          "phrases": [
+            { "emoji": "♿", "text": "I use a wheelchair." },
+            { "emoji": "♿", "text": "The wheelchair helps me move." },
+            { "emoji": "♿", "text": "I roll with the wheelchair." },
+            { "emoji": "♿", "text": "The wheelchair is comfortable." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "crutches",
+      "image": "🩼",
+      "translations": {
+        "fr": {
+          "label": "Béquilles",
+          "phrases": [
+            { "emoji": "🩼", "text": "J'utilise des béquilles." },
+            { "emoji": "🩼", "text": "Les béquilles m'aident à marcher." },
+            { "emoji": "🩼", "text": "Je me suis blessé à la jambe." },
+            { "emoji": "🩼", "text": "Les béquilles me soutiennent." }
+          ]
+        },
+        "en": {
+          "label": "Crutches",
+          "phrases": [
+            { "emoji": "🩼", "text": "I use crutches." },
+            { "emoji": "🩼", "text": "Crutches help me walk." },
+            { "emoji": "🩼", "text": "I hurt my leg." },
+            { "emoji": "🩼", "text": "The crutches support me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "xray",
+      "image": "🦴",
+      "translations": {
+        "fr": {
+          "label": "Radiographie",
+          "phrases": [
+            { "emoji": "🦴", "text": "Je passe une radiographie." },
+            { "emoji": "🦴", "text": "La radio montre mes os." },
+            { "emoji": "🦴", "text": "L'os est peut-être cassé." },
+            { "emoji": "🦴", "text": "Le docteur regarde la radio." }
+          ]
+        },
+        "en": {
+          "label": "X-Ray",
+          "phrases": [
+            { "emoji": "🦴", "text": "I get an x-ray." },
+            { "emoji": "🦴", "text": "The x-ray shows my bones." },
+            { "emoji": "🦴", "text": "The bone might be broken." },
+            { "emoji": "🦴", "text": "The doctor looks at the x-ray." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "heartbeat",
+      "image": "💓",
+      "translations": {
+        "fr": {
+          "label": "Battement de cœur",
+          "phrases": [
+            { "emoji": "💓", "text": "Mon cœur bat." },
+            { "emoji": "💓", "text": "J'écoute mon cœur." },
+            { "emoji": "💓", "text": "Le cœur pompe le sang." },
+            { "emoji": "💓", "text": "Mon cœur est en bonne santé." }
+          ]
+        },
+        "en": {
+          "label": "Heartbeat",
+          "phrases": [
+            { "emoji": "💓", "text": "My heart beats." },
+            { "emoji": "💓", "text": "I listen to my heart." },
+            { "emoji": "💓", "text": "The heart pumps blood." },
+            { "emoji": "💓", "text": "My heart is healthy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "blood-drop",
+      "image": "🩸",
+      "translations": {
+        "fr": {
+          "label": "Prise de sang",
+          "phrases": [
+            { "emoji": "🩸", "text": "On prend une prise de sang." },
+            { "emoji": "🩸", "text": "J'ai une analyse de sang." },
+            { "emoji": "🩸", "text": "Le sang va au laboratoire." },
+            { "emoji": "🩸", "text": "La prise de sang est rapide." }
+          ]
+        },
+        "en": {
+          "label": "Blood Test",
+          "phrases": [
+            { "emoji": "🩸", "text": "They take a blood sample." },
+            { "emoji": "🩸", "text": "I have a blood test." },
+            { "emoji": "🩸", "text": "The blood goes to the lab." },
+            { "emoji": "🩸", "text": "The blood test is quick." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "microscope",
+      "image": "🔬",
+      "translations": {
+        "fr": {
+          "label": "Microscope",
+          "phrases": [
+            { "emoji": "🔬", "text": "Le laboratoire utilise un microscope." },
+            { "emoji": "🔬", "text": "Le microscope grossit les cellules." },
+            { "emoji": "🔬", "text": "On analyse avec le microscope." },
+            { "emoji": "🔬", "text": "Le microscope aide à diagnostiquer." }
+          ]
+        },
+        "en": {
+          "label": "Microscope",
+          "phrases": [
+            { "emoji": "🔬", "text": "The lab uses a microscope." },
+            { "emoji": "🔬", "text": "The microscope magnifies cells." },
+            { "emoji": "🔬", "text": "They analyze with the microscope." },
+            { "emoji": "🔬", "text": "The microscope helps diagnose." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mask",
+      "image": "😷",
+      "translations": {
+        "fr": {
+          "label": "Masque",
+          "phrases": [
+            { "emoji": "😷", "text": "Je porte un masque." },
+            { "emoji": "😷", "text": "Le masque protège des microbes." },
+            { "emoji": "😷", "text": "Le masque couvre mon nez et ma bouche." },
+            { "emoji": "😷", "text": "Je mets mon masque." }
+          ]
+        },
+        "en": {
+          "label": "Mask",
+          "phrases": [
+            { "emoji": "😷", "text": "I wear a mask." },
+            { "emoji": "😷", "text": "The mask protects from germs." },
+            { "emoji": "😷", "text": "The mask covers my nose and mouth." },
+            { "emoji": "😷", "text": "I put on my mask." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "test-tube",
+      "image": "🧪",
+      "translations": {
+        "fr": {
+          "label": "Tube à essai",
+          "phrases": [
+            { "emoji": "🧪", "text": "Le laboratoire utilise des tubes." },
+            { "emoji": "🧪", "text": "Les tubes contiennent des échantillons." },
+            { "emoji": "🧪", "text": "On fait des analyses." },
+            { "emoji": "🧪", "text": "Les résultats arrivent bientôt." }
+          ]
+        },
+        "en": {
+          "label": "Test Tube",
+          "phrases": [
+            { "emoji": "🧪", "text": "The lab uses test tubes." },
+            { "emoji": "🧪", "text": "The tubes contain samples." },
+            { "emoji": "🧪", "text": "They do tests." },
+            { "emoji": "🧪", "text": "The results come soon." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "first-aid",
+      "image": "🩹",
+      "translations": {
+        "fr": {
+          "label": "Premiers soins",
+          "phrases": [
+            { "emoji": "🩹", "text": "Je reçois les premiers soins." },
+            { "emoji": "🩹", "text": "La trousse de premiers soins." },
+            { "emoji": "🩹", "text": "On soigne ma blessure." },
+            { "emoji": "🩹", "text": "Les premiers soins sont importants." }
+          ]
+        },
+        "en": {
+          "label": "First Aid",
+          "phrases": [
+            { "emoji": "🩹", "text": "I receive first aid." },
+            { "emoji": "🩹", "text": "The first aid kit." },
+            { "emoji": "🩹", "text": "They treat my injury." },
+            { "emoji": "🩹", "text": "First aid is important." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "prescription",
+      "image": "📋",
+      "translations": {
+        "fr": {
+          "label": "Ordonnance",
+          "phrases": [
+            { "emoji": "📋", "text": "Le docteur écrit une ordonnance." },
+            { "emoji": "📋", "text": "J'ai une ordonnance." },
+            { "emoji": "📋", "text": "Je vais à la pharmacie." },
+            { "emoji": "📋", "text": "L'ordonnance prescrit des médicaments." }
+          ]
+        },
+        "en": {
+          "label": "Prescription",
+          "phrases": [
+            { "emoji": "📋", "text": "The doctor writes a prescription." },
+            { "emoji": "📋", "text": "I have a prescription." },
+            { "emoji": "📋", "text": "I go to the pharmacy." },
+            { "emoji": "📋", "text": "The prescription lists medications." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hospital-bed",
+      "image": "🛏️",
+      "translations": {
+        "fr": {
+          "label": "Lit d'hôpital",
+          "phrases": [
+            { "emoji": "🛏️", "text": "Je me repose dans le lit d'hôpital." },
+            { "emoji": "🛏️", "text": "Le lit est confortable." },
+            { "emoji": "🛏️", "text": "Je reste au lit." },
+            { "emoji": "🛏️", "text": "Le lit peut se relever." }
+          ]
+        },
+        "en": {
+          "label": "Hospital Bed",
+          "phrases": [
+            { "emoji": "🛏️", "text": "I rest in the hospital bed." },
+            { "emoji": "🛏️", "text": "The bed is comfortable." },
+            { "emoji": "🛏️", "text": "I stay in bed." },
+            { "emoji": "🛏️", "text": "The bed can be raised." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "weight-loss",
+      "image": "⚖️",
+      "translations": {
+        "fr": {
+          "label": "Perte de poids",
+          "phrases": [
+            { "emoji": "⚖️", "text": "Je surveille mon poids." },
+            { "emoji": "⚖️", "text": "J'ai perdu du poids." },
+            { "emoji": "⚖️", "text": "Je me pèse régulièrement." },
+            { "emoji": "⚖️", "text": "Le poids est important pour la santé." }
+          ]
+        },
+        "en": {
+          "label": "Weight Loss",
+          "phrases": [
+            { "emoji": "⚖️", "text": "I monitor my weight." },
+            { "emoji": "⚖️", "text": "I lost weight." },
+            { "emoji": "⚖️", "text": "I weigh myself regularly." },
+            { "emoji": "⚖️", "text": "Weight is important for health." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rehabilitation",
+      "image": "🦿",
+      "translations": {
+        "fr": {
+          "label": "Rééducation",
+          "phrases": [
+            { "emoji": "🦿", "text": "Je fais de la rééducation." },
+            { "emoji": "🦿", "text": "La rééducation m'aide à récupérer." },
+            { "emoji": "🦿", "text": "Je vais en séance de rééducation." },
+            { "emoji": "🦿", "text": "Les exercices de rééducation sont importants." }
+          ]
+        },
+        "en": {
+          "label": "Rehabilitation",
+          "phrases": [
+            { "emoji": "🦿", "text": "I do rehabilitation." },
+            { "emoji": "🦿", "text": "Rehabilitation helps me recover." },
+            { "emoji": "🦿", "text": "I go to rehabilitation sessions." },
+            { "emoji": "🦿", "text": "Rehabilitation exercises are important." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "medical-history",
+      "image": "📝",
+      "translations": {
+        "fr": {
+          "label": "Antécédents médicaux",
+          "phrases": [
+            { "emoji": "📝", "text": "Le docteur note mes antécédents." },
+            { "emoji": "📝", "text": "J'explique mon historique médical." },
+            { "emoji": "📝", "text": "Mes antécédents sont importants." },
+            { "emoji": "📝", "text": "Le dossier médical contient mon histoire." }
+          ]
+        },
+        "en": {
+          "label": "Medical History",
+          "phrases": [
+            { "emoji": "📝", "text": "The doctor notes my medical history." },
+            { "emoji": "📝", "text": "I explain my medical background." },
+            { "emoji": "📝", "text": "My medical history is important." },
+            { "emoji": "📝", "text": "The medical file contains my history." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "vitamin-c",
+      "image": "🍊",
+      "translations": {
+        "fr": {
+          "label": "Vitamine C",
+          "phrases": [
+            { "emoji": "🍊", "text": "Je prends de la vitamine C." },
+            { "emoji": "🍊", "text": "La vitamine C renforce le système immunitaire." },
+            { "emoji": "🍊", "text": "Les agrumes contiennent de la vitamine C." },
+            { "emoji": "🍊", "text": "La vitamine C est bonne pour la santé." }
+          ]
+        },
+        "en": {
+          "label": "Vitamin C",
+          "phrases": [
+            { "emoji": "🍊", "text": "I take vitamin C." },
+            { "emoji": "🍊", "text": "Vitamin C strengthens the immune system." },
+            { "emoji": "🍊", "text": "Citrus fruits contain vitamin C." },
+            { "emoji": "🍊", "text": "Vitamin C is good for health." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pills",
+      "image": "💊",
+      "translations": {
+        "fr": {
+          "label": "Pilules",
+          "phrases": [
+            { "emoji": "💊", "text": "Je prends mes pilules." },
+            { "emoji": "💊", "text": "Les pilules sont dans le pilulier." },
+            { "emoji": "💊", "text": "J'avale les pilules avec de l'eau." },
+            { "emoji": "💊", "text": "Les pilules sont mes médicaments quotidiens." }
+          ]
+        },
+        "en": {
+          "label": "Pills",
+          "phrases": [
+            { "emoji": "💊", "text": "I take my pills." },
+            { "emoji": "💊", "text": "The pills are in the pill box." },
+            { "emoji": "💊", "text": "I swallow the pills with water." },
+            { "emoji": "💊", "text": "The pills are my daily medications." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "medical-mask",
+      "image": "😷",
+      "translations": {
+        "fr": {
+          "label": "Masque médical",
+          "phrases": [
+            { "emoji": "😷", "text": "Je porte un masque médical." },
+            { "emoji": "😷", "text": "Le masque chirurgical protège." },
+            { "emoji": "😷", "text": "Le masque empêche la transmission." },
+            { "emoji": "😷", "text": "Je mets mon masque à l'hôpital." }
+          ]
+        },
+        "en": {
+          "label": "Medical Mask",
+          "phrases": [
+            { "emoji": "😷", "text": "I wear a medical mask." },
+            { "emoji": "😷", "text": "The surgical mask protects." },
+            { "emoji": "😷", "text": "The mask prevents transmission." },
+            { "emoji": "😷", "text": "I put on my mask at the hospital." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dental-care",
+      "image": "🦷",
+      "translations": {
+        "fr": {
+          "label": "Soins dentaires",
+          "phrases": [
+            { "emoji": "🦷", "text": "Je vais chez le dentiste." },
+            { "emoji": "🦷", "text": "Je prends soin de mes dents." },
+            { "emoji": "🦷", "text": "Le dentiste soigne mes dents." },
+            { "emoji": "🦷", "text": "Les soins dentaires sont importants." }
+          ]
+        },
+        "en": {
+          "label": "Dental Care",
+          "phrases": [
+            { "emoji": "🦷", "text": "I go to the dentist." },
+            { "emoji": "🦷", "text": "I take care of my teeth." },
+            { "emoji": "🦷", "text": "The dentist treats my teeth." },
+            { "emoji": "🦷", "text": "Dental care is important." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hearing-test",
+      "image": "👂",
+      "translations": {
+        "fr": {
+          "label": "Examen auditif",
+          "phrases": [
+            { "emoji": "👂", "text": "Je passe un examen auditif." },
+            { "emoji": "👂", "text": "On teste mon audition." },
+            { "emoji": "👂", "text": "L'audiogramme mesure mon ouïe." },
+            { "emoji": "👂", "text": "Je vérifie ma capacité auditive." }
+          ]
+        },
+        "en": {
+          "label": "Hearing Test",
+          "phrases": [
+            { "emoji": "👂", "text": "I take a hearing test." },
+            { "emoji": "👂", "text": "They test my hearing." },
+            { "emoji": "👂", "text": "The audiogram measures my hearing." },
+            { "emoji": "👂", "text": "I check my hearing ability." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pharmacy",
+      "image": "💊",
+      "translations": {
+        "fr": {
+          "label": "Pharmacie",
+          "phrases": [
+            { "emoji": "💊", "text": "Je vais à la pharmacie." },
+            { "emoji": "💊", "text": "La pharmacie vend des médicaments." },
+            { "emoji": "💊", "text": "Le pharmacien me conseille." },
+            { "emoji": "💊", "text": "J'achète mes médicaments à la pharmacie." }
+          ]
+        },
+        "en": {
+          "label": "Pharmacy",
+          "phrases": [
+            { "emoji": "💊", "text": "I go to the pharmacy." },
+            { "emoji": "💊", "text": "The pharmacy sells medications." },
+            { "emoji": "💊", "text": "The pharmacist advises me." },
+            { "emoji": "💊", "text": "I buy my medications at the pharmacy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "emergency",
+      "image": "🚨",
+      "translations": {
+        "fr": {
+          "label": "Urgence",
+          "phrases": [
+            { "emoji": "🚨", "text": "C'est une urgence." },
+            { "emoji": "🚨", "text": "Je vais aux urgences." },
+            { "emoji": "🚨", "text": "L'urgence médicale nécessite une action rapide." },
+            { "emoji": "🚨", "text": "J'appelle les urgences." }
+          ]
+        },
+        "en": {
+          "label": "Emergency",
+          "phrases": [
+            { "emoji": "🚨", "text": "It's an emergency." },
+            { "emoji": "🚨", "text": "I go to the emergency room." },
+            { "emoji": "🚨", "text": "The medical emergency requires quick action." },
+            { "emoji": "🚨", "text": "I call emergency services." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "health-insurance",
+      "image": "📄",
+      "translations": {
+        "fr": {
+          "label": "Assurance santé",
+          "phrases": [
+            { "emoji": "📄", "text": "J'ai une assurance santé." },
+            { "emoji": "📄", "text": "L'assurance couvre les frais médicaux." },
+            { "emoji": "📄", "text": "Je présente ma carte d'assurance." },
+            { "emoji": "📄", "text": "L'assurance santé est importante." }
+          ]
+        },
+        "en": {
+          "label": "Health Insurance",
+          "phrases": [
+            { "emoji": "📄", "text": "I have health insurance." },
+            { "emoji": "📄", "text": "Insurance covers medical expenses." },
+            { "emoji": "📄", "text": "I present my insurance card." },
+            { "emoji": "📄", "text": "Health insurance is important." }
+          ]
+        }
+      }
+    }
+  ]
+}

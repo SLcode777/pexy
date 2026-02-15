@@ -1,0 +1,821 @@
+{
+  "category": "food",
+  "pictograms": [
+    {
+      "id": "hungry",
+      "image": "😋",
+      "translations": {
+        "fr": {
+          "label": "Faim",
+          "phrases": [
+            { "emoji": "😋", "text": "J'ai faim." },
+            { "emoji": "🍽️", "text": "Je veux manger." },
+            { "emoji": "😋", "text": "J'ai très faim !" },
+            { "emoji": "⏰", "text": "C'est l'heure de manger." }
+          ]
+        },
+        "en": {
+          "label": "Hungry",
+          "phrases": [
+            { "emoji": "😋", "text": "I'm hungry." },
+            { "emoji": "🍽️", "text": "I want to eat." },
+            { "emoji": "😋", "text": "I'm very hungry!" },
+            { "emoji": "⏰", "text": "It's time to eat." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "thirsty",
+      "image": "🥤",
+      "translations": {
+        "fr": {
+          "label": "Soif",
+          "phrases": [
+            { "emoji": "🥤", "text": "J'ai soif." },
+            { "emoji": "💧", "text": "Je veux boire." },
+            { "emoji": "🥤", "text": "J'ai très soif !" },
+            { "emoji": "💦", "text": "J'ai besoin d'eau." }
+          ]
+        },
+        "en": {
+          "label": "Thirsty",
+          "phrases": [
+            { "emoji": "🥤", "text": "I'm thirsty." },
+            { "emoji": "💧", "text": "I want to drink." },
+            { "emoji": "🥤", "text": "I'm very thirsty!" },
+            { "emoji": "💦", "text": "I need water." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cutlery",
+      "image": "🍴",
+      "translations": {
+        "fr": {
+          "label": "Couverts",
+          "phrases": [
+            { "emoji": "🍴", "text": "Je veux des couverts." },
+            { "emoji": "🥄", "text": "Où est ma cuillère ?" },
+            { "emoji": "🔪", "text": "J'ai besoin d'un couteau." },
+            { "emoji": "🍴", "text": "Donne-moi une fourchette." }
+          ]
+        },
+        "en": {
+          "label": "Cutlery",
+          "phrases": [
+            { "emoji": "🍴", "text": "I want cutlery." },
+            { "emoji": "🥄", "text": "Where is my spoon?" },
+            { "emoji": "🔪", "text": "I need a knife." },
+            { "emoji": "🍴", "text": "Give me a fork." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "full",
+      "image": "😌",
+      "translations": {
+        "fr": {
+          "label": "Repu",
+          "phrases": [
+            { "emoji": "😌", "text": "Je suis repu." },
+            { "emoji": "🍽️", "text": "Je n'ai plus faim." },
+            { "emoji": "😊", "text": "J'ai bien mangé." },
+            { "emoji": "😌", "text": "Je suis rassasié." }
+          ]
+        },
+        "en": {
+          "label": "Full",
+          "phrases": [
+            { "emoji": "😌", "text": "I'm full." },
+            { "emoji": "🍽️", "text": "I'm not hungry anymore." },
+            { "emoji": "😊", "text": "I ate well." },
+            { "emoji": "😌", "text": "I'm satisfied." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "apple",
+      "image": "🍎",
+      "translations": {
+        "fr": {
+          "label": "Pomme",
+          "phrases": [
+            { "emoji": "🍎", "text": "Je veux une pomme." },
+            { "emoji": "😋", "text": "J'aime les pommes." },
+            { "emoji": "🍎", "text": "C'est une pomme rouge." },
+            { "emoji": "🍏", "text": "Je préfère les pommes vertes." }
+          ]
+        },
+        "en": {
+          "label": "Apple",
+          "phrases": [
+            { "emoji": "🍎", "text": "I want an apple." },
+            { "emoji": "😋", "text": "I like apples." },
+            { "emoji": "🍎", "text": "It's a red apple." },
+            { "emoji": "🍏", "text": "I prefer green apples." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carrot",
+      "image": "🥕",
+      "translations": {
+        "fr": {
+          "label": "Carotte",
+          "phrases": [
+            { "emoji": "🥕", "text": "Je veux une carotte." },
+            { "emoji": "😋", "text": "J'aime les carottes." },
+            { "emoji": "🥕", "text": "Les carottes sont bonnes." },
+            { "emoji": "🐰", "text": "Les lapins mangent des carottes." }
+          ]
+        },
+        "en": {
+          "label": "Carrot",
+          "phrases": [
+            { "emoji": "🥕", "text": "I want a carrot." },
+            { "emoji": "😋", "text": "I like carrots." },
+            { "emoji": "🥕", "text": "Carrots are good." },
+            { "emoji": "🐰", "text": "Rabbits eat carrots." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beans",
+      "image": "🫘",
+      "translations": {
+        "fr": {
+          "label": "Haricots",
+          "phrases": [
+            { "emoji": "🫘", "text": "Je veux des haricots." },
+            { "emoji": "😋", "text": "J'aime les haricots." },
+            { "emoji": "🫘", "text": "Les haricots verts sont bons." },
+            { "emoji": "🍽️", "text": "Je mange des haricots." }
+          ]
+        },
+        "en": {
+          "label": "Beans",
+          "phrases": [
+            { "emoji": "🫘", "text": "I want beans." },
+            { "emoji": "😋", "text": "I like beans." },
+            { "emoji": "🫘", "text": "Green beans are good." },
+            { "emoji": "🍽️", "text": "I'm eating beans." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chicken",
+      "image": "🍗",
+      "translations": {
+        "fr": {
+          "label": "Poulet",
+          "phrases": [
+            { "emoji": "🍗", "text": "Je veux du poulet." },
+            { "emoji": "😋", "text": "J'aime le poulet." },
+            { "emoji": "🍗", "text": "Le poulet est délicieux." },
+            { "emoji": "🍽️", "text": "Je mange du poulet." }
+          ]
+        },
+        "en": {
+          "label": "Chicken",
+          "phrases": [
+            { "emoji": "🍗", "text": "I want chicken." },
+            { "emoji": "😋", "text": "I like chicken." },
+            { "emoji": "🍗", "text": "The chicken is delicious." },
+            { "emoji": "🍽️", "text": "I'm eating chicken." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chocolate",
+      "image": "🍫",
+      "translations": {
+        "fr": {
+          "label": "Chocolat",
+          "phrases": [
+            { "emoji": "🍫", "text": "Je veux du chocolat." },
+            { "emoji": "😍", "text": "J'adore le chocolat !" },
+            { "emoji": "🍫", "text": "Le chocolat est bon." },
+            { "emoji": "🎉", "text": "C'est mon chocolat préféré." }
+          ]
+        },
+        "en": {
+          "label": "Chocolate",
+          "phrases": [
+            { "emoji": "🍫", "text": "I want chocolate." },
+            { "emoji": "😍", "text": "I love chocolate!" },
+            { "emoji": "🍫", "text": "Chocolate is good." },
+            { "emoji": "🎉", "text": "It's my favorite chocolate." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "milk",
+      "image": "🥛",
+      "translations": {
+        "fr": {
+          "label": "Lait",
+          "phrases": [
+            { "emoji": "🥛", "text": "Je veux du lait." },
+            { "emoji": "😋", "text": "J'aime le lait." },
+            { "emoji": "🥛", "text": "Le lait est froid." },
+            { "emoji": "🍪", "text": "Lait et cookies !" }
+          ]
+        },
+        "en": {
+          "label": "Milk",
+          "phrases": [
+            { "emoji": "🥛", "text": "I want milk." },
+            { "emoji": "😋", "text": "I like milk." },
+            { "emoji": "🥛", "text": "The milk is cold." },
+            { "emoji": "🍪", "text": "Milk and cookies!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sandwich",
+      "image": "🥪",
+      "translations": {
+        "fr": {
+          "label": "Sandwich",
+          "phrases": [
+            { "emoji": "🥪", "text": "Je veux un sandwich." },
+            { "emoji": "😋", "text": "J'aime les sandwichs." },
+            { "emoji": "🥪", "text": "Mon sandwich est bon." },
+            { "emoji": "🍽️", "text": "Je mange un sandwich." }
+          ]
+        },
+        "en": {
+          "label": "Sandwich",
+          "phrases": [
+            { "emoji": "🥪", "text": "I want a sandwich." },
+            { "emoji": "😋", "text": "I like sandwiches." },
+            { "emoji": "🥪", "text": "My sandwich is good." },
+            { "emoji": "🍽️", "text": "I'm eating a sandwich." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "steak",
+      "image": "🥩",
+      "translations": {
+        "fr": {
+          "label": "Bifteck",
+          "phrases": [
+            { "emoji": "🥩", "text": "Je veux un bifteck." },
+            { "emoji": "😋", "text": "J'aime le bifteck." },
+            { "emoji": "🥩", "text": "Le bifteck est tendre." },
+            { "emoji": "🍽️", "text": "Je mange un bifteck." }
+          ]
+        },
+        "en": {
+          "label": "Steak",
+          "phrases": [
+            { "emoji": "🥩", "text": "I want a steak." },
+            { "emoji": "😋", "text": "I like steak." },
+            { "emoji": "🥩", "text": "The steak is tender." },
+            { "emoji": "🍽️", "text": "I'm eating steak." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "banana",
+      "image": "🍌",
+      "translations": {
+        "fr": {
+          "label": "Banane",
+          "phrases": [
+            { "emoji": "🍌", "text": "Je veux une banane." },
+            { "emoji": "😋", "text": "J'aime les bananes." },
+            { "emoji": "🍌", "text": "La banane est jaune." },
+            { "emoji": "🐵", "text": "Les singes aiment les bananes." }
+          ]
+        },
+        "en": {
+          "label": "Banana",
+          "phrases": [
+            { "emoji": "🍌", "text": "I want a banana." },
+            { "emoji": "😋", "text": "I like bananas." },
+            { "emoji": "🍌", "text": "The banana is yellow." },
+            { "emoji": "🐵", "text": "Monkeys like bananas." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pie",
+      "image": "🥧",
+      "translations": {
+        "fr": {
+          "label": "Tarte",
+          "phrases": [
+            { "emoji": "🥧", "text": "Je veux de la tarte." },
+            { "emoji": "😋", "text": "J'adore la tarte !" },
+            { "emoji": "🥧", "text": "La tarte aux pommes est bonne." },
+            { "emoji": "🍽️", "text": "Je mange de la tarte." }
+          ]
+        },
+        "en": {
+          "label": "Pie",
+          "phrases": [
+            { "emoji": "🥧", "text": "I want pie." },
+            { "emoji": "😋", "text": "I love pie!" },
+            { "emoji": "🥧", "text": "Apple pie is good." },
+            { "emoji": "🍽️", "text": "I'm eating pie." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "egg",
+      "image": "🥚",
+      "translations": {
+        "fr": {
+          "label": "Œuf",
+          "phrases": [
+            { "emoji": "🥚", "text": "Je veux un œuf." },
+            { "emoji": "😋", "text": "J'aime les œufs." },
+            { "emoji": "🍳", "text": "Un œuf au plat, s'il te plaît." },
+            { "emoji": "🥚", "text": "Les œufs sont bons." }
+          ]
+        },
+        "en": {
+          "label": "Egg",
+          "phrases": [
+            { "emoji": "🥚", "text": "I want an egg." },
+            { "emoji": "😋", "text": "I like eggs." },
+            { "emoji": "🍳", "text": "A fried egg, please." },
+            { "emoji": "🥚", "text": "Eggs are good." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "noodles",
+      "image": "🍜",
+      "translations": {
+        "fr": {
+          "label": "Nouilles",
+          "phrases": [
+            { "emoji": "🍜", "text": "Je veux des nouilles." },
+            { "emoji": "😋", "text": "J'aime les nouilles." },
+            { "emoji": "🍜", "text": "Les nouilles sont chaudes." },
+            { "emoji": "🥢", "text": "Je mange des nouilles." }
+          ]
+        },
+        "en": {
+          "label": "Noodles",
+          "phrases": [
+            { "emoji": "🍜", "text": "I want noodles." },
+            { "emoji": "😋", "text": "I like noodles." },
+            { "emoji": "🍜", "text": "The noodles are hot." },
+            { "emoji": "🥢", "text": "I'm eating noodles." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "salt",
+      "image": "🧂",
+      "translations": {
+        "fr": {
+          "label": "Sel",
+          "phrases": [
+            { "emoji": "🧂", "text": "Je veux du sel." },
+            { "emoji": "🍽️", "text": "Passe-moi le sel." },
+            { "emoji": "🧂", "text": "C'est trop salé." },
+            { "emoji": "😋", "text": "J'aime le sel." }
+          ]
+        },
+        "en": {
+          "label": "Salt",
+          "phrases": [
+            { "emoji": "🧂", "text": "I want salt." },
+            { "emoji": "🍽️", "text": "Pass me the salt." },
+            { "emoji": "🧂", "text": "It's too salty." },
+            { "emoji": "😋", "text": "I like salt." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spices",
+      "image": "🌶️",
+      "translations": {
+        "fr": {
+          "label": "Épices",
+          "phrases": [
+            { "emoji": "🌶️", "text": "Je veux des épices." },
+            { "emoji": "🔥", "text": "C'est épicé !" },
+            { "emoji": "😰", "text": "C'est trop épicé." },
+            { "emoji": "🌶️", "text": "J'aime les épices." }
+          ]
+        },
+        "en": {
+          "label": "Spices",
+          "phrases": [
+            { "emoji": "🌶️", "text": "I want spices." },
+            { "emoji": "🔥", "text": "It's spicy!" },
+            { "emoji": "😰", "text": "It's too spicy." },
+            { "emoji": "🌶️", "text": "I like spices." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pizza",
+      "image": "🍕",
+      "translations": {
+        "fr": {
+          "label": "Pizza",
+          "phrases": [
+            { "emoji": "🍕", "text": "Je veux de la pizza." },
+            { "emoji": "😍", "text": "J'adore la pizza !" },
+            { "emoji": "🍕", "text": "La pizza est délicieuse." },
+            { "emoji": "🎉", "text": "C'est ma pizza préférée." }
+          ]
+        },
+        "en": {
+          "label": "Pizza",
+          "phrases": [
+            { "emoji": "🍕", "text": "I want pizza." },
+            { "emoji": "😍", "text": "I love pizza!" },
+            { "emoji": "🍕", "text": "The pizza is delicious." },
+            { "emoji": "🎉", "text": "It's my favorite pizza." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cheese",
+      "image": "🧀",
+      "translations": {
+        "fr": {
+          "label": "Fromage",
+          "phrases": [
+            { "emoji": "🧀", "text": "Je veux du fromage." },
+            { "emoji": "😋", "text": "J'aime le fromage." },
+            { "emoji": "🧀", "text": "Le fromage est bon." },
+            { "emoji": "🍞", "text": "Du fromage sur du pain." }
+          ]
+        },
+        "en": {
+          "label": "Cheese",
+          "phrases": [
+            { "emoji": "🧀", "text": "I want cheese." },
+            { "emoji": "😋", "text": "I like cheese." },
+            { "emoji": "🧀", "text": "The cheese is good." },
+            { "emoji": "🍞", "text": "Cheese on bread." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fish",
+      "image": "🐟",
+      "translations": {
+        "fr": {
+          "label": "Poisson",
+          "phrases": [
+            { "emoji": "🐟", "text": "Je veux du poisson." },
+            { "emoji": "😋", "text": "J'aime le poisson." },
+            { "emoji": "🐟", "text": "Le poisson est frais." },
+            { "emoji": "🍽️", "text": "Je mange du poisson." }
+          ]
+        },
+        "en": {
+          "label": "Fish",
+          "phrases": [
+            { "emoji": "🐟", "text": "I want fish." },
+            { "emoji": "😋", "text": "I like fish." },
+            { "emoji": "🐟", "text": "The fish is fresh." },
+            { "emoji": "🍽️", "text": "I'm eating fish." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ice-cream",
+      "image": "🍦",
+      "translations": {
+        "fr": {
+          "label": "Glace",
+          "phrases": [
+            { "emoji": "🍦", "text": "Je veux une glace." },
+            { "emoji": "😍", "text": "J'adore les glaces !" },
+            { "emoji": "🍦", "text": "La glace est froide." },
+            { "emoji": "🎉", "text": "C'est ma glace préférée." }
+          ]
+        },
+        "en": {
+          "label": "Ice Cream",
+          "phrases": [
+            { "emoji": "🍦", "text": "I want ice cream." },
+            { "emoji": "😍", "text": "I love ice cream!" },
+            { "emoji": "🍦", "text": "The ice cream is cold." },
+            { "emoji": "🎉", "text": "It's my favorite ice cream." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea",
+      "image": "🍵",
+      "translations": {
+        "fr": {
+          "label": "Thé",
+          "phrases": [
+            { "emoji": "🍵", "text": "Je veux du thé." },
+            { "emoji": "😊", "text": "J'aime le thé." },
+            { "emoji": "🍵", "text": "Le thé est chaud." },
+            { "emoji": "☕", "text": "Un thé, s'il te plaît." }
+          ]
+        },
+        "en": {
+          "label": "Tea",
+          "phrases": [
+            { "emoji": "🍵", "text": "I want tea." },
+            { "emoji": "😊", "text": "I like tea." },
+            { "emoji": "🍵", "text": "The tea is hot." },
+            { "emoji": "☕", "text": "A tea, please." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "coffee",
+      "image": "☕",
+      "translations": {
+        "fr": {
+          "label": "Café",
+          "phrases": [
+            { "emoji": "☕", "text": "Je veux du café." },
+            { "emoji": "😊", "text": "J'aime le café." },
+            { "emoji": "☕", "text": "Le café est chaud." },
+            { "emoji": "🌅", "text": "Un café le matin." }
+          ]
+        },
+        "en": {
+          "label": "Coffee",
+          "phrases": [
+            { "emoji": "☕", "text": "I want coffee." },
+            { "emoji": "😊", "text": "I like coffee." },
+            { "emoji": "☕", "text": "The coffee is hot." },
+            { "emoji": "🌅", "text": "Coffee in the morning." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tomato",
+      "image": "🍅",
+      "translations": {
+        "fr": {
+          "label": "Tomate",
+          "phrases": [
+            { "emoji": "🍅", "text": "Je veux une tomate." },
+            { "emoji": "😋", "text": "J'aime les tomates." },
+            { "emoji": "🍅", "text": "La tomate est rouge." },
+            { "emoji": "🥗", "text": "Des tomates dans la salade." }
+          ]
+        },
+        "en": {
+          "label": "Tomato",
+          "phrases": [
+            { "emoji": "🍅", "text": "I want a tomato." },
+            { "emoji": "😋", "text": "I like tomatoes." },
+            { "emoji": "🍅", "text": "The tomato is red." },
+            { "emoji": "🥗", "text": "Tomatoes in the salad." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cereal",
+      "image": "🥣",
+      "translations": {
+        "fr": {
+          "label": "Céréale",
+          "phrases": [
+            { "emoji": "🥣", "text": "Je veux des céréales." },
+            { "emoji": "😋", "text": "J'aime les céréales." },
+            { "emoji": "🥣", "text": "Des céréales au petit-déjeuner." },
+            { "emoji": "🥛", "text": "Céréales avec du lait." }
+          ]
+        },
+        "en": {
+          "label": "Cereal",
+          "phrases": [
+            { "emoji": "🥣", "text": "I want cereal." },
+            { "emoji": "😋", "text": "I like cereal." },
+            { "emoji": "🥣", "text": "Cereal for breakfast." },
+            { "emoji": "🥛", "text": "Cereal with milk." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "burger",
+      "image": "🍔",
+      "translations": {
+        "fr": {
+          "label": "Burger",
+          "phrases": [
+            { "emoji": "🍔", "text": "Je veux un burger." },
+            { "emoji": "😍", "text": "J'adore les burgers !" },
+            { "emoji": "🍔", "text": "Le burger est énorme." },
+            { "emoji": "🍟", "text": "Burger et frites !" }
+          ]
+        },
+        "en": {
+          "label": "Burger",
+          "phrases": [
+            { "emoji": "🍔", "text": "I want a burger." },
+            { "emoji": "😍", "text": "I love burgers!" },
+            { "emoji": "🍔", "text": "The burger is huge." },
+            { "emoji": "🍟", "text": "Burger and fries!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fries",
+      "image": "🍟",
+      "translations": {
+        "fr": {
+          "label": "Frites",
+          "phrases": [
+            { "emoji": "🍟", "text": "Je veux des frites." },
+            { "emoji": "😍", "text": "J'adore les frites !" },
+            { "emoji": "🍟", "text": "Les frites sont chaudes." },
+            { "emoji": "🧂", "text": "Frites salées !" }
+          ]
+        },
+        "en": {
+          "label": "Fries",
+          "phrases": [
+            { "emoji": "🍟", "text": "I want fries." },
+            { "emoji": "😍", "text": "I love fries!" },
+            { "emoji": "🍟", "text": "The fries are hot." },
+            { "emoji": "🧂", "text": "Salty fries!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spinach",
+      "image": "🥬",
+      "translations": {
+        "fr": {
+          "label": "Épinard",
+          "phrases": [
+            { "emoji": "🥬", "text": "Je veux des épinards." },
+            { "emoji": "😊", "text": "J'aime les épinards." },
+            { "emoji": "💪", "text": "Les épinards rendent fort." },
+            { "emoji": "🥬", "text": "Les épinards sont verts." }
+          ]
+        },
+        "en": {
+          "label": "Spinach",
+          "phrases": [
+            { "emoji": "🥬", "text": "I want spinach." },
+            { "emoji": "😊", "text": "I like spinach." },
+            { "emoji": "💪", "text": "Spinach makes you strong." },
+            { "emoji": "🥬", "text": "Spinach is green." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rice",
+      "image": "🍚",
+      "translations": {
+        "fr": {
+          "label": "Riz",
+          "phrases": [
+            { "emoji": "🍚", "text": "Je veux du riz." },
+            { "emoji": "😋", "text": "J'aime le riz." },
+            { "emoji": "🍚", "text": "Le riz est blanc." },
+            { "emoji": "🍽️", "text": "Je mange du riz." }
+          ]
+        },
+        "en": {
+          "label": "Rice",
+          "phrases": [
+            { "emoji": "🍚", "text": "I want rice." },
+            { "emoji": "😋", "text": "I like rice." },
+            { "emoji": "🍚", "text": "The rice is white." },
+            { "emoji": "🍽️", "text": "I'm eating rice." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bread",
+      "image": "🍞",
+      "translations": {
+        "fr": {
+          "label": "Pain",
+          "phrases": [
+            { "emoji": "🍞", "text": "Je veux du pain." },
+            { "emoji": "😋", "text": "J'aime le pain." },
+            { "emoji": "🍞", "text": "Le pain est frais." },
+            { "emoji": "🧈", "text": "Pain avec du beurre." }
+          ]
+        },
+        "en": {
+          "label": "Bread",
+          "phrases": [
+            { "emoji": "🍞", "text": "I want bread." },
+            { "emoji": "😋", "text": "I like bread." },
+            { "emoji": "🍞", "text": "The bread is fresh." },
+            { "emoji": "🧈", "text": "Bread with butter." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pasta",
+      "image": "🍝",
+      "translations": {
+        "fr": {
+          "label": "Pâtes",
+          "phrases": [
+            { "emoji": "🍝", "text": "Je veux des pâtes." },
+            { "emoji": "😍", "text": "J'adore les pâtes !" },
+            { "emoji": "🍝", "text": "Les pâtes sont bonnes." },
+            { "emoji": "🧀", "text": "Pâtes au fromage." }
+          ]
+        },
+        "en": {
+          "label": "Pasta",
+          "phrases": [
+            { "emoji": "🍝", "text": "I want pasta." },
+            { "emoji": "😍", "text": "I love pasta!" },
+            { "emoji": "🍝", "text": "The pasta is good." },
+            { "emoji": "🧀", "text": "Pasta with cheese." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sauce",
+      "image": "🥫",
+      "translations": {
+        "fr": {
+          "label": "Sauce",
+          "phrases": [
+            { "emoji": "🥫", "text": "Je veux de la sauce." },
+            { "emoji": "😋", "text": "J'aime la sauce." },
+            { "emoji": "🍅", "text": "Sauce tomate." },
+            { "emoji": "🥫", "text": "La sauce est bonne." }
+          ]
+        },
+        "en": {
+          "label": "Sauce",
+          "phrases": [
+            { "emoji": "🥫", "text": "I want sauce." },
+            { "emoji": "😋", "text": "I like sauce." },
+            { "emoji": "🍅", "text": "Tomato sauce." },
+            { "emoji": "🥫", "text": "The sauce is good." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kebab",
+      "image": "🥙",
+      "translations": {
+        "fr": {
+          "label": "Kebab",
+          "phrases": [
+            { "emoji": "🥙", "text": "Je veux un kebab." },
+            { "emoji": "😍", "text": "J'adore les kebabs !" },
+            { "emoji": "🥙", "text": "Le kebab est délicieux." },
+            { "emoji": "🍟", "text": "Kebab avec des frites." }
+          ]
+        },
+        "en": {
+          "label": "Kebab",
+          "phrases": [
+            { "emoji": "🥙", "text": "I want a kebab." },
+            { "emoji": "😍", "text": "I love kebabs!" },
+            { "emoji": "🥙", "text": "The kebab is delicious." },
+            { "emoji": "🍟", "text": "Kebab with fries." }
+          ]
+        }
+      }
+    }
+  ]
+}

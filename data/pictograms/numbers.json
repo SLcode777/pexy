@@ -1,0 +1,629 @@
+{
+  "category": "numbers",
+  "pictograms": [
+    {
+      "id": "one",
+      "image": "1️⃣",
+      "translations": {
+        "fr": {
+          "label": "Un",
+          "phrases": [
+            { "emoji": "1️⃣", "text": "C'est le chiffre un." },
+            { "emoji": "1️⃣", "text": "Je compte jusqu'à un." },
+            { "emoji": "1️⃣", "text": "J'ai un objet." },
+            { "emoji": "1️⃣", "text": "Un est le premier chiffre." }
+          ]
+        },
+        "en": {
+          "label": "One",
+          "phrases": [
+            { "emoji": "1️⃣", "text": "It's the number one." },
+            { "emoji": "1️⃣", "text": "I count to one." },
+            { "emoji": "1️⃣", "text": "I have one object." },
+            { "emoji": "1️⃣", "text": "One is the first number." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "two",
+      "image": "2️⃣",
+      "translations": {
+        "fr": {
+          "label": "Deux",
+          "phrases": [
+            { "emoji": "2️⃣", "text": "C'est le chiffre deux." },
+            { "emoji": "2️⃣", "text": "Je compte jusqu'à deux." },
+            { "emoji": "2️⃣", "text": "J'ai deux objets." },
+            { "emoji": "2️⃣", "text": "Un plus un égale deux." }
+          ]
+        },
+        "en": {
+          "label": "Two",
+          "phrases": [
+            { "emoji": "2️⃣", "text": "It's the number two." },
+            { "emoji": "2️⃣", "text": "I count to two." },
+            { "emoji": "2️⃣", "text": "I have two objects." },
+            { "emoji": "2️⃣", "text": "One plus one equals two." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "three",
+      "image": "3️⃣",
+      "translations": {
+        "fr": {
+          "label": "Trois",
+          "phrases": [
+            { "emoji": "3️⃣", "text": "C'est le chiffre trois." },
+            { "emoji": "3️⃣", "text": "Je compte jusqu'à trois." },
+            { "emoji": "3️⃣", "text": "J'ai trois objets." },
+            { "emoji": "3️⃣", "text": "Deux plus un égale trois." }
+          ]
+        },
+        "en": {
+          "label": "Three",
+          "phrases": [
+            { "emoji": "3️⃣", "text": "It's the number three." },
+            { "emoji": "3️⃣", "text": "I count to three." },
+            { "emoji": "3️⃣", "text": "I have three objects." },
+            { "emoji": "3️⃣", "text": "Two plus one equals three." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "four",
+      "image": "4️⃣",
+      "translations": {
+        "fr": {
+          "label": "Quatre",
+          "phrases": [
+            { "emoji": "4️⃣", "text": "C'est le chiffre quatre." },
+            { "emoji": "4️⃣", "text": "Je compte jusqu'à quatre." },
+            { "emoji": "4️⃣", "text": "J'ai quatre objets." },
+            { "emoji": "4️⃣", "text": "Trois plus un égale quatre." }
+          ]
+        },
+        "en": {
+          "label": "Four",
+          "phrases": [
+            { "emoji": "4️⃣", "text": "It's the number four." },
+            { "emoji": "4️⃣", "text": "I count to four." },
+            { "emoji": "4️⃣", "text": "I have four objects." },
+            { "emoji": "4️⃣", "text": "Three plus one equals four." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "five",
+      "image": "5️⃣",
+      "translations": {
+        "fr": {
+          "label": "Cinq",
+          "phrases": [
+            { "emoji": "5️⃣", "text": "C'est le chiffre cinq." },
+            { "emoji": "5️⃣", "text": "Je compte jusqu'à cinq." },
+            { "emoji": "5️⃣", "text": "J'ai cinq objets." },
+            { "emoji": "✋", "text": "J'ai cinq doigts sur une main." }
+          ]
+        },
+        "en": {
+          "label": "Five",
+          "phrases": [
+            { "emoji": "5️⃣", "text": "It's the number five." },
+            { "emoji": "5️⃣", "text": "I count to five." },
+            { "emoji": "5️⃣", "text": "I have five objects." },
+            { "emoji": "✋", "text": "I have five fingers on one hand." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "six",
+      "image": "6️⃣",
+      "translations": {
+        "fr": {
+          "label": "Six",
+          "phrases": [
+            { "emoji": "6️⃣", "text": "C'est le chiffre six." },
+            { "emoji": "6️⃣", "text": "Je compte jusqu'à six." },
+            { "emoji": "6️⃣", "text": "J'ai six objets." },
+            { "emoji": "6️⃣", "text": "Cinq plus un égale six." }
+          ]
+        },
+        "en": {
+          "label": "Six",
+          "phrases": [
+            { "emoji": "6️⃣", "text": "It's the number six." },
+            { "emoji": "6️⃣", "text": "I count to six." },
+            { "emoji": "6️⃣", "text": "I have six objects." },
+            { "emoji": "6️⃣", "text": "Five plus one equals six." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seven",
+      "image": "7️⃣",
+      "translations": {
+        "fr": {
+          "label": "Sept",
+          "phrases": [
+            { "emoji": "7️⃣", "text": "C'est le chiffre sept." },
+            { "emoji": "7️⃣", "text": "Je compte jusqu'à sept." },
+            { "emoji": "7️⃣", "text": "J'ai sept objets." },
+            { "emoji": "7️⃣", "text": "Il y a sept jours dans une semaine." }
+          ]
+        },
+        "en": {
+          "label": "Seven",
+          "phrases": [
+            { "emoji": "7️⃣", "text": "It's the number seven." },
+            { "emoji": "7️⃣", "text": "I count to seven." },
+            { "emoji": "7️⃣", "text": "I have seven objects." },
+            { "emoji": "7️⃣", "text": "There are seven days in a week." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eight",
+      "image": "8️⃣",
+      "translations": {
+        "fr": {
+          "label": "Huit",
+          "phrases": [
+            { "emoji": "8️⃣", "text": "C'est le chiffre huit." },
+            { "emoji": "8️⃣", "text": "Je compte jusqu'à huit." },
+            { "emoji": "8️⃣", "text": "J'ai huit objets." },
+            { "emoji": "8️⃣", "text": "Sept plus un égale huit." }
+          ]
+        },
+        "en": {
+          "label": "Eight",
+          "phrases": [
+            { "emoji": "8️⃣", "text": "It's the number eight." },
+            { "emoji": "8️⃣", "text": "I count to eight." },
+            { "emoji": "8️⃣", "text": "I have eight objects." },
+            { "emoji": "8️⃣", "text": "Seven plus one equals eight." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nine",
+      "image": "9️⃣",
+      "translations": {
+        "fr": {
+          "label": "Neuf",
+          "phrases": [
+            { "emoji": "9️⃣", "text": "C'est le chiffre neuf." },
+            { "emoji": "9️⃣", "text": "Je compte jusqu'à neuf." },
+            { "emoji": "9️⃣", "text": "J'ai neuf objets." },
+            { "emoji": "9️⃣", "text": "Huit plus un égale neuf." }
+          ]
+        },
+        "en": {
+          "label": "Nine",
+          "phrases": [
+            { "emoji": "9️⃣", "text": "It's the number nine." },
+            { "emoji": "9️⃣", "text": "I count to nine." },
+            { "emoji": "9️⃣", "text": "I have nine objects." },
+            { "emoji": "9️⃣", "text": "Eight plus one equals nine." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ten",
+      "image": "🔟",
+      "translations": {
+        "fr": {
+          "label": "Dix",
+          "phrases": [
+            { "emoji": "🔟", "text": "C'est le chiffre dix." },
+            { "emoji": "🔟", "text": "Je compte jusqu'à dix." },
+            { "emoji": "🔟", "text": "J'ai dix objets." },
+            { "emoji": "🙌", "text": "J'ai dix doigts." }
+          ]
+        },
+        "en": {
+          "label": "Ten",
+          "phrases": [
+            { "emoji": "🔟", "text": "It's the number ten." },
+            { "emoji": "🔟", "text": "I count to ten." },
+            { "emoji": "🔟", "text": "I have ten objects." },
+            { "emoji": "🙌", "text": "I have ten fingers." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eleven",
+      "image": "1️⃣1️⃣",
+      "translations": {
+        "fr": {
+          "label": "Onze",
+          "phrases": [
+            { "emoji": "1️⃣1️⃣", "text": "C'est le chiffre onze." },
+            { "emoji": "1️⃣1️⃣", "text": "Je compte jusqu'à onze." },
+            { "emoji": "1️⃣1️⃣", "text": "J'ai onze objets." },
+            { "emoji": "1️⃣1️⃣", "text": "Dix plus un égale onze." }
+          ]
+        },
+        "en": {
+          "label": "Eleven",
+          "phrases": [
+            { "emoji": "1️⃣1️⃣", "text": "It's the number eleven." },
+            { "emoji": "1️⃣1️⃣", "text": "I count to eleven." },
+            { "emoji": "1️⃣1️⃣", "text": "I have eleven objects." },
+            { "emoji": "1️⃣1️⃣", "text": "Ten plus one equals eleven." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "twelve",
+      "image": "1️⃣2️⃣",
+      "translations": {
+        "fr": {
+          "label": "Douze",
+          "phrases": [
+            { "emoji": "1️⃣2️⃣", "text": "C'est le chiffre douze." },
+            { "emoji": "1️⃣2️⃣", "text": "Je compte jusqu'à douze." },
+            { "emoji": "1️⃣2️⃣", "text": "J'ai douze objets." },
+            { "emoji": "🕛", "text": "Il y a douze heures sur une horloge." }
+          ]
+        },
+        "en": {
+          "label": "Twelve",
+          "phrases": [
+            { "emoji": "1️⃣2️⃣", "text": "It's the number twelve." },
+            { "emoji": "1️⃣2️⃣", "text": "I count to twelve." },
+            { "emoji": "1️⃣2️⃣", "text": "I have twelve objects." },
+            { "emoji": "🕛", "text": "There are twelve hours on a clock." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "thirteen",
+      "image": "1️⃣3️⃣",
+      "translations": {
+        "fr": {
+          "label": "Treize",
+          "phrases": [
+            { "emoji": "1️⃣3️⃣", "text": "C'est le chiffre treize." },
+            { "emoji": "1️⃣3️⃣", "text": "Je compte jusqu'à treize." },
+            { "emoji": "1️⃣3️⃣", "text": "J'ai treize objets." },
+            { "emoji": "1️⃣3️⃣", "text": "Douze plus un égale treize." }
+          ]
+        },
+        "en": {
+          "label": "Thirteen",
+          "phrases": [
+            { "emoji": "1️⃣3️⃣", "text": "It's the number thirteen." },
+            { "emoji": "1️⃣3️⃣", "text": "I count to thirteen." },
+            { "emoji": "1️⃣3️⃣", "text": "I have thirteen objects." },
+            { "emoji": "1️⃣3️⃣", "text": "Twelve plus one equals thirteen." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fourteen",
+      "image": "1️⃣4️⃣",
+      "translations": {
+        "fr": {
+          "label": "Quatorze",
+          "phrases": [
+            { "emoji": "1️⃣4️⃣", "text": "C'est le chiffre quatorze." },
+            { "emoji": "1️⃣4️⃣", "text": "Je compte jusqu'à quatorze." },
+            { "emoji": "1️⃣4️⃣", "text": "J'ai quatorze objets." },
+            { "emoji": "1️⃣4️⃣", "text": "Treize plus un égale quatorze." }
+          ]
+        },
+        "en": {
+          "label": "Fourteen",
+          "phrases": [
+            { "emoji": "1️⃣4️⃣", "text": "It's the number fourteen." },
+            { "emoji": "1️⃣4️⃣", "text": "I count to fourteen." },
+            { "emoji": "1️⃣4️⃣", "text": "I have fourteen objects." },
+            { "emoji": "1️⃣4️⃣", "text": "Thirteen plus one equals fourteen." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fifteen",
+      "image": "1️⃣5️⃣",
+      "translations": {
+        "fr": {
+          "label": "Quinze",
+          "phrases": [
+            { "emoji": "1️⃣5️⃣", "text": "C'est le chiffre quinze." },
+            { "emoji": "1️⃣5️⃣", "text": "Je compte jusqu'à quinze." },
+            { "emoji": "1️⃣5️⃣", "text": "J'ai quinze objets." },
+            { "emoji": "1️⃣5️⃣", "text": "Quatorze plus un égale quinze." }
+          ]
+        },
+        "en": {
+          "label": "Fifteen",
+          "phrases": [
+            { "emoji": "1️⃣5️⃣", "text": "It's the number fifteen." },
+            { "emoji": "1️⃣5️⃣", "text": "I count to fifteen." },
+            { "emoji": "1️⃣5️⃣", "text": "I have fifteen objects." },
+            { "emoji": "1️⃣5️⃣", "text": "Fourteen plus one equals fifteen." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sixteen",
+      "image": "1️⃣6️⃣",
+      "translations": {
+        "fr": {
+          "label": "Seize",
+          "phrases": [
+            { "emoji": "1️⃣6️⃣", "text": "C'est le chiffre seize." },
+            { "emoji": "1️⃣6️⃣", "text": "Je compte jusqu'à seize." },
+            { "emoji": "1️⃣6️⃣", "text": "J'ai seize objets." },
+            { "emoji": "1️⃣6️⃣", "text": "Quinze plus un égale seize." }
+          ]
+        },
+        "en": {
+          "label": "Sixteen",
+          "phrases": [
+            { "emoji": "1️⃣6️⃣", "text": "It's the number sixteen." },
+            { "emoji": "1️⃣6️⃣", "text": "I count to sixteen." },
+            { "emoji": "1️⃣6️⃣", "text": "I have sixteen objects." },
+            { "emoji": "1️⃣6️⃣", "text": "Fifteen plus one equals sixteen." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seventeen",
+      "image": "1️⃣7️⃣",
+      "translations": {
+        "fr": {
+          "label": "Dix-Sept",
+          "phrases": [
+            { "emoji": "1️⃣7️⃣", "text": "C'est le chiffre dix-sept." },
+            { "emoji": "1️⃣7️⃣", "text": "Je compte jusqu'à dix-sept." },
+            { "emoji": "1️⃣7️⃣", "text": "J'ai dix-sept objets." },
+            { "emoji": "1️⃣7️⃣", "text": "Seize plus un égale dix-sept." }
+          ]
+        },
+        "en": {
+          "label": "Seventeen",
+          "phrases": [
+            { "emoji": "1️⃣7️⃣", "text": "It's the number seventeen." },
+            { "emoji": "1️⃣7️⃣", "text": "I count to seventeen." },
+            { "emoji": "1️⃣7️⃣", "text": "I have seventeen objects." },
+            { "emoji": "1️⃣7️⃣", "text": "Sixteen plus one equals seventeen." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eighteen",
+      "image": "1️⃣8️⃣",
+      "translations": {
+        "fr": {
+          "label": "Dix-Huit",
+          "phrases": [
+            { "emoji": "1️⃣8️⃣", "text": "C'est le chiffre dix-huit." },
+            { "emoji": "1️⃣8️⃣", "text": "Je compte jusqu'à dix-huit." },
+            { "emoji": "1️⃣8️⃣", "text": "J'ai dix-huit objets." },
+            { "emoji": "1️⃣8️⃣", "text": "Dix-sept plus un égale dix-huit." }
+          ]
+        },
+        "en": {
+          "label": "Eighteen",
+          "phrases": [
+            { "emoji": "1️⃣8️⃣", "text": "It's the number eighteen." },
+            { "emoji": "1️⃣8️⃣", "text": "I count to eighteen." },
+            { "emoji": "1️⃣8️⃣", "text": "I have eighteen objects." },
+            { "emoji": "1️⃣8️⃣", "text": "Seventeen plus one equals eighteen." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nineteen",
+      "image": "1️⃣9️⃣",
+      "translations": {
+        "fr": {
+          "label": "Dix-Neuf",
+          "phrases": [
+            { "emoji": "1️⃣9️⃣", "text": "C'est le chiffre dix-neuf." },
+            { "emoji": "1️⃣9️⃣", "text": "Je compte jusqu'à dix-neuf." },
+            { "emoji": "1️⃣9️⃣", "text": "J'ai dix-neuf objets." },
+            { "emoji": "1️⃣9️⃣", "text": "Dix-huit plus un égale dix-neuf." }
+          ]
+        },
+        "en": {
+          "label": "Nineteen",
+          "phrases": [
+            { "emoji": "1️⃣9️⃣", "text": "It's the number nineteen." },
+            { "emoji": "1️⃣9️⃣", "text": "I count to nineteen." },
+            { "emoji": "1️⃣9️⃣", "text": "I have nineteen objects." },
+            { "emoji": "1️⃣9️⃣", "text": "Eighteen plus one equals nineteen." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "twenty",
+      "image": "2️⃣0️⃣",
+      "translations": {
+        "fr": {
+          "label": "Vingt",
+          "phrases": [
+            { "emoji": "2️⃣0️⃣", "text": "C'est le chiffre vingt." },
+            { "emoji": "2️⃣0️⃣", "text": "Je compte jusqu'à vingt." },
+            { "emoji": "2️⃣0️⃣", "text": "J'ai vingt objets." },
+            { "emoji": "2️⃣0️⃣", "text": "Dix plus dix égale vingt." }
+          ]
+        },
+        "en": {
+          "label": "Twenty",
+          "phrases": [
+            { "emoji": "2️⃣0️⃣", "text": "It's the number twenty." },
+            { "emoji": "2️⃣0️⃣", "text": "I count to twenty." },
+            { "emoji": "2️⃣0️⃣", "text": "I have twenty objects." },
+            { "emoji": "2️⃣0️⃣", "text": "Ten plus ten equals twenty." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "thirty",
+      "image": "3️⃣0️⃣",
+      "translations": {
+        "fr": {
+          "label": "Trente",
+          "phrases": [
+            { "emoji": "3️⃣0️⃣", "text": "C'est le chiffre trente." },
+            { "emoji": "3️⃣0️⃣", "text": "Je compte jusqu'à trente." },
+            { "emoji": "3️⃣0️⃣", "text": "J'ai trente objets." },
+            { "emoji": "3️⃣0️⃣", "text": "Vingt plus dix égale trente." }
+          ]
+        },
+        "en": {
+          "label": "Thirty",
+          "phrases": [
+            { "emoji": "3️⃣0️⃣", "text": "It's the number thirty." },
+            { "emoji": "3️⃣0️⃣", "text": "I count to thirty." },
+            { "emoji": "3️⃣0️⃣", "text": "I have thirty objects." },
+            { "emoji": "3️⃣0️⃣", "text": "Twenty plus ten equals thirty." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "forty",
+      "image": "4️⃣0️⃣",
+      "translations": {
+        "fr": {
+          "label": "Quarante",
+          "phrases": [
+            { "emoji": "4️⃣0️⃣", "text": "C'est le chiffre quarante." },
+            { "emoji": "4️⃣0️⃣", "text": "Je compte jusqu'à quarante." },
+            { "emoji": "4️⃣0️⃣", "text": "J'ai quarante objets." },
+            { "emoji": "4️⃣0️⃣", "text": "Trente plus dix égale quarante." }
+          ]
+        },
+        "en": {
+          "label": "Forty",
+          "phrases": [
+            { "emoji": "4️⃣0️⃣", "text": "It's the number forty." },
+            { "emoji": "4️⃣0️⃣", "text": "I count to forty." },
+            { "emoji": "4️⃣0️⃣", "text": "I have forty objects." },
+            { "emoji": "4️⃣0️⃣", "text": "Thirty plus ten equals forty." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fifty",
+      "image": "5️⃣0️⃣",
+      "translations": {
+        "fr": {
+          "label": "Cinquante",
+          "phrases": [
+            { "emoji": "5️⃣0️⃣", "text": "C'est le chiffre cinquante." },
+            { "emoji": "5️⃣0️⃣", "text": "Je compte jusqu'à cinquante." },
+            { "emoji": "5️⃣0️⃣", "text": "J'ai cinquante objets." },
+            { "emoji": "5️⃣0️⃣", "text": "Quarante plus dix égale cinquante." }
+          ]
+        },
+        "en": {
+          "label": "Fifty",
+          "phrases": [
+            { "emoji": "5️⃣0️⃣", "text": "It's the number fifty." },
+            { "emoji": "5️⃣0️⃣", "text": "I count to fifty." },
+            { "emoji": "5️⃣0️⃣", "text": "I have fifty objects." },
+            { "emoji": "5️⃣0️⃣", "text": "Forty plus ten equals fifty." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hundred",
+      "image": "💯",
+      "translations": {
+        "fr": {
+          "label": "Cent",
+          "phrases": [
+            { "emoji": "💯", "text": "C'est le chiffre cent." },
+            { "emoji": "💯", "text": "Je compte jusqu'à cent." },
+            { "emoji": "💯", "text": "J'ai cent objets." },
+            { "emoji": "💯", "text": "Cent est un grand nombre." }
+          ]
+        },
+        "en": {
+          "label": "Hundred",
+          "phrases": [
+            { "emoji": "💯", "text": "It's the number one hundred." },
+            { "emoji": "💯", "text": "I count to one hundred." },
+            { "emoji": "💯", "text": "I have one hundred objects." },
+            { "emoji": "💯", "text": "One hundred is a big number." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "thousand",
+      "image": "🔢",
+      "translations": {
+        "fr": {
+          "label": "Mille",
+          "phrases": [
+            { "emoji": "🔢", "text": "C'est le chiffre mille." },
+            { "emoji": "🔢", "text": "Mille est très grand." },
+            { "emoji": "🔢", "text": "J'ai mille objets." },
+            { "emoji": "🔢", "text": "Mille est un très grand nombre." }
+          ]
+        },
+        "en": {
+          "label": "Thousand",
+          "phrases": [
+            { "emoji": "🔢", "text": "It's the number one thousand." },
+            { "emoji": "🔢", "text": "One thousand is very big." },
+            { "emoji": "🔢", "text": "I have one thousand objects." },
+            { "emoji": "🔢", "text": "One thousand is a very big number." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "calculator",
+      "image": "🧮",
+      "translations": {
+        "fr": {
+          "label": "Calculatrice",
+          "phrases": [
+            { "emoji": "🧮", "text": "J'utilise la calculatrice." },
+            { "emoji": "🧮", "text": "Je veux une calculatrice." },
+            { "emoji": "🧮", "text": "La calculatrice calcule les nombres." },
+            { "emoji": "🧮", "text": "J'aime la calculatrice." }
+          ]
+        },
+        "en": {
+          "label": "Calculator",
+          "phrases": [
+            { "emoji": "🧮", "text": "I use the calculator." },
+            { "emoji": "🧮", "text": "I want a calculator." },
+            { "emoji": "🧮", "text": "The calculator calculates numbers." },
+            { "emoji": "🧮", "text": "I like the calculator." }
+          ]
+        }
+      }
+    }
+  ]
+}

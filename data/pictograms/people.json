@@ -1,0 +1,560 @@
+{
+  "category": "people",
+  "pictograms": [
+    {
+      "id": "mother",
+      "image": "👩",
+      "translations": {
+        "fr": {
+          "label": "Mère",
+          "phrases": [
+            { "emoji": "👩", "text": "C'est ma maman." },
+            { "emoji": "❤️", "text": "J'aime ma maman." },
+            { "emoji": "🤗", "text": "Je veux voir maman." },
+            { "emoji": "👩", "text": "Maman est là ?" }
+          ]
+        },
+        "en": {
+          "label": "Mother",
+          "phrases": [
+            { "emoji": "👩", "text": "This is my mom." },
+            { "emoji": "❤️", "text": "I love my mom." },
+            { "emoji": "🤗", "text": "I want to see mom." },
+            { "emoji": "👩", "text": "Is mom here?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "father",
+      "image": "👨",
+      "translations": {
+        "fr": {
+          "label": "Père",
+          "phrases": [
+            { "emoji": "👨", "text": "C'est mon papa." },
+            { "emoji": "❤️", "text": "J'aime mon papa." },
+            { "emoji": "🤗", "text": "Je veux voir papa." },
+            { "emoji": "👨", "text": "Papa est là ?" }
+          ]
+        },
+        "en": {
+          "label": "Father",
+          "phrases": [
+            { "emoji": "👨", "text": "This is my dad." },
+            { "emoji": "❤️", "text": "I love my dad." },
+            { "emoji": "🤗", "text": "I want to see dad." },
+            { "emoji": "👨", "text": "Is dad here?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "parents",
+      "image": "👨‍👩‍👧",
+      "translations": {
+        "fr": {
+          "label": "Parents",
+          "phrases": [
+            { "emoji": "👨‍👩‍👧", "text": "Ce sont mes parents." },
+            { "emoji": "❤️", "text": "J'aime mes parents." },
+            { "emoji": "🏠", "text": "Mes parents sont à la maison." },
+            { "emoji": "👨‍👩‍👧", "text": "Où sont mes parents ?" }
+          ]
+        },
+        "en": {
+          "label": "Parents",
+          "phrases": [
+            { "emoji": "👨‍👩‍👧", "text": "These are my parents." },
+            { "emoji": "❤️", "text": "I love my parents." },
+            { "emoji": "🏠", "text": "My parents are home." },
+            { "emoji": "👨‍👩‍👧", "text": "Where are my parents?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grandparents",
+      "image": "👴👵",
+      "translations": {
+        "fr": {
+          "label": "Grands-parents",
+          "phrases": [
+            { "emoji": "👴👵", "text": "Ce sont mes grands-parents." },
+            { "emoji": "❤️", "text": "J'aime mes grands-parents." },
+            { "emoji": "🏡", "text": "Je vais chez mes grands-parents." },
+            { "emoji": "🤗", "text": "Je veux voir mes grands-parents." }
+          ]
+        },
+        "en": {
+          "label": "Grandparents",
+          "phrases": [
+            { "emoji": "👴👵", "text": "These are my grandparents." },
+            { "emoji": "❤️", "text": "I love my grandparents." },
+            { "emoji": "🏡", "text": "I'm going to my grandparents' house." },
+            { "emoji": "🤗", "text": "I want to see my grandparents." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "brother",
+      "image": "👦",
+      "translations": {
+        "fr": {
+          "label": "Frère",
+          "phrases": [
+            { "emoji": "👦", "text": "C'est mon frère." },
+            { "emoji": "🎮", "text": "Je joue avec mon frère." },
+            { "emoji": "👦", "text": "Où est mon frère ?" },
+            { "emoji": "🤝", "text": "Mon frère m'aide." }
+          ]
+        },
+        "en": {
+          "label": "Brother",
+          "phrases": [
+            { "emoji": "👦", "text": "This is my brother." },
+            { "emoji": "🎮", "text": "I play with my brother." },
+            { "emoji": "👦", "text": "Where is my brother?" },
+            { "emoji": "🤝", "text": "My brother helps me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sister",
+      "image": "👧",
+      "translations": {
+        "fr": {
+          "label": "Sœur",
+          "phrases": [
+            { "emoji": "👧", "text": "C'est ma sœur." },
+            { "emoji": "🎀", "text": "Je joue avec ma sœur." },
+            { "emoji": "👧", "text": "Où est ma sœur ?" },
+            { "emoji": "🤝", "text": "Ma sœur m'aide." }
+          ]
+        },
+        "en": {
+          "label": "Sister",
+          "phrases": [
+            { "emoji": "👧", "text": "This is my sister." },
+            { "emoji": "🎀", "text": "I play with my sister." },
+            { "emoji": "👧", "text": "Where is my sister?" },
+            { "emoji": "🤝", "text": "My sister helps me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "uncle",
+      "image": "👨‍🦱",
+      "translations": {
+        "fr": {
+          "label": "Oncle",
+          "phrases": [
+            { "emoji": "👨‍🦱", "text": "C'est mon oncle." },
+            { "emoji": "🎉", "text": "Mon oncle est sympa." },
+            { "emoji": "👨‍🦱", "text": "Je vois mon oncle." },
+            { "emoji": "🤗", "text": "J'aime mon oncle." }
+          ]
+        },
+        "en": {
+          "label": "Uncle",
+          "phrases": [
+            { "emoji": "👨‍🦱", "text": "This is my uncle." },
+            { "emoji": "🎉", "text": "My uncle is nice." },
+            { "emoji": "👨‍🦱", "text": "I see my uncle." },
+            { "emoji": "🤗", "text": "I love my uncle." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "aunt",
+      "image": "👩‍🦱",
+      "translations": {
+        "fr": {
+          "label": "Tante",
+          "phrases": [
+            { "emoji": "👩‍🦱", "text": "C'est ma tante." },
+            { "emoji": "🎉", "text": "Ma tante est gentille." },
+            { "emoji": "👩‍🦱", "text": "Je vois ma tante." },
+            { "emoji": "🤗", "text": "J'aime ma tante." }
+          ]
+        },
+        "en": {
+          "label": "Aunt",
+          "phrases": [
+            { "emoji": "👩‍🦱", "text": "This is my aunt." },
+            { "emoji": "🎉", "text": "My aunt is kind." },
+            { "emoji": "👩‍🦱", "text": "I see my aunt." },
+            { "emoji": "🤗", "text": "I love my aunt." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "teacher",
+      "image": "👨‍🏫",
+      "translations": {
+        "fr": {
+          "label": "Prof",
+          "phrases": [
+            { "emoji": "👨‍🏫", "text": "C'est mon prof." },
+            { "emoji": "📚", "text": "Le prof explique." },
+            { "emoji": "✋", "text": "Je veux parler au prof." },
+            { "emoji": "👨‍🏫", "text": "Le prof m'aide." }
+          ]
+        },
+        "en": {
+          "label": "Teacher",
+          "phrases": [
+            { "emoji": "👨‍🏫", "text": "This is my teacher." },
+            { "emoji": "📚", "text": "The teacher explains." },
+            { "emoji": "✋", "text": "I want to talk to the teacher." },
+            { "emoji": "👨‍🏫", "text": "The teacher helps me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "therapist",
+      "image": "👨‍⚕️",
+      "translations": {
+        "fr": {
+          "label": "Thérapeute",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "C'est mon thérapeute." },
+            { "emoji": "🗣️", "text": "Je parle avec mon thérapeute." },
+            { "emoji": "💪", "text": "Mon thérapeute m'aide." },
+            { "emoji": "📅", "text": "J'ai rendez-vous avec mon thérapeute." }
+          ]
+        },
+        "en": {
+          "label": "Therapist",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "This is my therapist." },
+            { "emoji": "🗣️", "text": "I talk with my therapist." },
+            { "emoji": "💪", "text": "My therapist helps me." },
+            {
+              "emoji": "📅",
+              "text": "I have an appointment with my therapist."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "doctor",
+      "image": "👨‍⚕️",
+      "translations": {
+        "fr": {
+          "label": "Docteur",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "C'est le docteur." },
+            { "emoji": "🏥", "text": "Je vais chez le docteur." },
+            { "emoji": "🤒", "text": "Le docteur me soigne." },
+            { "emoji": "💉", "text": "J'ai peur du docteur." }
+          ]
+        },
+        "en": {
+          "label": "Doctor",
+          "phrases": [
+            { "emoji": "👨‍⚕️", "text": "This is the doctor." },
+            { "emoji": "🏥", "text": "I'm going to the doctor." },
+            { "emoji": "🤒", "text": "The doctor treats me." },
+            { "emoji": "💉", "text": "I'm scared of the doctor." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "friends",
+      "image": "👥",
+      "translations": {
+        "fr": {
+          "label": "Amis",
+          "phrases": [
+            { "emoji": "👥", "text": "Ce sont mes amis." },
+            { "emoji": "🎉", "text": "Je joue avec mes amis." },
+            { "emoji": "❤️", "text": "J'aime mes amis." },
+            { "emoji": "👋", "text": "Je vois mes amis." }
+          ]
+        },
+        "en": {
+          "label": "Friends",
+          "phrases": [
+            { "emoji": "👥", "text": "These are my friends." },
+            { "emoji": "🎉", "text": "I play with my friends." },
+            { "emoji": "❤️", "text": "I love my friends." },
+            { "emoji": "👋", "text": "I see my friends." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "girlfriend",
+      "image": "💑",
+      "translations": {
+        "fr": {
+          "label": "Petite amie",
+          "phrases": [
+            { "emoji": "💑", "text": "C'est ma petite amie." },
+            { "emoji": "❤️", "text": "J'aime ma petite amie." },
+            { "emoji": "😍", "text": "Je veux voir ma petite amie." },
+            { "emoji": "🌹", "text": "Ma petite amie est gentille." }
+          ]
+        },
+        "en": {
+          "label": "Girlfriend",
+          "phrases": [
+            { "emoji": "💑", "text": "This is my girlfriend." },
+            { "emoji": "❤️", "text": "I love my girlfriend." },
+            { "emoji": "😍", "text": "I want to see my girlfriend." },
+            { "emoji": "🌹", "text": "My girlfriend is kind." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "boyfriend",
+      "image": "💑",
+      "translations": {
+        "fr": {
+          "label": "Petit ami",
+          "phrases": [
+            { "emoji": "💑", "text": "C'est mon petit ami." },
+            { "emoji": "❤️", "text": "J'aime mon petit ami." },
+            { "emoji": "😍", "text": "Je veux voir mon petit ami." },
+            { "emoji": "🎁", "text": "Mon petit ami est gentil." }
+          ]
+        },
+        "en": {
+          "label": "Boyfriend",
+          "phrases": [
+            { "emoji": "💑", "text": "This is my boyfriend." },
+            { "emoji": "❤️", "text": "I love my boyfriend." },
+            { "emoji": "😍", "text": "I want to see my boyfriend." },
+            { "emoji": "🎁", "text": "My boyfriend is kind." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cousins",
+      "image": "👫",
+      "translations": {
+        "fr": {
+          "label": "Les cousins",
+          "phrases": [
+            { "emoji": "👫", "text": "Ce sont mes cousins." },
+            { "emoji": "🎉", "text": "Je joue avec mes cousins." },
+            { "emoji": "👫", "text": "J'aime mes cousins." },
+            { "emoji": "🏡", "text": "Je vois mes cousins." }
+          ]
+        },
+        "en": {
+          "label": "Cousins",
+          "phrases": [
+            { "emoji": "👫", "text": "These are my cousins." },
+            { "emoji": "🎉", "text": "I play with my cousins." },
+            { "emoji": "👫", "text": "I love my cousins." },
+            { "emoji": "🏡", "text": "I see my cousins." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grandmother",
+      "image": "👵",
+      "translations": {
+        "fr": {
+          "label": "Grand-mère",
+          "phrases": [
+            { "emoji": "👵", "text": "C'est ma grand-mère." },
+            { "emoji": "❤️", "text": "J'aime ma grand-mère." },
+            { "emoji": "🍪", "text": "Grand-mère fait des gâteaux." },
+            { "emoji": "🤗", "text": "Je veux voir ma grand-mère." }
+          ]
+        },
+        "en": {
+          "label": "Grandmother",
+          "phrases": [
+            { "emoji": "👵", "text": "This is my grandmother." },
+            { "emoji": "❤️", "text": "I love my grandmother." },
+            { "emoji": "🍪", "text": "Grandma makes cookies." },
+            { "emoji": "🤗", "text": "I want to see my grandmother." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grandfather",
+      "image": "👴",
+      "translations": {
+        "fr": {
+          "label": "Grand-père",
+          "phrases": [
+            { "emoji": "👴", "text": "C'est mon grand-père." },
+            { "emoji": "❤️", "text": "J'aime mon grand-père." },
+            { "emoji": "📖", "text": "Grand-père raconte des histoires." },
+            { "emoji": "🤗", "text": "Je veux voir mon grand-père." }
+          ]
+        },
+        "en": {
+          "label": "Grandfather",
+          "phrases": [
+            { "emoji": "👴", "text": "This is my grandfather." },
+            { "emoji": "❤️", "text": "I love my grandfather." },
+            { "emoji": "📖", "text": "Grandpa tells stories." },
+            { "emoji": "🤗", "text": "I want to see my grandfather." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "stepfather",
+      "image": "👨‍👦",
+      "translations": {
+        "fr": {
+          "label": "Beau-père",
+          "phrases": [
+            { "emoji": "👨‍👦", "text": "C'est mon beau-père." },
+            { "emoji": "🏠", "text": "Mon beau-père habite avec nous." },
+            { "emoji": "🤝", "text": "Mon beau-père est gentil." },
+            { "emoji": "👨‍👦", "text": "J'aime mon beau-père." }
+          ]
+        },
+        "en": {
+          "label": "Stepfather",
+          "phrases": [
+            { "emoji": "👨‍👦", "text": "This is my stepfather." },
+            { "emoji": "🏠", "text": "My stepfather lives with us." },
+            { "emoji": "🤝", "text": "My stepfather is kind." },
+            { "emoji": "👨‍👦", "text": "I love my stepfather." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "stepmother",
+      "image": "👩‍👧",
+      "translations": {
+        "fr": {
+          "label": "Belle-mère",
+          "phrases": [
+            { "emoji": "👩‍👧", "text": "C'est ma belle-mère." },
+            { "emoji": "🏠", "text": "Ma belle-mère habite avec nous." },
+            { "emoji": "🤝", "text": "Ma belle-mère est gentille." },
+            { "emoji": "👩‍👧", "text": "J'aime ma belle-mère." }
+          ]
+        },
+        "en": {
+          "label": "Stepmother",
+          "phrases": [
+            { "emoji": "👩‍👧", "text": "This is my stepmother." },
+            { "emoji": "🏠", "text": "My stepmother lives with us." },
+            { "emoji": "🤝", "text": "My stepmother is kind." },
+            { "emoji": "👩‍👧", "text": "I love my stepmother." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "half-sister",
+      "image": "👧",
+      "translations": {
+        "fr": {
+          "label": "Demi-sœur",
+          "phrases": [
+            { "emoji": "👧", "text": "C'est ma demi-sœur." },
+            { "emoji": "🎀", "text": "Je joue avec ma demi-sœur." },
+            { "emoji": "👧", "text": "Ma demi-sœur est sympa." },
+            { "emoji": "❤️", "text": "J'aime ma demi-sœur." }
+          ]
+        },
+        "en": {
+          "label": "Half-sister",
+          "phrases": [
+            { "emoji": "👧", "text": "This is my half-sister." },
+            { "emoji": "🎀", "text": "I play with my half-sister." },
+            { "emoji": "👧", "text": "My half-sister is nice." },
+            { "emoji": "❤️", "text": "I love my half-sister." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "half-brother",
+      "image": "👦",
+      "translations": {
+        "fr": {
+          "label": "Demi-frère",
+          "phrases": [
+            { "emoji": "👦", "text": "C'est mon demi-frère." },
+            { "emoji": "🎮", "text": "Je joue avec mon demi-frère." },
+            { "emoji": "👦", "text": "Mon demi-frère est sympa." },
+            { "emoji": "❤️", "text": "J'aime mon demi-frère." }
+          ]
+        },
+        "en": {
+          "label": "Half-brother",
+          "phrases": [
+            { "emoji": "👦", "text": "This is my half-brother." },
+            { "emoji": "🎮", "text": "I play with my half-brother." },
+            { "emoji": "👦", "text": "My half-brother is nice." },
+            { "emoji": "❤️", "text": "I love my half-brother." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sister-in-law",
+      "image": "👰",
+      "translations": {
+        "fr": {
+          "label": "Belle-sœur",
+          "phrases": [
+            { "emoji": "👰", "text": "C'est ma belle-sœur." },
+            { "emoji": "🤝", "text": "Ma belle-sœur est gentille." },
+            { "emoji": "🎉", "text": "Je vois ma belle-sœur." },
+            { "emoji": "❤️", "text": "J'aime ma belle-sœur." }
+          ]
+        },
+        "en": {
+          "label": "Sister-in-law",
+          "phrases": [
+            { "emoji": "👰", "text": "This is my sister-in-law." },
+            { "emoji": "🤝", "text": "My sister-in-law is kind." },
+            { "emoji": "🎉", "text": "I see my sister-in-law." },
+            { "emoji": "❤️", "text": "I love my sister-in-law." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "brother-in-law",
+      "image": "🤵",
+      "translations": {
+        "fr": {
+          "label": "Beau-frère",
+          "phrases": [
+            { "emoji": "🤵", "text": "C'est mon beau-frère." },
+            { "emoji": "🤝", "text": "Mon beau-frère est gentil." },
+            { "emoji": "🎉", "text": "Je vois mon beau-frère." },
+            { "emoji": "❤️", "text": "J'aime mon beau-frère." }
+          ]
+        },
+        "en": {
+          "label": "Brother-in-law",
+          "phrases": [
+            { "emoji": "🤵", "text": "This is my brother-in-law." },
+            { "emoji": "🤝", "text": "My brother-in-law is kind." },
+            { "emoji": "🎉", "text": "I see my brother-in-law." },
+            { "emoji": "❤️", "text": "I love my brother-in-law." }
+          ]
+        }
+      }
+    }
+  ]
+}

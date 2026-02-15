@@ -6,6 +6,7 @@ import {
   FlatList,
   StyleSheet,
   SafeAreaView,
+  Dimensions,
 } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { useTranslation } from 'react-i18next';
@@ -15,6 +16,11 @@ import { CATEGORIES } from '@/constants/categories';
 import { loadPictograms } from '@/lib/pictograms';
 import { speakWithPreferences } from '@/lib/speakWithPreferences';
 import type { Pictogram } from '@/types';
+
+const { width: SCREEN_WIDTH } = Dimensions.get('window');
+const CARD_GAP = 12;
+const HORIZONTAL_PADDING = 16;
+const CARD_WIDTH = (SCREEN_WIDTH - HORIZONTAL_PADDING * 2 - CARD_GAP * 2) / 3;
 
 export default function CategoryScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -168,13 +174,13 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   pictogramCard: {
-    flex: 1,
+    width: CARD_WIDTH,
+    height: CARD_WIDTH,
     backgroundColor: Colors.backgroundSecondary,
     borderRadius: 16,
     padding: 12,
     alignItems: 'center',
     justifyContent: 'center',
-    aspectRatio: 1,
     borderWidth: 1,
     borderColor: Colors.border,
   },

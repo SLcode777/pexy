@@ -1,0 +1,461 @@
+{
+  "category": "feelings",
+  "pictograms": [
+    {
+      "id": "happy",
+      "image": "😊",
+      "translations": {
+        "fr": {
+          "label": "Heureux",
+          "phrases": [
+            { "emoji": "😊", "text": "Je suis heureux." },
+            { "emoji": "😄", "text": "Je me sens bien !" },
+            { "emoji": "🎉", "text": "Je suis content !" },
+            { "emoji": "❤️", "text": "Ça me rend heureux." }
+          ]
+        },
+        "en": {
+          "label": "Happy",
+          "phrases": [
+            { "emoji": "😊", "text": "I am happy." },
+            { "emoji": "😄", "text": "I feel good!" },
+            { "emoji": "🎉", "text": "I am glad!" },
+            { "emoji": "❤️", "text": "This makes me happy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sad",
+      "image": "😢",
+      "translations": {
+        "fr": {
+          "label": "Triste",
+          "phrases": [
+            { "emoji": "😢", "text": "Je suis triste." },
+            { "emoji": "😔", "text": "Je me sens triste." },
+            { "emoji": "💔", "text": "Ça me rend triste." },
+            { "emoji": "😭", "text": "Je veux pleurer." }
+          ]
+        },
+        "en": {
+          "label": "Sad",
+          "phrases": [
+            { "emoji": "😢", "text": "I am sad." },
+            { "emoji": "😔", "text": "I feel sad." },
+            { "emoji": "💔", "text": "This makes me sad." },
+            { "emoji": "😭", "text": "I want to cry." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "exhausted",
+      "image": "😩",
+      "translations": {
+        "fr": {
+          "label": "Épuisé",
+          "phrases": [
+            { "emoji": "😩", "text": "Je suis épuisé." },
+            { "emoji": "😴", "text": "Je suis très fatigué." },
+            { "emoji": "🛏️", "text": "J'ai besoin de me reposer." },
+            { "emoji": "💤", "text": "Je n'en peux plus." }
+          ]
+        },
+        "en": {
+          "label": "Exhausted",
+          "phrases": [
+            { "emoji": "😩", "text": "I am exhausted." },
+            { "emoji": "😴", "text": "I am very tired." },
+            { "emoji": "🛏️", "text": "I need to rest." },
+            { "emoji": "💤", "text": "I can't take it anymore." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "relaxed",
+      "image": "😌",
+      "translations": {
+        "fr": {
+          "label": "Détendu",
+          "phrases": [
+            { "emoji": "😌", "text": "Je suis détendu." },
+            { "emoji": "🧘", "text": "Je me sens calme." },
+            { "emoji": "☮️", "text": "Je suis tranquille." },
+            { "emoji": "😊", "text": "Je suis serein." }
+          ]
+        },
+        "en": {
+          "label": "Relaxed",
+          "phrases": [
+            { "emoji": "😌", "text": "I am relaxed." },
+            { "emoji": "🧘", "text": "I feel calm." },
+            { "emoji": "☮️", "text": "I am peaceful." },
+            { "emoji": "😊", "text": "I am serene." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "in-love",
+      "image": "🥰",
+      "translations": {
+        "fr": {
+          "label": "Amoureux",
+          "phrases": [
+            { "emoji": "🥰", "text": "Je suis amoureux." },
+            { "emoji": "❤️", "text": "Je t'aime." },
+            { "emoji": "😍", "text": "Je suis sous le charme." },
+            { "emoji": "💕", "text": "Mon cœur bat fort." }
+          ]
+        },
+        "en": {
+          "label": "In Love",
+          "phrases": [
+            { "emoji": "🥰", "text": "I am in love." },
+            { "emoji": "❤️", "text": "I love you." },
+            { "emoji": "😍", "text": "I am charmed." },
+            { "emoji": "💕", "text": "My heart beats fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "stressed",
+      "image": "😰",
+      "translations": {
+        "fr": {
+          "label": "Stressé",
+          "phrases": [
+            { "emoji": "😰", "text": "Je suis stressé." },
+            { "emoji": "😫", "text": "Je me sens sous pression." },
+            { "emoji": "😟", "text": "Je suis inquiet." },
+            { "emoji": "😰", "text": "C'est trop pour moi." }
+          ]
+        },
+        "en": {
+          "label": "Stressed",
+          "phrases": [
+            { "emoji": "😰", "text": "I am stressed." },
+            { "emoji": "😫", "text": "I feel under pressure." },
+            { "emoji": "😟", "text": "I am worried." },
+            { "emoji": "😰", "text": "It's too much for me." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grateful",
+      "image": "🙏",
+      "translations": {
+        "fr": {
+          "label": "Reconnaissant",
+          "phrases": [
+            { "emoji": "🙏", "text": "Je suis reconnaissant." },
+            { "emoji": "❤️", "text": "Merci beaucoup !" },
+            { "emoji": "😊", "text": "J'apprécie vraiment." },
+            { "emoji": "🙏", "text": "Je te remercie." }
+          ]
+        },
+        "en": {
+          "label": "Grateful",
+          "phrases": [
+            { "emoji": "🙏", "text": "I am grateful." },
+            { "emoji": "❤️", "text": "Thank you so much!" },
+            { "emoji": "😊", "text": "I really appreciate it." },
+            { "emoji": "🙏", "text": "I thank you." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "confused",
+      "image": "😕",
+      "translations": {
+        "fr": {
+          "label": "Confus",
+          "phrases": [
+            { "emoji": "😕", "text": "Je suis confus." },
+            { "emoji": "🤔", "text": "Je ne comprends pas." },
+            { "emoji": "❓", "text": "Je suis perdu." },
+            { "emoji": "😕", "text": "C'est compliqué." }
+          ]
+        },
+        "en": {
+          "label": "Confused",
+          "phrases": [
+            { "emoji": "😕", "text": "I am confused." },
+            { "emoji": "🤔", "text": "I don't understand." },
+            { "emoji": "❓", "text": "I am lost." },
+            { "emoji": "😕", "text": "It's complicated." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "joyful",
+      "image": "😄",
+      "translations": {
+        "fr": {
+          "label": "Joyeux",
+          "phrases": [
+            { "emoji": "😄", "text": "Je suis joyeux." },
+            { "emoji": "🎉", "text": "Je suis plein de joie !" },
+            { "emoji": "😆", "text": "Je déborde de bonheur !" },
+            { "emoji": "🌟", "text": "Je rayonne de joie !" }
+          ]
+        },
+        "en": {
+          "label": "Joyful",
+          "phrases": [
+            { "emoji": "😄", "text": "I am joyful." },
+            { "emoji": "🎉", "text": "I am full of joy!" },
+            { "emoji": "😆", "text": "I am overflowing with happiness!" },
+            { "emoji": "🌟", "text": "I am glowing with joy!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "angry",
+      "image": "😠",
+      "translations": {
+        "fr": {
+          "label": "En colère",
+          "phrases": [
+            { "emoji": "😠", "text": "Je suis en colère." },
+            { "emoji": "😡", "text": "Je suis fâché." },
+            { "emoji": "💢", "text": "Ça m'énerve !" },
+            { "emoji": "😤", "text": "Je suis énervé." }
+          ]
+        },
+        "en": {
+          "label": "Angry",
+          "phrases": [
+            { "emoji": "😠", "text": "I am angry." },
+            { "emoji": "😡", "text": "I am mad." },
+            { "emoji": "💢", "text": "This annoys me!" },
+            { "emoji": "😤", "text": "I am irritated." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "smart",
+      "image": "🤓",
+      "translations": {
+        "fr": {
+          "label": "Intelligent",
+          "phrases": [
+            { "emoji": "🤓", "text": "Je me sens intelligent." },
+            { "emoji": "🧠", "text": "J'ai compris !" },
+            { "emoji": "💡", "text": "J'ai une bonne idée." },
+            { "emoji": "🎓", "text": "Je suis malin." }
+          ]
+        },
+        "en": {
+          "label": "Smart",
+          "phrases": [
+            { "emoji": "🤓", "text": "I feel smart." },
+            { "emoji": "🧠", "text": "I got it!" },
+            { "emoji": "💡", "text": "I have a good idea." },
+            { "emoji": "🎓", "text": "I am clever." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "scared",
+      "image": "😨",
+      "translations": {
+        "fr": {
+          "label": "Effrayé",
+          "phrases": [
+            { "emoji": "😨", "text": "J'ai peur." },
+            { "emoji": "😰", "text": "Je suis effrayé." },
+            { "emoji": "👻", "text": "Ça me fait peur." },
+            { "emoji": "😱", "text": "C'est terrifiant !" }
+          ]
+        },
+        "en": {
+          "label": "Scared",
+          "phrases": [
+            { "emoji": "😨", "text": "I am scared." },
+            { "emoji": "😰", "text": "I am frightened." },
+            { "emoji": "👻", "text": "This scares me." },
+            { "emoji": "😱", "text": "It's terrifying!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ashamed",
+      "image": "😳",
+      "translations": {
+        "fr": {
+          "label": "Honteux",
+          "phrases": [
+            { "emoji": "😳", "text": "J'ai honte." },
+            { "emoji": "😔", "text": "Je suis gêné." },
+            { "emoji": "🙈", "text": "Je suis embarrassé." },
+            { "emoji": "😳", "text": "Je rougis." }
+          ]
+        },
+        "en": {
+          "label": "Ashamed",
+          "phrases": [
+            { "emoji": "😳", "text": "I am ashamed." },
+            { "emoji": "😔", "text": "I am embarrassed." },
+            { "emoji": "🙈", "text": "I feel awkward." },
+            { "emoji": "😳", "text": "I am blushing." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "shocked",
+      "image": "😲",
+      "translations": {
+        "fr": {
+          "label": "Choqué",
+          "phrases": [
+            { "emoji": "😲", "text": "Je suis choqué." },
+            { "emoji": "😱", "text": "Je suis surpris !" },
+            { "emoji": "🤯", "text": "Je n'en reviens pas !" },
+            { "emoji": "😲", "text": "C'est incroyable !" }
+          ]
+        },
+        "en": {
+          "label": "Shocked",
+          "phrases": [
+            { "emoji": "😲", "text": "I am shocked." },
+            { "emoji": "😱", "text": "I am surprised!" },
+            { "emoji": "🤯", "text": "I can't believe it!" },
+            { "emoji": "😲", "text": "This is incredible!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sick",
+      "image": "🤒",
+      "translations": {
+        "fr": {
+          "label": "Malade",
+          "phrases": [
+            { "emoji": "🤒", "text": "Je suis malade." },
+            { "emoji": "🤢", "text": "Je ne me sens pas bien." },
+            { "emoji": "🏥", "text": "J'ai besoin d'un docteur." },
+            { "emoji": "😷", "text": "Je suis souffrant." }
+          ]
+        },
+        "en": {
+          "label": "Sick",
+          "phrases": [
+            { "emoji": "🤒", "text": "I am sick." },
+            { "emoji": "🤢", "text": "I don't feel well." },
+            { "emoji": "🏥", "text": "I need a doctor." },
+            { "emoji": "😷", "text": "I am ill." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "frustrated",
+      "image": "😤",
+      "translations": {
+        "fr": {
+          "label": "Frustré",
+          "phrases": [
+            { "emoji": "😤", "text": "Je suis frustré." },
+            { "emoji": "😣", "text": "C'est agaçant !" },
+            { "emoji": "💢", "text": "Ça ne marche pas !" },
+            { "emoji": "😤", "text": "Je suis découragé." }
+          ]
+        },
+        "en": {
+          "label": "Frustrated",
+          "phrases": [
+            { "emoji": "😤", "text": "I am frustrated." },
+            { "emoji": "😣", "text": "This is annoying!" },
+            { "emoji": "💢", "text": "It's not working!" },
+            { "emoji": "😤", "text": "I am discouraged." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "excited",
+      "image": "🤩",
+      "translations": {
+        "fr": {
+          "label": "Excité",
+          "phrases": [
+            { "emoji": "🤩", "text": "Je suis excité !" },
+            { "emoji": "🎉", "text": "J'ai hâte !" },
+            { "emoji": "😍", "text": "C'est génial !" },
+            { "emoji": "⚡", "text": "Je suis surexcité !" }
+          ]
+        },
+        "en": {
+          "label": "Excited",
+          "phrases": [
+            { "emoji": "🤩", "text": "I am excited!" },
+            { "emoji": "🎉", "text": "I can't wait!" },
+            { "emoji": "😍", "text": "This is awesome!" },
+            { "emoji": "⚡", "text": "I am thrilled!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nauseous",
+      "image": "🤢",
+      "translations": {
+        "fr": {
+          "label": "Nauséeux",
+          "phrases": [
+            { "emoji": "🤢", "text": "J'ai la nausée." },
+            { "emoji": "🤮", "text": "Je vais vomir." },
+            { "emoji": "😷", "text": "J'ai mal au cœur." },
+            { "emoji": "🤢", "text": "Je me sens nauséeux." }
+          ]
+        },
+        "en": {
+          "label": "Nauseous",
+          "phrases": [
+            { "emoji": "🤢", "text": "I feel nauseous." },
+            { "emoji": "🤮", "text": "I'm going to throw up." },
+            { "emoji": "😷", "text": "I feel sick to my stomach." },
+            { "emoji": "🤢", "text": "I feel queasy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "agitated",
+      "image": "😣",
+      "translations": {
+        "fr": {
+          "label": "Agité",
+          "phrases": [
+            { "emoji": "😣", "text": "Je suis agité." },
+            { "emoji": "😖", "text": "Je ne tiens pas en place." },
+            { "emoji": "😰", "text": "Je suis nerveux." },
+            { "emoji": "😣", "text": "Je suis fébrile." }
+          ]
+        },
+        "en": {
+          "label": "Agitated",
+          "phrases": [
+            { "emoji": "😣", "text": "I am agitated." },
+            { "emoji": "😖", "text": "I can't sit still." },
+            { "emoji": "😰", "text": "I am nervous." },
+            { "emoji": "😣", "text": "I am restless." }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,629 @@
+{
+  "category": "vegetables",
+  "pictograms": [
+    {
+      "id": "cucumber",
+      "image": "🥒",
+      "translations": {
+        "fr": {
+          "label": "Concombre",
+          "phrases": [
+            { "emoji": "🥒", "text": "Je mange un concombre." },
+            { "emoji": "🥒", "text": "Je veux un concombre." },
+            { "emoji": "🥒", "text": "J'aime les concombres." },
+            { "emoji": "🥒", "text": "Le concombre est frais." }
+          ]
+        },
+        "en": {
+          "label": "Cucumber",
+          "phrases": [
+            { "emoji": "🥒", "text": "I eat a cucumber." },
+            { "emoji": "🥒", "text": "I want a cucumber." },
+            { "emoji": "🥒", "text": "I like cucumbers." },
+            { "emoji": "🥒", "text": "The cucumber is fresh." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "onion",
+      "image": "🧅",
+      "translations": {
+        "fr": {
+          "label": "Oignon",
+          "phrases": [
+            { "emoji": "🧅", "text": "Je coupe un oignon." },
+            { "emoji": "🧅", "text": "Je veux un oignon." },
+            { "emoji": "🧅", "text": "J'aime les oignons." },
+            { "emoji": "🧅", "text": "L'oignon me fait pleurer." }
+          ]
+        },
+        "en": {
+          "label": "Onion",
+          "phrases": [
+            { "emoji": "🧅", "text": "I cut an onion." },
+            { "emoji": "🧅", "text": "I want an onion." },
+            { "emoji": "🧅", "text": "I like onions." },
+            { "emoji": "🧅", "text": "The onion makes me cry." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "garlic",
+      "image": "🧄",
+      "translations": {
+        "fr": {
+          "label": "Ail",
+          "phrases": [
+            { "emoji": "🧄", "text": "Je coupe de l'ail." },
+            { "emoji": "🧄", "text": "Je veux de l'ail." },
+            { "emoji": "🧄", "text": "J'aime l'ail." },
+            { "emoji": "🧄", "text": "L'ail a du goût." }
+          ]
+        },
+        "en": {
+          "label": "Garlic",
+          "phrases": [
+            { "emoji": "🧄", "text": "I cut garlic." },
+            { "emoji": "🧄", "text": "I want garlic." },
+            { "emoji": "🧄", "text": "I like garlic." },
+            { "emoji": "🧄", "text": "Garlic is flavorful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "carrot-vegetable",
+      "image": "🥕",
+      "translations": {
+        "fr": {
+          "label": "Carotte",
+          "phrases": [
+            { "emoji": "🥕", "text": "Je mange une carotte." },
+            { "emoji": "🥕", "text": "Je veux une carotte." },
+            { "emoji": "🥕", "text": "J'aime les carottes." },
+            { "emoji": "🥕", "text": "La carotte est orange." }
+          ]
+        },
+        "en": {
+          "label": "Carrot",
+          "phrases": [
+            { "emoji": "🥕", "text": "I eat a carrot." },
+            { "emoji": "🥕", "text": "I want a carrot." },
+            { "emoji": "🥕", "text": "I like carrots." },
+            { "emoji": "🥕", "text": "The carrot is orange." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cabbage",
+      "image": "🥬",
+      "translations": {
+        "fr": {
+          "label": "Chou",
+          "phrases": [
+            { "emoji": "🥬", "text": "Je mange du chou." },
+            { "emoji": "🥬", "text": "Je veux du chou." },
+            { "emoji": "🥬", "text": "J'aime le chou." },
+            { "emoji": "🥬", "text": "Le chou est vert." }
+          ]
+        },
+        "en": {
+          "label": "Cabbage",
+          "phrases": [
+            { "emoji": "🥬", "text": "I eat cabbage." },
+            { "emoji": "🥬", "text": "I want cabbage." },
+            { "emoji": "🥬", "text": "I like cabbage." },
+            { "emoji": "🥬", "text": "The cabbage is green." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tomato-vegetable",
+      "image": "🍅",
+      "translations": {
+        "fr": {
+          "label": "Tomate",
+          "phrases": [
+            { "emoji": "🍅", "text": "Je mange une tomate." },
+            { "emoji": "🍅", "text": "Je veux une tomate." },
+            { "emoji": "🍅", "text": "J'aime les tomates." },
+            { "emoji": "🍅", "text": "La tomate est rouge." }
+          ]
+        },
+        "en": {
+          "label": "Tomato",
+          "phrases": [
+            { "emoji": "🍅", "text": "I eat a tomato." },
+            { "emoji": "🍅", "text": "I want a tomato." },
+            { "emoji": "🍅", "text": "I like tomatoes." },
+            { "emoji": "🍅", "text": "The tomato is red." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eggplant",
+      "image": "🍆",
+      "translations": {
+        "fr": {
+          "label": "Aubergine",
+          "phrases": [
+            { "emoji": "🍆", "text": "Je mange de l'aubergine." },
+            { "emoji": "🍆", "text": "Je veux de l'aubergine." },
+            { "emoji": "🍆", "text": "J'aime l'aubergine." },
+            { "emoji": "🍆", "text": "L'aubergine est violette." }
+          ]
+        },
+        "en": {
+          "label": "Eggplant",
+          "phrases": [
+            { "emoji": "🍆", "text": "I eat eggplant." },
+            { "emoji": "🍆", "text": "I want eggplant." },
+            { "emoji": "🍆", "text": "I like eggplant." },
+            { "emoji": "🍆", "text": "The eggplant is purple." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mushroom",
+      "image": "🍄",
+      "translations": {
+        "fr": {
+          "label": "Champignon",
+          "phrases": [
+            { "emoji": "🍄", "text": "Je mange des champignons." },
+            { "emoji": "🍄", "text": "Je veux des champignons." },
+            { "emoji": "🍄", "text": "J'aime les champignons." },
+            { "emoji": "🍄", "text": "Les champignons sont bons." }
+          ]
+        },
+        "en": {
+          "label": "Mushroom",
+          "phrases": [
+            { "emoji": "🍄", "text": "I eat mushrooms." },
+            { "emoji": "🍄", "text": "I want mushrooms." },
+            { "emoji": "🍄", "text": "I like mushrooms." },
+            { "emoji": "🍄", "text": "Mushrooms are good." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bell-pepper",
+      "image": "🫑",
+      "translations": {
+        "fr": {
+          "label": "Poivron",
+          "phrases": [
+            { "emoji": "🫑", "text": "Je mange un poivron." },
+            { "emoji": "🫑", "text": "Je veux un poivron." },
+            { "emoji": "🫑", "text": "J'aime les poivrons." },
+            { "emoji": "🫑", "text": "Le poivron est croquant." }
+          ]
+        },
+        "en": {
+          "label": "Bell Pepper",
+          "phrases": [
+            { "emoji": "🫑", "text": "I eat a bell pepper." },
+            { "emoji": "🫑", "text": "I want a bell pepper." },
+            { "emoji": "🫑", "text": "I like bell peppers." },
+            { "emoji": "🫑", "text": "The bell pepper is crunchy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "corn",
+      "image": "🌽",
+      "translations": {
+        "fr": {
+          "label": "Maïs",
+          "phrases": [
+            { "emoji": "🌽", "text": "Je mange du maïs." },
+            { "emoji": "🌽", "text": "Je veux du maïs." },
+            { "emoji": "🌽", "text": "J'aime le maïs." },
+            { "emoji": "🌽", "text": "Le maïs est sucré." }
+          ]
+        },
+        "en": {
+          "label": "Corn",
+          "phrases": [
+            { "emoji": "🌽", "text": "I eat corn." },
+            { "emoji": "🌽", "text": "I want corn." },
+            { "emoji": "🌽", "text": "I like corn." },
+            { "emoji": "🌽", "text": "Corn is sweet." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "broccoli",
+      "image": "🥦",
+      "translations": {
+        "fr": {
+          "label": "Brocoli",
+          "phrases": [
+            { "emoji": "🥦", "text": "Je mange du brocoli." },
+            { "emoji": "🥦", "text": "Je veux du brocoli." },
+            { "emoji": "🥦", "text": "J'aime le brocoli." },
+            { "emoji": "🥦", "text": "Le brocoli est vert." }
+          ]
+        },
+        "en": {
+          "label": "Broccoli",
+          "phrases": [
+            { "emoji": "🥦", "text": "I eat broccoli." },
+            { "emoji": "🥦", "text": "I want broccoli." },
+            { "emoji": "🥦", "text": "I like broccoli." },
+            { "emoji": "🥦", "text": "Broccoli is green." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "celery",
+      "image": "🥬",
+      "translations": {
+        "fr": {
+          "label": "Céleri",
+          "phrases": [
+            { "emoji": "🥬", "text": "Je mange du céleri." },
+            { "emoji": "🥬", "text": "Je veux du céleri." },
+            { "emoji": "🥬", "text": "J'aime le céleri." },
+            { "emoji": "🥬", "text": "Le céleri est croquant." }
+          ]
+        },
+        "en": {
+          "label": "Celery",
+          "phrases": [
+            { "emoji": "🥬", "text": "I eat celery." },
+            { "emoji": "🥬", "text": "I want celery." },
+            { "emoji": "🥬", "text": "I like celery." },
+            { "emoji": "🥬", "text": "Celery is crunchy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "chili-pepper",
+      "image": "🌶️",
+      "translations": {
+        "fr": {
+          "label": "Piment",
+          "phrases": [
+            { "emoji": "🌶️", "text": "Je mange du piment." },
+            { "emoji": "🌶️", "text": "Je veux du piment." },
+            { "emoji": "🔥", "text": "Le piment est piquant." },
+            { "emoji": "🌶️", "text": "J'aime le piment." }
+          ]
+        },
+        "en": {
+          "label": "Chili Pepper",
+          "phrases": [
+            { "emoji": "🌶️", "text": "I eat chili pepper." },
+            { "emoji": "🌶️", "text": "I want chili pepper." },
+            { "emoji": "🔥", "text": "Chili pepper is spicy." },
+            { "emoji": "🌶️", "text": "I like chili pepper." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "potato",
+      "image": "🥔",
+      "translations": {
+        "fr": {
+          "label": "Pomme de terre",
+          "phrases": [
+            { "emoji": "🥔", "text": "Je mange des pommes de terre." },
+            { "emoji": "🥔", "text": "Je veux des pommes de terre." },
+            { "emoji": "🥔", "text": "J'aime les pommes de terre." },
+            { "emoji": "🥔", "text": "Les pommes de terre sont bonnes." }
+          ]
+        },
+        "en": {
+          "label": "Potato",
+          "phrases": [
+            { "emoji": "🥔", "text": "I eat potatoes." },
+            { "emoji": "🥔", "text": "I want potatoes." },
+            { "emoji": "🥔", "text": "I like potatoes." },
+            { "emoji": "🥔", "text": "Potatoes are good." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "asparagus",
+      "image": "🥒",
+      "translations": {
+        "fr": {
+          "label": "Asperge",
+          "phrases": [
+            { "emoji": "🥒", "text": "Je mange des asperges." },
+            { "emoji": "🥒", "text": "Je veux des asperges." },
+            { "emoji": "🥒", "text": "J'aime les asperges." },
+            { "emoji": "🥒", "text": "Les asperges sont vertes." }
+          ]
+        },
+        "en": {
+          "label": "Asparagus",
+          "phrases": [
+            { "emoji": "🥒", "text": "I eat asparagus." },
+            { "emoji": "🥒", "text": "I want asparagus." },
+            { "emoji": "🥒", "text": "I like asparagus." },
+            { "emoji": "🥒", "text": "Asparagus is green." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cauliflower",
+      "image": "🥦",
+      "translations": {
+        "fr": {
+          "label": "Chou-fleur",
+          "phrases": [
+            { "emoji": "🥦", "text": "Je mange du chou-fleur." },
+            { "emoji": "🥦", "text": "Je veux du chou-fleur." },
+            { "emoji": "🥦", "text": "J'aime le chou-fleur." },
+            { "emoji": "🥦", "text": "Le chou-fleur est blanc." }
+          ]
+        },
+        "en": {
+          "label": "Cauliflower",
+          "phrases": [
+            { "emoji": "🥦", "text": "I eat cauliflower." },
+            { "emoji": "🥦", "text": "I want cauliflower." },
+            { "emoji": "🥦", "text": "I like cauliflower." },
+            { "emoji": "🥦", "text": "Cauliflower is white." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pumpkin",
+      "image": "🎃",
+      "translations": {
+        "fr": {
+          "label": "Citrouille",
+          "phrases": [
+            { "emoji": "🎃", "text": "Je mange de la citrouille." },
+            { "emoji": "🎃", "text": "Je veux de la citrouille." },
+            { "emoji": "🎃", "text": "J'aime la citrouille." },
+            { "emoji": "🎃", "text": "La citrouille est orange." }
+          ]
+        },
+        "en": {
+          "label": "Pumpkin",
+          "phrases": [
+            { "emoji": "🎃", "text": "I eat pumpkin." },
+            { "emoji": "🎃", "text": "I want pumpkin." },
+            { "emoji": "🎃", "text": "I like pumpkin." },
+            { "emoji": "🎃", "text": "The pumpkin is orange." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "beet",
+      "image": "🍠",
+      "translations": {
+        "fr": {
+          "label": "Betterave",
+          "phrases": [
+            { "emoji": "🍠", "text": "Je mange de la betterave." },
+            { "emoji": "🍠", "text": "Je veux de la betterave." },
+            { "emoji": "🍠", "text": "J'aime la betterave." },
+            { "emoji": "🍠", "text": "La betterave est rouge." }
+          ]
+        },
+        "en": {
+          "label": "Beet",
+          "phrases": [
+            { "emoji": "🍠", "text": "I eat beets." },
+            { "emoji": "🍠", "text": "I want beets." },
+            { "emoji": "🍠", "text": "I like beets." },
+            { "emoji": "🍠", "text": "Beets are red." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bean",
+      "image": "🫘",
+      "translations": {
+        "fr": {
+          "label": "Haricot",
+          "phrases": [
+            { "emoji": "🫘", "text": "Je mange des haricots." },
+            { "emoji": "🫘", "text": "Je veux des haricots." },
+            { "emoji": "🫘", "text": "J'aime les haricots." },
+            { "emoji": "🫘", "text": "Les haricots sont bons." }
+          ]
+        },
+        "en": {
+          "label": "Bean",
+          "phrases": [
+            { "emoji": "🫘", "text": "I eat beans." },
+            { "emoji": "🫘", "text": "I want beans." },
+            { "emoji": "🫘", "text": "I like beans." },
+            { "emoji": "🫘", "text": "Beans are good." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lettuce",
+      "image": "🥬",
+      "translations": {
+        "fr": {
+          "label": "Laitue",
+          "phrases": [
+            { "emoji": "🥬", "text": "Je mange de la laitue." },
+            { "emoji": "🥬", "text": "Je veux de la laitue." },
+            { "emoji": "🥬", "text": "J'aime la laitue." },
+            { "emoji": "🥬", "text": "La laitue est fraîche." }
+          ]
+        },
+        "en": {
+          "label": "Lettuce",
+          "phrases": [
+            { "emoji": "🥬", "text": "I eat lettuce." },
+            { "emoji": "🥬", "text": "I want lettuce." },
+            { "emoji": "🥬", "text": "I like lettuce." },
+            { "emoji": "🥬", "text": "Lettuce is fresh." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "radish",
+      "image": "🥕",
+      "translations": {
+        "fr": {
+          "label": "Radis",
+          "phrases": [
+            { "emoji": "🥕", "text": "Je mange des radis." },
+            { "emoji": "🥕", "text": "Je veux des radis." },
+            { "emoji": "🥕", "text": "J'aime les radis." },
+            { "emoji": "🥕", "text": "Les radis sont piquants." }
+          ]
+        },
+        "en": {
+          "label": "Radish",
+          "phrases": [
+            { "emoji": "🥕", "text": "I eat radishes." },
+            { "emoji": "🥕", "text": "I want radishes." },
+            { "emoji": "🥕", "text": "I like radishes." },
+            { "emoji": "🥕", "text": "Radishes are spicy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "leek",
+      "image": "🧅",
+      "translations": {
+        "fr": {
+          "label": "Poireau",
+          "phrases": [
+            { "emoji": "🧅", "text": "Je mange du poireau." },
+            { "emoji": "🧅", "text": "Je veux du poireau." },
+            { "emoji": "🧅", "text": "J'aime le poireau." },
+            { "emoji": "🧅", "text": "Le poireau est bon en soupe." }
+          ]
+        },
+        "en": {
+          "label": "Leek",
+          "phrases": [
+            { "emoji": "🧅", "text": "I eat leeks." },
+            { "emoji": "🧅", "text": "I want leeks." },
+            { "emoji": "🧅", "text": "I like leeks." },
+            { "emoji": "🧅", "text": "Leeks are good in soup." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pea",
+      "image": "🫛",
+      "translations": {
+        "fr": {
+          "label": "Petit pois",
+          "phrases": [
+            { "emoji": "🫛", "text": "Je mange des petits pois." },
+            { "emoji": "🫛", "text": "Je veux des petits pois." },
+            { "emoji": "🫛", "text": "J'aime les petits pois." },
+            { "emoji": "🫛", "text": "Les petits pois sont verts." }
+          ]
+        },
+        "en": {
+          "label": "Pea",
+          "phrases": [
+            { "emoji": "🫛", "text": "I eat peas." },
+            { "emoji": "🫛", "text": "I want peas." },
+            { "emoji": "🫛", "text": "I like peas." },
+            { "emoji": "🫛", "text": "Peas are green." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ginger",
+      "image": "🧄",
+      "translations": {
+        "fr": {
+          "label": "Gingembre",
+          "phrases": [
+            { "emoji": "🧄", "text": "J'utilise du gingembre." },
+            { "emoji": "🧄", "text": "Je veux du gingembre." },
+            { "emoji": "🧄", "text": "J'aime le gingembre." },
+            { "emoji": "🧄", "text": "Le gingembre est épicé." }
+          ]
+        },
+        "en": {
+          "label": "Ginger",
+          "phrases": [
+            { "emoji": "🧄", "text": "I use ginger." },
+            { "emoji": "🧄", "text": "I want ginger." },
+            { "emoji": "🧄", "text": "I like ginger." },
+            { "emoji": "🧄", "text": "Ginger is spicy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sweet-potato",
+      "image": "🍠",
+      "translations": {
+        "fr": {
+          "label": "Patate douce",
+          "phrases": [
+            { "emoji": "🍠", "text": "Je mange une patate douce." },
+            { "emoji": "🍠", "text": "Je veux une patate douce." },
+            { "emoji": "🍠", "text": "J'aime les patates douces." },
+            { "emoji": "🍠", "text": "La patate douce est sucrée." }
+          ]
+        },
+        "en": {
+          "label": "Sweet Potato",
+          "phrases": [
+            { "emoji": "🍠", "text": "I eat a sweet potato." },
+            { "emoji": "🍠", "text": "I want a sweet potato." },
+            { "emoji": "🍠", "text": "I like sweet potatoes." },
+            { "emoji": "🍠", "text": "Sweet potato is sweet." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "olives",
+      "image": "🫒",
+      "translations": {
+        "fr": {
+          "label": "Olives",
+          "phrases": [
+            { "emoji": "🫒", "text": "Je mange des olives." },
+            { "emoji": "🫒", "text": "Je veux des olives." },
+            { "emoji": "🫒", "text": "J'aime les olives." },
+            { "emoji": "🫒", "text": "Les olives sont salées." }
+          ]
+        },
+        "en": {
+          "label": "Olives",
+          "phrases": [
+            { "emoji": "🫒", "text": "I eat olives." },
+            { "emoji": "🫒", "text": "I want olives." },
+            { "emoji": "🫒", "text": "I like olives." },
+            { "emoji": "🫒", "text": "Olives are salty." }
+          ]
+        }
+      }
+    }
+  ]
+}

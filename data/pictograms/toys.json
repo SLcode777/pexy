@@ -1,0 +1,533 @@
+{
+  "category": "toys",
+  "pictograms": [
+    {
+      "id": "doll",
+      "image": "🪆",
+      "translations": {
+        "fr": {
+          "label": "Poupée",
+          "phrases": [
+            { "emoji": "🪆", "text": "Je joue avec ma poupée." },
+            { "emoji": "🪆", "text": "Je veux ma poupée." },
+            { "emoji": "🪆", "text": "J'aime ma poupée." },
+            { "emoji": "🪆", "text": "Ma poupée est jolie." }
+          ]
+        },
+        "en": {
+          "label": "Doll",
+          "phrases": [
+            { "emoji": "🪆", "text": "I play with my doll." },
+            { "emoji": "🪆", "text": "I want my doll." },
+            { "emoji": "🪆", "text": "I like my doll." },
+            { "emoji": "🪆", "text": "My doll is pretty." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "teddy-bear",
+      "image": "🧸",
+      "translations": {
+        "fr": {
+          "label": "Ours en peluche",
+          "phrases": [
+            { "emoji": "🧸", "text": "Je câline mon ours en peluche." },
+            { "emoji": "🧸", "text": "Je veux mon ours en peluche." },
+            { "emoji": "🧸", "text": "J'aime mon ours en peluche." },
+            { "emoji": "🧸", "text": "Mon ours est doux." }
+          ]
+        },
+        "en": {
+          "label": "Teddy Bear",
+          "phrases": [
+            { "emoji": "🧸", "text": "I hug my teddy bear." },
+            { "emoji": "🧸", "text": "I want my teddy bear." },
+            { "emoji": "🧸", "text": "I like my teddy bear." },
+            { "emoji": "🧸", "text": "My bear is soft." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "blocks",
+      "image": "🧱",
+      "translations": {
+        "fr": {
+          "label": "Blocs",
+          "phrases": [
+            { "emoji": "🧱", "text": "Je joue avec des blocs." },
+            { "emoji": "🧱", "text": "Je veux les blocs." },
+            { "emoji": "🏗️", "text": "Je construis avec des blocs." },
+            { "emoji": "🧱", "text": "J'aime empiler les blocs." }
+          ]
+        },
+        "en": {
+          "label": "Blocks",
+          "phrases": [
+            { "emoji": "🧱", "text": "I play with blocks." },
+            { "emoji": "🧱", "text": "I want the blocks." },
+            { "emoji": "🏗️", "text": "I build with blocks." },
+            { "emoji": "🧱", "text": "I like stacking blocks." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fidget-spinner",
+      "image": "💫",
+      "translations": {
+        "fr": {
+          "label": "Hand-Spinner",
+          "phrases": [
+            { "emoji": "💫", "text": "Je joue avec mon hand-spinner." },
+            { "emoji": "💫", "text": "Je veux mon hand-spinner." },
+            { "emoji": "💫", "text": "Mon hand-spinner tourne." },
+            { "emoji": "💫", "text": "J'aime mon hand-spinner." }
+          ]
+        },
+        "en": {
+          "label": "Fidget Spinner",
+          "phrases": [
+            { "emoji": "💫", "text": "I play with my fidget spinner." },
+            { "emoji": "💫", "text": "I want my fidget spinner." },
+            { "emoji": "💫", "text": "My fidget spinner spins." },
+            { "emoji": "💫", "text": "I like my fidget spinner." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "video-games-toy",
+      "image": "🎮",
+      "translations": {
+        "fr": {
+          "label": "Jeux vidéo",
+          "phrases": [
+            { "emoji": "🎮", "text": "Je joue aux jeux vidéo." },
+            { "emoji": "🎮", "text": "Je veux jouer aux jeux vidéo." },
+            { "emoji": "🎮", "text": "J'aime les jeux vidéo." },
+            { "emoji": "🎮", "text": "Les jeux vidéo sont amusants." }
+          ]
+        },
+        "en": {
+          "label": "Video Games",
+          "phrases": [
+            { "emoji": "🎮", "text": "I play video games." },
+            { "emoji": "🎮", "text": "I want to play video games." },
+            { "emoji": "🎮", "text": "I like video games." },
+            { "emoji": "🎮", "text": "Video games are fun." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cards",
+      "image": "🃏",
+      "translations": {
+        "fr": {
+          "label": "Cartes",
+          "phrases": [
+            { "emoji": "🃏", "text": "Je joue aux cartes." },
+            { "emoji": "🃏", "text": "Je veux les cartes." },
+            { "emoji": "🃏", "text": "J'aime jouer aux cartes." },
+            { "emoji": "🃏", "text": "Je mélange les cartes." }
+          ]
+        },
+        "en": {
+          "label": "Cards",
+          "phrases": [
+            { "emoji": "🃏", "text": "I play cards." },
+            { "emoji": "🃏", "text": "I want the cards." },
+            { "emoji": "🃏", "text": "I like playing cards." },
+            { "emoji": "🃏", "text": "I shuffle the cards." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toy-car",
+      "image": "🚗",
+      "translations": {
+        "fr": {
+          "label": "Petite voiture",
+          "phrases": [
+            { "emoji": "🚗", "text": "Je joue avec ma petite voiture." },
+            { "emoji": "🚗", "text": "Je veux ma petite voiture." },
+            { "emoji": "🚗", "text": "J'aime les petites voitures." },
+            { "emoji": "🚗", "text": "Ma voiture roule vite." }
+          ]
+        },
+        "en": {
+          "label": "Toy Car",
+          "phrases": [
+            { "emoji": "🚗", "text": "I play with my toy car." },
+            { "emoji": "🚗", "text": "I want my toy car." },
+            { "emoji": "🚗", "text": "I like toy cars." },
+            { "emoji": "🚗", "text": "My car drives fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sword",
+      "image": "🗡️",
+      "translations": {
+        "fr": {
+          "label": "Épée",
+          "phrases": [
+            { "emoji": "🗡️", "text": "Je joue avec mon épée." },
+            { "emoji": "🗡️", "text": "Je veux mon épée." },
+            { "emoji": "🗡️", "text": "J'aime jouer au chevalier." },
+            { "emoji": "🗡️", "text": "Je suis un chevalier." }
+          ]
+        },
+        "en": {
+          "label": "Sword",
+          "phrases": [
+            { "emoji": "🗡️", "text": "I play with my sword." },
+            { "emoji": "🗡️", "text": "I want my sword." },
+            { "emoji": "🗡️", "text": "I like playing knight." },
+            { "emoji": "🗡️", "text": "I'm a knight." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "yoyo",
+      "image": "🪀",
+      "translations": {
+        "fr": {
+          "label": "Yoyo",
+          "phrases": [
+            { "emoji": "🪀", "text": "Je joue avec mon yoyo." },
+            { "emoji": "🪀", "text": "Je veux mon yoyo." },
+            { "emoji": "🪀", "text": "J'aime mon yoyo." },
+            { "emoji": "🪀", "text": "Mon yoyo monte et descend." }
+          ]
+        },
+        "en": {
+          "label": "Yoyo",
+          "phrases": [
+            { "emoji": "🪀", "text": "I play with my yoyo." },
+            { "emoji": "🪀", "text": "I want my yoyo." },
+            { "emoji": "🪀", "text": "I like my yoyo." },
+            { "emoji": "🪀", "text": "My yoyo goes up and down." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "slingshot",
+      "image": "🏹",
+      "translations": {
+        "fr": {
+          "label": "Lance-pierre",
+          "phrases": [
+            { "emoji": "🏹", "text": "Je joue avec mon lance-pierre." },
+            { "emoji": "🏹", "text": "Je veux mon lance-pierre." },
+            { "emoji": "🎯", "text": "Je vise avec mon lance-pierre." },
+            { "emoji": "🏹", "text": "J'aime mon lance-pierre." }
+          ]
+        },
+        "en": {
+          "label": "Slingshot",
+          "phrases": [
+            { "emoji": "🏹", "text": "I play with my slingshot." },
+            { "emoji": "🏹", "text": "I want my slingshot." },
+            { "emoji": "🎯", "text": "I aim with my slingshot." },
+            { "emoji": "🏹", "text": "I like my slingshot." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "water-gun",
+      "image": "🔫",
+      "translations": {
+        "fr": {
+          "label": "Pistolet à eau",
+          "phrases": [
+            { "emoji": "🔫", "text": "Je joue avec mon pistolet à eau." },
+            { "emoji": "🔫", "text": "Je veux mon pistolet à eau." },
+            { "emoji": "💦", "text": "Mon pistolet à eau lance de l'eau." },
+            { "emoji": "🔫", "text": "J'aime mon pistolet à eau." }
+          ]
+        },
+        "en": {
+          "label": "Water Gun",
+          "phrases": [
+            { "emoji": "🔫", "text": "I play with my water gun." },
+            { "emoji": "🔫", "text": "I want my water gun." },
+            { "emoji": "💦", "text": "My water gun shoots water." },
+            { "emoji": "🔫", "text": "I like my water gun." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dollhouse",
+      "image": "🏠",
+      "translations": {
+        "fr": {
+          "label": "Maison de poupée",
+          "phrases": [
+            { "emoji": "🏠", "text": "Je joue avec ma maison de poupée." },
+            { "emoji": "🏠", "text": "Je veux ma maison de poupée." },
+            { "emoji": "🏠", "text": "J'aime ma maison de poupée." },
+            { "emoji": "🏠", "text": "Ma maison de poupée est belle." }
+          ]
+        },
+        "en": {
+          "label": "Dollhouse",
+          "phrases": [
+            { "emoji": "🏠", "text": "I play with my dollhouse." },
+            { "emoji": "🏠", "text": "I want my dollhouse." },
+            { "emoji": "🏠", "text": "I like my dollhouse." },
+            { "emoji": "🏠", "text": "My dollhouse is beautiful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "board-game",
+      "image": "🎲",
+      "translations": {
+        "fr": {
+          "label": "Jeu de plateau",
+          "phrases": [
+            { "emoji": "🎲", "text": "Je joue à un jeu de plateau." },
+            { "emoji": "🎲", "text": "Je veux jouer à un jeu de plateau." },
+            { "emoji": "🎲", "text": "J'aime les jeux de plateau." },
+            { "emoji": "🎲", "text": "Je lance les dés." }
+          ]
+        },
+        "en": {
+          "label": "Board Game",
+          "phrases": [
+            { "emoji": "🎲", "text": "I play a board game." },
+            { "emoji": "🎲", "text": "I want to play a board game." },
+            { "emoji": "🎲", "text": "I like board games." },
+            { "emoji": "🎲", "text": "I roll the dice." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rubiks-cube",
+      "image": "🧩",
+      "translations": {
+        "fr": {
+          "label": "Rubik's cube",
+          "phrases": [
+            { "emoji": "🧩", "text": "Je joue avec mon Rubik's cube." },
+            { "emoji": "🧩", "text": "Je veux mon Rubik's cube." },
+            { "emoji": "🧩", "text": "J'aime résoudre le Rubik's cube." },
+            { "emoji": "🧩", "text": "Le Rubik's cube est difficile." }
+          ]
+        },
+        "en": {
+          "label": "Rubik's Cube",
+          "phrases": [
+            { "emoji": "🧩", "text": "I play with my Rubik's cube." },
+            { "emoji": "🧩", "text": "I want my Rubik's cube." },
+            { "emoji": "🧩", "text": "I like solving the Rubik's cube." },
+            { "emoji": "🧩", "text": "The Rubik's cube is difficult." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "puzzle",
+      "image": "🧩",
+      "translations": {
+        "fr": {
+          "label": "Puzzle",
+          "phrases": [
+            { "emoji": "🧩", "text": "Je fais un puzzle." },
+            { "emoji": "🧩", "text": "Je veux faire un puzzle." },
+            { "emoji": "🧩", "text": "J'aime les puzzles." },
+            { "emoji": "🧩", "text": "Je cherche une pièce du puzzle." }
+          ]
+        },
+        "en": {
+          "label": "Puzzle",
+          "phrases": [
+            { "emoji": "🧩", "text": "I do a puzzle." },
+            { "emoji": "🧩", "text": "I want to do a puzzle." },
+            { "emoji": "🧩", "text": "I like puzzles." },
+            { "emoji": "🧩", "text": "I look for a puzzle piece." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rc-car",
+      "image": "🚙",
+      "translations": {
+        "fr": {
+          "label": "Voiture télécommandée",
+          "phrases": [
+            { "emoji": "🚙", "text": "Je joue avec ma voiture télécommandée." },
+            { "emoji": "🚙", "text": "Je veux ma voiture télécommandée." },
+            { "emoji": "📡", "text": "Je contrôle ma voiture à distance." },
+            { "emoji": "🚙", "text": "J'aime ma voiture télécommandée." }
+          ]
+        },
+        "en": {
+          "label": "RC Car",
+          "phrases": [
+            { "emoji": "🚙", "text": "I play with my RC car." },
+            { "emoji": "🚙", "text": "I want my RC car." },
+            { "emoji": "📡", "text": "I control my car remotely." },
+            { "emoji": "🚙", "text": "I like my RC car." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rocking-horse",
+      "image": "🎠",
+      "translations": {
+        "fr": {
+          "label": "Cheval à bascule",
+          "phrases": [
+            { "emoji": "🎠", "text": "Je joue sur mon cheval à bascule." },
+            { "emoji": "🎠", "text": "Je veux mon cheval à bascule." },
+            { "emoji": "🎠", "text": "Je me balance sur mon cheval." },
+            { "emoji": "🎠", "text": "J'aime mon cheval à bascule." }
+          ]
+        },
+        "en": {
+          "label": "Rocking Horse",
+          "phrases": [
+            { "emoji": "🎠", "text": "I play on my rocking horse." },
+            { "emoji": "🎠", "text": "I want my rocking horse." },
+            { "emoji": "🎠", "text": "I rock on my horse." },
+            { "emoji": "🎠", "text": "I like my rocking horse." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "scooter",
+      "image": "🛴",
+      "translations": {
+        "fr": {
+          "label": "Trotinette",
+          "phrases": [
+            { "emoji": "🛴", "text": "Je joue avec ma trotinette." },
+            { "emoji": "🛴", "text": "Je veux ma trotinette." },
+            { "emoji": "🛴", "text": "Je roule en trotinette." },
+            { "emoji": "🛴", "text": "J'aime ma trotinette." }
+          ]
+        },
+        "en": {
+          "label": "Scooter",
+          "phrases": [
+            { "emoji": "🛴", "text": "I play with my scooter." },
+            { "emoji": "🛴", "text": "I want my scooter." },
+            { "emoji": "🛴", "text": "I ride my scooter." },
+            { "emoji": "🛴", "text": "I like my scooter." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lego",
+      "image": "🧱",
+      "translations": {
+        "fr": {
+          "label": "Lego",
+          "phrases": [
+            { "emoji": "🧱", "text": "Je joue avec mes Lego." },
+            { "emoji": "🧱", "text": "Je veux mes Lego." },
+            { "emoji": "🏗️", "text": "Je construis avec des Lego." },
+            { "emoji": "🧱", "text": "J'aime les Lego." }
+          ]
+        },
+        "en": {
+          "label": "Lego",
+          "phrases": [
+            { "emoji": "🧱", "text": "I play with my Lego." },
+            { "emoji": "🧱", "text": "I want my Lego." },
+            { "emoji": "🏗️", "text": "I build with Lego." },
+            { "emoji": "🧱", "text": "I like Lego." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wagon",
+      "image": "🛒",
+      "translations": {
+        "fr": {
+          "label": "Chariot",
+          "phrases": [
+            { "emoji": "🛒", "text": "Je joue avec mon chariot." },
+            { "emoji": "🛒", "text": "Je veux mon chariot." },
+            { "emoji": "🛒", "text": "Je tire mon chariot." },
+            { "emoji": "🛒", "text": "J'aime mon chariot." }
+          ]
+        },
+        "en": {
+          "label": "Wagon",
+          "phrases": [
+            { "emoji": "🛒", "text": "I play with my wagon." },
+            { "emoji": "🛒", "text": "I want my wagon." },
+            { "emoji": "🛒", "text": "I pull my wagon." },
+            { "emoji": "🛒", "text": "I like my wagon." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toy-plane",
+      "image": "✈️",
+      "translations": {
+        "fr": {
+          "label": "Avion",
+          "phrases": [
+            { "emoji": "✈️", "text": "Je joue avec mon avion." },
+            { "emoji": "✈️", "text": "Je veux mon avion." },
+            { "emoji": "✈️", "text": "Mon avion vole." },
+            { "emoji": "✈️", "text": "J'aime les avions." }
+          ]
+        },
+        "en": {
+          "label": "Toy Plane",
+          "phrases": [
+            { "emoji": "✈️", "text": "I play with my plane." },
+            { "emoji": "✈️", "text": "I want my plane." },
+            { "emoji": "✈️", "text": "My plane flies." },
+            { "emoji": "✈️", "text": "I like planes." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sand-bucket",
+      "image": "🪣",
+      "translations": {
+        "fr": {
+          "label": "Seau à sable",
+          "phrases": [
+            { "emoji": "🪣", "text": "Je joue avec mon seau à sable." },
+            { "emoji": "🪣", "text": "Je veux mon seau à sable." },
+            { "emoji": "🏖️", "text": "Je remplis mon seau de sable." },
+            { "emoji": "🪣", "text": "J'aime jouer dans le sable." }
+          ]
+        },
+        "en": {
+          "label": "Sand Bucket",
+          "phrases": [
+            { "emoji": "🪣", "text": "I play with my sand bucket." },
+            { "emoji": "🪣", "text": "I want my sand bucket." },
+            { "emoji": "🏖️", "text": "I fill my bucket with sand." },
+            { "emoji": "🪣", "text": "I like playing in the sand." }
+          ]
+        }
+      }
+    }
+  ]
+}

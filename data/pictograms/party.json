@@ -1,0 +1,1060 @@
+{
+  "pictograms": [
+    {
+      "id": "birthday-cake",
+      "image": "🎂",
+      "translations": {
+        "fr": {
+          "label": "Gâteau d'anniversaire",
+          "phrases": [
+            { "emoji": "🎂", "text": "C'est mon anniversaire !" },
+            { "emoji": "🎂", "text": "Je souffle les bougies." },
+            { "emoji": "🎂", "text": "Le gâteau est délicieux." },
+            { "emoji": "🎂", "text": "Je fais un vœu." }
+          ]
+        },
+        "en": {
+          "label": "Birthday Cake",
+          "phrases": [
+            { "emoji": "🎂", "text": "It's my birthday!" },
+            { "emoji": "🎂", "text": "I blow out the candles." },
+            { "emoji": "🎂", "text": "The cake is delicious." },
+            { "emoji": "🎂", "text": "I make a wish." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "balloon",
+      "image": "🎈",
+      "translations": {
+        "fr": {
+          "label": "Ballon",
+          "phrases": [
+            { "emoji": "🎈", "text": "Je tiens un ballon." },
+            { "emoji": "🎈", "text": "Le ballon vole dans les airs." },
+            { "emoji": "🎈", "text": "Les ballons sont colorés." },
+            { "emoji": "🎈", "text": "Je veux un ballon." }
+          ]
+        },
+        "en": {
+          "label": "Balloon",
+          "phrases": [
+            { "emoji": "🎈", "text": "I hold a balloon." },
+            { "emoji": "🎈", "text": "The balloon flies in the air." },
+            { "emoji": "🎈", "text": "The balloons are colorful." },
+            { "emoji": "🎈", "text": "I want a balloon." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gift",
+      "image": "🎁",
+      "translations": {
+        "fr": {
+          "label": "Cadeau",
+          "phrases": [
+            { "emoji": "🎁", "text": "J'ouvre mon cadeau." },
+            { "emoji": "🎁", "text": "Je reçois un cadeau." },
+            { "emoji": "🎁", "text": "Je donne un cadeau." },
+            { "emoji": "🎁", "text": "Le cadeau est emballé." }
+          ]
+        },
+        "en": {
+          "label": "Gift",
+          "phrases": [
+            { "emoji": "🎁", "text": "I open my gift." },
+            { "emoji": "🎁", "text": "I receive a gift." },
+            { "emoji": "🎁", "text": "I give a gift." },
+            { "emoji": "🎁", "text": "The gift is wrapped." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "party-popper",
+      "image": "🎉",
+      "translations": {
+        "fr": {
+          "label": "Cotillon",
+          "phrases": [
+            { "emoji": "🎉", "text": "On fait la fête !" },
+            { "emoji": "🎉", "text": "C'est une célébration." },
+            { "emoji": "🎉", "text": "Je tire le cotillon." },
+            { "emoji": "🎉", "text": "Quelle belle fête !" }
+          ]
+        },
+        "en": {
+          "label": "Party Popper",
+          "phrases": [
+            { "emoji": "🎉", "text": "We're celebrating!" },
+            { "emoji": "🎉", "text": "It's a celebration." },
+            { "emoji": "🎉", "text": "I pull the party popper." },
+            { "emoji": "🎉", "text": "What a great party!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "confetti",
+      "image": "🎊",
+      "translations": {
+        "fr": {
+          "label": "Confettis",
+          "phrases": [
+            { "emoji": "🎊", "text": "Les confettis tombent partout." },
+            { "emoji": "🎊", "text": "Je lance des confettis." },
+            { "emoji": "🎊", "text": "Les confettis sont colorés." },
+            { "emoji": "🎊", "text": "C'est la fête !" }
+          ]
+        },
+        "en": {
+          "label": "Confetti",
+          "phrases": [
+            { "emoji": "🎊", "text": "Confetti falls everywhere." },
+            { "emoji": "🎊", "text": "I throw confetti." },
+            { "emoji": "🎊", "text": "The confetti is colorful." },
+            { "emoji": "🎊", "text": "It's party time!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "candle",
+      "image": "🕯️",
+      "translations": {
+        "fr": {
+          "label": "Bougie",
+          "phrases": [
+            { "emoji": "🕯️", "text": "Je souffle la bougie." },
+            { "emoji": "🕯️", "text": "La bougie brille." },
+            { "emoji": "🕯️", "text": "J'allume les bougies." },
+            { "emoji": "🕯️", "text": "Il y a des bougies sur le gâteau." }
+          ]
+        },
+        "en": {
+          "label": "Candle",
+          "phrases": [
+            { "emoji": "🕯️", "text": "I blow out the candle." },
+            { "emoji": "🕯️", "text": "The candle shines." },
+            { "emoji": "🕯️", "text": "I light the candles." },
+            { "emoji": "🕯️", "text": "There are candles on the cake." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cupcake",
+      "image": "🧁",
+      "translations": {
+        "fr": {
+          "label": "Cupcake",
+          "phrases": [
+            { "emoji": "🧁", "text": "Je mange un cupcake." },
+            { "emoji": "🧁", "text": "Le cupcake est décoré." },
+            { "emoji": "🧁", "text": "Le cupcake est sucré." },
+            { "emoji": "🧁", "text": "J'aime les cupcakes." }
+          ]
+        },
+        "en": {
+          "label": "Cupcake",
+          "phrases": [
+            { "emoji": "🧁", "text": "I eat a cupcake." },
+            { "emoji": "🧁", "text": "The cupcake is decorated." },
+            { "emoji": "🧁", "text": "The cupcake is sweet." },
+            { "emoji": "🧁", "text": "I like cupcakes." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "party-hat",
+      "image": "🎩",
+      "translations": {
+        "fr": {
+          "label": "Chapeau de fête",
+          "phrases": [
+            { "emoji": "🎩", "text": "Je porte un chapeau de fête." },
+            { "emoji": "🎩", "text": "Mon chapeau est joli." },
+            { "emoji": "🎩", "text": "Tout le monde porte un chapeau." },
+            { "emoji": "🎩", "text": "Le chapeau est pointu." }
+          ]
+        },
+        "en": {
+          "label": "Party Hat",
+          "phrases": [
+            { "emoji": "🎩", "text": "I wear a party hat." },
+            { "emoji": "🎩", "text": "My hat is nice." },
+            { "emoji": "🎩", "text": "Everyone wears a hat." },
+            { "emoji": "🎩", "text": "The hat is pointy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "champagne-glasses",
+      "image": "🥂",
+      "translations": {
+        "fr": {
+          "label": "Toast",
+          "phrases": [
+            { "emoji": "🥂", "text": "On fait un toast !" },
+            { "emoji": "🥂", "text": "On trinque ensemble." },
+            { "emoji": "🥂", "text": "Santé !" },
+            { "emoji": "🥂", "text": "On célèbre !" }
+          ]
+        },
+        "en": {
+          "label": "Toast",
+          "phrases": [
+            { "emoji": "🥂", "text": "We make a toast!" },
+            { "emoji": "🥂", "text": "We clink glasses together." },
+            { "emoji": "🥂", "text": "Cheers!" },
+            { "emoji": "🥂", "text": "We celebrate!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "music",
+      "image": "🎵",
+      "translations": {
+        "fr": {
+          "label": "Musique",
+          "phrases": [
+            { "emoji": "🎵", "text": "Il y a de la musique." },
+            { "emoji": "🎵", "text": "J'écoute la musique." },
+            { "emoji": "🎵", "text": "La musique est joyeuse." },
+            { "emoji": "🎵", "text": "Je danse sur la musique." }
+          ]
+        },
+        "en": {
+          "label": "Music",
+          "phrases": [
+            { "emoji": "🎵", "text": "There is music." },
+            { "emoji": "🎵", "text": "I listen to music." },
+            { "emoji": "🎵", "text": "The music is joyful." },
+            { "emoji": "🎵", "text": "I dance to the music." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dancing",
+      "image": "💃",
+      "translations": {
+        "fr": {
+          "label": "Danser",
+          "phrases": [
+            { "emoji": "💃", "text": "Je danse à la fête." },
+            { "emoji": "💃", "text": "J'aime danser." },
+            { "emoji": "💃", "text": "On danse ensemble." },
+            { "emoji": "💃", "text": "La danse est amusante." }
+          ]
+        },
+        "en": {
+          "label": "Dancing",
+          "phrases": [
+            { "emoji": "💃", "text": "I dance at the party." },
+            { "emoji": "💃", "text": "I like to dance." },
+            { "emoji": "💃", "text": "We dance together." },
+            { "emoji": "💃", "text": "Dancing is fun." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "party-face",
+      "image": "🥳",
+      "translations": {
+        "fr": {
+          "label": "Faire la fête",
+          "phrases": [
+            { "emoji": "🥳", "text": "Je fais la fête !" },
+            { "emoji": "🥳", "text": "Je suis content de faire la fête." },
+            { "emoji": "🥳", "text": "C'est l'heure de la fête !" },
+            { "emoji": "🥳", "text": "Je m'amuse beaucoup." }
+          ]
+        },
+        "en": {
+          "label": "Partying",
+          "phrases": [
+            { "emoji": "🥳", "text": "I'm partying!" },
+            { "emoji": "🥳", "text": "I'm happy to party." },
+            { "emoji": "🥳", "text": "It's party time!" },
+            { "emoji": "🥳", "text": "I'm having so much fun." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fireworks",
+      "image": "🎆",
+      "translations": {
+        "fr": {
+          "label": "Feu d'artifice",
+          "phrases": [
+            { "emoji": "🎆", "text": "Je regarde le feu d'artifice." },
+            { "emoji": "🎆", "text": "Le feu d'artifice est magnifique." },
+            { "emoji": "🎆", "text": "Le feu d'artifice éclate dans le ciel." },
+            { "emoji": "🎆", "text": "Les couleurs sont belles." }
+          ]
+        },
+        "en": {
+          "label": "Fireworks",
+          "phrases": [
+            { "emoji": "🎆", "text": "I watch the fireworks." },
+            { "emoji": "🎆", "text": "The fireworks are beautiful." },
+            { "emoji": "🎆", "text": "The fireworks burst in the sky." },
+            { "emoji": "🎆", "text": "The colors are beautiful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sparkler",
+      "image": "🎇",
+      "translations": {
+        "fr": {
+          "label": "Cierge magique",
+          "phrases": [
+            { "emoji": "🎇", "text": "Je tiens un cierge magique." },
+            { "emoji": "🎇", "text": "Le cierge magique brille." },
+            { "emoji": "🎇", "text": "Le cierge magique fait des étincelles." },
+            { "emoji": "🎇", "text": "C'est magique !" }
+          ]
+        },
+        "en": {
+          "label": "Sparkler",
+          "phrases": [
+            { "emoji": "🎇", "text": "I hold a sparkler." },
+            { "emoji": "🎇", "text": "The sparkler shines." },
+            { "emoji": "🎇", "text": "The sparkler makes sparks." },
+            { "emoji": "🎇", "text": "It's magical!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ribbon",
+      "image": "🎀",
+      "translations": {
+        "fr": {
+          "label": "Ruban",
+          "phrases": [
+            { "emoji": "🎀", "text": "Le cadeau a un ruban." },
+            { "emoji": "🎀", "text": "Le ruban est joli." },
+            { "emoji": "🎀", "text": "Je fais un nœud avec le ruban." },
+            { "emoji": "🎀", "text": "Le ruban est rose." }
+          ]
+        },
+        "en": {
+          "label": "Ribbon",
+          "phrases": [
+            { "emoji": "🎀", "text": "The gift has a ribbon." },
+            { "emoji": "🎀", "text": "The ribbon is pretty." },
+            { "emoji": "🎀", "text": "I make a bow with the ribbon." },
+            { "emoji": "🎀", "text": "The ribbon is pink." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "graduation",
+      "image": "🎓",
+      "translations": {
+        "fr": {
+          "label": "Remise des diplômes",
+          "phrases": [
+            { "emoji": "🎓", "text": "C'est ma remise des diplômes." },
+            { "emoji": "🎓", "text": "Je porte une toque." },
+            { "emoji": "🎓", "text": "Je célèbre ma réussite." },
+            { "emoji": "🎓", "text": "Je suis diplômé !" }
+          ]
+        },
+        "en": {
+          "label": "Graduation",
+          "phrases": [
+            { "emoji": "🎓", "text": "It's my graduation." },
+            { "emoji": "🎓", "text": "I wear a cap." },
+            { "emoji": "🎓", "text": "I celebrate my success." },
+            { "emoji": "🎓", "text": "I graduated!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "clapping",
+      "image": "👏",
+      "translations": {
+        "fr": {
+          "label": "Applaudir",
+          "phrases": [
+            { "emoji": "👏", "text": "J'applaudis." },
+            { "emoji": "👏", "text": "Bravo !" },
+            { "emoji": "👏", "text": "Félicitations !" },
+            { "emoji": "👏", "text": "Tout le monde applaudit." }
+          ]
+        },
+        "en": {
+          "label": "Clapping",
+          "phrases": [
+            { "emoji": "👏", "text": "I clap." },
+            { "emoji": "👏", "text": "Bravo!" },
+            { "emoji": "👏", "text": "Congratulations!" },
+            { "emoji": "👏", "text": "Everyone is clapping." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "disco-ball",
+      "image": "🪩",
+      "translations": {
+        "fr": {
+          "label": "Boule disco",
+          "phrases": [
+            { "emoji": "🪩", "text": "La boule disco tourne." },
+            { "emoji": "🪩", "text": "La boule disco brille." },
+            { "emoji": "🪩", "text": "C'est une disco !" },
+            { "emoji": "🪩", "text": "Les lumières dansent." }
+          ]
+        },
+        "en": {
+          "label": "Disco Ball",
+          "phrases": [
+            { "emoji": "🪩", "text": "The disco ball spins." },
+            { "emoji": "🪩", "text": "The disco ball shines." },
+            { "emoji": "🪩", "text": "It's a disco!" },
+            { "emoji": "🪩", "text": "The lights dance." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wrapped-gift",
+      "image": "🎁",
+      "translations": {
+        "fr": {
+          "label": "Cadeau emballé",
+          "phrases": [
+            { "emoji": "🎁", "text": "Le cadeau est bien emballé." },
+            { "emoji": "🎁", "text": "Je veux ouvrir le cadeau." },
+            { "emoji": "🎁", "text": "Qu'y a-t-il dans le cadeau ?" },
+            { "emoji": "🎁", "text": "C'est une surprise !" }
+          ]
+        },
+        "en": {
+          "label": "Wrapped Gift",
+          "phrases": [
+            { "emoji": "🎁", "text": "The gift is well wrapped." },
+            { "emoji": "🎁", "text": "I want to open the gift." },
+            { "emoji": "🎁", "text": "What's in the gift?" },
+            { "emoji": "🎁", "text": "It's a surprise!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cake-with-candles",
+      "image": "🎂",
+      "translations": {
+        "fr": {
+          "label": "Gâteau avec bougies",
+          "phrases": [
+            { "emoji": "🎂", "text": "Le gâteau a des bougies." },
+            { "emoji": "🎂", "text": "Je compte les bougies." },
+            { "emoji": "🎂", "text": "Je souffle toutes les bougies." },
+            { "emoji": "🎂", "text": "J'ai un an de plus !" }
+          ]
+        },
+        "en": {
+          "label": "Cake with Candles",
+          "phrases": [
+            { "emoji": "🎂", "text": "The cake has candles." },
+            { "emoji": "🎂", "text": "I count the candles." },
+            { "emoji": "🎂", "text": "I blow out all the candles." },
+            { "emoji": "🎂", "text": "I'm one year older!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "champagne-bottle",
+      "image": "🍾",
+      "translations": {
+        "fr": {
+          "label": "Bouteille de champagne",
+          "phrases": [
+            { "emoji": "🍾", "text": "On ouvre la bouteille." },
+            { "emoji": "🍾", "text": "Le bouchon saute !" },
+            { "emoji": "🍾", "text": "On célèbre avec du champagne." },
+            { "emoji": "🍾", "text": "Pop !" }
+          ]
+        },
+        "en": {
+          "label": "Champagne Bottle",
+          "phrases": [
+            { "emoji": "🍾", "text": "We open the bottle." },
+            { "emoji": "🍾", "text": "The cork pops!" },
+            { "emoji": "🍾", "text": "We celebrate with champagne." },
+            { "emoji": "🍾", "text": "Pop!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "party-horn",
+      "image": "📯",
+      "translations": {
+        "fr": {
+          "label": "Trompette de fête",
+          "phrases": [
+            { "emoji": "📯", "text": "Je souffle dans la trompette." },
+            { "emoji": "📯", "text": "La trompette fait du bruit." },
+            { "emoji": "📯", "text": "Tut tut !" },
+            { "emoji": "📯", "text": "C'est bruyant et joyeux." }
+          ]
+        },
+        "en": {
+          "label": "Party Horn",
+          "phrases": [
+            { "emoji": "📯", "text": "I blow the horn." },
+            { "emoji": "📯", "text": "The horn makes noise." },
+            { "emoji": "📯", "text": "Toot toot!" },
+            { "emoji": "📯", "text": "It's loud and joyful." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "streamers",
+      "image": "🎊",
+      "translations": {
+        "fr": {
+          "label": "Serpentins",
+          "phrases": [
+            { "emoji": "🎊", "text": "Les serpentins tombent." },
+            { "emoji": "🎊", "text": "Je lance des serpentins." },
+            { "emoji": "🎊", "text": "Les serpentins sont colorés." },
+            { "emoji": "🎊", "text": "C'est festif !" }
+          ]
+        },
+        "en": {
+          "label": "Streamers",
+          "phrases": [
+            { "emoji": "🎊", "text": "The streamers fall." },
+            { "emoji": "🎊", "text": "I throw streamers." },
+            { "emoji": "🎊", "text": "The streamers are colorful." },
+            { "emoji": "🎊", "text": "It's festive!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ring",
+      "image": "💍",
+      "translations": {
+        "fr": {
+          "label": "Bague",
+          "phrases": [
+            { "emoji": "💍", "text": "C'est un mariage !" },
+            { "emoji": "💍", "text": "La bague brille." },
+            { "emoji": "💍", "text": "On se marie." },
+            { "emoji": "💍", "text": "C'est romantique." }
+          ]
+        },
+        "en": {
+          "label": "Ring",
+          "phrases": [
+            { "emoji": "💍", "text": "It's a wedding!" },
+            { "emoji": "💍", "text": "The ring shines." },
+            { "emoji": "💍", "text": "We're getting married." },
+            { "emoji": "💍", "text": "It's romantic." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "trophy",
+      "image": "🏆",
+      "translations": {
+        "fr": {
+          "label": "Trophée",
+          "phrases": [
+            { "emoji": "🏆", "text": "J'ai gagné un trophée !" },
+            { "emoji": "🏆", "text": "Je célèbre ma victoire." },
+            { "emoji": "🏆", "text": "Le trophée est en or." },
+            { "emoji": "🏆", "text": "Je suis le champion !" }
+          ]
+        },
+        "en": {
+          "label": "Trophy",
+          "phrases": [
+            { "emoji": "🏆", "text": "I won a trophy!" },
+            { "emoji": "🏆", "text": "I celebrate my victory." },
+            { "emoji": "🏆", "text": "The trophy is gold." },
+            { "emoji": "🏆", "text": "I'm the champion!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "medal",
+      "image": "🥇",
+      "translations": {
+        "fr": {
+          "label": "Médaille",
+          "phrases": [
+            { "emoji": "🥇", "text": "J'ai gagné une médaille !" },
+            { "emoji": "🥇", "text": "Je porte ma médaille." },
+            { "emoji": "🥇", "text": "C'est une médaille d'or." },
+            { "emoji": "🥇", "text": "Je suis fier de moi." }
+          ]
+        },
+        "en": {
+          "label": "Medal",
+          "phrases": [
+            { "emoji": "🥇", "text": "I won a medal!" },
+            { "emoji": "🥇", "text": "I wear my medal." },
+            { "emoji": "🥇", "text": "It's a gold medal." },
+            { "emoji": "🥇", "text": "I'm proud of myself." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "whistle",
+      "image": "🔔",
+      "translations": {
+        "fr": {
+          "label": "Sifflet",
+          "phrases": [
+            { "emoji": "🔔", "text": "Je souffle dans le sifflet." },
+            { "emoji": "🔔", "text": "Le sifflet fait du bruit." },
+            { "emoji": "🔔", "text": "Tout le monde m'entend." },
+            { "emoji": "🔔", "text": "C'est le signal de la fête !" }
+          ]
+        },
+        "en": {
+          "label": "Whistle",
+          "phrases": [
+            { "emoji": "🔔", "text": "I blow the whistle." },
+            { "emoji": "🔔", "text": "The whistle makes noise." },
+            { "emoji": "🔔", "text": "Everyone hears me." },
+            { "emoji": "🔔", "text": "It's the party signal!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "garland",
+      "image": "🎗️",
+      "translations": {
+        "fr": {
+          "label": "Guirlandes",
+          "phrases": [
+            { "emoji": "🎗️", "text": "J'accroche les guirlandes." },
+            { "emoji": "🎗️", "text": "Les guirlandes décorent la salle." },
+            { "emoji": "🎗️", "text": "Les guirlandes sont colorées." },
+            { "emoji": "🎗️", "text": "C'est joli avec les guirlandes." }
+          ]
+        },
+        "en": {
+          "label": "Garland",
+          "phrases": [
+            { "emoji": "🎗️", "text": "I hang the garlands." },
+            { "emoji": "🎗️", "text": "The garlands decorate the room." },
+            { "emoji": "🎗️", "text": "The garlands are colorful." },
+            { "emoji": "🎗️", "text": "It's pretty with the garlands." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "microphone",
+      "image": "🎤",
+      "translations": {
+        "fr": {
+          "label": "Microphone",
+          "phrases": [
+            { "emoji": "🎤", "text": "Je parle dans le microphone." },
+            { "emoji": "🎤", "text": "Je chante avec le microphone." },
+            { "emoji": "🎤", "text": "Le microphone amplifie ma voix." },
+            { "emoji": "🎤", "text": "C'est mon tour de chanter !" }
+          ]
+        },
+        "en": {
+          "label": "Microphone",
+          "phrases": [
+            { "emoji": "🎤", "text": "I speak into the microphone." },
+            { "emoji": "🎤", "text": "I sing with the microphone." },
+            { "emoji": "🎤", "text": "The microphone amplifies my voice." },
+            { "emoji": "🎤", "text": "It's my turn to sing!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "magician",
+      "image": "🎩",
+      "translations": {
+        "fr": {
+          "label": "Magicien",
+          "phrases": [
+            { "emoji": "🎩", "text": "Le magicien fait un tour." },
+            { "emoji": "🎩", "text": "C'est magique !" },
+            { "emoji": "🎩", "text": "Le magicien sort un lapin." },
+            { "emoji": "🎩", "text": "J'aime les tours de magie." }
+          ]
+        },
+        "en": {
+          "label": "Magician",
+          "phrases": [
+            { "emoji": "🎩", "text": "The magician does a trick." },
+            { "emoji": "🎩", "text": "It's magic!" },
+            { "emoji": "🎩", "text": "The magician pulls out a rabbit." },
+            { "emoji": "🎩", "text": "I love magic tricks." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "take-photos",
+      "image": "📸",
+      "translations": {
+        "fr": {
+          "label": "Prendre des photos",
+          "phrases": [
+            { "emoji": "📸", "text": "Je prends des photos." },
+            { "emoji": "📸", "text": "Souriez pour la photo !" },
+            { "emoji": "📸", "text": "Les photos sont des souvenirs." },
+            { "emoji": "📸", "text": "On fait une photo de groupe." }
+          ]
+        },
+        "en": {
+          "label": "Take Photos",
+          "phrases": [
+            { "emoji": "📸", "text": "I take photos." },
+            { "emoji": "📸", "text": "Smile for the photo!" },
+            { "emoji": "📸", "text": "Photos are memories." },
+            { "emoji": "📸", "text": "We take a group photo." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "invitations",
+      "image": "💌",
+      "translations": {
+        "fr": {
+          "label": "Invitations",
+          "phrases": [
+            { "emoji": "💌", "text": "J'envoie les invitations." },
+            { "emoji": "💌", "text": "J'ai reçu une invitation." },
+            { "emoji": "💌", "text": "L'invitation est jolie." },
+            { "emoji": "💌", "text": "Je suis invité à la fête !" }
+          ]
+        },
+        "en": {
+          "label": "Invitations",
+          "phrases": [
+            { "emoji": "💌", "text": "I send the invitations." },
+            { "emoji": "💌", "text": "I received an invitation." },
+            { "emoji": "💌", "text": "The invitation is pretty." },
+            { "emoji": "💌", "text": "I'm invited to the party!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "candy",
+      "image": "🍬",
+      "translations": {
+        "fr": {
+          "label": "Bonbons",
+          "phrases": [
+            { "emoji": "🍬", "text": "Je mange des bonbons." },
+            { "emoji": "🍬", "text": "Les bonbons sont sucrés." },
+            { "emoji": "🍬", "text": "Il y a beaucoup de bonbons." },
+            { "emoji": "🍬", "text": "J'aime les bonbons." }
+          ]
+        },
+        "en": {
+          "label": "Candy",
+          "phrases": [
+            { "emoji": "🍬", "text": "I eat candy." },
+            { "emoji": "🍬", "text": "The candy is sweet." },
+            { "emoji": "🍬", "text": "There is a lot of candy." },
+            { "emoji": "🍬", "text": "I like candy." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ice-cream",
+      "image": "🍦",
+      "translations": {
+        "fr": {
+          "label": "Glace",
+          "phrases": [
+            { "emoji": "🍦", "text": "Je mange une glace." },
+            { "emoji": "🍦", "text": "La glace est froide." },
+            { "emoji": "🍦", "text": "La glace fond." },
+            { "emoji": "🍦", "text": "J'aime la glace à la vanille." }
+          ]
+        },
+        "en": {
+          "label": "Ice Cream",
+          "phrases": [
+            { "emoji": "🍦", "text": "I eat ice cream." },
+            { "emoji": "🍦", "text": "The ice cream is cold." },
+            { "emoji": "🍦", "text": "The ice cream melts." },
+            { "emoji": "🍦", "text": "I like vanilla ice cream." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "small-cakes",
+      "image": "🧁",
+      "translations": {
+        "fr": {
+          "label": "Petits gâteaux",
+          "phrases": [
+            { "emoji": "🧁", "text": "Je mange un petit gâteau." },
+            { "emoji": "🧁", "text": "Les petits gâteaux sont décorés." },
+            { "emoji": "🧁", "text": "Il y a un glaçage sur le gâteau." },
+            { "emoji": "🧁", "text": "Les petits gâteaux sont délicieux." }
+          ]
+        },
+        "en": {
+          "label": "Small Cakes",
+          "phrases": [
+            { "emoji": "🧁", "text": "I eat a small cake." },
+            { "emoji": "🧁", "text": "The small cakes are decorated." },
+            { "emoji": "🧁", "text": "There is frosting on the cake." },
+            { "emoji": "🧁", "text": "The small cakes are delicious." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "costume",
+      "image": "🎭",
+      "translations": {
+        "fr": {
+          "label": "Costume",
+          "phrases": [
+            { "emoji": "🎭", "text": "Je porte un costume." },
+            { "emoji": "🎭", "text": "Mon costume est original." },
+            { "emoji": "🎭", "text": "C'est une fête costumée." },
+            { "emoji": "🎭", "text": "Je me déguise." }
+          ]
+        },
+        "en": {
+          "label": "Costume",
+          "phrases": [
+            { "emoji": "🎭", "text": "I wear a costume." },
+            { "emoji": "🎭", "text": "My costume is original." },
+            { "emoji": "🎭", "text": "It's a costume party." },
+            { "emoji": "🎭", "text": "I dress up." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "party-glasses",
+      "image": "🕶️",
+      "translations": {
+        "fr": {
+          "label": "Lunettes de fête",
+          "phrases": [
+            { "emoji": "🕶️", "text": "Je porte des lunettes de fête." },
+            { "emoji": "🕶️", "text": "Les lunettes sont rigolotes." },
+            { "emoji": "🕶️", "text": "Tout le monde a des lunettes." },
+            { "emoji": "🕶️", "text": "C'est amusant !" }
+          ]
+        },
+        "en": {
+          "label": "Party Glasses",
+          "phrases": [
+            { "emoji": "🕶️", "text": "I wear party glasses." },
+            { "emoji": "🕶️", "text": "The glasses are funny." },
+            { "emoji": "🕶️", "text": "Everyone has glasses." },
+            { "emoji": "🕶️", "text": "It's fun!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "spotlights",
+      "image": "💡",
+      "translations": {
+        "fr": {
+          "label": "Spots",
+          "phrases": [
+            { "emoji": "💡", "text": "Les spots éclairent la scène." },
+            { "emoji": "💡", "text": "Les lumières brillent." },
+            { "emoji": "💡", "text": "C'est bien éclairé." },
+            { "emoji": "💡", "text": "Les spots changent de couleur." }
+          ]
+        },
+        "en": {
+          "label": "Spotlights",
+          "phrases": [
+            { "emoji": "💡", "text": "The spotlights light up the stage." },
+            { "emoji": "💡", "text": "The lights shine." },
+            { "emoji": "💡", "text": "It's well lit." },
+            { "emoji": "💡", "text": "The spotlights change color." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "marshmallow",
+      "image": "🍡",
+      "translations": {
+        "fr": {
+          "label": "Guimauve",
+          "phrases": [
+            { "emoji": "🍡", "text": "Je mange une guimauve." },
+            { "emoji": "🍡", "text": "La guimauve est moelleuse." },
+            { "emoji": "🍡", "text": "J'aime griller les guimauves." },
+            { "emoji": "🍡", "text": "Les guimauves sont sucrées." }
+          ]
+        },
+        "en": {
+          "label": "Marshmallow",
+          "phrases": [
+            { "emoji": "🍡", "text": "I eat a marshmallow." },
+            { "emoji": "🍡", "text": "The marshmallow is soft." },
+            { "emoji": "🍡", "text": "I like to roast marshmallows." },
+            { "emoji": "🍡", "text": "Marshmallows are sweet." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "guacamole",
+      "image": "🥑",
+      "translations": {
+        "fr": {
+          "label": "Guacamole",
+          "phrases": [
+            { "emoji": "🥑", "text": "Je mange du guacamole." },
+            { "emoji": "🥑", "text": "Le guacamole est avec les chips." },
+            { "emoji": "🥑", "text": "Le guacamole est fait d'avocat." },
+            { "emoji": "🥑", "text": "J'aime le guacamole." }
+          ]
+        },
+        "en": {
+          "label": "Guacamole",
+          "phrases": [
+            { "emoji": "🥑", "text": "I eat guacamole." },
+            { "emoji": "🥑", "text": "The guacamole is with chips." },
+            { "emoji": "🥑", "text": "Guacamole is made from avocado." },
+            { "emoji": "🥑", "text": "I like guacamole." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bouncy-castle",
+      "image": "🏰",
+      "translations": {
+        "fr": {
+          "label": "Château gonflable",
+          "phrases": [
+            { "emoji": "🏰", "text": "Je saute dans le château gonflable." },
+            { "emoji": "🏰", "text": "Le château gonflable est grand." },
+            { "emoji": "🏰", "text": "C'est amusant de rebondir." },
+            { "emoji": "🏰", "text": "Tout le monde joue dans le château." }
+          ]
+        },
+        "en": {
+          "label": "Bouncy Castle",
+          "phrases": [
+            { "emoji": "🏰", "text": "I jump in the bouncy castle." },
+            { "emoji": "🏰", "text": "The bouncy castle is big." },
+            { "emoji": "🏰", "text": "It's fun to bounce." },
+            { "emoji": "🏰", "text": "Everyone plays in the castle." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "clown",
+      "image": "🤡",
+      "translations": {
+        "fr": {
+          "label": "Clown",
+          "phrases": [
+            { "emoji": "🤡", "text": "Le clown est drôle." },
+            { "emoji": "🤡", "text": "Le clown fait rire." },
+            { "emoji": "🤡", "text": "Le clown jongle." },
+            { "emoji": "🤡", "text": "J'aime regarder le clown." }
+          ]
+        },
+        "en": {
+          "label": "Clown",
+          "phrases": [
+            { "emoji": "🤡", "text": "The clown is funny." },
+            { "emoji": "🤡", "text": "The clown makes people laugh." },
+            { "emoji": "🤡", "text": "The clown juggles." },
+            { "emoji": "🤡", "text": "I like watching the clown." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "wizard-hat",
+      "image": "🧙",
+      "translations": {
+        "fr": {
+          "label": "Chapeau de magicien",
+          "phrases": [
+            { "emoji": "🧙", "text": "Je porte un chapeau de magicien." },
+            { "emoji": "🧙", "text": "Le chapeau est pointu." },
+            { "emoji": "🧙", "text": "Il y a des étoiles sur le chapeau." },
+            { "emoji": "🧙", "text": "Je me transforme en magicien." }
+          ]
+        },
+        "en": {
+          "label": "Wizard Hat",
+          "phrases": [
+            { "emoji": "🧙", "text": "I wear a wizard hat." },
+            { "emoji": "🧙", "text": "The hat is pointy." },
+            { "emoji": "🧙", "text": "There are stars on the hat." },
+            { "emoji": "🧙", "text": "I transform into a wizard." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "dart-game",
+      "image": "🎯",
+      "translations": {
+        "fr": {
+          "label": "Jeu de fléchettes",
+          "phrases": [
+            { "emoji": "🎯", "text": "Je joue aux fléchettes." },
+            { "emoji": "🎯", "text": "Je vise la cible." },
+            { "emoji": "🎯", "text": "J'ai touché le centre !" },
+            { "emoji": "🎯", "text": "C'est mon tour de lancer." }
+          ]
+        },
+        "en": {
+          "label": "Dart Game",
+          "phrases": [
+            { "emoji": "🎯", "text": "I play darts." },
+            { "emoji": "🎯", "text": "I aim at the target." },
+            { "emoji": "🎯", "text": "I hit the center!" },
+            { "emoji": "🎯", "text": "It's my turn to throw." }
+          ]
+        }
+      }
+    }
+  ]
+}

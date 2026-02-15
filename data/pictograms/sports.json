@@ -1,0 +1,581 @@
+{
+  "category": "sports",
+  "pictograms": [
+    {
+      "id": "basketball",
+      "image": "🏀",
+      "translations": {
+        "fr": {
+          "label": "Basketball",
+          "phrases": [
+            { "emoji": "🏀", "text": "Je joue au basketball." },
+            { "emoji": "🏀", "text": "Je veux jouer au basketball." },
+            { "emoji": "🏀", "text": "J'aime le basketball." },
+            { "emoji": "🏀", "text": "Je lance le ballon de basket." }
+          ]
+        },
+        "en": {
+          "label": "Basketball",
+          "phrases": [
+            { "emoji": "🏀", "text": "I play basketball." },
+            { "emoji": "🏀", "text": "I want to play basketball." },
+            { "emoji": "🏀", "text": "I like basketball." },
+            { "emoji": "🏀", "text": "I throw the basketball." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "boxing",
+      "image": "🥊",
+      "translations": {
+        "fr": {
+          "label": "Boxe",
+          "phrases": [
+            { "emoji": "🥊", "text": "Je fais de la boxe." },
+            { "emoji": "🥊", "text": "Je veux faire de la boxe." },
+            { "emoji": "🥊", "text": "J'aime la boxe." },
+            { "emoji": "🥊", "text": "Je porte des gants de boxe." }
+          ]
+        },
+        "en": {
+          "label": "Boxing",
+          "phrases": [
+            { "emoji": "🥊", "text": "I box." },
+            { "emoji": "🥊", "text": "I want to box." },
+            { "emoji": "🥊", "text": "I like boxing." },
+            { "emoji": "🥊", "text": "I wear boxing gloves." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tennis",
+      "image": "🎾",
+      "translations": {
+        "fr": {
+          "label": "Tennis",
+          "phrases": [
+            { "emoji": "🎾", "text": "Je joue au tennis." },
+            { "emoji": "🎾", "text": "Je veux jouer au tennis." },
+            { "emoji": "🎾", "text": "J'aime le tennis." },
+            { "emoji": "🎾", "text": "Je frappe la balle de tennis." }
+          ]
+        },
+        "en": {
+          "label": "Tennis",
+          "phrases": [
+            { "emoji": "🎾", "text": "I play tennis." },
+            { "emoji": "🎾", "text": "I want to play tennis." },
+            { "emoji": "🎾", "text": "I like tennis." },
+            { "emoji": "🎾", "text": "I hit the tennis ball." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "golf",
+      "image": "⛳",
+      "translations": {
+        "fr": {
+          "label": "Golf",
+          "phrases": [
+            { "emoji": "⛳", "text": "Je joue au golf." },
+            { "emoji": "⛳", "text": "Je veux jouer au golf." },
+            { "emoji": "⛳", "text": "J'aime le golf." },
+            { "emoji": "⛳", "text": "Je frappe la balle de golf." }
+          ]
+        },
+        "en": {
+          "label": "Golf",
+          "phrases": [
+            { "emoji": "⛳", "text": "I play golf." },
+            { "emoji": "⛳", "text": "I want to play golf." },
+            { "emoji": "⛳", "text": "I like golf." },
+            { "emoji": "⛳", "text": "I hit the golf ball." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hockey",
+      "image": "🏒",
+      "translations": {
+        "fr": {
+          "label": "Hockey",
+          "phrases": [
+            { "emoji": "🏒", "text": "Je joue au hockey." },
+            { "emoji": "🏒", "text": "Je veux jouer au hockey." },
+            { "emoji": "🏒", "text": "J'aime le hockey." },
+            { "emoji": "🏒", "text": "Je patine sur la glace." }
+          ]
+        },
+        "en": {
+          "label": "Hockey",
+          "phrases": [
+            { "emoji": "🏒", "text": "I play hockey." },
+            { "emoji": "🏒", "text": "I want to play hockey." },
+            { "emoji": "🏒", "text": "I like hockey." },
+            { "emoji": "🏒", "text": "I skate on the ice." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "swimming-sport",
+      "image": "🏊",
+      "translations": {
+        "fr": {
+          "label": "Natation",
+          "phrases": [
+            { "emoji": "🏊", "text": "Je fais de la natation." },
+            { "emoji": "🏊", "text": "Je veux nager." },
+            { "emoji": "🏊", "text": "J'aime la natation." },
+            { "emoji": "🏊", "text": "Je nage vite." }
+          ]
+        },
+        "en": {
+          "label": "Swimming",
+          "phrases": [
+            { "emoji": "🏊", "text": "I swim." },
+            { "emoji": "🏊", "text": "I want to swim." },
+            { "emoji": "🏊", "text": "I like swimming." },
+            { "emoji": "🏊", "text": "I swim fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "baseball",
+      "image": "⚾",
+      "translations": {
+        "fr": {
+          "label": "Baseball",
+          "phrases": [
+            { "emoji": "⚾", "text": "Je joue au baseball." },
+            { "emoji": "⚾", "text": "Je veux jouer au baseball." },
+            { "emoji": "⚾", "text": "J'aime le baseball." },
+            { "emoji": "⚾", "text": "Je lance la balle de baseball." }
+          ]
+        },
+        "en": {
+          "label": "Baseball",
+          "phrases": [
+            { "emoji": "⚾", "text": "I play baseball." },
+            { "emoji": "⚾", "text": "I want to play baseball." },
+            { "emoji": "⚾", "text": "I like baseball." },
+            { "emoji": "⚾", "text": "I throw the baseball." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "soccer",
+      "image": "⚽",
+      "translations": {
+        "fr": {
+          "label": "Football",
+          "phrases": [
+            { "emoji": "⚽", "text": "Je joue au football." },
+            { "emoji": "⚽", "text": "Je veux jouer au football." },
+            { "emoji": "⚽", "text": "J'aime le football." },
+            { "emoji": "⚽", "text": "Je tire dans le ballon." }
+          ]
+        },
+        "en": {
+          "label": "Soccer",
+          "phrases": [
+            { "emoji": "⚽", "text": "I play soccer." },
+            { "emoji": "⚽", "text": "I want to play soccer." },
+            { "emoji": "⚽", "text": "I like soccer." },
+            { "emoji": "⚽", "text": "I kick the ball." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "rugby",
+      "image": "🏉",
+      "translations": {
+        "fr": {
+          "label": "Rugby",
+          "phrases": [
+            { "emoji": "🏉", "text": "Je joue au rugby." },
+            { "emoji": "🏉", "text": "Je veux jouer au rugby." },
+            { "emoji": "🏉", "text": "J'aime le rugby." },
+            { "emoji": "🏉", "text": "Je cours avec le ballon de rugby." }
+          ]
+        },
+        "en": {
+          "label": "Rugby",
+          "phrases": [
+            { "emoji": "🏉", "text": "I play rugby." },
+            { "emoji": "🏉", "text": "I want to play rugby." },
+            { "emoji": "🏉", "text": "I like rugby." },
+            { "emoji": "🏉", "text": "I run with the rugby ball." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cricket",
+      "image": "🏏",
+      "translations": {
+        "fr": {
+          "label": "Cricket",
+          "phrases": [
+            { "emoji": "🏏", "text": "Je joue au cricket." },
+            { "emoji": "🏏", "text": "Je veux jouer au cricket." },
+            { "emoji": "🏏", "text": "J'aime le cricket." },
+            { "emoji": "🏏", "text": "Je frappe la balle de cricket." }
+          ]
+        },
+        "en": {
+          "label": "Cricket",
+          "phrases": [
+            { "emoji": "🏏", "text": "I play cricket." },
+            { "emoji": "🏏", "text": "I want to play cricket." },
+            { "emoji": "🏏", "text": "I like cricket." },
+            { "emoji": "🏏", "text": "I hit the cricket ball." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "car-racing",
+      "image": "🏎️",
+      "translations": {
+        "fr": {
+          "label": "Course automobile",
+          "phrases": [
+            { "emoji": "🏎️", "text": "Je fais de la course automobile." },
+            { "emoji": "🏎️", "text": "Je regarde la course automobile." },
+            { "emoji": "🏎️", "text": "J'aime la course automobile." },
+            { "emoji": "🏎️", "text": "La voiture roule vite." }
+          ]
+        },
+        "en": {
+          "label": "Car Racing",
+          "phrases": [
+            { "emoji": "🏎️", "text": "I do car racing." },
+            { "emoji": "🏎️", "text": "I watch car racing." },
+            { "emoji": "🏎️", "text": "I like car racing." },
+            { "emoji": "🏎️", "text": "The car goes fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "motorcycle-racing",
+      "image": "🏍️",
+      "translations": {
+        "fr": {
+          "label": "Course de motos",
+          "phrases": [
+            { "emoji": "🏍️", "text": "Je fais de la course de motos." },
+            { "emoji": "🏍️", "text": "Je regarde la course de motos." },
+            { "emoji": "🏍️", "text": "J'aime la course de motos." },
+            { "emoji": "🏍️", "text": "La moto roule vite." }
+          ]
+        },
+        "en": {
+          "label": "Motorcycle Racing",
+          "phrases": [
+            { "emoji": "🏍️", "text": "I do motorcycle racing." },
+            { "emoji": "🏍️", "text": "I watch motorcycle racing." },
+            { "emoji": "🏍️", "text": "I like motorcycle racing." },
+            { "emoji": "🏍️", "text": "The motorcycle goes fast." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "skiing",
+      "image": "⛷️",
+      "translations": {
+        "fr": {
+          "label": "Ski",
+          "phrases": [
+            { "emoji": "⛷️", "text": "Je fais du ski." },
+            { "emoji": "⛷️", "text": "Je veux faire du ski." },
+            { "emoji": "⛷️", "text": "J'aime le ski." },
+            { "emoji": "⛷️", "text": "Je glisse sur la neige." }
+          ]
+        },
+        "en": {
+          "label": "Skiing",
+          "phrases": [
+            { "emoji": "⛷️", "text": "I ski." },
+            { "emoji": "⛷️", "text": "I want to ski." },
+            { "emoji": "⛷️", "text": "I like skiing." },
+            { "emoji": "⛷️", "text": "I slide on the snow." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "snowboarding",
+      "image": "🏂",
+      "translations": {
+        "fr": {
+          "label": "Snowboard",
+          "phrases": [
+            { "emoji": "🏂", "text": "Je fais du snowboard." },
+            { "emoji": "🏂", "text": "Je veux faire du snowboard." },
+            { "emoji": "🏂", "text": "J'aime le snowboard." },
+            { "emoji": "🏂", "text": "Je glisse sur ma planche." }
+          ]
+        },
+        "en": {
+          "label": "Snowboarding",
+          "phrases": [
+            { "emoji": "🏂", "text": "I snowboard." },
+            { "emoji": "🏂", "text": "I want to snowboard." },
+            { "emoji": "🏂", "text": "I like snowboarding." },
+            { "emoji": "🏂", "text": "I slide on my board." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "volleyball",
+      "image": "🏐",
+      "translations": {
+        "fr": {
+          "label": "Volley-ball",
+          "phrases": [
+            { "emoji": "🏐", "text": "Je joue au volley-ball." },
+            { "emoji": "🏐", "text": "Je veux jouer au volley-ball." },
+            { "emoji": "🏐", "text": "J'aime le volley-ball." },
+            { "emoji": "🏐", "text": "Je frappe le ballon de volley." }
+          ]
+        },
+        "en": {
+          "label": "Volleyball",
+          "phrases": [
+            { "emoji": "🏐", "text": "I play volleyball." },
+            { "emoji": "🏐", "text": "I want to play volleyball." },
+            { "emoji": "🏐", "text": "I like volleyball." },
+            { "emoji": "🏐", "text": "I hit the volleyball." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "fencing",
+      "image": "🤺",
+      "translations": {
+        "fr": {
+          "label": "Escrime",
+          "phrases": [
+            { "emoji": "🤺", "text": "Je fais de l'escrime." },
+            { "emoji": "🤺", "text": "Je veux faire de l'escrime." },
+            { "emoji": "🤺", "text": "J'aime l'escrime." },
+            { "emoji": "🤺", "text": "Je tiens l'épée." }
+          ]
+        },
+        "en": {
+          "label": "Fencing",
+          "phrases": [
+            { "emoji": "🤺", "text": "I fence." },
+            { "emoji": "🤺", "text": "I want to fence." },
+            { "emoji": "🤺", "text": "I like fencing." },
+            { "emoji": "🤺", "text": "I hold the sword." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "martial-arts",
+      "image": "🥋",
+      "translations": {
+        "fr": {
+          "label": "Arts martiaux",
+          "phrases": [
+            { "emoji": "🥋", "text": "Je fais des arts martiaux." },
+            { "emoji": "🥋", "text": "Je veux faire des arts martiaux." },
+            { "emoji": "🥋", "text": "J'aime les arts martiaux." },
+            { "emoji": "🥋", "text": "Je porte un kimono." }
+          ]
+        },
+        "en": {
+          "label": "Martial Arts",
+          "phrases": [
+            { "emoji": "🥋", "text": "I do martial arts." },
+            { "emoji": "🥋", "text": "I want to do martial arts." },
+            { "emoji": "🥋", "text": "I like martial arts." },
+            { "emoji": "🥋", "text": "I wear a gi." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "referee",
+      "image": "🧑‍⚖️",
+      "translations": {
+        "fr": {
+          "label": "Arbitre",
+          "phrases": [
+            { "emoji": "🧑‍⚖️", "text": "C'est l'arbitre." },
+            { "emoji": "🧑‍⚖️", "text": "L'arbitre siffle." },
+            { "emoji": "🧑‍⚖️", "text": "L'arbitre fait respecter les règles." },
+            { "emoji": "🧑‍⚖️", "text": "L'arbitre est juste." }
+          ]
+        },
+        "en": {
+          "label": "Referee",
+          "phrases": [
+            { "emoji": "🧑‍⚖️", "text": "It's the referee." },
+            { "emoji": "🧑‍⚖️", "text": "The referee blows the whistle." },
+            { "emoji": "🧑‍⚖️", "text": "The referee enforces the rules." },
+            { "emoji": "🧑‍⚖️", "text": "The referee is fair." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "coach",
+      "image": "🧑‍🏫",
+      "translations": {
+        "fr": {
+          "label": "Entraîneur",
+          "phrases": [
+            { "emoji": "🧑‍🏫", "text": "C'est l'entraîneur." },
+            { "emoji": "🧑‍🏫", "text": "L'entraîneur me guide." },
+            { "emoji": "🧑‍🏫", "text": "L'entraîneur m'aide à progresser." },
+            { "emoji": "🧑‍🏫", "text": "J'aime mon entraîneur." }
+          ]
+        },
+        "en": {
+          "label": "Coach",
+          "phrases": [
+            { "emoji": "🧑‍🏫", "text": "It's the coach." },
+            { "emoji": "🧑‍🏫", "text": "The coach guides me." },
+            { "emoji": "🧑‍🏫", "text": "The coach helps me improve." },
+            { "emoji": "🧑‍🏫", "text": "I like my coach." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "kendo",
+      "image": "⚔️",
+      "translations": {
+        "fr": {
+          "label": "Kendo",
+          "phrases": [
+            { "emoji": "⚔️", "text": "Je fais du kendo." },
+            { "emoji": "⚔️", "text": "Je veux faire du kendo." },
+            { "emoji": "⚔️", "text": "J'aime le kendo." },
+            { "emoji": "⚔️", "text": "Je m'entraîne au sabre." }
+          ]
+        },
+        "en": {
+          "label": "Kendo",
+          "phrases": [
+            { "emoji": "⚔️", "text": "I do kendo." },
+            { "emoji": "⚔️", "text": "I want to do kendo." },
+            { "emoji": "⚔️", "text": "I like kendo." },
+            { "emoji": "⚔️", "text": "I train with the sword." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "table-tennis",
+      "image": "🏓",
+      "translations": {
+        "fr": {
+          "label": "Tennis de table",
+          "phrases": [
+            { "emoji": "🏓", "text": "Je joue au tennis de table." },
+            { "emoji": "🏓", "text": "Je veux jouer au ping-pong." },
+            { "emoji": "🏓", "text": "J'aime le tennis de table." },
+            { "emoji": "🏓", "text": "Je tiens la raquette." }
+          ]
+        },
+        "en": {
+          "label": "Table Tennis",
+          "phrases": [
+            { "emoji": "🏓", "text": "I play table tennis." },
+            { "emoji": "🏓", "text": "I want to play ping pong." },
+            { "emoji": "🏓", "text": "I like table tennis." },
+            { "emoji": "🏓", "text": "I hold the paddle." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "medal",
+      "image": "🏅",
+      "translations": {
+        "fr": {
+          "label": "Médaille",
+          "phrases": [
+            { "emoji": "🏅", "text": "J'ai gagné une médaille." },
+            { "emoji": "🏅", "text": "Je veux une médaille." },
+            { "emoji": "🏅", "text": "Ma médaille est en or." },
+            { "emoji": "🏅", "text": "Je suis fier de ma médaille." }
+          ]
+        },
+        "en": {
+          "label": "Medal",
+          "phrases": [
+            { "emoji": "🏅", "text": "I won a medal." },
+            { "emoji": "🏅", "text": "I want a medal." },
+            { "emoji": "🏅", "text": "My medal is gold." },
+            { "emoji": "🏅", "text": "I'm proud of my medal." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "podium",
+      "image": "🥇",
+      "translations": {
+        "fr": {
+          "label": "Podium",
+          "phrases": [
+            { "emoji": "🥇", "text": "Je monte sur le podium." },
+            { "emoji": "🥇", "text": "Je suis premier sur le podium." },
+            { "emoji": "🥇", "text": "J'ai gagné la compétition." },
+            { "emoji": "🥇", "text": "Je suis content d'être sur le podium." }
+          ]
+        },
+        "en": {
+          "label": "Podium",
+          "phrases": [
+            { "emoji": "🥇", "text": "I step on the podium." },
+            { "emoji": "🥇", "text": "I'm first on the podium." },
+            { "emoji": "🥇", "text": "I won the competition." },
+            { "emoji": "🥇", "text": "I'm happy to be on the podium." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "competition",
+      "image": "🏆",
+      "translations": {
+        "fr": {
+          "label": "Compétition",
+          "phrases": [
+            { "emoji": "🏆", "text": "Je participe à une compétition." },
+            { "emoji": "🏆", "text": "Je veux gagner la compétition." },
+            { "emoji": "🏆", "text": "J'aime les compétitions." },
+            { "emoji": "🏆", "text": "Je gagne le trophée." }
+          ]
+        },
+        "en": {
+          "label": "Competition",
+          "phrases": [
+            { "emoji": "🏆", "text": "I participate in a competition." },
+            { "emoji": "🏆", "text": "I want to win the competition." },
+            { "emoji": "🏆", "text": "I like competitions." },
+            { "emoji": "🏆", "text": "I win the trophy." }
+          ]
+        }
+      }
+    }
+  ]
+}

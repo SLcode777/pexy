@@ -1,0 +1,533 @@
+{
+  "category": "conversation",
+  "pictograms": [
+    {
+      "id": "me",
+      "image": "🙋",
+      "translations": {
+        "fr": {
+          "label": "Moi",
+          "phrases": [
+            { "emoji": "👋", "text": "C'est moi !" },
+            { "emoji": "🙋", "text": "Je veux parler." },
+            { "emoji": "💭", "text": "Je pense que..." },
+            { "emoji": "✋", "text": "Je suis là !" }
+          ]
+        },
+        "en": {
+          "label": "Me",
+          "phrases": [
+            { "emoji": "👋", "text": "It's me!" },
+            { "emoji": "🙋", "text": "I want to talk." },
+            { "emoji": "💭", "text": "I think that..." },
+            { "emoji": "✋", "text": "I'm here!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hello",
+      "image": "👋",
+      "translations": {
+        "fr": {
+          "label": "Bonjour",
+          "phrases": [
+            { "emoji": "👋", "text": "Bonjour !" },
+            { "emoji": "😊", "text": "Bonjour, comment ça va ?" },
+            { "emoji": "🌅", "text": "Bonjour, bonne journée !" },
+            { "emoji": "👋", "text": "Salut !" }
+          ]
+        },
+        "en": {
+          "label": "Hello",
+          "phrases": [
+            { "emoji": "👋", "text": "Hello!" },
+            { "emoji": "😊", "text": "Hello, how are you?" },
+            { "emoji": "🌅", "text": "Good morning!" },
+            { "emoji": "👋", "text": "Hi!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "help",
+      "image": "🆘",
+      "translations": {
+        "fr": {
+          "label": "Aider",
+          "phrases": [
+            { "emoji": "🆘", "text": "J'ai besoin d'aide." },
+            { "emoji": "🙏", "text": "Peux-tu m'aider ?" },
+            { "emoji": "❤️", "text": "Merci de m'aider." },
+            { "emoji": "🆘", "text": "Au secours !" }
+          ]
+        },
+        "en": {
+          "label": "Help",
+          "phrases": [
+            { "emoji": "🆘", "text": "I need help." },
+            { "emoji": "🙏", "text": "Can you help me?" },
+            { "emoji": "❤️", "text": "Thank you for helping me." },
+            { "emoji": "🆘", "text": "Help!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "yes",
+      "image": "✅",
+      "translations": {
+        "fr": {
+          "label": "Oui",
+          "phrases": [
+            { "emoji": "✅", "text": "Oui !" },
+            { "emoji": "👍", "text": "Oui, d'accord." },
+            { "emoji": "😊", "text": "Oui, je veux bien." },
+            { "emoji": "✅", "text": "Oui, c'est ça." }
+          ]
+        },
+        "en": {
+          "label": "Yes",
+          "phrases": [
+            { "emoji": "✅", "text": "Yes!" },
+            { "emoji": "👍", "text": "Yes, okay." },
+            { "emoji": "😊", "text": "Yes, please." },
+            { "emoji": "✅", "text": "Yes, that's right." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "no",
+      "image": "❌",
+      "translations": {
+        "fr": {
+          "label": "Non",
+          "phrases": [
+            { "emoji": "❌", "text": "Non !" },
+            { "emoji": "🙅", "text": "Non, je ne veux pas." },
+            { "emoji": "😐", "text": "Non, merci." },
+            { "emoji": "❌", "text": "Non, ce n'est pas ça." }
+          ]
+        },
+        "en": {
+          "label": "No",
+          "phrases": [
+            { "emoji": "❌", "text": "No!" },
+            { "emoji": "🙅", "text": "No, I don't want to." },
+            { "emoji": "😐", "text": "No, thank you." },
+            { "emoji": "❌", "text": "No, that's not it." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "toilet",
+      "image": "🚽",
+      "translations": {
+        "fr": {
+          "label": "Toilettes",
+          "phrases": [
+            { "emoji": "🚽", "text": "Je veux aller aux toilettes." },
+            { "emoji": "🚻", "text": "Où sont les toilettes ?" },
+            { "emoji": "🚽", "text": "J'ai besoin d'aller aux toilettes." },
+            { "emoji": "⏰", "text": "C'est urgent !" }
+          ]
+        },
+        "en": {
+          "label": "Toilet",
+          "phrases": [
+            { "emoji": "🚽", "text": "I want to go to the toilet." },
+            { "emoji": "🚻", "text": "Where is the toilet?" },
+            { "emoji": "🚽", "text": "I need to use the toilet." },
+            { "emoji": "⏰", "text": "It's urgent!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "what",
+      "image": "❓",
+      "translations": {
+        "fr": {
+          "label": "Quoi",
+          "phrases": [
+            { "emoji": "❓", "text": "Quoi ?" },
+            { "emoji": "🤔", "text": "Qu'est-ce que c'est ?" },
+            { "emoji": "❓", "text": "Qu'est-ce qu'on fait ?" },
+            { "emoji": "🤷", "text": "C'est quoi ça ?" }
+          ]
+        },
+        "en": {
+          "label": "What",
+          "phrases": [
+            { "emoji": "❓", "text": "What?" },
+            { "emoji": "🤔", "text": "What is it?" },
+            { "emoji": "❓", "text": "What are we doing?" },
+            { "emoji": "🤷", "text": "What is that?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "why",
+      "image": "🤔",
+      "translations": {
+        "fr": {
+          "label": "Pourquoi",
+          "phrases": [
+            { "emoji": "🤔", "text": "Pourquoi ?" },
+            { "emoji": "❓", "text": "Pourquoi on fait ça ?" },
+            { "emoji": "🤷", "text": "Pourquoi pas ?" },
+            { "emoji": "🤔", "text": "Je me demande pourquoi." }
+          ]
+        },
+        "en": {
+          "label": "Why",
+          "phrases": [
+            { "emoji": "🤔", "text": "Why?" },
+            { "emoji": "❓", "text": "Why are we doing this?" },
+            { "emoji": "🤷", "text": "Why not?" },
+            { "emoji": "🤔", "text": "I wonder why." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sleep",
+      "image": "😴",
+      "translations": {
+        "fr": {
+          "label": "Sommeil",
+          "phrases": [
+            { "emoji": "😴", "text": "Je suis fatigué." },
+            { "emoji": "🛏️", "text": "Je veux dormir." },
+            { "emoji": "💤", "text": "J'ai sommeil." },
+            { "emoji": "🌙", "text": "Bonne nuit !" }
+          ]
+        },
+        "en": {
+          "label": "Sleep",
+          "phrases": [
+            { "emoji": "😴", "text": "I'm tired." },
+            { "emoji": "🛏️", "text": "I want to sleep." },
+            { "emoji": "💤", "text": "I'm sleepy." },
+            { "emoji": "🌙", "text": "Good night!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "bath",
+      "image": "🛁",
+      "translations": {
+        "fr": {
+          "label": "Baignoire",
+          "phrases": [
+            { "emoji": "🛁", "text": "Je veux prendre un bain." },
+            { "emoji": "🚿", "text": "Je veux me laver." },
+            { "emoji": "🧼", "text": "L'heure du bain !" },
+            { "emoji": "🛁", "text": "J'aime prendre mon bain." }
+          ]
+        },
+        "en": {
+          "label": "Bath",
+          "phrases": [
+            { "emoji": "🛁", "text": "I want to take a bath." },
+            { "emoji": "🚿", "text": "I want to wash." },
+            { "emoji": "🧼", "text": "Bath time!" },
+            { "emoji": "🛁", "text": "I like taking a bath." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "listen",
+      "image": "👂",
+      "translations": {
+        "fr": {
+          "label": "Écouter",
+          "phrases": [
+            { "emoji": "👂", "text": "J'écoute." },
+            { "emoji": "🔊", "text": "J'entends quelque chose." },
+            { "emoji": "🎵", "text": "J'aime écouter de la musique." },
+            { "emoji": "👂", "text": "Écoute-moi !" }
+          ]
+        },
+        "en": {
+          "label": "Listen",
+          "phrases": [
+            { "emoji": "👂", "text": "I'm listening." },
+            { "emoji": "🔊", "text": "I hear something." },
+            { "emoji": "🎵", "text": "I like listening to music." },
+            { "emoji": "👂", "text": "Listen to me!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "morning",
+      "image": "🌅",
+      "translations": {
+        "fr": {
+          "label": "Matin",
+          "phrases": [
+            { "emoji": "🌅", "text": "C'est le matin." },
+            { "emoji": "☀️", "text": "Bonjour, il fait jour !" },
+            { "emoji": "🌅", "text": "Je me réveille." },
+            { "emoji": "☕", "text": "Petit déjeuner !" }
+          ]
+        },
+        "en": {
+          "label": "Morning",
+          "phrases": [
+            { "emoji": "🌅", "text": "It's morning." },
+            { "emoji": "☀️", "text": "Good morning, it's daytime!" },
+            { "emoji": "🌅", "text": "I'm waking up." },
+            { "emoji": "☕", "text": "Breakfast time!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "night",
+      "image": "🌙",
+      "translations": {
+        "fr": {
+          "label": "Nuit",
+          "phrases": [
+            { "emoji": "🌙", "text": "C'est la nuit." },
+            { "emoji": "⭐", "text": "Il fait nuit." },
+            { "emoji": "😴", "text": "Bonne nuit !" },
+            { "emoji": "🌙", "text": "Je vais me coucher." }
+          ]
+        },
+        "en": {
+          "label": "Night",
+          "phrases": [
+            { "emoji": "🌙", "text": "It's night." },
+            { "emoji": "⭐", "text": "It's nighttime." },
+            { "emoji": "😴", "text": "Good night!" },
+            { "emoji": "🌙", "text": "I'm going to bed." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "see",
+      "image": "👀",
+      "translations": {
+        "fr": {
+          "label": "Voir",
+          "phrases": [
+            { "emoji": "👀", "text": "Je vois." },
+            { "emoji": "👁️", "text": "Regarde !" },
+            { "emoji": "👀", "text": "Je veux voir." },
+            { "emoji": "😍", "text": "C'est beau à voir !" }
+          ]
+        },
+        "en": {
+          "label": "See",
+          "phrases": [
+            { "emoji": "👀", "text": "I see." },
+            { "emoji": "👁️", "text": "Look!" },
+            { "emoji": "👀", "text": "I want to see." },
+            { "emoji": "😍", "text": "It's beautiful!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "talk",
+      "image": "💬",
+      "translations": {
+        "fr": {
+          "label": "Parler",
+          "phrases": [
+            { "emoji": "💬", "text": "Je veux parler." },
+            { "emoji": "🗣️", "text": "On peut discuter ?" },
+            { "emoji": "💬", "text": "J'ai quelque chose à dire." },
+            { "emoji": "🤐", "text": "Arrête de parler." }
+          ]
+        },
+        "en": {
+          "label": "Talk",
+          "phrases": [
+            { "emoji": "💬", "text": "I want to talk." },
+            { "emoji": "🗣️", "text": "Can we chat?" },
+            { "emoji": "💬", "text": "I have something to say." },
+            { "emoji": "🤐", "text": "Stop talking." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "play",
+      "image": "🎮",
+      "translations": {
+        "fr": {
+          "label": "Jouer",
+          "phrases": [
+            { "emoji": "🎮", "text": "Je veux jouer." },
+            { "emoji": "🎯", "text": "On joue ensemble ?" },
+            { "emoji": "😊", "text": "J'aime jouer." },
+            { "emoji": "🎮", "text": "C'est l'heure de jouer !" }
+          ]
+        },
+        "en": {
+          "label": "Play",
+          "phrases": [
+            { "emoji": "🎮", "text": "I want to play." },
+            { "emoji": "🎯", "text": "Can we play together?" },
+            { "emoji": "😊", "text": "I like to play." },
+            { "emoji": "🎮", "text": "It's playtime!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "outside",
+      "image": "🌳",
+      "translations": {
+        "fr": {
+          "label": "Dehors",
+          "phrases": [
+            { "emoji": "🌳", "text": "Je veux aller dehors." },
+            { "emoji": "🚶", "text": "On sort ?" },
+            { "emoji": "☀️", "text": "Il fait beau dehors !" },
+            { "emoji": "🌳", "text": "J'aime être dehors." }
+          ]
+        },
+        "en": {
+          "label": "Outside",
+          "phrases": [
+            { "emoji": "🌳", "text": "I want to go outside." },
+            { "emoji": "🚶", "text": "Shall we go out?" },
+            { "emoji": "☀️", "text": "It's nice outside!" },
+            { "emoji": "🌳", "text": "I like being outside." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "home",
+      "image": "🏠",
+      "translations": {
+        "fr": {
+          "label": "Maison",
+          "phrases": [
+            { "emoji": "🏠", "text": "Je veux rentrer à la maison." },
+            { "emoji": "🚗", "text": "On rentre ?" },
+            { "emoji": "😊", "text": "Je suis bien à la maison." },
+            { "emoji": "🏠", "text": "C'est ma maison." }
+          ]
+        },
+        "en": {
+          "label": "Home",
+          "phrases": [
+            { "emoji": "🏠", "text": "I want to go home." },
+            { "emoji": "🚗", "text": "Are we going home?" },
+            { "emoji": "😊", "text": "I feel good at home." },
+            { "emoji": "🏠", "text": "This is my home." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hurt",
+      "image": "🤕",
+      "translations": {
+        "fr": {
+          "label": "Faire mal",
+          "phrases": [
+            { "emoji": "🤕", "text": "J'ai mal." },
+            { "emoji": "😢", "text": "Ça fait mal !" },
+            { "emoji": "🩹", "text": "Je me suis fait mal." },
+            { "emoji": "🤕", "text": "Où as-tu mal ?" }
+          ]
+        },
+        "en": {
+          "label": "Hurt",
+          "phrases": [
+            { "emoji": "🤕", "text": "I'm hurt." },
+            { "emoji": "😢", "text": "It hurts!" },
+            { "emoji": "🩹", "text": "I hurt myself." },
+            { "emoji": "🤕", "text": "Where does it hurt?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "again",
+      "image": "🔁",
+      "translations": {
+        "fr": {
+          "label": "De nouveau",
+          "phrases": [
+            { "emoji": "🔁", "text": "Encore une fois !" },
+            { "emoji": "🎯", "text": "On recommence ?" },
+            { "emoji": "😊", "text": "Je veux refaire ça." },
+            { "emoji": "🔁", "text": "Encore !" }
+          ]
+        },
+        "en": {
+          "label": "Again",
+          "phrases": [
+            { "emoji": "🔁", "text": "One more time!" },
+            { "emoji": "🎯", "text": "Can we do it again?" },
+            { "emoji": "😊", "text": "I want to do it again." },
+            { "emoji": "🔁", "text": "Again!" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pronouns",
+      "image": "👤",
+      "translations": {
+        "fr": {
+          "label": "Pronoms",
+          "phrases": [
+            { "emoji": "👤", "text": "Je, tu, il, elle." },
+            { "emoji": "👥", "text": "Nous, vous, ils, elles." },
+            { "emoji": "👤", "text": "C'est un pronom." },
+            { "emoji": "🗣️", "text": "J'utilise des pronoms." }
+          ]
+        },
+        "en": {
+          "label": "Pronouns",
+          "phrases": [
+            { "emoji": "👤", "text": "I, you, he, she." },
+            { "emoji": "👥", "text": "We, you, they." },
+            { "emoji": "👤", "text": "It's a pronoun." },
+            { "emoji": "🗣️", "text": "I use pronouns." }
+          ]
+        }
+      }
+    },
+    {
+      "id": "nonverbal",
+      "image": "🤐",
+      "translations": {
+        "fr": {
+          "label": "Non verbal",
+          "phrases": [
+            { "emoji": "👋", "text": "Je communique sans parler." },
+            { "emoji": "🤝", "text": "J'utilise des gestes." },
+            { "emoji": "👍", "text": "Je montre du doigt." },
+            { "emoji": "🙏", "text": "Mon corps parle." }
+          ]
+        },
+        "en": {
+          "label": "Nonverbal",
+          "phrases": [
+            { "emoji": "👋", "text": "I communicate without words." },
+            { "emoji": "🤝", "text": "I use gestures." },
+            { "emoji": "👍", "text": "I point." },
+            { "emoji": "🙏", "text": "My body speaks." }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -6,6 +6,7 @@ import {
   FlatList,
   StyleSheet,
   SafeAreaView,
+  Dimensions,
 } from 'react-native';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
@@ -15,6 +16,11 @@ import { CATEGORIES } from '@/constants/categories';
 import { getUserProfile } from '@/lib/db/operations';
 import { speakWithPreferences } from '@/lib/speakWithPreferences';
 import type { Category } from '@/types';
+
+const { width: SCREEN_WIDTH } = Dimensions.get('window');
+const CARD_GAP = 16;
+const HORIZONTAL_PADDING = 16;
+const CARD_WIDTH = (SCREEN_WIDTH - HORIZONTAL_PADDING * 2 - CARD_GAP) / 2;
 
 export default function HomeScreen() {
   const { t, i18n } = useTranslation();
@@ -136,8 +142,8 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   categoryCard: {
-    flex: 1,
-    aspectRatio: 1,
+    width: CARD_WIDTH,
+    height: CARD_WIDTH,
     borderRadius: 20,
     padding: 16,
     justifyContent: 'center',
