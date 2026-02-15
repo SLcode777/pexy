@@ -29,6 +29,7 @@
   "categories": {
     "letters": "Letters",
     "numbers": "Numbers",
+    "multiplications": "Multiplications",
     "transport": "Transport",
     "clothes": "Clothes",
     "conversation": "Conversation",
@@ -65,6 +66,24 @@
     "tts_speed_slow": "Slow",
     "tts_speed_normal": "Normal",
     "tts_speed_fast": "Fast",
-    "about": "About"
+    "about": "About",
+    "data_management": "Data Management",
+    "export_backup": "Export My Data",
+    "import_backup": "Import Data",
+    "backup_hint": "Back up your data to avoid losing anything when changing devices."
+  },
+  "backup": {
+    "export_success_title": "Export Successful",
+    "export_success_message": "Your data has been exported. Save the file in a safe location.",
+    "import_warning_title": "⚠️ Warning",
+    "import_warning_message": "This will replace ALL your current data (profile, favorites, phrases). This action cannot be undone. Continue?",
+    "replace_data": "Replace My Data",
+    "import_success_title": "Restore Successful",
+    "import_success_message": "Your data has been successfully restored.",
+    "error_title": "Error",
+    "error_corrupted": "The backup file is corrupted or invalid.",
+    "error_invalid": "This is not a valid Pexy backup file.",
+    "error_version": "Backup incompatible with this app version.",
+    "error_no_data": "No data to back up. Create a profile first."
   }
 }

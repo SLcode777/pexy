@@ -1,6 +1,7 @@
 import { Colors } from "@/constants/colors";
 import { useUserProfile } from "@/hooks/useUserProfile";
-import { updateUserProfile } from "@/lib/db/operations";
+import { useBackup } from "@/hooks/useBackup";
+import { updateUserProfile, clearAllData } from "@/lib/db/operations";
 import {
   getTTSLanguage,
   getVoicesByLanguage,
@@ -9,11 +10,11 @@ import {
 } from "@/lib/tts";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useRouter } from "expo-router";
 import {
   ActivityIndicator,
   Alert,
   Modal,
-  SafeAreaView,
   ScrollView,
   StyleSheet,
   Text,
@@ -21,10 +22,13 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function SettingsScreen() {
   const { t, i18n } = useTranslation();
+  const router = useRouter();
   const { profile, loading: profileLoading, refreshProfile } = useUserProfile();
+  const { handleExport, handleImport, exportLoading, importLoading } = useBackup();
   const [voices, setVoices] = useState<TTSVoice[]>([]);
   const [loadingVoices, setLoadingVoices] = useState(true);
   const [selectedVoiceId, setSelectedVoiceId] = useState<string | null>(null);
@@ -136,6 +140,28 @@ export default function SettingsScreen() {
       rate: speed,
       voiceId: selectedVoiceId,
     });
+  };
+
+  const handleResetDatabase = () => {
+    Alert.alert(
+      "⚠️ Reset Database (Dev)",
+      "This will delete ALL data and restart the onboarding. Are you sure?",
+      [
+        { text: "Cancel", style: "cancel" },
+        {
+          text: "Reset",
+          style: "destructive",
+          onPress: async () => {
+            try {
+              await clearAllData();
+              router.replace("/(onboarding)/profile");
+            } catch (error) {
+              Alert.alert("Error", "Failed to reset database");
+            }
+          },
+        },
+      ]
+    );
   };
 
   const renderVoiceItem = (voice: TTSVoice) => {
@@ -317,6 +343,59 @@ export default function SettingsScreen() {
               {voices.map(renderVoiceItem)}
             </View>
           )}
+        </View>
+
+        {/* Data Management */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>💾 {t("settings.data_management")}</Text>
+
+          <View style={styles.backupButtonsContainer}>
+            <TouchableOpacity
+              style={styles.exportButton}
+              onPress={handleExport}
+              disabled={exportLoading}
+            >
+              {exportLoading ? (
+                <ActivityIndicator size="small" color={Colors.text} />
+              ) : (
+                <>
+                  <Text style={styles.backupIcon}>📤</Text>
+                  <Text style={styles.backupButtonText}>
+                    {t("settings.export_backup")}
+                  </Text>
+                </>
+              )}
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={styles.importButton}
+              onPress={handleImport}
+              disabled={importLoading}
+            >
+              {importLoading ? (
+                <ActivityIndicator size="small" color={Colors.darkText} />
+              ) : (
+                <>
+                  <Text style={styles.backupIcon}>📥</Text>
+                  <Text style={[styles.backupButtonText, styles.importButtonText]}>
+                    {t("settings.import_backup")}
+                  </Text>
+                </>
+              )}
+            </TouchableOpacity>
+          </View>
+
+          <Text style={styles.backupHint}>
+            {t("settings.backup_hint")}
+          </Text>
+
+          {/* Dev: Reset Database Button */}
+          <TouchableOpacity
+            style={styles.resetButton}
+            onPress={handleResetDatabase}
+          >
+            <Text style={styles.resetButtonText}>🔄 Reset Database (Dev)</Text>
+          </TouchableOpacity>
         </View>
       </ScrollView>
 
@@ -622,6 +701,68 @@ const styles = StyleSheet.create({
   },
   modalButtonTextSave: {
     fontSize: 16,
+    fontWeight: "600",
+    color: Colors.darkText,
+  },
+  backupButtonsContainer: {
+    flexDirection: "row",
+    gap: 12,
+  },
+  exportButton: {
+    flex: 1,
+    backgroundColor: Colors.softYellow,
+    padding: 16,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "row",
+    gap: 8,
+    minHeight: 56,
+  },
+  importButton: {
+    flex: 1,
+    backgroundColor: Colors.primary,
+    padding: 16,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: Colors.primary,
+    alignItems: "center",
+    justifyContent: "center",
+    flexDirection: "row",
+    gap: 8,
+    minHeight: 56,
+  },
+  backupIcon: {
+    fontSize: 24,
+  },
+  backupButtonText: {
+    fontSize: 14,
+    fontWeight: "600",
+    color: Colors.text,
+  },
+  importButtonText: {
+    color: Colors.darkText,
+  },
+  backupHint: {
+    fontSize: 12,
+    color: Colors.textSecondary,
+    textAlign: "center",
+    marginTop: 12,
+    lineHeight: 18,
+  },
+  resetButton: {
+    marginTop: 16,
+    backgroundColor: Colors.coral,
+    padding: 16,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    alignItems: "center",
+  },
+  resetButtonText: {
+    fontSize: 14,
     fontWeight: "600",
     color: Colors.darkText,
   },

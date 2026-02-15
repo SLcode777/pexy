@@ -29,6 +29,7 @@
   "categories": {
     "letters": "Lettres",
     "numbers": "Chiffres",
+    "multiplications": "Multiplications",
     "transport": "Transports",
     "clothes": "Vêtements",
     "conversation": "Conversation",
@@ -65,6 +66,24 @@
     "tts_speed_slow": "Lent",
     "tts_speed_normal": "Normal",
     "tts_speed_fast": "Rapide",
-    "about": "À propos"
+    "about": "À propos",
+    "data_management": "Gestion des données",
+    "export_backup": "Exporter mes données",
+    "import_backup": "Importer des données",
+    "backup_hint": "Sauvegardez vos données pour ne rien perdre en cas de changement d'appareil."
+  },
+  "backup": {
+    "export_success_title": "Export réussi",
+    "export_success_message": "Vos données ont été exportées. Sauvegardez le fichier dans un endroit sûr.",
+    "import_warning_title": "⚠️ Attention",
+    "import_warning_message": "Ceci va remplacer TOUTES vos données actuelles (profil, favoris, phrases). Cette action est irréversible. Continuer ?",
+    "replace_data": "Remplacer mes données",
+    "import_success_title": "Restauration réussie",
+    "import_success_message": "Vos données ont été restaurées avec succès.",
+    "error_title": "Erreur",
+    "error_corrupted": "Le fichier de backup est corrompu ou invalide.",
+    "error_invalid": "Ce fichier n'est pas un backup Pexy valide.",
+    "error_version": "Backup incompatible avec cette version de l'app.",
+    "error_no_data": "Aucune donnée à sauvegarder. Créez d'abord un profil."
   }
 }

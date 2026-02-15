@@ -6,12 +6,11 @@ import {
   TouchableOpacity,
   FlatList,
   StyleSheet,
-  SafeAreaView,
   ActivityIndicator,
 } from 'react-native';
 import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { useSafeAreaInsets, SafeAreaView } from 'react-native-safe-area-context';
 import { Colors } from '@/constants/colors';
 import { loadAllPictograms } from '@/lib/pictograms';
 import { getCustomPhrases } from '@/lib/db/operations';

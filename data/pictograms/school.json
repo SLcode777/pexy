@@ -98,25 +98,28 @@
       }
     },
     {
-      "id": "backpack",
+      "id": "school-bag",
       "image": "🎒",
       "translations": {
         "fr": {
-          "label": "Sac à dos",
+          "label": "Cartable",
           "phrases": [
-            { "emoji": "🎒", "text": "Je porte mon sac à dos." },
-            { "emoji": "🎒", "text": "C'est mon sac à dos." },
-            { "emoji": "🎒", "text": "Mon sac est lourd." },
-            { "emoji": "🎒", "text": "Je range mes affaires dans mon sac." }
+            { "emoji": "🎒", "text": "Je porte mon cartable." },
+            { "emoji": "🎒", "text": "C'est mon cartable." },
+            { "emoji": "🎒", "text": "Mon cartable est lourd." },
+            {
+              "emoji": "🎒",
+              "text": "Je range mes affaires dans mon cartable."
+            }
           ]
         },
         "en": {
-          "label": "Backpack",
+          "label": "School bag",
           "phrases": [
-            { "emoji": "🎒", "text": "I'm wearing my backpack." },
-            { "emoji": "🎒", "text": "It's my backpack." },
-            { "emoji": "🎒", "text": "My bag is heavy." },
-            { "emoji": "🎒", "text": "I put my things in my bag." }
+            { "emoji": "🎒", "text": "I'm wearing my school bag." },
+            { "emoji": "🎒", "text": "It's my school bag." },
+            { "emoji": "🎒", "text": "My school bag is heavy." },
+            { "emoji": "🎒", "text": "I put my things in my school bag." }
           ]
         }
       }
@@ -163,7 +166,10 @@
           "phrases": [
             { "emoji": "👨‍🏫", "text": "This is my teacher." },
             { "emoji": "👨‍🏫", "text": "The teacher explains." },
-            { "emoji": "✋", "text": "I raise my hand to talk to the teacher." },
+            {
+              "emoji": "✋",
+              "text": "I raise my hand to talk to the teacher."
+            },
             { "emoji": "👨‍🏫", "text": "The teacher is kind." }
           ]
         }

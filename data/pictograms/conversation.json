@@ -488,19 +488,19 @@
         "fr": {
           "label": "Pronoms",
           "phrases": [
-            { "emoji": "👤", "text": "Je, tu, il, elle." },
-            { "emoji": "👥", "text": "Nous, vous, ils, elles." },
-            { "emoji": "👤", "text": "C'est un pronom." },
-            { "emoji": "🗣️", "text": "J'utilise des pronoms." }
+            { "emoji": "👤", "text": "Quels sont vos pronoms ?" },
+            { "emoji": "👤", "text": "J'utilise des pronoms." },
+            { "emoji": "👤", "text": "Mes pronoms sont lui/il." },
+            { "emoji": "👤", "text": "Mes pronoms sont elle/elle." }
           ]
         },
         "en": {
           "label": "Pronouns",
           "phrases": [
-            { "emoji": "👤", "text": "I, you, he, she." },
-            { "emoji": "👥", "text": "We, you, they." },
-            { "emoji": "👤", "text": "It's a pronoun." },
-            { "emoji": "🗣️", "text": "I use pronouns." }
+            { "emoji": "👤", "text": "What pronouns do you use ?" },
+            { "emoji": "👤", "text": "I use pronouns." },
+            { "emoji": "👤", "text": "My pronouns are he/him." },
+            { "emoji": "👤", "text": "My pronouns are she/her." }
           ]
         }
       }
@@ -512,19 +512,21 @@
         "fr": {
           "label": "Non verbal",
           "phrases": [
-            { "emoji": "👋", "text": "Je communique sans parler." },
-            { "emoji": "🤝", "text": "J'utilise des gestes." },
-            { "emoji": "👍", "text": "Je montre du doigt." },
-            { "emoji": "🙏", "text": "Mon corps parle." }
+            { "emoji": "🚫", "text": "Je suis non verbal." },
+            { "emoji": "🌓", "text": "Je suis semi-verbal." },
+            { "emoji": "🗣", "text": "Je ne peux parfois pas parler." },
+            { "emoji": "🧠", "text": "J'ai un trouble cognitif." },
+            { "emoji": "∞", "text": "J'ai un trouble du spectre autistique." }
           ]
         },
         "en": {
           "label": "Nonverbal",
           "phrases": [
-            { "emoji": "👋", "text": "I communicate without words." },
-            { "emoji": "🤝", "text": "I use gestures." },
-            { "emoji": "👍", "text": "I point." },
-            { "emoji": "🙏", "text": "My body speaks." }
+            { "emoji": "🚫", "text": "I am nonverbal." },
+            { "emoji": "🌓", "text": "I am semiverbal." },
+            { "emoji": "🗣", "text": "Sometimes I can't talk." },
+            { "emoji": "🧠", "text": "I have a cognitive disorder." },
+            { "emoji": "∞", "text": "I have an autism spectrum disorder." }
           ]
         }
       }

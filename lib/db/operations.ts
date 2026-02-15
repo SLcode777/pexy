@@ -132,3 +132,17 @@ export const getAllCustomPhrases = async (language: string = 'fr') => {
     .orderBy(desc(customPhrases.createdAt));
   return result;
 };
+
+// ========================
+// DATA MANAGEMENT OPERATIONS
+// ========================
+
+/**
+ * Clear all data from the database
+ * Used for backup restore to ensure clean state
+ */
+export const clearAllData = async () => {
+  await db.delete(customPhrases);
+  await db.delete(favorites);
+  await db.delete(userProfile);
+};
