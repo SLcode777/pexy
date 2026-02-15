@@ -5,6 +5,8 @@ import {
   getCustomPhrases,
   isFavorite,
   toggleFavorite,
+  getCustomPictogramById,
+  deleteCustomPictogram,
 } from "@/lib/db/operations";
 import { getPictogram } from "@/lib/pictograms";
 import { speakWithPreferences } from "@/lib/speakWithPreferences";
@@ -12,6 +14,7 @@ import type { Pictogram } from "@/types";
 import { router, useFocusEffect, useLocalSearchParams } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import * as FileSystemLegacy from 'expo-file-system/legacy';
 import {
   Alert,
   ScrollView,
@@ -57,8 +60,30 @@ export default function PictogramScreen() {
 
   const loadPictogram = async () => {
     setLoading(true);
-    const data = await getPictogram(categoryId, id);
-    setPictogram(data);
+
+    if (categoryId === 'custom') {
+      // Load custom pictogram from database
+      const customPicto = await getCustomPictogramById(id);
+      if (customPicto) {
+        const formattedPicto: Pictogram = {
+          id: customPicto.customId,
+          category: 'custom',
+          image: `file://${FileSystemLegacy.documentDirectory}${customPicto.imagePath}`,
+          translations: {
+            fr: { label: customPicto.name, phrases: [] },
+            en: { label: customPicto.name, phrases: [] },
+          },
+        };
+        setPictogram(formattedPicto);
+      } else {
+        setPictogram(null);
+      }
+    } else {
+      // Load regular pictogram from JSON
+      const data = await getPictogram(categoryId, id);
+      setPictogram(data);
+    }
+
     setLoading(false);
   };
 
@@ -119,6 +144,27 @@ export default function PictogramScreen() {
     );
   };
 
+  const handleDeleteCustomPictogram = () => {
+    Alert.alert(
+      "Supprimer le pictogramme",
+      "Voulez-vous vraiment supprimer ce pictogramme ? Toutes les phrases associées seront également supprimées.",
+      [
+        {
+          text: "Annuler",
+          style: "cancel",
+        },
+        {
+          text: "Supprimer",
+          style: "destructive",
+          onPress: async () => {
+            await deleteCustomPictogram(id);
+            router.back();
+          },
+        },
+      ],
+    );
+  };
+
   if (loading) {
     return (
       <SafeAreaView style={styles.container}>
@@ -158,6 +204,14 @@ export default function PictogramScreen() {
           >
             <Text style={styles.icon}>{isFav ? "⭐" : "☆"}</Text>
           </TouchableOpacity>
+          {categoryId === 'custom' && (
+            <TouchableOpacity
+              onPress={handleDeleteCustomPictogram}
+              style={styles.iconButton}
+            >
+              <Text style={styles.icon}>🗑️</Text>
+            </TouchableOpacity>
+          )}
         </View>
       </View>
 

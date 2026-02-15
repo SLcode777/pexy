@@ -85,5 +85,18 @@
     "error_invalid": "This is not a valid Pexy backup file.",
     "error_version": "Backup incompatible with this app version.",
     "error_no_data": "No data to back up. Create a profile first."
+  },
+  "custom_picto": {
+    "create_title": "Create a pictogram",
+    "choose_camera": "Take a photo",
+    "choose_gallery": "Choose from gallery",
+    "name_label": "Pictogram name",
+    "name_placeholder": "Ex: My teddy bear",
+    "create_button": "Create",
+    "delete_confirm": "Do you really want to delete this pictogram? All associated phrases will also be deleted.",
+    "permission_camera_title": "Permission required",
+    "permission_camera_message": "The app needs to access the camera to take photos.",
+    "permission_gallery_title": "Permission required",
+    "permission_gallery_message": "The app needs to access the gallery to select photos."
   }
 }

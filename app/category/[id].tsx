@@ -1,12 +1,16 @@
 import { PictogramCard } from "@/components/PictogramCard";
+import { AddCustomPictogramCard } from "@/components/AddCustomPictogramCard";
 import { CATEGORIES } from "@/constants/categories";
 import { Colors } from "@/constants/colors";
 import { loadPictograms } from "@/lib/pictograms";
 import { speakWithPreferences } from "@/lib/speakWithPreferences";
+import { getCustomPictograms } from "@/lib/db/operations";
 import type { Pictogram } from "@/types";
 import { router, useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { useFocusEffect } from "@react-navigation/native";
+import * as FileSystemLegacy from 'expo-file-system/legacy';
 import {
   Dimensions,
   FlatList,
@@ -19,6 +23,7 @@ import {
   SafeAreaView,
   useSafeAreaInsets,
 } from "react-native-safe-area-context";
+import { useCallback } from "react";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
 const CARD_GAP = 12;
@@ -38,10 +43,37 @@ export default function CategoryScreen() {
     loadCategoryPictograms();
   }, [id]);
 
+  // Reload when screen comes into focus (after creating custom pictogram)
+  useFocusEffect(
+    useCallback(() => {
+      if (id === 'custom') {
+        loadCategoryPictograms();
+      }
+    }, [id])
+  );
+
   const loadCategoryPictograms = async () => {
     setLoading(true);
-    const data = await loadPictograms(id);
-    setPictograms(data);
+
+    if (id === 'custom') {
+      // Load custom pictograms from database
+      const customPictos = await getCustomPictograms();
+      const formattedPictos: Pictogram[] = customPictos.map(cp => ({
+        id: cp.customId,
+        category: 'custom',
+        image: `file://${FileSystemLegacy.documentDirectory}${cp.imagePath}`,
+        translations: {
+          fr: { label: cp.name, phrases: [] },
+          en: { label: cp.name, phrases: [] },
+        },
+      }));
+      setPictograms(formattedPictos);
+    } else {
+      // Load regular pictograms from JSON
+      const data = await loadPictograms(id);
+      setPictograms(data);
+    }
+
     setLoading(false);
   };
 
@@ -118,7 +150,7 @@ export default function CategoryScreen() {
         <View style={styles.loadingContainer}>
           <Text style={styles.loadingText}>Chargement...</Text>
         </View>
-      ) : pictograms.length === 0 ? (
+      ) : pictograms.length === 0 && id !== 'custom' ? (
         <View style={styles.emptyContainer}>
           <Text style={styles.emptyText}>
             Aucun pictogramme disponible pour cette catégorie
@@ -133,6 +165,16 @@ export default function CategoryScreen() {
           contentContainerStyle={styles.grid}
           columnWrapperStyle={styles.row}
           showsVerticalScrollIndicator={false}
+          ListFooterComponent={
+            id === 'custom' ? (
+              <View style={styles.addCardContainer}>
+                <AddCustomPictogramCard
+                  size={CARD_WIDTH}
+                  onPress={() => router.push('/create-custom-pictogram')}
+                />
+              </View>
+            ) : null
+          }
         />
       )}
     </SafeAreaView>
@@ -233,5 +275,8 @@ const styles = StyleSheet.create({
     color: Colors.error,
     textAlign: "center",
     marginTop: 24,
+  },
+  addCardContainer: {
+    alignItems: 'flex-start',
   },
 });

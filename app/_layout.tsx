@@ -17,7 +17,7 @@ export default function RootLayout() {
     const initApp = async () => {
       try {
         // Initialize database
-        initDatabase();
+        await initDatabase();
         console.log('✅ App initialized');
       } catch (error) {
         console.error('❌ Error initializing app:', error);

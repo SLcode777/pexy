@@ -11,7 +11,7 @@ interface PictogramCardProps {
 
 /**
  * Card component for displaying pictograms
- * - Webp images fill the entire card with label overlay at bottom
+ * - Webp images and custom pictograms (file://) fill the entire card with label overlay at bottom
  * - Emojis use the classic centered layout
  */
 export function PictogramCard({
@@ -20,7 +20,7 @@ export function PictogramCard({
   onPress,
   size,
 }: PictogramCardProps) {
-  const isImage = image.includes(".webp") || image.startsWith("assets/");
+  const isImage = image.includes(".webp") || image.startsWith("assets/") || image.startsWith("file://");
 
   if (isImage) {
     // New layout: image fills card, text overlay at bottom

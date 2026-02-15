@@ -1,7 +1,9 @@
 import { eq, desc, and } from 'drizzle-orm';
+import * as FileSystem from 'expo-file-system';
+import * as FileSystemLegacy from 'expo-file-system/legacy';
 import { db } from './index';
-import { userProfile, favorites, customPhrases } from './schema';
-import type { NewUserProfile, NewFavorite, NewCustomPhrase } from './schema';
+import { userProfile, favorites, customPhrases, customPictograms } from './schema';
+import type { NewUserProfile, NewFavorite, NewCustomPhrase, NewCustomPictogram, CustomPictogram } from './schema';
 
 // ========================
 // USER PROFILE OPERATIONS
@@ -134,6 +136,56 @@ export const getAllCustomPhrases = async (language: string = 'fr') => {
 };
 
 // ========================
+// CUSTOM PICTOGRAMS OPERATIONS
+// ========================
+
+export const createCustomPictogram = async (data: NewCustomPictogram) => {
+  const result = await db.insert(customPictograms).values(data).returning();
+  return result[0];
+};
+
+export const getCustomPictograms = async (): Promise<CustomPictogram[]> => {
+  return await db
+    .select()
+    .from(customPictograms)
+    .orderBy(desc(customPictograms.createdAt));
+};
+
+export const getCustomPictogramById = async (customId: string) => {
+  const result = await db
+    .select()
+    .from(customPictograms)
+    .where(eq(customPictograms.customId, customId))
+    .limit(1);
+  return result[0] || null;
+};
+
+export const updateCustomPictogram = async (customId: string, data: { name?: string }) => {
+  return await db
+    .update(customPictograms)
+    .set({ ...data, updatedAt: new Date().toISOString() })
+    .where(eq(customPictograms.customId, customId))
+    .returning();
+};
+
+export const deleteCustomPictogram = async (customId: string) => {
+  const picto = await getCustomPictogramById(customId);
+
+  if (picto) {
+    // 1. Delete image file
+    const filePath = `${FileSystemLegacy.documentDirectory}${picto.imagePath}`;
+    const file = new FileSystem.File(filePath);
+    await file.delete().catch(console.error);
+
+    // 2. Delete associated phrases (CASCADE)
+    await db.delete(customPhrases).where(eq(customPhrases.pictogramId, customId));
+
+    // 3. Delete DB record
+    await db.delete(customPictograms).where(eq(customPictograms.customId, customId));
+  }
+};
+
+// ========================
 // DATA MANAGEMENT OPERATIONS
 // ========================
 
@@ -142,6 +194,16 @@ export const getAllCustomPhrases = async (language: string = 'fr') => {
  * Used for backup restore to ensure clean state
  */
 export const clearAllData = async () => {
+  // Delete custom pictogram images
+  const customPictos = await getCustomPictograms();
+  for (const picto of customPictos) {
+    const filePath = `${FileSystemLegacy.documentDirectory}${picto.imagePath}`;
+    const file = new FileSystem.File(filePath);
+    await file.delete().catch(console.error);
+  }
+
+  // Delete DB records
+  await db.delete(customPictograms);
   await db.delete(customPhrases);
   await db.delete(favorites);
   await db.delete(userProfile);

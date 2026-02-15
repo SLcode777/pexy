@@ -1,6 +1,7 @@
 import * as DocumentPicker from "expo-document-picker";
 import * as Sharing from "expo-sharing";
 import * as FileSystem from "expo-file-system/legacy";
+import * as FileSystemNew from "expo-file-system";
 import * as Crypto from "expo-crypto";
 import { Alert } from "react-native";
 import type { BackupData } from "@/types/backup";
@@ -13,6 +14,8 @@ import {
   addFavorite,
   addCustomPhrase,
   clearAllData,
+  getCustomPictograms,
+  createCustomPictogram,
 } from "@/lib/db/operations";
 import type { CustomPhrase } from "@/lib/db/schema";
 
@@ -104,10 +107,25 @@ export const exportBackup = async (): Promise<void> => {
     const favorites = await getFavorites();
     const customPhrasesFr = await getAllCustomPhrases("fr");
     const customPhrasesEn = await getAllCustomPhrases("en");
+    const customPictos = await getCustomPictograms();
 
     // Check if there's any data to backup
     if (!userProfile) {
       throw new BackupError("backup.error_no_data");
+    }
+
+    // Encode custom pictogram images to base64
+    const images: Record<string, string> = {};
+    for (const picto of customPictos) {
+      const filePath = `${FileSystem.documentDirectory}${picto.imagePath}`;
+      try {
+        const base64 = await FileSystem.readAsStringAsync(filePath, {
+          encoding: FileSystem.EncodingType.Base64,
+        });
+        images[picto.imagePath] = base64;
+      } catch (error) {
+        console.error(`Error reading image ${picto.imagePath}:`, error);
+      }
     }
 
     // 2. Build backup data object
@@ -121,6 +139,10 @@ export const exportBackup = async (): Promise<void> => {
         customPhrases: {
           fr: customPhrasesFr,
           en: customPhrasesEn,
+        },
+        customPictograms: {
+          items: customPictos,
+          images,
         },
       },
     };
@@ -215,7 +237,7 @@ export const importBackup = async (): Promise<void> => {
     await clearAllData();
 
     // 8. Restore data in order
-    const { userProfile, favorites, customPhrases } = backup.data;
+    const { userProfile, favorites, customPhrases, customPictograms } = backup.data;
 
     // Restore user profile
     if (userProfile) {
@@ -239,6 +261,28 @@ export const importBackup = async (): Promise<void> => {
     for (const phrase of customPhrases.en) {
       const { id, createdAt, updatedAt, ...phraseData } = phrase;
       await addCustomPhrase(phraseData);
+    }
+
+    // Restore custom pictograms
+    if (customPictograms) {
+      // Create custom_pictograms directory
+      const customPictogramsDir = `${FileSystem.documentDirectory}custom_pictograms/`;
+      await FileSystem.makeDirectoryAsync(customPictogramsDir, { intermediates: true })
+        .catch(() => {}); // Ignore if already exists
+
+      // Restore images from base64
+      for (const [imagePath, base64] of Object.entries(customPictograms.images)) {
+        const filePath = `${FileSystem.documentDirectory}${imagePath}`;
+        await FileSystem.writeAsStringAsync(filePath, base64, {
+          encoding: FileSystem.EncodingType.Base64,
+        }).catch(console.error);
+      }
+
+      // Restore DB records
+      for (const picto of customPictograms.items) {
+        const { id, createdAt, updatedAt, ...pictoData } = picto;
+        await createCustomPictogram(pictoData);
+      }
     }
 
     // 9. Clean up temporary file

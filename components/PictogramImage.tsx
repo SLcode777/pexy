@@ -8,17 +8,22 @@ interface PictogramImageProps {
 }
 
 /**
- * Component that displays either an emoji or a webp image
+ * Component that displays either an emoji, a webp image, or a local file
  * Automatically detects the type based on the source string
  */
 export function PictogramImage({ source, size = 48, style }: PictogramImageProps) {
-  // Check if it's an image path (contains .webp or starts with assets/)
-  const isImage = source.includes('.webp') || source.startsWith('assets/');
+  // Check if it's a local file URI
+  const isLocalFile = source.startsWith('file://');
+
+  // Check if it's an image path (contains .webp, starts with assets/, or is a local file)
+  const isImage = source.includes('.webp') || source.startsWith('assets/') || isLocalFile;
 
   if (isImage) {
-    // It's a webp image - use Image component
-    // Get the image from the auto-generated mapping
-    const imageSource = PICTOGRAM_IMAGE_MAP[source] || { uri: source };
+    // It's an image - use Image component
+    // For local files, use { uri: source }, otherwise use the mapping
+    const imageSource = isLocalFile
+      ? { uri: source }
+      : (PICTOGRAM_IMAGE_MAP[source] || { uri: source });
 
     return (
       <Image

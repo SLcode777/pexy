@@ -1,4 +1,4 @@
-import { UserProfile, CustomPhrase } from "@/lib/db/schema";
+import { UserProfile, CustomPhrase, CustomPictogram } from "@/lib/db/schema";
 
 /**
  * Backup data structure
@@ -15,6 +15,10 @@ export interface BackupData {
     customPhrases: {
       fr: CustomPhrase[];
       en: CustomPhrase[];
+    };
+    customPictograms?: {
+      items: CustomPictogram[];
+      images: Record<string, string>; // imagePath -> base64
     };
   };
 }

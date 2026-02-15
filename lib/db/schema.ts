@@ -40,6 +40,20 @@ export const customPhrases = sqliteTable('custom_phrases', {
   updatedAt: text('updated_at').default(sql`CURRENT_TIMESTAMP`),
 });
 
+/**
+ * Custom Pictograms table
+ * Stores user-created custom pictograms with photos
+ */
+export const customPictograms = sqliteTable('custom_pictograms', {
+  id: integer('id').primaryKey({ autoIncrement: true }),
+  customId: text('custom_id').notNull().unique(),
+  name: text('name').notNull(),
+  imagePath: text('image_path').notNull(),
+  categoryId: text('category_id').notNull().default('custom'),
+  createdAt: text('created_at').default(sql`CURRENT_TIMESTAMP`),
+  updatedAt: text('updated_at').default(sql`CURRENT_TIMESTAMP`),
+});
+
 // Export types for TypeScript
 export type UserProfile = typeof userProfile.$inferSelect;
 export type NewUserProfile = typeof userProfile.$inferInsert;
@@ -49,3 +63,6 @@ export type NewFavorite = typeof favorites.$inferInsert;
 
 export type CustomPhrase = typeof customPhrases.$inferSelect;
 export type NewCustomPhrase = typeof customPhrases.$inferInsert;
+
+export type CustomPictogram = typeof customPictograms.$inferSelect;
+export type NewCustomPictogram = typeof customPictograms.$inferInsert;

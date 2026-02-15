@@ -1,5 +1,7 @@
 import { drizzle } from 'drizzle-orm/expo-sqlite';
 import { openDatabaseSync } from 'expo-sqlite';
+import * as FileSystem from 'expo-file-system';
+import * as FileSystemLegacy from 'expo-file-system/legacy';
 import * as schema from './schema';
 
 const DATABASE_NAME = 'pexy.db';
@@ -11,7 +13,7 @@ const expoDb = openDatabaseSync(DATABASE_NAME);
 export const db = drizzle(expoDb, { schema });
 
 // Initialize database (create tables)
-export const initDatabase = () => {
+export const initDatabase = async () => {
   try {
     // Create user_profile table
     expoDb.execSync(`
@@ -49,6 +51,19 @@ export const initDatabase = () => {
       );
     `);
 
+    // Create custom_pictograms table
+    expoDb.execSync(`
+      CREATE TABLE IF NOT EXISTS custom_pictograms (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        custom_id TEXT NOT NULL UNIQUE,
+        name TEXT NOT NULL,
+        image_path TEXT NOT NULL,
+        category_id TEXT NOT NULL DEFAULT 'custom',
+        created_at TEXT DEFAULT CURRENT_TIMESTAMP,
+        updated_at TEXT DEFAULT CURRENT_TIMESTAMP
+      );
+    `);
+
     // Create indexes
     expoDb.execSync(`
       CREATE INDEX IF NOT EXISTS idx_favorites_pictogram ON favorites(pictogram_id);
@@ -57,6 +72,15 @@ export const initDatabase = () => {
     expoDb.execSync(`
       CREATE INDEX IF NOT EXISTS idx_custom_phrases_pictogram ON custom_phrases(pictogram_id);
     `);
+
+    expoDb.execSync(`
+      CREATE INDEX IF NOT EXISTS idx_custom_pictograms_custom_id ON custom_pictograms(custom_id);
+    `);
+
+    // Create custom_pictograms directory
+    const customPictogramsDir = `${FileSystemLegacy.documentDirectory}custom_pictograms/`;
+    await FileSystemLegacy.makeDirectoryAsync(customPictogramsDir, { intermediates: true })
+      .catch(() => {}); // Ignore if already exists
 
     // Migrations: Add tts_voice_id column if it doesn't exist
     try {

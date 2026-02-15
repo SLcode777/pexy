@@ -2,10 +2,19 @@ import { Category } from "@/types";
 import { Colors } from "./colors";
 
 /**
- * All categories for the app (31 categories)
+ * All categories for the app (32 categories)
  */
 
 export const CATEGORIES: Category[] = [
+  {
+    id: "custom",
+    icon: "✨",
+    color: Colors.primary,
+    translations: {
+      fr: "Pictogrammes personnalisés",
+      en: "Custom Pictograms",
+    },
+  },
   {
     id: "letters",
     icon: "🔤",
