@@ -1,3 +1,5 @@
+import PINCodeModal from "@/components/PINCodeModal";
+import SetPINModal from "@/components/SetPINModal";
 import { Colors } from "@/constants/colors";
 import { useBackup } from "@/hooks/useBackup";
 import { useUserProfile } from "@/hooks/useUserProfile";
@@ -8,17 +10,17 @@ import {
   speak,
   type TTSVoice,
 } from "@/lib/tts";
-import { useRouter, useFocusEffect } from "expo-router";
-import React, { useEffect, useState, useCallback } from "react";
+import * as Clipboard from "expo-clipboard";
+import { useFocusEffect, useRouter } from "expo-router";
+import React, { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import PINCodeModal from "@/components/PINCodeModal";
-import SetPINModal from "@/components/SetPINModal";
 import {
   ActivityIndicator,
   Alert,
   Image,
   Linking,
   Modal,
+  Pressable,
   ScrollView,
   StyleSheet,
   Text,
@@ -69,7 +71,7 @@ export default function SettingsScreen() {
       if (profile?.pinCode) {
         setIsAuthenticated(false);
       }
-    }, [profile?.pinCode])
+    }, [profile?.pinCode]),
   );
 
   const loadVoices = async (lang?: string) => {
@@ -184,13 +186,18 @@ export default function SettingsScreen() {
     setIsFirstTimeSettingPin(false);
 
     Alert.alert(
-      "✅ Code PIN défini",
-      "Votre code PIN a été enregistré avec succès.",
+      t("settings.pin_set_success_title"),
+      t("settings.pin_set_success_message"),
     );
   };
 
   const handleChangePin = () => {
     setIsSettingPin(true);
+  };
+
+  const handleCopyEmail = async () => {
+    await Clipboard.setStringAsync("sl.code.777@gmail.com");
+    Alert.alert("✅", t("settings.pin_copied"));
   };
 
   const handleResetDatabase = () => {
@@ -267,9 +274,19 @@ export default function SettingsScreen() {
       <SetPINModal
         visible={isFirstTimeSettingPin || isSettingPin}
         onSuccess={handleSetPin}
-        onCancel={isFirstTimeSettingPin ? undefined : () => setIsSettingPin(false)}
-        title={isFirstTimeSettingPin ? "🔐 Protégez vos paramètres" : "🔐 Modifier le code PIN"}
-        subtitle={isFirstTimeSettingPin ? "Définissez un code à 4 chiffres" : "Choisissez un nouveau code"}
+        onCancel={
+          isFirstTimeSettingPin ? undefined : () => setIsSettingPin(false)
+        }
+        title={
+          isFirstTimeSettingPin
+            ? "🔐 Protégez vos paramètres"
+            : "🔐 Modifier le code PIN"
+        }
+        subtitle={
+          isFirstTimeSettingPin
+            ? "Définissez un code à 4 chiffres"
+            : "Choisissez un nouveau code"
+        }
       />
 
       <ScrollView contentContainerStyle={styles.content}>
@@ -292,13 +309,13 @@ export default function SettingsScreen() {
 
         {/* PIN Code Security */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>🔐 Code PIN</Text>
+          <Text style={styles.sectionTitle}>🔐 {t("settings.pin_code")}</Text>
           <TouchableOpacity style={styles.card} onPress={handleChangePin}>
             <View style={styles.cardContent}>
               <View>
-                <Text style={styles.label}>Sécurité des paramètres</Text>
+                <Text style={styles.label}>{t("settings.pin_security")}</Text>
                 <Text style={styles.value}>
-                  {profile?.pinCode ? "Code PIN activé" : "Aucun code PIN"}
+                  {profile?.pinCode ? t("settings.pin_active") : t("settings.pin_inactive")}
                 </Text>
               </View>
               <Text style={styles.editIcon}>✏️</Text>
@@ -407,7 +424,7 @@ export default function SettingsScreen() {
             style={styles.testSpeedButton}
             onPress={() => handleTestSpeed(profile?.ttsSpeed || 1.0)}
           >
-            <Text style={styles.testSpeedButtonText}>🔊 Tester la vitesse</Text>
+            <Text style={styles.testSpeedButtonText}>🔊 {t("settings.tts_test_speed")}</Text>
           </TouchableOpacity>
         </View>
 
@@ -420,7 +437,7 @@ export default function SettingsScreen() {
           {/* Voices list */}
           {voices.length === 0 ? (
             <View style={styles.emptyContainer}>
-              <Text style={styles.emptyText}>Aucune voix disponible</Text>
+              <Text style={styles.emptyText}>{t("settings.tts_no_voice")}</Text>
             </View>
           ) : (
             <View style={styles.voicesList}>{voices.map(renderVoiceItem)}</View>
@@ -474,38 +491,52 @@ export default function SettingsScreen() {
           <Text style={styles.backupHint}>{t("settings.backup_hint")}</Text>
 
           {/* Support Section */}
+
+          <View style={styles.emailContainer}>
+            <Text style={styles.emailText}>
+              {t("settings.contact_email")}{" "}
+            </Text>
+            <Pressable onPress={handleCopyEmail}>
+              <Text style={(styles.emailText, styles.emailLink)}>
+                sl.code.777@gmail.com
+              </Text>
+            </Pressable>
+          </View>
+
           <View style={styles.supportContainer}>
             <Text style={styles.supportTextCentered}>
-              Développé avec 💙 par la maman d’un merveilleux petit garçon avec
-              TSA.
+              {t("settings.developed_with_love")}
             </Text>
 
             <Text style={styles.supportTextCentered}>
-              Cette application est gratuite et le restera toujours.
+              {t("settings.app_free")}
             </Text>
             <Text style={styles.supportTextCentered}>
-              Si vous avez envie de me soutenir, vous pouvez m’adresser un
-              paiement à hauteur de votre générosité et/ou de vos moyens.
+              {t("settings.support_message")}
             </Text>
             <TouchableOpacity
               style={styles.supportButton}
               onPress={() => Linking.openURL("https://ko-fi.com/slcode")}
             >
-              <Image source={kofiButton} style={styles.kofiImage} resizeMode="contain" />
+              <Image
+                source={kofiButton}
+                style={styles.kofiImage}
+                resizeMode="contain"
+              />
             </TouchableOpacity>
             <Text style={styles.supportTextCentered}>
-              J’afficherais le nom de tous mes généreux donnateurs ci-dessous.
+              {t("settings.donors_list")}
             </Text>
-            <Text style={styles.supportTextCentered}>Merci 🙏</Text>
+            <Text style={styles.supportTextCentered}>{t("settings.thank_you")}</Text>
           </View>
 
           <View style={styles.todoContainer}>
-            <Text style={styles.todoText}>Ce qu’il reste à faire :</Text>
+            <Text style={styles.todoText}>{t("settings.todo_title")}</Text>
             <Text style={styles.todoText}>
-              - améliorer la pertinence des phrases
+              - {t("settings.todo_improve_phrases")}
             </Text>
             <Text style={styles.todoText}>
-              - faire de jolis pictogrammes (comme ceux de la catégorie Ecole)
+              - {t("settings.todo_improve_pictos")}
             </Text>
           </View>
 
@@ -533,12 +564,12 @@ export default function SettingsScreen() {
       >
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
-            <Text style={styles.modalTitle}>Modifier le nom</Text>
+            <Text style={styles.modalTitle}>{t("settings.edit_name_modal_title")}</Text>
             <TextInput
               style={styles.modalInput}
               value={editedName}
               onChangeText={setEditedName}
-              placeholder="Nom du profil"
+              placeholder={t("settings.profile_name_placeholder")}
               placeholderTextColor={Colors.textSecondary}
               autoFocus
               maxLength={50}
@@ -548,14 +579,14 @@ export default function SettingsScreen() {
                 style={[styles.modalButton, styles.modalButtonCancel]}
                 onPress={handleCancelEditName}
               >
-                <Text style={styles.modalButtonTextCancel}>Annuler</Text>
+                <Text style={styles.modalButtonTextCancel}>{t("common.cancel")}</Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[styles.modalButton, styles.modalButtonSave]}
                 onPress={handleSaveName}
                 disabled={!editedName.trim()}
               >
-                <Text style={styles.modalButtonTextSave}>Enregistrer</Text>
+                <Text style={styles.modalButtonTextSave}>{t("common.save")}</Text>
               </TouchableOpacity>
             </View>
           </View>
@@ -880,7 +911,7 @@ const styles = StyleSheet.create({
   },
   resetButton: {
     marginTop: 16,
-    backgroundColor: Colors.coral,
+    backgroundColor: Colors.primaryDark,
     padding: 16,
     borderRadius: 12,
     borderColor: Colors.border,
@@ -889,7 +920,7 @@ const styles = StyleSheet.create({
   resetButtonText: {
     fontSize: 14,
     fontWeight: "600",
-    color: Colors.text,
+    color: Colors.darkText,
   },
   supportContainer: {
     padding: 10,
@@ -915,11 +946,38 @@ const styles = StyleSheet.create({
     marginTop: 6,
     marginBottom: 16,
     padding: 10,
-    backgroundColor: Colors.coral,
+    backgroundColor: Colors.primaryDark,
     borderRadius: 12,
   },
   todoText: {
+    color: Colors.darkText,
+    fontSize: 14,
+  },
+  feedbackContainer: {
+    marginTop: 6,
+    marginBottom: 16,
+    padding: 10,
+    backgroundColor: Colors.primaryDark,
+    borderRadius: 12,
+  },
+  feedbackText: {
+    color: Colors.darkText,
+    fontSize: 14,
+  },
+  emailContainer: {
+    marginTop: 6,
+    marginBottom: 16,
+    padding: 10,
+    backgroundColor: Colors.coral,
+    borderRadius: 12,
+  },
+  emailText: {
     color: Colors.text,
     fontSize: 14,
+  },
+  emailLink: {
+    textDecorationLine: "underline",
+    color: Colors.primaryDark,
+    fontWeight: "600",
   },
 });

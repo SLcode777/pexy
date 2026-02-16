@@ -3,43 +3,43 @@
   "pictograms": [
     {
       "id": "table_1",
-      "image": "1️⃣✖️",
+      "image": "1️⃣",
       "translations": {
         "fr": {
           "label": "Table de 1",
           "phrases": [
-            { "emoji": "➕", "text": "1 fois 1 égale 1." },
-            { "emoji": "➕", "text": "1 fois 2 égale 2." },
-            { "emoji": "➕", "text": "1 fois 3 égale 3." },
-            { "emoji": "➕", "text": "1 fois 4 égale 4." },
-            { "emoji": "➕", "text": "1 fois 5 égale 5." },
-            { "emoji": "➕", "text": "1 fois 6 égale 6." },
-            { "emoji": "➕", "text": "1 fois 7 égale 7." },
-            { "emoji": "➕", "text": "1 fois 8 égale 8." },
-            { "emoji": "➕", "text": "1 fois 9 égale 9." },
-            { "emoji": "➕", "text": "1 fois 10 égale 10." }
+            { "emoji": "✖️", "text": "1 fois 1 égale 1." },
+            { "emoji": "✖️", "text": "1 fois 2 égale 2." },
+            { "emoji": "✖️", "text": "1 fois 3 égale 3." },
+            { "emoji": "✖️", "text": "1 fois 4 égale 4." },
+            { "emoji": "✖️", "text": "1 fois 5 égale 5." },
+            { "emoji": "✖️", "text": "1 fois 6 égale 6." },
+            { "emoji": "✖️", "text": "1 fois 7 égale 7." },
+            { "emoji": "✖️", "text": "1 fois 8 égale 8." },
+            { "emoji": "✖️", "text": "1 fois 9 égale 9." },
+            { "emoji": "✖️", "text": "1 fois 10 égale 10." }
           ]
         },
         "en": {
           "label": "1 Times Table",
           "phrases": [
-            { "emoji": "➕", "text": "1 times 1 equals 1." },
-            { "emoji": "➕", "text": "1 times 2 equals 2." },
-            { "emoji": "➕", "text": "1 times 3 equals 3." },
-            { "emoji": "➕", "text": "1 times 4 equals 4." },
-            { "emoji": "➕", "text": "1 times 5 equals 5." },
-            { "emoji": "➕", "text": "1 times 6 equals 6." },
-            { "emoji": "➕", "text": "1 times 7 equals 7." },
-            { "emoji": "➕", "text": "1 times 8 equals 8." },
-            { "emoji": "➕", "text": "1 times 9 equals 9." },
-            { "emoji": "➕", "text": "1 times 10 equals 10." }
+            { "emoji": "✖️", "text": "1 times 1 equals 1." },
+            { "emoji": "✖️", "text": "1 times 2 equals 2." },
+            { "emoji": "✖️", "text": "1 times 3 equals 3." },
+            { "emoji": "✖️", "text": "1 times 4 equals 4." },
+            { "emoji": "✖️", "text": "1 times 5 equals 5." },
+            { "emoji": "✖️", "text": "1 times 6 equals 6." },
+            { "emoji": "✖️", "text": "1 times 7 equals 7." },
+            { "emoji": "✖️", "text": "1 times 8 equals 8." },
+            { "emoji": "✖️", "text": "1 times 9 equals 9." },
+            { "emoji": "✖️", "text": "1 times 10 equals 10." }
           ]
         }
       }
     },
     {
       "id": "table_2",
-      "image": "2️⃣✖️",
+      "image": "2️⃣",
       "translations": {
         "fr": {
           "label": "Table de 2",
@@ -75,7 +75,7 @@
     },
     {
       "id": "table_3",
-      "image": "3️⃣✖️",
+      "image": "3️⃣",
       "translations": {
         "fr": {
           "label": "Table de 3",
@@ -111,7 +111,7 @@
     },
     {
       "id": "table_4",
-      "image": "4️⃣✖️",
+      "image": "4️⃣",
       "translations": {
         "fr": {
           "label": "Table de 4",
@@ -147,7 +147,7 @@
     },
     {
       "id": "table_5",
-      "image": "5️⃣✖️",
+      "image": "5️⃣",
       "translations": {
         "fr": {
           "label": "Table de 5",
@@ -183,7 +183,7 @@
     },
     {
       "id": "table_6",
-      "image": "6️⃣✖️",
+      "image": "6️⃣",
       "translations": {
         "fr": {
           "label": "Table de 6",
@@ -219,7 +219,7 @@
     },
     {
       "id": "table_7",
-      "image": "7️⃣✖️",
+      "image": "7️⃣",
       "translations": {
         "fr": {
           "label": "Table de 7",
@@ -255,7 +255,7 @@
     },
     {
       "id": "table_8",
-      "image": "8️⃣✖️",
+      "image": "8️⃣",
       "translations": {
         "fr": {
           "label": "Table de 8",
@@ -291,7 +291,7 @@
     },
     {
       "id": "table_9",
-      "image": "9️⃣✖️",
+      "image": "9️⃣",
       "translations": {
         "fr": {
           "label": "Table de 9",
@@ -327,7 +327,7 @@
     },
     {
       "id": "table_10",
-      "image": "🔟✖️",
+      "image": "🔟",
       "translations": {
         "fr": {
           "label": "Table de 10",

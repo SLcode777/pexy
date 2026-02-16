@@ -303,7 +303,7 @@
     },
     {
       "id": "eleven",
-      "image": "1️⃣1️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Onze",
@@ -333,7 +333,7 @@
     },
     {
       "id": "twelve",
-      "image": "1️⃣2️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Douze",
@@ -363,7 +363,7 @@
     },
     {
       "id": "thirteen",
-      "image": "1️⃣3️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Treize",
@@ -393,7 +393,7 @@
     },
     {
       "id": "fourteen",
-      "image": "1️⃣4️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Quatorze",
@@ -423,7 +423,7 @@
     },
     {
       "id": "fifteen",
-      "image": "1️⃣5️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Quinze",
@@ -453,7 +453,7 @@
     },
     {
       "id": "sixteen",
-      "image": "1️⃣6️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Seize",
@@ -483,7 +483,7 @@
     },
     {
       "id": "seventeen",
-      "image": "1️⃣7️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Dix-Sept",
@@ -513,7 +513,7 @@
     },
     {
       "id": "eighteen",
-      "image": "1️⃣8️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Dix-Huit",
@@ -543,7 +543,7 @@
     },
     {
       "id": "nineteen",
-      "image": "1️⃣9️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Dix-Neuf",
@@ -573,7 +573,7 @@
     },
     {
       "id": "twenty",
-      "image": "2️⃣0️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Vingt",
@@ -597,7 +597,7 @@
     },
     {
       "id": "thirty",
-      "image": "3️⃣0️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Trente",
@@ -621,7 +621,7 @@
     },
     {
       "id": "forty",
-      "image": "4️⃣0️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Quarante",
@@ -645,7 +645,7 @@
     },
     {
       "id": "fifty",
-      "image": "5️⃣0️⃣",
+      "image": "🔢",
       "translations": {
         "fr": {
           "label": "Cinquante",
