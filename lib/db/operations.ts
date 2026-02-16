@@ -173,9 +173,14 @@ export const deleteCustomPictogram = async (customId: string) => {
 
   if (picto) {
     // 1. Delete image file
-    const filePath = `${FileSystemLegacy.documentDirectory}${picto.imagePath}`;
-    const file = new FileSystem.File(filePath);
-    await file.delete().catch(console.error);
+    try {
+      const filePath = `${FileSystemLegacy.documentDirectory}${picto.imagePath}`;
+      const file = new FileSystem.File(filePath);
+      await file.delete();
+    } catch (err) {
+      console.error(`⚠️ Failed to delete image ${picto.imagePath}:`, err);
+      // Continue even if image deletion fails
+    }
 
     // 2. Delete associated phrases (CASCADE)
     await db.delete(customPhrases).where(eq(customPhrases.pictogramId, customId));
@@ -194,17 +199,42 @@ export const deleteCustomPictogram = async (customId: string) => {
  * Used for backup restore to ensure clean state
  */
 export const clearAllData = async () => {
-  // Delete custom pictogram images
-  const customPictos = await getCustomPictograms();
-  for (const picto of customPictos) {
-    const filePath = `${FileSystemLegacy.documentDirectory}${picto.imagePath}`;
-    const file = new FileSystem.File(filePath);
-    await file.delete().catch(console.error);
-  }
+  try {
+    console.log('🗑️ Starting clearAllData...');
 
-  // Delete DB records
-  await db.delete(customPictograms);
-  await db.delete(customPhrases);
-  await db.delete(favorites);
-  await db.delete(userProfile);
+    // Delete custom pictogram images
+    const customPictos = await getCustomPictograms();
+    console.log(`🖼️ Found ${customPictos.length} custom pictograms to delete`);
+
+    for (const picto of customPictos) {
+      try {
+        const filePath = `${FileSystemLegacy.documentDirectory}${picto.imagePath}`;
+        const file = new FileSystem.File(filePath);
+        await file.delete();
+        console.log(`✅ Deleted image: ${picto.imagePath}`);
+      } catch (err) {
+        console.error(`⚠️ Failed to delete image ${picto.imagePath}:`, err);
+        // Continue even if image deletion fails
+      }
+    }
+
+    // Delete DB records
+    console.log('🗃️ Deleting database records...');
+    await db.delete(customPictograms);
+    console.log('✅ Deleted custom pictograms');
+
+    await db.delete(customPhrases);
+    console.log('✅ Deleted custom phrases');
+
+    await db.delete(favorites);
+    console.log('✅ Deleted favorites');
+
+    await db.delete(userProfile);
+    console.log('✅ Deleted user profile');
+
+    console.log('🎉 clearAllData completed successfully');
+  } catch (error) {
+    console.error('❌ Error in clearAllData:', error);
+    throw error;
+  }
 };

@@ -20,11 +20,13 @@ export default function ProfileScreen() {
 
   const handleNext = () => {
     if (name.trim()) {
-      // Navigate to avatar selection with the name
+      // Navigate directly to welcome
       router.push({
         // @ts-expect-error - Expo Router group routes typing issue
-        pathname: "/(onboarding)/avatar",
-        params: { name: name.trim() },
+        pathname: "/(onboarding)/welcome",
+        params: {
+          name: name.trim(),
+        },
       });
     }
   };

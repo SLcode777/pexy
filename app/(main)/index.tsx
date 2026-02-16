@@ -9,6 +9,7 @@ import { useTranslation } from "react-i18next";
 import {
   Dimensions,
   FlatList,
+  Image,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -28,6 +29,7 @@ export default function HomeScreen() {
   const { t, i18n } = useTranslation();
   const insets = useSafeAreaInsets();
   const [userName, setUserName] = useState("");
+  const pexy = require("@/assets/images/no-bg-Pexy-mascot.webp");
 
   useEffect(() => {
     loadUserProfile();
@@ -78,9 +80,8 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container} edges={["top"]}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.greeting}>
-          🦊 Bonjour {userName || "Utilisateur"}
-        </Text>
+        <Text style={styles.greeting}>Bonjour {userName || "Utilisateur"}</Text>
+        <Image source={pexy} style={styles.pexy} />
       </View>
 
       {/* Search bar */}
@@ -118,13 +119,21 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.background,
   },
   header: {
-    padding: 24,
-    paddingTop: 16,
+    paddingHorizontal: 24,
+    paddingTop: 10,
+    paddingBottom: 6,
+    flexDirection: "row",
+    justifyContent: "space-between",
+    alignItems: "center",
   },
   greeting: {
     fontSize: 24,
     fontWeight: "bold",
     color: Colors.text,
+  },
+  pexy: {
+    width: 50,
+    height: 50,
   },
   searchContainer: {
     flexDirection: "row",

@@ -15,9 +15,8 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 export default function WelcomeScreen() {
   const { t, i18n } = useTranslation();
-  const { name, avatarId } = useLocalSearchParams<{
+  const { name } = useLocalSearchParams<{
     name: string;
-    avatarId: string;
   }>();
   const [isCreating, setIsCreating] = useState(false);
 
@@ -30,12 +29,11 @@ export default function WelcomeScreen() {
       // Create user profile in database
       await createUserProfile({
         name,
-        avatarId,
         language: i18n.language,
         ttsSpeed: 1.0,
       });
 
-      console.log("✅ User profile created:", { name, avatarId });
+      console.log("✅ User profile created:", { name });
 
       // Navigate to main app
       // @ts-expect-error - Expo Router group routes typing issue

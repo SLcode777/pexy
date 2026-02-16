@@ -3,6 +3,7 @@
     "search_placeholder": "Cherche un mot ou une phrase...",
     "favorites": "Favoris",
     "add_phrase": "Ajouter une nouvelle phrase",
+    "pictos": "Pictogrammes",
     "settings": "Paramètres",
     "cancel": "Annuler",
     "save": "Enregistrer",
@@ -17,11 +18,6 @@
     "welcome_title": "Félicitations !",
     "welcome_message": "Ton profil d'utilisateur est complété. Tu peux commencer à utiliser l'application Pexy",
     "welcome_button": "Démarrer",
-    "avatar_title": "Choisis un avatar !",
-    "avatar_message": "Choisis un avatar pour la personne qui va utiliser cette application.",
-    "avatar_filter_boy": "Garçon",
-    "avatar_filter_girl": "Fille",
-    "avatar_filter_mixed": "Mixte",
     "profile_title": "Créé un profil !",
     "profile_message": "Indique le prénom de la personne qui va utiliser cette application.",
     "profile_placeholder": "ton nom"
@@ -60,7 +56,6 @@
   "settings": {
     "title": "Paramètres",
     "profile_name": "Nom du profil",
-    "avatar": "Avatar",
     "language": "Langue",
     "tts_speed": "Vitesse de lecture",
     "tts_speed_slow": "Lent",

@@ -30,15 +30,6 @@ export interface Category {
   translations: CategoryTranslation;
 }
 
-// Avatar types
-export type AvatarGender = "boy" | "girl" | "mixed";
-
-export interface Avatar {
-  id: string;
-  gender: AvatarGender;
-  image: string;
-}
-
 // Settings types
 export interface AppSettings {
   language: string;

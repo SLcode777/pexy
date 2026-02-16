@@ -31,7 +31,7 @@ export default function MainLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: t("categories.activities"),
+          title: t("common.pictos"),
           tabBarIcon: ({ color }) => (
             <RNText style={{ fontSize: 22, paddingBottom: 2 }}>🏠</RNText>
           ),

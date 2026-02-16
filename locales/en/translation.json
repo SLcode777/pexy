@@ -3,6 +3,7 @@
     "search_placeholder": "Type your phrases...",
     "favorites": "Favorites",
     "add_phrase": "Add a new phrase",
+    "pictos": "Pictograms",
     "settings": "Settings",
     "cancel": "Cancel",
     "save": "Save",
@@ -17,11 +18,6 @@
     "welcome_title": "Congratulations!",
     "welcome_message": "Your user profile is complete. You can start using the Pexy AAC application",
     "welcome_button": "Get Started",
-    "avatar_title": "Choose an avatar!",
-    "avatar_message": "Choose an avatar for the person who will use this AAC application.",
-    "avatar_filter_boy": "Boy",
-    "avatar_filter_girl": "Girl",
-    "avatar_filter_mixed": "Mixed",
     "profile_title": "Create a profile!",
     "profile_message": "Choose a profile name or tell us the first name of the person who will use this application.",
     "profile_placeholder": "your name"
@@ -60,7 +56,6 @@
   "settings": {
     "title": "Settings",
     "profile_name": "Profile name",
-    "avatar": "Avatar",
     "language": "Language",
     "tts_speed": "Speech speed",
     "tts_speed_slow": "Slow",

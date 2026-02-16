@@ -214,6 +214,7 @@ export default function SettingsScreen() {
               await clearAllData();
               router.replace("/(onboarding)/profile");
             } catch (error) {
+              console.error("Error resetting database:", error);
               Alert.alert("Error", "Failed to reset database");
             }
           },

@@ -8,7 +8,6 @@ import { sql } from 'drizzle-orm';
 export const userProfile = sqliteTable('user_profile', {
   id: integer('id').primaryKey({ autoIncrement: true }),
   name: text('name').notNull(),
-  avatarId: text('avatar_id').notNull(),
   language: text('language').notNull().default('fr'),
   ttsSpeed: real('tts_speed').notNull().default(1.0),
   ttsVoiceId: text('tts_voice_id'), // ID de la voix TTS préférée

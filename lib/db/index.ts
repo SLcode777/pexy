@@ -20,7 +20,6 @@ export const initDatabase = async () => {
       CREATE TABLE IF NOT EXISTS user_profile (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         name TEXT NOT NULL,
-        avatar_id TEXT NOT NULL,
         language TEXT NOT NULL DEFAULT 'fr',
         tts_speed REAL NOT NULL DEFAULT 1.0,
         tts_voice_id TEXT,
@@ -111,6 +110,22 @@ export const initDatabase = async () => {
           ALTER TABLE user_profile ADD COLUMN pin_code TEXT;
         `);
         console.log('✅ Migration completed: pin_code column added');
+      }
+    } catch (error) {
+      console.error('⚠️ Migration error (non-critical):', error);
+    }
+
+    // Migrations: Remove avatar_id column if it exists
+    try {
+      const tableInfo = expoDb.getAllSync('PRAGMA table_info(user_profile)') as any[];
+      const hasAvatarIdColumn = tableInfo.some((col: any) => col.name === 'avatar_id');
+
+      if (hasAvatarIdColumn) {
+        console.log('🔄 Removing avatar_id column from user_profile...');
+        expoDb.execSync(`
+          ALTER TABLE user_profile DROP COLUMN avatar_id;
+        `);
+        console.log('✅ Migration completed: avatar_id column removed');
       }
     } catch (error) {
       console.error('⚠️ Migration error (non-critical):', error);
