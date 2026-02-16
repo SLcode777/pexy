@@ -12,7 +12,7 @@ export const Colors = {
   lavender: "#F0E5FF",
   peach: "#FFE5D9",
   lightGreen: "#E8F5E9",
-  coral: "#FFE0E5",
+  coral: "#FDD1D5",
 
   // Primary colors
   primary: "#BEE1FC",

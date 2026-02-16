@@ -8,12 +8,16 @@ import {
   speak,
   type TTSVoice,
 } from "@/lib/tts";
-import { useRouter } from "expo-router";
-import { useEffect, useState } from "react";
+import { useRouter, useFocusEffect } from "expo-router";
+import React, { useEffect, useState, useCallback } from "react";
 import { useTranslation } from "react-i18next";
+import PINCodeModal from "@/components/PINCodeModal";
+import SetPINModal from "@/components/SetPINModal";
 import {
   ActivityIndicator,
   Alert,
+  Image,
+  Linking,
   Modal,
   ScrollView,
   StyleSheet,
@@ -35,6 +39,11 @@ export default function SettingsScreen() {
   const [selectedVoiceId, setSelectedVoiceId] = useState<string | null>(null);
   const [isEditingName, setIsEditingName] = useState(false);
   const [editedName, setEditedName] = useState("");
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [isSettingPin, setIsSettingPin] = useState(false);
+  const [isFirstTimeSettingPin, setIsFirstTimeSettingPin] = useState(false);
+
+  const kofiButton = require("@/assets/images/support_me_on_kofi_beige.webp");
 
   useEffect(() => {
     loadVoices();
@@ -43,8 +52,25 @@ export default function SettingsScreen() {
   useEffect(() => {
     if (profile) {
       setSelectedVoiceId(profile.ttsVoiceId || null);
+
+      // Si l'utilisateur n'a pas de PIN, proposer d'en créer un
+      if (!profile.pinCode) {
+        setIsFirstTimeSettingPin(true);
+        setIsAuthenticated(true); // Autoriser l'accès pour la première fois
+      }
     }
   }, [profile]);
+
+  // Réinitialiser l'authentification quand l'utilisateur revient sur cette page
+  useFocusEffect(
+    useCallback(() => {
+      // Quand la page prend le focus, réinitialiser l'authentification
+      // (sauf si c'est la première fois et qu'il n'y a pas de PIN)
+      if (profile?.pinCode) {
+        setIsAuthenticated(false);
+      }
+    }, [profile?.pinCode])
+  );
 
   const loadVoices = async (lang?: string) => {
     setLoadingVoices(true);
@@ -147,6 +173,26 @@ export default function SettingsScreen() {
     });
   };
 
+  const handleSetPin = async (pin: string) => {
+    if (!profile) return;
+
+    await updateUserProfile(profile.id, {
+      pinCode: pin,
+    });
+    await refreshProfile();
+    setIsSettingPin(false);
+    setIsFirstTimeSettingPin(false);
+
+    Alert.alert(
+      "✅ Code PIN défini",
+      "Votre code PIN a été enregistré avec succès.",
+    );
+  };
+
+  const handleChangePin = () => {
+    setIsSettingPin(true);
+  };
+
   const handleResetDatabase = () => {
     Alert.alert(
       "⚠️ Reset Database (Dev)",
@@ -207,6 +253,25 @@ export default function SettingsScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
+      {/* Modal de code PIN pour vérification */}
+      {profile?.pinCode && (
+        <PINCodeModal
+          visible={!isAuthenticated}
+          onSuccess={() => setIsAuthenticated(true)}
+          correctPIN={profile.pinCode}
+          onCancel={() => router.back()}
+        />
+      )}
+
+      {/* Modal pour définir/modifier le code PIN */}
+      <SetPINModal
+        visible={isFirstTimeSettingPin || isSettingPin}
+        onSuccess={handleSetPin}
+        onCancel={isFirstTimeSettingPin ? undefined : () => setIsSettingPin(false)}
+        title={isFirstTimeSettingPin ? "🔐 Protégez vos paramètres" : "🔐 Modifier le code PIN"}
+        subtitle={isFirstTimeSettingPin ? "Définissez un code à 4 chiffres" : "Choisissez un nouveau code"}
+      />
+
       <ScrollView contentContainerStyle={styles.content}>
         {/* Header */}
         <Text style={styles.title}>⚙️ {t("settings.title")}</Text>
@@ -219,6 +284,22 @@ export default function SettingsScreen() {
               <View>
                 <Text style={styles.label}>{t("settings.profile_name")}</Text>
                 <Text style={styles.value}>{profile?.name}</Text>
+              </View>
+              <Text style={styles.editIcon}>✏️</Text>
+            </View>
+          </TouchableOpacity>
+        </View>
+
+        {/* PIN Code Security */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>🔐 Code PIN</Text>
+          <TouchableOpacity style={styles.card} onPress={handleChangePin}>
+            <View style={styles.cardContent}>
+              <View>
+                <Text style={styles.label}>Sécurité des paramètres</Text>
+                <Text style={styles.value}>
+                  {profile?.pinCode ? "Code PIN activé" : "Aucun code PIN"}
+                </Text>
               </View>
               <Text style={styles.editIcon}>✏️</Text>
             </View>
@@ -391,6 +472,42 @@ export default function SettingsScreen() {
           </View>
 
           <Text style={styles.backupHint}>{t("settings.backup_hint")}</Text>
+
+          {/* Support Section */}
+          <View style={styles.supportContainer}>
+            <Text style={styles.supportTextCentered}>
+              Développé avec 💙 par la maman d’un merveilleux petit garçon avec
+              TSA.
+            </Text>
+
+            <Text style={styles.supportTextCentered}>
+              Cette application est gratuite et le restera toujours.
+            </Text>
+            <Text style={styles.supportTextCentered}>
+              Si vous avez envie de me soutenir, vous pouvez m’adresser un
+              paiement à hauteur de votre générosité et/ou de vos moyens.
+            </Text>
+            <TouchableOpacity
+              style={styles.supportButton}
+              onPress={() => Linking.openURL("https://ko-fi.com/slcode")}
+            >
+              <Image source={kofiButton} style={styles.kofiImage} resizeMode="contain" />
+            </TouchableOpacity>
+            <Text style={styles.supportTextCentered}>
+              J’afficherais le nom de tous mes généreux donnateurs ci-dessous.
+            </Text>
+            <Text style={styles.supportTextCentered}>Merci 🙏</Text>
+          </View>
+
+          <View style={styles.todoContainer}>
+            <Text style={styles.todoText}>Ce qu’il reste à faire :</Text>
+            <Text style={styles.todoText}>
+              - améliorer la pertinence des phrases
+            </Text>
+            <Text style={styles.todoText}>
+              - faire de jolis pictogrammes (comme ceux de la catégorie Ecole)
+            </Text>
+          </View>
 
           {/* Dev: Reset Database Button */}
           {__DEV__ && (
@@ -590,7 +707,7 @@ const styles = StyleSheet.create({
     color: Colors.text,
   },
   tabTextActive: {
-    color: Colors.darkText,
+    color: Colors.text,
   },
   voicesList: {
     gap: 12,
@@ -710,7 +827,7 @@ const styles = StyleSheet.create({
   modalButtonTextSave: {
     fontSize: 16,
     fontWeight: "600",
-    color: Colors.darkText,
+    color: Colors.text,
   },
   backupButtonsContainer: {
     flexDirection: "column",
@@ -766,7 +883,6 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.coral,
     padding: 16,
     borderRadius: 12,
-    // borderWidth: 1,
     borderColor: Colors.border,
     alignItems: "center",
   },
@@ -774,5 +890,36 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: "600",
     color: Colors.text,
+  },
+  supportContainer: {
+    padding: 10,
+    backgroundColor: Colors.primaryDark,
+    borderRadius: 12,
+  },
+  supportTextCentered: {
+    color: Colors.darkText,
+    marginVertical: 4,
+    fontSize: 14,
+    textAlign: "center",
+  },
+  supportButton: {
+    alignItems: "center",
+    marginVertical: 8,
+    width: "auto",
+  },
+  kofiImage: {
+    width: 180,
+    height: 50,
+  },
+  todoContainer: {
+    marginTop: 6,
+    marginBottom: 16,
+    padding: 10,
+    backgroundColor: Colors.coral,
+    borderRadius: 12,
+  },
+  todoText: {
+    color: Colors.text,
+    fontSize: 14,
   },
 });

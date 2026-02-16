@@ -24,6 +24,7 @@ export const initDatabase = async () => {
         language TEXT NOT NULL DEFAULT 'fr',
         tts_speed REAL NOT NULL DEFAULT 1.0,
         tts_voice_id TEXT,
+        pin_code TEXT,
         created_at TEXT DEFAULT CURRENT_TIMESTAMP,
         updated_at TEXT DEFAULT CURRENT_TIMESTAMP
       );
@@ -94,6 +95,22 @@ export const initDatabase = async () => {
           ALTER TABLE user_profile ADD COLUMN tts_voice_id TEXT;
         `);
         console.log('✅ Migration completed: tts_voice_id column added');
+      }
+    } catch (error) {
+      console.error('⚠️ Migration error (non-critical):', error);
+    }
+
+    // Migrations: Add pin_code column if it doesn't exist
+    try {
+      const tableInfo = expoDb.getAllSync('PRAGMA table_info(user_profile)') as any[];
+      const hasPinCodeColumn = tableInfo.some((col: any) => col.name === 'pin_code');
+
+      if (!hasPinCodeColumn) {
+        console.log('🔄 Adding pin_code column to user_profile...');
+        expoDb.execSync(`
+          ALTER TABLE user_profile ADD COLUMN pin_code TEXT;
+        `);
+        console.log('✅ Migration completed: pin_code column added');
       }
     } catch (error) {
       console.error('⚠️ Migration error (non-critical):', error);
