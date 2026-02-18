@@ -2,9 +2,9 @@
   "expo": {
     "name": "pexy",
     "slug": "pexy",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/icon.png",
     "scheme": "pexy",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -14,13 +14,12 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/icon.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
-      "package": "com.lucysann.pexy"
+      "package": "com.lucysann.pexy",
+      "versionCode": 2
     },
     "web": {
       "output": "static",

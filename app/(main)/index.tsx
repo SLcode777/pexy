@@ -52,7 +52,6 @@ export default function HomeScreen() {
     speakWithPreferences(categoryName);
 
     // Navigate to category page
-    // @ts-expect-error - Expo Router dynamic routes typing issue
     router.push(`/category/${category.id}`);
   };
 
@@ -76,7 +75,11 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container} edges={["top"]}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.greeting}>{userName ? t("common.greeting", { name: userName }) : t("common.greeting_default")}</Text>
+        <Text style={styles.greeting}>
+          {userName
+            ? t("common.greeting", { name: userName })
+            : t("common.greeting_default")}
+        </Text>
         <Image source={pexy} style={styles.pexy} />
       </View>
 
