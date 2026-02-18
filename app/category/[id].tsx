@@ -114,7 +114,7 @@ export default function CategoryScreen() {
   if (!category) {
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.errorText}>Catégorie introuvable</Text>
+        <Text style={styles.errorText}>{t('category.not_found')}</Text>
       </SafeAreaView>
     );
   }
@@ -148,12 +148,12 @@ export default function CategoryScreen() {
       {/* Pictograms grid */}
       {loading ? (
         <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>Chargement...</Text>
+          <Text style={styles.loadingText}>{t('common.loading')}</Text>
         </View>
       ) : pictograms.length === 0 && id !== 'custom' ? (
         <View style={styles.emptyContainer}>
           <Text style={styles.emptyText}>
-            Aucun pictogramme disponible pour cette catégorie
+            {t('category.empty')}
           </Text>
         </View>
       ) : (

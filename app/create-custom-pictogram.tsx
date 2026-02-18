@@ -32,8 +32,8 @@ export default function CreateCustomPictogramModal() {
     const { status } = await ImagePicker.requestCameraPermissionsAsync();
     if (status !== 'granted') {
       Alert.alert(
-        'Permission requise',
-        'L\'application a besoin d\'accéder à la caméra pour prendre des photos.',
+        t('custom_picto.permission_camera_title'),
+        t('custom_picto.permission_camera_message'),
         [{ text: 'OK' }]
       );
       return false;
@@ -45,8 +45,8 @@ export default function CreateCustomPictogramModal() {
     const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
     if (status !== 'granted') {
       Alert.alert(
-        'Permission requise',
-        'L\'application a besoin d\'accéder à la galerie pour sélectionner des photos.',
+        t('custom_picto.permission_gallery_title'),
+        t('custom_picto.permission_gallery_message'),
         [{ text: 'OK' }]
       );
       return false;
@@ -71,7 +71,7 @@ export default function CreateCustomPictogramModal() {
       }
     } catch (error) {
       console.error('Error taking photo:', error);
-      Alert.alert('Erreur', 'Impossible de prendre la photo.');
+      Alert.alert(t('backup.error_title'), t('custom_picto.error_camera'));
     }
   };
 
@@ -93,7 +93,7 @@ export default function CreateCustomPictogramModal() {
       }
     } catch (error) {
       console.error('Error choosing photo:', error);
-      Alert.alert('Erreur', 'Impossible de sélectionner la photo.');
+      Alert.alert(t('backup.error_title'), t('custom_picto.error_gallery'));
     }
   };
 
@@ -137,7 +137,7 @@ export default function CreateCustomPictogramModal() {
       router.replace(`/pictogram/custom/${customId}`);
     } catch (error) {
       console.error('Error creating custom pictogram:', error);
-      Alert.alert('Erreur', 'Impossible de créer le pictogramme.');
+      Alert.alert(t('backup.error_title'), t('custom_picto.error_create'));
     } finally {
       setIsSaving(false);
     }
@@ -165,7 +165,7 @@ export default function CreateCustomPictogramModal() {
             <Text style={styles.closeIcon}>{step === 'name' ? '←' : '✖️'}</Text>
           </TouchableOpacity>
           <Text style={styles.title}>
-            {step === 'choose' ? 'Créer un pictogramme' : 'Nommer le pictogramme'}
+            {step === 'choose' ? t('custom_picto.create_title') : t('custom_picto.name_title')}
           </Text>
           <View style={styles.closeButton} />
         </View>
@@ -175,7 +175,7 @@ export default function CreateCustomPictogramModal() {
             // Step 1: Choose source
             <View style={styles.section}>
               <Text style={styles.description}>
-                Choisissez une photo pour créer votre pictogramme personnalisé
+                {t('custom_picto.choose_description')}
               </Text>
 
               <TouchableOpacity
@@ -184,9 +184,9 @@ export default function CreateCustomPictogramModal() {
                 activeOpacity={0.7}
               >
                 <Text style={styles.choiceIcon}>📷</Text>
-                <Text style={styles.choiceTitle}>Prendre une photo</Text>
+                <Text style={styles.choiceTitle}>{t('custom_picto.choose_camera')}</Text>
                 <Text style={styles.choiceDescription}>
-                  Utilisez la caméra pour photographier un objet
+                  {t('custom_picto.camera_description')}
                 </Text>
               </TouchableOpacity>
 
@@ -196,9 +196,9 @@ export default function CreateCustomPictogramModal() {
                 activeOpacity={0.7}
               >
                 <Text style={styles.choiceIcon}>🖼️</Text>
-                <Text style={styles.choiceTitle}>Choisir dans la galerie</Text>
+                <Text style={styles.choiceTitle}>{t('custom_picto.choose_gallery')}</Text>
                 <Text style={styles.choiceDescription}>
-                  Sélectionnez une photo existante
+                  {t('custom_picto.gallery_description')}
                 </Text>
               </TouchableOpacity>
             </View>
@@ -216,10 +216,10 @@ export default function CreateCustomPictogramModal() {
 
               {/* Name input */}
               <View style={styles.inputSection}>
-                <Text style={styles.label}>Nom du pictogramme *</Text>
+                <Text style={styles.label}>{t('custom_picto.name_label')}</Text>
                 <TextInput
                   style={styles.input}
-                  placeholder="Ex: Mon doudou"
+                  placeholder={t('custom_picto.name_placeholder')}
                   placeholderTextColor={Colors.textSecondary}
                   value={pictogramName}
                   onChangeText={setPictogramName}
@@ -241,7 +241,7 @@ export default function CreateCustomPictogramModal() {
               disabled={!pictogramName.trim() || isSaving}
             >
               <Text style={styles.createButtonText}>
-                {isSaving ? 'Création...' : 'Créer'}
+                {isSaving ? t('custom_picto.creating') : t('custom_picto.create_button')}
               </Text>
             </TouchableOpacity>
           </View>

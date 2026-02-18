@@ -1,6 +1,9 @@
 {
   "common": {
     "search_placeholder": "Cherche un mot ou une phrase...",
+    "search_input_placeholder": "Rechercher...",
+    "search_hint": "Tapez pour rechercher",
+    "search_no_results": "Aucun résultat trouvé",
     "favorites": "Favoris",
     "add_phrase": "Ajouter une nouvelle phrase",
     "pictos": "Pictogrammes",
@@ -12,7 +15,10 @@
     "close": "Fermer",
     "next": "Suivant",
     "back": "Retour",
-    "done": "Terminé"
+    "done": "Terminé",
+    "loading": "Chargement...",
+    "greeting": "Bonjour {{name}}",
+    "greeting_default": "Bonjour Utilisateur"
   },
   "onboarding": {
     "welcome_title": "Félicitations !",
@@ -63,6 +69,21 @@
     "tts_speed_fast": "Rapide",
     "tts_test_speed": "Tester la vitesse",
     "tts_no_voice": "Aucune voix disponible",
+    "tts_voices_title": "Voix Text-to-Speech ({{count}} disponibles)",
+    "tts_voice_test": "C'est une voix test.",
+    "tts_speed_test_text": "Ceci est un test de vitesse de lecture.",
+    "profile_section": "Profil",
+    "pin_modal_title": "🔒 Code PIN",
+    "pin_modal_subtitle": "Entrez le code pour accéder aux paramètres",
+    "pin_modal_error": "Code incorrect, réessayez",
+    "pin_set_title": "🔐 Définir un code PIN",
+    "pin_set_subtitle": "Choisissez un code à 4 chiffres",
+    "pin_confirm_subtitle": "Confirmez votre code PIN",
+    "pin_mismatch": "Les codes ne correspondent pas",
+    "pin_protect_title": "🔐 Protégez vos paramètres",
+    "pin_change_title": "🔐 Modifier le code PIN",
+    "pin_protect_subtitle": "Définissez un code à 4 chiffres",
+    "pin_change_subtitle": "Choisissez un nouveau code",
     "about": "À propos",
     "data_management": "Gestion des données",
     "export_backup": "Exporter mes données",
@@ -101,13 +122,43 @@
     "error_version": "Backup incompatible avec cette version de l'app.",
     "error_no_data": "Aucune donnée à sauvegarder. Créez d'abord un profil."
   },
+  "favorites": {
+    "empty_text": "Aucun favori pour le moment",
+    "empty_subtext": "Appuyez sur l'étoile sur un pictogramme pour l'ajouter à vos favoris"
+  },
+  "category": {
+    "not_found": "Catégorie introuvable",
+    "empty": "Aucun pictogramme disponible pour cette catégorie"
+  },
+  "pictogram": {
+    "not_found": "Pictogramme introuvable",
+    "delete_phrase_title": "Supprimer la phrase",
+    "delete_phrase_message": "Voulez-vous vraiment supprimer \"{{text}}\" ?"
+  },
+  "add_phrase": {
+    "title": "Ajouter une phrase",
+    "emoji_label": "Emoji (optionnel)",
+    "phrase_label": "Texte de la phrase *",
+    "phrase_placeholder": "Ex: Je veux aller au parc.",
+    "preview_label": "Aperçu",
+    "saving": "Enregistrement..."
+  },
   "custom_picto": {
     "create_title": "Créer un pictogramme",
+    "name_title": "Nommer le pictogramme",
+    "choose_description": "Choisissez une photo pour créer votre pictogramme personnalisé",
     "choose_camera": "Prendre une photo",
+    "camera_description": "Utilisez la caméra pour photographier un objet",
     "choose_gallery": "Choisir dans la galerie",
-    "name_label": "Nom du pictogramme",
+    "gallery_description": "Sélectionnez une photo existante",
+    "name_label": "Nom du pictogramme *",
     "name_placeholder": "Ex: Mon doudou",
     "create_button": "Créer",
+    "creating": "Création...",
+    "error_camera": "Impossible de prendre la photo.",
+    "error_gallery": "Impossible de sélectionner la photo.",
+    "error_create": "Impossible de créer le pictogramme.",
+    "delete_title": "Supprimer le pictogramme",
     "delete_confirm": "Voulez-vous vraiment supprimer ce pictogramme ? Toutes les phrases associées seront également supprimées.",
     "permission_camera_title": "Permission requise",
     "permission_camera_message": "L'application a besoin d'accéder à la caméra pour prendre des photos.",

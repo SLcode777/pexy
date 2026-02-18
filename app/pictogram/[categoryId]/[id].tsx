@@ -39,7 +39,7 @@ export default function PictogramScreen() {
     categoryId: string;
     id: string;
   }>();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const insets = useSafeAreaInsets();
   const [pictogram, setPictogram] = useState<Pictogram | null>(null);
   const [loading, setLoading] = useState(true);
@@ -125,11 +125,11 @@ export default function PictogramScreen() {
 
   const handleDeleteCustomPhrase = (customPhrase: CustomPhrase) => {
     Alert.alert(
-      "Supprimer la phrase",
-      `Voulez-vous vraiment supprimer "${customPhrase.text}" ?`,
+      t("pictogram.delete_phrase_title"),
+      t("pictogram.delete_phrase_message", { text: customPhrase.text }),
       [
         {
-          text: "Supprimer",
+          text: t("common.delete"),
           style: "destructive",
           onPress: async () => {
             await deleteCustomPhrase(customPhrase.id);
@@ -137,7 +137,7 @@ export default function PictogramScreen() {
           },
         },
         {
-          text: "Annuler",
+          text: t("common.cancel"),
           style: "cancel",
         },
       ],
@@ -146,15 +146,15 @@ export default function PictogramScreen() {
 
   const handleDeleteCustomPictogram = () => {
     Alert.alert(
-      "Supprimer le pictogramme",
-      "Voulez-vous vraiment supprimer ce pictogramme ? Toutes les phrases associées seront également supprimées.",
+      t("custom_picto.delete_title"),
+      t("custom_picto.delete_confirm"),
       [
         {
-          text: "Annuler",
+          text: t("common.cancel"),
           style: "cancel",
         },
         {
-          text: "Supprimer",
+          text: t("common.delete"),
           style: "destructive",
           onPress: async () => {
             await deleteCustomPictogram(id);
@@ -169,7 +169,7 @@ export default function PictogramScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>Chargement...</Text>
+          <Text style={styles.loadingText}>{t('common.loading')}</Text>
         </View>
       </SafeAreaView>
     );
@@ -178,7 +178,7 @@ export default function PictogramScreen() {
   if (!pictogram) {
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.errorText}>Pictogramme introuvable</Text>
+        <Text style={styles.errorText}>{t('pictogram.not_found')}</Text>
       </SafeAreaView>
     );
   }
@@ -279,7 +279,7 @@ export default function PictogramScreen() {
           >
             <Text style={styles.addPhraseIcon}>➕</Text>
             <Text style={styles.addPhraseText}>
-              Ajouter une nouvelle phrase
+              {t('common.add_phrase')}
             </Text>
           </TouchableOpacity>
         </View>

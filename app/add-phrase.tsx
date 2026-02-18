@@ -70,14 +70,14 @@ export default function AddPhraseModal() {
           <TouchableOpacity onPress={() => router.back()} style={styles.closeButton}>
             <Text style={styles.closeIcon}>✖️</Text>
           </TouchableOpacity>
-          <Text style={styles.title}>Ajouter une phrase</Text>
+          <Text style={styles.title}>{t('add_phrase.title')}</Text>
           <View style={styles.closeButton} />
         </View>
 
         <ScrollView contentContainerStyle={styles.content}>
           {/* Emoji selection */}
           <View style={styles.section}>
-            <Text style={styles.label}>Emoji (optionnel)</Text>
+            <Text style={styles.label}>{t('add_phrase.emoji_label')}</Text>
             <View style={styles.emojiGrid}>
               {COMMON_EMOJIS.map((emoji) => (
                 <TouchableOpacity
@@ -96,10 +96,10 @@ export default function AddPhraseModal() {
 
           {/* Phrase input */}
           <View style={styles.section}>
-            <Text style={styles.label}>Texte de la phrase *</Text>
+            <Text style={styles.label}>{t('add_phrase.phrase_label')}</Text>
             <TextInput
               style={styles.input}
-              placeholder="Ex: Je veux aller au parc."
+              placeholder={t('add_phrase.phrase_placeholder')}
               placeholderTextColor={Colors.textSecondary}
               value={phraseText}
               onChangeText={setPhraseText}
@@ -114,7 +114,7 @@ export default function AddPhraseModal() {
           {/* Preview */}
           {phraseText.trim() && (
             <View style={styles.section}>
-              <Text style={styles.label}>Aperçu</Text>
+              <Text style={styles.label}>{t('add_phrase.preview_label')}</Text>
               <View style={styles.preview}>
                 {selectedEmoji && <Text style={styles.previewEmoji}>{selectedEmoji}</Text>}
                 <Text style={styles.previewText}>{phraseText}</Text>
@@ -131,7 +131,7 @@ export default function AddPhraseModal() {
             disabled={!phraseText.trim() || isSaving}
           >
             <Text style={styles.saveButtonText}>
-              {isSaving ? 'Enregistrement...' : 'Enregistrer'}
+              {isSaving ? t('add_phrase.saving') : t('common.save')}
             </Text>
           </TouchableOpacity>
         </View>

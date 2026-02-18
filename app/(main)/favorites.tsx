@@ -93,9 +93,9 @@ export default function FavoritesScreen() {
       {pictograms.length === 0 ? (
         <View style={styles.emptyContainer}>
           <Text style={styles.emptyIcon}>⭐</Text>
-          <Text style={styles.emptyText}>Aucun favori pour le moment</Text>
+          <Text style={styles.emptyText}>{t('favorites.empty_text')}</Text>
           <Text style={styles.emptySubtext}>
-            Appuyez sur l'étoile sur un pictogramme pour l'ajouter à vos favoris
+            {t('favorites.empty_subtext')}
           </Text>
         </View>
       ) : (

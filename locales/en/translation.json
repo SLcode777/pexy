@@ -1,6 +1,9 @@
 {
   "common": {
     "search_placeholder": "Type your phrases...",
+    "search_input_placeholder": "Search...",
+    "search_hint": "Type to search",
+    "search_no_results": "No results found",
     "favorites": "Favorites",
     "add_phrase": "Add a new phrase",
     "pictos": "Pictograms",
@@ -12,7 +15,10 @@
     "close": "Close",
     "next": "Next",
     "back": "Back",
-    "done": "Done"
+    "done": "Done",
+    "loading": "Loading...",
+    "greeting": "Hello {{name}}",
+    "greeting_default": "Hello there"
   },
   "onboarding": {
     "welcome_title": "Congratulations!",
@@ -63,6 +69,21 @@
     "tts_speed_fast": "Fast",
     "tts_test_speed": "Test speed",
     "tts_no_voice": "No voice available",
+    "tts_voices_title": "Text-to-Speech Voices ({{count}} available)",
+    "tts_voice_test": "Hello, I am a text-to-speech voice.",
+    "tts_speed_test_text": "This is a speech speed test.",
+    "profile_section": "Profile",
+    "pin_modal_title": "🔒 PIN Code",
+    "pin_modal_subtitle": "Enter the code to access settings",
+    "pin_modal_error": "Incorrect code, try again",
+    "pin_set_title": "🔐 Set a PIN code",
+    "pin_set_subtitle": "Choose a 4-digit code",
+    "pin_confirm_subtitle": "Confirm your PIN code",
+    "pin_mismatch": "Codes don't match",
+    "pin_protect_title": "🔐 Protect your settings",
+    "pin_change_title": "🔐 Change PIN code",
+    "pin_protect_subtitle": "Set a 4-digit code",
+    "pin_change_subtitle": "Choose a new code",
     "about": "About",
     "data_management": "Data Management",
     "export_backup": "Export My Data",
@@ -101,13 +122,43 @@
     "error_version": "Backup incompatible with this app version.",
     "error_no_data": "No data to back up. Create a profile first."
   },
+  "favorites": {
+    "empty_text": "No favorites yet",
+    "empty_subtext": "Tap the star on a pictogram to add it to your favorites"
+  },
+  "category": {
+    "not_found": "Category not found",
+    "empty": "No pictograms available for this category"
+  },
+  "pictogram": {
+    "not_found": "Pictogram not found",
+    "delete_phrase_title": "Delete phrase",
+    "delete_phrase_message": "Do you really want to delete \"{{text}}\"?"
+  },
+  "add_phrase": {
+    "title": "Add a phrase",
+    "emoji_label": "Emoji (optional)",
+    "phrase_label": "Phrase text *",
+    "phrase_placeholder": "Ex: I want to go to the park.",
+    "preview_label": "Preview",
+    "saving": "Saving..."
+  },
   "custom_picto": {
     "create_title": "Create a pictogram",
+    "name_title": "Name the pictogram",
+    "choose_description": "Choose a photo to create your custom pictogram",
     "choose_camera": "Take a photo",
+    "camera_description": "Use the camera to photograph an object",
     "choose_gallery": "Choose from gallery",
-    "name_label": "Pictogram name",
+    "gallery_description": "Select an existing photo",
+    "name_label": "Pictogram name *",
     "name_placeholder": "Ex: My teddy bear",
     "create_button": "Create",
+    "creating": "Creating...",
+    "error_camera": "Unable to take the photo.",
+    "error_gallery": "Unable to select the photo.",
+    "error_create": "Unable to create the pictogram.",
+    "delete_title": "Delete pictogram",
     "delete_confirm": "Do you really want to delete this pictogram? All associated phrases will also be deleted.",
     "permission_camera_title": "Permission required",
     "permission_camera_message": "The app needs to access the camera to take photos.",

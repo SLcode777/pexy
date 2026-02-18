@@ -1,5 +1,6 @@
 import { Colors } from "@/constants/colors";
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import {
   Modal,
   StyleSheet,
@@ -21,9 +22,12 @@ export default function SetPINModal({
   visible,
   onSuccess,
   onCancel,
-  title = "🔐 Définir un code PIN",
-  subtitle = "Choisissez un code à 4 chiffres",
+  title,
+  subtitle,
 }: SetPINModalProps) {
+  const { t } = useTranslation();
+  const resolvedTitle = title ?? t("settings.pin_set_title");
+  const resolvedSubtitle = subtitle ?? t("settings.pin_set_subtitle");
   const [pin, setPin] = useState("");
   const [confirmPin, setConfirmPin] = useState("");
   const [step, setStep] = useState<"enter" | "confirm">("enter");
@@ -56,7 +60,7 @@ export default function SetPINModal({
               onSuccess(pin);
               resetState();
             } else {
-              setError("Les codes ne correspondent pas");
+              setError(t("settings.pin_mismatch"));
               Vibration.vibrate(500);
               setTimeout(() => {
                 setConfirmPin("");
@@ -164,11 +168,11 @@ export default function SetPINModal({
     >
       <View style={styles.overlay}>
         <View style={styles.container}>
-          <Text style={styles.title}>{title}</Text>
+          <Text style={styles.title}>{resolvedTitle}</Text>
           <Text style={styles.subtitle}>
             {step === "enter"
-              ? subtitle
-              : "Confirmez votre code PIN"}
+              ? resolvedSubtitle
+              : t("settings.pin_confirm_subtitle")}
           </Text>
 
           {renderDots()}
@@ -179,7 +183,7 @@ export default function SetPINModal({
 
           {onCancel && (
             <TouchableOpacity style={styles.cancelButton} onPress={handleCancel}>
-              <Text style={styles.cancelButtonText}>Annuler</Text>
+              <Text style={styles.cancelButtonText}>{t("common.cancel")}</Text>
             </TouchableOpacity>
           )}
         </View>

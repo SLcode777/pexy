@@ -26,7 +26,7 @@ interface SearchResult {
 }
 
 export default function SearchScreen() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const insets = useSafeAreaInsets();
   const [searchQuery, setSearchQuery] = useState('');
   const [results, setResults] = useState<SearchResult[]>([]);
@@ -151,7 +151,7 @@ export default function SearchScreen() {
           <Text style={styles.searchIconHeader}>🔍</Text>
           <TextInput
             style={styles.searchInput}
-            placeholder="Rechercher..."
+            placeholder={t('common.search_input_placeholder')}
             placeholderTextColor={Colors.textSecondary}
             value={searchQuery}
             onChangeText={setSearchQuery}
@@ -171,12 +171,12 @@ export default function SearchScreen() {
       ) : searchQuery.trim() === '' ? (
         <View style={styles.emptyContainer}>
           <Text style={styles.emptyText}>🔍</Text>
-          <Text style={styles.emptySubtext}>Tapez pour rechercher</Text>
+          <Text style={styles.emptySubtext}>{t('common.search_hint')}</Text>
         </View>
       ) : results.length === 0 ? (
         <View style={styles.emptyContainer}>
           <Text style={styles.emptyText}>🤷</Text>
-          <Text style={styles.emptySubtext}>Aucun résultat trouvé</Text>
+          <Text style={styles.emptySubtext}>{t('common.search_no_results')}</Text>
         </View>
       ) : (
         <FlatList

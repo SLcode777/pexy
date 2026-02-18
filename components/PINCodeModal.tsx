@@ -8,6 +8,7 @@ import {
   View,
   Vibration,
 } from "react-native";
+import { useTranslation } from "react-i18next";
 
 interface PINCodeModalProps {
   visible: boolean;
@@ -22,6 +23,7 @@ export default function PINCodeModal({
   correctPIN,
   onCancel,
 }: PINCodeModalProps) {
+  const { t } = useTranslation();
   const [pin, setPin] = useState("");
   const [error, setError] = useState(false);
 
@@ -132,22 +134,22 @@ export default function PINCodeModal({
     >
       <View style={styles.overlay}>
         <View style={styles.container}>
-          <Text style={styles.title}>🔒 Code PIN</Text>
+          <Text style={styles.title}>{t("settings.pin_modal_title")}</Text>
           <Text style={styles.subtitle}>
-            Entrez le code pour accéder aux paramètres
+            {t("settings.pin_modal_subtitle")}
           </Text>
 
           {renderDots()}
 
           {error && (
-            <Text style={styles.errorText}>Code incorrect, réessayez</Text>
+            <Text style={styles.errorText}>{t("settings.pin_modal_error")}</Text>
           )}
 
           {renderKeypad()}
 
           {onCancel && (
             <TouchableOpacity style={styles.cancelButton} onPress={handleCancel}>
-              <Text style={styles.cancelButtonText}>← Retour</Text>
+              <Text style={styles.cancelButtonText}>← {t("common.back")}</Text>
             </TouchableOpacity>
           )}
         </View>

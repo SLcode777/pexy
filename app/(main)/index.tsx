@@ -41,11 +41,7 @@ export default function HomeScreen() {
       setUserName(profile.name);
 
       // Welcome message with TTS
-      const greeting =
-        i18n.language === "fr"
-          ? `Bonjour ${profile.name}`
-          : `Hello ${profile.name}`;
-      speakWithPreferences(greeting);
+      speakWithPreferences(t("common.greeting", { name: profile.name }));
     }
   };
 
@@ -80,7 +76,7 @@ export default function HomeScreen() {
     <SafeAreaView style={styles.container} edges={["top"]}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.greeting}>Bonjour {userName || "Utilisateur"}</Text>
+        <Text style={styles.greeting}>{userName ? t("common.greeting", { name: userName }) : t("common.greeting_default")}</Text>
         <Image source={pexy} style={styles.pexy} />
       </View>
 

@@ -106,10 +106,7 @@ export default function SettingsScreen() {
   };
 
   const handleTestVoice = (voice: TTSVoice) => {
-    const testText =
-      i18n.language === "fr"
-        ? "C'est une voix test."
-        : "Hello, I am a text-to-speech voice.";
+    const testText = t("settings.tts_voice_test");
 
     speak(testText, {
       language: getTTSLanguage(i18n.language),
@@ -163,10 +160,7 @@ export default function SettingsScreen() {
   };
 
   const handleTestSpeed = (speed: number) => {
-    const testText =
-      i18n.language === "fr"
-        ? "Ceci est un test de vitesse de lecture."
-        : "This is a speech speed test.";
+    const testText = t("settings.tts_speed_test_text");
 
     speak(testText, {
       language: getTTSLanguage(i18n.language),
@@ -280,13 +274,13 @@ export default function SettingsScreen() {
         }
         title={
           isFirstTimeSettingPin
-            ? "🔐 Protégez vos paramètres"
-            : "🔐 Modifier le code PIN"
+            ? t("settings.pin_protect_title")
+            : t("settings.pin_change_title")
         }
         subtitle={
           isFirstTimeSettingPin
-            ? "Définissez un code à 4 chiffres"
-            : "Choisissez un nouveau code"
+            ? t("settings.pin_protect_subtitle")
+            : t("settings.pin_change_subtitle")
         }
       />
 
@@ -296,7 +290,7 @@ export default function SettingsScreen() {
 
         {/* Profile info */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>👤 Profil</Text>
+          <Text style={styles.sectionTitle}>👤 {t("settings.profile_section")}</Text>
           <TouchableOpacity style={styles.card} onPress={handleEditName}>
             <View style={styles.cardContent}>
               <View>
@@ -432,7 +426,7 @@ export default function SettingsScreen() {
         {/* Voice selection */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>
-            🎙️ Voix Text-to-Speech ({voices.length} disponibles)
+            🎙️ {t("settings.tts_voices_title", { count: voices.length })}
           </Text>
 
           {/* Voices list */}

@@ -1,4 +1,5 @@
 import { TouchableOpacity, Text, StyleSheet } from 'react-native';
+import { useTranslation } from 'react-i18next';
 import { Colors } from '@/constants/colors';
 
 interface AddCustomPictogramCardProps {
@@ -7,6 +8,7 @@ interface AddCustomPictogramCardProps {
 }
 
 export function AddCustomPictogramCard({ size, onPress }: AddCustomPictogramCardProps) {
+  const { t } = useTranslation();
   return (
     <TouchableOpacity
       style={[styles.card, { width: size, height: size }]}
@@ -14,7 +16,7 @@ export function AddCustomPictogramCard({ size, onPress }: AddCustomPictogramCard
       activeOpacity={0.7}
     >
       <Text style={styles.icon}>➕</Text>
-      <Text style={styles.label}>Créer</Text>
+      <Text style={styles.label}>{t('custom_picto.create_button')}</Text>
     </TouchableOpacity>
   );
 }
