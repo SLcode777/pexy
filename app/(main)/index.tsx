@@ -1,5 +1,6 @@
 import { CATEGORIES } from "@/constants/categories";
 import { Colors } from "@/constants/colors";
+import { CATEGORY_IMAGE_MAP } from "@/components/CategoryImageMap";
 import { getUserProfile } from "@/lib/db/operations";
 import { speakWithPreferences } from "@/lib/speakWithPreferences";
 import type { Category } from "@/types";
@@ -65,8 +66,10 @@ export default function HomeScreen() {
         onPress={() => handleCategoryPress(item)}
         activeOpacity={0.7}
       >
-        <Text style={styles.categoryIcon}>{item.icon}</Text>
-        <Text style={styles.categoryName}>{categoryName}</Text>
+        <Image source={CATEGORY_IMAGE_MAP[item.image]} style={styles.categoryImage} resizeMode="cover" />
+        <View style={styles.categoryLabelOverlay}>
+          <Text style={styles.categoryName}>{categoryName}</Text>
+        </View>
       </TouchableOpacity>
     );
   };
@@ -166,9 +169,7 @@ const styles = StyleSheet.create({
     width: CARD_WIDTH,
     height: CARD_WIDTH,
     borderRadius: 20,
-    padding: 16,
-    justifyContent: "center",
-    alignItems: "center",
+    overflow: "hidden",
     shadowColor: "#000",
     shadowOffset: {
       width: 0,
@@ -178,9 +179,21 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 3,
   },
-  categoryIcon: {
-    fontSize: 48,
-    marginBottom: 8,
+  categoryImage: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+  },
+  categoryLabelOverlay: {
+    position: "absolute",
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: "rgba(255, 255, 255, 0.9)",
+    paddingVertical: 4,
+    paddingHorizontal: 4,
   },
   categoryName: {
     fontSize: 14,

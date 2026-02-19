@@ -26,6 +26,7 @@ export interface CategoryTranslation {
 export interface Category {
   id: string;
   icon: string;
+  image: string;
   color: string;
   translations: CategoryTranslation;
 }

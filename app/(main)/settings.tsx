@@ -79,15 +79,6 @@ export default function SettingsScreen() {
     const languageCode = lang || i18n.language;
     const availableVoices = await getVoicesByLanguage(languageCode);
 
-    console.log(
-      `📢 Loading voices for language: ${languageCode}`,
-      availableVoices.map((v) => ({
-        name: v.name,
-        id: v.identifier,
-        lang: v.language,
-      })),
-    );
-
     setVoices(availableVoices);
     setLoadingVoices(false);
   };
@@ -290,7 +281,9 @@ export default function SettingsScreen() {
 
         {/* Profile info */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>👤 {t("settings.profile_section")}</Text>
+          <Text style={styles.sectionTitle}>
+            👤 {t("settings.profile_section")}
+          </Text>
           <TouchableOpacity style={styles.card} onPress={handleEditName}>
             <View style={styles.cardContent}>
               <View>
@@ -310,7 +303,9 @@ export default function SettingsScreen() {
               <View>
                 <Text style={styles.label}>{t("settings.pin_security")}</Text>
                 <Text style={styles.value}>
-                  {profile?.pinCode ? t("settings.pin_active") : t("settings.pin_inactive")}
+                  {profile?.pinCode
+                    ? t("settings.pin_active")
+                    : t("settings.pin_inactive")}
                 </Text>
               </View>
               <Text style={styles.editIcon}>✏️</Text>
@@ -419,7 +414,9 @@ export default function SettingsScreen() {
             style={styles.testSpeedButton}
             onPress={() => handleTestSpeed(profile?.ttsSpeed || 1.0)}
           >
-            <Text style={styles.testSpeedButtonText}>🔊 {t("settings.tts_test_speed")}</Text>
+            <Text style={styles.testSpeedButtonText}>
+              🔊 {t("settings.tts_test_speed")}
+            </Text>
           </TouchableOpacity>
         </View>
 
@@ -488,9 +485,7 @@ export default function SettingsScreen() {
           {/* Support Section */}
 
           <View style={styles.emailContainer}>
-            <Text style={styles.emailText}>
-              {t("settings.contact_email")}{" "}
-            </Text>
+            <Text style={styles.emailText}>{t("settings.contact_email")} </Text>
             <Pressable onPress={handleCopyEmail}>
               <Text style={(styles.emailText, styles.emailLink)}>
                 sl.code.777@gmail.com
@@ -522,7 +517,9 @@ export default function SettingsScreen() {
             <Text style={styles.supportTextCentered}>
               {t("settings.donors_list")}
             </Text>
-            <Text style={styles.supportTextCentered}>{t("settings.thank_you")}</Text>
+            <Text style={styles.supportTextCentered}>
+              {t("settings.thank_you")}
+            </Text>
           </View>
 
           <View style={styles.todoContainer}>
@@ -559,7 +556,9 @@ export default function SettingsScreen() {
       >
         <View style={styles.modalOverlay}>
           <View style={styles.modalContent}>
-            <Text style={styles.modalTitle}>{t("settings.edit_name_modal_title")}</Text>
+            <Text style={styles.modalTitle}>
+              {t("settings.edit_name_modal_title")}
+            </Text>
             <TextInput
               style={styles.modalInput}
               value={editedName}
@@ -574,14 +573,18 @@ export default function SettingsScreen() {
                 style={[styles.modalButton, styles.modalButtonCancel]}
                 onPress={handleCancelEditName}
               >
-                <Text style={styles.modalButtonTextCancel}>{t("common.cancel")}</Text>
+                <Text style={styles.modalButtonTextCancel}>
+                  {t("common.cancel")}
+                </Text>
               </TouchableOpacity>
               <TouchableOpacity
                 style={[styles.modalButton, styles.modalButtonSave]}
                 onPress={handleSaveName}
                 disabled={!editedName.trim()}
               >
-                <Text style={styles.modalButtonTextSave}>{t("common.save")}</Text>
+                <Text style={styles.modalButtonTextSave}>
+                  {t("common.save")}
+                </Text>
               </TouchableOpacity>
             </View>
           </View>

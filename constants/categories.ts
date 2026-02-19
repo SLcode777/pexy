@@ -9,6 +9,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "custom",
     icon: "✨",
+    image: "assets/categories/custom.webp",
     color: Colors.primary,
     translations: {
       fr: "Pictogrammes personnalisés",
@@ -18,6 +19,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "letters",
     icon: "🔤",
+    image: "assets/categories/letters.webp",
     color: Colors.mintGreen,
     translations: {
       fr: "Lettres",
@@ -27,6 +29,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "numbers",
     icon: "🔢",
+    image: "assets/categories/numbers.webp",
     color: Colors.lightBlue,
     translations: {
       fr: "Nombres",
@@ -36,6 +39,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "multiplications",
     icon: "✖️",
+    image: "assets/categories/multiplications.webp",
     color: Colors.lavender,
     translations: {
       fr: "Multiplications",
@@ -45,6 +49,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "transport",
     icon: "🚗",
+    image: "assets/categories/transport.webp",
     color: Colors.softYellow,
     translations: {
       fr: "Transports",
@@ -54,6 +59,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "clothes",
     icon: "👕",
+    image: "assets/categories/clothes.webp",
     color: Colors.lavender,
     translations: {
       fr: "Vêtements",
@@ -63,6 +69,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "conversation",
     icon: "💬",
+    image: "assets/categories/conversation.webp",
     color: Colors.pink,
     translations: {
       fr: "Conversation",
@@ -72,6 +79,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "people",
     icon: "👥",
+    image: "assets/categories/people.webp",
     color: Colors.peach,
     translations: {
       fr: "Personnes",
@@ -81,6 +89,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "feelings",
     icon: "😊",
+    image: "assets/categories/feelings.webp",
     color: Colors.softYellow,
     translations: {
       fr: "Sentiments",
@@ -90,6 +99,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "food",
     icon: "🍽️",
+    image: "assets/categories/food.webp",
     color: Colors.coral,
     translations: {
       fr: "Nourriture",
@@ -99,6 +109,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "animals",
     icon: "🐾",
+    image: "assets/categories/animals.webp",
     color: Colors.mintGreen,
     translations: {
       fr: "Animaux",
@@ -108,6 +119,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "school",
     icon: "📚",
+    image: "assets/categories/school.webp",
     color: Colors.lightBlue,
     translations: {
       fr: "École",
@@ -117,6 +129,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "activities",
     icon: "🎯",
+    image: "assets/categories/activities.webp",
     color: Colors.lavender,
     translations: {
       fr: "Activités",
@@ -126,6 +139,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "shapes",
     icon: "⬛",
+    image: "assets/categories/shapes.webp",
     color: Colors.pink,
     translations: {
       fr: "Formes",
@@ -135,6 +149,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "colors",
     icon: "🎨",
+    image: "assets/categories/colors.webp",
     color: Colors.peach,
     translations: {
       fr: "Couleurs",
@@ -144,6 +159,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "toys",
     icon: "🧸",
+    image: "assets/categories/toys.webp",
     color: Colors.softYellow,
     translations: {
       fr: "Jouets",
@@ -153,6 +169,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "drinks",
     icon: "🥤",
+    image: "assets/categories/drinks.webp",
     color: Colors.lightBlue,
     translations: {
       fr: "Boissons",
@@ -162,6 +179,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "snacks",
     icon: "🍪",
+    image: "assets/categories/snacks.webp",
     color: Colors.coral,
     translations: {
       fr: "Collations",
@@ -171,6 +189,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "professions",
     icon: "👷",
+    image: "assets/categories/professions.webp",
     color: Colors.mintGreen,
     translations: {
       fr: "Professions",
@@ -180,6 +199,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "party",
     icon: "🎉",
+    image: "assets/categories/party.webp",
     color: Colors.lavender,
     translations: {
       fr: "Fête",
@@ -189,6 +209,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "carnival",
     icon: "🎡",
+    image: "assets/categories/carnival.webp",
     color: Colors.softYellow,
     translations: {
       fr: "Fête Foraine",
@@ -198,6 +219,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "fruits",
     icon: "🍎",
+    image: "assets/categories/fruits.webp",
     color: Colors.pink,
     translations: {
       fr: "Fruits",
@@ -207,6 +229,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "vegetables",
     icon: "🥕",
+    image: "assets/categories/vegetables.webp",
     color: Colors.mintGreen,
     translations: {
       fr: "Légumes",
@@ -216,6 +239,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "sports",
     icon: "⚽",
+    image: "assets/categories/sports.webp",
     color: Colors.peach,
     translations: {
       fr: "Sports",
@@ -225,6 +249,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "travel",
     icon: "✈️",
+    image: "assets/categories/travel.webp",
     color: Colors.lightBlue,
     translations: {
       fr: "Voyage",
@@ -234,6 +259,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "gardening",
     icon: "🌱",
+    image: "assets/categories/gardening.webp",
     color: Colors.mintGreen,
     translations: {
       fr: "Jardinage",
@@ -243,6 +269,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "medical",
     icon: "🏥",
+    image: "assets/categories/medical.webp",
     color: Colors.coral,
     translations: {
       fr: "Médical",
@@ -252,6 +279,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "cooking",
     icon: "🍳",
+    image: "assets/categories/cooking.webp",
     color: Colors.softYellow,
     translations: {
       fr: "Cuisine",
@@ -261,6 +289,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "places",
     icon: "🏛️",
+    image: "assets/categories/places.webp",
     color: Colors.lavender,
     translations: {
       fr: "Lieux",
@@ -270,6 +299,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "selfcare",
     icon: "🧼",
+    image: "assets/categories/selfcare.webp",
     color: Colors.pink,
     translations: {
       fr: "Soin de soi",
@@ -279,6 +309,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "household",
     icon: "🏠",
+    image: "assets/categories/household.webp",
     color: Colors.peach,
     translations: {
       fr: "Dans la maison",
@@ -288,6 +319,7 @@ export const CATEGORIES: Category[] = [
   {
     id: "diabetes",
     icon: "🩸",
+    image: "assets/categories/diabetes.webp",
     color: Colors.coral,
     translations: {
       fr: "Diabète",
