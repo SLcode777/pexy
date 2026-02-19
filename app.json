@@ -2,7 +2,7 @@
   "expo": {
     "name": "Pexy",
     "slug": "pexy",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "scheme": "pexy",
@@ -19,7 +19,7 @@
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.lucysann.pexy",
-      "versionCode": 2
+      "versionCode": 3
     },
     "web": {
       "output": "static",
