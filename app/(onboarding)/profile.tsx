@@ -12,11 +12,12 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { SafeAreaView, useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function ProfileScreen() {
   const { t } = useTranslation();
   const [name, setName] = useState("");
+  const insets = useSafeAreaInsets();
 
   const handleNext = () => {
     if (name.trim()) {
@@ -34,12 +35,12 @@ export default function ProfileScreen() {
   const pexy = require("@/assets/images/no-bg-Pexy-mascot.webp");
 
   return (
-    <SafeAreaView style={styles.safeArea} edges={["top", "bottom"]}>
+    <SafeAreaView style={styles.safeArea} edges={["top"]}>
       <KeyboardAvoidingView
         style={styles.container}
         behavior={Platform.OS === "ios" ? "padding" : "height"}
       >
-        <View style={styles.content}>
+        <View style={[styles.content, { paddingBottom: Math.max(insets.bottom, 24) }]}>
           {/* Title */}
           <Text style={styles.title}>{t("onboarding.profile_title")}</Text>
 

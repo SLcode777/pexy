@@ -31,6 +31,20 @@ export const updateUserProfile = async (
   return result[0];
 };
 
+export const getHiddenCategories = async (): Promise<string[]> => {
+  const profile = await getUserProfile();
+  if (!profile?.hiddenCategories) return [];
+  try {
+    return JSON.parse(profile.hiddenCategories) as string[];
+  } catch {
+    return [];
+  }
+};
+
+export const setHiddenCategories = async (profileId: number, ids: string[]): Promise<void> => {
+  await updateUserProfile(profileId, { hiddenCategories: JSON.stringify(ids) });
+};
+
 export const hasUserProfile = async (): Promise<boolean> => {
   const profile = await getUserProfile();
   return profile !== null;

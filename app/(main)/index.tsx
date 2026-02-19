@@ -1,11 +1,11 @@
 import { CATEGORIES } from "@/constants/categories";
 import { Colors } from "@/constants/colors";
 import { CATEGORY_IMAGE_MAP } from "@/components/CategoryImageMap";
-import { getUserProfile } from "@/lib/db/operations";
+import { getUserProfile, getHiddenCategories } from "@/lib/db/operations";
 import { speakWithPreferences } from "@/lib/speakWithPreferences";
 import type { Category } from "@/types";
-import { router } from "expo-router";
-import { useEffect, useState } from "react";
+import { router, useFocusEffect } from "expo-router";
+import { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
   Dimensions,
@@ -30,11 +30,18 @@ export default function HomeScreen() {
   const { t, i18n } = useTranslation();
   const insets = useSafeAreaInsets();
   const [userName, setUserName] = useState("");
+  const [hiddenCategories, setHiddenCategories] = useState<string[]>([]);
   const pexy = require("@/assets/images/no-bg-Pexy-mascot.webp");
 
   useEffect(() => {
     loadUserProfile();
   }, []);
+
+  useFocusEffect(
+    useCallback(() => {
+      loadHiddenCategories();
+    }, [])
+  );
 
   const loadUserProfile = async () => {
     const profile = await getUserProfile();
@@ -44,6 +51,11 @@ export default function HomeScreen() {
       // Welcome message with TTS
       speakWithPreferences(t("common.greeting", { name: profile.name }));
     }
+  };
+
+  const loadHiddenCategories = async () => {
+    const hidden = await getHiddenCategories();
+    setHiddenCategories(hidden);
   };
 
   const handleCategoryPress = (category: Category) => {
@@ -100,7 +112,7 @@ export default function HomeScreen() {
 
       {/* Categories grid */}
       <FlatList
-        data={CATEGORIES}
+        data={CATEGORIES.filter(c => !hiddenCategories.includes(c.id))}
         renderItem={renderCategory}
         keyExtractor={(item) => item.id}
         numColumns={2}

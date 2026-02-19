@@ -12,6 +12,7 @@ export const userProfile = sqliteTable('user_profile', {
   ttsSpeed: real('tts_speed').notNull().default(1.0),
   ttsVoiceId: text('tts_voice_id'), // ID de la voix TTS préférée
   pinCode: text('pin_code'), // Code PIN à 4 chiffres pour protéger l'accès aux paramètres
+  hiddenCategories: text('hidden_categories'), // JSON array de category IDs, ex: '["drinks","carnival"]'
   createdAt: text('created_at').default(sql`CURRENT_TIMESTAMP`),
   updatedAt: text('updated_at').default(sql`CURRENT_TIMESTAMP`),
 });

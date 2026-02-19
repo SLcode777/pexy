@@ -44,6 +44,7 @@ export default function SettingsScreen() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [isSettingPin, setIsSettingPin] = useState(false);
   const [isFirstTimeSettingPin, setIsFirstTimeSettingPin] = useState(false);
+  const [hiddenCategories, setHiddenCategories] = useState<string[]>([]);
 
   const kofiButton = require("@/assets/images/support_me_on_kofi_beige.webp");
 
@@ -54,6 +55,14 @@ export default function SettingsScreen() {
   useEffect(() => {
     if (profile) {
       setSelectedVoiceId(profile.ttsVoiceId || null);
+
+      // Load hidden categories from profile
+      try {
+        const hidden = profile.hiddenCategories ? JSON.parse(profile.hiddenCategories) as string[] : [];
+        setHiddenCategories(hidden);
+      } catch {
+        setHiddenCategories([]);
+      }
 
       // Si l'utilisateur n'a pas de PIN, proposer d'en créer un
       if (!profile.pinCode) {
@@ -351,6 +360,29 @@ export default function SettingsScreen() {
               </Text>
             </TouchableOpacity>
           </View>
+        </View>
+
+        {/* Visible Categories */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>
+            🗂️ {t("settings.visible_categories_title")}
+          </Text>
+          <TouchableOpacity
+            style={styles.card}
+            onPress={() => router.push("/hidden-categories")}
+          >
+            <View style={styles.cardContent}>
+              <View>
+                <Text style={styles.label}>{t("settings.visible_categories_title")}</Text>
+                <Text style={styles.value}>
+                  {hiddenCategories.length > 0
+                    ? t("settings.visible_categories_hidden_count", { count: hiddenCategories.length })
+                    : t("settings.visible_categories_all_visible")}
+                </Text>
+              </View>
+              <Text style={styles.editIcon}>›</Text>
+            </View>
+          </TouchableOpacity>
         </View>
 
         {/* TTS Speed */}

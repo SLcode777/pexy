@@ -22,7 +22,9 @@
   },
   "onboarding": {
     "welcome_title": "Félicitations !",
-    "welcome_message": "Ton profil d'utilisateur est complété. Tu peux commencer à utiliser l'application Pexy",
+    "welcome_message1": "Ton profil d'utilisateur est complété.",
+    "welcome_message2": "Tu peux commencer à utiliser l'application Pexy.",
+
     "welcome_button": "Démarrer",
     "profile_title": "Créé un profil !",
     "profile_message": "Indique le prénom de la personne qui va utiliser cette application.",
@@ -106,7 +108,11 @@
     "thank_you": "Merci 🙏",
     "todo_title": "Ce qu'il reste encore à faire :",
     "todo_improve_phrases": "améliorer la pertinence des phrases",
-    "todo_improve_pictos": "faire de jolis pictogrammes (comme ceux de la catégorie Ecole)"
+    "todo_improve_pictos": "faire de jolis pictogrammes (comme ceux de la catégorie Ecole)",
+    "visible_categories_title": "Catégories affichées",
+    "visible_categories_hint": "Appuyez sur une catégorie pour la masquer. La catégorie personnalisée est toujours visible.",
+    "visible_categories_all_visible": "Toutes les catégories sont visibles",
+    "visible_categories_hidden_count": "{{count}} catégorie(s) masquée(s)"
   },
   "backup": {
     "export_success_title": "Export réussi",

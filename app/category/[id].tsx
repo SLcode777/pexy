@@ -19,10 +19,7 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import {
-  SafeAreaView,
-  useSafeAreaInsets,
-} from "react-native-safe-area-context";
+import { SafeAreaView } from "react-native-safe-area-context";
 import { useCallback } from "react";
 
 const { width: SCREEN_WIDTH } = Dimensions.get("window");
@@ -33,7 +30,6 @@ const CARD_WIDTH = (SCREEN_WIDTH - HORIZONTAL_PADDING * 2 - CARD_GAP * 2) / 3;
 export default function CategoryScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const { t, i18n } = useTranslation();
-  const insets = useSafeAreaInsets();
   const [pictograms, setPictograms] = useState<Pictogram[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -125,7 +121,7 @@ export default function CategoryScreen() {
   return (
     <SafeAreaView style={styles.container}>
       {/* Header */}
-      <View style={[styles.header, { paddingTop: insets.top + 8 }]}>
+      <View style={styles.header}>
         <TouchableOpacity
           onPress={() => router.back()}
           style={styles.backButton}

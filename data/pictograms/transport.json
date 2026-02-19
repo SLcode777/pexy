@@ -565,10 +565,8 @@
         "fr": {
           "label": "Vaisseau spatial",
           "phrases": [
-            { "emoji": "🚀", "text": "Je vole dans l'espace." },
-            { "emoji": "🌌", "text": "Je voyage dans l'espace." },
-            { "emoji": "👨‍🚀", "text": "Je suis astronaute." },
             { "emoji": "❤️", "text": "J'aime les vaisseaux spatiaux." },
+            { "emoji": "🚀", "text": "Je veux voyager dans l'espace." },
             { "emoji": "👽", "text": "Je veux voir des extraterrestres." },
             { "emoji": "🌕", "text": "Je veux aller sur Mars." }
           ]
@@ -576,10 +574,8 @@
         "en": {
           "label": "Spaceship",
           "phrases": [
-            { "emoji": "🚀", "text": "I'm flying in space." },
-            { "emoji": "🌌", "text": "I'm traveling in space." },
-            { "emoji": "👨‍🚀", "text": "I'm an astronaut." },
             { "emoji": "❤️", "text": "I love spaceships." },
+            { "emoji": "🚀", "text": "I want to travel in space." },
             { "emoji": "👽", "text": "I want to see aliens." },
             { "emoji": "🌕", "text": "I want to go to Mars." }
           ]

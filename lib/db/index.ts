@@ -115,6 +115,22 @@ export const initDatabase = async () => {
       console.error('⚠️ Migration error (non-critical):', error);
     }
 
+    // Migrations: Add hidden_categories column if it doesn't exist
+    try {
+      const tableInfo = expoDb.getAllSync('PRAGMA table_info(user_profile)') as any[];
+      const hasHiddenCategoriesColumn = tableInfo.some((col: any) => col.name === 'hidden_categories');
+
+      if (!hasHiddenCategoriesColumn) {
+        console.log('🔄 Adding hidden_categories column to user_profile...');
+        expoDb.execSync(`
+          ALTER TABLE user_profile ADD COLUMN hidden_categories TEXT;
+        `);
+        console.log('✅ Migration completed: hidden_categories column added');
+      }
+    } catch (error) {
+      console.error('⚠️ Migration error (non-critical):', error);
+    }
+
     // Migrations: Remove avatar_id column if it exists
     try {
       const tableInfo = expoDb.getAllSync('PRAGMA table_info(user_profile)') as any[];

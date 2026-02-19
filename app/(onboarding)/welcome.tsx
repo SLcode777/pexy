@@ -11,7 +11,10 @@ import {
   TouchableOpacity,
   View,
 } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import {
+  SafeAreaView,
+  useSafeAreaInsets,
+} from "react-native-safe-area-context";
 
 export default function WelcomeScreen() {
   const { t, i18n } = useTranslation();
@@ -19,6 +22,7 @@ export default function WelcomeScreen() {
     name: string;
   }>();
   const [isCreating, setIsCreating] = useState(false);
+  const insets = useSafeAreaInsets();
 
   const handleStart = async () => {
     if (isCreating) return;
@@ -36,7 +40,6 @@ export default function WelcomeScreen() {
       console.log("✅ User profile created:", { name });
 
       // Navigate to main app
-      // @ts-expect-error - Expo Router group routes typing issue
       router.replace("/(main)");
     } catch (error) {
       console.error("❌ Error creating user profile:", error);
@@ -47,35 +50,41 @@ export default function WelcomeScreen() {
   const pexy = require("@/assets/images/no-bg-Pexy-mascot.webp");
 
   return (
-    <SafeAreaView style={styles.safeArea} edges={['top', 'bottom']}>
+    <SafeAreaView style={styles.safeArea} edges={["top"]}>
       <View style={styles.container}>
-        <View style={styles.content}>
-        {/* Title */}
-        <Text style={styles.title}>{t("onboarding.welcome_title")}</Text>
-
-        {/* Message */}
-        <Text style={styles.message}>{t("onboarding.welcome_message")}</Text>
-
-        {/* Mascot with sparkles */}
-        <View style={styles.mascotContainer}>
-          <Image source={pexy} width={10} height={10} />
-        </View>
-
-        {/* Start button */}
-        <TouchableOpacity
-          style={styles.button}
-          onPress={handleStart}
-          disabled={isCreating}
+        <View
+          style={[
+            styles.content,
+            { paddingBottom: Math.max(insets.bottom, 24) },
+          ]}
         >
-          {isCreating ? (
-            <ActivityIndicator color={Colors.primary} />
-          ) : (
-            <Text style={styles.buttonText}>
-              {t("onboarding.welcome_button")}
-            </Text>
-          )}
-        </TouchableOpacity>
-      </View>
+          {/* Title */}
+          <Text style={styles.title}>{t("onboarding.welcome_title")}</Text>
+
+          {/* Message */}
+          <Text style={styles.message}>{t("onboarding.welcome_message1")}</Text>
+          <Text style={styles.message}>{t("onboarding.welcome_message2")}</Text>
+
+          {/* Mascot with sparkles */}
+          <View style={styles.mascotContainer}>
+            <Image source={pexy} width={10} height={10} />
+          </View>
+
+          {/* Start button */}
+          <TouchableOpacity
+            style={styles.button}
+            onPress={handleStart}
+            disabled={isCreating}
+          >
+            {isCreating ? (
+              <ActivityIndicator color={Colors.primary} />
+            ) : (
+              <Text style={styles.buttonText}>
+                {t("onboarding.welcome_button")}
+              </Text>
+            )}
+          </TouchableOpacity>
+        </View>
       </View>
     </SafeAreaView>
   );
@@ -106,7 +115,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: Colors.text,
     textAlign: "center",
-    marginBottom: 48,
+    marginBottom: 4,
     paddingHorizontal: 16,
     lineHeight: 24,
   },
