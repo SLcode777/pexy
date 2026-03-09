@@ -21,6 +21,7 @@ export const loadPictograms = async (categoryId: string): Promise<Pictogram[]> =
       shapes: require('@/data/pictograms/shapes.json'),
       colors: require('@/data/pictograms/colors.json'),
       toys: require('@/data/pictograms/toys.json'),
+      drinks: require('@/data/pictograms/drinks.json'),
       fruits: require('@/data/pictograms/fruits.json'),
       vegetables: require('@/data/pictograms/vegetables.json'),
       places: require('@/data/pictograms/places.json'),

@@ -8,19 +8,19 @@
         "fr": {
           "label": "Pomme",
           "phrases": [
-            { "emoji": "🍎", "text": "Je mange une pomme." },
-            { "emoji": "🍎", "text": "Je veux une pomme." },
             { "emoji": "🍎", "text": "J'aime les pommes." },
-            { "emoji": "🍎", "text": "La pomme est croquante." }
+            { "emoji": "🍎", "text": "Je veux une pomme." },
+            { "emoji": "🍎", "text": "Puis-je avoir une pomme ?" },
+            { "emoji": "🍎", "text": "Veux-tu une pomme ?" }
           ]
         },
         "en": {
           "label": "Apple",
           "phrases": [
-            { "emoji": "🍎", "text": "I eat an apple." },
-            { "emoji": "🍎", "text": "I want an apple." },
             { "emoji": "🍎", "text": "I like apples." },
-            { "emoji": "🍎", "text": "The apple is crunchy." }
+            { "emoji": "🍎", "text": "I want an apple." },
+            { "emoji": "🍎", "text": "Can I have an apple?" },
+            { "emoji": "🍎", "text": "Do you want an apple?" }
           ]
         }
       }
@@ -32,19 +32,19 @@
         "fr": {
           "label": "Pastèque",
           "phrases": [
-            { "emoji": "🍉", "text": "Je mange de la pastèque." },
+            { "emoji": "🍉", "text": "J'aime les pastèques." },
             { "emoji": "🍉", "text": "Je veux de la pastèque." },
-            { "emoji": "🍉", "text": "J'aime la pastèque." },
-            { "emoji": "🍉", "text": "La pastèque est juteuse." }
+            { "emoji": "🍉", "text": "Puis-je avoir de la pastèque ?" },
+            { "emoji": "🍉", "text": "Veux-tu de la pastèque ?" }
           ]
         },
         "en": {
           "label": "Watermelon",
           "phrases": [
-            { "emoji": "🍉", "text": "I eat watermelon." },
-            { "emoji": "🍉", "text": "I want watermelon." },
-            { "emoji": "🍉", "text": "I like watermelon." },
-            { "emoji": "🍉", "text": "The watermelon is juicy." }
+            { "emoji": "🍉", "text": "I like watermelons." },
+            { "emoji": "🍉", "text": "I want some watermelon." },
+            { "emoji": "🍉", "text": "Can I have some watermelon?" },
+            { "emoji": "🍉", "text": "Do you want some watermelon?" }
           ]
         }
       }
@@ -56,19 +56,19 @@
         "fr": {
           "label": "Orange",
           "phrases": [
-            { "emoji": "🍊", "text": "Je mange une orange." },
-            { "emoji": "🍊", "text": "Je veux une orange." },
             { "emoji": "🍊", "text": "J'aime les oranges." },
-            { "emoji": "🍊", "text": "L'orange est sucrée." }
+            { "emoji": "🍊", "text": "Je veux une orange." },
+            { "emoji": "🍊", "text": "Puis-je avoir une orange ?" },
+            { "emoji": "🍊", "text": "Veux-tu une orange ?" }
           ]
         },
         "en": {
           "label": "Orange",
           "phrases": [
-            { "emoji": "🍊", "text": "I eat an orange." },
-            { "emoji": "🍊", "text": "I want an orange." },
             { "emoji": "🍊", "text": "I like oranges." },
-            { "emoji": "🍊", "text": "The orange is sweet." }
+            { "emoji": "🍊", "text": "I want an orange." },
+            { "emoji": "🍊", "text": "Can I have an orange?" },
+            { "emoji": "🍊", "text": "Do you want an orange?" }
           ]
         }
       }
@@ -80,19 +80,19 @@
         "fr": {
           "label": "Fraise",
           "phrases": [
-            { "emoji": "🍓", "text": "Je mange une fraise." },
-            { "emoji": "🍓", "text": "Je veux des fraises." },
             { "emoji": "🍓", "text": "J'aime les fraises." },
-            { "emoji": "🍓", "text": "Les fraises sont délicieuses." }
+            { "emoji": "🍓", "text": "Je veux une fraise." },
+            { "emoji": "🍓", "text": "Puis-je avoir une fraise ?" },
+            { "emoji": "🍓", "text": "Veux-tu une fraise ?" }
           ]
         },
         "en": {
           "label": "Strawberry",
           "phrases": [
-            { "emoji": "🍓", "text": "I eat a strawberry." },
-            { "emoji": "🍓", "text": "I want strawberries." },
             { "emoji": "🍓", "text": "I like strawberries." },
-            { "emoji": "🍓", "text": "Strawberries are delicious." }
+            { "emoji": "🍓", "text": "I want a strawberry." },
+            { "emoji": "🍓", "text": "Can I have a strawberry?" },
+            { "emoji": "🍓", "text": "Do you want a strawberry?" }
           ]
         }
       }
@@ -104,19 +104,19 @@
         "fr": {
           "label": "Raisin",
           "phrases": [
-            { "emoji": "🍇", "text": "Je mange du raisin." },
-            { "emoji": "🍇", "text": "Je veux du raisin." },
             { "emoji": "🍇", "text": "J'aime le raisin." },
-            { "emoji": "🍇", "text": "Le raisin est sucré." }
+            { "emoji": "🍇", "text": "Je veux du raisin." },
+            { "emoji": "🍇", "text": "Puis-je avoir du raisin ?" },
+            { "emoji": "🍇", "text": "Veux-tu du raisin ?" }
           ]
         },
         "en": {
           "label": "Grape",
           "phrases": [
-            { "emoji": "🍇", "text": "I eat grapes." },
-            { "emoji": "🍇", "text": "I want grapes." },
             { "emoji": "🍇", "text": "I like grapes." },
-            { "emoji": "🍇", "text": "The grapes are sweet." }
+            { "emoji": "🍇", "text": "I want some grapes." },
+            { "emoji": "🍇", "text": "Can I have some grapes?" },
+            { "emoji": "🍇", "text": "Do you want some grapes?" }
           ]
         }
       }
@@ -128,19 +128,19 @@
         "fr": {
           "label": "Cerise",
           "phrases": [
-            { "emoji": "🍒", "text": "Je mange des cerises." },
-            { "emoji": "🍒", "text": "Je veux des cerises." },
             { "emoji": "🍒", "text": "J'aime les cerises." },
-            { "emoji": "🍒", "text": "Les cerises sont rouges." }
+            { "emoji": "🍒", "text": "Je veux une cerise." },
+            { "emoji": "🍒", "text": "Puis-je avoir une cerise ?" },
+            { "emoji": "🍒", "text": "Veux-tu une cerise ?" }
           ]
         },
         "en": {
           "label": "Cherry",
           "phrases": [
-            { "emoji": "🍒", "text": "I eat cherries." },
-            { "emoji": "🍒", "text": "I want cherries." },
             { "emoji": "🍒", "text": "I like cherries." },
-            { "emoji": "🍒", "text": "The cherries are red." }
+            { "emoji": "🍒", "text": "I want a cherry." },
+            { "emoji": "🍒", "text": "Can I have a cherry?" },
+            { "emoji": "🍒", "text": "Do you want a cherry?" }
           ]
         }
       }
@@ -152,19 +152,19 @@
         "fr": {
           "label": "Mangue",
           "phrases": [
-            { "emoji": "🥭", "text": "Je mange une mangue." },
-            { "emoji": "🥭", "text": "Je veux une mangue." },
             { "emoji": "🥭", "text": "J'aime les mangues." },
-            { "emoji": "🥭", "text": "La mangue est sucrée." }
+            { "emoji": "🥭", "text": "Je veux de la mangue." },
+            { "emoji": "🥭", "text": "Puis-je avoir de la mangue ?" },
+            { "emoji": "🥭", "text": "Veux-tu de la mangue ?" }
           ]
         },
         "en": {
           "label": "Mango",
           "phrases": [
-            { "emoji": "🥭", "text": "I eat a mango." },
-            { "emoji": "🥭", "text": "I want a mango." },
             { "emoji": "🥭", "text": "I like mangoes." },
-            { "emoji": "🥭", "text": "The mango is sweet." }
+            { "emoji": "🥭", "text": "I want some mango." },
+            { "emoji": "🥭", "text": "Can I have some mango?" },
+            { "emoji": "🥭", "text": "Do you want a mango?" }
           ]
         }
       }
@@ -176,19 +176,19 @@
         "fr": {
           "label": "Goyave",
           "phrases": [
-            { "emoji": "🍈", "text": "Je mange une goyave." },
-            { "emoji": "🍈", "text": "Je veux une goyave." },
             { "emoji": "🍈", "text": "J'aime les goyaves." },
-            { "emoji": "🍈", "text": "La goyave est parfumée." }
+            { "emoji": "🍈", "text": "Je veux une goyave." },
+            { "emoji": "🍈", "text": "Puis-je avoir une goyave ?" },
+            { "emoji": "🍈", "text": "Veux-tu une goyave ?" }
           ]
         },
         "en": {
           "label": "Guava",
           "phrases": [
-            { "emoji": "🍈", "text": "I eat a guava." },
-            { "emoji": "🍈", "text": "I want a guava." },
             { "emoji": "🍈", "text": "I like guavas." },
-            { "emoji": "🍈", "text": "The guava is fragrant." }
+            { "emoji": "🍈", "text": "I want a guava." },
+            { "emoji": "🍈", "text": "Can I have a guava?" },
+            { "emoji": "🍈", "text": "Do you want a guava?" }
           ]
         }
       }
@@ -200,19 +200,19 @@
         "fr": {
           "label": "Banane",
           "phrases": [
-            { "emoji": "🍌", "text": "Je mange une banane." },
-            { "emoji": "🍌", "text": "Je veux une banane." },
             { "emoji": "🍌", "text": "J'aime les bananes." },
-            { "emoji": "🍌", "text": "La banane est jaune." }
+            { "emoji": "🍌", "text": "Je veux une banane." },
+            { "emoji": "🍌", "text": "Puis-je avoir une banane ?" },
+            { "emoji": "🍌", "text": "Veux-tu une banane ?" }
           ]
         },
         "en": {
           "label": "Banana",
           "phrases": [
-            { "emoji": "🍌", "text": "I eat a banana." },
-            { "emoji": "🍌", "text": "I want a banana." },
             { "emoji": "🍌", "text": "I like bananas." },
-            { "emoji": "🍌", "text": "The banana is yellow." }
+            { "emoji": "🍌", "text": "I want a banana." },
+            { "emoji": "🍌", "text": "Can I have a banana?" },
+            { "emoji": "🍌", "text": "Do you want a banana?" }
           ]
         }
       }
@@ -224,19 +224,19 @@
         "fr": {
           "label": "Grenade",
           "phrases": [
-            { "emoji": "🍑", "text": "Je mange une grenade." },
-            { "emoji": "🍑", "text": "Je veux une grenade." },
             { "emoji": "🍑", "text": "J'aime les grenades." },
-            { "emoji": "🍑", "text": "La grenade a des graines." }
+            { "emoji": "🍑", "text": "Je veux une grenade." },
+            { "emoji": "🍑", "text": "Puis-je avoir une grenade ?" },
+            { "emoji": "🍑", "text": "Veux-tu une grenade ?" }
           ]
         },
         "en": {
           "label": "Pomegranate",
           "phrases": [
-            { "emoji": "🍑", "text": "I eat a pomegranate." },
-            { "emoji": "🍑", "text": "I want a pomegranate." },
             { "emoji": "🍑", "text": "I like pomegranates." },
-            { "emoji": "🍑", "text": "The pomegranate has seeds." }
+            { "emoji": "🍑", "text": "I want a pomegranate." },
+            { "emoji": "🍑", "text": "Can I have a pomegranate?" },
+            { "emoji": "🍑", "text": "Do you want a pomegranate?" }
           ]
         }
       }
@@ -248,19 +248,19 @@
         "fr": {
           "label": "Framboise",
           "phrases": [
-            { "emoji": "🫐", "text": "Je mange des framboises." },
-            { "emoji": "🫐", "text": "Je veux des framboises." },
             { "emoji": "🫐", "text": "J'aime les framboises." },
-            { "emoji": "🫐", "text": "Les framboises sont petites." }
+            { "emoji": "🫐", "text": "Je veux une framboise." },
+            { "emoji": "🫐", "text": "Puis-je avoir une framboise ?" },
+            { "emoji": "🫐", "text": "Veux-tu une framboise ?" }
           ]
         },
         "en": {
           "label": "Raspberry",
           "phrases": [
-            { "emoji": "🫐", "text": "I eat raspberries." },
-            { "emoji": "🫐", "text": "I want raspberries." },
             { "emoji": "🫐", "text": "I like raspberries." },
-            { "emoji": "🫐", "text": "Raspberries are small." }
+            { "emoji": "🫐", "text": "I want a raspberry." },
+            { "emoji": "🫐", "text": "Can I have a raspberry?" },
+            { "emoji": "🫐", "text": "Do you want a raspberry?" }
           ]
         }
       }
@@ -272,19 +272,19 @@
         "fr": {
           "label": "Papaye",
           "phrases": [
-            { "emoji": "🍈", "text": "Je mange de la papaye." },
-            { "emoji": "🍈", "text": "Je veux de la papaye." },
-            { "emoji": "🍈", "text": "J'aime la papaye." },
-            { "emoji": "🍈", "text": "La papaye est tropicale." }
+            { "emoji": "🍈", "text": "J'aime les papayes." },
+            { "emoji": "🍈", "text": "Je veux une papaye." },
+            { "emoji": "🍈", "text": "Puis-je avoir une papaye ?" },
+            { "emoji": "🍈", "text": "Veux-tu une papaye ?" }
           ]
         },
         "en": {
           "label": "Papaya",
           "phrases": [
-            { "emoji": "🍈", "text": "I eat papaya." },
-            { "emoji": "🍈", "text": "I want papaya." },
-            { "emoji": "🍈", "text": "I like papaya." },
-            { "emoji": "🍈", "text": "Papaya is tropical." }
+            { "emoji": "🍈", "text": "I like papayas." },
+            { "emoji": "🍈", "text": "I want a papaya." },
+            { "emoji": "🍈", "text": "Can I have a papaya?" },
+            { "emoji": "🍈", "text": "Do you want a papaya?" }
           ]
         }
       }
@@ -296,19 +296,19 @@
         "fr": {
           "label": "Kiwi",
           "phrases": [
-            { "emoji": "🥝", "text": "Je mange un kiwi." },
-            { "emoji": "🥝", "text": "Je veux un kiwi." },
             { "emoji": "🥝", "text": "J'aime les kiwis." },
-            { "emoji": "🥝", "text": "Le kiwi est vert." }
+            { "emoji": "🥝", "text": "Je veux un kiwi." },
+            { "emoji": "🥝", "text": "Puis-je avoir un kiwi ?" },
+            { "emoji": "🥝", "text": "Veux-tu un kiwi ?" }
           ]
         },
         "en": {
           "label": "Kiwi",
           "phrases": [
-            { "emoji": "🥝", "text": "I eat a kiwi." },
-            { "emoji": "🥝", "text": "I want a kiwi." },
             { "emoji": "🥝", "text": "I like kiwis." },
-            { "emoji": "🥝", "text": "The kiwi is green." }
+            { "emoji": "🥝", "text": "I want a kiwi." },
+            { "emoji": "🥝", "text": "Can I have a kiwi?" },
+            { "emoji": "🥝", "text": "Do you want a kiwi?" }
           ]
         }
       }
@@ -320,19 +320,19 @@
         "fr": {
           "label": "Ananas",
           "phrases": [
-            { "emoji": "🍍", "text": "Je mange de l'ananas." },
-            { "emoji": "🍍", "text": "Je veux de l'ananas." },
             { "emoji": "🍍", "text": "J'aime l'ananas." },
-            { "emoji": "🍍", "text": "L'ananas est acidulé." }
+            { "emoji": "🍍", "text": "Je veux de l'ananas." },
+            { "emoji": "🍍", "text": "Puis-je avoir de l'ananas ?" },
+            { "emoji": "🍍", "text": "Veux-tu de l'ananas ?" }
           ]
         },
         "en": {
           "label": "Pineapple",
           "phrases": [
-            { "emoji": "🍍", "text": "I eat pineapple." },
-            { "emoji": "🍍", "text": "I want pineapple." },
             { "emoji": "🍍", "text": "I like pineapple." },
-            { "emoji": "🍍", "text": "Pineapple is tangy." }
+            { "emoji": "🍍", "text": "I want some pineapple." },
+            { "emoji": "🍍", "text": "Can I have some pineapple?" },
+            { "emoji": "🍍", "text": "Do you want some pineapple?" }
           ]
         }
       }
@@ -344,19 +344,19 @@
         "fr": {
           "label": "Citron",
           "phrases": [
-            { "emoji": "🍋", "text": "Je mange un citron." },
-            { "emoji": "🍋", "text": "Je veux un citron." },
             { "emoji": "🍋", "text": "J'aime les citrons." },
-            { "emoji": "🍋", "text": "Le citron est acide." }
+            { "emoji": "🍋", "text": "Je veux un citron." },
+            { "emoji": "🍋", "text": "Puis-je avoir un citron ?" },
+            { "emoji": "🍋", "text": "Veux-tu un citron ?" }
           ]
         },
         "en": {
           "label": "Lemon",
           "phrases": [
-            { "emoji": "🍋", "text": "I eat a lemon." },
-            { "emoji": "🍋", "text": "I want a lemon." },
             { "emoji": "🍋", "text": "I like lemons." },
-            { "emoji": "🍋", "text": "The lemon is sour." }
+            { "emoji": "🍋", "text": "I want a lemon." },
+            { "emoji": "🍋", "text": "Can I have a lemon?" },
+            { "emoji": "🍋", "text": "Do you want a lemon?" }
           ]
         }
       }
@@ -368,19 +368,19 @@
         "fr": {
           "label": "Abricot",
           "phrases": [
-            { "emoji": "🍑", "text": "Je mange un abricot." },
-            { "emoji": "🍑", "text": "Je veux un abricot." },
             { "emoji": "🍑", "text": "J'aime les abricots." },
-            { "emoji": "🍑", "text": "L'abricot est orange." }
+            { "emoji": "🍑", "text": "Je veux un abricot." },
+            { "emoji": "🍑", "text": "Puis-je avoir un abricot ?" },
+            { "emoji": "🍑", "text": "Veux-tu un abricot ?" }
           ]
         },
         "en": {
           "label": "Apricot",
           "phrases": [
-            { "emoji": "🍑", "text": "I eat an apricot." },
-            { "emoji": "🍑", "text": "I want an apricot." },
             { "emoji": "🍑", "text": "I like apricots." },
-            { "emoji": "🍑", "text": "The apricot is orange." }
+            { "emoji": "🍑", "text": "I want an apricot." },
+            { "emoji": "🍑", "text": "Can I have an apricot?" },
+            { "emoji": "🍑", "text": "Do you want an apricot?" }
           ]
         }
       }
@@ -392,19 +392,19 @@
         "fr": {
           "label": "Fruit du dragon",
           "phrases": [
-            { "emoji": "🐉", "text": "Je mange un fruit du dragon." },
-            { "emoji": "🐉", "text": "Je veux un fruit du dragon." },
             { "emoji": "🐉", "text": "J'aime les fruits du dragon." },
-            { "emoji": "🐉", "text": "Le fruit du dragon est exotique." }
+            { "emoji": "🐉", "text": "Je veux un fruit du dragon." },
+            { "emoji": "🐉", "text": "Puis-je avoir un fruit du dragon ?" },
+            { "emoji": "🐉", "text": "Veux-tu un fruit du dragon ?" }
           ]
         },
         "en": {
           "label": "Dragon Fruit",
           "phrases": [
-            { "emoji": "🐉", "text": "I eat dragon fruit." },
-            { "emoji": "🐉", "text": "I want dragon fruit." },
             { "emoji": "🐉", "text": "I like dragon fruit." },
-            { "emoji": "🐉", "text": "Dragon fruit is exotic." }
+            { "emoji": "🐉", "text": "I want a dragon fruit." },
+            { "emoji": "🐉", "text": "Can I have a dragon fruit?" },
+            { "emoji": "🐉", "text": "Do you want a dragon fruit?" }
           ]
         }
       }
@@ -416,43 +416,19 @@
         "fr": {
           "label": "Pêche",
           "phrases": [
-            { "emoji": "🍑", "text": "Je mange une pêche." },
-            { "emoji": "🍑", "text": "Je veux une pêche." },
             { "emoji": "🍑", "text": "J'aime les pêches." },
-            { "emoji": "🍑", "text": "La pêche est douce." }
+            { "emoji": "🍑", "text": "Je veux une pêche." },
+            { "emoji": "🍑", "text": "Puis-je avoir une pêche ?" },
+            { "emoji": "🍑", "text": "Veux-tu une pêche ?" }
           ]
         },
         "en": {
           "label": "Peach",
           "phrases": [
-            { "emoji": "🍑", "text": "I eat a peach." },
-            { "emoji": "🍑", "text": "I want a peach." },
             { "emoji": "🍑", "text": "I like peaches." },
-            { "emoji": "🍑", "text": "The peach is soft." }
-          ]
-        }
-      }
-    },
-    {
-      "id": "avocado-fruit",
-      "image": "🥑",
-      "translations": {
-        "fr": {
-          "label": "Avocat",
-          "phrases": [
-            { "emoji": "🥑", "text": "Je mange un avocat." },
-            { "emoji": "🥑", "text": "Je veux un avocat." },
-            { "emoji": "🥑", "text": "J'aime les avocats." },
-            { "emoji": "🥑", "text": "L'avocat est crémeux." }
-          ]
-        },
-        "en": {
-          "label": "Avocado",
-          "phrases": [
-            { "emoji": "🥑", "text": "I eat an avocado." },
-            { "emoji": "🥑", "text": "I want an avocado." },
-            { "emoji": "🥑", "text": "I like avocados." },
-            { "emoji": "🥑", "text": "The avocado is creamy." }
+            { "emoji": "🍑", "text": "I want a peach." },
+            { "emoji": "🍑", "text": "Can I have a peach?" },
+            { "emoji": "🍑", "text": "Do you want a peach?" }
           ]
         }
       }
@@ -464,19 +440,19 @@
         "fr": {
           "label": "Figue",
           "phrases": [
-            { "emoji": "🫐", "text": "Je mange une figue." },
-            { "emoji": "🫐", "text": "Je veux une figue." },
             { "emoji": "🫐", "text": "J'aime les figues." },
-            { "emoji": "🫐", "text": "La figue est sucrée." }
+            { "emoji": "🫐", "text": "Je veux une figue." },
+            { "emoji": "🫐", "text": "Puis-je avoir une figue ?" },
+            { "emoji": "🫐", "text": "Veux-tu une figue ?" }
           ]
         },
         "en": {
           "label": "Fig",
           "phrases": [
-            { "emoji": "🫐", "text": "I eat a fig." },
-            { "emoji": "🫐", "text": "I want a fig." },
             { "emoji": "🫐", "text": "I like figs." },
-            { "emoji": "🫐", "text": "The fig is sweet." }
+            { "emoji": "🫐", "text": "I want a fig." },
+            { "emoji": "🫐", "text": "Can I have a fig?" },
+            { "emoji": "🫐", "text": "Do you want a fig?" }
           ]
         }
       }
@@ -488,19 +464,19 @@
         "fr": {
           "label": "Litchi",
           "phrases": [
-            { "emoji": "🍈", "text": "Je mange un litchi." },
-            { "emoji": "🍈", "text": "Je veux un litchi." },
             { "emoji": "🍈", "text": "J'aime les litchis." },
-            { "emoji": "🍈", "text": "Le litchi est sucré." }
+            { "emoji": "🍈", "text": "Je veux un litchi." },
+            { "emoji": "🍈", "text": "Puis-je avoir un litchi ?" },
+            { "emoji": "🍈", "text": "Veux-tu un litchi ?" }
           ]
         },
         "en": {
           "label": "Lychee",
           "phrases": [
-            { "emoji": "🍈", "text": "I eat a lychee." },
-            { "emoji": "🍈", "text": "I want a lychee." },
             { "emoji": "🍈", "text": "I like lychees." },
-            { "emoji": "🍈", "text": "The lychee is sweet." }
+            { "emoji": "🍈", "text": "I want a lychee." },
+            { "emoji": "🍈", "text": "Can I have a lychee?" },
+            { "emoji": "🍈", "text": "Do you want a lychee?" }
           ]
         }
       }
@@ -512,19 +488,19 @@
         "fr": {
           "label": "Fruit de la passion",
           "phrases": [
-            { "emoji": "🍈", "text": "Je mange un fruit de la passion." },
-            { "emoji": "🍈", "text": "Je veux un fruit de la passion." },
             { "emoji": "🍈", "text": "J'aime les fruits de la passion." },
-            { "emoji": "🍈", "text": "Le fruit de la passion est acidulé." }
+            { "emoji": "🍈", "text": "Je veux un fruit de la passion." },
+            { "emoji": "🍈", "text": "Puis-je avoir un fruit de la passion ?" },
+            { "emoji": "🍈", "text": "Veux-tu un fruit de la passion ?" }
           ]
         },
         "en": {
           "label": "Passion Fruit",
           "phrases": [
-            { "emoji": "🍈", "text": "I eat passion fruit." },
-            { "emoji": "🍈", "text": "I want passion fruit." },
-            { "emoji": "🍈", "text": "I like passion fruit." },
-            { "emoji": "🍈", "text": "Passion fruit is tangy." }
+            { "emoji": "🍈", "text": "I like passion fruits." },
+            { "emoji": "🍈", "text": "I want a passion fruit." },
+            { "emoji": "🍈", "text": "Can I have a passion fruit?" },
+            { "emoji": "🍈", "text": "Do you want a passion fruit?" }
           ]
         }
       }
@@ -536,19 +512,19 @@
         "fr": {
           "label": "Myrtille",
           "phrases": [
-            { "emoji": "🫐", "text": "Je mange des myrtilles." },
-            { "emoji": "🫐", "text": "Je veux des myrtilles." },
             { "emoji": "🫐", "text": "J'aime les myrtilles." },
-            { "emoji": "🫐", "text": "Les myrtilles sont bleues." }
+            { "emoji": "🫐", "text": "Je veux une myrtille." },
+            { "emoji": "🫐", "text": "Puis-je avoir une myrtille ?" },
+            { "emoji": "🫐", "text": "Veux-tu une myrtille ?" }
           ]
         },
         "en": {
           "label": "Blueberry",
           "phrases": [
-            { "emoji": "🫐", "text": "I eat blueberries." },
-            { "emoji": "🫐", "text": "I want blueberries." },
             { "emoji": "🫐", "text": "I like blueberries." },
-            { "emoji": "🫐", "text": "Blueberries are blue." }
+            { "emoji": "🫐", "text": "I want a blueberry." },
+            { "emoji": "🫐", "text": "Can I have a blueberry?" },
+            { "emoji": "🫐", "text": "Do you want a blueberry?" }
           ]
         }
       }
@@ -560,19 +536,19 @@
         "fr": {
           "label": "Noix de coco",
           "phrases": [
-            { "emoji": "🥥", "text": "Je mange de la noix de coco." },
-            { "emoji": "🥥", "text": "Je veux de la noix de coco." },
             { "emoji": "🥥", "text": "J'aime la noix de coco." },
-            { "emoji": "🥥", "text": "La noix de coco est tropicale." }
+            { "emoji": "🥥", "text": "Je veux de la noix de coco." },
+            { "emoji": "🥥", "text": "Puis-je avoir de la noix de coco ?" },
+            { "emoji": "🥥", "text": "Veux-tu de la noix de coco ?" }
           ]
         },
         "en": {
           "label": "Coconut",
           "phrases": [
-            { "emoji": "🥥", "text": "I eat coconut." },
-            { "emoji": "🥥", "text": "I want coconut." },
             { "emoji": "🥥", "text": "I like coconut." },
-            { "emoji": "🥥", "text": "Coconut is tropical." }
+            { "emoji": "🥥", "text": "I want some coconut." },
+            { "emoji": "🥥", "text": "Can I have some coconut?" },
+            { "emoji": "🥥", "text": "Do you want some coconut?" }
           ]
         }
       }

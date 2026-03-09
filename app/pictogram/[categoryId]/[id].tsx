@@ -2,19 +2,19 @@ import { PictogramImage } from "@/components/PictogramImage";
 import { Colors } from "@/constants/colors";
 import {
   deleteCustomPhrase,
+  deleteCustomPictogram,
   getCustomPhrases,
+  getCustomPictogramById,
   isFavorite,
   toggleFavorite,
-  getCustomPictogramById,
-  deleteCustomPictogram,
 } from "@/lib/db/operations";
 import { getPictogram } from "@/lib/pictograms";
 import { speakWithPreferences } from "@/lib/speakWithPreferences";
 import type { Pictogram } from "@/types";
+import * as FileSystemLegacy from "expo-file-system/legacy";
 import { router, useFocusEffect, useLocalSearchParams } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import * as FileSystemLegacy from 'expo-file-system/legacy';
 import {
   Alert,
   ScrollView,
@@ -61,13 +61,13 @@ export default function PictogramScreen() {
   const loadPictogram = async () => {
     setLoading(true);
 
-    if (categoryId === 'custom') {
+    if (categoryId === "custom") {
       // Load custom pictogram from database
       const customPicto = await getCustomPictogramById(id);
       if (customPicto) {
         const formattedPicto: Pictogram = {
           id: customPicto.customId,
-          category: 'custom',
+          category: "custom",
           image: `file://${FileSystemLegacy.documentDirectory}${customPicto.imagePath}`,
           translations: {
             fr: { label: customPicto.name, phrases: [] },
@@ -116,7 +116,6 @@ export default function PictogramScreen() {
   };
 
   const handleAddPhrase = () => {
-    // @ts-expect-error - Expo Router dynamic routes typing issue
     router.push({
       pathname: "/add-phrase",
       params: { pictogramId: id },
@@ -169,7 +168,7 @@ export default function PictogramScreen() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.loadingContainer}>
-          <Text style={styles.loadingText}>{t('common.loading')}</Text>
+          <Text style={styles.loadingText}>{t("common.loading")}</Text>
         </View>
       </SafeAreaView>
     );
@@ -178,7 +177,7 @@ export default function PictogramScreen() {
   if (!pictogram) {
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.errorText}>{t('pictogram.not_found')}</Text>
+        <Text style={styles.errorText}>{t("pictogram.not_found")}</Text>
       </SafeAreaView>
     );
   }
@@ -204,7 +203,7 @@ export default function PictogramScreen() {
           >
             <Text style={styles.icon}>{isFav ? "⭐" : "☆"}</Text>
           </TouchableOpacity>
-          {categoryId === 'custom' && (
+          {categoryId === "custom" && (
             <TouchableOpacity
               onPress={handleDeleteCustomPictogram}
               style={styles.iconButton}
@@ -278,9 +277,7 @@ export default function PictogramScreen() {
             activeOpacity={0.7}
           >
             <Text style={styles.addPhraseIcon}>➕</Text>
-            <Text style={styles.addPhraseText}>
-              {t('common.add_phrase')}
-            </Text>
+            <Text style={styles.addPhraseText}>{t("common.add_phrase")}</Text>
           </TouchableOpacity>
         </View>
       </ScrollView>
@@ -340,6 +337,7 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: Colors.text,
     marginBottom: 8,
+    textAlign: "center",
   },
   speakerIcon: {
     fontSize: 24,

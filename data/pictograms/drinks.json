@@ -1,0 +1,401 @@
+{
+  "category": "drinks",
+  "pictograms": [
+    {
+      "id": "water",
+      "image": "💧",
+      "translations": {
+        "fr": {
+          "label": "Eau",
+          "phrases": [
+            { "emoji": "💧", "text": "J'ai besoin de boire de l'eau." },
+            { "emoji": "💧", "text": "Je veux boire de l'eau." },
+            { "emoji": "💧", "text": "Voulez-vous de l'eau ?" }
+          ]
+        },
+        "en": {
+          "label": "Water",
+          "phrases": [
+            { "emoji": "💧", "text": "I need to drink water." },
+            { "emoji": "💧", "text": "I want to drink water." },
+            { "emoji": "💧", "text": "Would you like some water?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "coffee",
+      "image": "☕",
+      "translations": {
+        "fr": {
+          "label": "Café",
+          "phrases": [
+            { "emoji": "☕", "text": "J'aime boire du café." },
+            { "emoji": "☕", "text": "Je veux boire du café." },
+            { "emoji": "☕", "text": "Voulez-vous du café ?" }
+          ]
+        },
+        "en": {
+          "label": "Coffee",
+          "phrases": [
+            { "emoji": "☕", "text": "I like drinking coffee." },
+            { "emoji": "☕", "text": "I want to drink coffee." },
+            { "emoji": "☕", "text": "Would you like some coffee?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "tea",
+      "image": "🍵",
+      "translations": {
+        "fr": {
+          "label": "Thé",
+          "phrases": [
+            { "emoji": "🍵", "text": "J'aime boire du thé." },
+            { "emoji": "🍵", "text": "Je veux boire du thé." },
+            { "emoji": "🍵", "text": "Voulez-vous du thé ?" }
+          ]
+        },
+        "en": {
+          "label": "Tea",
+          "phrases": [
+            { "emoji": "🍵", "text": "I like drinking tea." },
+            { "emoji": "🍵", "text": "I want to drink tea." },
+            { "emoji": "🍵", "text": "Would you like some tea?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "juice",
+      "image": "🧃",
+      "translations": {
+        "fr": {
+          "label": "Jus",
+          "phrases": [
+            { "emoji": "🧃", "text": "J'aime boire du jus." },
+            { "emoji": "🧃", "text": "Je veux boire du jus." },
+            { "emoji": "🧃", "text": "Voulez-vous du jus ?" }
+          ]
+        },
+        "en": {
+          "label": "Juice",
+          "phrases": [
+            { "emoji": "🧃", "text": "I like drinking juice." },
+            { "emoji": "🧃", "text": "I want to drink juice." },
+            { "emoji": "🧃", "text": "Would you like some juice?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "milk",
+      "image": "🥛",
+      "translations": {
+        "fr": {
+          "label": "Lait",
+          "phrases": [
+            { "emoji": "🥛", "text": "J'aime boire du lait." },
+            { "emoji": "🥛", "text": "Je veux boire du lait." },
+            { "emoji": "🥛", "text": "Voulez-vous du lait ?" }
+          ]
+        },
+        "en": {
+          "label": "Milk",
+          "phrases": [
+            { "emoji": "🥛", "text": "I like drinking milk." },
+            { "emoji": "🥛", "text": "I want to drink milk." },
+            { "emoji": "🥛", "text": "Would you like some milk?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "grape-juice",
+      "image": "🍇",
+      "translations": {
+        "fr": {
+          "label": "Jus de raisin",
+          "phrases": [
+            { "emoji": "🍇", "text": "J'aime boire du jus de raisin." },
+            { "emoji": "🍇", "text": "Je veux boire du jus de raisin." },
+            { "emoji": "🍇", "text": "Voulez-vous du jus de raisin ?" }
+          ]
+        },
+        "en": {
+          "label": "Grape Juice",
+          "phrases": [
+            { "emoji": "🍇", "text": "I like drinking grape juice." },
+            { "emoji": "🍇", "text": "I want to drink grape juice." },
+            { "emoji": "🍇", "text": "Would you like some grape juice?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "milkshake",
+      "image": "🥤",
+      "translations": {
+        "fr": {
+          "label": "Milkshake",
+          "phrases": [
+            { "emoji": "🥤", "text": "J'aime boire du milkshake." },
+            { "emoji": "🥤", "text": "Je veux boire du milkshake." },
+            { "emoji": "🥤", "text": "Voulez-vous du milkshake ?" }
+          ]
+        },
+        "en": {
+          "label": "Milkshake",
+          "phrases": [
+            { "emoji": "🥤", "text": "I like drinking milkshakes." },
+            { "emoji": "🥤", "text": "I want to drink a milkshake." },
+            { "emoji": "🥤", "text": "Would you like some a milkshake?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "orange-juice",
+      "image": "🍊",
+      "translations": {
+        "fr": {
+          "label": "Jus d'orange",
+          "phrases": [
+            { "emoji": "🍊", "text": "J'aime boire du jus d'orange." },
+            { "emoji": "🍊", "text": "Je veux boire du jus d'orange." },
+            { "emoji": "🍊", "text": "Voulez-vous du jus d'orange ?" }
+          ]
+        },
+        "en": {
+          "label": "Orange Juice",
+          "phrases": [
+            { "emoji": "🍊", "text": "I like drinking orange juice." },
+            { "emoji": "🍊", "text": "I want to drink orange juice." },
+            { "emoji": "🍊", "text": "Would you like some orange juice?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "apple-juice",
+      "image": "🍎",
+      "translations": {
+        "fr": {
+          "label": "Jus de pomme",
+          "phrases": [
+            { "emoji": "🍎", "text": "J'aime boire du jus de pomme." },
+            { "emoji": "🍎", "text": "Je veux boire du jus de pomme." },
+            { "emoji": "🍎", "text": "Voulez-vous du jus de pomme ?" }
+          ]
+        },
+        "en": {
+          "label": "Apple Juice",
+          "phrases": [
+            { "emoji": "🍎", "text": "I like drinking apple juice." },
+            { "emoji": "🍎", "text": "I want to drink apple juice." },
+            { "emoji": "🍎", "text": "Would you like some apple juice?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "pineapple-juice",
+      "image": "🍍",
+      "translations": {
+        "fr": {
+          "label": "Jus d'ananas",
+          "phrases": [
+            { "emoji": "🍍", "text": "J'aime boire du jus d'ananas." },
+            { "emoji": "🍍", "text": "Je veux boire du jus d'ananas." },
+            { "emoji": "🍍", "text": "Voulez-vous du jus d'ananas ?" }
+          ]
+        },
+        "en": {
+          "label": "Pineapple Juice",
+          "phrases": [
+            { "emoji": "🍍", "text": "I like drinking pineapple juice." },
+            { "emoji": "🍍", "text": "I want to drink pineapple juice." },
+            { "emoji": "🍍", "text": "Would you like some pineapple juice?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "lemonade",
+      "image": "🍋",
+      "translations": {
+        "fr": {
+          "label": "Limonade",
+          "phrases": [
+            { "emoji": "🍋", "text": "J'aime boire de la limonade." },
+            { "emoji": "🍋", "text": "Je veux boire de la limonade." },
+            { "emoji": "🍋", "text": "Voulez-vous de la limonade ?" }
+          ]
+        },
+        "en": {
+          "label": "Lemonade",
+          "phrases": [
+            { "emoji": "🍋", "text": "I like drinking lemonade." },
+            { "emoji": "🍋", "text": "I want to drink lemonade." },
+            { "emoji": "🍋", "text": "Would you like some lemonade?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "cola",
+      "image": "🥤",
+      "translations": {
+        "fr": {
+          "label": "Coca",
+          "phrases": [
+            { "emoji": "🥤", "text": "J'aime boire du coca." },
+            { "emoji": "🥤", "text": "Je veux boire du coca." },
+            { "emoji": "🥤", "text": "Voulez-vous du coca ?" }
+          ]
+        },
+        "en": {
+          "label": "Cola",
+          "phrases": [
+            { "emoji": "🥤", "text": "I like drinking cola." },
+            { "emoji": "🥤", "text": "I want to drink cola." },
+            { "emoji": "🥤", "text": "Would you like some cola?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "soda",
+      "image": "🫧",
+      "translations": {
+        "fr": {
+          "label": "Soda",
+          "phrases": [
+            { "emoji": "🫧", "text": "J'aime boire du soda." },
+            { "emoji": "🫧", "text": "Je veux boire du soda." },
+            { "emoji": "🫧", "text": "Voulez-vous du soda ?" }
+          ]
+        },
+        "en": {
+          "label": "Soda",
+          "phrases": [
+            { "emoji": "🫧", "text": "I like drinking soda." },
+            { "emoji": "🫧", "text": "I want to drink soda." },
+            { "emoji": "🫧", "text": "Would you like some soda?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "frappe",
+      "image": "🧋",
+      "translations": {
+        "fr": {
+          "label": "Frappé",
+          "phrases": [
+            { "emoji": "🧋", "text": "J'aime boire du café frappé." },
+            { "emoji": "🧋", "text": "Je veux boire du café frappé." },
+            { "emoji": "🧋", "text": "Voulez-vous du café frappé ?" }
+          ]
+        },
+        "en": {
+          "label": "Frappé",
+          "phrases": [
+            { "emoji": "🧋", "text": "I like drinking frappé." },
+            { "emoji": "🧋", "text": "I want to drink a frappé." },
+            { "emoji": "🧋", "text": "Would you like a frappé?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "smoothie",
+      "image": "🥤",
+      "translations": {
+        "fr": {
+          "label": "Smoothie",
+          "phrases": [
+            { "emoji": "🥤", "text": "J'aime boire du smoothie." },
+            { "emoji": "🥤", "text": "Je veux boire du smoothie." },
+            { "emoji": "🥤", "text": "Voulez-vous du smoothie ?" }
+          ]
+        },
+        "en": {
+          "label": "Smoothie",
+          "phrases": [
+            { "emoji": "🥤", "text": "I like drinking smoothies." },
+            { "emoji": "🥤", "text": "I want to drink a smoothie." },
+            { "emoji": "🥤", "text": "Would you like some a smoothie?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "iced-tea",
+      "image": "🧊",
+      "translations": {
+        "fr": {
+          "label": "Thé glacé",
+          "phrases": [
+            { "emoji": "🧊", "text": "J'aime boire du thé glacé." },
+            { "emoji": "🧊", "text": "Je veux boire du thé glacé." },
+            { "emoji": "🧊", "text": "Voulez-vous du thé glacé ?" }
+          ]
+        },
+        "en": {
+          "label": "Iced Tea",
+          "phrases": [
+            { "emoji": "🧊", "text": "I like drinking iced tea." },
+            { "emoji": "🧊", "text": "I want to drink iced tea." },
+            { "emoji": "🧊", "text": "Would you like some iced tea?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hot-chocolate",
+      "image": "🍫",
+      "translations": {
+        "fr": {
+          "label": "Chocolat chaud",
+          "phrases": [
+            { "emoji": "🍫", "text": "J'aime boire du chocolat chaud." },
+            { "emoji": "🍫", "text": "Je veux boire du chocolat chaud." },
+            { "emoji": "🍫", "text": "Voulez-vous du chocolat chaud ?" }
+          ]
+        },
+        "en": {
+          "label": "Hot Chocolate",
+          "phrases": [
+            { "emoji": "🍫", "text": "I like drinking hot chocolate." },
+            { "emoji": "🍫", "text": "I want to drink hot chocolate." },
+            { "emoji": "🍫", "text": "Would you like some hot chocolate?" }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mineral-water",
+      "image": "💧",
+      "translations": {
+        "fr": {
+          "label": "Eau minérale",
+          "phrases": [
+            { "emoji": "💧", "text": "J'aime boire de l'eau minérale." },
+            { "emoji": "💧", "text": "Je veux boire de l'eau minérale." },
+            { "emoji": "💧", "text": "Voulez-vous de l'eau minérale ?" }
+          ]
+        },
+        "en": {
+          "label": "Mineral Water",
+          "phrases": [
+            { "emoji": "💧", "text": "I like drinking mineral water." },
+            { "emoji": "💧", "text": "I want to drink mineral water." },
+            { "emoji": "💧", "text": "Would you like some mineral water?" }
+          ]
+        }
+      }
+    }
+  ]
+}
