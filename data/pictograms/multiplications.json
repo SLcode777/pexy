@@ -3,360 +3,960 @@
   "pictograms": [
     {
       "id": "table_1",
-      "image": "1️⃣",
+      "image": "assets/pictos/multiplications/table_1.webp",
       "translations": {
         "fr": {
           "label": "Table de 1",
           "phrases": [
-            { "emoji": "✖️", "text": "1 fois 1 égale 1." },
-            { "emoji": "✖️", "text": "1 fois 2 égale 2." },
-            { "emoji": "✖️", "text": "1 fois 3 égale 3." },
-            { "emoji": "✖️", "text": "1 fois 4 égale 4." },
-            { "emoji": "✖️", "text": "1 fois 5 égale 5." },
-            { "emoji": "✖️", "text": "1 fois 6 égale 6." },
-            { "emoji": "✖️", "text": "1 fois 7 égale 7." },
-            { "emoji": "✖️", "text": "1 fois 8 égale 8." },
-            { "emoji": "✖️", "text": "1 fois 9 égale 9." },
-            { "emoji": "✖️", "text": "1 fois 10 égale 10." }
+            {
+              "emoji": "✖️",
+              "text": "1 fois 1 égale 1."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 2 égale 2."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 3 égale 3."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 4 égale 4."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 5 égale 5."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 6 égale 6."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 7 égale 7."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 8 égale 8."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 9 égale 9."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 fois 10 égale 10."
+            }
           ]
         },
         "en": {
           "label": "1 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "1 times 1 equals 1." },
-            { "emoji": "✖️", "text": "1 times 2 equals 2." },
-            { "emoji": "✖️", "text": "1 times 3 equals 3." },
-            { "emoji": "✖️", "text": "1 times 4 equals 4." },
-            { "emoji": "✖️", "text": "1 times 5 equals 5." },
-            { "emoji": "✖️", "text": "1 times 6 equals 6." },
-            { "emoji": "✖️", "text": "1 times 7 equals 7." },
-            { "emoji": "✖️", "text": "1 times 8 equals 8." },
-            { "emoji": "✖️", "text": "1 times 9 equals 9." },
-            { "emoji": "✖️", "text": "1 times 10 equals 10." }
+            {
+              "emoji": "✖️",
+              "text": "1 times 1 equals 1."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 2 equals 2."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 3 equals 3."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 4 equals 4."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 5 equals 5."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 6 equals 6."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 7 equals 7."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 8 equals 8."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 9 equals 9."
+            },
+            {
+              "emoji": "✖️",
+              "text": "1 times 10 equals 10."
+            }
           ]
         }
       }
     },
     {
       "id": "table_2",
-      "image": "2️⃣",
+      "image": "assets/pictos/multiplications/table_2.webp",
       "translations": {
         "fr": {
           "label": "Table de 2",
           "phrases": [
-            { "emoji": "✖️", "text": "2 fois 1 égale 2." },
-            { "emoji": "✖️", "text": "2 fois 2 égale 4." },
-            { "emoji": "✖️", "text": "2 fois 3 égale 6." },
-            { "emoji": "✖️", "text": "2 fois 4 égale 8." },
-            { "emoji": "✖️", "text": "2 fois 5 égale 10." },
-            { "emoji": "✖️", "text": "2 fois 6 égale 12." },
-            { "emoji": "✖️", "text": "2 fois 7 égale 14." },
-            { "emoji": "✖️", "text": "2 fois 8 égale 16." },
-            { "emoji": "✖️", "text": "2 fois 9 égale 18." },
-            { "emoji": "✖️", "text": "2 fois 10 égale 20." }
+            {
+              "emoji": "✖️",
+              "text": "2 fois 1 égale 2."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 2 égale 4."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 3 égale 6."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 4 égale 8."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 5 égale 10."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 6 égale 12."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 7 égale 14."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 8 égale 16."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 9 égale 18."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 fois 10 égale 20."
+            }
           ]
         },
         "en": {
           "label": "2 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "2 times 1 equals 2." },
-            { "emoji": "✖️", "text": "2 times 2 equals 4." },
-            { "emoji": "✖️", "text": "2 times 3 equals 6." },
-            { "emoji": "✖️", "text": "2 times 4 equals 8." },
-            { "emoji": "✖️", "text": "2 times 5 equals 10." },
-            { "emoji": "✖️", "text": "2 times 6 equals 12." },
-            { "emoji": "✖️", "text": "2 times 7 equals 14." },
-            { "emoji": "✖️", "text": "2 times 8 equals 16." },
-            { "emoji": "✖️", "text": "2 times 9 equals 18." },
-            { "emoji": "✖️", "text": "2 times 10 equals 20." }
+            {
+              "emoji": "✖️",
+              "text": "2 times 1 equals 2."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 2 equals 4."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 3 equals 6."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 4 equals 8."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 5 equals 10."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 6 equals 12."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 7 equals 14."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 8 equals 16."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 9 equals 18."
+            },
+            {
+              "emoji": "✖️",
+              "text": "2 times 10 equals 20."
+            }
           ]
         }
       }
     },
     {
       "id": "table_3",
-      "image": "3️⃣",
+      "image": "assets/pictos/multiplications/table_3.webp",
       "translations": {
         "fr": {
           "label": "Table de 3",
           "phrases": [
-            { "emoji": "✖️", "text": "3 fois 1 égale 3." },
-            { "emoji": "✖️", "text": "3 fois 2 égale 6." },
-            { "emoji": "✖️", "text": "3 fois 3 égale 9." },
-            { "emoji": "✖️", "text": "3 fois 4 égale 12." },
-            { "emoji": "✖️", "text": "3 fois 5 égale 15." },
-            { "emoji": "✖️", "text": "3 fois 6 égale 18." },
-            { "emoji": "✖️", "text": "3 fois 7 égale 21." },
-            { "emoji": "✖️", "text": "3 fois 8 égale 24." },
-            { "emoji": "✖️", "text": "3 fois 9 égale 27." },
-            { "emoji": "✖️", "text": "3 fois 10 égale 30." }
+            {
+              "emoji": "✖️",
+              "text": "3 fois 1 égale 3."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 2 égale 6."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 3 égale 9."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 4 égale 12."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 5 égale 15."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 6 égale 18."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 7 égale 21."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 8 égale 24."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 9 égale 27."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 fois 10 égale 30."
+            }
           ]
         },
         "en": {
           "label": "3 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "3 times 1 equals 3." },
-            { "emoji": "✖️", "text": "3 times 2 equals 6." },
-            { "emoji": "✖️", "text": "3 times 3 equals 9." },
-            { "emoji": "✖️", "text": "3 times 4 equals 12." },
-            { "emoji": "✖️", "text": "3 times 5 equals 15." },
-            { "emoji": "✖️", "text": "3 times 6 equals 18." },
-            { "emoji": "✖️", "text": "3 times 7 equals 21." },
-            { "emoji": "✖️", "text": "3 times 8 equals 24." },
-            { "emoji": "✖️", "text": "3 times 9 equals 27." },
-            { "emoji": "✖️", "text": "3 times 10 equals 30." }
+            {
+              "emoji": "✖️",
+              "text": "3 times 1 equals 3."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 2 equals 6."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 3 equals 9."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 4 equals 12."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 5 equals 15."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 6 equals 18."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 7 equals 21."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 8 equals 24."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 9 equals 27."
+            },
+            {
+              "emoji": "✖️",
+              "text": "3 times 10 equals 30."
+            }
           ]
         }
       }
     },
     {
       "id": "table_4",
-      "image": "4️⃣",
+      "image": "assets/pictos/multiplications/table_4.webp",
       "translations": {
         "fr": {
           "label": "Table de 4",
           "phrases": [
-            { "emoji": "✖️", "text": "4 fois 1 égale 4." },
-            { "emoji": "✖️", "text": "4 fois 2 égale 8." },
-            { "emoji": "✖️", "text": "4 fois 3 égale 12." },
-            { "emoji": "✖️", "text": "4 fois 4 égale 16." },
-            { "emoji": "✖️", "text": "4 fois 5 égale 20." },
-            { "emoji": "✖️", "text": "4 fois 6 égale 24." },
-            { "emoji": "✖️", "text": "4 fois 7 égale 28." },
-            { "emoji": "✖️", "text": "4 fois 8 égale 32." },
-            { "emoji": "✖️", "text": "4 fois 9 égale 36." },
-            { "emoji": "✖️", "text": "4 fois 10 égale 40." }
+            {
+              "emoji": "✖️",
+              "text": "4 fois 1 égale 4."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 2 égale 8."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 3 égale 12."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 4 égale 16."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 5 égale 20."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 6 égale 24."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 7 égale 28."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 8 égale 32."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 9 égale 36."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 fois 10 égale 40."
+            }
           ]
         },
         "en": {
           "label": "4 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "4 times 1 equals 4." },
-            { "emoji": "✖️", "text": "4 times 2 equals 8." },
-            { "emoji": "✖️", "text": "4 times 3 equals 12." },
-            { "emoji": "✖️", "text": "4 times 4 equals 16." },
-            { "emoji": "✖️", "text": "4 times 5 equals 20." },
-            { "emoji": "✖️", "text": "4 times 6 equals 24." },
-            { "emoji": "✖️", "text": "4 times 7 equals 28." },
-            { "emoji": "✖️", "text": "4 times 8 equals 32." },
-            { "emoji": "✖️", "text": "4 times 9 equals 36." },
-            { "emoji": "✖️", "text": "4 times 10 equals 40." }
+            {
+              "emoji": "✖️",
+              "text": "4 times 1 equals 4."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 2 equals 8."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 3 equals 12."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 4 equals 16."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 5 equals 20."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 6 equals 24."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 7 equals 28."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 8 equals 32."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 9 equals 36."
+            },
+            {
+              "emoji": "✖️",
+              "text": "4 times 10 equals 40."
+            }
           ]
         }
       }
     },
     {
       "id": "table_5",
-      "image": "5️⃣",
+      "image": "assets/pictos/multiplications/table_5.webp",
       "translations": {
         "fr": {
           "label": "Table de 5",
           "phrases": [
-            { "emoji": "✖️", "text": "5 fois 1 égale 5." },
-            { "emoji": "✖️", "text": "5 fois 2 égale 10." },
-            { "emoji": "✖️", "text": "5 fois 3 égale 15." },
-            { "emoji": "✖️", "text": "5 fois 4 égale 20." },
-            { "emoji": "✖️", "text": "5 fois 5 égale 25." },
-            { "emoji": "✖️", "text": "5 fois 6 égale 30." },
-            { "emoji": "✖️", "text": "5 fois 7 égale 35." },
-            { "emoji": "✖️", "text": "5 fois 8 égale 40." },
-            { "emoji": "✖️", "text": "5 fois 9 égale 45." },
-            { "emoji": "✖️", "text": "5 fois 10 égale 50." }
+            {
+              "emoji": "✖️",
+              "text": "5 fois 1 égale 5."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 2 égale 10."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 3 égale 15."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 4 égale 20."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 5 égale 25."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 6 égale 30."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 7 égale 35."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 8 égale 40."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 9 égale 45."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 fois 10 égale 50."
+            }
           ]
         },
         "en": {
           "label": "5 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "5 times 1 equals 5." },
-            { "emoji": "✖️", "text": "5 times 2 equals 10." },
-            { "emoji": "✖️", "text": "5 times 3 equals 15." },
-            { "emoji": "✖️", "text": "5 times 4 equals 20." },
-            { "emoji": "✖️", "text": "5 times 5 equals 25." },
-            { "emoji": "✖️", "text": "5 times 6 equals 30." },
-            { "emoji": "✖️", "text": "5 times 7 equals 35." },
-            { "emoji": "✖️", "text": "5 times 8 equals 40." },
-            { "emoji": "✖️", "text": "5 times 9 equals 45." },
-            { "emoji": "✖️", "text": "5 times 10 equals 50." }
+            {
+              "emoji": "✖️",
+              "text": "5 times 1 equals 5."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 2 equals 10."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 3 equals 15."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 4 equals 20."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 5 equals 25."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 6 equals 30."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 7 equals 35."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 8 equals 40."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 9 equals 45."
+            },
+            {
+              "emoji": "✖️",
+              "text": "5 times 10 equals 50."
+            }
           ]
         }
       }
     },
     {
       "id": "table_6",
-      "image": "6️⃣",
+      "image": "assets/pictos/multiplications/table_6.webp",
       "translations": {
         "fr": {
           "label": "Table de 6",
           "phrases": [
-            { "emoji": "✖️", "text": "6 fois 1 égale 6." },
-            { "emoji": "✖️", "text": "6 fois 2 égale 12." },
-            { "emoji": "✖️", "text": "6 fois 3 égale 18." },
-            { "emoji": "✖️", "text": "6 fois 4 égale 24." },
-            { "emoji": "✖️", "text": "6 fois 5 égale 30." },
-            { "emoji": "✖️", "text": "6 fois 6 égale 36." },
-            { "emoji": "✖️", "text": "6 fois 7 égale 42." },
-            { "emoji": "✖️", "text": "6 fois 8 égale 48." },
-            { "emoji": "✖️", "text": "6 fois 9 égale 54." },
-            { "emoji": "✖️", "text": "6 fois 10 égale 60." }
+            {
+              "emoji": "✖️",
+              "text": "6 fois 1 égale 6."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 2 égale 12."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 3 égale 18."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 4 égale 24."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 5 égale 30."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 6 égale 36."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 7 égale 42."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 8 égale 48."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 9 égale 54."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 fois 10 égale 60."
+            }
           ]
         },
         "en": {
           "label": "6 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "6 times 1 equals 6." },
-            { "emoji": "✖️", "text": "6 times 2 equals 12." },
-            { "emoji": "✖️", "text": "6 times 3 equals 18." },
-            { "emoji": "✖️", "text": "6 times 4 equals 24." },
-            { "emoji": "✖️", "text": "6 times 5 equals 30." },
-            { "emoji": "✖️", "text": "6 times 6 equals 36." },
-            { "emoji": "✖️", "text": "6 times 7 equals 42." },
-            { "emoji": "✖️", "text": "6 times 8 equals 48." },
-            { "emoji": "✖️", "text": "6 times 9 equals 54." },
-            { "emoji": "✖️", "text": "6 times 10 equals 60." }
+            {
+              "emoji": "✖️",
+              "text": "6 times 1 equals 6."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 2 equals 12."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 3 equals 18."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 4 equals 24."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 5 equals 30."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 6 equals 36."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 7 equals 42."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 8 equals 48."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 9 equals 54."
+            },
+            {
+              "emoji": "✖️",
+              "text": "6 times 10 equals 60."
+            }
           ]
         }
       }
     },
     {
       "id": "table_7",
-      "image": "7️⃣",
+      "image": "assets/pictos/multiplications/table_7.webp",
       "translations": {
         "fr": {
           "label": "Table de 7",
           "phrases": [
-            { "emoji": "✖️", "text": "7 fois 1 égale 7." },
-            { "emoji": "✖️", "text": "7 fois 2 égale 14." },
-            { "emoji": "✖️", "text": "7 fois 3 égale 21." },
-            { "emoji": "✖️", "text": "7 fois 4 égale 28." },
-            { "emoji": "✖️", "text": "7 fois 5 égale 35." },
-            { "emoji": "✖️", "text": "7 fois 6 égale 42." },
-            { "emoji": "✖️", "text": "7 fois 7 égale 49." },
-            { "emoji": "✖️", "text": "7 fois 8 égale 56." },
-            { "emoji": "✖️", "text": "7 fois 9 égale 63." },
-            { "emoji": "✖️", "text": "7 fois 10 égale 70." }
+            {
+              "emoji": "✖️",
+              "text": "7 fois 1 égale 7."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 2 égale 14."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 3 égale 21."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 4 égale 28."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 5 égale 35."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 6 égale 42."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 7 égale 49."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 8 égale 56."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 9 égale 63."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 fois 10 égale 70."
+            }
           ]
         },
         "en": {
           "label": "7 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "7 times 1 equals 7." },
-            { "emoji": "✖️", "text": "7 times 2 equals 14." },
-            { "emoji": "✖️", "text": "7 times 3 equals 21." },
-            { "emoji": "✖️", "text": "7 times 4 equals 28." },
-            { "emoji": "✖️", "text": "7 times 5 equals 35." },
-            { "emoji": "✖️", "text": "7 times 6 equals 42." },
-            { "emoji": "✖️", "text": "7 times 7 equals 49." },
-            { "emoji": "✖️", "text": "7 times 8 equals 56." },
-            { "emoji": "✖️", "text": "7 times 9 equals 63." },
-            { "emoji": "✖️", "text": "7 times 10 equals 70." }
+            {
+              "emoji": "✖️",
+              "text": "7 times 1 equals 7."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 2 equals 14."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 3 equals 21."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 4 equals 28."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 5 equals 35."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 6 equals 42."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 7 equals 49."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 8 equals 56."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 9 equals 63."
+            },
+            {
+              "emoji": "✖️",
+              "text": "7 times 10 equals 70."
+            }
           ]
         }
       }
     },
     {
       "id": "table_8",
-      "image": "8️⃣",
+      "image": "assets/pictos/multiplications/table_8.webp",
       "translations": {
         "fr": {
           "label": "Table de 8",
           "phrases": [
-            { "emoji": "✖️", "text": "8 fois 1 égale 8." },
-            { "emoji": "✖️", "text": "8 fois 2 égale 16." },
-            { "emoji": "✖️", "text": "8 fois 3 égale 24." },
-            { "emoji": "✖️", "text": "8 fois 4 égale 32." },
-            { "emoji": "✖️", "text": "8 fois 5 égale 40." },
-            { "emoji": "✖️", "text": "8 fois 6 égale 48." },
-            { "emoji": "✖️", "text": "8 fois 7 égale 56." },
-            { "emoji": "✖️", "text": "8 fois 8 égale 64." },
-            { "emoji": "✖️", "text": "8 fois 9 égale 72." },
-            { "emoji": "✖️", "text": "8 fois 10 égale 80." }
+            {
+              "emoji": "✖️",
+              "text": "8 fois 1 égale 8."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 2 égale 16."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 3 égale 24."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 4 égale 32."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 5 égale 40."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 6 égale 48."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 7 égale 56."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 8 égale 64."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 9 égale 72."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 fois 10 égale 80."
+            }
           ]
         },
         "en": {
           "label": "8 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "8 times 1 equals 8." },
-            { "emoji": "✖️", "text": "8 times 2 equals 16." },
-            { "emoji": "✖️", "text": "8 times 3 equals 24." },
-            { "emoji": "✖️", "text": "8 times 4 equals 32." },
-            { "emoji": "✖️", "text": "8 times 5 equals 40." },
-            { "emoji": "✖️", "text": "8 times 6 equals 48." },
-            { "emoji": "✖️", "text": "8 times 7 equals 56." },
-            { "emoji": "✖️", "text": "8 times 8 equals 64." },
-            { "emoji": "✖️", "text": "8 times 9 equals 72." },
-            { "emoji": "✖️", "text": "8 times 10 equals 80." }
+            {
+              "emoji": "✖️",
+              "text": "8 times 1 equals 8."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 2 equals 16."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 3 equals 24."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 4 equals 32."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 5 equals 40."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 6 equals 48."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 7 equals 56."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 8 equals 64."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 9 equals 72."
+            },
+            {
+              "emoji": "✖️",
+              "text": "8 times 10 equals 80."
+            }
           ]
         }
       }
     },
     {
       "id": "table_9",
-      "image": "9️⃣",
+      "image": "assets/pictos/multiplications/table_9.webp",
       "translations": {
         "fr": {
           "label": "Table de 9",
           "phrases": [
-            { "emoji": "✖️", "text": "9 fois 1 égale 9." },
-            { "emoji": "✖️", "text": "9 fois 2 égale 18." },
-            { "emoji": "✖️", "text": "9 fois 3 égale 27." },
-            { "emoji": "✖️", "text": "9 fois 4 égale 36." },
-            { "emoji": "✖️", "text": "9 fois 5 égale 45." },
-            { "emoji": "✖️", "text": "9 fois 6 égale 54." },
-            { "emoji": "✖️", "text": "9 fois 7 égale 63." },
-            { "emoji": "✖️", "text": "9 fois 8 égale 72." },
-            { "emoji": "✖️", "text": "9 fois 9 égale 81." },
-            { "emoji": "✖️", "text": "9 fois 10 égale 90." }
+            {
+              "emoji": "✖️",
+              "text": "9 fois 1 égale 9."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 2 égale 18."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 3 égale 27."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 4 égale 36."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 5 égale 45."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 6 égale 54."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 7 égale 63."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 8 égale 72."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 9 égale 81."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 fois 10 égale 90."
+            }
           ]
         },
         "en": {
           "label": "9 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "9 times 1 equals 9." },
-            { "emoji": "✖️", "text": "9 times 2 equals 18." },
-            { "emoji": "✖️", "text": "9 times 3 equals 27." },
-            { "emoji": "✖️", "text": "9 times 4 equals 36." },
-            { "emoji": "✖️", "text": "9 times 5 equals 45." },
-            { "emoji": "✖️", "text": "9 times 6 equals 54." },
-            { "emoji": "✖️", "text": "9 times 7 equals 63." },
-            { "emoji": "✖️", "text": "9 times 8 equals 72." },
-            { "emoji": "✖️", "text": "9 times 9 equals 81." },
-            { "emoji": "✖️", "text": "9 times 10 equals 90." }
+            {
+              "emoji": "✖️",
+              "text": "9 times 1 equals 9."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 2 equals 18."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 3 equals 27."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 4 equals 36."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 5 equals 45."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 6 equals 54."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 7 equals 63."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 8 equals 72."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 9 equals 81."
+            },
+            {
+              "emoji": "✖️",
+              "text": "9 times 10 equals 90."
+            }
           ]
         }
       }
     },
     {
       "id": "table_10",
-      "image": "🔟",
+      "image": "assets/pictos/multiplications/table_10.webp",
       "translations": {
         "fr": {
           "label": "Table de 10",
           "phrases": [
-            { "emoji": "✖️", "text": "10 fois 1 égale 10." },
-            { "emoji": "✖️", "text": "10 fois 2 égale 20." },
-            { "emoji": "✖️", "text": "10 fois 3 égale 30." },
-            { "emoji": "✖️", "text": "10 fois 4 égale 40." },
-            { "emoji": "✖️", "text": "10 fois 5 égale 50." },
-            { "emoji": "✖️", "text": "10 fois 6 égale 60." },
-            { "emoji": "✖️", "text": "10 fois 7 égale 70." },
-            { "emoji": "✖️", "text": "10 fois 8 égale 80." },
-            { "emoji": "✖️", "text": "10 fois 9 égale 90." },
-            { "emoji": "✖️", "text": "10 fois 10 égale 100." }
+            {
+              "emoji": "✖️",
+              "text": "10 fois 1 égale 10."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 2 égale 20."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 3 égale 30."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 4 égale 40."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 5 égale 50."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 6 égale 60."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 7 égale 70."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 8 égale 80."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 9 égale 90."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 fois 10 égale 100."
+            }
           ]
         },
         "en": {
           "label": "10 Times Table",
           "phrases": [
-            { "emoji": "✖️", "text": "10 times 1 equals 10." },
-            { "emoji": "✖️", "text": "10 times 2 equals 20." },
-            { "emoji": "✖️", "text": "10 times 3 equals 30." },
-            { "emoji": "✖️", "text": "10 times 4 equals 40." },
-            { "emoji": "✖️", "text": "10 times 5 equals 50." },
-            { "emoji": "✖️", "text": "10 times 6 equals 60." },
-            { "emoji": "✖️", "text": "10 times 7 equals 70." },
-            { "emoji": "✖️", "text": "10 times 8 equals 80." },
-            { "emoji": "✖️", "text": "10 times 9 equals 90." },
-            { "emoji": "✖️", "text": "10 times 10 equals 100." }
+            {
+              "emoji": "✖️",
+              "text": "10 times 1 equals 10."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 2 equals 20."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 3 equals 30."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 4 equals 40."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 5 equals 50."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 6 equals 60."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 7 equals 70."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 8 equals 80."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 9 equals 90."
+            },
+            {
+              "emoji": "✖️",
+              "text": "10 times 10 equals 100."
+            }
           ]
         }
       }

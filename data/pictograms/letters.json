@@ -3,648 +3,1296 @@
   "pictograms": [
     {
       "id": "letter-a",
-      "image": "🅰️",
+      "image": "assets/pictos/letters/letter-a.webp",
       "translations": {
         "fr": {
           "label": "A",
           "phrases": [
-            { "emoji": "🅰️", "text": "C'est la lettre A." },
-            { "emoji": "🅰️", "text": "A comme Avion." },
-            { "emoji": "🅰️", "text": "Je connais la lettre A." },
-            { "emoji": "🅰️", "text": "A est la première lettre." }
+            {
+              "emoji": "🅰️",
+              "text": "C'est la lettre A."
+            },
+            {
+              "emoji": "🅰️",
+              "text": "A comme Avion."
+            },
+            {
+              "emoji": "🅰️",
+              "text": "Je connais la lettre A."
+            },
+            {
+              "emoji": "🅰️",
+              "text": "A est la première lettre."
+            }
           ]
         },
         "en": {
           "label": "A",
           "phrases": [
-            { "emoji": "🅰️", "text": "It's the letter A." },
-            { "emoji": "🅰️", "text": "A for Apple." },
-            { "emoji": "🅰️", "text": "I know the letter A." },
-            { "emoji": "🅰️", "text": "A is the first letter." }
+            {
+              "emoji": "🅰️",
+              "text": "It's the letter A."
+            },
+            {
+              "emoji": "🅰️",
+              "text": "A for Apple."
+            },
+            {
+              "emoji": "🅰️",
+              "text": "I know the letter A."
+            },
+            {
+              "emoji": "🅰️",
+              "text": "A is the first letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-b",
-      "image": "🅱️",
+      "image": "assets/pictos/letters/letter-b.webp",
       "translations": {
         "fr": {
           "label": "B",
           "phrases": [
-            { "emoji": "🅱️", "text": "C'est la lettre B." },
-            { "emoji": "🅱️", "text": "B comme Ballon." },
-            { "emoji": "🅱️", "text": "Je connais la lettre B." },
-            { "emoji": "🅱️", "text": "B est la deuxième lettre." }
+            {
+              "emoji": "🅱️",
+              "text": "C'est la lettre B."
+            },
+            {
+              "emoji": "🅱️",
+              "text": "B comme Ballon."
+            },
+            {
+              "emoji": "🅱️",
+              "text": "Je connais la lettre B."
+            },
+            {
+              "emoji": "🅱️",
+              "text": "B est la deuxième lettre."
+            }
           ]
         },
         "en": {
           "label": "B",
           "phrases": [
-            { "emoji": "🅱️", "text": "It's the letter B." },
-            { "emoji": "🅱️", "text": "B for Ball." },
-            { "emoji": "🅱️", "text": "I know the letter B." },
-            { "emoji": "🅱️", "text": "B is the second letter." }
+            {
+              "emoji": "🅱️",
+              "text": "It's the letter B."
+            },
+            {
+              "emoji": "🅱️",
+              "text": "B for Ball."
+            },
+            {
+              "emoji": "🅱️",
+              "text": "I know the letter B."
+            },
+            {
+              "emoji": "🅱️",
+              "text": "B is the second letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-c",
-      "image": "©️",
+      "image": "assets/pictos/letters/letter-c.webp",
       "translations": {
         "fr": {
           "label": "C",
           "phrases": [
-            { "emoji": "©️", "text": "C'est la lettre C." },
-            { "emoji": "©️", "text": "C comme Chat." },
-            { "emoji": "©️", "text": "Je connais la lettre C." },
-            { "emoji": "©️", "text": "C est la troisième lettre." }
+            {
+              "emoji": "©️",
+              "text": "C'est la lettre C."
+            },
+            {
+              "emoji": "©️",
+              "text": "C comme Chat."
+            },
+            {
+              "emoji": "©️",
+              "text": "Je connais la lettre C."
+            },
+            {
+              "emoji": "©️",
+              "text": "C est la troisième lettre."
+            }
           ]
         },
         "en": {
           "label": "C",
           "phrases": [
-            { "emoji": "©️", "text": "It's the letter C." },
-            { "emoji": "©️", "text": "C for Cat." },
-            { "emoji": "©️", "text": "I know the letter C." },
-            { "emoji": "©️", "text": "C is the third letter." }
+            {
+              "emoji": "©️",
+              "text": "It's the letter C."
+            },
+            {
+              "emoji": "©️",
+              "text": "C for Cat."
+            },
+            {
+              "emoji": "©️",
+              "text": "I know the letter C."
+            },
+            {
+              "emoji": "©️",
+              "text": "C is the third letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-d",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-d.webp",
       "translations": {
         "fr": {
           "label": "D",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre D." },
-            { "emoji": "🔤", "text": "D comme Dinosaure." },
-            { "emoji": "🔤", "text": "Je connais la lettre D." },
-            { "emoji": "🔤", "text": "D est la quatrième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre D."
+            },
+            {
+              "emoji": "🔤",
+              "text": "D comme Dinosaure."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre D."
+            },
+            {
+              "emoji": "🔤",
+              "text": "D est la quatrième lettre."
+            }
           ]
         },
         "en": {
           "label": "D",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter D." },
-            { "emoji": "🔤", "text": "D for Dog." },
-            { "emoji": "🔤", "text": "I know the letter D." },
-            { "emoji": "🔤", "text": "D is the fourth letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter D."
+            },
+            {
+              "emoji": "🔤",
+              "text": "D for Dog."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter D."
+            },
+            {
+              "emoji": "🔤",
+              "text": "D is the fourth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-e",
-      "image": "📧",
+      "image": "assets/pictos/letters/letter-e.webp",
       "translations": {
         "fr": {
           "label": "E",
           "phrases": [
-            { "emoji": "📧", "text": "C'est la lettre E." },
-            { "emoji": "📧", "text": "E comme Éléphant." },
-            { "emoji": "📧", "text": "Je connais la lettre E." },
-            { "emoji": "📧", "text": "E est la cinquième lettre." }
+            {
+              "emoji": "📧",
+              "text": "C'est la lettre E."
+            },
+            {
+              "emoji": "📧",
+              "text": "E comme Éléphant."
+            },
+            {
+              "emoji": "📧",
+              "text": "Je connais la lettre E."
+            },
+            {
+              "emoji": "📧",
+              "text": "E est la cinquième lettre."
+            }
           ]
         },
         "en": {
           "label": "E",
           "phrases": [
-            { "emoji": "📧", "text": "It's the letter E." },
-            { "emoji": "📧", "text": "E for Elephant." },
-            { "emoji": "📧", "text": "I know the letter E." },
-            { "emoji": "📧", "text": "E is the fifth letter." }
+            {
+              "emoji": "📧",
+              "text": "It's the letter E."
+            },
+            {
+              "emoji": "📧",
+              "text": "E for Elephant."
+            },
+            {
+              "emoji": "📧",
+              "text": "I know the letter E."
+            },
+            {
+              "emoji": "📧",
+              "text": "E is the fifth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-f",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-f.webp",
       "translations": {
         "fr": {
           "label": "F",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre F." },
-            { "emoji": "🔤", "text": "F comme Fleur." },
-            { "emoji": "🔤", "text": "Je connais la lettre F." },
-            { "emoji": "🔤", "text": "F est la sixième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre F."
+            },
+            {
+              "emoji": "🔤",
+              "text": "F comme Fleur."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre F."
+            },
+            {
+              "emoji": "🔤",
+              "text": "F est la sixième lettre."
+            }
           ]
         },
         "en": {
           "label": "F",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter F." },
-            { "emoji": "🔤", "text": "F for Flower." },
-            { "emoji": "🔤", "text": "I know the letter F." },
-            { "emoji": "🔤", "text": "F is the sixth letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter F."
+            },
+            {
+              "emoji": "🔤",
+              "text": "F for Flower."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter F."
+            },
+            {
+              "emoji": "🔤",
+              "text": "F is the sixth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-g",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-g.webp",
       "translations": {
         "fr": {
           "label": "G",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre G." },
-            { "emoji": "🔤", "text": "G comme Guitare." },
-            { "emoji": "🔤", "text": "Je connais la lettre G." },
-            { "emoji": "🔤", "text": "G est la septième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre G."
+            },
+            {
+              "emoji": "🔤",
+              "text": "G comme Guitare."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre G."
+            },
+            {
+              "emoji": "🔤",
+              "text": "G est la septième lettre."
+            }
           ]
         },
         "en": {
           "label": "G",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter G." },
-            { "emoji": "🔤", "text": "G for Guitar." },
-            { "emoji": "🔤", "text": "I know the letter G." },
-            { "emoji": "🔤", "text": "G is the seventh letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter G."
+            },
+            {
+              "emoji": "🔤",
+              "text": "G for Guitar."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter G."
+            },
+            {
+              "emoji": "🔤",
+              "text": "G is the seventh letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-h",
-      "image": "🏨",
+      "image": "assets/pictos/letters/letter-h.webp",
       "translations": {
         "fr": {
           "label": "H",
           "phrases": [
-            { "emoji": "🏨", "text": "C'est la lettre H." },
-            { "emoji": "🏨", "text": "H comme Hôtel." },
-            { "emoji": "🏨", "text": "Je connais la lettre H." },
-            { "emoji": "🏨", "text": "H est la huitième lettre." }
+            {
+              "emoji": "🏨",
+              "text": "C'est la lettre H."
+            },
+            {
+              "emoji": "🏨",
+              "text": "H comme Hôtel."
+            },
+            {
+              "emoji": "🏨",
+              "text": "Je connais la lettre H."
+            },
+            {
+              "emoji": "🏨",
+              "text": "H est la huitième lettre."
+            }
           ]
         },
         "en": {
           "label": "H",
           "phrases": [
-            { "emoji": "🏨", "text": "It's the letter H." },
-            { "emoji": "🏨", "text": "H for House." },
-            { "emoji": "🏨", "text": "I know the letter H." },
-            { "emoji": "🏨", "text": "H is the eighth letter." }
+            {
+              "emoji": "🏨",
+              "text": "It's the letter H."
+            },
+            {
+              "emoji": "🏨",
+              "text": "H for House."
+            },
+            {
+              "emoji": "🏨",
+              "text": "I know the letter H."
+            },
+            {
+              "emoji": "🏨",
+              "text": "H is the eighth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-i",
-      "image": "ℹ️",
+      "image": "assets/pictos/letters/letter-i.webp",
       "translations": {
         "fr": {
           "label": "I",
           "phrases": [
-            { "emoji": "ℹ️", "text": "C'est la lettre I." },
-            { "emoji": "ℹ️", "text": "I comme Igloo." },
-            { "emoji": "ℹ️", "text": "Je connais la lettre I." },
-            { "emoji": "ℹ️", "text": "I est la neuvième lettre." }
+            {
+              "emoji": "ℹ️",
+              "text": "C'est la lettre I."
+            },
+            {
+              "emoji": "ℹ️",
+              "text": "I comme Igloo."
+            },
+            {
+              "emoji": "ℹ️",
+              "text": "Je connais la lettre I."
+            },
+            {
+              "emoji": "ℹ️",
+              "text": "I est la neuvième lettre."
+            }
           ]
         },
         "en": {
           "label": "I",
           "phrases": [
-            { "emoji": "ℹ️", "text": "It's the letter I." },
-            { "emoji": "ℹ️", "text": "I for Ice cream." },
-            { "emoji": "ℹ️", "text": "I know the letter I." },
-            { "emoji": "ℹ️", "text": "I is the ninth letter." }
+            {
+              "emoji": "ℹ️",
+              "text": "It's the letter I."
+            },
+            {
+              "emoji": "ℹ️",
+              "text": "I for Ice cream."
+            },
+            {
+              "emoji": "ℹ️",
+              "text": "I know the letter I."
+            },
+            {
+              "emoji": "ℹ️",
+              "text": "I is the ninth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-j",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-j.webp",
       "translations": {
         "fr": {
           "label": "J",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre J." },
-            { "emoji": "🔤", "text": "J comme Jardin." },
-            { "emoji": "🔤", "text": "Je connais la lettre J." },
-            { "emoji": "🔤", "text": "J est la dixième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre J."
+            },
+            {
+              "emoji": "🔤",
+              "text": "J comme Jardin."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre J."
+            },
+            {
+              "emoji": "🔤",
+              "text": "J est la dixième lettre."
+            }
           ]
         },
         "en": {
           "label": "J",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter J." },
-            { "emoji": "🔤", "text": "J for Juice." },
-            { "emoji": "🔤", "text": "I know the letter J." },
-            { "emoji": "🔤", "text": "J is the tenth letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter J."
+            },
+            {
+              "emoji": "🔤",
+              "text": "J for Juice."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter J."
+            },
+            {
+              "emoji": "🔤",
+              "text": "J is the tenth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-k",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-k.webp",
       "translations": {
         "fr": {
           "label": "K",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre K." },
-            { "emoji": "🔤", "text": "K comme Kangourou." },
-            { "emoji": "🔤", "text": "Je connais la lettre K." },
-            { "emoji": "🔤", "text": "K est la onzième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre K."
+            },
+            {
+              "emoji": "🔤",
+              "text": "K comme Kangourou."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre K."
+            },
+            {
+              "emoji": "🔤",
+              "text": "K est la onzième lettre."
+            }
           ]
         },
         "en": {
           "label": "K",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter K." },
-            { "emoji": "🔤", "text": "K for Kite." },
-            { "emoji": "🔤", "text": "I know the letter K." },
-            { "emoji": "🔤", "text": "K is the eleventh letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter K."
+            },
+            {
+              "emoji": "🔤",
+              "text": "K for Kite."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter K."
+            },
+            {
+              "emoji": "🔤",
+              "text": "K is the eleventh letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-l",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-l.webp",
       "translations": {
         "fr": {
           "label": "L",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre L." },
-            { "emoji": "🔤", "text": "L comme Lion." },
-            { "emoji": "🔤", "text": "Je connais la lettre L." },
-            { "emoji": "🔤", "text": "L est la douzième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre L."
+            },
+            {
+              "emoji": "🔤",
+              "text": "L comme Lion."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre L."
+            },
+            {
+              "emoji": "🔤",
+              "text": "L est la douzième lettre."
+            }
           ]
         },
         "en": {
           "label": "L",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter L." },
-            { "emoji": "🔤", "text": "L for Lion." },
-            { "emoji": "🔤", "text": "I know the letter L." },
-            { "emoji": "🔤", "text": "L is the twelfth letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter L."
+            },
+            {
+              "emoji": "🔤",
+              "text": "L for Lion."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter L."
+            },
+            {
+              "emoji": "🔤",
+              "text": "L is the twelfth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-m",
-      "image": "Ⓜ️",
+      "image": "assets/pictos/letters/letter-m.webp",
       "translations": {
         "fr": {
           "label": "M",
           "phrases": [
-            { "emoji": "Ⓜ️", "text": "C'est la lettre M." },
-            { "emoji": "Ⓜ️", "text": "M comme Maman." },
-            { "emoji": "Ⓜ️", "text": "Je connais la lettre M." },
-            { "emoji": "Ⓜ️", "text": "M est la treizième lettre." }
+            {
+              "emoji": "Ⓜ️",
+              "text": "C'est la lettre M."
+            },
+            {
+              "emoji": "Ⓜ️",
+              "text": "M comme Maman."
+            },
+            {
+              "emoji": "Ⓜ️",
+              "text": "Je connais la lettre M."
+            },
+            {
+              "emoji": "Ⓜ️",
+              "text": "M est la treizième lettre."
+            }
           ]
         },
         "en": {
           "label": "M",
           "phrases": [
-            { "emoji": "Ⓜ️", "text": "It's the letter M." },
-            { "emoji": "Ⓜ️", "text": "M for Mom." },
-            { "emoji": "Ⓜ️", "text": "I know the letter M." },
-            { "emoji": "Ⓜ️", "text": "M is the thirteenth letter." }
+            {
+              "emoji": "Ⓜ️",
+              "text": "It's the letter M."
+            },
+            {
+              "emoji": "Ⓜ️",
+              "text": "M for Mom."
+            },
+            {
+              "emoji": "Ⓜ️",
+              "text": "I know the letter M."
+            },
+            {
+              "emoji": "Ⓜ️",
+              "text": "M is the thirteenth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-n",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-n.webp",
       "translations": {
         "fr": {
           "label": "N",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre N." },
-            { "emoji": "🔤", "text": "N comme Nuage." },
-            { "emoji": "🔤", "text": "Je connais la lettre N." },
-            { "emoji": "🔤", "text": "N est la quatorzième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre N."
+            },
+            {
+              "emoji": "🔤",
+              "text": "N comme Nuage."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre N."
+            },
+            {
+              "emoji": "🔤",
+              "text": "N est la quatorzième lettre."
+            }
           ]
         },
         "en": {
           "label": "N",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter N." },
-            { "emoji": "🔤", "text": "N for Nest." },
-            { "emoji": "🔤", "text": "I know the letter N." },
-            { "emoji": "🔤", "text": "N is the fourteenth letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter N."
+            },
+            {
+              "emoji": "🔤",
+              "text": "N for Nest."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter N."
+            },
+            {
+              "emoji": "🔤",
+              "text": "N is the fourteenth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-o",
-      "image": "🅾️",
+      "image": "assets/pictos/letters/letter-o.webp",
       "translations": {
         "fr": {
           "label": "O",
           "phrases": [
-            { "emoji": "🅾️", "text": "C'est la lettre O." },
-            { "emoji": "🅾️", "text": "O comme Orange." },
-            { "emoji": "🅾️", "text": "Je connais la lettre O." },
-            { "emoji": "🅾️", "text": "O est la quinzième lettre." }
+            {
+              "emoji": "🅾️",
+              "text": "C'est la lettre O."
+            },
+            {
+              "emoji": "🅾️",
+              "text": "O comme Orange."
+            },
+            {
+              "emoji": "🅾️",
+              "text": "Je connais la lettre O."
+            },
+            {
+              "emoji": "🅾️",
+              "text": "O est la quinzième lettre."
+            }
           ]
         },
         "en": {
           "label": "O",
           "phrases": [
-            { "emoji": "🅾️", "text": "It's the letter O." },
-            { "emoji": "🅾️", "text": "O for Orange." },
-            { "emoji": "🅾️", "text": "I know the letter O." },
-            { "emoji": "🅾️", "text": "O is the fifteenth letter." }
+            {
+              "emoji": "🅾️",
+              "text": "It's the letter O."
+            },
+            {
+              "emoji": "🅾️",
+              "text": "O for Orange."
+            },
+            {
+              "emoji": "🅾️",
+              "text": "I know the letter O."
+            },
+            {
+              "emoji": "🅾️",
+              "text": "O is the fifteenth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-p",
-      "image": "🅿️",
+      "image": "assets/pictos/letters/letter-p.webp",
       "translations": {
         "fr": {
           "label": "P",
           "phrases": [
-            { "emoji": "🅿️", "text": "C'est la lettre P." },
-            { "emoji": "🅿️", "text": "P comme Papa." },
-            { "emoji": "🅿️", "text": "Je connais la lettre P." },
-            { "emoji": "🅿️", "text": "P est la seizième lettre." }
+            {
+              "emoji": "🅿️",
+              "text": "C'est la lettre P."
+            },
+            {
+              "emoji": "🅿️",
+              "text": "P comme Papa."
+            },
+            {
+              "emoji": "🅿️",
+              "text": "Je connais la lettre P."
+            },
+            {
+              "emoji": "🅿️",
+              "text": "P est la seizième lettre."
+            }
           ]
         },
         "en": {
           "label": "P",
           "phrases": [
-            { "emoji": "🅿️", "text": "It's the letter P." },
-            { "emoji": "🅿️", "text": "P for Penguin." },
-            { "emoji": "🅿️", "text": "I know the letter P." },
-            { "emoji": "🅿️", "text": "P is the sixteenth letter." }
+            {
+              "emoji": "🅿️",
+              "text": "It's the letter P."
+            },
+            {
+              "emoji": "🅿️",
+              "text": "P for Penguin."
+            },
+            {
+              "emoji": "🅿️",
+              "text": "I know the letter P."
+            },
+            {
+              "emoji": "🅿️",
+              "text": "P is the sixteenth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-q",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-q.webp",
       "translations": {
         "fr": {
           "label": "Q",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre Q." },
-            { "emoji": "🔤", "text": "Q comme Queue." },
-            { "emoji": "🔤", "text": "Je connais la lettre Q." },
-            { "emoji": "🔤", "text": "Q est la dix-septième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre Q."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Q comme Queue."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre Q."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Q est la dix-septième lettre."
+            }
           ]
         },
         "en": {
           "label": "Q",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter Q." },
-            { "emoji": "🔤", "text": "Q for Queen." },
-            { "emoji": "🔤", "text": "I know the letter Q." },
-            { "emoji": "🔤", "text": "Q is the seventeenth letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter Q."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Q for Queen."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter Q."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Q is the seventeenth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-r",
-      "image": "®️",
+      "image": "assets/pictos/letters/letter-r.webp",
       "translations": {
         "fr": {
           "label": "R",
           "phrases": [
-            { "emoji": "®️", "text": "C'est la lettre R." },
-            { "emoji": "®️", "text": "R comme Robot." },
-            { "emoji": "®️", "text": "Je connais la lettre R." },
-            { "emoji": "®️", "text": "R est la dix-huitième lettre." }
+            {
+              "emoji": "®️",
+              "text": "C'est la lettre R."
+            },
+            {
+              "emoji": "®️",
+              "text": "R comme Robot."
+            },
+            {
+              "emoji": "®️",
+              "text": "Je connais la lettre R."
+            },
+            {
+              "emoji": "®️",
+              "text": "R est la dix-huitième lettre."
+            }
           ]
         },
         "en": {
           "label": "R",
           "phrases": [
-            { "emoji": "®️", "text": "It's the letter R." },
-            { "emoji": "®️", "text": "R for Robot." },
-            { "emoji": "®️", "text": "I know the letter R." },
-            { "emoji": "®️", "text": "R is the eighteenth letter." }
+            {
+              "emoji": "®️",
+              "text": "It's the letter R."
+            },
+            {
+              "emoji": "®️",
+              "text": "R for Robot."
+            },
+            {
+              "emoji": "®️",
+              "text": "I know the letter R."
+            },
+            {
+              "emoji": "®️",
+              "text": "R is the eighteenth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-s",
-      "image": "💲",
+      "image": "assets/pictos/letters/letter-s.webp",
       "translations": {
         "fr": {
           "label": "S",
           "phrases": [
-            { "emoji": "💲", "text": "C'est la lettre S." },
-            { "emoji": "💲", "text": "S comme Soleil." },
-            { "emoji": "💲", "text": "Je connais la lettre S." },
-            { "emoji": "💲", "text": "S est la dix-neuvième lettre." }
+            {
+              "emoji": "💲",
+              "text": "C'est la lettre S."
+            },
+            {
+              "emoji": "💲",
+              "text": "S comme Soleil."
+            },
+            {
+              "emoji": "💲",
+              "text": "Je connais la lettre S."
+            },
+            {
+              "emoji": "💲",
+              "text": "S est la dix-neuvième lettre."
+            }
           ]
         },
         "en": {
           "label": "S",
           "phrases": [
-            { "emoji": "💲", "text": "It's the letter S." },
-            { "emoji": "💲", "text": "S for Sun." },
-            { "emoji": "💲", "text": "I know the letter S." },
-            { "emoji": "💲", "text": "S is the nineteenth letter." }
+            {
+              "emoji": "💲",
+              "text": "It's the letter S."
+            },
+            {
+              "emoji": "💲",
+              "text": "S for Sun."
+            },
+            {
+              "emoji": "💲",
+              "text": "I know the letter S."
+            },
+            {
+              "emoji": "💲",
+              "text": "S is the nineteenth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-t",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-t.webp",
       "translations": {
         "fr": {
           "label": "T",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre T." },
-            { "emoji": "🔤", "text": "T comme Train." },
-            { "emoji": "🔤", "text": "Je connais la lettre T." },
-            { "emoji": "🔤", "text": "T est la vingtième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre T."
+            },
+            {
+              "emoji": "🔤",
+              "text": "T comme Train."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre T."
+            },
+            {
+              "emoji": "🔤",
+              "text": "T est la vingtième lettre."
+            }
           ]
         },
         "en": {
           "label": "T",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter T." },
-            { "emoji": "🔤", "text": "T for Train." },
-            { "emoji": "🔤", "text": "I know the letter T." },
-            { "emoji": "🔤", "text": "T is the twentieth letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter T."
+            },
+            {
+              "emoji": "🔤",
+              "text": "T for Train."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter T."
+            },
+            {
+              "emoji": "🔤",
+              "text": "T is the twentieth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-u",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-u.webp",
       "translations": {
         "fr": {
           "label": "U",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre U." },
-            { "emoji": "🔤", "text": "U comme Usine." },
-            { "emoji": "🔤", "text": "Je connais la lettre U." },
-            { "emoji": "🔤", "text": "U est la vingt-et-unième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre U."
+            },
+            {
+              "emoji": "🔤",
+              "text": "U comme Usine."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre U."
+            },
+            {
+              "emoji": "🔤",
+              "text": "U est la vingt-et-unième lettre."
+            }
           ]
         },
         "en": {
           "label": "U",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter U." },
-            { "emoji": "🔤", "text": "U for Umbrella." },
-            { "emoji": "🔤", "text": "I know the letter U." },
-            { "emoji": "🔤", "text": "U is the twenty-first letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter U."
+            },
+            {
+              "emoji": "🔤",
+              "text": "U for Umbrella."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter U."
+            },
+            {
+              "emoji": "🔤",
+              "text": "U is the twenty-first letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-v",
-      "image": "✌️",
+      "image": "assets/pictos/letters/letter-v.webp",
       "translations": {
         "fr": {
           "label": "V",
           "phrases": [
-            { "emoji": "✌️", "text": "C'est la lettre V." },
-            { "emoji": "✌️", "text": "V comme Voiture." },
-            { "emoji": "✌️", "text": "Je connais la lettre V." },
-            { "emoji": "✌️", "text": "V est la vingt-deuxième lettre." }
+            {
+              "emoji": "✌️",
+              "text": "C'est la lettre V."
+            },
+            {
+              "emoji": "✌️",
+              "text": "V comme Voiture."
+            },
+            {
+              "emoji": "✌️",
+              "text": "Je connais la lettre V."
+            },
+            {
+              "emoji": "✌️",
+              "text": "V est la vingt-deuxième lettre."
+            }
           ]
         },
         "en": {
           "label": "V",
           "phrases": [
-            { "emoji": "✌️", "text": "It's the letter V." },
-            { "emoji": "✌️", "text": "V for Violin." },
-            { "emoji": "✌️", "text": "I know the letter V." },
-            { "emoji": "✌️", "text": "V is the twenty-second letter." }
+            {
+              "emoji": "✌️",
+              "text": "It's the letter V."
+            },
+            {
+              "emoji": "✌️",
+              "text": "V for Violin."
+            },
+            {
+              "emoji": "✌️",
+              "text": "I know the letter V."
+            },
+            {
+              "emoji": "✌️",
+              "text": "V is the twenty-second letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-w",
-      "image": "〰️",
+      "image": "assets/pictos/letters/letter-w.webp",
       "translations": {
         "fr": {
           "label": "W",
           "phrases": [
-            { "emoji": "〰️", "text": "C'est la lettre W." },
-            { "emoji": "〰️", "text": "W comme Wagon." },
-            { "emoji": "〰️", "text": "Je connais la lettre W." },
-            { "emoji": "〰️", "text": "W est la vingt-troisième lettre." }
+            {
+              "emoji": "〰️",
+              "text": "C'est la lettre W."
+            },
+            {
+              "emoji": "〰️",
+              "text": "W comme Wagon."
+            },
+            {
+              "emoji": "〰️",
+              "text": "Je connais la lettre W."
+            },
+            {
+              "emoji": "〰️",
+              "text": "W est la vingt-troisième lettre."
+            }
           ]
         },
         "en": {
           "label": "W",
           "phrases": [
-            { "emoji": "〰️", "text": "It's the letter W." },
-            { "emoji": "〰️", "text": "W for Whale." },
-            { "emoji": "〰️", "text": "I know the letter W." },
-            { "emoji": "〰️", "text": "W is the twenty-third letter." }
+            {
+              "emoji": "〰️",
+              "text": "It's the letter W."
+            },
+            {
+              "emoji": "〰️",
+              "text": "W for Whale."
+            },
+            {
+              "emoji": "〰️",
+              "text": "I know the letter W."
+            },
+            {
+              "emoji": "〰️",
+              "text": "W is the twenty-third letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-x",
-      "image": "❌",
+      "image": "assets/pictos/letters/letter-x.webp",
       "translations": {
         "fr": {
           "label": "X",
           "phrases": [
-            { "emoji": "❌", "text": "C'est la lettre X." },
-            { "emoji": "❌", "text": "X comme Xylophone." },
-            { "emoji": "❌", "text": "Je connais la lettre X." },
-            { "emoji": "❌", "text": "X est la vingt-quatrième lettre." }
+            {
+              "emoji": "❌",
+              "text": "C'est la lettre X."
+            },
+            {
+              "emoji": "❌",
+              "text": "X comme Xylophone."
+            },
+            {
+              "emoji": "❌",
+              "text": "Je connais la lettre X."
+            },
+            {
+              "emoji": "❌",
+              "text": "X est la vingt-quatrième lettre."
+            }
           ]
         },
         "en": {
           "label": "X",
           "phrases": [
-            { "emoji": "❌", "text": "It's the letter X." },
-            { "emoji": "❌", "text": "X for Xylophone." },
-            { "emoji": "❌", "text": "I know the letter X." },
-            { "emoji": "❌", "text": "X is the twenty-fourth letter." }
+            {
+              "emoji": "❌",
+              "text": "It's the letter X."
+            },
+            {
+              "emoji": "❌",
+              "text": "X for Xylophone."
+            },
+            {
+              "emoji": "❌",
+              "text": "I know the letter X."
+            },
+            {
+              "emoji": "❌",
+              "text": "X is the twenty-fourth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-y",
-      "image": "🔤",
+      "image": "assets/pictos/letters/letter-y.webp",
       "translations": {
         "fr": {
           "label": "Y",
           "phrases": [
-            { "emoji": "🔤", "text": "C'est la lettre Y." },
-            { "emoji": "🔤", "text": "Y comme Yeux." },
-            { "emoji": "🔤", "text": "Je connais la lettre Y." },
-            { "emoji": "🔤", "text": "Y est la vingt-cinquième lettre." }
+            {
+              "emoji": "🔤",
+              "text": "C'est la lettre Y."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Y comme Yeux."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je connais la lettre Y."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Y est la vingt-cinquième lettre."
+            }
           ]
         },
         "en": {
           "label": "Y",
           "phrases": [
-            { "emoji": "🔤", "text": "It's the letter Y." },
-            { "emoji": "🔤", "text": "Y for Yo-yo." },
-            { "emoji": "🔤", "text": "I know the letter Y." },
-            { "emoji": "🔤", "text": "Y is the twenty-fifth letter." }
+            {
+              "emoji": "🔤",
+              "text": "It's the letter Y."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Y for Yo-yo."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I know the letter Y."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Y is the twenty-fifth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "letter-z",
-      "image": "💤",
+      "image": "assets/pictos/letters/letter-z.webp",
       "translations": {
         "fr": {
           "label": "Z",
           "phrases": [
-            { "emoji": "💤", "text": "C'est la lettre Z." },
-            { "emoji": "💤", "text": "Z comme Zèbre." },
-            { "emoji": "💤", "text": "Je connais la lettre Z." },
-            { "emoji": "💤", "text": "Z est la vingt-sixième lettre." }
+            {
+              "emoji": "💤",
+              "text": "C'est la lettre Z."
+            },
+            {
+              "emoji": "💤",
+              "text": "Z comme Zèbre."
+            },
+            {
+              "emoji": "💤",
+              "text": "Je connais la lettre Z."
+            },
+            {
+              "emoji": "💤",
+              "text": "Z est la vingt-sixième lettre."
+            }
           ]
         },
         "en": {
           "label": "Z",
           "phrases": [
-            { "emoji": "💤", "text": "It's the letter Z." },
-            { "emoji": "💤", "text": "Z for Zebra." },
-            { "emoji": "💤", "text": "I know the letter Z." },
-            { "emoji": "💤", "text": "Z is the twenty-sixth letter." }
+            {
+              "emoji": "💤",
+              "text": "It's the letter Z."
+            },
+            {
+              "emoji": "💤",
+              "text": "Z for Zebra."
+            },
+            {
+              "emoji": "💤",
+              "text": "I know the letter Z."
+            },
+            {
+              "emoji": "💤",
+              "text": "Z is the twenty-sixth letter."
+            }
           ]
         }
       }
     },
     {
       "id": "alphabet",
-      "image": "🔤",
+      "image": "assets/pictos/letters/alphabet.webp",
       "translations": {
         "fr": {
           "label": "Alphabet",
           "phrases": [
-            { "emoji": "🔤", "text": "J'apprends l'alphabet." },
-            { "emoji": "🔤", "text": "L'alphabet a 26 lettres." },
-            { "emoji": "🔤", "text": "Je récite l'alphabet." },
-            { "emoji": "🔤", "text": "A, B, C, D, E, F, G..." }
+            {
+              "emoji": "🔤",
+              "text": "J'apprends l'alphabet."
+            },
+            {
+              "emoji": "🔤",
+              "text": "L'alphabet a 26 lettres."
+            },
+            {
+              "emoji": "🔤",
+              "text": "Je récite l'alphabet."
+            },
+            {
+              "emoji": "🔤",
+              "text": "A, B, C, D, E, F, G..."
+            }
           ]
         },
         "en": {
           "label": "Alphabet",
           "phrases": [
-            { "emoji": "🔤", "text": "I learn the alphabet." },
-            { "emoji": "🔤", "text": "The alphabet has 26 letters." },
-            { "emoji": "🔤", "text": "I recite the alphabet." },
-            { "emoji": "🔤", "text": "A, B, C, D, E, F, G..." }
+            {
+              "emoji": "🔤",
+              "text": "I learn the alphabet."
+            },
+            {
+              "emoji": "🔤",
+              "text": "The alphabet has 26 letters."
+            },
+            {
+              "emoji": "🔤",
+              "text": "I recite the alphabet."
+            },
+            {
+              "emoji": "🔤",
+              "text": "A, B, C, D, E, F, G..."
+            }
           ]
         }
       }

@@ -3,738 +3,1896 @@
   "pictograms": [
     {
       "id": "one",
-      "image": "1️⃣",
+      "image": "assets/pictos/numbers/one.webp",
       "translations": {
         "fr": {
           "label": "Un",
           "phrases": [
-            { "emoji": "1️⃣", "text": "C'est le chiffre un." },
-            { "emoji": "1️⃣", "text": "Je compte jusqu'à un." },
-            { "emoji": "1️⃣", "text": "J'ai un objet." },
-            { "emoji": "1️⃣", "text": "Un est le premier chiffre." },
-            { "emoji": "1️⃣", "text": "Un vient avant deux." },
-            { "emoji": "1️⃣", "text": "Un vient après zéro." },
-            { "emoji": "1️⃣", "text": "J'en veux un." }
+            {
+              "emoji": "1️⃣",
+              "text": "C'est le chiffre un."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "Je compte jusqu'à un."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "J'ai un objet."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "Un est le premier chiffre."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "Un vient avant deux."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "Un vient après zéro."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "J'en veux un."
+            }
           ]
         },
         "en": {
           "label": "One",
           "phrases": [
-            { "emoji": "1️⃣", "text": "It's the number one." },
-            { "emoji": "1️⃣", "text": "I count to one." },
-            { "emoji": "1️⃣", "text": "I have one object." },
-            { "emoji": "1️⃣", "text": "One is the first number." },
-            { "emoji": "1️⃣", "text": "One comes before two." },
-            { "emoji": "1️⃣", "text": "One comes after zero." },
-            { "emoji": "1️⃣", "text": "I want one." }
+            {
+              "emoji": "1️⃣",
+              "text": "It's the number one."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "I count to one."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "I have one object."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "One is the first number."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "One comes before two."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "One comes after zero."
+            },
+            {
+              "emoji": "1️⃣",
+              "text": "I want one."
+            }
           ]
         }
       }
     },
     {
       "id": "two",
-      "image": "2️⃣",
+      "image": "assets/pictos/numbers/two.webp",
       "translations": {
         "fr": {
           "label": "Deux",
           "phrases": [
-            { "emoji": "2️⃣", "text": "C'est le chiffre deux." },
-            { "emoji": "2️⃣", "text": "Je compte jusqu'à deux." },
-            { "emoji": "2️⃣", "text": "J'ai deux objets." },
-            { "emoji": "2️⃣", "text": "Un plus un égale deux." },
-            { "emoji": "2️⃣", "text": "Deux vient avant trois." },
-            { "emoji": "2️⃣", "text": "Deux vient après un." },
-            { "emoji": "2️⃣", "text": "J'en veux deux." }
+            {
+              "emoji": "2️⃣",
+              "text": "C'est le chiffre deux."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "Je compte jusqu'à deux."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "J'ai deux objets."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "Un plus un égale deux."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "Deux vient avant trois."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "Deux vient après un."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "J'en veux deux."
+            }
           ]
         },
         "en": {
           "label": "Two",
           "phrases": [
-            { "emoji": "2️⃣", "text": "It's the number two." },
-            { "emoji": "2️⃣", "text": "I count to two." },
-            { "emoji": "2️⃣", "text": "I have two objects." },
-            { "emoji": "2️⃣", "text": "One plus one equals two." },
-            { "emoji": "2️⃣", "text": "Two comes before three." },
-            { "emoji": "2️⃣", "text": "Two comes after one." },
-            { "emoji": "2️⃣", "text": "I want two." }
+            {
+              "emoji": "2️⃣",
+              "text": "It's the number two."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "I count to two."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "I have two objects."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "One plus one equals two."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "Two comes before three."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "Two comes after one."
+            },
+            {
+              "emoji": "2️⃣",
+              "text": "I want two."
+            }
           ]
         }
       }
     },
     {
       "id": "three",
-      "image": "3️⃣",
+      "image": "assets/pictos/numbers/three.webp",
       "translations": {
         "fr": {
           "label": "Trois",
           "phrases": [
-            { "emoji": "3️⃣", "text": "C'est le chiffre trois." },
-            { "emoji": "3️⃣", "text": "Je compte jusqu'à trois." },
-            { "emoji": "3️⃣", "text": "J'ai trois objets." },
-            { "emoji": "3️⃣", "text": "Deux plus un égale trois." },
-            { "emoji": "3️⃣", "text": "Trois vient avant quatre." },
-            { "emoji": "3️⃣", "text": "Trois vient après deux." },
-            { "emoji": "3️⃣", "text": "J'en veux trois." }
+            {
+              "emoji": "3️⃣",
+              "text": "C'est le chiffre trois."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "Je compte jusqu'à trois."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "J'ai trois objets."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "Deux plus un égale trois."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "Trois vient avant quatre."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "Trois vient après deux."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "J'en veux trois."
+            }
           ]
         },
         "en": {
           "label": "Three",
           "phrases": [
-            { "emoji": "3️⃣", "text": "It's the number three." },
-            { "emoji": "3️⃣", "text": "I count to three." },
-            { "emoji": "3️⃣", "text": "I have three objects." },
-            { "emoji": "3️⃣", "text": "Two plus one equals three." },
-            { "emoji": "3️⃣", "text": "Three comes before four." },
-            { "emoji": "3️⃣", "text": "Three comes after two." },
-            { "emoji": "3️⃣", "text": "I want three." }
+            {
+              "emoji": "3️⃣",
+              "text": "It's the number three."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "I count to three."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "I have three objects."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "Two plus one equals three."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "Three comes before four."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "Three comes after two."
+            },
+            {
+              "emoji": "3️⃣",
+              "text": "I want three."
+            }
           ]
         }
       }
     },
     {
       "id": "four",
-      "image": "4️⃣",
+      "image": "assets/pictos/numbers/four.webp",
       "translations": {
         "fr": {
           "label": "Quatre",
           "phrases": [
-            { "emoji": "4️⃣", "text": "C'est le chiffre quatre." },
-            { "emoji": "4️⃣", "text": "Je compte jusqu'à quatre." },
-            { "emoji": "4️⃣", "text": "J'ai quatre objets." },
-            { "emoji": "4️⃣", "text": "Trois plus un égale quatre." },
-            { "emoji": "4️⃣", "text": "Quatre vient avant cinq." },
-            { "emoji": "4️⃣", "text": "Quatre vient après trois." },
-            { "emoji": "4️⃣", "text": "J'en veux quatre." }
+            {
+              "emoji": "4️⃣",
+              "text": "C'est le chiffre quatre."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "Je compte jusqu'à quatre."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "J'ai quatre objets."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "Trois plus un égale quatre."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "Quatre vient avant cinq."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "Quatre vient après trois."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "J'en veux quatre."
+            }
           ]
         },
         "en": {
           "label": "Four",
           "phrases": [
-            { "emoji": "4️⃣", "text": "It's the number four." },
-            { "emoji": "4️⃣", "text": "I count to four." },
-            { "emoji": "4️⃣", "text": "I have four objects." },
-            { "emoji": "4️⃣", "text": "Three plus one equals four." },
-            { "emoji": "4️⃣", "text": "Four comes before five." },
-            { "emoji": "4️⃣", "text": "Four comes after three." },
-            { "emoji": "4️⃣", "text": "I want four." }
+            {
+              "emoji": "4️⃣",
+              "text": "It's the number four."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "I count to four."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "I have four objects."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "Three plus one equals four."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "Four comes before five."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "Four comes after three."
+            },
+            {
+              "emoji": "4️⃣",
+              "text": "I want four."
+            }
           ]
         }
       }
     },
     {
       "id": "five",
-      "image": "5️⃣",
+      "image": "assets/pictos/numbers/five.webp",
       "translations": {
         "fr": {
           "label": "Cinq",
           "phrases": [
-            { "emoji": "5️⃣", "text": "C'est le chiffre cinq." },
-            { "emoji": "5️⃣", "text": "Je compte jusqu'à cinq." },
-            { "emoji": "5️⃣", "text": "J'ai cinq objets." },
-            { "emoji": "✋", "text": "J'ai cinq doigts sur une main." },
-            { "emoji": "5️⃣", "text": "Cinq vient avant six." },
-            { "emoji": "5️⃣", "text": "Cinq vient après quatre." },
-            { "emoji": "5️⃣", "text": "J'en veux cinq." }
+            {
+              "emoji": "5️⃣",
+              "text": "C'est le chiffre cinq."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "Je compte jusqu'à cinq."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "J'ai cinq objets."
+            },
+            {
+              "emoji": "✋",
+              "text": "J'ai cinq doigts sur une main."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "Cinq vient avant six."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "Cinq vient après quatre."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "J'en veux cinq."
+            }
           ]
         },
         "en": {
           "label": "Five",
           "phrases": [
-            { "emoji": "5️⃣", "text": "It's the number five." },
-            { "emoji": "5️⃣", "text": "I count to five." },
-            { "emoji": "5️⃣", "text": "I have five objects." },
-            { "emoji": "✋", "text": "I have five fingers on one hand." },
-            { "emoji": "5️⃣", "text": "Five comes before six." },
-            { "emoji": "5️⃣", "text": "Five comes after four." },
-            { "emoji": "5️⃣", "text": "I want five." }
+            {
+              "emoji": "5️⃣",
+              "text": "It's the number five."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "I count to five."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "I have five objects."
+            },
+            {
+              "emoji": "✋",
+              "text": "I have five fingers on one hand."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "Five comes before six."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "Five comes after four."
+            },
+            {
+              "emoji": "5️⃣",
+              "text": "I want five."
+            }
           ]
         }
       }
     },
     {
       "id": "six",
-      "image": "6️⃣",
+      "image": "assets/pictos/numbers/six.webp",
       "translations": {
         "fr": {
           "label": "Six",
           "phrases": [
-            { "emoji": "6️⃣", "text": "C'est le chiffre six." },
-            { "emoji": "6️⃣", "text": "Je compte jusqu'à six." },
-            { "emoji": "6️⃣", "text": "J'ai six objets." },
-            { "emoji": "6️⃣", "text": "Cinq plus un égale six." },
-            { "emoji": "6️⃣", "text": "Six vient avant sept." },
-            { "emoji": "6️⃣", "text": "Six vient après cinq." },
-            { "emoji": "6️⃣", "text": "J'en veux six." }
+            {
+              "emoji": "6️⃣",
+              "text": "C'est le chiffre six."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "Je compte jusqu'à six."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "J'ai six objets."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "Cinq plus un égale six."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "Six vient avant sept."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "Six vient après cinq."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "J'en veux six."
+            }
           ]
         },
         "en": {
           "label": "Six",
           "phrases": [
-            { "emoji": "6️⃣", "text": "It's the number six." },
-            { "emoji": "6️⃣", "text": "I count to six." },
-            { "emoji": "6️⃣", "text": "I have six objects." },
-            { "emoji": "6️⃣", "text": "Five plus one equals six." },
-            { "emoji": "6️⃣", "text": "Six comes before seven." },
-            { "emoji": "6️⃣", "text": "Six comes after five." },
-            { "emoji": "6️⃣", "text": "I want six." }
+            {
+              "emoji": "6️⃣",
+              "text": "It's the number six."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "I count to six."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "I have six objects."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "Five plus one equals six."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "Six comes before seven."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "Six comes after five."
+            },
+            {
+              "emoji": "6️⃣",
+              "text": "I want six."
+            }
           ]
         }
       }
     },
     {
       "id": "seven",
-      "image": "7️⃣",
+      "image": "assets/pictos/numbers/seven.webp",
       "translations": {
         "fr": {
           "label": "Sept",
           "phrases": [
-            { "emoji": "7️⃣", "text": "C'est le chiffre sept." },
-            { "emoji": "7️⃣", "text": "Je compte jusqu'à sept." },
-            { "emoji": "7️⃣", "text": "J'ai sept objets." },
-            { "emoji": "7️⃣", "text": "Il y a sept jours dans une semaine." },
-            { "emoji": "7️⃣", "text": "Sept vient avant huit." },
-            { "emoji": "7️⃣", "text": "Sept vient après six." },
-            { "emoji": "7️⃣", "text": "J'en veux sept." }
+            {
+              "emoji": "7️⃣",
+              "text": "C'est le chiffre sept."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "Je compte jusqu'à sept."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "J'ai sept objets."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "Il y a sept jours dans une semaine."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "Sept vient avant huit."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "Sept vient après six."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "J'en veux sept."
+            }
           ]
         },
         "en": {
           "label": "Seven",
           "phrases": [
-            { "emoji": "7️⃣", "text": "It's the number seven." },
-            { "emoji": "7️⃣", "text": "I count to seven." },
-            { "emoji": "7️⃣", "text": "I have seven objects." },
-            { "emoji": "7️⃣", "text": "There are seven days in a week." },
-            { "emoji": "7️⃣", "text": "Seven comes before eight." },
-            { "emoji": "7️⃣", "text": "Seven comes after six." },
-            { "emoji": "7️⃣", "text": "I want seven." }
+            {
+              "emoji": "7️⃣",
+              "text": "It's the number seven."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "I count to seven."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "I have seven objects."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "There are seven days in a week."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "Seven comes before eight."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "Seven comes after six."
+            },
+            {
+              "emoji": "7️⃣",
+              "text": "I want seven."
+            }
           ]
         }
       }
     },
     {
       "id": "eight",
-      "image": "8️⃣",
+      "image": "assets/pictos/numbers/eight.webp",
       "translations": {
         "fr": {
           "label": "Huit",
           "phrases": [
-            { "emoji": "8️⃣", "text": "C'est le chiffre huit." },
-            { "emoji": "8️⃣", "text": "Je compte jusqu'à huit." },
-            { "emoji": "8️⃣", "text": "J'ai huit objets." },
-            { "emoji": "8️⃣", "text": "Sept plus un égale huit." },
-            { "emoji": "8️⃣", "text": "Huit vient avant neuf." },
-            { "emoji": "8️⃣", "text": "Huit vient après sept." },
-            { "emoji": "8️⃣", "text": "J'en veux huit." }
+            {
+              "emoji": "8️⃣",
+              "text": "C'est le chiffre huit."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "Je compte jusqu'à huit."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "J'ai huit objets."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "Sept plus un égale huit."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "Huit vient avant neuf."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "Huit vient après sept."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "J'en veux huit."
+            }
           ]
         },
         "en": {
           "label": "Eight",
           "phrases": [
-            { "emoji": "8️⃣", "text": "It's the number eight." },
-            { "emoji": "8️⃣", "text": "I count to eight." },
-            { "emoji": "8️⃣", "text": "I have eight objects." },
-            { "emoji": "8️⃣", "text": "Seven plus one equals eight." },
-            { "emoji": "8️⃣", "text": "Eight comes before nine." },
-            { "emoji": "8️⃣", "text": "Eight comes after seven." },
-            { "emoji": "8️⃣", "text": "I want eight." }
+            {
+              "emoji": "8️⃣",
+              "text": "It's the number eight."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "I count to eight."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "I have eight objects."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "Seven plus one equals eight."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "Eight comes before nine."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "Eight comes after seven."
+            },
+            {
+              "emoji": "8️⃣",
+              "text": "I want eight."
+            }
           ]
         }
       }
     },
     {
       "id": "nine",
-      "image": "9️⃣",
+      "image": "assets/pictos/numbers/nine.webp",
       "translations": {
         "fr": {
           "label": "Neuf",
           "phrases": [
-            { "emoji": "9️⃣", "text": "C'est le chiffre neuf." },
-            { "emoji": "9️⃣", "text": "Je compte jusqu'à neuf." },
-            { "emoji": "9️⃣", "text": "J'ai neuf objets." },
-            { "emoji": "9️⃣", "text": "Huit plus un égale neuf." },
-            { "emoji": "9️⃣", "text": "Neuf vient avant dix." },
-            { "emoji": "9️⃣", "text": "Neuf vient après huit." },
-            { "emoji": "9️⃣", "text": "J'en veux neuf." }
+            {
+              "emoji": "9️⃣",
+              "text": "C'est le chiffre neuf."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "Je compte jusqu'à neuf."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "J'ai neuf objets."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "Huit plus un égale neuf."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "Neuf vient avant dix."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "Neuf vient après huit."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "J'en veux neuf."
+            }
           ]
         },
         "en": {
           "label": "Nine",
           "phrases": [
-            { "emoji": "9️⃣", "text": "It's the number nine." },
-            { "emoji": "9️⃣", "text": "I count to nine." },
-            { "emoji": "9️⃣", "text": "I have nine objects." },
-            { "emoji": "9️⃣", "text": "Eight plus one equals nine." },
-            { "emoji": "9️⃣", "text": "Nine comes before ten." },
-            { "emoji": "9️⃣", "text": "Nine comes after eight." },
-            { "emoji": "9️⃣", "text": "I want nine." }
+            {
+              "emoji": "9️⃣",
+              "text": "It's the number nine."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "I count to nine."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "I have nine objects."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "Eight plus one equals nine."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "Nine comes before ten."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "Nine comes after eight."
+            },
+            {
+              "emoji": "9️⃣",
+              "text": "I want nine."
+            }
           ]
         }
       }
     },
     {
       "id": "ten",
-      "image": "🔟",
+      "image": "assets/pictos/numbers/ten.webp",
       "translations": {
         "fr": {
           "label": "Dix",
           "phrases": [
-            { "emoji": "🔟", "text": "C'est le chiffre dix." },
-            { "emoji": "🔟", "text": "Je compte jusqu'à dix." },
-            { "emoji": "🔟", "text": "J'ai dix objets." },
-            { "emoji": "🙌", "text": "J'ai dix doigts." },
-            { "emoji": "🔟", "text": "Dix vient avant onze." },
-            { "emoji": "🔟", "text": "Dix vient après neuf." },
-            { "emoji": "🔟", "text": "J'en veux dix." }
+            {
+              "emoji": "🔟",
+              "text": "C'est le chiffre dix."
+            },
+            {
+              "emoji": "🔟",
+              "text": "Je compte jusqu'à dix."
+            },
+            {
+              "emoji": "🔟",
+              "text": "J'ai dix objets."
+            },
+            {
+              "emoji": "🙌",
+              "text": "J'ai dix doigts."
+            },
+            {
+              "emoji": "🔟",
+              "text": "Dix vient avant onze."
+            },
+            {
+              "emoji": "🔟",
+              "text": "Dix vient après neuf."
+            },
+            {
+              "emoji": "🔟",
+              "text": "J'en veux dix."
+            }
           ]
         },
         "en": {
           "label": "Ten",
           "phrases": [
-            { "emoji": "🔟", "text": "It's the number ten." },
-            { "emoji": "🔟", "text": "I count to ten." },
-            { "emoji": "🔟", "text": "I have ten objects." },
-            { "emoji": "🙌", "text": "I have ten fingers." },
-            { "emoji": "🔟", "text": "Ten comes before eleven." },
-            { "emoji": "🔟", "text": "Ten comes after nine." },
-            { "emoji": "🔟", "text": "I want ten." }
+            {
+              "emoji": "🔟",
+              "text": "It's the number ten."
+            },
+            {
+              "emoji": "🔟",
+              "text": "I count to ten."
+            },
+            {
+              "emoji": "🔟",
+              "text": "I have ten objects."
+            },
+            {
+              "emoji": "🙌",
+              "text": "I have ten fingers."
+            },
+            {
+              "emoji": "🔟",
+              "text": "Ten comes before eleven."
+            },
+            {
+              "emoji": "🔟",
+              "text": "Ten comes after nine."
+            },
+            {
+              "emoji": "🔟",
+              "text": "I want ten."
+            }
           ]
         }
       }
     },
     {
       "id": "eleven",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/eleven.webp",
       "translations": {
         "fr": {
           "label": "Onze",
           "phrases": [
-            { "emoji": "1️⃣1️⃣", "text": "C'est le chiffre onze." },
-            { "emoji": "1️⃣1️⃣", "text": "Je compte jusqu'à onze." },
-            { "emoji": "1️⃣1️⃣", "text": "J'ai onze objets." },
-            { "emoji": "1️⃣1️⃣", "text": "Dix plus un égale onze." },
-            { "emoji": "1️⃣1️⃣", "text": "Onze vient avant douze." },
-            { "emoji": "1️⃣1️⃣", "text": "Onze vient après dix." },
-            { "emoji": "1️⃣1️⃣", "text": "J'en veux onze." }
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "C'est le chiffre onze."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "Je compte jusqu'à onze."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "J'ai onze objets."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "Dix plus un égale onze."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "Onze vient avant douze."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "Onze vient après dix."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "J'en veux onze."
+            }
           ]
         },
         "en": {
           "label": "Eleven",
           "phrases": [
-            { "emoji": "1️⃣1️⃣", "text": "It's the number eleven." },
-            { "emoji": "1️⃣1️⃣", "text": "I count to eleven." },
-            { "emoji": "1️⃣1️⃣", "text": "I have eleven objects." },
-            { "emoji": "1️⃣1️⃣", "text": "Ten plus one equals eleven." },
-            { "emoji": "1️⃣1️⃣", "text": "Eleven comes before twelve." },
-            { "emoji": "1️⃣1️⃣", "text": "Eleven comes after ten." },
-            { "emoji": "1️⃣1️⃣", "text": "I want eleven." }
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "It's the number eleven."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "I count to eleven."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "I have eleven objects."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "Ten plus one equals eleven."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "Eleven comes before twelve."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "Eleven comes after ten."
+            },
+            {
+              "emoji": "1️⃣1️⃣",
+              "text": "I want eleven."
+            }
           ]
         }
       }
     },
     {
       "id": "twelve",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/twelve.webp",
       "translations": {
         "fr": {
           "label": "Douze",
           "phrases": [
-            { "emoji": "1️⃣2️⃣", "text": "C'est le chiffre douze." },
-            { "emoji": "1️⃣2️⃣", "text": "Je compte jusqu'à douze." },
-            { "emoji": "1️⃣2️⃣", "text": "J'ai douze objets." },
-            { "emoji": "🕛", "text": "Il y a douze heures sur une horloge." },
-            { "emoji": "1️⃣2️⃣", "text": "Douze vient avant treize." },
-            { "emoji": "1️⃣2️⃣", "text": "Douze vient après onze." },
-            { "emoji": "1️⃣2️⃣", "text": "J'en veux douze." }
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "C'est le chiffre douze."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "Je compte jusqu'à douze."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "J'ai douze objets."
+            },
+            {
+              "emoji": "🕛",
+              "text": "Il y a douze heures sur une horloge."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "Douze vient avant treize."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "Douze vient après onze."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "J'en veux douze."
+            }
           ]
         },
         "en": {
           "label": "Twelve",
           "phrases": [
-            { "emoji": "1️⃣2️⃣", "text": "It's the number twelve." },
-            { "emoji": "1️⃣2️⃣", "text": "I count to twelve." },
-            { "emoji": "1️⃣2️⃣", "text": "I have twelve objects." },
-            { "emoji": "🕛", "text": "There are twelve hours on a clock." },
-            { "emoji": "1️⃣2️⃣", "text": "Twelve comes before thirteen." },
-            { "emoji": "1️⃣2️⃣", "text": "Twelve comes after eleven." },
-            { "emoji": "1️⃣2️⃣", "text": "I want twelve." }
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "It's the number twelve."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "I count to twelve."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "I have twelve objects."
+            },
+            {
+              "emoji": "🕛",
+              "text": "There are twelve hours on a clock."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "Twelve comes before thirteen."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "Twelve comes after eleven."
+            },
+            {
+              "emoji": "1️⃣2️⃣",
+              "text": "I want twelve."
+            }
           ]
         }
       }
     },
     {
       "id": "thirteen",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/thirteen.webp",
       "translations": {
         "fr": {
           "label": "Treize",
           "phrases": [
-            { "emoji": "1️⃣3️⃣", "text": "C'est le chiffre treize." },
-            { "emoji": "1️⃣3️⃣", "text": "Je compte jusqu'à treize." },
-            { "emoji": "1️⃣3️⃣", "text": "J'ai treize objets." },
-            { "emoji": "1️⃣3️⃣", "text": "Douze plus un égale treize." },
-            { "emoji": "1️⃣3️⃣", "text": "Treize vient avant quatorze." },
-            { "emoji": "1️⃣3️⃣", "text": "Treize vient après douze." },
-            { "emoji": "1️⃣3️⃣", "text": "J'en veux treize." }
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "C'est le chiffre treize."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "Je compte jusqu'à treize."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "J'ai treize objets."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "Douze plus un égale treize."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "Treize vient avant quatorze."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "Treize vient après douze."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "J'en veux treize."
+            }
           ]
         },
         "en": {
           "label": "Thirteen",
           "phrases": [
-            { "emoji": "1️⃣3️⃣", "text": "It's the number thirteen." },
-            { "emoji": "1️⃣3️⃣", "text": "I count to thirteen." },
-            { "emoji": "1️⃣3️⃣", "text": "I have thirteen objects." },
-            { "emoji": "1️⃣3️⃣", "text": "Twelve plus one equals thirteen." },
-            { "emoji": "1️⃣3️⃣", "text": "Thirteen comes before fourteen." },
-            { "emoji": "1️⃣3️⃣", "text": "Thirteen comes after twelve." },
-            { "emoji": "1️⃣3️⃣", "text": "I want thirteen." }
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "It's the number thirteen."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "I count to thirteen."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "I have thirteen objects."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "Twelve plus one equals thirteen."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "Thirteen comes before fourteen."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "Thirteen comes after twelve."
+            },
+            {
+              "emoji": "1️⃣3️⃣",
+              "text": "I want thirteen."
+            }
           ]
         }
       }
     },
     {
       "id": "fourteen",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/fourteen.webp",
       "translations": {
         "fr": {
           "label": "Quatorze",
           "phrases": [
-            { "emoji": "1️⃣4️⃣", "text": "C'est le chiffre quatorze." },
-            { "emoji": "1️⃣4️⃣", "text": "Je compte jusqu'à quatorze." },
-            { "emoji": "1️⃣4️⃣", "text": "J'ai quatorze objets." },
-            { "emoji": "1️⃣4️⃣", "text": "Treize plus un égale quatorze." },
-            { "emoji": "1️⃣4️⃣", "text": "Quatorze vient avant quinze." },
-            { "emoji": "1️⃣4️⃣", "text": "Quatorze vient après treize." },
-            { "emoji": "1️⃣4️⃣", "text": "J'en veux quatorze." }
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "C'est le chiffre quatorze."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "Je compte jusqu'à quatorze."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "J'ai quatorze objets."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "Treize plus un égale quatorze."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "Quatorze vient avant quinze."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "Quatorze vient après treize."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "J'en veux quatorze."
+            }
           ]
         },
         "en": {
           "label": "Fourteen",
           "phrases": [
-            { "emoji": "1️⃣4️⃣", "text": "It's the number fourteen." },
-            { "emoji": "1️⃣4️⃣", "text": "I count to fourteen." },
-            { "emoji": "1️⃣4️⃣", "text": "I have fourteen objects." },
-            { "emoji": "1️⃣4️⃣", "text": "Thirteen plus one equals fourteen." },
-            { "emoji": "1️⃣4️⃣", "text": "Fourteen comes before fifteen." },
-            { "emoji": "1️⃣4️⃣", "text": "Fourteen comes after thirteen." },
-            { "emoji": "1️⃣4️⃣", "text": "I want fourteen." }
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "It's the number fourteen."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "I count to fourteen."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "I have fourteen objects."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "Thirteen plus one equals fourteen."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "Fourteen comes before fifteen."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "Fourteen comes after thirteen."
+            },
+            {
+              "emoji": "1️⃣4️⃣",
+              "text": "I want fourteen."
+            }
           ]
         }
       }
     },
     {
       "id": "fifteen",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/fifteen.webp",
       "translations": {
         "fr": {
           "label": "Quinze",
           "phrases": [
-            { "emoji": "1️⃣5️⃣", "text": "C'est le chiffre quinze." },
-            { "emoji": "1️⃣5️⃣", "text": "Je compte jusqu'à quinze." },
-            { "emoji": "1️⃣5️⃣", "text": "J'ai quinze objets." },
-            { "emoji": "1️⃣5️⃣", "text": "Quatorze plus un égale quinze." },
-            { "emoji": "1️⃣5️⃣", "text": "Quinze vient avant seize." },
-            { "emoji": "1️⃣5️⃣", "text": "Quinze vient après quatorze." },
-            { "emoji": "1️⃣5️⃣", "text": "J'en veux quinze." }
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "C'est le chiffre quinze."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "Je compte jusqu'à quinze."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "J'ai quinze objets."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "Quatorze plus un égale quinze."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "Quinze vient avant seize."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "Quinze vient après quatorze."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "J'en veux quinze."
+            }
           ]
         },
         "en": {
           "label": "Fifteen",
           "phrases": [
-            { "emoji": "1️⃣5️⃣", "text": "It's the number fifteen." },
-            { "emoji": "1️⃣5️⃣", "text": "I count to fifteen." },
-            { "emoji": "1️⃣5️⃣", "text": "I have fifteen objects." },
-            { "emoji": "1️⃣5️⃣", "text": "Fourteen plus one equals fifteen." },
-            { "emoji": "1️⃣5️⃣", "text": "Fifteen comes before sixteen." },
-            { "emoji": "1️⃣5️⃣", "text": "Fifteen comes after fourteen." },
-            { "emoji": "1️⃣5️⃣", "text": "I want fifteen." }
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "It's the number fifteen."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "I count to fifteen."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "I have fifteen objects."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "Fourteen plus one equals fifteen."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "Fifteen comes before sixteen."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "Fifteen comes after fourteen."
+            },
+            {
+              "emoji": "1️⃣5️⃣",
+              "text": "I want fifteen."
+            }
           ]
         }
       }
     },
     {
       "id": "sixteen",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/sixteen.webp",
       "translations": {
         "fr": {
           "label": "Seize",
           "phrases": [
-            { "emoji": "1️⃣6️⃣", "text": "C'est le chiffre seize." },
-            { "emoji": "1️⃣6️⃣", "text": "Je compte jusqu'à seize." },
-            { "emoji": "1️⃣6️⃣", "text": "J'ai seize objets." },
-            { "emoji": "1️⃣6️⃣", "text": "Quinze plus un égale seize." },
-            { "emoji": "1️⃣6️⃣", "text": "Seize vient avant dix-sept." },
-            { "emoji": "1️⃣6️⃣", "text": "Seize vient après quinze." },
-            { "emoji": "1️⃣6️⃣", "text": "J'en veux seize." }
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "C'est le chiffre seize."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "Je compte jusqu'à seize."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "J'ai seize objets."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "Quinze plus un égale seize."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "Seize vient avant dix-sept."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "Seize vient après quinze."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "J'en veux seize."
+            }
           ]
         },
         "en": {
           "label": "Sixteen",
           "phrases": [
-            { "emoji": "1️⃣6️⃣", "text": "It's the number sixteen." },
-            { "emoji": "1️⃣6️⃣", "text": "I count to sixteen." },
-            { "emoji": "1️⃣6️⃣", "text": "I have sixteen objects." },
-            { "emoji": "1️⃣6️⃣", "text": "Fifteen plus one equals sixteen." },
-            { "emoji": "1️⃣6️⃣", "text": "Sixteen comes before seventeen." },
-            { "emoji": "1️⃣6️⃣", "text": "Sixteen comes after fifteen." },
-            { "emoji": "1️⃣6️⃣", "text": "I want sixteen." }
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "It's the number sixteen."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "I count to sixteen."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "I have sixteen objects."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "Fifteen plus one equals sixteen."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "Sixteen comes before seventeen."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "Sixteen comes after fifteen."
+            },
+            {
+              "emoji": "1️⃣6️⃣",
+              "text": "I want sixteen."
+            }
           ]
         }
       }
     },
     {
       "id": "seventeen",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/seventeen.webp",
       "translations": {
         "fr": {
           "label": "Dix-Sept",
           "phrases": [
-            { "emoji": "1️⃣7️⃣", "text": "C'est le chiffre dix-sept." },
-            { "emoji": "1️⃣7️⃣", "text": "Je compte jusqu'à dix-sept." },
-            { "emoji": "1️⃣7️⃣", "text": "J'ai dix-sept objets." },
-            { "emoji": "1️⃣7️⃣", "text": "Seize plus un égale dix-sept." },
-            { "emoji": "1️⃣7️⃣", "text": "Dix-sept vient avant dix-huit." },
-            { "emoji": "1️⃣7️⃣", "text": "Dix-sept vient après seize." },
-            { "emoji": "1️⃣7️⃣", "text": "J'en veux dix-sept." }
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "C'est le chiffre dix-sept."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "Je compte jusqu'à dix-sept."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "J'ai dix-sept objets."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "Seize plus un égale dix-sept."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "Dix-sept vient avant dix-huit."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "Dix-sept vient après seize."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "J'en veux dix-sept."
+            }
           ]
         },
         "en": {
           "label": "Seventeen",
           "phrases": [
-            { "emoji": "1️⃣7️⃣", "text": "It's the number seventeen." },
-            { "emoji": "1️⃣7️⃣", "text": "I count to seventeen." },
-            { "emoji": "1️⃣7️⃣", "text": "I have seventeen objects." },
-            { "emoji": "1️⃣7️⃣", "text": "Sixteen plus one equals seventeen." },
-            { "emoji": "1️⃣7️⃣", "text": "Seventeen comes before eighteen." },
-            { "emoji": "1️⃣7️⃣", "text": "Seventeen comes after sixteen." },
-            { "emoji": "1️⃣7️⃣", "text": "I want seventeen." }
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "It's the number seventeen."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "I count to seventeen."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "I have seventeen objects."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "Sixteen plus one equals seventeen."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "Seventeen comes before eighteen."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "Seventeen comes after sixteen."
+            },
+            {
+              "emoji": "1️⃣7️⃣",
+              "text": "I want seventeen."
+            }
           ]
         }
       }
     },
     {
       "id": "eighteen",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/eighteen.webp",
       "translations": {
         "fr": {
           "label": "Dix-Huit",
           "phrases": [
-            { "emoji": "1️⃣8️⃣", "text": "C'est le chiffre dix-huit." },
-            { "emoji": "1️⃣8️⃣", "text": "Je compte jusqu'à dix-huit." },
-            { "emoji": "1️⃣8️⃣", "text": "J'ai dix-huit objets." },
-            { "emoji": "1️⃣8️⃣", "text": "Dix-sept plus un égale dix-huit." },
-            { "emoji": "1️⃣8️⃣", "text": "Dix-huit vient avant dix-neuf." },
-            { "emoji": "1️⃣8️⃣", "text": "Dix-huit vient après dix-sept." },
-            { "emoji": "1️⃣8️⃣", "text": "J'en veux dix-huit." }
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "C'est le chiffre dix-huit."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "Je compte jusqu'à dix-huit."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "J'ai dix-huit objets."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "Dix-sept plus un égale dix-huit."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "Dix-huit vient avant dix-neuf."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "Dix-huit vient après dix-sept."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "J'en veux dix-huit."
+            }
           ]
         },
         "en": {
           "label": "Eighteen",
           "phrases": [
-            { "emoji": "1️⃣8️⃣", "text": "It's the number eighteen." },
-            { "emoji": "1️⃣8️⃣", "text": "I count to eighteen." },
-            { "emoji": "1️⃣8️⃣", "text": "I have eighteen objects." },
-            { "emoji": "1️⃣8️⃣", "text": "Seventeen plus one equals eighteen." },
-            { "emoji": "1️⃣8️⃣", "text": "Eighteen comes before nineteen." },
-            { "emoji": "1️⃣8️⃣", "text": "Eighteen comes after seventeen." },
-            { "emoji": "1️⃣8️⃣", "text": "I want eighteen." }
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "It's the number eighteen."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "I count to eighteen."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "I have eighteen objects."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "Seventeen plus one equals eighteen."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "Eighteen comes before nineteen."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "Eighteen comes after seventeen."
+            },
+            {
+              "emoji": "1️⃣8️⃣",
+              "text": "I want eighteen."
+            }
           ]
         }
       }
     },
     {
       "id": "nineteen",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/nineteen.webp",
       "translations": {
         "fr": {
           "label": "Dix-Neuf",
           "phrases": [
-            { "emoji": "1️⃣9️⃣", "text": "C'est le chiffre dix-neuf." },
-            { "emoji": "1️⃣9️⃣", "text": "Je compte jusqu'à dix-neuf." },
-            { "emoji": "1️⃣9️⃣", "text": "J'ai dix-neuf objets." },
-            { "emoji": "1️⃣9️⃣", "text": "Dix-huit plus un égale dix-neuf." },
-            { "emoji": "1️⃣9️⃣", "text": "Dix-neuf vient avant vingt." },
-            { "emoji": "1️⃣9️⃣", "text": "Dix-neuf vient après dix-huit." },
-            { "emoji": "1️⃣9️⃣", "text": "J'en veux dix-neuf." }
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "C'est le chiffre dix-neuf."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "Je compte jusqu'à dix-neuf."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "J'ai dix-neuf objets."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "Dix-huit plus un égale dix-neuf."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "Dix-neuf vient avant vingt."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "Dix-neuf vient après dix-huit."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "J'en veux dix-neuf."
+            }
           ]
         },
         "en": {
           "label": "Nineteen",
           "phrases": [
-            { "emoji": "1️⃣9️⃣", "text": "It's the number nineteen." },
-            { "emoji": "1️⃣9️⃣", "text": "I count to nineteen." },
-            { "emoji": "1️⃣9️⃣", "text": "I have nineteen objects." },
-            { "emoji": "1️⃣9️⃣", "text": "Eighteen plus one equals nineteen." },
-            { "emoji": "1️⃣9️⃣", "text": "Nineteen comes before twenty." },
-            { "emoji": "1️⃣9️⃣", "text": "Nineteen comes after eighteen." },
-            { "emoji": "1️⃣9️⃣", "text": "I want nineteen." }
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "It's the number nineteen."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "I count to nineteen."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "I have nineteen objects."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "Eighteen plus one equals nineteen."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "Nineteen comes before twenty."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "Nineteen comes after eighteen."
+            },
+            {
+              "emoji": "1️⃣9️⃣",
+              "text": "I want nineteen."
+            }
           ]
         }
       }
     },
     {
       "id": "twenty",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/twenty.webp",
       "translations": {
         "fr": {
           "label": "Vingt",
           "phrases": [
-            { "emoji": "2️⃣0️⃣", "text": "C'est le chiffre vingt." },
-            { "emoji": "2️⃣0️⃣", "text": "Je sais compter jusqu'à vingt." },
-            { "emoji": "2️⃣0️⃣", "text": "J'ai vingt objets." },
-            { "emoji": "2️⃣0️⃣", "text": "Dix plus dix égale vingt." }
+            {
+              "emoji": "2️⃣0️⃣",
+              "text": "C'est le chiffre vingt."
+            },
+            {
+              "emoji": "2️⃣0️⃣",
+              "text": "Je sais compter jusqu'à vingt."
+            },
+            {
+              "emoji": "2️⃣0️⃣",
+              "text": "J'ai vingt objets."
+            },
+            {
+              "emoji": "2️⃣0️⃣",
+              "text": "Dix plus dix égale vingt."
+            }
           ]
         },
         "en": {
           "label": "Twenty",
           "phrases": [
-            { "emoji": "2️⃣0️⃣", "text": "It's the number twenty." },
-            { "emoji": "2️⃣0️⃣", "text": "I can count to twenty." },
-            { "emoji": "2️⃣0️⃣", "text": "I have twenty objects." },
-            { "emoji": "2️⃣0️⃣", "text": "Ten plus ten equals twenty." }
+            {
+              "emoji": "2️⃣0️⃣",
+              "text": "It's the number twenty."
+            },
+            {
+              "emoji": "2️⃣0️⃣",
+              "text": "I can count to twenty."
+            },
+            {
+              "emoji": "2️⃣0️⃣",
+              "text": "I have twenty objects."
+            },
+            {
+              "emoji": "2️⃣0️⃣",
+              "text": "Ten plus ten equals twenty."
+            }
           ]
         }
       }
     },
     {
       "id": "thirty",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/thirty.webp",
       "translations": {
         "fr": {
           "label": "Trente",
           "phrases": [
-            { "emoji": "3️⃣0️⃣", "text": "C'est le chiffre trente." },
-            { "emoji": "3️⃣0️⃣", "text": "Je sais compter jusqu'à trente." },
-            { "emoji": "3️⃣0️⃣", "text": "J'ai trente objets." },
-            { "emoji": "3️⃣0️⃣", "text": "Vingt plus dix égale trente." }
+            {
+              "emoji": "3️⃣0️⃣",
+              "text": "C'est le chiffre trente."
+            },
+            {
+              "emoji": "3️⃣0️⃣",
+              "text": "Je sais compter jusqu'à trente."
+            },
+            {
+              "emoji": "3️⃣0️⃣",
+              "text": "J'ai trente objets."
+            },
+            {
+              "emoji": "3️⃣0️⃣",
+              "text": "Vingt plus dix égale trente."
+            }
           ]
         },
         "en": {
           "label": "Thirty",
           "phrases": [
-            { "emoji": "3️⃣0️⃣", "text": "It's the number thirty." },
-            { "emoji": "3️⃣0️⃣", "text": "I can count to thirty." },
-            { "emoji": "3️⃣0️⃣", "text": "I have thirty objects." },
-            { "emoji": "3️⃣0️⃣", "text": "Twenty plus ten equals thirty." }
+            {
+              "emoji": "3️⃣0️⃣",
+              "text": "It's the number thirty."
+            },
+            {
+              "emoji": "3️⃣0️⃣",
+              "text": "I can count to thirty."
+            },
+            {
+              "emoji": "3️⃣0️⃣",
+              "text": "I have thirty objects."
+            },
+            {
+              "emoji": "3️⃣0️⃣",
+              "text": "Twenty plus ten equals thirty."
+            }
           ]
         }
       }
     },
     {
       "id": "forty",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/forty.webp",
       "translations": {
         "fr": {
           "label": "Quarante",
           "phrases": [
-            { "emoji": "4️⃣0️⃣", "text": "C'est le chiffre quarante." },
-            { "emoji": "4️⃣0️⃣", "text": "Je sais compter jusqu'à quarante." },
-            { "emoji": "4️⃣0️⃣", "text": "J'ai quarante objets." },
-            { "emoji": "4️⃣0️⃣", "text": "Trente plus dix égale quarante." }
+            {
+              "emoji": "4️⃣0️⃣",
+              "text": "C'est le chiffre quarante."
+            },
+            {
+              "emoji": "4️⃣0️⃣",
+              "text": "Je sais compter jusqu'à quarante."
+            },
+            {
+              "emoji": "4️⃣0️⃣",
+              "text": "J'ai quarante objets."
+            },
+            {
+              "emoji": "4️⃣0️⃣",
+              "text": "Trente plus dix égale quarante."
+            }
           ]
         },
         "en": {
           "label": "Forty",
           "phrases": [
-            { "emoji": "4️⃣0️⃣", "text": "It's the number forty." },
-            { "emoji": "4️⃣0️⃣", "text": "I can count to forty." },
-            { "emoji": "4️⃣0️⃣", "text": "I have forty objects." },
-            { "emoji": "4️⃣0️⃣", "text": "Thirty plus ten equals forty." }
+            {
+              "emoji": "4️⃣0️⃣",
+              "text": "It's the number forty."
+            },
+            {
+              "emoji": "4️⃣0️⃣",
+              "text": "I can count to forty."
+            },
+            {
+              "emoji": "4️⃣0️⃣",
+              "text": "I have forty objects."
+            },
+            {
+              "emoji": "4️⃣0️⃣",
+              "text": "Thirty plus ten equals forty."
+            }
           ]
         }
       }
     },
     {
       "id": "fifty",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/fifty.webp",
       "translations": {
         "fr": {
           "label": "Cinquante",
           "phrases": [
-            { "emoji": "5️⃣0️⃣", "text": "C'est le chiffre cinquante." },
-            { "emoji": "5️⃣0️⃣", "text": "Je sais compter jusqu'à cinquante." },
-            { "emoji": "5️⃣0️⃣", "text": "J'ai cinquante objets." },
-            { "emoji": "5️⃣0️⃣", "text": "Quarante plus dix égale cinquante." }
+            {
+              "emoji": "5️⃣0️⃣",
+              "text": "C'est le chiffre cinquante."
+            },
+            {
+              "emoji": "5️⃣0️⃣",
+              "text": "Je sais compter jusqu'à cinquante."
+            },
+            {
+              "emoji": "5️⃣0️⃣",
+              "text": "J'ai cinquante objets."
+            },
+            {
+              "emoji": "5️⃣0️⃣",
+              "text": "Quarante plus dix égale cinquante."
+            }
           ]
         },
         "en": {
           "label": "Fifty",
           "phrases": [
-            { "emoji": "5️⃣0️⃣", "text": "It's the number fifty." },
-            { "emoji": "5️⃣0️⃣", "text": "I can count to fifty." },
-            { "emoji": "5️⃣0️⃣", "text": "I have fifty objects." },
-            { "emoji": "5️⃣0️⃣", "text": "Forty plus ten equals fifty." }
+            {
+              "emoji": "5️⃣0️⃣",
+              "text": "It's the number fifty."
+            },
+            {
+              "emoji": "5️⃣0️⃣",
+              "text": "I can count to fifty."
+            },
+            {
+              "emoji": "5️⃣0️⃣",
+              "text": "I have fifty objects."
+            },
+            {
+              "emoji": "5️⃣0️⃣",
+              "text": "Forty plus ten equals fifty."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "sixty",
+      "image": "assets/pictos/numbers/sixty.webp",
+      "translations": {
+        "fr": {
+          "label": "Soixante",
+          "phrases": [
+            {
+              "emoji": "6️⃣0️⃣",
+              "text": "C'est le chiffre soixante."
+            },
+            {
+              "emoji": "6️⃣0️⃣",
+              "text": "Je peux compter jusqu'à soixante."
+            },
+            {
+              "emoji": "6️⃣0️⃣",
+              "text": "J'ai soixante objets."
+            },
+            {
+              "emoji": "6️⃣0️⃣",
+              "text": "Cinquante plus dix égale soixante."
+            }
+          ]
+        },
+        "en": {
+          "label": "Sixty",
+          "phrases": [
+            {
+              "emoji": "6️⃣0️⃣",
+              "text": "It's the number sixty."
+            },
+            {
+              "emoji": "6️⃣0️⃣",
+              "text": "I can count to sixty."
+            },
+            {
+              "emoji": "6️⃣0️⃣",
+              "text": "I have sixty objects."
+            },
+            {
+              "emoji": "6️⃣0️⃣",
+              "text": "Fifty plus ten equals sixty."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "seventy",
+      "image": "assets/pictos/numbers/seventy.webp",
+      "translations": {
+        "fr": {
+          "label": "Soixante-dix",
+          "phrases": [
+            {
+              "emoji": "7️⃣0️⃣",
+              "text": "C'est le chiffre soixante-dix."
+            },
+            {
+              "emoji": "7️⃣0️⃣",
+              "text": "Je peux compter jusqu'à soixante-dix."
+            },
+            {
+              "emoji": "7️⃣0️⃣",
+              "text": "J'ai soixante-dix objets."
+            },
+            {
+              "emoji": "7️⃣0️⃣",
+              "text": "Soixante plus dix égale soixante-dix."
+            }
+          ]
+        },
+        "en": {
+          "label": "Seventy",
+          "phrases": [
+            {
+              "emoji": "7️⃣0️⃣",
+              "text": "It's the number seventy."
+            },
+            {
+              "emoji": "7️⃣0️⃣",
+              "text": "I can count to seventy."
+            },
+            {
+              "emoji": "7️⃣0️⃣",
+              "text": "I have seventy objects."
+            },
+            {
+              "emoji": "7️⃣0️⃣",
+              "text": "Sixty plus ten equals seventy."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "eighty",
+      "image": "assets/pictos/numbers/eighty.webp",
+      "translations": {
+        "fr": {
+          "label": "Quatre-vingts",
+          "phrases": [
+            {
+              "emoji": "8️⃣0️⃣",
+              "text": "C'est le chiffre quatre-vingts."
+            },
+            {
+              "emoji": "8️⃣0️⃣",
+              "text": "Je peux compter jusqu'à quatre-vingts."
+            },
+            {
+              "emoji": "8️⃣0️⃣",
+              "text": "J'ai quatre-vingts objets."
+            },
+            {
+              "emoji": "8️⃣0️⃣",
+              "text": "Soixante-dix plus dix égale quatre-vingts."
+            }
+          ]
+        },
+        "en": {
+          "label": "Eighty",
+          "phrases": [
+            {
+              "emoji": "8️⃣0️⃣",
+              "text": "It's the number eighty."
+            },
+            {
+              "emoji": "8️⃣0️⃣",
+              "text": "I can count to eighty."
+            },
+            {
+              "emoji": "8️⃣0️⃣",
+              "text": "I have eighty objects."
+            },
+            {
+              "emoji": "8️⃣0️⃣",
+              "text": "Seventy plus ten equals eighty."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "ninety",
+      "image": "assets/pictos/numbers/ninety.webp",
+      "translations": {
+        "fr": {
+          "label": "Quatre-vingt-dix",
+          "phrases": [
+            {
+              "emoji": "9️⃣0️⃣",
+              "text": "C'est le chiffre quatre-vingt-dix."
+            },
+            {
+              "emoji": "9️⃣0️⃣",
+              "text": "Je peux compter jusqu'à quatre-vingt-dix."
+            },
+            {
+              "emoji": "9️⃣0️⃣",
+              "text": "J'ai quatre-vingt-dix objets."
+            },
+            {
+              "emoji": "9️⃣0️⃣",
+              "text": "Quatre-vingts plus dix égale quatre-vingt-dix."
+            }
+          ]
+        },
+        "en": {
+          "label": "Ninety",
+          "phrases": [
+            {
+              "emoji": "9️⃣0️⃣",
+              "text": "It's the number ninety."
+            },
+            {
+              "emoji": "9️⃣0️⃣",
+              "text": "I can count to ninety."
+            },
+            {
+              "emoji": "9️⃣0️⃣",
+              "text": "I have ninety objects."
+            },
+            {
+              "emoji": "9️⃣0️⃣",
+              "text": "Eighty plus ten equals ninety."
+            }
           ]
         }
       }
     },
     {
       "id": "hundred",
-      "image": "💯",
+      "image": "assets/pictos/numbers/hundred.webp",
       "translations": {
         "fr": {
           "label": "Cent",
           "phrases": [
-            { "emoji": "💯", "text": "C'est le chiffre cent." },
-            { "emoji": "💯", "text": "Je sais compter jusqu'à cent." },
-            { "emoji": "💯", "text": "J'ai cent objets." },
-            { "emoji": "💯", "text": "Cent est un grand nombre." }
+            {
+              "emoji": "💯",
+              "text": "C'est le chiffre cent."
+            },
+            {
+              "emoji": "💯",
+              "text": "Je sais compter jusqu'à cent."
+            },
+            {
+              "emoji": "💯",
+              "text": "J'ai cent objets."
+            },
+            {
+              "emoji": "💯",
+              "text": "Cent est un grand nombre."
+            }
           ]
         },
         "en": {
           "label": "Hundred",
           "phrases": [
-            { "emoji": "💯", "text": "It's the number one hundred." },
-            { "emoji": "💯", "text": "I can count to one hundred." },
-            { "emoji": "💯", "text": "I have one hundred objects." },
-            { "emoji": "💯", "text": "One hundred is a big number." }
+            {
+              "emoji": "💯",
+              "text": "It's the number one hundred."
+            },
+            {
+              "emoji": "💯",
+              "text": "I can count to one hundred."
+            },
+            {
+              "emoji": "💯",
+              "text": "I have one hundred objects."
+            },
+            {
+              "emoji": "💯",
+              "text": "One hundred is a big number."
+            }
           ]
         }
       }
     },
     {
       "id": "thousand",
-      "image": "🔢",
+      "image": "assets/pictos/numbers/thousand.webp",
       "translations": {
         "fr": {
           "label": "Mille",
           "phrases": [
-            { "emoji": "🔢", "text": "C'est le chiffre mille." },
-            { "emoji": "🔢", "text": "Je sais compter jusqu'à mille." },
-            { "emoji": "🔢", "text": "J'ai mille objets." },
-            { "emoji": "🔢", "text": "Mille est un très grand nombre." }
+            {
+              "emoji": "🔢",
+              "text": "C'est le chiffre mille."
+            },
+            {
+              "emoji": "🔢",
+              "text": "Je sais compter jusqu'à mille."
+            },
+            {
+              "emoji": "🔢",
+              "text": "J'ai mille objets."
+            },
+            {
+              "emoji": "🔢",
+              "text": "Mille est un très grand nombre."
+            }
           ]
         },
         "en": {
           "label": "Thousand",
           "phrases": [
-            { "emoji": "🔢", "text": "It's the number one thousand." },
-            { "emoji": "🔢", "text": "I can count to one thousand." },
-            { "emoji": "🔢", "text": "I have one thousand objects." },
-            { "emoji": "🔢", "text": "One thousand is a very big number." }
+            {
+              "emoji": "🔢",
+              "text": "It's the number one thousand."
+            },
+            {
+              "emoji": "🔢",
+              "text": "I can count to one thousand."
+            },
+            {
+              "emoji": "🔢",
+              "text": "I have one thousand objects."
+            },
+            {
+              "emoji": "🔢",
+              "text": "One thousand is a very big number."
+            }
           ]
         }
       }
     },
     {
       "id": "calculator",
-      "image": "🧮",
+      "image": "assets/pictos/numbers/calculator.webp",
       "translations": {
         "fr": {
           "label": "Calculatrice",
           "phrases": [
-            { "emoji": "🧮", "text": "J'utilise la calculatrice." },
-            { "emoji": "🧮", "text": "Je veux une calculatrice." },
-            { "emoji": "🧮", "text": "Puis-je emprunter votre calculatrice ?" },
-            { "emoji": "🧮", "text": "J'aime la calculatrice." }
+            {
+              "emoji": "🧮",
+              "text": "J'utilise la calculatrice."
+            },
+            {
+              "emoji": "🧮",
+              "text": "Je veux une calculatrice."
+            },
+            {
+              "emoji": "🧮",
+              "text": "Puis-je emprunter votre calculatrice ?"
+            },
+            {
+              "emoji": "🧮",
+              "text": "J'aime la calculatrice."
+            }
           ]
         },
         "en": {
           "label": "Calculator",
           "phrases": [
-            { "emoji": "🧮", "text": "I use the calculator." },
-            { "emoji": "🧮", "text": "I want a calculator." },
-            { "emoji": "🧮", "text": "Can I borrow your calculator ?" },
-            { "emoji": "🧮", "text": "I like the calculator." }
+            {
+              "emoji": "🧮",
+              "text": "I use the calculator."
+            },
+            {
+              "emoji": "🧮",
+              "text": "I want a calculator."
+            },
+            {
+              "emoji": "🧮",
+              "text": "Can I borrow your calculator ?"
+            },
+            {
+              "emoji": "🧮",
+              "text": "I like the calculator."
+            }
           ]
         }
       }
