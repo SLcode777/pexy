@@ -189,6 +189,26 @@ export default function SettingsScreen() {
     setIsSettingPin(true);
   };
 
+  const handleForgotPIN = () => {
+    Alert.alert(
+      t("settings.pin_forgot_title"),
+      t("settings.pin_forgot_message"),
+      [
+        { text: t("common.cancel"), style: "cancel" },
+        {
+          text: t("settings.pin_forgot_confirm"),
+          style: "destructive",
+          onPress: async () => {
+            if (!profile) return;
+            await updateUserProfile(profile.id, { pinCode: null });
+            await refreshProfile();
+            setIsAuthenticated(true);
+          },
+        },
+      ],
+    );
+  };
+
   const handleCopyEmail = async () => {
     await Clipboard.setStringAsync("sl.code.777@gmail.com");
     Alert.alert("✅", t("settings.pin_copied"));
@@ -262,6 +282,7 @@ export default function SettingsScreen() {
           onSuccess={() => setIsAuthenticated(true)}
           correctPIN={profile.pinCode}
           onCancel={() => router.back()}
+          onForgotPIN={handleForgotPIN}
         />
       )}
 

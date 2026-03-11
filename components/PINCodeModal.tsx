@@ -15,6 +15,7 @@ interface PINCodeModalProps {
   onSuccess: () => void;
   correctPIN: string;
   onCancel?: () => void;
+  onForgotPIN?: () => void;
 }
 
 export default function PINCodeModal({
@@ -22,6 +23,7 @@ export default function PINCodeModal({
   onSuccess,
   correctPIN,
   onCancel,
+  onForgotPIN,
 }: PINCodeModalProps) {
   const { t } = useTranslation();
   const [pin, setPin] = useState("");
@@ -96,6 +98,18 @@ export default function PINCodeModal({
           <View key={rowIndex} style={styles.keypadRow}>
             {row.map((num, numIndex) => {
               if (num === "") {
+                if (onForgotPIN) {
+                  return (
+                    <TouchableOpacity
+                      key={numIndex}
+                      style={[styles.keyButton, styles.keyButtonHelp]}
+                      onLongPress={onForgotPIN}
+                      delayLongPress={1500}
+                    >
+                      <Text style={styles.keyTextHelp}>🔑</Text>
+                    </TouchableOpacity>
+                  );
+                }
                 return <View key={numIndex} style={styles.keyButton} />;
               }
               if (num === "⌫") {
@@ -236,6 +250,13 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontWeight: "600",
     marginBottom: 16,
+  },
+  keyButtonHelp: {
+    borderStyle: "dashed",
+    opacity: 0.5,
+  },
+  keyTextHelp: {
+    fontSize: 20,
   },
   cancelButton: {
     marginTop: 16,

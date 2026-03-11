@@ -181,6 +181,8 @@ export default function SetPINModal({
 
           {renderKeypad()}
 
+          <Text style={styles.hintText}>{t("settings.pin_forgot_hint")}</Text>
+
           {onCancel && (
             <TouchableOpacity style={styles.cancelButton} onPress={handleCancel}>
               <Text style={styles.cancelButtonText}>{t("common.cancel")}</Text>
@@ -271,8 +273,15 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     marginBottom: 16,
   },
+  hintText: {
+    marginTop: 20,
+    fontSize: 12,
+    color: Colors.textSecondary,
+    textAlign: "center",
+    lineHeight: 18,
+  },
   cancelButton: {
-    marginTop: 16,
+    marginTop: 8,
     padding: 12,
     alignItems: "center",
   },
