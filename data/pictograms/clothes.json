@@ -3,960 +3,1920 @@
   "pictograms": [
     {
       "id": "pants",
-      "image": "👖",
+      "image": "assets/pictos/clothes/pants.webp",
       "translations": {
         "fr": {
           "label": "Pantalon",
           "phrases": [
-            { "emoji": "👖", "text": "Je veux mon pantalon." },
-            { "emoji": "👔", "text": "Je mets mon pantalon." },
-            { "emoji": "👖", "text": "Mon pantalon est bleu." },
-            { "emoji": "🧺", "text": "Mon pantalon est sale." }
+            {
+              "emoji": "👖",
+              "text": "Je veux mon pantalon."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon pantalon ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon pantalon."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon pantalon préféré."
+            }
           ]
         },
         "en": {
           "label": "Pants",
           "phrases": [
-            { "emoji": "👖", "text": "I want my pants." },
-            { "emoji": "👔", "text": "I'm putting on my pants." },
-            { "emoji": "👖", "text": "My pants are blue." },
-            { "emoji": "🧺", "text": "My pants are dirty." }
+            {
+              "emoji": "👖",
+              "text": "I want my pants."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my pants ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my pants/"
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite pants."
+            }
           ]
         }
       }
     },
     {
       "id": "shirt",
-      "image": "👔",
+      "image": "assets/pictos/clothes/shirt.webp",
       "translations": {
         "fr": {
           "label": "Chemise",
           "phrases": [
-            { "emoji": "👔", "text": "Je veux ma chemise." },
-            { "emoji": "👕", "text": "Je mets ma chemise." },
-            { "emoji": "👔", "text": "Ma chemise est blanche." },
-            { "emoji": "🧺", "text": "Ma chemise est propre." }
+            {
+              "emoji": "👔",
+              "text": "Je veux ma chemise."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma chemise ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma chemise."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma chemise préférée."
+            }
           ]
         },
         "en": {
           "label": "Shirt",
           "phrases": [
-            { "emoji": "👔", "text": "I want my shirt." },
-            { "emoji": "👕", "text": "I'm putting on my shirt." },
-            { "emoji": "👔", "text": "My shirt is white." },
-            { "emoji": "🧺", "text": "My shirt is clean." }
+            {
+              "emoji": "👔",
+              "text": "I want my shirt."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my shirt ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my shirt."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite shirt."
+            }
           ]
         }
       }
     },
     {
       "id": "skirt",
-      "image": "👗",
+      "image": "assets/pictos/clothes/skirt.webp",
       "translations": {
         "fr": {
           "label": "Jupe",
           "phrases": [
-            { "emoji": "👗", "text": "Je veux ma jupe." },
-            { "emoji": "👗", "text": "Je mets ma jupe." },
-            { "emoji": "🎀", "text": "Ma jupe est jolie." },
-            { "emoji": "👗", "text": "J'aime cette jupe." }
+            {
+              "emoji": "👗",
+              "text": "Je veux ma jupe."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma jupe ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma jupe."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma jupe préférée."
+            }
           ]
         },
         "en": {
           "label": "Skirt",
           "phrases": [
-            { "emoji": "👗", "text": "I want my skirt." },
-            { "emoji": "👗", "text": "I'm putting on my skirt." },
-            { "emoji": "🎀", "text": "My skirt is pretty." },
-            { "emoji": "👗", "text": "I like this skirt." }
+            {
+              "emoji": "👗",
+              "text": "I want my skirt."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my skirt ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my skirt."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite skirt."
+            }
           ]
         }
       }
     },
     {
       "id": "underwear",
-      "image": "🩲",
+      "image": "assets/pictos/clothes/underwear.webp",
       "translations": {
         "fr": {
           "label": "Culotte",
           "phrases": [
-            { "emoji": "🩲", "text": "Je veux ma culotte." },
-            { "emoji": "🩲", "text": "Je mets ma culotte." },
-            { "emoji": "🧺", "text": "Ma culotte est propre." },
-            { "emoji": "🩲", "text": "J'ai besoin d'une culotte." }
+            {
+              "emoji": "🩲",
+              "text": "Je veux ma culotte."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma culotte ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma culotte."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma culotte préférée."
+            }
           ]
         },
         "en": {
           "label": "Underwear",
           "phrases": [
-            { "emoji": "🩲", "text": "I want my underwear." },
-            { "emoji": "🩲", "text": "I'm putting on my underwear." },
-            { "emoji": "🧺", "text": "My underwear is clean." },
-            { "emoji": "🩲", "text": "I need underwear." }
+            {
+              "emoji": "🩲",
+              "text": "I want my underwear."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my underwear ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my underwear."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite underwear."
+            }
           ]
         }
       }
     },
     {
       "id": "jacket",
-      "image": "🧥",
+      "image": "assets/pictos/clothes/jacket.webp",
       "translations": {
         "fr": {
           "label": "Veste",
           "phrases": [
-            { "emoji": "🧥", "text": "Je veux ma veste." },
-            { "emoji": "🧥", "text": "Je mets ma veste." },
-            { "emoji": "❄️", "text": "Il fait froid, je prends ma veste." },
-            { "emoji": "🧥", "text": "J'aime ma veste." }
+            {
+              "emoji": "🧥",
+              "text": "Je veux ma veste."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma veste ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma veste."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma veste préférée."
+            }
           ]
         },
         "en": {
           "label": "Jacket",
           "phrases": [
-            { "emoji": "🧥", "text": "I want my jacket." },
-            { "emoji": "🧥", "text": "I'm putting on my jacket." },
-            { "emoji": "❄️", "text": "It's cold, I'm taking my jacket." },
-            { "emoji": "🧥", "text": "I like my jacket." }
+            {
+              "emoji": "🧥",
+              "text": "I want my jacket."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my jacket ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my jacket."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite jacket."
+            }
           ]
         }
       }
     },
     {
       "id": "tie",
-      "image": "👔",
+      "image": "assets/pictos/clothes/tie.webp",
       "translations": {
         "fr": {
           "label": "Cravate",
           "phrases": [
-            { "emoji": "👔", "text": "Je veux ma cravate." },
-            { "emoji": "👔", "text": "Je mets ma cravate." },
-            { "emoji": "🎩", "text": "Je suis élégant avec ma cravate." },
-            { "emoji": "👔", "text": "Ma cravate est belle." }
+            {
+              "emoji": "👔",
+              "text": "Je veux ma cravate."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma cravate ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma cravate."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma cravate préférée."
+            }
           ]
         },
         "en": {
           "label": "Tie",
           "phrases": [
-            { "emoji": "👔", "text": "I want my tie." },
-            { "emoji": "👔", "text": "I'm putting on my tie." },
-            { "emoji": "🎩", "text": "I'm elegant with my tie." },
-            { "emoji": "👔", "text": "My tie is nice." }
+            {
+              "emoji": "👔",
+              "text": "I want my tie."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my tie ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my tie."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite tie."
+            }
           ]
         }
       }
     },
     {
       "id": "cap",
-      "image": "🧢",
+      "image": "assets/pictos/clothes/cap.webp",
       "translations": {
         "fr": {
           "label": "Casquette",
           "phrases": [
-            { "emoji": "🧢", "text": "Je veux ma casquette." },
-            { "emoji": "🧢", "text": "Je mets ma casquette." },
-            { "emoji": "☀️", "text": "Ma casquette me protège du soleil." },
-            { "emoji": "🧢", "text": "J'aime ma casquette." }
+            {
+              "emoji": "🧢",
+              "text": "Je veux ma casquette."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma casquette ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma casquette."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma casquette préférée."
+            }
           ]
         },
         "en": {
           "label": "Cap",
           "phrases": [
-            { "emoji": "🧢", "text": "I want my cap." },
-            { "emoji": "🧢", "text": "I'm putting on my cap." },
-            { "emoji": "☀️", "text": "My cap protects me from the sun." },
-            { "emoji": "🧢", "text": "I like my cap." }
+            {
+              "emoji": "🧢",
+              "text": "I want my cap."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my cap ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my cap."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite cap."
+            }
           ]
         }
       }
     },
     {
       "id": "dress",
-      "image": "👗",
+      "image": "assets/pictos/clothes/dress.webp",
       "translations": {
         "fr": {
           "label": "Robe",
           "phrases": [
-            { "emoji": "👗", "text": "Je veux ma robe." },
-            { "emoji": "👗", "text": "Je mets ma robe." },
-            { "emoji": "✨", "text": "Ma robe est magnifique." },
-            { "emoji": "👗", "text": "J'adore cette robe." }
+            {
+              "emoji": "👗",
+              "text": "Je veux ma robe."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma robe ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma robe."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma robe préférée."
+            }
           ]
         },
         "en": {
           "label": "Dress",
           "phrases": [
-            { "emoji": "👗", "text": "I want my dress." },
-            { "emoji": "👗", "text": "I'm putting on my dress." },
-            { "emoji": "✨", "text": "My dress is beautiful." },
-            { "emoji": "👗", "text": "I love this dress." }
+            {
+              "emoji": "👗",
+              "text": "I want my dress."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my dress ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my dress."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite dress."
+            }
           ]
         }
       }
     },
     {
       "id": "shoes",
-      "image": "👞",
+      "image": "assets/pictos/clothes/shoes.webp",
       "translations": {
         "fr": {
           "label": "Chaussures",
           "phrases": [
-            { "emoji": "👞", "text": "Je veux mes chaussures." },
-            { "emoji": "👞", "text": "Je mets mes chaussures." },
-            { "emoji": "👟", "text": "Mes chaussures sont confortables." },
-            { "emoji": "👞", "text": "Où sont mes chaussures ?" }
+            {
+              "emoji": "👞",
+              "text": "Je veux mes chaussures."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mes chaussures ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mes chaussures."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mes chaussures préférées."
+            }
           ]
         },
         "en": {
           "label": "Shoes",
           "phrases": [
-            { "emoji": "👞", "text": "I want my shoes." },
-            { "emoji": "👞", "text": "I'm putting on my shoes." },
-            { "emoji": "👟", "text": "My shoes are comfortable." },
-            { "emoji": "👞", "text": "Where are my shoes?" }
+            {
+              "emoji": "👞",
+              "text": "I want my shoes."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my shoes ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my shoes."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite shoes."
+            }
           ]
         }
       }
     },
     {
       "id": "boots",
-      "image": "🥾",
+      "image": "assets/pictos/clothes/boots.webp",
       "translations": {
         "fr": {
           "label": "Bottes",
           "phrases": [
-            { "emoji": "🥾", "text": "Je veux mes bottes." },
-            { "emoji": "🥾", "text": "Je mets mes bottes." },
-            { "emoji": "☔", "text": "Il pleut, je prends mes bottes." },
-            { "emoji": "🥾", "text": "Mes bottes sont solides." }
+            {
+              "emoji": "🥾",
+              "text": "Je veux mes bottes."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mes bottes ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mes bottes."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mes bottes préférées."
+            }
           ]
         },
         "en": {
           "label": "Boots",
           "phrases": [
-            { "emoji": "🥾", "text": "I want my boots." },
-            { "emoji": "🥾", "text": "I'm putting on my boots." },
-            { "emoji": "☔", "text": "It's raining, I'm wearing my boots." },
-            { "emoji": "🥾", "text": "My boots are sturdy." }
+            {
+              "emoji": "🥾",
+              "text": "I want my boots."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my boots ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my boots."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite boots."
+            }
           ]
         }
       }
     },
     {
       "id": "sneakers",
-      "image": "👟",
+      "image": "assets/pictos/clothes/sneakers.webp",
       "translations": {
         "fr": {
           "label": "Baskets",
           "phrases": [
-            { "emoji": "👟", "text": "Je veux mes baskets." },
-            { "emoji": "👟", "text": "Je mets mes baskets." },
-            { "emoji": "🏃", "text": "Je cours avec mes baskets." },
-            { "emoji": "👟", "text": "J'adore mes baskets." }
+            {
+              "emoji": "👟",
+              "text": "Je veux mes baskets."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mes baskets ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mes baskets."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mes baskets préférées."
+            }
           ]
         },
         "en": {
           "label": "Sneakers",
           "phrases": [
-            { "emoji": "👟", "text": "I want my sneakers." },
-            { "emoji": "👟", "text": "I'm putting on my sneakers." },
-            { "emoji": "🏃", "text": "I run with my sneakers." },
-            { "emoji": "👟", "text": "I love my sneakers." }
+            {
+              "emoji": "👟",
+              "text": "I want my sneakers."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my sneakers ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my sneakers."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite sneakers."
+            }
           ]
         }
       }
     },
     {
       "id": "slippers",
-      "image": "🥿",
+      "image": "assets/pictos/clothes/slippers.webp",
       "translations": {
         "fr": {
           "label": "Chaussons",
           "phrases": [
-            { "emoji": "🥿", "text": "Je veux mes chaussons." },
-            { "emoji": "🥿", "text": "Je mets mes chaussons." },
-            { "emoji": "🏠", "text": "Je porte mes chaussons à la maison." },
-            { "emoji": "😊", "text": "Mes chaussons sont confortables." }
+            {
+              "emoji": "🥿",
+              "text": "Je veux mes chaussons."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mes chaussons ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mes chaussons."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mes chaussons préférés."
+            }
           ]
         },
         "en": {
           "label": "Slippers",
           "phrases": [
-            { "emoji": "🥿", "text": "I want my slippers." },
-            { "emoji": "🥿", "text": "I'm putting on my slippers." },
-            { "emoji": "🏠", "text": "I wear my slippers at home." },
-            { "emoji": "😊", "text": "My slippers are comfortable." }
+            {
+              "emoji": "🥿",
+              "text": "I want my slippers."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my slippers ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my slippers."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite slippers."
+            }
           ]
         }
       }
     },
     {
       "id": "belt",
-      "image": "👖",
+      "image": "assets/pictos/clothes/belt.webp",
       "translations": {
         "fr": {
           "label": "Ceinture",
           "phrases": [
-            { "emoji": "👖", "text": "Je veux ma ceinture." },
-            { "emoji": "👖", "text": "Je mets ma ceinture." },
-            { "emoji": "👖", "text": "Ma ceinture serre mon pantalon." },
-            { "emoji": "👖", "text": "J'ai besoin d'une ceinture." }
+            {
+              "emoji": "👖",
+              "text": "Je veux ma ceinture."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma ceinture ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma ceinture."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma ceinture préférée."
+            }
           ]
         },
         "en": {
           "label": "Belt",
           "phrases": [
-            { "emoji": "👖", "text": "I want my belt." },
-            { "emoji": "👖", "text": "I'm putting on my belt." },
-            { "emoji": "👖", "text": "My belt holds my pants." },
-            { "emoji": "👖", "text": "I need a belt." }
+            {
+              "emoji": "👖",
+              "text": "I want my belt."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my belt ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my belt."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite belt."
+            }
           ]
         }
       }
     },
     {
       "id": "socks",
-      "image": "🧦",
+      "image": "assets/pictos/clothes/socks.webp",
       "translations": {
         "fr": {
           "label": "Chaussettes",
           "phrases": [
-            { "emoji": "🧦", "text": "Je veux mes chaussettes." },
-            { "emoji": "🧦", "text": "Je mets mes chaussettes." },
-            { "emoji": "🧦", "text": "Mes chaussettes sont chaudes." },
-            { "emoji": "🧦", "text": "J'ai perdu une chaussette." }
+            {
+              "emoji": "🧦",
+              "text": "Je veux mes chaussettes."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mes chaussettes ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mes chaussettes."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mes chaussettes préférées."
+            }
           ]
         },
         "en": {
           "label": "Socks",
           "phrases": [
-            { "emoji": "🧦", "text": "I want my socks." },
-            { "emoji": "🧦", "text": "I'm putting on my socks." },
-            { "emoji": "🧦", "text": "My socks are warm." },
-            { "emoji": "🧦", "text": "I lost a sock." }
+            {
+              "emoji": "🧦",
+              "text": "I want my socks."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my socks ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my socks."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite socks."
+            }
           ]
         }
       }
     },
     {
       "id": "swimsuit",
-      "image": "🩱",
+      "image": "assets/pictos/clothes/swimsuit.webp",
       "translations": {
         "fr": {
           "label": "Maillot de bain",
           "phrases": [
-            { "emoji": "🩱", "text": "Je veux mon maillot de bain." },
-            { "emoji": "🏊", "text": "Je vais nager avec mon maillot." },
-            { "emoji": "🩱", "text": "Mon maillot est sec." },
-            { "emoji": "🏖️", "text": "Je mets mon maillot à la plage." }
+            {
+              "emoji": "🩱",
+              "text": "Je veux mon maillot de bain."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon maillot de bain ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon maillot de bain."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon maillot de bain préféré."
+            }
           ]
         },
         "en": {
           "label": "Swimsuit",
           "phrases": [
-            { "emoji": "🩱", "text": "I want my swimsuit." },
-            { "emoji": "🏊", "text": "I'm swimming with my swimsuit." },
-            { "emoji": "🩱", "text": "My swimsuit is dry." },
-            { "emoji": "🏖️", "text": "I wear my swimsuit at the beach." }
+            {
+              "emoji": "🩱",
+              "text": "I want my swimsuit."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my swimsuit ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my swimsuit."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite swimsuit."
+            }
           ]
         }
       }
     },
     {
       "id": "sweater",
-      "image": "🧶",
+      "image": "assets/pictos/clothes/sweater.webp",
       "translations": {
         "fr": {
           "label": "Pull",
           "phrases": [
-            { "emoji": "🧶", "text": "Je veux mon pull." },
-            { "emoji": "🧶", "text": "Je mets mon pull." },
-            { "emoji": "❄️", "text": "Mon pull me tient chaud." },
-            { "emoji": "🧶", "text": "J'aime mon pull." }
+            {
+              "emoji": "🧶",
+              "text": "Je veux mon pull."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon pull ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon pull."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon pull préféré."
+            }
           ]
         },
         "en": {
           "label": "Sweater",
           "phrases": [
-            { "emoji": "🧶", "text": "I want my sweater." },
-            { "emoji": "🧶", "text": "I'm putting on my sweater." },
-            { "emoji": "❄️", "text": "My sweater keeps me warm." },
-            { "emoji": "🧶", "text": "I like my sweater." }
+            {
+              "emoji": "🧶",
+              "text": "I want my sweater."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my sweater ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my sweater."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite sweater."
+            }
           ]
         }
       }
     },
     {
       "id": "scarf",
-      "image": "🧣",
+      "image": "assets/pictos/clothes/scarf.webp",
       "translations": {
         "fr": {
           "label": "Écharpe",
           "phrases": [
-            { "emoji": "🧣", "text": "Je veux mon écharpe." },
-            { "emoji": "🧣", "text": "Je mets mon écharpe." },
-            { "emoji": "❄️", "text": "Mon écharpe me tient chaud." },
-            { "emoji": "🧣", "text": "J'aime mon écharpe." }
+            {
+              "emoji": "🧣",
+              "text": "Je veux mon écharpe."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon écharpe ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon écharpe."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon écharpe préférée."
+            }
           ]
         },
         "en": {
           "label": "Scarf",
           "phrases": [
-            { "emoji": "🧣", "text": "I want my scarf." },
-            { "emoji": "🧣", "text": "I'm putting on my scarf." },
-            { "emoji": "❄️", "text": "My scarf keeps me warm." },
-            { "emoji": "🧣", "text": "I like my scarf." }
+            {
+              "emoji": "🧣",
+              "text": "I want my scarf."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my scarf ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my scarf."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite scarf."
+            }
           ]
         }
       }
     },
     {
       "id": "t-shirt",
-      "image": "👕",
+      "image": "assets/pictos/clothes/t-shirt.webp",
       "translations": {
         "fr": {
           "label": "T-shirt",
           "phrases": [
-            { "emoji": "👕", "text": "Je veux mon T-shirt." },
-            { "emoji": "👕", "text": "Je mets mon T-shirt." },
-            { "emoji": "👕", "text": "Mon T-shirt est confortable." },
-            { "emoji": "👕", "text": "J'aime ce T-shirt." }
+            {
+              "emoji": "👕",
+              "text": "Je veux mon T-shirt."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon T-shirt ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon T-shirt."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon T-shirt préféré."
+            }
           ]
         },
         "en": {
           "label": "T-shirt",
           "phrases": [
-            { "emoji": "👕", "text": "I want my T-shirt." },
-            { "emoji": "👕", "text": "I'm putting on my T-shirt." },
-            { "emoji": "👕", "text": "My T-shirt is comfortable." },
-            { "emoji": "👕", "text": "I like this T-shirt." }
+            {
+              "emoji": "👕",
+              "text": "I want my T-shirt."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my T-shirt ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my T-shirt."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite T-shirt."
+            }
           ]
         }
       }
     },
     {
       "id": "hoodie",
-      "image": "🧥",
+      "image": "assets/pictos/clothes/hoodie.webp",
       "translations": {
         "fr": {
           "label": "Sweat à capuche",
           "phrases": [
-            { "emoji": "🧥", "text": "Je veux mon sweat." },
-            { "emoji": "🧥", "text": "Je mets mon sweat à capuche." },
-            { "emoji": "😊", "text": "Mon sweat est confortable." },
-            { "emoji": "🧥", "text": "J'adore mon sweat." }
+            {
+              "emoji": "🧥",
+              "text": "Je veux mon sweat."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon sweat ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon sweat."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon sweat préféré."
+            }
           ]
         },
         "en": {
           "label": "Hoodie",
           "phrases": [
-            { "emoji": "🧥", "text": "I want my hoodie." },
-            { "emoji": "🧥", "text": "I'm putting on my hoodie." },
-            { "emoji": "😊", "text": "My hoodie is comfortable." },
-            { "emoji": "🧥", "text": "I love my hoodie." }
+            {
+              "emoji": "🧥",
+              "text": "I want my hoodie."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my hoodie ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my hoodie."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite hoodie."
+            }
           ]
         }
       }
     },
     {
       "id": "hat",
-      "image": "🎩",
+      "image": "assets/pictos/clothes/hat.webp",
       "translations": {
         "fr": {
           "label": "Chapeau",
           "phrases": [
-            { "emoji": "🎩", "text": "Je veux mon chapeau." },
-            { "emoji": "🎩", "text": "Je mets mon chapeau." },
-            { "emoji": "☀️", "text": "Mon chapeau me protège du soleil." },
-            { "emoji": "🎩", "text": "J'aime mon chapeau." }
+            {
+              "emoji": "🎩",
+              "text": "Je veux mon chapeau."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon chapeau ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon chapeau."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon chapeau préféré."
+            }
           ]
         },
         "en": {
           "label": "Hat",
           "phrases": [
-            { "emoji": "🎩", "text": "I want my hat." },
-            { "emoji": "🎩", "text": "I'm putting on my hat." },
-            { "emoji": "☀️", "text": "My hat protects me from the sun." },
-            { "emoji": "🎩", "text": "I like my hat." }
+            {
+              "emoji": "🎩",
+              "text": "I want my hat."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my hat ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my hat."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite hat."
+            }
           ]
         }
       }
     },
     {
       "id": "gloves",
-      "image": "🧤",
+      "image": "assets/pictos/clothes/gloves.webp",
       "translations": {
         "fr": {
           "label": "Gants",
           "phrases": [
-            { "emoji": "🧤", "text": "Je veux mes gants." },
-            { "emoji": "🧤", "text": "Je mets mes gants." },
-            { "emoji": "❄️", "text": "Mes gants me tiennent chaud." },
-            { "emoji": "🧤", "text": "J'ai perdu un gant." }
+            {
+              "emoji": "🧤",
+              "text": "Je veux mes gants."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mes gants ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mes gants."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mes gants préférés."
+            }
           ]
         },
         "en": {
           "label": "Gloves",
           "phrases": [
-            { "emoji": "🧤", "text": "I want my gloves." },
-            { "emoji": "🧤", "text": "I'm putting on my gloves." },
-            { "emoji": "❄️", "text": "My gloves keep me warm." },
-            { "emoji": "🧤", "text": "I lost a glove." }
+            {
+              "emoji": "🧤",
+              "text": "I want my gloves."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my gloves ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my gloves."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite gloves."
+            }
           ]
         }
       }
     },
     {
       "id": "coat",
-      "image": "🧥",
+      "image": "assets/pictos/clothes/coat.webp",
       "translations": {
         "fr": {
           "label": "Manteau",
           "phrases": [
-            { "emoji": "🧥", "text": "Je veux mon manteau." },
-            { "emoji": "🧥", "text": "Je mets mon manteau." },
-            { "emoji": "❄️", "text": "Il fait froid, je prends mon manteau." },
-            { "emoji": "🧥", "text": "Mon manteau est chaud." }
+            {
+              "emoji": "🧥",
+              "text": "Je veux mon manteau."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon manteau ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon manteau."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon manteau préféré."
+            }
           ]
         },
         "en": {
           "label": "Coat",
           "phrases": [
-            { "emoji": "🧥", "text": "I want my coat." },
-            { "emoji": "🧥", "text": "I'm putting on my coat." },
-            { "emoji": "❄️", "text": "It's cold, I'm taking my coat." },
-            { "emoji": "🧥", "text": "My coat is warm." }
+            {
+              "emoji": "🧥",
+              "text": "I want my coat."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my coat ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my coat."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite coat."
+            }
           ]
         }
       }
     },
     {
       "id": "beanie",
-      "image": "🧢",
+      "image": "assets/pictos/clothes/beanie.webp",
       "translations": {
         "fr": {
           "label": "Bonnet",
           "phrases": [
-            { "emoji": "🧢", "text": "Je veux mon bonnet." },
-            { "emoji": "🧢", "text": "Je mets mon bonnet." },
-            { "emoji": "❄️", "text": "Mon bonnet me tient chaud." },
-            { "emoji": "🧢", "text": "J'aime mon bonnet." }
+            {
+              "emoji": "🧢",
+              "text": "Je veux mon bonnet."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon bonnet ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon bonnet."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon bonnet préféré."
+            }
           ]
         },
         "en": {
           "label": "Beanie",
           "phrases": [
-            { "emoji": "🧢", "text": "I want my beanie." },
-            { "emoji": "🧢", "text": "I'm putting on my beanie." },
-            { "emoji": "❄️", "text": "My beanie keeps me warm." },
-            { "emoji": "🧢", "text": "I like my beanie." }
+            {
+              "emoji": "🧢",
+              "text": "I want my beanie."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my beanie ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my beanie."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite beanie."
+            }
           ]
         }
       }
     },
     {
       "id": "shorts",
-      "image": "🩳",
+      "image": "assets/pictos/clothes/shorts.webp",
       "translations": {
         "fr": {
           "label": "Short",
           "phrases": [
-            { "emoji": "🩳", "text": "Je veux mon short." },
-            { "emoji": "🩳", "text": "Je mets mon short." },
-            { "emoji": "☀️", "text": "Il fait chaud, je porte mon short." },
-            { "emoji": "🩳", "text": "J'aime mon short." }
+            {
+              "emoji": "🩳",
+              "text": "Je veux mon short."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mon short ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon short."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mon short préféré."
+            }
           ]
         },
         "en": {
           "label": "Shorts",
           "phrases": [
-            { "emoji": "🩳", "text": "I want my shorts." },
-            { "emoji": "🩳", "text": "I'm putting on my shorts." },
-            { "emoji": "☀️", "text": "It's hot, I'm wearing my shorts." },
-            { "emoji": "🩳", "text": "I like my shorts." }
+            {
+              "emoji": "🩳",
+              "text": "I want my shorts."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my shorts ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my shorts."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite shorts."
+            }
           ]
         }
       }
     },
     {
       "id": "raincoat",
-      "image": "🧥",
+      "image": "assets/pictos/clothes/raincoat.webp",
       "translations": {
         "fr": {
           "label": "Imperméable",
           "phrases": [
-            { "emoji": "🧥", "text": "Je veux mon imperméable." },
-            { "emoji": "☔", "text": "Il pleut, je mets mon imperméable." },
-            { "emoji": "🧥", "text": "Mon imperméable est étanche." },
-            { "emoji": "☔", "text": "J'aime mon imperméable." }
+            {
+              "emoji": "🧥",
+              "text": "Je veux mon imperméable."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon imperméable ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon imperméable."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon imperméable préféré."
+            }
           ]
         },
         "en": {
           "label": "Raincoat",
           "phrases": [
-            { "emoji": "🧥", "text": "I want my raincoat." },
-            { "emoji": "☔", "text": "It's raining, I'm wearing my raincoat." },
-            { "emoji": "🧥", "text": "My raincoat is waterproof." },
-            { "emoji": "☔", "text": "I like my raincoat." }
+            {
+              "emoji": "🧥",
+              "text": "I want my raincoat."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my raincoat ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my raincoat."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite raincoat."
+            }
           ]
         }
       }
     },
     {
       "id": "swim-trunks",
-      "image": "🩳",
+      "image": "assets/pictos/clothes/swim-trunks.webp",
       "translations": {
         "fr": {
           "label": "Short de bain",
           "phrases": [
-            { "emoji": "🩳", "text": "Je veux mon short de bain." },
-            { "emoji": "🏊", "text": "Je vais nager avec mon short de bain." },
-            { "emoji": "🩳", "text": "Mon short de bain est sec." },
-            { "emoji": "🏖️", "text": "Je porte mon short de bain à la piscine." }
+            {
+              "emoji": "🩳",
+              "text": "Je veux mon short de bain."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mon short de bain ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon short de bain."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mon short de bain préféré."
+            }
           ]
         },
         "en": {
           "label": "Swim trunks",
           "phrases": [
-            { "emoji": "🩳", "text": "I want my swim trunks." },
-            { "emoji": "🏊", "text": "I'm swimming with my swim trunks." },
-            { "emoji": "🩳", "text": "My swim trunks are dry." },
-            { "emoji": "🏖️", "text": "I wear my swim trunks at the pool." }
+            {
+              "emoji": "🩳",
+              "text": "I want my swim trunks."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my swim trunks ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my swim trunks."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite swim trunks."
+            }
           ]
         }
       }
     },
     {
       "id": "bow-tie",
-      "image": "🎀",
+      "image": "assets/pictos/clothes/bow-tie.webp",
       "translations": {
         "fr": {
           "label": "Noeud papillon",
           "phrases": [
-            { "emoji": "🎀", "text": "Je veux mon noeud papillon." },
-            { "emoji": "🎀", "text": "Je mets mon noeud papillon." },
-            { "emoji": "🎩", "text": "Je suis élégant avec mon noeud papillon." },
-            { "emoji": "🎀", "text": "J'aime porter un noeud papillon." }
+            {
+              "emoji": "🎀",
+              "text": "Je veux mon noeud papillon."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon noeud papillon ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon noeud papillon."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon noeud papillon préféré."
+            }
           ]
         },
         "en": {
           "label": "Bow tie",
           "phrases": [
-            { "emoji": "🎀", "text": "I want my bow tie." },
-            { "emoji": "🎀", "text": "I'm putting on my bow tie." },
-            { "emoji": "🎩", "text": "I'm elegant with my bow tie." },
-            { "emoji": "🎀", "text": "I like wearing a bow tie." }
+            {
+              "emoji": "🎀",
+              "text": "I want my bow tie."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my bow tie ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my bow tie."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite bow tie."
+            }
           ]
         }
       }
     },
     {
       "id": "leather-jacket",
-      "image": "🧥",
+      "image": "assets/pictos/clothes/leather-jacket.webp",
       "translations": {
         "fr": {
           "label": "Veste de cuir",
           "phrases": [
-            { "emoji": "🧥", "text": "Je veux ma veste de cuir." },
-            { "emoji": "🧥", "text": "Je mets ma veste de cuir." },
-            { "emoji": "😎", "text": "Ma veste de cuir est cool." },
-            { "emoji": "🧥", "text": "J'adore ma veste de cuir." }
+            {
+              "emoji": "🧥",
+              "text": "Je veux ma veste de cuir."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma veste de cuir ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma veste de cuir."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma veste de cuir préférée."
+            }
           ]
         },
         "en": {
           "label": "Leather jacket",
           "phrases": [
-            { "emoji": "🧥", "text": "I want my leather jacket." },
-            { "emoji": "🧥", "text": "I'm putting on my leather jacket." },
-            { "emoji": "😎", "text": "My leather jacket is cool." },
-            { "emoji": "🧥", "text": "I love my leather jacket." }
+            {
+              "emoji": "🧥",
+              "text": "I want my leather jacket."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my leather jacket ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my leather jacket."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite leather jacket."
+            }
           ]
         }
       }
     },
     {
       "id": "bathrobe",
-      "image": "🛁",
+      "image": "assets/pictos/clothes/bathrobe.webp",
       "translations": {
         "fr": {
-          "label": "Peignoir de bain",
+          "label": "Peignoir",
           "phrases": [
-            { "emoji": "🛁", "text": "Je veux mon peignoir." },
-            { "emoji": "🛁", "text": "Je mets mon peignoir après le bain." },
-            { "emoji": "😊", "text": "Mon peignoir est doux." },
-            { "emoji": "🛁", "text": "J'aime mon peignoir." }
+            {
+              "emoji": "🛁",
+              "text": "Je veux mon peignoir."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon peignoir ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon peignoir."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon peignoir préféré."
+            }
           ]
         },
         "en": {
           "label": "Bathrobe",
           "phrases": [
-            { "emoji": "🛁", "text": "I want my bathrobe." },
-            { "emoji": "🛁", "text": "I put on my bathrobe after the bath." },
-            { "emoji": "😊", "text": "My bathrobe is soft." },
-            { "emoji": "🛁", "text": "I like my bathrobe." }
+            {
+              "emoji": "🛁",
+              "text": "I want my bathrobe."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my bathrobe ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my bathrobe."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite bathrobe."
+            }
           ]
         }
       }
     },
     {
-      "id": "jumpsuit",
-      "image": "👗",
+      "id": "frog-suit",
+      "image": "assets/pictos/clothes/frog-suit.webp",
       "translations": {
         "fr": {
-          "label": "Combinaison",
+          "label": "Grenouillère",
           "phrases": [
-            { "emoji": "👗", "text": "Je veux ma combinaison." },
-            { "emoji": "👗", "text": "Je mets ma combinaison." },
-            { "emoji": "✨", "text": "Ma combinaison est élégante." },
-            { "emoji": "👗", "text": "J'aime porter une combinaison." }
+            {
+              "emoji": "🚼",
+              "text": "Je veux ma grenouillère."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est ma grenouillère ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma grenouillère."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est ma grenouillère préférée."
+            }
           ]
         },
         "en": {
-          "label": "Jumpsuit",
+          "label": "Frog suit",
           "phrases": [
-            { "emoji": "👗", "text": "I want my jumpsuit." },
-            { "emoji": "👗", "text": "I'm putting on my jumpsuit." },
-            { "emoji": "✨", "text": "My jumpsuit is elegant." },
-            { "emoji": "👗", "text": "I like wearing a jumpsuit." }
+            {
+              "emoji": "🚼",
+              "text": "I want my frog suit."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my frog suit ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my frog suit."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite frog suit."
+            }
           ]
         }
       }
     },
     {
       "id": "tank-top",
-      "image": "👕",
+      "image": "assets/pictos/clothes/tank-top.webp",
       "translations": {
         "fr": {
           "label": "Débardeur",
           "phrases": [
-            { "emoji": "👕", "text": "Je veux mon débardeur." },
-            { "emoji": "👕", "text": "Je mets mon débardeur." },
-            { "emoji": "☀️", "text": "Il fait chaud, je porte mon débardeur." },
-            { "emoji": "👕", "text": "J'aime mon débardeur." }
+            {
+              "emoji": "👕",
+              "text": "Je veux mon débardeur."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon débardeur ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon débardeur."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon débardeur préféré."
+            }
           ]
         },
         "en": {
           "label": "Tank top",
           "phrases": [
-            { "emoji": "👕", "text": "I want my tank top." },
-            { "emoji": "👕", "text": "I'm putting on my tank top." },
-            { "emoji": "☀️", "text": "It's hot, I'm wearing my tank top." },
-            { "emoji": "👕", "text": "I like my tank top." }
+            {
+              "emoji": "👕",
+              "text": "I want my tank top."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my tank top ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my tank top."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite tank top."
+            }
           ]
         }
       }
     },
     {
       "id": "boxers",
-      "image": "🩲",
+      "image": "assets/pictos/clothes/boxers.webp",
       "translations": {
         "fr": {
           "label": "Boxer",
           "phrases": [
-            { "emoji": "🩲", "text": "Je veux mon boxer." },
-            { "emoji": "🩲", "text": "Je mets mon boxer." },
-            { "emoji": "😊", "text": "Mon boxer est confortable." },
-            { "emoji": "🩲", "text": "J'ai besoin d'un boxer." }
+            {
+              "emoji": "🩲",
+              "text": "Je veux mon boxer."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mon boxer ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon boxer."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mon boxer préféré."
+            }
           ]
         },
         "en": {
           "label": "Boxers",
           "phrases": [
-            { "emoji": "🩲", "text": "I want my boxers." },
-            { "emoji": "🩲", "text": "I'm putting on my boxers." },
-            { "emoji": "😊", "text": "My boxers are comfortable." },
-            { "emoji": "🩲", "text": "I need boxers." }
+            {
+              "emoji": "🩲",
+              "text": "I want my boxers."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my boxers ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my boxers."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite boxers."
+            }
           ]
         }
       }
     },
     {
       "id": "vest",
-      "image": "🦺",
+      "image": "assets/pictos/clothes/vest.webp",
       "translations": {
         "fr": {
           "label": "Gilet",
           "phrases": [
-            { "emoji": "🦺", "text": "Je veux mon gilet." },
-            { "emoji": "🦺", "text": "Je mets mon gilet." },
-            { "emoji": "👔", "text": "Mon gilet est élégant." },
-            { "emoji": "🦺", "text": "J'aime porter un gilet." }
+            {
+              "emoji": "🦺",
+              "text": "Je veux mon gilet."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon gilet ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon gilet."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon gilet préféré."
+            }
           ]
         },
         "en": {
           "label": "Vest",
           "phrases": [
-            { "emoji": "🦺", "text": "I want my vest." },
-            { "emoji": "🦺", "text": "I'm putting on my vest." },
-            { "emoji": "👔", "text": "My vest is elegant." },
-            { "emoji": "🦺", "text": "I like wearing a vest." }
+            {
+              "emoji": "🦺",
+              "text": "I want my vest."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my vest ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my vest."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite vest."
+            }
           ]
         }
       }
     },
     {
       "id": "high-heels",
-      "image": "👠",
+      "image": "assets/pictos/clothes/high-heels.webp",
       "translations": {
         "fr": {
           "label": "Talons hauts",
           "phrases": [
-            { "emoji": "👠", "text": "Je veux mes talons hauts." },
-            { "emoji": "👠", "text": "Je mets mes talons hauts." },
-            { "emoji": "✨", "text": "Mes talons sont élégants." },
-            { "emoji": "👠", "text": "J'aime mes talons hauts." }
+            {
+              "emoji": "👠",
+              "text": "Je veux mes talons hauts."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mes talons hauts ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mes talons hauts."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mes talons hauts préférés."
+            }
           ]
         },
         "en": {
           "label": "High heels",
           "phrases": [
-            { "emoji": "👠", "text": "I want my high heels." },
-            { "emoji": "👠", "text": "I'm putting on my high heels." },
-            { "emoji": "✨", "text": "My heels are elegant." },
-            { "emoji": "👠", "text": "I like my high heels." }
+            {
+              "emoji": "👠",
+              "text": "I want my high heels."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my high heels ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my high heels."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite high heels."
+            }
           ]
         }
       }
     },
     {
       "id": "overalls",
-      "image": "👖",
+      "image": "assets/pictos/clothes/overalls.webp",
       "translations": {
         "fr": {
           "label": "Salopette",
           "phrases": [
-            { "emoji": "👖", "text": "Je veux ma salopette." },
-            { "emoji": "👖", "text": "Je mets ma salopette." },
-            { "emoji": "😊", "text": "Ma salopette est pratique." },
-            { "emoji": "👖", "text": "J'aime ma salopette." }
+            {
+              "emoji": "👖",
+              "text": "Je veux ma salopette."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont ma salopette ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime ma salopette."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont ma salopette préférée."
+            }
           ]
         },
         "en": {
           "label": "Overalls",
           "phrases": [
-            { "emoji": "👖", "text": "I want my overalls." },
-            { "emoji": "👖", "text": "I'm putting on my overalls." },
-            { "emoji": "😊", "text": "My overalls are practical." },
-            { "emoji": "👖", "text": "I like my overalls." }
+            {
+              "emoji": "👖",
+              "text": "I want my overalls."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my overalls ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my overalls."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite overalls."
+            }
           ]
         }
       }
     },
     {
       "id": "kimono",
-      "image": "👘",
+      "image": "assets/pictos/clothes/kimono.webp",
       "translations": {
         "fr": {
           "label": "Kimono",
           "phrases": [
-            { "emoji": "👘", "text": "Je veux mon kimono." },
-            { "emoji": "👘", "text": "Je mets mon kimono." },
-            { "emoji": "✨", "text": "Mon kimono est magnifique." },
-            { "emoji": "👘", "text": "J'adore mon kimono." }
+            {
+              "emoji": "👘",
+              "text": "Je veux mon kimono."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon kimono ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon kimono."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon kimono préféré."
+            }
           ]
         },
         "en": {
           "label": "Kimono",
           "phrases": [
-            { "emoji": "👘", "text": "I want my kimono." },
-            { "emoji": "👘", "text": "I'm putting on my kimono." },
-            { "emoji": "✨", "text": "My kimono is beautiful." },
-            { "emoji": "👘", "text": "I love my kimono." }
+            {
+              "emoji": "👘",
+              "text": "I want my kimono."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my kimono ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my kimono."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite kimono."
+            }
           ]
         }
       }
     },
     {
       "id": "bandana",
-      "image": "🧣",
+      "image": "assets/pictos/clothes/bandana.webp",
       "translations": {
         "fr": {
           "label": "Bandana",
           "phrases": [
-            { "emoji": "🧣", "text": "Je veux mon bandana." },
-            { "emoji": "🧣", "text": "Je mets mon bandana." },
-            { "emoji": "😎", "text": "Mon bandana est cool." },
-            { "emoji": "🧣", "text": "J'aime porter un bandana." }
+            {
+              "emoji": "🧣",
+              "text": "Je veux mon bandana."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon bandana ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon bandana."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon bandana préféré."
+            }
           ]
         },
         "en": {
           "label": "Bandana",
           "phrases": [
-            { "emoji": "🧣", "text": "I want my bandana." },
-            { "emoji": "🧣", "text": "I'm putting on my bandana." },
-            { "emoji": "😎", "text": "My bandana is cool." },
-            { "emoji": "🧣", "text": "I like wearing a bandana." }
+            {
+              "emoji": "🧣",
+              "text": "I want my bandana."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my bandana ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my bandana."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite bandana."
+            }
           ]
         }
       }
     },
     {
       "id": "beret",
-      "image": "🧢",
+      "image": "assets/pictos/clothes/beret.webp",
       "translations": {
         "fr": {
           "label": "Béret",
           "phrases": [
-            { "emoji": "🧢", "text": "Je veux mon béret." },
-            { "emoji": "🧢", "text": "Je mets mon béret." },
-            { "emoji": "🎨", "text": "Mon béret est élégant." },
-            { "emoji": "🧢", "text": "J'aime mon béret." }
+            {
+              "emoji": "🧢",
+              "text": "Je veux mon béret."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon béret ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon béret."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon béret préféré."
+            }
           ]
         },
         "en": {
           "label": "Beret",
           "phrases": [
-            { "emoji": "🧢", "text": "I want my beret." },
-            { "emoji": "🧢", "text": "I'm putting on my beret." },
-            { "emoji": "🎨", "text": "My beret is elegant." },
-            { "emoji": "🧢", "text": "I like my beret." }
+            {
+              "emoji": "🧢",
+              "text": "I want my beret."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my beret ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my beret."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite beret."
+            }
           ]
         }
       }
     },
     {
       "id": "suspenders",
-      "image": "👖",
+      "image": "assets/pictos/clothes/suspenders.webp",
       "translations": {
         "fr": {
           "label": "Bretelles",
           "phrases": [
-            { "emoji": "👖", "text": "Je veux mes bretelles." },
-            { "emoji": "👖", "text": "Je mets mes bretelles." },
-            { "emoji": "👔", "text": "Mes bretelles tiennent mon pantalon." },
-            { "emoji": "👖", "text": "J'aime mes bretelles." }
+            {
+              "emoji": "👖",
+              "text": "Je veux mes bretelles."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont mes bretelles ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mes bretelles."
+            },
+            {
+              "emoji": "💓",
+              "text": "Ce sont mes bretelles préférées."
+            }
           ]
         },
         "en": {
           "label": "Suspenders",
           "phrases": [
-            { "emoji": "👖", "text": "I want my suspenders." },
-            { "emoji": "👖", "text": "I'm putting on my suspenders." },
-            { "emoji": "👔", "text": "My suspenders hold my pants." },
-            { "emoji": "👖", "text": "I like my suspenders." }
+            {
+              "emoji": "👖",
+              "text": "I want my suspenders."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are my suspenders ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my suspenders."
+            },
+            {
+              "emoji": "💓",
+              "text": "These are my favorite suspenders."
+            }
           ]
         }
       }
     },
     {
       "id": "suit",
-      "image": "🤵",
+      "image": "assets/pictos/clothes/suit.webp",
       "translations": {
         "fr": {
           "label": "Costume",
           "phrases": [
-            { "emoji": "🤵", "text": "Je veux mon costume." },
-            { "emoji": "🤵", "text": "Je mets mon costume." },
-            { "emoji": "✨", "text": "Mon costume est élégant." },
-            { "emoji": "🤵", "text": "Je porte un costume pour les occasions spéciales." }
+            {
+              "emoji": "🤵",
+              "text": "Je veux mon costume."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où est mon costume ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime mon costume."
+            },
+            {
+              "emoji": "💓",
+              "text": "C'est mon costume préféré."
+            }
           ]
         },
         "en": {
           "label": "Suit",
           "phrases": [
-            { "emoji": "🤵", "text": "I want my suit." },
-            { "emoji": "🤵", "text": "I'm putting on my suit." },
-            { "emoji": "✨", "text": "My suit is elegant." },
-            { "emoji": "🤵", "text": "I wear a suit for special occasions." }
+            {
+              "emoji": "🤵",
+              "text": "I want my suit."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where is my suit ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "I like my suit."
+            },
+            {
+              "emoji": "💓",
+              "text": "This is my favorite suit."
+            }
           ]
         }
       }

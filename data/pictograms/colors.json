@@ -3,480 +3,1000 @@
   "pictograms": [
     {
       "id": "crayons",
-      "image": "🖍️",
+      "image": "assets/pictos/colors/crayons.webp",
       "translations": {
         "fr": {
           "label": "Crayons",
           "phrases": [
-            { "emoji": "🖍️", "text": "J'utilise des crayons." },
-            { "emoji": "🖍️", "text": "Je veux des crayons." },
-            { "emoji": "🎨", "text": "Je colorie avec des crayons." },
-            { "emoji": "🖍️", "text": "J'aime les crayons de couleur." }
+            {
+              "emoji": "🖍️",
+              "text": "Je veux des crayons."
+            },
+            {
+              "emoji": "👀",
+              "text": "Où sont les crayons ?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "J'aime les crayons de couleurs."
+            }
           ]
         },
         "en": {
-          "label": "Crayons",
+          "label": "Pencils",
           "phrases": [
-            { "emoji": "🖍️", "text": "I use crayons." },
-            { "emoji": "🖍️", "text": "I want crayons." },
-            { "emoji": "🎨", "text": "I color with crayons." },
-            { "emoji": "🖍️", "text": "I like colored crayons." }
+            {
+              "emoji": "🖍️",
+              "text": "I want pencils."
+            },
+            {
+              "emoji": "👀",
+              "text": "Where are the pencils ?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "I like colored pencils."
+            }
           ]
         }
       }
     },
     {
       "id": "red",
-      "image": "🔴",
+      "image": "assets/pictos/colors/red.webp",
       "translations": {
         "fr": {
           "label": "Rouge",
           "phrases": [
-            { "emoji": "🔴", "text": "C'est rouge." },
-            { "emoji": "❤️", "text": "J'aime le rouge." },
-            { "emoji": "🔴", "text": "Je veux la couleur rouge." },
-            { "emoji": "🍎", "text": "La pomme est rouge." }
+            {
+              "emoji": "🔴",
+              "text": "C'est rouge."
+            },
+            {
+              "emoji": "🔴",
+              "text": "Je veux la couleur rouge."
+            },
+            {
+              "emoji": "❤️",
+              "text": "J'aime le rouge."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Le rouge est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Red",
           "phrases": [
-            { "emoji": "🔴", "text": "It's red." },
-            { "emoji": "❤️", "text": "I like red." },
-            { "emoji": "🔴", "text": "I want the red color." },
-            { "emoji": "🍎", "text": "The apple is red." }
+            {
+              "emoji": "🔴",
+              "text": "It's red."
+            },
+            {
+              "emoji": "🔴",
+              "text": "I want the red color."
+            },
+            {
+              "emoji": "❤️",
+              "text": "I like red."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Red is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "blue",
-      "image": "🔵",
+      "image": "assets/pictos/colors/blue.webp",
       "translations": {
         "fr": {
           "label": "Bleu",
           "phrases": [
-            { "emoji": "🔵", "text": "C'est bleu." },
-            { "emoji": "💙", "text": "J'aime le bleu." },
-            { "emoji": "🔵", "text": "Je veux la couleur bleue." },
-            { "emoji": "🌊", "text": "L'océan est bleu." }
+            {
+              "emoji": "🔵",
+              "text": "C'est bleu."
+            },
+            {
+              "emoji": "🔵",
+              "text": "Je veux la couleur bleue."
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime le bleu."
+            },
+            {
+              "emoji": "💙",
+              "text": "Le bleu est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Blue",
           "phrases": [
-            { "emoji": "🔵", "text": "It's blue." },
-            { "emoji": "💙", "text": "I like blue." },
-            { "emoji": "🔵", "text": "I want the blue color." },
-            { "emoji": "🌊", "text": "The ocean is blue." }
+            {
+              "emoji": "🔵",
+              "text": "It's blue."
+            },
+            {
+              "emoji": "🔵",
+              "text": "I want the blue color."
+            },
+            {
+              "emoji": "💙",
+              "text": "I like blue."
+            },
+            {
+              "emoji": "💙",
+              "text": "Blue is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "orange",
-      "image": "🟠",
+      "image": "assets/pictos/colors/orange.webp",
       "translations": {
         "fr": {
           "label": "Orange",
           "phrases": [
-            { "emoji": "🟠", "text": "C'est orange." },
-            { "emoji": "🧡", "text": "J'aime l'orange." },
-            { "emoji": "🟠", "text": "Je veux la couleur orange." },
-            { "emoji": "🍊", "text": "L'orange est orange." }
+            {
+              "emoji": "🟠",
+              "text": "C'est orange."
+            },
+            {
+              "emoji": "🟠",
+              "text": "Je veux la couleur orange."
+            },
+            {
+              "emoji": "🧡",
+              "text": "J'aime l'orange."
+            },
+            {
+              "emoji": "🧡",
+              "text": "L'orange est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Orange",
           "phrases": [
-            { "emoji": "🟠", "text": "It's orange." },
-            { "emoji": "🧡", "text": "I like orange." },
-            { "emoji": "🟠", "text": "I want the orange color." },
-            { "emoji": "🍊", "text": "The orange is orange." }
+            {
+              "emoji": "🟠",
+              "text": "It's orange."
+            },
+            {
+              "emoji": "🟠",
+              "text": "I want the orange color."
+            },
+            {
+              "emoji": "🧡",
+              "text": "I like orange."
+            },
+            {
+              "emoji": "🧡",
+              "text": "Orange is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "green",
-      "image": "🟢",
+      "image": "assets/pictos/colors/green.webp",
       "translations": {
         "fr": {
           "label": "Vert",
           "phrases": [
-            { "emoji": "🟢", "text": "C'est vert." },
-            { "emoji": "💚", "text": "J'aime le vert." },
-            { "emoji": "🟢", "text": "Je veux la couleur verte." },
-            { "emoji": "🌿", "text": "Les feuilles sont vertes." }
+            {
+              "emoji": "🟢",
+              "text": "C'est vert."
+            },
+            {
+              "emoji": "🟢",
+              "text": "Je veux la couleur verte."
+            },
+            {
+              "emoji": "💚",
+              "text": "J'aime le vert."
+            },
+            {
+              "emoji": "💚",
+              "text": "Le vert est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Green",
           "phrases": [
-            { "emoji": "🟢", "text": "It's green." },
-            { "emoji": "💚", "text": "I like green." },
-            { "emoji": "🟢", "text": "I want the green color." },
-            { "emoji": "🌿", "text": "The leaves are green." }
+            {
+              "emoji": "🟢",
+              "text": "It's green."
+            },
+            {
+              "emoji": "🟢",
+              "text": "I want the green color."
+            },
+            {
+              "emoji": "💚",
+              "text": "I like green."
+            },
+            {
+              "emoji": "💚",
+              "text": "Green is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "yellow",
-      "image": "🟡",
+      "image": "assets/pictos/colors/yellow.webp",
       "translations": {
         "fr": {
           "label": "Jaune",
           "phrases": [
-            { "emoji": "🟡", "text": "C'est jaune." },
-            { "emoji": "💛", "text": "J'aime le jaune." },
-            { "emoji": "🟡", "text": "Je veux la couleur jaune." },
-            { "emoji": "☀️", "text": "Le soleil est jaune." }
+            {
+              "emoji": "🟡",
+              "text": "C'est jaune."
+            },
+            {
+              "emoji": "🟡",
+              "text": "Je veux la couleur jaune."
+            },
+            {
+              "emoji": "💛",
+              "text": "J'aime le jaune."
+            },
+            {
+              "emoji": "💛",
+              "text": "Le jaune est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Yellow",
           "phrases": [
-            { "emoji": "🟡", "text": "It's yellow." },
-            { "emoji": "💛", "text": "I like yellow." },
-            { "emoji": "🟡", "text": "I want the yellow color." },
-            { "emoji": "☀️", "text": "The sun is yellow." }
+            {
+              "emoji": "🟡",
+              "text": "It's yellow."
+            },
+            {
+              "emoji": "🟡",
+              "text": "I want the yellow color."
+            },
+            {
+              "emoji": "💛",
+              "text": "I like yellow."
+            },
+            {
+              "emoji": "💛",
+              "text": "Yellow is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "purple",
-      "image": "🟣",
+      "image": "assets/pictos/colors/purple.webp",
       "translations": {
         "fr": {
           "label": "Violet",
           "phrases": [
-            { "emoji": "🟣", "text": "C'est violet." },
-            { "emoji": "💜", "text": "J'aime le violet." },
-            { "emoji": "🟣", "text": "Je veux la couleur violette." },
-            { "emoji": "🍇", "text": "Le raisin est violet." }
+            {
+              "emoji": "🟣",
+              "text": "C'est violet."
+            },
+            {
+              "emoji": "🟣",
+              "text": "Je veux la couleur violette."
+            },
+            {
+              "emoji": "💜",
+              "text": "J'aime le violet."
+            },
+            {
+              "emoji": "💜",
+              "text": "Le violet est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Purple",
           "phrases": [
-            { "emoji": "🟣", "text": "It's purple." },
-            { "emoji": "💜", "text": "I like purple." },
-            { "emoji": "🟣", "text": "I want the purple color." },
-            { "emoji": "🍇", "text": "The grape is purple." }
+            {
+              "emoji": "🟣",
+              "text": "It's purple."
+            },
+            {
+              "emoji": "🟣",
+              "text": "I want the purple color."
+            },
+            {
+              "emoji": "💜",
+              "text": "I like purple."
+            },
+            {
+              "emoji": "💜",
+              "text": "Purple is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "pink",
-      "image": "🩷",
+      "image": "assets/pictos/colors/pink.webp",
       "translations": {
         "fr": {
           "label": "Rose",
           "phrases": [
-            { "emoji": "🩷", "text": "C'est rose." },
-            { "emoji": "💗", "text": "J'aime le rose." },
-            { "emoji": "🩷", "text": "Je veux la couleur rose." },
-            { "emoji": "🌸", "text": "La fleur est rose." }
+            {
+              "emoji": "💗",
+              "text": "C'est rose."
+            },
+            {
+              "emoji": "💗",
+              "text": "Je veux la couleur rose."
+            },
+            {
+              "emoji": "💗",
+              "text": "J'aime le rose."
+            },
+            {
+              "emoji": "💗",
+              "text": "Le rose est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Pink",
           "phrases": [
-            { "emoji": "🩷", "text": "It's pink." },
-            { "emoji": "💗", "text": "I like pink." },
-            { "emoji": "🩷", "text": "I want the pink color." },
-            { "emoji": "🌸", "text": "The flower is pink." }
+            {
+              "emoji": "💗",
+              "text": "It's pink."
+            },
+            {
+              "emoji": "💗",
+              "text": "I want the pink color."
+            },
+            {
+              "emoji": "💗",
+              "text": "I like pink."
+            },
+            {
+              "emoji": "💗",
+              "text": "Pink is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "brown",
-      "image": "🟤",
+      "image": "assets/pictos/colors/brown.webp",
       "translations": {
         "fr": {
           "label": "Marron",
           "phrases": [
-            { "emoji": "🟤", "text": "C'est marron." },
-            { "emoji": "🤎", "text": "J'aime le marron." },
-            { "emoji": "🟤", "text": "Je veux la couleur marron." },
-            { "emoji": "🌰", "text": "Le châtaigne est marron." }
+            {
+              "emoji": "🟤",
+              "text": "C'est marron."
+            },
+            {
+              "emoji": "🟤",
+              "text": "Je veux la couleur marron."
+            },
+            {
+              "emoji": "🤎",
+              "text": "J'aime le marron."
+            },
+            {
+              "emoji": "🤎",
+              "text": "Le marron est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Brown",
           "phrases": [
-            { "emoji": "🟤", "text": "It's brown." },
-            { "emoji": "🤎", "text": "I like brown." },
-            { "emoji": "🟤", "text": "I want the brown color." },
-            { "emoji": "🌰", "text": "The chestnut is brown." }
+            {
+              "emoji": "🟤",
+              "text": "It's brown."
+            },
+            {
+              "emoji": "🟤",
+              "text": "I want the brown color."
+            },
+            {
+              "emoji": "🤎",
+              "text": "I like brown."
+            },
+            {
+              "emoji": "🤎",
+              "text": "Brown is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "black",
-      "image": "⚫",
+      "image": "assets/pictos/colors/black.webp",
       "translations": {
         "fr": {
           "label": "Noir",
           "phrases": [
-            { "emoji": "⚫", "text": "C'est noir." },
-            { "emoji": "🖤", "text": "J'aime le noir." },
-            { "emoji": "⚫", "text": "Je veux la couleur noire." },
-            { "emoji": "🌑", "text": "La nuit est noire." }
+            {
+              "emoji": "⚫",
+              "text": "C'est noir."
+            },
+            {
+              "emoji": "⚫",
+              "text": "Je veux la couleur noire."
+            },
+            {
+              "emoji": "🖤",
+              "text": "J'aime le noir."
+            },
+            {
+              "emoji": "🖤",
+              "text": "Le noir est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Black",
           "phrases": [
-            { "emoji": "⚫", "text": "It's black." },
-            { "emoji": "🖤", "text": "I like black." },
-            { "emoji": "⚫", "text": "I want the black color." },
-            { "emoji": "🌑", "text": "The night is black." }
+            {
+              "emoji": "⚫",
+              "text": "It's black."
+            },
+            {
+              "emoji": "⚫",
+              "text": "I want the black color."
+            },
+            {
+              "emoji": "🖤",
+              "text": "I like black."
+            },
+            {
+              "emoji": "🖤",
+              "text": "Black is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "white",
-      "image": "⚪",
+      "image": "assets/pictos/colors/white.webp",
       "translations": {
         "fr": {
           "label": "Blanc",
           "phrases": [
-            { "emoji": "⚪", "text": "C'est blanc." },
-            { "emoji": "🤍", "text": "J'aime le blanc." },
-            { "emoji": "⚪", "text": "Je veux la couleur blanche." },
-            { "emoji": "☁️", "text": "Le nuage est blanc." }
+            {
+              "emoji": "⚪",
+              "text": "C'est blanc."
+            },
+            {
+              "emoji": "⚪",
+              "text": "Je veux la couleur blanche."
+            },
+            {
+              "emoji": "🤍",
+              "text": "J'aime le blanc."
+            },
+            {
+              "emoji": "🤍",
+              "text": "Le blanc est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "White",
           "phrases": [
-            { "emoji": "⚪", "text": "It's white." },
-            { "emoji": "🤍", "text": "I like white." },
-            { "emoji": "⚪", "text": "I want the white color." },
-            { "emoji": "☁️", "text": "The cloud is white." }
+            {
+              "emoji": "⚪",
+              "text": "It's white."
+            },
+            {
+              "emoji": "⚪",
+              "text": "I want the white color."
+            },
+            {
+              "emoji": "🤍",
+              "text": "I like white."
+            },
+            {
+              "emoji": "🤍",
+              "text": "White is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "gray",
-      "image": "🩶",
+      "image": "assets/pictos/colors/gray.webp",
       "translations": {
         "fr": {
           "label": "Gris",
           "phrases": [
-            { "emoji": "🩶", "text": "C'est gris." },
-            { "emoji": "🩶", "text": "J'aime le gris." },
-            { "emoji": "🩶", "text": "Je veux la couleur grise." },
-            { "emoji": "🐘", "text": "L'éléphant est gris." }
+            {
+              "emoji": "🌫️",
+              "text": "C'est gris."
+            },
+            {
+              "emoji": "🌫️",
+              "text": "Je veux la couleur grise."
+            },
+            {
+              "emoji": "🌫️",
+              "text": "J'aime le gris."
+            },
+            {
+              "emoji": "🌫️",
+              "text": "Le gris est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Gray",
           "phrases": [
-            { "emoji": "🩶", "text": "It's gray." },
-            { "emoji": "🩶", "text": "I like gray." },
-            { "emoji": "🩶", "text": "I want the gray color." },
-            { "emoji": "🐘", "text": "The elephant is gray." }
+            {
+              "emoji": "🌫️",
+              "text": "It's gray."
+            },
+            {
+              "emoji": "🌫️",
+              "text": "I want the gray color."
+            },
+            {
+              "emoji": "🌫️",
+              "text": "I like gray."
+            },
+            {
+              "emoji": "🌫️",
+              "text": "Gray is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "transparent",
-      "image": "🫧",
+      "image": "assets/pictos/colors/transparent.webp",
       "translations": {
         "fr": {
           "label": "Transparent",
           "phrases": [
-            { "emoji": "🫧", "text": "C'est transparent." },
-            { "emoji": "🫧", "text": "J'aime le transparent." },
-            { "emoji": "💎", "text": "Le verre est transparent." },
-            { "emoji": "🫧", "text": "Les bulles sont transparentes." }
+            {
+              "emoji": "🪟",
+              "text": "C'est transparent."
+            },
+            {
+              "emoji": "🪟",
+              "text": "Je veux la couleur transparente."
+            },
+            {
+              "emoji": "🪟",
+              "text": "J'aime le transparent."
+            },
+            {
+              "emoji": "🪟",
+              "text": "Le transparent est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Transparent",
           "phrases": [
-            { "emoji": "🫧", "text": "It's transparent." },
-            { "emoji": "🫧", "text": "I like transparent." },
-            { "emoji": "💎", "text": "The glass is transparent." },
-            { "emoji": "🫧", "text": "The bubbles are transparent." }
+            {
+              "emoji": "🪟",
+              "text": "It's transparent."
+            },
+            {
+              "emoji": "🪟",
+              "text": "I want the transparent color."
+            },
+            {
+              "emoji": "🪟",
+              "text": "I like transparent."
+            },
+            {
+              "emoji": "🪟",
+              "text": "Transparent is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "cyan",
-      "image": "🩵",
+      "image": "assets/pictos/colors/cyan.webp",
       "translations": {
         "fr": {
           "label": "Cyan",
           "phrases": [
-            { "emoji": "🩵", "text": "C'est cyan." },
-            { "emoji": "🩵", "text": "J'aime le cyan." },
-            { "emoji": "🩵", "text": "Je veux la couleur cyan." },
-            { "emoji": "💠", "text": "Le cyan est bleu clair." }
+            {
+              "emoji": "💙",
+              "text": "C'est cyan."
+            },
+            {
+              "emoji": "💙",
+              "text": "Je veux la couleur cyan."
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime le cyan."
+            },
+            {
+              "emoji": "💙",
+              "text": "Le cyan est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Cyan",
           "phrases": [
-            { "emoji": "🩵", "text": "It's cyan." },
-            { "emoji": "🩵", "text": "I like cyan." },
-            { "emoji": "🩵", "text": "I want the cyan color." },
-            { "emoji": "💠", "text": "Cyan is light blue." }
+            {
+              "emoji": "💙",
+              "text": "It's cyan."
+            },
+            {
+              "emoji": "💙",
+              "text": "I want the cyan color."
+            },
+            {
+              "emoji": "💙",
+              "text": "I like cyan."
+            },
+            {
+              "emoji": "💙",
+              "text": "Cyan is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "turquoise",
-      "image": "🔷",
+      "image": "assets/pictos/colors/turquoise.webp",
       "translations": {
         "fr": {
           "label": "Turquoise",
           "phrases": [
-            { "emoji": "🔷", "text": "C'est turquoise." },
-            { "emoji": "💎", "text": "J'aime le turquoise." },
-            { "emoji": "🔷", "text": "Je veux la couleur turquoise." },
-            { "emoji": "🌊", "text": "L'eau est turquoise." }
+            {
+              "emoji": "🔷",
+              "text": "C'est turquoise."
+            },
+            {
+              "emoji": "🔷",
+              "text": "Je veux la couleur turquoise."
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime le turquoise."
+            },
+            {
+              "emoji": "💙",
+              "text": "Le turquoise est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Turquoise",
           "phrases": [
-            { "emoji": "🔷", "text": "It's turquoise." },
-            { "emoji": "💎", "text": "I like turquoise." },
-            { "emoji": "🔷", "text": "I want the turquoise color." },
-            { "emoji": "🌊", "text": "The water is turquoise." }
+            {
+              "emoji": "🔷",
+              "text": "It's turquoise."
+            },
+            {
+              "emoji": "🔷",
+              "text": "I want the turquoise color."
+            },
+            {
+              "emoji": "💙",
+              "text": "I like turquoise."
+            },
+            {
+              "emoji": "💙",
+              "text": "Turquoise is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "plum",
-      "image": "🟪",
+      "image": "assets/pictos/colors/plum.webp",
       "translations": {
         "fr": {
           "label": "Prune",
           "phrases": [
-            { "emoji": "🟪", "text": "C'est prune." },
-            { "emoji": "🟪", "text": "J'aime le prune." },
-            { "emoji": "🟪", "text": "Je veux la couleur prune." },
-            { "emoji": "🍇", "text": "Le prune est violet foncé." }
+            {
+              "emoji": "🟪",
+              "text": "C'est prune."
+            },
+            {
+              "emoji": "🟪",
+              "text": "Je veux la couleur prune."
+            },
+            {
+              "emoji": "💜",
+              "text": "J'aime le prune."
+            },
+            {
+              "emoji": "💜",
+              "text": "Le prune est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Plum",
           "phrases": [
-            { "emoji": "🟪", "text": "It's plum." },
-            { "emoji": "🟪", "text": "I like plum." },
-            { "emoji": "🟪", "text": "I want the plum color." },
-            { "emoji": "🍇", "text": "Plum is dark purple." }
+            {
+              "emoji": "🟪",
+              "text": "It's plum."
+            },
+            {
+              "emoji": "🟪",
+              "text": "I want the plum color."
+            },
+            {
+              "emoji": "💜",
+              "text": "I like plum."
+            },
+            {
+              "emoji": "💜",
+              "text": "Plum is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "beige",
-      "image": "🟫",
+      "image": "assets/pictos/colors/beige.webp",
       "translations": {
         "fr": {
           "label": "Beige",
           "phrases": [
-            { "emoji": "🟫", "text": "C'est beige." },
-            { "emoji": "🟫", "text": "J'aime le beige." },
-            { "emoji": "🟫", "text": "Je veux la couleur beige." },
-            { "emoji": "🏜️", "text": "Le sable est beige." }
+            {
+              "emoji": "🟫",
+              "text": "C'est beige."
+            },
+            {
+              "emoji": "🟫",
+              "text": "Je veux la couleur beige."
+            },
+            {
+              "emoji": "🤎",
+              "text": "J'aime le beige."
+            },
+            {
+              "emoji": "🤎",
+              "text": "Le beige est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Beige",
           "phrases": [
-            { "emoji": "🟫", "text": "It's beige." },
-            { "emoji": "🟫", "text": "I like beige." },
-            { "emoji": "🟫", "text": "I want the beige color." },
-            { "emoji": "🏜️", "text": "The sand is beige." }
+            {
+              "emoji": "🟫",
+              "text": "It's beige."
+            },
+            {
+              "emoji": "🟫",
+              "text": "I want the beige color."
+            },
+            {
+              "emoji": "🤎",
+              "text": "I like beige."
+            },
+            {
+              "emoji": "🤎",
+              "text": "Beige is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "avocado",
-      "image": "🥑",
+      "image": "assets/pictos/colors/avocado.webp",
       "translations": {
         "fr": {
           "label": "Avocat",
           "phrases": [
-            { "emoji": "🥑", "text": "C'est vert avocat." },
-            { "emoji": "🥑", "text": "J'aime le vert avocat." },
-            { "emoji": "🥑", "text": "Je veux la couleur avocat." },
-            { "emoji": "🥑", "text": "L'avocat est vert." }
+            {
+              "emoji": "🥑",
+              "text": "C'est vert avocat."
+            },
+            {
+              "emoji": "🥑",
+              "text": "Je veux la couleur vert avocat."
+            },
+            {
+              "emoji": "💚",
+              "text": "J'aime le vert avocat."
+            },
+            {
+              "emoji": "💚",
+              "text": "Le vert avocat est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Avocado",
           "phrases": [
-            { "emoji": "🥑", "text": "It's avocado green." },
-            { "emoji": "🥑", "text": "I like avocado green." },
-            { "emoji": "🥑", "text": "I want the avocado color." },
-            { "emoji": "🥑", "text": "The avocado is green." }
+            {
+              "emoji": "🥑",
+              "text": "It's avocado green."
+            },
+            {
+              "emoji": "🥑",
+              "text": "I want the avocado green color."
+            },
+            {
+              "emoji": "💚",
+              "text": "I like avocado green."
+            },
+            {
+              "emoji": "💚",
+              "text": "Avocado green is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "barbie-pink",
-      "image": "💗",
+      "image": "assets/pictos/colors/barbie-pink.webp",
       "translations": {
         "fr": {
           "label": "Rose barbie",
           "phrases": [
-            { "emoji": "💗", "text": "C'est rose barbie." },
-            { "emoji": "💗", "text": "J'aime le rose barbie." },
-            { "emoji": "💗", "text": "Je veux la couleur rose barbie." },
-            { "emoji": "🎀", "text": "Le rose barbie est brillant." }
+            {
+              "emoji": "💗",
+              "text": "C'est rose barbie."
+            },
+            {
+              "emoji": "💗",
+              "text": "Je veux la couleur rose barbie."
+            },
+            {
+              "emoji": "💗",
+              "text": "J'aime le rose barbie."
+            },
+            {
+              "emoji": "💗",
+              "text": "Le rose barbie est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Barbie Pink",
           "phrases": [
-            { "emoji": "💗", "text": "It's barbie pink." },
-            { "emoji": "💗", "text": "I like barbie pink." },
-            { "emoji": "💗", "text": "I want the barbie pink color." },
-            { "emoji": "🎀", "text": "Barbie pink is bright." }
+            {
+              "emoji": "💗",
+              "text": "It's barbie pink."
+            },
+            {
+              "emoji": "💗",
+              "text": "I want the barbie pink color."
+            },
+            {
+              "emoji": "💗",
+              "text": "I like barbie pink."
+            },
+            {
+              "emoji": "💗",
+              "text": "Barbie pink is my favorite color."
+            }
           ]
         }
       }
     },
     {
       "id": "sky-blue",
-      "image": "🩵",
+      "image": "assets/pictos/colors/sky-blue.webp",
       "translations": {
         "fr": {
           "label": "Bleu ciel",
           "phrases": [
-            { "emoji": "🩵", "text": "C'est bleu ciel." },
-            { "emoji": "🩵", "text": "J'aime le bleu ciel." },
-            { "emoji": "🩵", "text": "Je veux la couleur bleu ciel." },
-            { "emoji": "☁️", "text": "Le ciel est bleu ciel." }
+            {
+              "emoji": "💙",
+              "text": "C'est bleu ciel."
+            },
+            {
+              "emoji": "💙",
+              "text": "Je veux la couleur bleu ciel."
+            },
+            {
+              "emoji": "💙",
+              "text": "J'aime le bleu ciel."
+            },
+            {
+              "emoji": "💙",
+              "text": "Le bleu ciel est ma couleur préférée."
+            }
           ]
         },
         "en": {
           "label": "Sky Blue",
           "phrases": [
-            { "emoji": "🩵", "text": "It's sky blue." },
-            { "emoji": "🩵", "text": "I like sky blue." },
-            { "emoji": "🩵", "text": "I want the sky blue color." },
-            { "emoji": "☁️", "text": "The sky is sky blue." }
+            {
+              "emoji": "💙",
+              "text": "It's sky blue."
+            },
+            {
+              "emoji": "💙",
+              "text": "I want the sky blue color."
+            },
+            {
+              "emoji": "💙",
+              "text": "I like sky blue."
+            },
+            {
+              "emoji": "💙",
+              "text": "Sky blue is my favorite color."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "apple-green",
+      "image": "assets/pictos/colors/apple-green.webp",
+      "translations": {
+        "fr": {
+          "label": "Vert Pomme",
+          "phrases": [
+            {
+              "emoji": "🍏",
+              "text": "C'est vert pomme."
+            },
+            {
+              "emoji": "🍏",
+              "text": "Je veux la couleur vert pomme."
+            },
+            {
+              "emoji": "💚",
+              "text": "J'aime le vert pomme."
+            },
+            {
+              "emoji": "💚",
+              "text": "Le vert pomme est ma couleur préférée."
+            }
+          ]
+        },
+        "en": {
+          "label": "Apple Green",
+          "phrases": [
+            {
+              "emoji": "🍏",
+              "text": "It's apple green."
+            },
+            {
+              "emoji": "🍏",
+              "text": "I want the apple green color."
+            },
+            {
+              "emoji": "💚",
+              "text": "I like apple green."
+            },
+            {
+              "emoji": "💚",
+              "text": "Apple green is my favorite color."
+            }
           ]
         }
       }
