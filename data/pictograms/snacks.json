@@ -7,19 +7,21 @@
         "fr": {
           "label": "Biscuits",
           "phrases": [
-            { "emoji": "🍪", "text": "Je mange des biscuits." },
+            { "emoji": "🍪", "text": "Puis-je avoir des biscuits ?" },
             { "emoji": "🍪", "text": "Je veux des biscuits." },
             { "emoji": "🍪", "text": "J'aime les biscuits." },
-            { "emoji": "🍪", "text": "Voulez-vous des biscuits ?" }
+            { "emoji": "🍪", "text": "Voulez-vous des biscuits ?" },
+            { "emoji": "🍪", "text": "Je mange des biscuits." }
           ]
         },
         "en": {
           "label": "Cookies",
           "phrases": [
-            { "emoji": "🍪", "text": "I eat cookies." },
+            { "emoji": "🍪", "text": "Can I have some cookies?" },
             { "emoji": "🍪", "text": "I want cookies." },
             { "emoji": "🍪", "text": "I love cookies." },
-            { "emoji": "🍪", "text": "Would you like some cookies ?" }
+            { "emoji": "🍪", "text": "Would you like some cookies?" },
+            { "emoji": "🍪", "text": "I eat cookies." }
           ]
         }
       }
@@ -43,7 +45,7 @@
             { "emoji": "🍟", "text": "I eat chips." },
             { "emoji": "🍟", "text": "I want chips." },
             { "emoji": "🍟", "text": "I love chips." },
-            { "emoji": "🍟", "text": "Would you like some chips ?" }
+            { "emoji": "🍟", "text": "Would you like some chips?" }
           ]
         }
       }
@@ -55,19 +57,21 @@
         "fr": {
           "label": "Crackers",
           "phrases": [
-            { "emoji": "🧂", "text": "Je mange des crackers." },
+            { "emoji": "🧂", "text": "Puis-je avoir des crackers ?" },
             { "emoji": "🧂", "text": "Je veux des crackers." },
             { "emoji": "🧂", "text": "J'aime les crackers." },
-            { "emoji": "🧂", "text": "Voulez-vous des crackers ?" }
+            { "emoji": "🧂", "text": "Voulez-vous des crackers ?" },
+            { "emoji": "🧂", "text": "Je mange des crackers." }
           ]
         },
         "en": {
           "label": "Crackers",
           "phrases": [
-            { "emoji": "🧂", "text": "I eat crackers." },
+            { "emoji": "🧂", "text": "Can I have some crackers?" },
             { "emoji": "🧂", "text": "I want crackers." },
             { "emoji": "🧂", "text": "I love crackers." },
-            { "emoji": "🧂", "text": "Would you like some crackers ?" }
+            { "emoji": "🧂", "text": "Would you like some crackers?" },
+            { "emoji": "🧂", "text": "I eat crackers." }
           ]
         }
       }
@@ -91,7 +95,7 @@
             { "emoji": "🍿", "text": "I eat popcorn." },
             { "emoji": "🍿", "text": "I want popcorn." },
             { "emoji": "🍿", "text": "I love popcorn." },
-            { "emoji": "🍿", "text": "Would you like some popcorn ?" }
+            { "emoji": "🍿", "text": "Would you like some popcorn?" }
           ]
         }
       }
@@ -115,7 +119,7 @@
             { "emoji": "🍬", "text": "I eat candy." },
             { "emoji": "🍬", "text": "I want candy." },
             { "emoji": "🍬", "text": "I love candy." },
-            { "emoji": "🍬", "text": "Would you like some candy ?" }
+            { "emoji": "🍬", "text": "Would you like some candy?" }
           ]
         }
       }
@@ -139,7 +143,7 @@
             { "emoji": "🍫", "text": "I eat chocolate." },
             { "emoji": "🍫", "text": "I want chocolate." },
             { "emoji": "🍫", "text": "I love chocolate." },
-            { "emoji": "🍫", "text": "Would you like some chocolate ?" }
+            { "emoji": "🍫", "text": "Would you like some chocolate?" }
           ]
         }
       }
@@ -163,7 +167,7 @@
             { "emoji": "🍭", "text": "I eat a lollipop." },
             { "emoji": "🍭", "text": "I want a lollipop." },
             { "emoji": "🍭", "text": "I love lollipops." },
-            { "emoji": "🍭", "text": "Would you like a lollipop ?" }
+            { "emoji": "🍭", "text": "Would you like a lollipop?" }
           ]
         }
       }
@@ -187,7 +191,7 @@
             { "emoji": "🍦", "text": "I eat ice cream." },
             { "emoji": "🍦", "text": "I want ice cream." },
             { "emoji": "🍦", "text": "I love ice cream." },
-            { "emoji": "🍦", "text": "Would you like some ice cream ?" }
+            { "emoji": "🍦", "text": "Would you like some ice cream?" }
           ]
         }
       }
@@ -211,7 +215,7 @@
             { "emoji": "🍩", "text": "I eat a donut." },
             { "emoji": "🍩", "text": "I want a donut." },
             { "emoji": "🍩", "text": "I love donuts." },
-            { "emoji": "🍩", "text": "Would you like a donut ?" }
+            { "emoji": "🍩", "text": "Would you like a donut?" }
           ]
         }
       }
@@ -235,7 +239,7 @@
             { "emoji": "🍰", "text": "I eat a slice of cake." },
             { "emoji": "🍰", "text": "I want cake." },
             { "emoji": "🍰", "text": "I love cake." },
-            { "emoji": "🍰", "text": "Would you like some cake ?" }
+            { "emoji": "🍰", "text": "Would you like some cake?" }
           ]
         }
       }
@@ -259,7 +263,7 @@
             { "emoji": "🥨", "text": "I eat a pretzel." },
             { "emoji": "🥨", "text": "I want a pretzel." },
             { "emoji": "🥨", "text": "I love pretzels." },
-            { "emoji": "🥨", "text": "Would you like a pretzel ?" }
+            { "emoji": "🥨", "text": "Would you like a pretzel?" }
           ]
         }
       }
@@ -283,7 +287,7 @@
             { "emoji": "🥜", "text": "I eat peanuts." },
             { "emoji": "🥜", "text": "I want peanuts." },
             { "emoji": "🥜", "text": "I love peanuts." },
-            { "emoji": "🥜", "text": "Would you like some peanuts ?" }
+            { "emoji": "🥜", "text": "Would you like some peanuts?" }
           ]
         }
       }
@@ -307,7 +311,7 @@
             { "emoji": "🍇", "text": "I eat grapes." },
             { "emoji": "🍇", "text": "I want grapes." },
             { "emoji": "🍇", "text": "I love grapes." },
-            { "emoji": "🍇", "text": "Would you like some grapes ?" }
+            { "emoji": "🍇", "text": "Would you like some grapes?" }
           ]
         }
       }
@@ -331,7 +335,7 @@
             { "emoji": "🥣", "text": "I eat a granola bar." },
             { "emoji": "🥣", "text": "I want a granola bar." },
             { "emoji": "🥣", "text": "I love granola bars." },
-            { "emoji": "🥣", "text": "Would you like a granola bar ?" }
+            { "emoji": "🥣", "text": "Would you like a granola bar?" }
           ]
         }
       }
@@ -343,19 +347,21 @@
         "fr": {
           "label": "Sandwich",
           "phrases": [
-            { "emoji": "🥪", "text": "Je mange un sandwich." },
+            { "emoji": "🥪", "text": "Puis-je avoir un sandwich ?" },
             { "emoji": "🥪", "text": "Je veux un sandwich." },
             { "emoji": "🥪", "text": "J'aime les sandwichs." },
-            { "emoji": "🥪", "text": "Voulez-vous un sandwich ?" }
+            { "emoji": "🥪", "text": "Voulez-vous un sandwich ?" },
+            { "emoji": "🥪", "text": "Je mange un sandwich." }
           ]
         },
         "en": {
           "label": "Sandwich",
           "phrases": [
-            { "emoji": "🥪", "text": "I eat a sandwich." },
+            { "emoji": "🥪", "text": "Can I have a sandwich?" },
             { "emoji": "🥪", "text": "I want a sandwich." },
             { "emoji": "🥪", "text": "I love sandwiches." },
-            { "emoji": "🥪", "text": "Would you like a sandwich ?" }
+            { "emoji": "🥪", "text": "Would you like a sandwich?" },
+            { "emoji": "🥪", "text": "I eat a sandwich." }
           ]
         }
       }
@@ -379,7 +385,7 @@
             { "emoji": "🥛", "text": "I eat yogurt." },
             { "emoji": "🥛", "text": "I want yogurt." },
             { "emoji": "🥛", "text": "I love yogurt." },
-            { "emoji": "🥛", "text": "Would you like some yogurt ?" }
+            { "emoji": "🥛", "text": "Would you like some yogurt?" }
           ]
         }
       }
@@ -403,7 +409,7 @@
             { "emoji": "🧀", "text": "I eat cheese." },
             { "emoji": "🧀", "text": "I want cheese." },
             { "emoji": "🧀", "text": "I love cheese." },
-            { "emoji": "🧀", "text": "Would you like some cheese ?" }
+            { "emoji": "🧀", "text": "Would you like some cheese?" }
           ]
         }
       }
@@ -427,7 +433,7 @@
             { "emoji": "🍎", "text": "I eat an apple." },
             { "emoji": "🍎", "text": "I want an apple." },
             { "emoji": "🍎", "text": "I love apples." },
-            { "emoji": "🍎", "text": "Would you like an apple ?" }
+            { "emoji": "🍎", "text": "Would you like an apple?" }
           ]
         }
       }
@@ -451,7 +457,7 @@
             { "emoji": "🍌", "text": "I eat a banana." },
             { "emoji": "🍌", "text": "I want a banana." },
             { "emoji": "🍌", "text": "I love bananas." },
-            { "emoji": "🍌", "text": "Would you like a banana ?" }
+            { "emoji": "🍌", "text": "Would you like a banana?" }
           ]
         }
       }
@@ -475,7 +481,7 @@
             { "emoji": "🍊", "text": "I eat an orange." },
             { "emoji": "🍊", "text": "I want an orange." },
             { "emoji": "🍊", "text": "I love oranges." },
-            { "emoji": "🍊", "text": "Would you like an orange ?" }
+            { "emoji": "🍊", "text": "Would you like an orange?" }
           ]
         }
       }
@@ -499,7 +505,7 @@
             { "emoji": "🌮", "text": "I eat tacos." },
             { "emoji": "🌮", "text": "I want tacos." },
             { "emoji": "🌮", "text": "I love tacos." },
-            { "emoji": "🌮", "text": "Would you like some tacos ?" }
+            { "emoji": "🌮", "text": "Would you like some tacos?" }
           ]
         }
       }
@@ -523,7 +529,7 @@
             { "emoji": "🥐", "text": "I eat a croissant." },
             { "emoji": "🥐", "text": "I want a croissant." },
             { "emoji": "🥐", "text": "I love croissants." },
-            { "emoji": "🥐", "text": "Would you like a croissant ?" }
+            { "emoji": "🥐", "text": "Would you like a croissant?" }
           ]
         }
       }
@@ -547,7 +553,7 @@
             { "emoji": "🌯", "text": "I eat a burrito." },
             { "emoji": "🌯", "text": "I want a burrito." },
             { "emoji": "🌯", "text": "I love burritos." },
-            { "emoji": "🌯", "text": "Would you like a burrito ?" }
+            { "emoji": "🌯", "text": "Would you like a burrito?" }
           ]
         }
       }
@@ -571,7 +577,7 @@
             { "emoji": "🍜", "text": "I eat ramen." },
             { "emoji": "🍜", "text": "I want ramen." },
             { "emoji": "🍜", "text": "I love ramen." },
-            { "emoji": "🍜", "text": "Would you like some ramen ?" }
+            { "emoji": "🍜", "text": "Would you like some ramen?" }
           ]
         }
       }
@@ -595,7 +601,7 @@
             { "emoji": "🍣", "text": "I eat sushi." },
             { "emoji": "🍣", "text": "I want sushi." },
             { "emoji": "🍣", "text": "I love sushi." },
-            { "emoji": "🍣", "text": "Would you like some sushi ?" }
+            { "emoji": "🍣", "text": "Would you like some sushi?" }
           ]
         }
       }
@@ -619,7 +625,7 @@
             { "emoji": "🧁", "text": "I eat a muffin." },
             { "emoji": "🧁", "text": "I want a muffin." },
             { "emoji": "🧁", "text": "I love muffins." },
-            { "emoji": "🧁", "text": "Would you like a muffin ?" }
+            { "emoji": "🧁", "text": "Would you like a muffin?" }
           ]
         }
       }
@@ -643,7 +649,7 @@
             { "emoji": "🍮", "text": "I eat pudding." },
             { "emoji": "🍮", "text": "I want pudding." },
             { "emoji": "🍮", "text": "I love pudding." },
-            { "emoji": "🍮", "text": "Would you like some pudding ?" }
+            { "emoji": "🍮", "text": "Would you like some pudding?" }
           ]
         }
       }
@@ -667,7 +673,7 @@
             { "emoji": "🍪", "text": "I eat a macaron." },
             { "emoji": "🍪", "text": "I want a macaron." },
             { "emoji": "🍪", "text": "I love macarons." },
-            { "emoji": "🍪", "text": "Would you like a macaron ?" }
+            { "emoji": "🍪", "text": "Would you like a macaron?" }
           ]
         }
       }
@@ -691,7 +697,7 @@
             { "emoji": "🥞", "text": "I eat a crepe." },
             { "emoji": "🥞", "text": "I want a crepe." },
             { "emoji": "🥞", "text": "I love crepes." },
-            { "emoji": "🥞", "text": "Would you like a crepe ?" }
+            { "emoji": "🥞", "text": "Would you like a crepe?" }
           ]
         }
       }
@@ -715,7 +721,7 @@
             { "emoji": "🍕", "text": "I eat pizza." },
             { "emoji": "🍕", "text": "I want pizza." },
             { "emoji": "🍕", "text": "I love pizza." },
-            { "emoji": "🍕", "text": "Would you like some pizza ?" }
+            { "emoji": "🍕", "text": "Would you like some pizza?" }
           ]
         }
       }
@@ -739,7 +745,7 @@
             { "emoji": "🍢", "text": "I eat a skewer." },
             { "emoji": "🍢", "text": "I want a skewer." },
             { "emoji": "🍢", "text": "I love skewers." },
-            { "emoji": "🍢", "text": "Would you like a skewer ?" }
+            { "emoji": "🍢", "text": "Would you like a skewer?" }
           ]
         }
       }
@@ -763,7 +769,7 @@
             { "emoji": "🍔", "text": "I eat a hamburger." },
             { "emoji": "🍔", "text": "I want a hamburger." },
             { "emoji": "🍔", "text": "I love hamburgers." },
-            { "emoji": "🍔", "text": "Would you like a hamburger ?" }
+            { "emoji": "🍔", "text": "Would you like a hamburger?" }
           ]
         }
       }
@@ -787,7 +793,7 @@
             { "emoji": "🎂", "text": "I eat cake." },
             { "emoji": "🎂", "text": "I want cake." },
             { "emoji": "🎂", "text": "I love cake." },
-            { "emoji": "🎂", "text": "Would you like some cake ?" }
+            { "emoji": "🎂", "text": "Would you like some cake?" }
           ]
         }
       }

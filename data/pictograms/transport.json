@@ -23,6 +23,14 @@
             {
               "emoji": "❤️",
               "text": "J'aime les trains."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Pouvons-nous prendre le train ?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "Aimes-tu les trains ?"
             }
           ]
         },
@@ -44,6 +52,14 @@
             {
               "emoji": "❤️",
               "text": "I love trains."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Can we take the train?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "Do you like trains?"
             }
           ]
         }
@@ -75,6 +91,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux conduire une voiture."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Pouvons-nous y aller en voiture ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Aimes-tu les voitures ?"
             }
           ]
         },
@@ -100,6 +124,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to drive a car."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can we go by car?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Do you like cars?"
             }
           ]
         }
@@ -131,6 +163,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux faire du vélo."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Puis-je faire du vélo ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Aimes-tu faire du vélo ?"
             }
           ]
         },
@@ -156,6 +196,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to ride a bike."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can I ride my bike?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Do you like cycling?"
             }
           ]
         }
@@ -187,6 +235,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux faire de la moto."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Puis-je monter sur la moto ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Aimes-tu les motos ?"
             }
           ]
         },
@@ -212,6 +268,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to ride a motorcycle."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can I ride on the motorcycle?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Do you like motorcycles?"
             }
           ]
         }
@@ -243,6 +307,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux faire du skateboard."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Puis-je faire du skateboard ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Aimes-tu le skateboard ?"
             }
           ]
         },
@@ -268,6 +340,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to skateboard."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can I go skateboarding?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Do you like skateboarding?"
             }
           ]
         }
@@ -295,6 +375,14 @@
             {
               "emoji": "❤️",
               "text": "J'aime les voiliers."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Pouvons-nous faire de la voile ?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "Aimes-tu les voiliers ?"
             }
           ]
         },
@@ -316,6 +404,14 @@
             {
               "emoji": "❤️",
               "text": "I love sailboats."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Can we go sailing?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "Do you like sailboats?"
             }
           ]
         }
@@ -347,6 +443,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux monter à bord d'un bateau."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Pouvons-nous prendre le bateau ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Aimes-tu les bateaux ?"
             }
           ]
         },
@@ -372,6 +476,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to board a boat."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can we take the boat?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Do you like boats?"
             }
           ]
         }
@@ -386,7 +498,7 @@
           "phrases": [
             {
               "emoji": "🚌",
-              "text": "Je prends le bus."
+              "text": "Quand arrive le bus ?"
             },
             {
               "emoji": "🚏",
@@ -406,7 +518,15 @@
             },
             {
               "emoji": "🧑‍🤝‍🧑",
-              "text": "Le bus est bondé."
+              "text": "Le bus est trop bondé."
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "Pouvons-nous prendre le bus ?"
+            },
+            {
+              "emoji": "🚌",
+              "text": "Je prends le bus."
             }
           ]
         },
@@ -415,7 +535,7 @@
           "phrases": [
             {
               "emoji": "🚌",
-              "text": "I take the bus."
+              "text": "When does the bus come?"
             },
             {
               "emoji": "🚏",
@@ -435,7 +555,15 @@
             },
             {
               "emoji": "🧑‍🤝‍🧑",
-              "text": "The bus is packed."
+              "text": "The bus is too crowded."
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "Can we take the bus?"
+            },
+            {
+              "emoji": "🚌",
+              "text": "I take the bus."
             }
           ]
         }
@@ -454,7 +582,7 @@
             },
             {
               "emoji": "👥",
-              "text": "On va tous ensemble en minibus."
+              "text": "Allons-nous tous en minibus ?"
             },
             {
               "emoji": "🎒",
@@ -470,7 +598,15 @@
             },
             {
               "emoji": "🧑‍🤝‍🧑",
-              "text": "Le minibus est bondé."
+              "text": "Le minibus est trop bondé."
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "Pouvons-nous prendre le minibus ?"
+            },
+            {
+              "emoji": "👥",
+              "text": "On va tous ensemble en minibus."
             }
           ]
         },
@@ -483,7 +619,7 @@
             },
             {
               "emoji": "👥",
-              "text": "We're all going together in the minibus."
+              "text": "Are we all going in the minibus?"
             },
             {
               "emoji": "🎒",
@@ -499,7 +635,15 @@
             },
             {
               "emoji": "🧑‍🤝‍🧑",
-              "text": "The minibus is packed."
+              "text": "The minibus is too crowded."
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "Can we take the minibus?"
+            },
+            {
+              "emoji": "👥",
+              "text": "We're all going together in the minibus."
             }
           ]
         }
@@ -518,7 +662,7 @@
             },
             {
               "emoji": "🦽",
-              "text": "Il ou elle utilise un fauteuil roulant."
+              "text": "Où est mon fauteuil roulant ?"
             },
             {
               "emoji": "🚪",
@@ -531,6 +675,10 @@
             {
               "emoji": "💪",
               "text": "Je me déplace en fauteuil roulant."
+            },
+            {
+              "emoji": "🦽",
+              "text": "Il ou elle utilise un fauteuil roulant."
             }
           ]
         },
@@ -543,7 +691,7 @@
             },
             {
               "emoji": "🦽",
-              "text": "He or she uses a wheelchair."
+              "text": "Where is my wheelchair?"
             },
             {
               "emoji": "🚪",
@@ -556,6 +704,10 @@
             {
               "emoji": "💪",
               "text": "I get around in a wheelchair."
+            },
+            {
+              "emoji": "🦽",
+              "text": "He or she uses a wheelchair."
             }
           ]
         }
@@ -587,6 +739,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux prendre le taxi."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Pouvons-nous prendre un taxi ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "J'ai besoin d'appeler un taxi."
             }
           ]
         },
@@ -612,6 +772,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to take a taxi."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can we take a taxi?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "I need to call a taxi."
             }
           ]
         }
@@ -646,6 +814,22 @@
             },
             {
               "emoji": "🧑‍🤝‍🧑",
+              "text": "Quand part l'avion ?"
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "Puis-je m'asseoir près du hublot ?"
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "Aimes-tu prendre l'avion ?"
+            },
+            {
+              "emoji": "✈️",
+              "text": "Je dois prendre un billet d'avion."
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
               "text": "L'avion est bondé."
             }
           ]
@@ -672,6 +856,22 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to take the plane."
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "When does the plane leave?"
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "Can I sit by the window?"
+            },
+            {
+              "emoji": "🧑‍🤝‍🧑",
+              "text": "Do you like flying?"
+            },
+            {
+              "emoji": "✈️",
+              "text": "I need to buy a plane ticket."
             },
             {
               "emoji": "🧑‍🤝‍🧑",
@@ -707,6 +907,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux conduire avec une caravane."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Pouvons-nous partir en caravane ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Aimes-tu les caravanes ?"
             }
           ]
         },
@@ -732,6 +940,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to drive with a caravan."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can we go in the caravan?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Do you like caravans?"
             }
           ]
         }
@@ -763,6 +979,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux conduire un van."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Pouvons-nous partir en van ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Aimes-tu les vans ?"
             }
           ]
         },
@@ -788,6 +1012,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to drive a van."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can we go in the van?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Do you like vans?"
             }
           ]
         }
@@ -819,6 +1051,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux voler en montgolfière."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Pouvons-nous voler en montgolfière ?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Aimes-tu les montgolfières ?"
             }
           ]
         },
@@ -844,6 +1084,14 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to fly in a hot air balloon."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can we fly in a hot air balloon?"
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Do you like hot air balloons?"
             }
           ]
         }
@@ -861,16 +1109,28 @@
               "text": "J'ai vu un camion de pompier."
             },
             {
+              "emoji": "🚨",
+              "text": "La sirène est trop forte !"
+            },
+            {
+              "emoji": "❤️",
+              "text": "J'aime les camions de pompier."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Puis-je voir le camion de pompier ?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "Aimes-tu les camions de pompier ?"
+            },
+            {
               "emoji": "🔥",
               "text": "Les pompiers éteignent le feu."
             },
             {
               "emoji": "🚨",
               "text": "J'entends la sirène des pompiers."
-            },
-            {
-              "emoji": "❤️",
-              "text": "J'aime les camions de pompier."
             }
           ]
         },
@@ -882,16 +1142,28 @@
               "text": "I saw a fire truck."
             },
             {
+              "emoji": "🚨",
+              "text": "The siren is too loud!"
+            },
+            {
+              "emoji": "❤️",
+              "text": "I love fire trucks."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Can I see the fire truck?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "Do you like fire trucks?"
+            },
+            {
               "emoji": "🔥",
               "text": "The firefighters are putting out the fire."
             },
             {
               "emoji": "🚨",
               "text": "I hear the fire truck siren."
-            },
-            {
-              "emoji": "❤️",
-              "text": "I love fire trucks."
             }
           ]
         }
@@ -905,6 +1177,26 @@
           "label": "Voiture de police",
           "phrases": [
             {
+              "emoji": "👮",
+              "text": "J'ai besoin de la police."
+            },
+            {
+              "emoji": "🚨",
+              "text": "La sirène est trop forte !"
+            },
+            {
+              "emoji": "❤️",
+              "text": "J'aime les voitures de police."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Puis-je voir la voiture de police ?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "Aimes-tu les voitures de police ?"
+            },
+            {
               "emoji": "🚓",
               "text": "J'ai vu une voiture de police."
             },
@@ -915,16 +1207,32 @@
             {
               "emoji": "🚨",
               "text": "J'entends la sirène de police."
-            },
-            {
-              "emoji": "❤️",
-              "text": "J'aime les voitures de police."
             }
           ]
         },
         "en": {
           "label": "Police Car",
           "phrases": [
+            {
+              "emoji": "👮",
+              "text": "I need the police."
+            },
+            {
+              "emoji": "🚨",
+              "text": "The siren is too loud!"
+            },
+            {
+              "emoji": "❤️",
+              "text": "I love police cars."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Can I see the police car?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "Do you like police cars?"
+            },
             {
               "emoji": "🚓",
               "text": "I saw a police car."
@@ -936,10 +1244,6 @@
             {
               "emoji": "🚨",
               "text": "I hear the police siren."
-            },
-            {
-              "emoji": "❤️",
-              "text": "I love police cars."
             }
           ]
         }
@@ -958,15 +1262,27 @@
             },
             {
               "emoji": "🏥",
+              "text": "J'ai besoin d'une ambulance."
+            },
+            {
+              "emoji": "🚨",
+              "text": "Appelle une ambulance !"
+            },
+            {
+              "emoji": "🤕",
+              "text": "Quelqu'un est blessé."
+            },
+            {
+              "emoji": "❤️",
+              "text": "J'adore les ambulances."
+            },
+            {
+              "emoji": "🏥",
               "text": "L'ambulance va à l'hôpital."
             },
             {
               "emoji": "🚨",
               "text": "J'entends l'ambulance."
-            },
-            {
-              "emoji": "🤕",
-              "text": "Quelqu'un est blessé."
             },
             {
               "emoji": "❤️",
@@ -983,15 +1299,27 @@
             },
             {
               "emoji": "🏥",
+              "text": "I need an ambulance."
+            },
+            {
+              "emoji": "🚨",
+              "text": "Call an ambulance!"
+            },
+            {
+              "emoji": "🤕",
+              "text": "Someone is injured."
+            },
+            {
+              "emoji": "❤️",
+              "text": "I love ambulances."
+            },
+            {
+              "emoji": "🏥",
               "text": "The ambulance is going to the hospital."
             },
             {
               "emoji": "🚨",
               "text": "I hear the ambulance."
-            },
-            {
-              "emoji": "🤕",
-              "text": "Someone is injured."
             },
             {
               "emoji": "❤️",
@@ -1010,7 +1338,7 @@
           "phrases": [
             {
               "emoji": "🛏️",
-              "text": "On utilise un brancard."
+              "text": "J'ai besoin d'un brancard."
             },
             {
               "emoji": "🏥",
@@ -1022,11 +1350,19 @@
             },
             {
               "emoji": "🚑",
-              "text": "Le brancard est dans l'ambulance."
+              "text": "Où m'emmènes-tu ?"
             },
             {
               "emoji": "🙋‍♂",
               "text": "Pouvez-vous m'aider avec mon brancard ?"
+            },
+            {
+              "emoji": "🛏️",
+              "text": "On utilise un brancard."
+            },
+            {
+              "emoji": "🚑",
+              "text": "Le brancard est dans l'ambulance."
             }
           ]
         },
@@ -1035,7 +1371,7 @@
           "phrases": [
             {
               "emoji": "🛏️",
-              "text": "We're using a stretcher."
+              "text": "I need a stretcher."
             },
             {
               "emoji": "🏥",
@@ -1047,11 +1383,19 @@
             },
             {
               "emoji": "🚑",
-              "text": "The stretcher is in the ambulance."
+              "text": "Where are you taking me?"
             },
             {
               "emoji": "🙋‍♂",
-              "text": "Can you help me with my stretcher ?"
+              "text": "Can you help me with my stretcher?"
+            },
+            {
+              "emoji": "🛏️",
+              "text": "We're using a stretcher."
+            },
+            {
+              "emoji": "🚑",
+              "text": "The stretcher is in the ambulance."
             }
           ]
         }
@@ -1065,6 +1409,26 @@
           "label": "Hélicoptère",
           "phrases": [
             {
+              "emoji": "🔊",
+              "text": "L'hélicoptère fait trop de bruit !"
+            },
+            {
+              "emoji": "☁️",
+              "text": "Aimes-tu les hélicoptères ?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "J'aime les hélicoptères."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Je veux voler en hélicoptère."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Puis-je voir l'hélicoptère ?"
+            },
+            {
               "emoji": "🚁",
               "text": "Je vois un hélicoptère."
             },
@@ -1075,20 +1439,32 @@
             {
               "emoji": "☁️",
               "text": "L'hélicoptère vole dans le ciel."
-            },
-            {
-              "emoji": "❤️",
-              "text": "J'aime les hélicoptères."
-            },
-            {
-              "emoji": "🙋‍♂",
-              "text": "Je veux voler en hélicoptère."
             }
           ]
         },
         "en": {
           "label": "Helicopter",
           "phrases": [
+            {
+              "emoji": "🔊",
+              "text": "The helicopter is too loud!"
+            },
+            {
+              "emoji": "☁️",
+              "text": "Do you like helicopters?"
+            },
+            {
+              "emoji": "❤️",
+              "text": "I love helicopters."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "I want to fly in a helicopter."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can I see the helicopter?"
+            },
             {
               "emoji": "🚁",
               "text": "I see a helicopter."
@@ -1100,14 +1476,6 @@
             {
               "emoji": "☁️",
               "text": "The helicopter is flying in the sky."
-            },
-            {
-              "emoji": "❤️",
-              "text": "I love helicopters."
-            },
-            {
-              "emoji": "🙋‍♂",
-              "text": "I want to fly in a helicopter."
             }
           ]
         }
@@ -1121,12 +1489,8 @@
           "label": "Camion",
           "phrases": [
             {
-              "emoji": "🚚",
-              "text": "Je vois un gros camion."
-            },
-            {
               "emoji": "📦",
-              "text": "Le camion transporte des colis."
+              "text": "Aimes-tu les camions ?"
             },
             {
               "emoji": "🔊",
@@ -1139,6 +1503,18 @@
             {
               "emoji": "🙋‍♂",
               "text": "Je veux conduire un camion."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Puis-je monter dans le camion ?"
+            },
+            {
+              "emoji": "🚚",
+              "text": "Je vois un gros camion."
+            },
+            {
+              "emoji": "📦",
+              "text": "Le camion transporte des colis."
             }
           ]
         },
@@ -1146,12 +1522,8 @@
           "label": "Truck",
           "phrases": [
             {
-              "emoji": "🚚",
-              "text": "I see a big truck."
-            },
-            {
               "emoji": "📦",
-              "text": "The truck is carrying packages."
+              "text": "Do you like trucks?"
             },
             {
               "emoji": "🔊",
@@ -1164,6 +1536,18 @@
             {
               "emoji": "🙋‍♂",
               "text": "I want to drive a truck."
+            },
+            {
+              "emoji": "🙋‍♂",
+              "text": "Can I get in the truck?"
+            },
+            {
+              "emoji": "🚚",
+              "text": "I see a big truck."
+            },
+            {
+              "emoji": "📦",
+              "text": "The truck is carrying packages."
             }
           ]
         }
@@ -1191,6 +1575,14 @@
             {
               "emoji": "🌕",
               "text": "Je veux aller sur Mars."
+            },
+            {
+              "emoji": "🌕",
+              "text": "Puis-je voir le vaisseau spatial ?"
+            },
+            {
+              "emoji": "🌕",
+              "text": "Aimes-tu les vaisseaux spatiaux ?"
             }
           ]
         },
@@ -1212,6 +1604,14 @@
             {
               "emoji": "🌕",
               "text": "I want to go to Mars."
+            },
+            {
+              "emoji": "🌕",
+              "text": "Can I see the spaceship?"
+            },
+            {
+              "emoji": "🌕",
+              "text": "Do you like spaceships?"
             }
           ]
         }

@@ -10,15 +10,27 @@
           "phrases": [
             {
               "emoji": "🪑",
+              "text": "Puis-je m'asseoir à mon bureau ?"
+            },
+            {
+              "emoji": "🪑",
+              "text": "Où est mon bureau ?"
+            },
+            {
+              "emoji": "🪑",
+              "text": "C'est mon bureau."
+            },
+            {
+              "emoji": "🪑",
+              "text": "J'ai besoin d'aide à mon bureau."
+            },
+            {
+              "emoji": "🪑",
               "text": "Je m'assieds au bureau."
             },
             {
               "emoji": "🪑",
               "text": "Mon bureau est rangé."
-            },
-            {
-              "emoji": "🪑",
-              "text": "C'est mon bureau."
             },
             {
               "emoji": "🪑",
@@ -31,15 +43,27 @@
           "phrases": [
             {
               "emoji": "🪑",
+              "text": "Can I sit at my desk?"
+            },
+            {
+              "emoji": "🪑",
+              "text": "Where is my desk?"
+            },
+            {
+              "emoji": "🪑",
+              "text": "It's my desk."
+            },
+            {
+              "emoji": "🪑",
+              "text": "I need help at my desk."
+            },
+            {
+              "emoji": "🪑",
               "text": "I sit at the desk."
             },
             {
               "emoji": "🪑",
               "text": "My desk is tidy."
-            },
-            {
-              "emoji": "🪑",
-              "text": "It's my desk."
             },
             {
               "emoji": "🪑",
@@ -58,7 +82,7 @@
           "phrases": [
             {
               "emoji": "🪑",
-              "text": "Je m'assieds sur la chaise."
+              "text": "Puis-je m'asseoir ?"
             },
             {
               "emoji": "🪑",
@@ -71,6 +95,10 @@
             {
               "emoji": "🪑",
               "text": "Je veux une chaise."
+            },
+            {
+              "emoji": "🪑",
+              "text": "Je m'assieds sur la chaise."
             }
           ]
         },
@@ -79,7 +107,7 @@
           "phrases": [
             {
               "emoji": "🪑",
-              "text": "I sit on the chair."
+              "text": "Can I sit down?"
             },
             {
               "emoji": "🪑",
@@ -92,6 +120,10 @@
             {
               "emoji": "🪑",
               "text": "I want a chair."
+            },
+            {
+              "emoji": "🪑",
+              "text": "I sit on the chair."
             }
           ]
         }
@@ -119,6 +151,14 @@
             {
               "emoji": "📚",
               "text": "Mon livre est intéressant."
+            },
+            {
+              "emoji": "📚",
+              "text": "Puis-je lire un livre ?"
+            },
+            {
+              "emoji": "📚",
+              "text": "Aimes-tu ce livre ?"
             }
           ]
         },
@@ -140,6 +180,14 @@
             {
               "emoji": "📚",
               "text": "My book is interesting."
+            },
+            {
+              "emoji": "📚",
+              "text": "Can I read a book?"
+            },
+            {
+              "emoji": "📚",
+              "text": "Do you like this book?"
             }
           ]
         }
@@ -154,7 +202,7 @@
           "phrases": [
             {
               "emoji": "📓",
-              "text": "J'écris dans mon carnet."
+              "text": "Où est mon carnet ?"
             },
             {
               "emoji": "📓",
@@ -167,6 +215,14 @@
             {
               "emoji": "📓",
               "text": "Je prends des notes."
+            },
+            {
+              "emoji": "📓",
+              "text": "Puis-je avoir mon carnet ?"
+            },
+            {
+              "emoji": "📓",
+              "text": "J'écris dans mon carnet."
             }
           ]
         },
@@ -175,7 +231,7 @@
           "phrases": [
             {
               "emoji": "📓",
-              "text": "I write in my notebook."
+              "text": "Where is my notebook?"
             },
             {
               "emoji": "📓",
@@ -188,6 +244,14 @@
             {
               "emoji": "📓",
               "text": "I'm taking notes."
+            },
+            {
+              "emoji": "📓",
+              "text": "Can I have my notebook?"
+            },
+            {
+              "emoji": "📓",
+              "text": "I write in my notebook."
             }
           ]
         }
@@ -206,11 +270,23 @@
             },
             {
               "emoji": "🎒",
-              "text": "C'est mon cartable."
+              "text": "Où est mon cartable ?"
             },
             {
               "emoji": "🎒",
               "text": "Mon cartable est lourd."
+            },
+            {
+              "emoji": "🎒",
+              "text": "Peux-tu m'aider à préparer mon cartable ?"
+            },
+            {
+              "emoji": "🎒",
+              "text": "Puis-je avoir mon cartable ?"
+            },
+            {
+              "emoji": "🎒",
+              "text": "C'est mon cartable."
             },
             {
               "emoji": "🎒",
@@ -227,11 +303,23 @@
             },
             {
               "emoji": "🎒",
-              "text": "It's my school bag."
+              "text": "Where is my school bag?"
             },
             {
               "emoji": "🎒",
               "text": "My school bag is heavy."
+            },
+            {
+              "emoji": "🎒",
+              "text": "Can you help me pack my school bag?"
+            },
+            {
+              "emoji": "🎒",
+              "text": "Can I have my school bag?"
+            },
+            {
+              "emoji": "🎒",
+              "text": "It's my school bag."
             },
             {
               "emoji": "🎒",
@@ -248,6 +336,22 @@
         "fr": {
           "label": "Tableau noir",
           "phrases": [
+            {
+              "emoji": "📋",
+              "text": "Puis-je écrire au tableau ?"
+            },
+            {
+              "emoji": "📋",
+              "text": "Je ne vois pas le tableau."
+            },
+            {
+              "emoji": "📋",
+              "text": "Puis-je effacer le tableau ?"
+            },
+            {
+              "emoji": "📋",
+              "text": "Qu'est-ce qui est écrit au tableau ?"
+            },
             {
               "emoji": "📋",
               "text": "J'écris au tableau."
@@ -269,6 +373,22 @@
         "en": {
           "label": "Blackboard",
           "phrases": [
+            {
+              "emoji": "📋",
+              "text": "Can I write on the board?"
+            },
+            {
+              "emoji": "📋",
+              "text": "I can't see the board."
+            },
+            {
+              "emoji": "📋",
+              "text": "Can I erase the board?"
+            },
+            {
+              "emoji": "📋",
+              "text": "What is written on the board?"
+            },
             {
               "emoji": "📋",
               "text": "I write on the board."
@@ -302,11 +422,23 @@
             },
             {
               "emoji": "👨‍🏫",
-              "text": "Le professeur explique."
+              "text": "Je ne comprends pas."
             },
             {
               "emoji": "✋",
               "text": "Je lève la main pour parler au professeur."
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "Le professeur peut-il m'aider ?"
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "Puis-je parler au professeur ?"
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "Le professeur explique."
             },
             {
               "emoji": "👨‍🏫",
@@ -323,11 +455,23 @@
             },
             {
               "emoji": "👨‍🏫",
-              "text": "The teacher explains."
+              "text": "I don't understand."
             },
             {
               "emoji": "✋",
               "text": "I raise my hand to talk to the teacher."
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "Can the teacher help me?"
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "Can I talk to the teacher?"
+            },
+            {
+              "emoji": "👨‍🏫",
+              "text": "The teacher explains."
             },
             {
               "emoji": "👨‍🏫",
@@ -350,6 +494,22 @@
             },
             {
               "emoji": "🚌",
+              "text": "Est-ce que le bus arrive ?"
+            },
+            {
+              "emoji": "🚌",
+              "text": "Je ne veux pas rater le bus."
+            },
+            {
+              "emoji": "🚌",
+              "text": "Quand part le bus ?"
+            },
+            {
+              "emoji": "🚌",
+              "text": "Puis-je m'asseoir à côté de toi ?"
+            },
+            {
+              "emoji": "🚌",
               "text": "Le bus arrive."
             },
             {
@@ -368,6 +528,22 @@
             {
               "emoji": "🚌",
               "text": "I take the school bus."
+            },
+            {
+              "emoji": "🚌",
+              "text": "Is the bus coming?"
+            },
+            {
+              "emoji": "🚌",
+              "text": "I don't want to miss the bus."
+            },
+            {
+              "emoji": "🚌",
+              "text": "When does the bus leave?"
+            },
+            {
+              "emoji": "🚌",
+              "text": "Can I sit next to you?"
             },
             {
               "emoji": "🚌",
@@ -394,7 +570,7 @@
           "phrases": [
             {
               "emoji": "✏️",
-              "text": "J'écris avec un crayon."
+              "text": "Puis-je emprunter un crayon ?"
             },
             {
               "emoji": "✏️",
@@ -403,6 +579,14 @@
             {
               "emoji": "✏️",
               "text": "Mon crayon est cassé."
+            },
+            {
+              "emoji": "✏️",
+              "text": "Puis-je dessiner ?"
+            },
+            {
+              "emoji": "✏️",
+              "text": "J'écris avec un crayon."
             },
             {
               "emoji": "✏️",
@@ -415,7 +599,7 @@
           "phrases": [
             {
               "emoji": "✏️",
-              "text": "I write with a pencil."
+              "text": "Can I borrow a pencil?"
             },
             {
               "emoji": "✏️",
@@ -424,6 +608,14 @@
             {
               "emoji": "✏️",
               "text": "My pencil is broken."
+            },
+            {
+              "emoji": "✏️",
+              "text": "Can I draw?"
+            },
+            {
+              "emoji": "✏️",
+              "text": "I write with a pencil."
             },
             {
               "emoji": "✏️",
@@ -442,7 +634,7 @@
           "phrases": [
             {
               "emoji": "🧽",
-              "text": "J'efface avec la gomme."
+              "text": "Puis-je emprunter ta gomme ?"
             },
             {
               "emoji": "🧽",
@@ -451,6 +643,14 @@
             {
               "emoji": "🧽",
               "text": "Ma gomme fonctionne bien."
+            },
+            {
+              "emoji": "🧽",
+              "text": "J'ai fait une erreur."
+            },
+            {
+              "emoji": "🧽",
+              "text": "J'efface avec la gomme."
             },
             {
               "emoji": "🧽",
@@ -463,7 +663,7 @@
           "phrases": [
             {
               "emoji": "🧽",
-              "text": "I erase with the eraser."
+              "text": "Can I borrow your eraser?"
             },
             {
               "emoji": "🧽",
@@ -472,6 +672,14 @@
             {
               "emoji": "🧽",
               "text": "My eraser works well."
+            },
+            {
+              "emoji": "🧽",
+              "text": "I made a mistake."
+            },
+            {
+              "emoji": "🧽",
+              "text": "I erase with the eraser."
             },
             {
               "emoji": "🧽",
@@ -490,11 +698,23 @@
           "phrases": [
             {
               "emoji": "📏",
-              "text": "J'utilise une règle."
+              "text": "Puis-je emprunter une règle ?"
             },
             {
               "emoji": "📏",
               "text": "Je veux une règle."
+            },
+            {
+              "emoji": "📏",
+              "text": "Où est ma règle ?"
+            },
+            {
+              "emoji": "📏",
+              "text": "J'ai besoin d'une règle."
+            },
+            {
+              "emoji": "📏",
+              "text": "J'utilise une règle."
             },
             {
               "emoji": "📏",
@@ -511,11 +731,23 @@
           "phrases": [
             {
               "emoji": "📏",
-              "text": "I use a ruler."
+              "text": "Can I borrow a ruler?"
             },
             {
               "emoji": "📏",
               "text": "I want a ruler."
+            },
+            {
+              "emoji": "📏",
+              "text": "Where is my ruler?"
+            },
+            {
+              "emoji": "📏",
+              "text": "I need a ruler."
+            },
+            {
+              "emoji": "📏",
+              "text": "I use a ruler."
             },
             {
               "emoji": "📏",
@@ -538,7 +770,7 @@
           "phrases": [
             {
               "emoji": "✂️",
-              "text": "Je taille mon crayon."
+              "text": "Peux-tu tailler mon crayon ?"
             },
             {
               "emoji": "✂️",
@@ -547,6 +779,14 @@
             {
               "emoji": "✂️",
               "text": "Mon crayon a besoin d'être taillé."
+            },
+            {
+              "emoji": "✂️",
+              "text": "Puis-je emprunter ton taille-crayon ?"
+            },
+            {
+              "emoji": "✂️",
+              "text": "Je taille mon crayon."
             },
             {
               "emoji": "✂️",
@@ -559,7 +799,7 @@
           "phrases": [
             {
               "emoji": "✂️",
-              "text": "I sharpen my pencil."
+              "text": "Can you sharpen my pencil?"
             },
             {
               "emoji": "✂️",
@@ -568,6 +808,14 @@
             {
               "emoji": "✂️",
               "text": "My pencil needs sharpening."
+            },
+            {
+              "emoji": "✂️",
+              "text": "Can I borrow your pencil sharpener?"
+            },
+            {
+              "emoji": "✂️",
+              "text": "I sharpen my pencil."
             },
             {
               "emoji": "✂️",
@@ -599,6 +847,14 @@
             {
               "emoji": "🔢",
               "text": "J'ai un cours de maths."
+            },
+            {
+              "emoji": "🔢",
+              "text": "Peux-tu m'aider en maths ?"
+            },
+            {
+              "emoji": "🔢",
+              "text": "Aimes-tu les maths ?"
             }
           ]
         },
@@ -620,6 +876,14 @@
             {
               "emoji": "🔢",
               "text": "I have a math class."
+            },
+            {
+              "emoji": "🔢",
+              "text": "Can you help me with math?"
+            },
+            {
+              "emoji": "🔢",
+              "text": "Do you like math?"
             }
           ]
         }
@@ -642,11 +906,23 @@
             },
             {
               "emoji": "📖",
-              "text": "C'est le cours de français."
+              "text": "Quand a lieu le cours de français ?"
             },
             {
               "emoji": "📖",
               "text": "J'étudie un livre."
+            },
+            {
+              "emoji": "📖",
+              "text": "Puis-je lire mon livre ?"
+            },
+            {
+              "emoji": "📖",
+              "text": "Aimes-tu la littérature ?"
+            },
+            {
+              "emoji": "📖",
+              "text": "C'est le cours de français."
             }
           ]
         },
@@ -663,11 +939,23 @@
             },
             {
               "emoji": "📖",
-              "text": "It's the English class."
+              "text": "When is English class?"
             },
             {
               "emoji": "📖",
               "text": "I'm studying a book."
+            },
+            {
+              "emoji": "📖",
+              "text": "Can I read my book?"
+            },
+            {
+              "emoji": "📖",
+              "text": "Do you like literature?"
+            },
+            {
+              "emoji": "📖",
+              "text": "It's the English class."
             }
           ]
         }
@@ -695,6 +983,14 @@
             {
               "emoji": "🔬",
               "text": "Les sciences c'est intéressant."
+            },
+            {
+              "emoji": "🔬",
+              "text": "Puis-je faire une expérience ?"
+            },
+            {
+              "emoji": "🔬",
+              "text": "Aimes-tu les sciences ?"
             }
           ]
         },
@@ -716,6 +1012,14 @@
             {
               "emoji": "🔬",
               "text": "Science is interesting."
+            },
+            {
+              "emoji": "🔬",
+              "text": "Can I do an experiment?"
+            },
+            {
+              "emoji": "🔬",
+              "text": "Do you like science?"
             }
           ]
         }
@@ -738,11 +1042,19 @@
             },
             {
               "emoji": "🎨",
-              "text": "Je peins en cours d'arts."
+              "text": "Puis-je peindre ?"
             },
             {
               "emoji": "🎨",
               "text": "Je fais un dessin."
+            },
+            {
+              "emoji": "🎨",
+              "text": "Aimes-tu les arts plastiques ?"
+            },
+            {
+              "emoji": "🎨",
+              "text": "Je peins en cours d'arts."
             }
           ]
         },
@@ -759,11 +1071,19 @@
             },
             {
               "emoji": "🎨",
-              "text": "I paint in art class."
+              "text": "Can I paint?"
             },
             {
               "emoji": "🎨",
               "text": "I'm making a drawing."
+            },
+            {
+              "emoji": "🎨",
+              "text": "Do you like art?"
+            },
+            {
+              "emoji": "🎨",
+              "text": "I paint in art class."
             }
           ]
         }
@@ -791,6 +1111,14 @@
             {
               "emoji": "🎵",
               "text": "J'apprends un instrument."
+            },
+            {
+              "emoji": "🎵",
+              "text": "Puis-je jouer d'un instrument ?"
+            },
+            {
+              "emoji": "🎵",
+              "text": "Aimes-tu le cours de musique ?"
             }
           ]
         },
@@ -812,6 +1140,14 @@
             {
               "emoji": "🎵",
               "text": "I'm learning an instrument."
+            },
+            {
+              "emoji": "🎵",
+              "text": "Can I play an instrument?"
+            },
+            {
+              "emoji": "🎵",
+              "text": "Do you like music class?"
             }
           ]
         }
@@ -839,6 +1175,14 @@
             {
               "emoji": "🌍",
               "text": "J'apprends les pays."
+            },
+            {
+              "emoji": "🌍",
+              "text": "Puis-je regarder la carte ?"
+            },
+            {
+              "emoji": "🌍",
+              "text": "Aimes-tu la géographie ?"
             }
           ]
         },
@@ -860,6 +1204,14 @@
             {
               "emoji": "🌍",
               "text": "I'm learning countries."
+            },
+            {
+              "emoji": "🌍",
+              "text": "Can I look at the map?"
+            },
+            {
+              "emoji": "🌍",
+              "text": "Do you like geography?"
             }
           ]
         }
@@ -875,6 +1227,14 @@
             {
               "emoji": "🔭",
               "text": "J'utilise un télescope."
+            },
+            {
+              "emoji": "🔭",
+              "text": "Puis-je regarder les étoiles ?"
+            },
+            {
+              "emoji": "🌟",
+              "text": "Puis-je regarder dans le télescope ?"
             },
             {
               "emoji": "🔭",
@@ -896,6 +1256,14 @@
             {
               "emoji": "🔭",
               "text": "I use a telescope."
+            },
+            {
+              "emoji": "🔭",
+              "text": "Can I look at the stars?"
+            },
+            {
+              "emoji": "🌟",
+              "text": "Can I look through the telescope?"
             },
             {
               "emoji": "🔭",
@@ -922,6 +1290,22 @@
           "phrases": [
             {
               "emoji": "🧴",
+              "text": "Puis-je avoir la colle ?"
+            },
+            {
+              "emoji": "✂️",
+              "text": "Peux-tu m'aider à coller ça ?"
+            },
+            {
+              "emoji": "🧴",
+              "text": "Où est la colle ?"
+            },
+            {
+              "emoji": "📄",
+              "text": "Pouvons-nous faire du bricolage ?"
+            },
+            {
+              "emoji": "🧴",
               "text": "J'utilise de la colle."
             },
             {
@@ -941,6 +1325,22 @@
         "en": {
           "label": "Glue",
           "phrases": [
+            {
+              "emoji": "🧴",
+              "text": "Can I have the glue?"
+            },
+            {
+              "emoji": "✂️",
+              "text": "Can you help me glue this?"
+            },
+            {
+              "emoji": "🧴",
+              "text": "Where is the glue?"
+            },
+            {
+              "emoji": "📄",
+              "text": "Can we do crafts?"
+            },
             {
               "emoji": "🧴",
               "text": "I use glue."

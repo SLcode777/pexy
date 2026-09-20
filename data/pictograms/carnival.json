@@ -15,9 +15,9 @@
         "en": {
           "label": "Ferris Wheel",
           "phrases": [
-            { "emoji": "🎡", "text": "Can I ride the ferris wheel ?" },
+            { "emoji": "🎡", "text": "Can I ride the ferris wheel?" },
             { "emoji": "🎡", "text": "I love ferris wheels." },
-            { "emoji": "🎡", "text": "Do you want to ride the ferris wheel ?" }
+            { "emoji": "🎡", "text": "Do you want to ride the ferris wheel?" }
           ]
         }
       }
@@ -39,7 +39,7 @@
           "phrases": [
             { "emoji": "🎠", "text": "Can I ride the carousel." },
             { "emoji": "🎠", "text": "I like carousels." },
-            { "emoji": "🎠", "text": "Do you want to ride the carousel ?" }
+            { "emoji": "🎠", "text": "Do you want to ride the carousel?" }
           ]
         }
       }
@@ -55,20 +55,29 @@
               "emoji": "🎢",
               "text": "Puis-je monter dans les montagnes russes ?"
             },
-            { "emoji": "🎢", "text": "J'aime les montagnes russes." },
+            {
+              "emoji": "🎢",
+              "text": "J'aime les montagnes russes."
+            },
             {
               "emoji": "🎢",
               "text": "Veux-tu monter dans les montagnes russes ?"
             },
-            { "emoji": "🎢", "text": "J'ai peur des montagnes russes" }
+            {
+              "emoji": "🎢",
+              "text": "J'ai peur des montagnes russes"
+            }
           ]
         },
         "en": {
           "label": "Roller Coaster",
           "phrases": [
-            { "emoji": "🎢", "text": "Can I ride the roller coaster ?" },
+            { "emoji": "🎢", "text": "Can I ride the roller coaster?" },
             { "emoji": "🎢", "text": "I like roller coasters." },
-            { "emoji": "🎢", "text": "Do you want to ride the roller coaster ?" },
+            {
+              "emoji": "🎢",
+              "text": "Do you want to ride the roller coaster?"
+            },
             { "emoji": "🎢", "text": "I'm scared of roller coasters." }
           ]
         }
@@ -89,9 +98,9 @@
         "en": {
           "label": "Cotton Candy",
           "phrases": [
-            { "emoji": "🍭", "text": "Can I eat some cotton candy ?" },
+            { "emoji": "🍭", "text": "Can I eat some cotton candy?" },
             { "emoji": "🍭", "text": "I like cotton candy." },
-            { "emoji": "🍭", "text": "Do you want some cotton candy ?" }
+            { "emoji": "🍭", "text": "Do you want some cotton candy?" }
           ]
         }
       }
@@ -112,8 +121,8 @@
         "en": {
           "label": "Popcorn",
           "phrases": [
-            { "emoji": "🍿", "text": "Can I eat some popcorn ?" },
-            { "emoji": "🍿", "text": "Do you want some popcorn ?" },
+            { "emoji": "🍿", "text": "Can I eat some popcorn?" },
+            { "emoji": "🍿", "text": "Do you want some popcorn?" },
             { "emoji": "🍿", "text": "I like sweet popcorn." },
             { "emoji": "🍿", "text": "I like salty popcorn." }
           ]
@@ -135,9 +144,9 @@
         "en": {
           "label": "Tickets",
           "phrases": [
-            { "emoji": "🎫", "text": "Can I have a ticket ?" },
+            { "emoji": "🎫", "text": "Can I have a ticket?" },
             { "emoji": "🎫", "text": "I need tickets." },
-            { "emoji": "🎫", "text": "Do you want a ticket ?" }
+            { "emoji": "🎫", "text": "Do you want a ticket?" }
           ]
         }
       }
@@ -159,7 +168,7 @@
           "phrases": [
             { "emoji": "🎪", "text": "I want to go to the circus." },
             { "emoji": "🎪", "text": "I like the circus." },
-            { "emoji": "🎪", "text": "Do you like the circus ?" }
+            { "emoji": "🎪", "text": "Do you like the circus?" }
           ]
         }
       }
@@ -183,7 +192,7 @@
           "phrases": [
             { "emoji": "🤡", "text": "I like clowns." },
             { "emoji": "🤡", "text": "I want to see the clown." },
-            { "emoji": "🤡", "text": "Do you like clowns ?" },
+            { "emoji": "🤡", "text": "Do you like clowns?" },
             { "emoji": "🤡", "text": "I don't like clowns." },
             { "emoji": "🤡", "text": "Clowns scare me." }
           ]
@@ -198,16 +207,16 @@
           "label": "Jongleur",
           "phrases": [
             { "emoji": "🤹", "text": "J'aime les numeros de jongleurs." },
-            { "emoji": "🤹", "text": "Le jongleur est habile." },
-            { "emoji": "🤹", "text": "Aimes-tu les numéros de jongleurs ?" }
+            { "emoji": "🤹", "text": "Aimes-tu les numéros de jongleurs ?" },
+            { "emoji": "🤹", "text": "Le jongleur est habile." }
           ]
         },
         "en": {
           "label": "Juggler",
           "phrases": [
             { "emoji": "🤹", "text": "I like juggling acts." },
-            { "emoji": "🤹", "text": "The juggler is skillful." },
-            { "emoji": "🤹", "text": "Do you like juggling acts ?" }
+            { "emoji": "🤹", "text": "Do you like juggling acts?" },
+            { "emoji": "🤹", "text": "The juggler is skillful." }
           ]
         }
       }
@@ -228,8 +237,8 @@
           "label": "Magician",
           "phrases": [
             { "emoji": "🎩", "text": "I like magic tricks." },
-            { "emoji": "🎩", "text": "Can you do a magic trick ?" },
-            { "emoji": "🎩", "text": "Do you want a magic trick ?" }
+            { "emoji": "🎩", "text": "Can you do a magic trick?" },
+            { "emoji": "🎩", "text": "Do you want a magic trick?" }
           ]
         }
       }
@@ -249,7 +258,7 @@
         "en": {
           "label": "Balloon Animal",
           "phrases": [
-            { "emoji": "🎈", "text": "Can I have a balloon animal ?" },
+            { "emoji": "🎈", "text": "Can I have a balloon animal?" },
             { "emoji": "🎈", "text": "I like balloon animals." }
           ]
         }
@@ -271,9 +280,9 @@
         "en": {
           "label": "Prize",
           "phrases": [
-            { "emoji": "🧸", "text": "I want to win a prize !" },
+            { "emoji": "🧸", "text": "I want to win a prize!" },
             { "emoji": "🧸", "text": "I want to win a stuffed animal." },
-            { "emoji": "🧸", "text": "Can I play at this stand ?" }
+            { "emoji": "🧸", "text": "Can I play at this stand?" }
           ]
         }
       }
@@ -289,7 +298,10 @@
               "emoji": "🚗",
               "text": "Puis-je conduire une auto-tamponneuse ?"
             },
-            { "emoji": "🚗", "text": "J'aime les auto-tamponneuses." },
+            {
+              "emoji": "🚗",
+              "text": "J'aime les auto-tamponneuses."
+            },
             {
               "emoji": "🚗",
               "text": "Veux-tu monter dans une auto-tamponneuse ?"
@@ -299,9 +311,9 @@
         "en": {
           "label": "Bumper Cars",
           "phrases": [
-            { "emoji": "🚗", "text": "Can I drive a bumper car ?" },
+            { "emoji": "🚗", "text": "Can I drive a bumper car?" },
             { "emoji": "🚗", "text": "I like bumper cars." },
-            { "emoji": "🚗", "text": "Do you want to ride a bumper car ?" }
+            { "emoji": "🚗", "text": "Do you want to ride a bumper car?" }
           ]
         }
       }
@@ -321,9 +333,9 @@
         "en": {
           "label": "Arcade",
           "phrases": [
-            { "emoji": "🕹️", "text": "Can I play arcade games ?" },
+            { "emoji": "🕹️", "text": "Can I play arcade games?" },
             { "emoji": "🕹️", "text": "I like arcade games." },
-            { "emoji": "🕹️", "text": "Do you want to play arcade games ?" }
+            { "emoji": "🕹️", "text": "Do you want to play arcade games?" }
           ]
         }
       }
@@ -343,9 +355,9 @@
         "en": {
           "label": "Ice Cream",
           "phrases": [
-            { "emoji": "🍦", "text": "Can I have an ice cream ?" },
+            { "emoji": "🍦", "text": "Can I have an ice cream?" },
             { "emoji": "🍦", "text": "I like ice cream." },
-            { "emoji": "🍦", "text": "Do you want some ice cream ?" }
+            { "emoji": "🍦", "text": "Do you want some ice cream?" }
           ]
         }
       }
@@ -366,9 +378,9 @@
         "en": {
           "label": "Hot Dog",
           "phrases": [
-            { "emoji": "🌭", "text": "Can I eat a hot dog ?" },
+            { "emoji": "🌭", "text": "Can I eat a hot dog?" },
             { "emoji": "🌭", "text": "I like hot dogs." },
-            { "emoji": "🌭", "text": "Do you want a hot dog ?" },
+            { "emoji": "🌭", "text": "Do you want a hot dog?" },
             { "emoji": "🌭", "text": "Hot dogs are delicious." }
           ]
         }
@@ -389,9 +401,9 @@
         "en": {
           "label": "Slide",
           "phrases": [
-            { "emoji": "🛝", "text": "Can I go on the slide ?" },
+            { "emoji": "🛝", "text": "Can I go on the slide?" },
             { "emoji": "🛝", "text": "I like slides." },
-            { "emoji": "🛝", "text": "Do you like slides ?" }
+            { "emoji": "🛝", "text": "Do you like slides?" }
           ]
         }
       }
@@ -405,16 +417,16 @@
           "label": "Bowling",
           "phrases": [
             { "emoji": "🎳", "text": "Puis-je jouer au bowling ?" },
-            { "emoji": "🎯", "text": "J'aime jouer au bowling." },
+            { "emoji": "🎳", "text": "J'aime jouer au bowling." },
             { "emoji": "🎳", "text": "Veux-tu jouer au bowling ?" }
           ]
         },
         "en": {
           "label": "Bowling",
           "phrases": [
-            { "emoji": "🎳", "text": "Can I play bowling ?" },
-            { "emoji": "🎯", "text": "I like playing bowling." },
-            { "emoji": "🎳", "text": "Do you want to play bowling ?" }
+            { "emoji": "🎳", "text": "Can I play bowling?" },
+            { "emoji": "🎳", "text": "I like playing bowling." },
+            { "emoji": "🎳", "text": "Do you want to play bowling?" }
           ]
         }
       }
@@ -428,15 +440,15 @@
           "phrases": [
             { "emoji": "🎈", "text": "Puis-je avoir un ballon ?" },
             { "emoji": "🎈", "text": "Veux-tu un ballon ?" },
-            { "emoji": "😊", "text": "J'aime les ballons." }
+            { "emoji": "🎈", "text": "J'aime les ballons." }
           ]
         },
         "en": {
           "label": "Balloons",
           "phrases": [
-            { "emoji": "🎈", "text": "Can I have a balloon ?" },
-            { "emoji": "🎈", "text": "Do you want a balloon ?" },
-            { "emoji": "😊", "text": "I like balloons." }
+            { "emoji": "🎈", "text": "Can I have a balloon?" },
+            { "emoji": "🎈", "text": "Do you want a balloon?" },
+            { "emoji": "🎈", "text": "I like balloons." }
           ]
         }
       }
@@ -449,14 +461,14 @@
           "label": "Food truck",
           "phrases": [
             { "emoji": "🚚", "text": "Je veux aller au food truck." },
-            { "emoji": "🍔", "text": "Veux-tu aller au food truck ?" }
+            { "emoji": "🚚", "text": "Veux-tu aller au food truck ?" }
           ]
         },
         "en": {
           "label": "Food Truck",
           "phrases": [
             { "emoji": "🚚", "text": "I want to go to the food truck." },
-            { "emoji": "🍔", "text": "Do you want to go to the food truck ?" }
+            { "emoji": "🚚", "text": "Do you want to go to the food truck?" }
           ]
         }
       }
@@ -476,7 +488,7 @@
           "label": "Food Stand",
           "phrases": [
             { "emoji": "🏪", "text": "I want to go to the food stand." },
-            { "emoji": "🏪", "text": "Do you want to go to the food stand ?" }
+            { "emoji": "🏪", "text": "Do you want to go to the food stand?" }
           ]
         }
       }
@@ -490,16 +502,15 @@
           "phrases": [
             { "emoji": "🎰", "text": "Puis-je joue à la machine à griffes ?" },
             { "emoji": "🎰", "text": "Veux-tu jouer à la machine à griffes ?" },
-
-            { "emoji": "🧸", "text": "J'aime les machines à griffe." }
+            { "emoji": "🎰", "text": "J'aime les machines à griffe." }
           ]
         },
         "en": {
           "label": "Claw Machine",
           "phrases": [
-            { "emoji": "🎰", "text": "Can I play the claw machine ?" },
-            { "emoji": "🎰", "text": "Do you want to play the claw machine ?" },
-            { "emoji": "🧸", "text": "I like claw machines." }
+            { "emoji": "🎰", "text": "Can I play the claw machine?" },
+            { "emoji": "🎰", "text": "Do you want to play the claw machine?" },
+            { "emoji": "🎰", "text": "I like claw machines." }
           ]
         }
       }
@@ -519,8 +530,8 @@
         "en": {
           "label": "Candy Apple",
           "phrases": [
-            { "emoji": "🍎", "text": "Can I eat a candy apple ?" },
-            { "emoji": "🍎", "text": "Do you want a candy apple ?" },
+            { "emoji": "🍎", "text": "Can I eat a candy apple?" },
+            { "emoji": "🍎", "text": "Do you want a candy apple?" },
             { "emoji": "🍎", "text": "I like candy apples." }
           ]
         }

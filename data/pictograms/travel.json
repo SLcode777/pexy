@@ -10,6 +10,8 @@
             { "emoji": "🧳", "text": "Je fais ma valise." },
             { "emoji": "🧳", "text": "Ma valise est lourde." },
             { "emoji": "🧳", "text": "Je prépare mon voyage." },
+            { "emoji": "🧳", "text": "Peux-tu m'aider à faire ma valise ?" },
+            { "emoji": "🧳", "text": "Puis-je faire ma valise ?" },
             { "emoji": "🧳", "text": "Je range mes vêtements dans la valise." }
           ]
         },
@@ -19,6 +21,8 @@
             { "emoji": "🧳", "text": "I pack my suitcase." },
             { "emoji": "🧳", "text": "My suitcase is heavy." },
             { "emoji": "🧳", "text": "I prepare for my trip." },
+            { "emoji": "🧳", "text": "Can you help me pack my suitcase?" },
+            { "emoji": "🧳", "text": "Can I pack my suitcase?" },
             { "emoji": "🧳", "text": "I put my clothes in the suitcase." }
           ]
         }
@@ -31,18 +35,24 @@
         "fr": {
           "label": "Mallette",
           "phrases": [
+            { "emoji": "💼", "text": "Où est ma mallette ?" },
+            { "emoji": "💼", "text": "J'ai besoin de ma mallette." },
+            { "emoji": "💼", "text": "Je voyage pour le travail." },
+            { "emoji": "💼", "text": "Peux-tu porter ma mallette ?" },
             { "emoji": "💼", "text": "Je porte ma mallette." },
             { "emoji": "💼", "text": "Mes documents sont dans la mallette." },
-            { "emoji": "💼", "text": "Je voyage pour le travail." },
             { "emoji": "💼", "text": "Ma mallette est organisée." }
           ]
         },
         "en": {
           "label": "Briefcase",
           "phrases": [
+            { "emoji": "💼", "text": "Where is my briefcase?" },
+            { "emoji": "💼", "text": "I need my briefcase." },
+            { "emoji": "💼", "text": "I travel for work." },
+            { "emoji": "💼", "text": "Can you carry my briefcase?" },
             { "emoji": "💼", "text": "I carry my briefcase." },
             { "emoji": "💼", "text": "My documents are in the briefcase." },
-            { "emoji": "💼", "text": "I travel for work." },
             { "emoji": "💼", "text": "My briefcase is organized." }
           ]
         }
@@ -55,19 +65,23 @@
         "fr": {
           "label": "Sac à dos",
           "phrases": [
-            { "emoji": "🎒", "text": "Je porte mon sac à dos." },
+            { "emoji": "🎒", "text": "Où est mon sac à dos ?" },
             { "emoji": "🎒", "text": "Mon sac à dos est confortable." },
-            { "emoji": "🎒", "text": "Je range mes affaires dedans." },
-            { "emoji": "🎒", "text": "Je voyage avec mon sac à dos." }
+            { "emoji": "🎒", "text": "Peux-tu porter mon sac à dos ?" },
+            { "emoji": "🎒", "text": "Je voyage avec mon sac à dos." },
+            { "emoji": "🎒", "text": "Je porte mon sac à dos." },
+            { "emoji": "🎒", "text": "Je range mes affaires dedans." }
           ]
         },
         "en": {
           "label": "Backpack",
           "phrases": [
-            { "emoji": "🎒", "text": "I wear my backpack." },
+            { "emoji": "🎒", "text": "Where is my backpack?" },
             { "emoji": "🎒", "text": "My backpack is comfortable." },
-            { "emoji": "🎒", "text": "I put my things inside." },
-            { "emoji": "🎒", "text": "I travel with my backpack." }
+            { "emoji": "🎒", "text": "Can you carry my backpack?" },
+            { "emoji": "🎒", "text": "I travel with my backpack." },
+            { "emoji": "🎒", "text": "I wear my backpack." },
+            { "emoji": "🎒", "text": "I put my things inside." }
           ]
         }
       }
@@ -80,18 +94,22 @@
           "label": "Passeport",
           "phrases": [
             { "emoji": "📗", "text": "J'ai besoin de mon passeport." },
-            { "emoji": "📗", "text": "Je montre mon passeport." },
+            { "emoji": "📗", "text": "Où est mon passeport ?" },
             { "emoji": "📗", "text": "Mon passeport est important." },
-            { "emoji": "📗", "text": "Je voyage à l'étranger." }
+            { "emoji": "📗", "text": "Je voyage à l'étranger." },
+            { "emoji": "📗", "text": "Puis-je tenir mon passeport ?" },
+            { "emoji": "📗", "text": "Je montre mon passeport." }
           ]
         },
         "en": {
           "label": "Passport",
           "phrases": [
             { "emoji": "📗", "text": "I need my passport." },
-            { "emoji": "📗", "text": "I show my passport." },
+            { "emoji": "📗", "text": "Where is my passport?" },
             { "emoji": "📗", "text": "My passport is important." },
-            { "emoji": "📗", "text": "I travel abroad." }
+            { "emoji": "📗", "text": "I travel abroad." },
+            { "emoji": "📗", "text": "Can I hold my passport?" },
+            { "emoji": "📗", "text": "I show my passport." }
           ]
         }
       }
@@ -104,18 +122,24 @@
           "label": "Billet",
           "phrases": [
             { "emoji": "🎫", "text": "J'achète un billet." },
+            { "emoji": "🎫", "text": "Où est mon billet ?" },
+            { "emoji": "🎫", "text": "J'ai besoin d'un billet." },
+            { "emoji": "🎫", "text": "Je garde mon billet." },
+            { "emoji": "🎫", "text": "Puis-je tenir mon billet ?" },
             { "emoji": "🎫", "text": "Je montre mon billet." },
-            { "emoji": "🎫", "text": "Mon billet d'avion." },
-            { "emoji": "🎫", "text": "Je garde mon billet." }
+            { "emoji": "🎫", "text": "Mon billet d'avion." }
           ]
         },
         "en": {
           "label": "Ticket",
           "phrases": [
             { "emoji": "🎫", "text": "I buy a ticket." },
+            { "emoji": "🎫", "text": "Where is my ticket?" },
+            { "emoji": "🎫", "text": "I need a ticket." },
+            { "emoji": "🎫", "text": "I keep my ticket." },
+            { "emoji": "🎫", "text": "Can I hold my ticket?" },
             { "emoji": "🎫", "text": "I show my ticket." },
-            { "emoji": "🎫", "text": "My plane ticket." },
-            { "emoji": "🎫", "text": "I keep my ticket." }
+            { "emoji": "🎫", "text": "My plane ticket." }
           ]
         }
       }
@@ -128,8 +152,12 @@
           "label": "Avion",
           "phrases": [
             { "emoji": "✈️", "text": "Je prends l'avion." },
-            { "emoji": "✈️", "text": "L'avion décolle." },
+            { "emoji": "✈️", "text": "Quand décolle l'avion ?" },
             { "emoji": "✈️", "text": "Je voyage en avion." },
+            { "emoji": "✈️", "text": "J'ai peur de prendre l'avion." },
+            { "emoji": "✈️", "text": "Puis-je m'asseoir près du hublot ?" },
+            { "emoji": "✈️", "text": "Aimes-tu prendre l'avion ?" },
+            { "emoji": "✈️", "text": "L'avion décolle." },
             { "emoji": "✈️", "text": "L'avion vole dans le ciel." }
           ]
         },
@@ -137,8 +165,12 @@
           "label": "Airplane",
           "phrases": [
             { "emoji": "✈️", "text": "I take the plane." },
-            { "emoji": "✈️", "text": "The plane takes off." },
+            { "emoji": "✈️", "text": "When does the plane take off?" },
             { "emoji": "✈️", "text": "I travel by plane." },
+            { "emoji": "✈️", "text": "I'm scared of flying." },
+            { "emoji": "✈️", "text": "Can I sit by the window?" },
+            { "emoji": "✈️", "text": "Do you like flying?" },
+            { "emoji": "✈️", "text": "The plane takes off." },
             { "emoji": "✈️", "text": "The plane flies in the sky." }
           ]
         }
@@ -152,8 +184,12 @@
           "label": "Train",
           "phrases": [
             { "emoji": "🚂", "text": "Je prends le train." },
-            { "emoji": "🚂", "text": "Le train roule sur les rails." },
+            { "emoji": "🚂", "text": "Quand part le train ?" },
             { "emoji": "🚂", "text": "Je voyage en train." },
+            { "emoji": "🚂", "text": "Est-ce notre train ?" },
+            { "emoji": "🚂", "text": "Puis-je m'asseoir près de la fenêtre ?" },
+            { "emoji": "🚂", "text": "Aimes-tu les trains ?" },
+            { "emoji": "🚂", "text": "Le train roule sur les rails." },
             { "emoji": "🚂", "text": "Le train arrive en gare." }
           ]
         },
@@ -161,8 +197,12 @@
           "label": "Train",
           "phrases": [
             { "emoji": "🚂", "text": "I take the train." },
-            { "emoji": "🚂", "text": "The train runs on tracks." },
+            { "emoji": "🚂", "text": "When does the train leave?" },
             { "emoji": "🚂", "text": "I travel by train." },
+            { "emoji": "🚂", "text": "Is this our train?" },
+            { "emoji": "🚂", "text": "Can I sit by the window?" },
+            { "emoji": "🚂", "text": "Do you like trains?" },
+            { "emoji": "🚂", "text": "The train runs on tracks." },
             { "emoji": "🚂", "text": "The train arrives at the station." }
           ]
         }
@@ -175,18 +215,22 @@
         "fr": {
           "label": "Voiture",
           "phrases": [
-            { "emoji": "🚗", "text": "On voyage en voiture." },
+            { "emoji": "🚗", "text": "Pouvons-nous y aller en voiture ?" },
             { "emoji": "🚗", "text": "Je monte dans la voiture." },
             { "emoji": "🚗", "text": "On fait un road trip." },
+            { "emoji": "🚗", "text": "Sommes-nous bientôt arrivés ?" },
+            { "emoji": "🚗", "text": "On voyage en voiture." },
             { "emoji": "🚗", "text": "La voiture roule sur l'autoroute." }
           ]
         },
         "en": {
           "label": "Car",
           "phrases": [
-            { "emoji": "🚗", "text": "We travel by car." },
+            { "emoji": "🚗", "text": "Can we go by car?" },
             { "emoji": "🚗", "text": "I get in the car." },
             { "emoji": "🚗", "text": "We go on a road trip." },
+            { "emoji": "🚗", "text": "Are we there yet?" },
+            { "emoji": "🚗", "text": "We travel by car." },
             { "emoji": "🚗", "text": "The car drives on the highway." }
           ]
         }
@@ -200,6 +244,10 @@
           "label": "Bus",
           "phrases": [
             { "emoji": "🚌", "text": "Je prends le bus." },
+            { "emoji": "🚌", "text": "Quand arrive le bus ?" },
+            { "emoji": "🚌", "text": "Est-ce notre bus ?" },
+            { "emoji": "🚌", "text": "Je veux descendre ici." },
+            { "emoji": "🚌", "text": "Pouvons-nous prendre le bus ?" },
             { "emoji": "🚌", "text": "Le bus nous emmène loin." },
             { "emoji": "🚌", "text": "Je voyage en bus." },
             { "emoji": "🚌", "text": "Le bus s'arrête ici." }
@@ -209,6 +257,10 @@
           "label": "Bus",
           "phrases": [
             { "emoji": "🚌", "text": "I take the bus." },
+            { "emoji": "🚌", "text": "When does the bus come?" },
+            { "emoji": "🚌", "text": "Is this our bus?" },
+            { "emoji": "🚌", "text": "I want to get off here." },
+            { "emoji": "🚌", "text": "Can we take the bus?" },
             { "emoji": "🚌", "text": "The bus takes us far." },
             { "emoji": "🚌", "text": "I travel by bus." },
             { "emoji": "🚌", "text": "The bus stops here." }
@@ -224,8 +276,12 @@
           "label": "Bateau",
           "phrases": [
             { "emoji": "⛴️", "text": "Je voyage en bateau." },
-            { "emoji": "⛴️", "text": "Le bateau navigue sur l'eau." },
+            { "emoji": "⛴️", "text": "J'ai le mal de mer." },
             { "emoji": "⛴️", "text": "Je prends le ferry." },
+            { "emoji": "⛴️", "text": "Quand part le bateau ?" },
+            { "emoji": "⛴️", "text": "Pouvons-nous prendre le bateau ?" },
+            { "emoji": "⛴️", "text": "Aimes-tu les bateaux ?" },
+            { "emoji": "⛴️", "text": "Le bateau navigue sur l'eau." },
             { "emoji": "⛴️", "text": "Le bateau traverse la mer." }
           ]
         },
@@ -233,8 +289,12 @@
           "label": "Boat",
           "phrases": [
             { "emoji": "⛴️", "text": "I travel by boat." },
-            { "emoji": "⛴️", "text": "The boat sails on water." },
+            { "emoji": "⛴️", "text": "I feel seasick." },
             { "emoji": "⛴️", "text": "I take the ferry." },
+            { "emoji": "⛴️", "text": "When does the boat leave?" },
+            { "emoji": "⛴️", "text": "Can we take the boat?" },
+            { "emoji": "⛴️", "text": "Do you like boats?" },
+            { "emoji": "⛴️", "text": "The boat sails on water." },
             { "emoji": "⛴️", "text": "The boat crosses the sea." }
           ]
         }
@@ -247,18 +307,24 @@
         "fr": {
           "label": "Carte",
           "phrases": [
+            { "emoji": "🗺️", "text": "Puis-je regarder la carte ?" },
+            { "emoji": "🗺️", "text": "Où sommes-nous sur la carte ?" },
+            { "emoji": "🗺️", "text": "Je cherche ma destination." },
+            { "emoji": "🗺️", "text": "J'ai besoin d'une carte." },
             { "emoji": "🗺️", "text": "Je regarde la carte." },
             { "emoji": "🗺️", "text": "La carte montre le chemin." },
-            { "emoji": "🗺️", "text": "Je cherche ma destination." },
             { "emoji": "🗺️", "text": "J'utilise une carte." }
           ]
         },
         "en": {
           "label": "Map",
           "phrases": [
+            { "emoji": "🗺️", "text": "Can I look at the map?" },
+            { "emoji": "🗺️", "text": "Where are we on the map?" },
+            { "emoji": "🗺️", "text": "I look for my destination." },
+            { "emoji": "🗺️", "text": "I need a map." },
             { "emoji": "🗺️", "text": "I look at the map." },
             { "emoji": "🗺️", "text": "The map shows the way." },
-            { "emoji": "🗺️", "text": "I look for my destination." },
             { "emoji": "🗺️", "text": "I use a map." }
           ]
         }
@@ -271,18 +337,22 @@
         "fr": {
           "label": "Appareil photo",
           "phrases": [
-            { "emoji": "📷", "text": "Je prends des photos." },
+            { "emoji": "📷", "text": "Peux-tu me prendre en photo ?" },
             { "emoji": "📷", "text": "J'immortalise mes souvenirs." },
             { "emoji": "📷", "text": "Mon appareil photo est prêt." },
+            { "emoji": "📷", "text": "Puis-je prendre une photo ?" },
+            { "emoji": "📷", "text": "Je prends des photos." },
             { "emoji": "📷", "text": "Je photographie les paysages." }
           ]
         },
         "en": {
           "label": "Camera",
           "phrases": [
-            { "emoji": "📷", "text": "I take photos." },
+            { "emoji": "📷", "text": "Can you take a photo of me?" },
             { "emoji": "📷", "text": "I capture my memories." },
             { "emoji": "📷", "text": "My camera is ready." },
+            { "emoji": "📷", "text": "Can I take a photo?" },
+            { "emoji": "📷", "text": "I take photos." },
             { "emoji": "📷", "text": "I photograph the landscapes." }
           ]
         }
@@ -296,18 +366,24 @@
           "label": "Lunettes de soleil",
           "phrases": [
             { "emoji": "🕶️", "text": "Je porte mes lunettes de soleil." },
+            { "emoji": "🕶️", "text": "Le soleil est trop fort." },
+            { "emoji": "🕶️", "text": "Où sont mes lunettes de soleil ?" },
+            { "emoji": "🕶️", "text": "Je vais à la plage." },
+            { "emoji": "🕶️", "text": "Puis-je avoir mes lunettes de soleil ?" },
             { "emoji": "🕶️", "text": "Le soleil est fort." },
-            { "emoji": "🕶️", "text": "Mes lunettes me protègent." },
-            { "emoji": "🕶️", "text": "Je vais à la plage." }
+            { "emoji": "🕶️", "text": "Mes lunettes me protègent." }
           ]
         },
         "en": {
           "label": "Sunglasses",
           "phrases": [
             { "emoji": "🕶️", "text": "I wear my sunglasses." },
+            { "emoji": "🕶️", "text": "The sun is too bright." },
+            { "emoji": "🕶️", "text": "Where are my sunglasses?" },
+            { "emoji": "🕶️", "text": "I go to the beach." },
+            { "emoji": "🕶️", "text": "Can I have my sunglasses?" },
             { "emoji": "🕶️", "text": "The sun is strong." },
-            { "emoji": "🕶️", "text": "My glasses protect me." },
-            { "emoji": "🕶️", "text": "I go to the beach." }
+            { "emoji": "🕶️", "text": "My glasses protect me." }
           ]
         }
       }
@@ -319,19 +395,25 @@
         "fr": {
           "label": "Hôtel",
           "phrases": [
-            { "emoji": "🏨", "text": "Je dors à l'hôtel." },
+            { "emoji": "🏨", "text": "Je veux retourner à l'hôtel." },
             { "emoji": "🏨", "text": "Je réserve une chambre." },
             { "emoji": "🏨", "text": "L'hôtel est confortable." },
-            { "emoji": "🏨", "text": "J'arrive à l'hôtel." }
+            { "emoji": "🏨", "text": "J'arrive à l'hôtel." },
+            { "emoji": "🏨", "text": "Pouvons-nous aller à l'hôtel ?" },
+            { "emoji": "🏨", "text": "Aimes-tu l'hôtel ?" },
+            { "emoji": "🏨", "text": "Je dors à l'hôtel." }
           ]
         },
         "en": {
           "label": "Hotel",
           "phrases": [
-            { "emoji": "🏨", "text": "I sleep at the hotel." },
+            { "emoji": "🏨", "text": "I want to go back to the hotel." },
             { "emoji": "🏨", "text": "I book a room." },
             { "emoji": "🏨", "text": "The hotel is comfortable." },
-            { "emoji": "🏨", "text": "I arrive at the hotel." }
+            { "emoji": "🏨", "text": "I arrive at the hotel." },
+            { "emoji": "🏨", "text": "Can we go to the hotel?" },
+            { "emoji": "🏨", "text": "Do you like the hotel?" },
+            { "emoji": "🏨", "text": "I sleep at the hotel." }
           ]
         }
       }
@@ -345,8 +427,10 @@
           "phrases": [
             { "emoji": "🏖️", "text": "Je vais à la plage." },
             { "emoji": "🏖️", "text": "Je me détends au bord de la mer." },
-            { "emoji": "🏖️", "text": "La plage est magnifique." },
-            { "emoji": "🏖️", "text": "Je profite des vacances." }
+            { "emoji": "🏖️", "text": "Pouvons-nous aller à la plage ?" },
+            { "emoji": "🏖️", "text": "Je profite des vacances." },
+            { "emoji": "🏖️", "text": "Aimes-tu la plage ?" },
+            { "emoji": "🏖️", "text": "La plage est magnifique." }
           ]
         },
         "en": {
@@ -354,8 +438,10 @@
           "phrases": [
             { "emoji": "🏖️", "text": "I go to the beach." },
             { "emoji": "🏖️", "text": "I relax by the sea." },
-            { "emoji": "🏖️", "text": "The beach is beautiful." },
-            { "emoji": "🏖️", "text": "I enjoy my vacation." }
+            { "emoji": "🏖️", "text": "Can we go to the beach?" },
+            { "emoji": "🏖️", "text": "I enjoy my vacation." },
+            { "emoji": "🏖️", "text": "Do you like the beach?" },
+            { "emoji": "🏖️", "text": "The beach is beautiful." }
           ]
         }
       }
@@ -368,8 +454,11 @@
           "label": "Montagne",
           "phrases": [
             { "emoji": "⛰️", "text": "Je vais à la montagne." },
-            { "emoji": "⛰️", "text": "La montagne est haute." },
+            { "emoji": "⛰️", "text": "Pouvons-nous aller à la montagne ?" },
             { "emoji": "⛰️", "text": "Je fais de la randonnée." },
+            { "emoji": "⛰️", "text": "Regarde la vue !" },
+            { "emoji": "⛰️", "text": "Aimes-tu la montagne ?" },
+            { "emoji": "⛰️", "text": "La montagne est haute." },
             { "emoji": "⛰️", "text": "La vue est splendide." }
           ]
         },
@@ -377,8 +466,11 @@
           "label": "Mountain",
           "phrases": [
             { "emoji": "⛰️", "text": "I go to the mountain." },
-            { "emoji": "⛰️", "text": "The mountain is high." },
+            { "emoji": "⛰️", "text": "Can we go to the mountain?" },
             { "emoji": "⛰️", "text": "I go hiking." },
+            { "emoji": "⛰️", "text": "Look at the view!" },
+            { "emoji": "⛰️", "text": "Do you like the mountains?" },
+            { "emoji": "⛰️", "text": "The mountain is high." },
             { "emoji": "⛰️", "text": "The view is splendid." }
           ]
         }
@@ -391,18 +483,24 @@
         "fr": {
           "label": "Boussole",
           "phrases": [
+            { "emoji": "🧭", "text": "J'ai besoin d'une boussole." },
+            { "emoji": "🧭", "text": "Où est le nord ?" },
+            { "emoji": "🧭", "text": "Je trouve mon chemin." },
+            { "emoji": "🧭", "text": "Puis-je tenir la boussole ?" },
             { "emoji": "🧭", "text": "J'utilise une boussole." },
             { "emoji": "🧭", "text": "La boussole indique le nord." },
-            { "emoji": "🧭", "text": "Je trouve mon chemin." },
             { "emoji": "🧭", "text": "La boussole m'aide à naviguer." }
           ]
         },
         "en": {
           "label": "Compass",
           "phrases": [
+            { "emoji": "🧭", "text": "I need a compass." },
+            { "emoji": "🧭", "text": "Which way is north?" },
+            { "emoji": "🧭", "text": "I find my way." },
+            { "emoji": "🧭", "text": "Can I hold the compass?" },
             { "emoji": "🧭", "text": "I use a compass." },
             { "emoji": "🧭", "text": "The compass points north." },
-            { "emoji": "🧭", "text": "I find my way." },
             { "emoji": "🧭", "text": "The compass helps me navigate." }
           ]
         }
@@ -418,6 +516,9 @@
             { "emoji": "🌍", "text": "Je voyage autour du monde." },
             { "emoji": "🌍", "text": "Je découvre la planète." },
             { "emoji": "🌍", "text": "Je visite différents pays." },
+            { "emoji": "🌍", "text": "Où allons-nous ?" },
+            { "emoji": "🌍", "text": "Pouvons-nous partir en voyage ?" },
+            { "emoji": "🌍", "text": "Aimes-tu voyager ?" },
             { "emoji": "🌍", "text": "Le monde est grand." }
           ]
         },
@@ -427,6 +528,9 @@
             { "emoji": "🌍", "text": "I travel around the world." },
             { "emoji": "🌍", "text": "I discover the planet." },
             { "emoji": "🌍", "text": "I visit different countries." },
+            { "emoji": "🌍", "text": "Where are we going?" },
+            { "emoji": "🌍", "text": "Can we go on a trip?" },
+            { "emoji": "🌍", "text": "Do you like traveling?" },
             { "emoji": "🌍", "text": "The world is big." }
           ]
         }
@@ -439,19 +543,25 @@
         "fr": {
           "label": "Départ",
           "phrases": [
-            { "emoji": "🛫", "text": "L'avion décolle." },
-            { "emoji": "🛫", "text": "C'est l'heure du départ." },
+            { "emoji": "🛫", "text": "Quand partons-nous ?" },
+            { "emoji": "🛫", "text": "Est-ce l'heure de partir ?" },
             { "emoji": "🛫", "text": "Je pars en voyage." },
-            { "emoji": "🛫", "text": "Mon vol décolle bientôt." }
+            { "emoji": "🛫", "text": "Mon vol décolle bientôt." },
+            { "emoji": "🛫", "text": "Pouvons-nous partir maintenant ?" },
+            { "emoji": "🛫", "text": "L'avion décolle." },
+            { "emoji": "🛫", "text": "C'est l'heure du départ." }
           ]
         },
         "en": {
           "label": "Departure",
           "phrases": [
-            { "emoji": "🛫", "text": "The plane takes off." },
-            { "emoji": "🛫", "text": "It's departure time." },
+            { "emoji": "🛫", "text": "When do we leave?" },
+            { "emoji": "🛫", "text": "Is it time to go?" },
             { "emoji": "🛫", "text": "I'm leaving on a trip." },
-            { "emoji": "🛫", "text": "My flight departs soon." }
+            { "emoji": "🛫", "text": "My flight departs soon." },
+            { "emoji": "🛫", "text": "Can we leave now?" },
+            { "emoji": "🛫", "text": "The plane takes off." },
+            { "emoji": "🛫", "text": "It's departure time." }
           ]
         }
       }
@@ -463,8 +573,10 @@
         "fr": {
           "label": "Arrivée",
           "phrases": [
-            { "emoji": "🛬", "text": "L'avion atterrit." },
             { "emoji": "🛬", "text": "Je suis arrivé à destination." },
+            { "emoji": "🛬", "text": "Quand arrivons-nous ?" },
+            { "emoji": "🛬", "text": "Sommes-nous bientôt arrivés ?" },
+            { "emoji": "🛬", "text": "L'avion atterrit." },
             { "emoji": "🛬", "text": "C'est l'heure de l'arrivée." },
             { "emoji": "🛬", "text": "Mon vol arrive." }
           ]
@@ -472,8 +584,10 @@
         "en": {
           "label": "Arrival",
           "phrases": [
-            { "emoji": "🛬", "text": "The plane lands." },
             { "emoji": "🛬", "text": "I arrived at my destination." },
+            { "emoji": "🛬", "text": "When do we arrive?" },
+            { "emoji": "🛬", "text": "Are we there yet?" },
+            { "emoji": "🛬", "text": "The plane lands." },
             { "emoji": "🛬", "text": "It's arrival time." },
             { "emoji": "🛬", "text": "My flight arrives." }
           ]
@@ -488,18 +602,24 @@
           "label": "Île paradisiaque",
           "phrases": [
             { "emoji": "🏝️", "text": "Je vais sur une île." },
-            { "emoji": "🏝️", "text": "L'île est paradisiaque." },
+            { "emoji": "🏝️", "text": "Je veux aller sur une île." },
             { "emoji": "🏝️", "text": "C'est mes vacances de rêve." },
-            { "emoji": "🏝️", "text": "Je me repose sur l'île." }
+            { "emoji": "🏝️", "text": "Je me repose sur l'île." },
+            { "emoji": "🏝️", "text": "Pouvons-nous aller sur une île ?" },
+            { "emoji": "🏝️", "text": "Aimes-tu les îles ?" },
+            { "emoji": "🏝️", "text": "L'île est paradisiaque." }
           ]
         },
         "en": {
           "label": "Island",
           "phrases": [
             { "emoji": "🏝️", "text": "I go to an island." },
-            { "emoji": "🏝️", "text": "The island is paradise." },
+            { "emoji": "🏝️", "text": "I want to go to an island." },
             { "emoji": "🏝️", "text": "It's my dream vacation." },
-            { "emoji": "🏝️", "text": "I rest on the island." }
+            { "emoji": "🏝️", "text": "I rest on the island." },
+            { "emoji": "🏝️", "text": "Can we go to an island?" },
+            { "emoji": "🏝️", "text": "Do you like islands?" },
+            { "emoji": "🏝️", "text": "The island is paradise." }
           ]
         }
       }
@@ -511,18 +631,27 @@
         "fr": {
           "label": "Étiquette à bagage",
           "phrases": [
+            {
+              "emoji": "🏷️",
+              "text": "Peux-tu mettre une étiquette sur ma valise ?"
+            },
+            { "emoji": "🏷️", "text": "J'ai besoin d'une étiquette à bagage." },
+            { "emoji": "🏷️", "text": "Je retrouve mes bagages." },
+            { "emoji": "🏷️", "text": "Où sont mes bagages ?" },
             { "emoji": "🏷️", "text": "Je mets une étiquette sur ma valise." },
             { "emoji": "🏷️", "text": "L'étiquette a mon nom." },
-            { "emoji": "🏷️", "text": "Je retrouve mes bagages." },
             { "emoji": "🏷️", "text": "L'étiquette est importante." }
           ]
         },
         "en": {
           "label": "Luggage Tag",
           "phrases": [
+            { "emoji": "🏷️", "text": "Can you put a tag on my suitcase?" },
+            { "emoji": "🏷️", "text": "I need a luggage tag." },
+            { "emoji": "🏷️", "text": "I find my luggage." },
+            { "emoji": "🏷️", "text": "Where is my luggage?" },
             { "emoji": "🏷️", "text": "I put a tag on my suitcase." },
             { "emoji": "🏷️", "text": "The tag has my name." },
-            { "emoji": "🏷️", "text": "I find my luggage." },
             { "emoji": "🏷️", "text": "The tag is important." }
           ]
         }
@@ -538,6 +667,9 @@
             { "emoji": "⛺", "text": "Je monte ma tente." },
             { "emoji": "⛺", "text": "Je dors sous la tente." },
             { "emoji": "⛺", "text": "Je fais du camping." },
+            { "emoji": "⛺", "text": "Peux-tu m'aider à monter la tente ?" },
+            { "emoji": "⛺", "text": "Puis-je dormir sous la tente ?" },
+            { "emoji": "⛺", "text": "Aimes-tu le camping ?" },
             { "emoji": "⛺", "text": "Ma tente est installée." }
           ]
         },
@@ -547,6 +679,9 @@
             { "emoji": "⛺", "text": "I set up my tent." },
             { "emoji": "⛺", "text": "I sleep in the tent." },
             { "emoji": "⛺", "text": "I go camping." },
+            { "emoji": "⛺", "text": "Can you help me set up the tent?" },
+            { "emoji": "⛺", "text": "Can I sleep in the tent?" },
+            { "emoji": "⛺", "text": "Do you like camping?" },
             { "emoji": "⛺", "text": "My tent is set up." }
           ]
         }
@@ -559,19 +694,26 @@
         "fr": {
           "label": "Chaise de plage",
           "phrases": [
-            { "emoji": "🪑", "text": "Je m'assieds sur ma chaise de plage." },
-            { "emoji": "🪑", "text": "La chaise est confortable." },
+            {
+              "emoji": "🪑",
+              "text": "Puis-je m'asseoir sur la chaise de plage ?"
+            },
+            { "emoji": "🪑", "text": "Je veux une chaise de plage." },
             { "emoji": "🪑", "text": "Je me détends sur la chaise." },
-            { "emoji": "🪑", "text": "J'installe ma chaise au soleil." }
+            { "emoji": "🪑", "text": "J'installe ma chaise au soleil." },
+            { "emoji": "🪑", "text": "Je m'assieds sur ma chaise de plage." },
+            { "emoji": "🪑", "text": "La chaise est confortable." }
           ]
         },
         "en": {
           "label": "Beach Chair",
           "phrases": [
-            { "emoji": "🪑", "text": "I sit on my beach chair." },
-            { "emoji": "🪑", "text": "The chair is comfortable." },
+            { "emoji": "🪑", "text": "Can I sit on the beach chair?" },
+            { "emoji": "🪑", "text": "I want a beach chair." },
             { "emoji": "🪑", "text": "I relax on the chair." },
-            { "emoji": "🪑", "text": "I set up my chair in the sun." }
+            { "emoji": "🪑", "text": "I set up my chair in the sun." },
+            { "emoji": "🪑", "text": "I sit on my beach chair." },
+            { "emoji": "🪑", "text": "The chair is comfortable." }
           ]
         }
       }
@@ -585,8 +727,13 @@
           "phrases": [
             { "emoji": "🛎️", "text": "Je commande le service de chambre." },
             { "emoji": "🛎️", "text": "J'appelle la réception." },
-            { "emoji": "🛎️", "text": "Le service arrive bientôt." },
-            { "emoji": "🛎️", "text": "Je sonne pour avoir de l'aide." }
+            { "emoji": "🛎️", "text": "J'ai besoin d'aide, s'il te plaît." },
+            { "emoji": "🛎️", "text": "Je sonne pour avoir de l'aide." },
+            {
+              "emoji": "🛎️",
+              "text": "Pouvons-nous commander le service de chambre ?"
+            },
+            { "emoji": "🛎️", "text": "Le service arrive bientôt." }
           ]
         },
         "en": {
@@ -594,8 +741,10 @@
           "phrases": [
             { "emoji": "🛎️", "text": "I order room service." },
             { "emoji": "🛎️", "text": "I call the reception." },
-            { "emoji": "🛎️", "text": "Service is coming soon." },
-            { "emoji": "🛎️", "text": "I ring for help." }
+            { "emoji": "🛎️", "text": "I need help, please." },
+            { "emoji": "🛎️", "text": "I ring for help." },
+            { "emoji": "🛎️", "text": "Can we order room service?" },
+            { "emoji": "🛎️", "text": "Service is coming soon." }
           ]
         }
       }
@@ -609,8 +758,13 @@
           "phrases": [
             { "emoji": "💺", "text": "Je suis dans la salle d'attente." },
             { "emoji": "💺", "text": "J'attends mon vol." },
-            { "emoji": "💺", "text": "Les sièges sont confortables." },
-            { "emoji": "💺", "text": "Je patiente ici." }
+            {
+              "emoji": "💺",
+              "text": "Combien de temps devons-nous attendre ?"
+            },
+            { "emoji": "💺", "text": "Je patiente ici." },
+            { "emoji": "💺", "text": "Puis-je m'asseoir ici ?" },
+            { "emoji": "💺", "text": "Les sièges sont confortables." }
           ]
         },
         "en": {
@@ -618,8 +772,10 @@
           "phrases": [
             { "emoji": "💺", "text": "I'm in the waiting room." },
             { "emoji": "💺", "text": "I wait for my flight." },
-            { "emoji": "💺", "text": "The seats are comfortable." },
-            { "emoji": "💺", "text": "I wait here." }
+            { "emoji": "💺", "text": "How long do we have to wait?" },
+            { "emoji": "💺", "text": "I wait here." },
+            { "emoji": "💺", "text": "Can I sit here?" },
+            { "emoji": "💺", "text": "The seats are comfortable." }
           ]
         }
       }
@@ -634,6 +790,8 @@
             { "emoji": "🔌", "text": "Je cherche une prise électrique." },
             { "emoji": "🔌", "text": "Je branche mon téléphone." },
             { "emoji": "🔌", "text": "J'ai besoin de recharger." },
+            { "emoji": "🔌", "text": "Où est la prise électrique ?" },
+            { "emoji": "🔌", "text": "Puis-je recharger mon téléphone ?" },
             { "emoji": "🔌", "text": "La prise fonctionne bien." }
           ]
         },
@@ -643,6 +801,8 @@
             { "emoji": "🔌", "text": "I look for a power outlet." },
             { "emoji": "🔌", "text": "I plug in my phone." },
             { "emoji": "🔌", "text": "I need to charge." },
+            { "emoji": "🔌", "text": "Where is the power outlet?" },
+            { "emoji": "🔌", "text": "Can I charge my phone?" },
             { "emoji": "🔌", "text": "The outlet works well." }
           ]
         }
@@ -658,7 +818,8 @@
             { "emoji": "🎟️", "text": "J'ai ma carte d'embarquement." },
             { "emoji": "🎟️", "text": "Je montre ma carte." },
             { "emoji": "🎟️", "text": "Je peux embarquer." },
-            { "emoji": "🎟️", "text": "Ma carte est prête." }
+            { "emoji": "🎟️", "text": "Ma carte est prête." },
+            { "emoji": "🎟️", "text": "Puis-je tenir ma carte d'embarquement ?" }
           ]
         },
         "en": {
@@ -667,7 +828,8 @@
             { "emoji": "🎟️", "text": "I have my boarding pass." },
             { "emoji": "🎟️", "text": "I show my pass." },
             { "emoji": "🎟️", "text": "I can board." },
-            { "emoji": "🎟️", "text": "My pass is ready." }
+            { "emoji": "🎟️", "text": "My pass is ready." },
+            { "emoji": "🎟️", "text": "Can I hold my boarding pass?" }
           ]
         }
       }
@@ -680,6 +842,12 @@
           "label": "GPS",
           "phrases": [
             { "emoji": "🛰️", "text": "J'utilise le GPS." },
+            { "emoji": "🛰️", "text": "Peux-tu allumer le GPS ?" },
+            { "emoji": "🛰️", "text": "Par où allons-nous ?" },
+            {
+              "emoji": "🛰️",
+              "text": "Je crois que nous nous sommes trompés de chemin."
+            },
             { "emoji": "🛰️", "text": "Le GPS me guide." },
             { "emoji": "🛰️", "text": "Je suis les indications." },
             { "emoji": "🛰️", "text": "Le GPS trouve le chemin." }
@@ -689,6 +857,9 @@
           "label": "GPS",
           "phrases": [
             { "emoji": "🛰️", "text": "I use GPS." },
+            { "emoji": "🛰️", "text": "Can you turn on the GPS?" },
+            { "emoji": "🛰️", "text": "Which way do we go?" },
+            { "emoji": "🛰️", "text": "I think we've taken the wrong path." },
             { "emoji": "🛰️", "text": "GPS guides me." },
             { "emoji": "🛰️", "text": "I follow the directions." },
             { "emoji": "🛰️", "text": "GPS finds the way." }
@@ -704,8 +875,11 @@
           "label": "Campagne",
           "phrases": [
             { "emoji": "🌾", "text": "Je visite la campagne." },
-            { "emoji": "🌾", "text": "La campagne est paisible." },
+            { "emoji": "🌾", "text": "Je veux aller à la campagne." },
             { "emoji": "🌾", "text": "J'aime la nature." },
+            { "emoji": "🌾", "text": "Pouvons-nous aller à la campagne ?" },
+            { "emoji": "🌾", "text": "Aimes-tu la campagne ?" },
+            { "emoji": "🌾", "text": "La campagne est paisible." },
             { "emoji": "🌾", "text": "Les champs sont magnifiques." }
           ]
         },
@@ -713,8 +887,11 @@
           "label": "Countryside",
           "phrases": [
             { "emoji": "🌾", "text": "I visit the countryside." },
-            { "emoji": "🌾", "text": "The countryside is peaceful." },
+            { "emoji": "🌾", "text": "I want to go to the countryside." },
             { "emoji": "🌾", "text": "I love nature." },
+            { "emoji": "🌾", "text": "Can we go to the countryside?" },
+            { "emoji": "🌾", "text": "Do you like the countryside?" },
+            { "emoji": "🌾", "text": "The countryside is peaceful." },
             { "emoji": "🌾", "text": "The fields are beautiful." }
           ]
         }
@@ -727,19 +904,25 @@
         "fr": {
           "label": "Lit",
           "phrases": [
-            { "emoji": "🛏️", "text": "Le lit est confortable." },
+            { "emoji": "🛏️", "text": "Je veux aller au lit." },
             { "emoji": "🛏️", "text": "Je me repose sur le lit." },
-            { "emoji": "🛏️", "text": "Ma chambre a un grand lit." },
-            { "emoji": "🛏️", "text": "Je dors bien." }
+            { "emoji": "🛏️", "text": "Quel lit est le mien ?" },
+            { "emoji": "🛏️", "text": "Je dors bien." },
+            { "emoji": "🛏️", "text": "Puis-je avoir ce lit ?" },
+            { "emoji": "🛏️", "text": "Le lit est confortable." },
+            { "emoji": "🛏️", "text": "Ma chambre a un grand lit." }
           ]
         },
         "en": {
           "label": "Bed",
           "phrases": [
-            { "emoji": "🛏️", "text": "The bed is comfortable." },
+            { "emoji": "🛏️", "text": "I want to go to bed." },
             { "emoji": "🛏️", "text": "I rest on the bed." },
-            { "emoji": "🛏️", "text": "My room has a big bed." },
-            { "emoji": "🛏️", "text": "I sleep well." }
+            { "emoji": "🛏️", "text": "Which bed is mine?" },
+            { "emoji": "🛏️", "text": "I sleep well." },
+            { "emoji": "🛏️", "text": "Can I have this bed?" },
+            { "emoji": "🛏️", "text": "The bed is comfortable." },
+            { "emoji": "🛏️", "text": "My room has a big bed." }
           ]
         }
       }
@@ -752,6 +935,10 @@
           "label": "Clé de l'hôtel",
           "phrases": [
             { "emoji": "🔑", "text": "Je prends ma clé." },
+            { "emoji": "🔑", "text": "Peux-tu ouvrir la chambre ?" },
+            { "emoji": "🔑", "text": "Où est ma clé ?" },
+            { "emoji": "🔑", "text": "J'ai perdu ma clé." },
+            { "emoji": "🔑", "text": "Puis-je avoir la clé ?" },
             { "emoji": "🔑", "text": "J'ouvre ma chambre." },
             { "emoji": "🔑", "text": "Je garde ma clé." },
             { "emoji": "🔑", "text": "La clé est à la réception." }
@@ -761,6 +948,10 @@
           "label": "Hotel Key",
           "phrases": [
             { "emoji": "🔑", "text": "I take my key." },
+            { "emoji": "🔑", "text": "Can you open the room?" },
+            { "emoji": "🔑", "text": "Where is my key?" },
+            { "emoji": "🔑", "text": "I lost my key." },
+            { "emoji": "🔑", "text": "Can I have the key?" },
             { "emoji": "🔑", "text": "I open my room." },
             { "emoji": "🔑", "text": "I keep my key." },
             { "emoji": "🔑", "text": "The key is at the reception." }
@@ -776,6 +967,10 @@
           "label": "Feu de camp",
           "phrases": [
             { "emoji": "🔥", "text": "Je fais un feu de camp." },
+            { "emoji": "🔥", "text": "Pouvons-nous faire un feu de camp ?" },
+            { "emoji": "🔥", "text": "Puis-je m'asseoir près du feu ?" },
+            { "emoji": "🔥", "text": "Attention, le feu est chaud !" },
+            { "emoji": "🔥", "text": "Aimes-tu les feux de camp ?" },
             { "emoji": "🔥", "text": "Le feu réchauffe." },
             { "emoji": "🔥", "text": "Je m'assieds autour du feu." },
             { "emoji": "🔥", "text": "Le feu brille dans la nuit." }
@@ -785,6 +980,10 @@
           "label": "Campfire",
           "phrases": [
             { "emoji": "🔥", "text": "I make a campfire." },
+            { "emoji": "🔥", "text": "Can we make a campfire?" },
+            { "emoji": "🔥", "text": "Can I sit by the fire?" },
+            { "emoji": "🔥", "text": "Be careful, the fire is hot!" },
+            { "emoji": "🔥", "text": "Do you like campfires?" },
             { "emoji": "🔥", "text": "The fire warms." },
             { "emoji": "🔥", "text": "I sit around the fire." },
             { "emoji": "🔥", "text": "The fire shines at night." }
@@ -800,18 +999,26 @@
           "label": "Plongée",
           "phrases": [
             { "emoji": "🤿", "text": "Je fais de la plongée." },
+            { "emoji": "🤿", "text": "J'ai besoin de mon masque de plongée." },
+            { "emoji": "🤿", "text": "Je veux voir les poissons." },
+            { "emoji": "🤿", "text": "La plongée est passionnante." },
+            { "emoji": "🤿", "text": "Puis-je faire de la plongée ?" },
+            { "emoji": "🤿", "text": "Aimes-tu la plongée ?" },
             { "emoji": "🤿", "text": "Je mets mon masque de plongée." },
-            { "emoji": "🤿", "text": "J'explore sous l'eau." },
-            { "emoji": "🤿", "text": "La plongée est passionnante." }
+            { "emoji": "🤿", "text": "J'explore sous l'eau." }
           ]
         },
         "en": {
           "label": "Diving",
           "phrases": [
             { "emoji": "🤿", "text": "I go diving." },
+            { "emoji": "🤿", "text": "I need my diving mask." },
+            { "emoji": "🤿", "text": "I want to see the fish." },
+            { "emoji": "🤿", "text": "Diving is exciting." },
+            { "emoji": "🤿", "text": "Can I go diving?" },
+            { "emoji": "🤿", "text": "Do you like diving?" },
             { "emoji": "🤿", "text": "I put on my diving mask." },
-            { "emoji": "🤿", "text": "I explore underwater." },
-            { "emoji": "🤿", "text": "Diving is exciting." }
+            { "emoji": "🤿", "text": "I explore underwater." }
           ]
         }
       }
@@ -824,18 +1031,22 @@
           "label": "Caméra d'action",
           "phrases": [
             { "emoji": "📹", "text": "Je filme mes aventures." },
+            { "emoji": "📹", "text": "Peux-tu me filmer ?" },
+            { "emoji": "📹", "text": "Puis-je regarder la vidéo ?" },
+            { "emoji": "📹", "text": "Je fais une vidéo souvenir." },
             { "emoji": "📹", "text": "Ma caméra enregistre tout." },
-            { "emoji": "📹", "text": "Je capture des moments." },
-            { "emoji": "📹", "text": "Je fais une vidéo souvenir." }
+            { "emoji": "📹", "text": "Je capture des moments." }
           ]
         },
         "en": {
           "label": "Action Camera",
           "phrases": [
             { "emoji": "📹", "text": "I film my adventures." },
+            { "emoji": "📹", "text": "Can you film me?" },
+            { "emoji": "📹", "text": "Can I watch the video?" },
+            { "emoji": "📹", "text": "I make a memory video." },
             { "emoji": "📹", "text": "My camera records everything." },
-            { "emoji": "📹", "text": "I capture moments." },
-            { "emoji": "📹", "text": "I make a memory video." }
+            { "emoji": "📹", "text": "I capture moments." }
           ]
         }
       }

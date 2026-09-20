@@ -11,6 +11,8 @@
             { "emoji": "🏀", "text": "Je joue au basketball." },
             { "emoji": "🏀", "text": "Je veux jouer au basketball." },
             { "emoji": "🏀", "text": "J'aime le basketball." },
+            { "emoji": "🏀", "text": "Veux-tu jouer au basketball avec moi ?" },
+            { "emoji": "🏀", "text": "Puis-je jouer au basketball ?" },
             { "emoji": "🏀", "text": "Je lance le ballon de basket." }
           ]
         },
@@ -20,6 +22,8 @@
             { "emoji": "🏀", "text": "I play basketball." },
             { "emoji": "🏀", "text": "I want to play basketball." },
             { "emoji": "🏀", "text": "I like basketball." },
+            { "emoji": "🏀", "text": "Do you want to play basketball with me?" },
+            { "emoji": "🏀", "text": "Can I play basketball?" },
             { "emoji": "🏀", "text": "I throw the basketball." }
           ]
         }
@@ -35,7 +39,9 @@
             { "emoji": "🥊", "text": "Je fais de la boxe." },
             { "emoji": "🥊", "text": "Je veux faire de la boxe." },
             { "emoji": "🥊", "text": "J'aime la boxe." },
-            { "emoji": "🥊", "text": "Je porte des gants de boxe." }
+            { "emoji": "🥊", "text": "Je porte des gants de boxe." },
+            { "emoji": "🥊", "text": "Puis-je essayer la boxe ?" },
+            { "emoji": "🥊", "text": "Aimes-tu la boxe ?" }
           ]
         },
         "en": {
@@ -44,7 +50,9 @@
             { "emoji": "🥊", "text": "I box." },
             { "emoji": "🥊", "text": "I want to box." },
             { "emoji": "🥊", "text": "I like boxing." },
-            { "emoji": "🥊", "text": "I wear boxing gloves." }
+            { "emoji": "🥊", "text": "I wear boxing gloves." },
+            { "emoji": "🥊", "text": "Can I try boxing?" },
+            { "emoji": "🥊", "text": "Do you like boxing?" }
           ]
         }
       }
@@ -59,6 +67,8 @@
             { "emoji": "🎾", "text": "Je joue au tennis." },
             { "emoji": "🎾", "text": "Je veux jouer au tennis." },
             { "emoji": "🎾", "text": "J'aime le tennis." },
+            { "emoji": "🎾", "text": "Veux-tu jouer au tennis avec moi ?" },
+            { "emoji": "🎾", "text": "Puis-je jouer au tennis ?" },
             { "emoji": "🎾", "text": "Je frappe la balle de tennis." }
           ]
         },
@@ -68,6 +78,8 @@
             { "emoji": "🎾", "text": "I play tennis." },
             { "emoji": "🎾", "text": "I want to play tennis." },
             { "emoji": "🎾", "text": "I like tennis." },
+            { "emoji": "🎾", "text": "Do you want to play tennis with me?" },
+            { "emoji": "🎾", "text": "Can I play tennis?" },
             { "emoji": "🎾", "text": "I hit the tennis ball." }
           ]
         }
@@ -83,6 +95,8 @@
             { "emoji": "⛳", "text": "Je joue au golf." },
             { "emoji": "⛳", "text": "Je veux jouer au golf." },
             { "emoji": "⛳", "text": "J'aime le golf." },
+            { "emoji": "⛳", "text": "Veux-tu jouer au golf avec moi ?" },
+            { "emoji": "⛳", "text": "Puis-je jouer au golf ?" },
             { "emoji": "⛳", "text": "Je frappe la balle de golf." }
           ]
         },
@@ -92,6 +106,8 @@
             { "emoji": "⛳", "text": "I play golf." },
             { "emoji": "⛳", "text": "I want to play golf." },
             { "emoji": "⛳", "text": "I like golf." },
+            { "emoji": "⛳", "text": "Do you want to play golf with me?" },
+            { "emoji": "⛳", "text": "Can I play golf?" },
             { "emoji": "⛳", "text": "I hit the golf ball." }
           ]
         }
@@ -107,7 +123,9 @@
             { "emoji": "🏒", "text": "Je joue au hockey." },
             { "emoji": "🏒", "text": "Je veux jouer au hockey." },
             { "emoji": "🏒", "text": "J'aime le hockey." },
-            { "emoji": "🏒", "text": "Je patine sur la glace." }
+            { "emoji": "🏒", "text": "Je patine sur la glace." },
+            { "emoji": "🏒", "text": "Puis-je jouer au hockey ?" },
+            { "emoji": "🏒", "text": "Aimes-tu le hockey ?" }
           ]
         },
         "en": {
@@ -116,7 +134,9 @@
             { "emoji": "🏒", "text": "I play hockey." },
             { "emoji": "🏒", "text": "I want to play hockey." },
             { "emoji": "🏒", "text": "I like hockey." },
-            { "emoji": "🏒", "text": "I skate on the ice." }
+            { "emoji": "🏒", "text": "I skate on the ice." },
+            { "emoji": "🏒", "text": "Can I play hockey?" },
+            { "emoji": "🏒", "text": "Do you like hockey?" }
           ]
         }
       }
@@ -131,7 +151,9 @@
             { "emoji": "🏊", "text": "Je fais de la natation." },
             { "emoji": "🏊", "text": "Je veux nager." },
             { "emoji": "🏊", "text": "J'aime la natation." },
-            { "emoji": "🏊", "text": "Je nage vite." }
+            { "emoji": "🏊", "text": "Je nage vite." },
+            { "emoji": "🏊", "text": "Puis-je aller nager ?" },
+            { "emoji": "🏊", "text": "Aimes-tu la natation ?" }
           ]
         },
         "en": {
@@ -140,7 +162,9 @@
             { "emoji": "🏊", "text": "I swim." },
             { "emoji": "🏊", "text": "I want to swim." },
             { "emoji": "🏊", "text": "I like swimming." },
-            { "emoji": "🏊", "text": "I swim fast." }
+            { "emoji": "🏊", "text": "I swim fast." },
+            { "emoji": "🏊", "text": "Can I go swimming?" },
+            { "emoji": "🏊", "text": "Do you like swimming?" }
           ]
         }
       }
@@ -155,6 +179,8 @@
             { "emoji": "⚾", "text": "Je joue au baseball." },
             { "emoji": "⚾", "text": "Je veux jouer au baseball." },
             { "emoji": "⚾", "text": "J'aime le baseball." },
+            { "emoji": "⚾", "text": "Veux-tu jouer au baseball avec moi ?" },
+            { "emoji": "⚾", "text": "Puis-je jouer au baseball ?" },
             { "emoji": "⚾", "text": "Je lance la balle de baseball." }
           ]
         },
@@ -164,6 +190,8 @@
             { "emoji": "⚾", "text": "I play baseball." },
             { "emoji": "⚾", "text": "I want to play baseball." },
             { "emoji": "⚾", "text": "I like baseball." },
+            { "emoji": "⚾", "text": "Do you want to play baseball with me?" },
+            { "emoji": "⚾", "text": "Can I play baseball?" },
             { "emoji": "⚾", "text": "I throw the baseball." }
           ]
         }
@@ -179,6 +207,8 @@
             { "emoji": "⚽", "text": "Je joue au football." },
             { "emoji": "⚽", "text": "Je veux jouer au football." },
             { "emoji": "⚽", "text": "J'aime le football." },
+            { "emoji": "⚽", "text": "Veux-tu jouer au football avec moi ?" },
+            { "emoji": "⚽", "text": "Puis-je jouer au football ?" },
             { "emoji": "⚽", "text": "Je tire dans le ballon." }
           ]
         },
@@ -188,6 +218,8 @@
             { "emoji": "⚽", "text": "I play soccer." },
             { "emoji": "⚽", "text": "I want to play soccer." },
             { "emoji": "⚽", "text": "I like soccer." },
+            { "emoji": "⚽", "text": "Do you want to play soccer with me?" },
+            { "emoji": "⚽", "text": "Can I play soccer?" },
             { "emoji": "⚽", "text": "I kick the ball." }
           ]
         }
@@ -203,6 +235,8 @@
             { "emoji": "🏉", "text": "Je joue au rugby." },
             { "emoji": "🏉", "text": "Je veux jouer au rugby." },
             { "emoji": "🏉", "text": "J'aime le rugby." },
+            { "emoji": "🏉", "text": "Veux-tu jouer au rugby avec moi ?" },
+            { "emoji": "🏉", "text": "Puis-je jouer au rugby ?" },
             { "emoji": "🏉", "text": "Je cours avec le ballon de rugby." }
           ]
         },
@@ -212,6 +246,8 @@
             { "emoji": "🏉", "text": "I play rugby." },
             { "emoji": "🏉", "text": "I want to play rugby." },
             { "emoji": "🏉", "text": "I like rugby." },
+            { "emoji": "🏉", "text": "Do you want to play rugby with me?" },
+            { "emoji": "🏉", "text": "Can I play rugby?" },
             { "emoji": "🏉", "text": "I run with the rugby ball." }
           ]
         }
@@ -227,6 +263,8 @@
             { "emoji": "🏏", "text": "Je joue au cricket." },
             { "emoji": "🏏", "text": "Je veux jouer au cricket." },
             { "emoji": "🏏", "text": "J'aime le cricket." },
+            { "emoji": "🏏", "text": "Veux-tu jouer au cricket avec moi ?" },
+            { "emoji": "🏏", "text": "Puis-je jouer au cricket ?" },
             { "emoji": "🏏", "text": "Je frappe la balle de cricket." }
           ]
         },
@@ -236,6 +274,8 @@
             { "emoji": "🏏", "text": "I play cricket." },
             { "emoji": "🏏", "text": "I want to play cricket." },
             { "emoji": "🏏", "text": "I like cricket." },
+            { "emoji": "🏏", "text": "Do you want to play cricket with me?" },
+            { "emoji": "🏏", "text": "Can I play cricket?" },
             { "emoji": "🏏", "text": "I hit the cricket ball." }
           ]
         }
@@ -251,6 +291,8 @@
             { "emoji": "🏎️", "text": "Je fais de la course automobile." },
             { "emoji": "🏎️", "text": "Je regarde la course automobile." },
             { "emoji": "🏎️", "text": "J'aime la course automobile." },
+            { "emoji": "🏎️", "text": "Pouvons-nous regarder la course automobile ?" },
+            { "emoji": "🏎️", "text": "Aimes-tu la course automobile ?" },
             { "emoji": "🏎️", "text": "La voiture roule vite." }
           ]
         },
@@ -260,6 +302,8 @@
             { "emoji": "🏎️", "text": "I do car racing." },
             { "emoji": "🏎️", "text": "I watch car racing." },
             { "emoji": "🏎️", "text": "I like car racing." },
+            { "emoji": "🏎️", "text": "Can we watch the car race?" },
+            { "emoji": "🏎️", "text": "Do you like car racing?" },
             { "emoji": "🏎️", "text": "The car goes fast." }
           ]
         }
@@ -275,6 +319,8 @@
             { "emoji": "🏍️", "text": "Je fais de la course de motos." },
             { "emoji": "🏍️", "text": "Je regarde la course de motos." },
             { "emoji": "🏍️", "text": "J'aime la course de motos." },
+            { "emoji": "🏍️", "text": "Pouvons-nous regarder la course de motos ?" },
+            { "emoji": "🏍️", "text": "Aimes-tu la course de motos ?" },
             { "emoji": "🏍️", "text": "La moto roule vite." }
           ]
         },
@@ -284,6 +330,8 @@
             { "emoji": "🏍️", "text": "I do motorcycle racing." },
             { "emoji": "🏍️", "text": "I watch motorcycle racing." },
             { "emoji": "🏍️", "text": "I like motorcycle racing." },
+            { "emoji": "🏍️", "text": "Can we watch the motorcycle race?" },
+            { "emoji": "🏍️", "text": "Do you like motorcycle racing?" },
             { "emoji": "🏍️", "text": "The motorcycle goes fast." }
           ]
         }
@@ -299,6 +347,8 @@
             { "emoji": "⛷️", "text": "Je fais du ski." },
             { "emoji": "⛷️", "text": "Je veux faire du ski." },
             { "emoji": "⛷️", "text": "J'aime le ski." },
+            { "emoji": "⛷️", "text": "Pouvons-nous aller faire du ski ?" },
+            { "emoji": "⛷️", "text": "Aimes-tu le ski ?" },
             { "emoji": "⛷️", "text": "Je glisse sur la neige." }
           ]
         },
@@ -308,6 +358,8 @@
             { "emoji": "⛷️", "text": "I ski." },
             { "emoji": "⛷️", "text": "I want to ski." },
             { "emoji": "⛷️", "text": "I like skiing." },
+            { "emoji": "⛷️", "text": "Can we go skiing?" },
+            { "emoji": "⛷️", "text": "Do you like skiing?" },
             { "emoji": "⛷️", "text": "I slide on the snow." }
           ]
         }
@@ -323,6 +375,8 @@
             { "emoji": "🏂", "text": "Je fais du snowboard." },
             { "emoji": "🏂", "text": "Je veux faire du snowboard." },
             { "emoji": "🏂", "text": "J'aime le snowboard." },
+            { "emoji": "🏂", "text": "Pouvons-nous aller faire du snowboard ?" },
+            { "emoji": "🏂", "text": "Aimes-tu le snowboard ?" },
             { "emoji": "🏂", "text": "Je glisse sur ma planche." }
           ]
         },
@@ -332,6 +386,8 @@
             { "emoji": "🏂", "text": "I snowboard." },
             { "emoji": "🏂", "text": "I want to snowboard." },
             { "emoji": "🏂", "text": "I like snowboarding." },
+            { "emoji": "🏂", "text": "Can we go snowboarding?" },
+            { "emoji": "🏂", "text": "Do you like snowboarding?" },
             { "emoji": "🏂", "text": "I slide on my board." }
           ]
         }
@@ -347,6 +403,8 @@
             { "emoji": "🏐", "text": "Je joue au volley-ball." },
             { "emoji": "🏐", "text": "Je veux jouer au volley-ball." },
             { "emoji": "🏐", "text": "J'aime le volley-ball." },
+            { "emoji": "🏐", "text": "Veux-tu jouer au volley-ball avec moi ?" },
+            { "emoji": "🏐", "text": "Puis-je jouer au volley-ball ?" },
             { "emoji": "🏐", "text": "Je frappe le ballon de volley." }
           ]
         },
@@ -356,6 +414,8 @@
             { "emoji": "🏐", "text": "I play volleyball." },
             { "emoji": "🏐", "text": "I want to play volleyball." },
             { "emoji": "🏐", "text": "I like volleyball." },
+            { "emoji": "🏐", "text": "Do you want to play volleyball with me?" },
+            { "emoji": "🏐", "text": "Can I play volleyball?" },
             { "emoji": "🏐", "text": "I hit the volleyball." }
           ]
         }
@@ -371,6 +431,8 @@
             { "emoji": "🤺", "text": "Je fais de l'escrime." },
             { "emoji": "🤺", "text": "Je veux faire de l'escrime." },
             { "emoji": "🤺", "text": "J'aime l'escrime." },
+            { "emoji": "🤺", "text": "Puis-je essayer l'escrime ?" },
+            { "emoji": "🤺", "text": "Aimes-tu l'escrime ?" },
             { "emoji": "🤺", "text": "Je tiens l'épée." }
           ]
         },
@@ -380,6 +442,8 @@
             { "emoji": "🤺", "text": "I fence." },
             { "emoji": "🤺", "text": "I want to fence." },
             { "emoji": "🤺", "text": "I like fencing." },
+            { "emoji": "🤺", "text": "Can I try fencing?" },
+            { "emoji": "🤺", "text": "Do you like fencing?" },
             { "emoji": "🤺", "text": "I hold the sword." }
           ]
         }
@@ -395,7 +459,9 @@
             { "emoji": "🥋", "text": "Je fais des arts martiaux." },
             { "emoji": "🥋", "text": "Je veux faire des arts martiaux." },
             { "emoji": "🥋", "text": "J'aime les arts martiaux." },
-            { "emoji": "🥋", "text": "Je porte un kimono." }
+            { "emoji": "🥋", "text": "Je porte un kimono." },
+            { "emoji": "🥋", "text": "Puis-je essayer les arts martiaux ?" },
+            { "emoji": "🥋", "text": "Aimes-tu les arts martiaux ?" }
           ]
         },
         "en": {
@@ -404,7 +470,9 @@
             { "emoji": "🥋", "text": "I do martial arts." },
             { "emoji": "🥋", "text": "I want to do martial arts." },
             { "emoji": "🥋", "text": "I like martial arts." },
-            { "emoji": "🥋", "text": "I wear a gi." }
+            { "emoji": "🥋", "text": "I wear a gi." },
+            { "emoji": "🥋", "text": "Can I try martial arts?" },
+            { "emoji": "🥋", "text": "Do you like martial arts?" }
           ]
         }
       }
@@ -416,6 +484,10 @@
         "fr": {
           "label": "Arbitre",
           "phrases": [
+            { "emoji": "🧑‍⚖️", "text": "Où est l'arbitre ?" },
+            { "emoji": "🧑‍⚖️", "text": "Ce n'est pas juste !" },
+            { "emoji": "🧑‍⚖️", "text": "Quelles sont les règles ?" },
+            { "emoji": "🧑‍⚖️", "text": "Est-ce que c'était une faute ?" },
             { "emoji": "🧑‍⚖️", "text": "C'est l'arbitre." },
             { "emoji": "🧑‍⚖️", "text": "L'arbitre siffle." },
             { "emoji": "🧑‍⚖️", "text": "L'arbitre fait respecter les règles." },
@@ -425,6 +497,10 @@
         "en": {
           "label": "Referee",
           "phrases": [
+            { "emoji": "🧑‍⚖️", "text": "Where is the referee?" },
+            { "emoji": "🧑‍⚖️", "text": "That's not fair!" },
+            { "emoji": "🧑‍⚖️", "text": "What are the rules?" },
+            { "emoji": "🧑‍⚖️", "text": "Was that a foul?" },
             { "emoji": "🧑‍⚖️", "text": "It's the referee." },
             { "emoji": "🧑‍⚖️", "text": "The referee blows the whistle." },
             { "emoji": "🧑‍⚖️", "text": "The referee enforces the rules." },
@@ -440,19 +516,25 @@
         "fr": {
           "label": "Entraîneur",
           "phrases": [
+            { "emoji": "🧑‍🏫", "text": "Où est l'entraîneur ?" },
+            { "emoji": "🧑‍🏫", "text": "J'ai besoin de l'entraîneur." },
+            { "emoji": "🧑‍🏫", "text": "L'entraîneur peut-il m'aider ?" },
+            { "emoji": "🧑‍🏫", "text": "J'aime mon entraîneur." },
             { "emoji": "🧑‍🏫", "text": "C'est l'entraîneur." },
             { "emoji": "🧑‍🏫", "text": "L'entraîneur me guide." },
-            { "emoji": "🧑‍🏫", "text": "L'entraîneur m'aide à progresser." },
-            { "emoji": "🧑‍🏫", "text": "J'aime mon entraîneur." }
+            { "emoji": "🧑‍🏫", "text": "L'entraîneur m'aide à progresser." }
           ]
         },
         "en": {
           "label": "Coach",
           "phrases": [
+            { "emoji": "🧑‍🏫", "text": "Where is the coach?" },
+            { "emoji": "🧑‍🏫", "text": "I need the coach." },
+            { "emoji": "🧑‍🏫", "text": "Can the coach help me?" },
+            { "emoji": "🧑‍🏫", "text": "I like my coach." },
             { "emoji": "🧑‍🏫", "text": "It's the coach." },
             { "emoji": "🧑‍🏫", "text": "The coach guides me." },
-            { "emoji": "🧑‍🏫", "text": "The coach helps me improve." },
-            { "emoji": "🧑‍🏫", "text": "I like my coach." }
+            { "emoji": "🧑‍🏫", "text": "The coach helps me improve." }
           ]
         }
       }
@@ -467,7 +549,9 @@
             { "emoji": "⚔️", "text": "Je fais du kendo." },
             { "emoji": "⚔️", "text": "Je veux faire du kendo." },
             { "emoji": "⚔️", "text": "J'aime le kendo." },
-            { "emoji": "⚔️", "text": "Je m'entraîne au sabre." }
+            { "emoji": "⚔️", "text": "Je m'entraîne au sabre." },
+            { "emoji": "⚔️", "text": "Puis-je essayer le kendo ?" },
+            { "emoji": "⚔️", "text": "Aimes-tu le kendo ?" }
           ]
         },
         "en": {
@@ -476,7 +560,9 @@
             { "emoji": "⚔️", "text": "I do kendo." },
             { "emoji": "⚔️", "text": "I want to do kendo." },
             { "emoji": "⚔️", "text": "I like kendo." },
-            { "emoji": "⚔️", "text": "I train with the sword." }
+            { "emoji": "⚔️", "text": "I train with the sword." },
+            { "emoji": "⚔️", "text": "Can I try kendo?" },
+            { "emoji": "⚔️", "text": "Do you like kendo?" }
           ]
         }
       }
@@ -491,7 +577,9 @@
             { "emoji": "🏓", "text": "Je joue au tennis de table." },
             { "emoji": "🏓", "text": "Je veux jouer au ping-pong." },
             { "emoji": "🏓", "text": "J'aime le tennis de table." },
-            { "emoji": "🏓", "text": "Je tiens la raquette." }
+            { "emoji": "🏓", "text": "Je tiens la raquette." },
+            { "emoji": "🏓", "text": "Puis-je jouer au tennis de table ?" },
+            { "emoji": "🏓", "text": "Veux-tu jouer au tennis de table avec moi ?" }
           ]
         },
         "en": {
@@ -500,7 +588,9 @@
             { "emoji": "🏓", "text": "I play table tennis." },
             { "emoji": "🏓", "text": "I want to play ping pong." },
             { "emoji": "🏓", "text": "I like table tennis." },
-            { "emoji": "🏓", "text": "I hold the paddle." }
+            { "emoji": "🏓", "text": "I hold the paddle." },
+            { "emoji": "🏓", "text": "Can I play table tennis?" },
+            { "emoji": "🏓", "text": "Do you want to play table tennis with me?" }
           ]
         }
       }
@@ -514,8 +604,10 @@
           "phrases": [
             { "emoji": "🏅", "text": "J'ai gagné une médaille." },
             { "emoji": "🏅", "text": "Je veux une médaille." },
-            { "emoji": "🏅", "text": "Ma médaille est en or." },
-            { "emoji": "🏅", "text": "Je suis fier de ma médaille." }
+            { "emoji": "🏅", "text": "Regarde ma médaille !" },
+            { "emoji": "🏅", "text": "Je suis fier de ma médaille." },
+            { "emoji": "🏅", "text": "Puis-je voir ta médaille ?" },
+            { "emoji": "🏅", "text": "Ma médaille est en or." }
           ]
         },
         "en": {
@@ -523,8 +615,10 @@
           "phrases": [
             { "emoji": "🏅", "text": "I won a medal." },
             { "emoji": "🏅", "text": "I want a medal." },
-            { "emoji": "🏅", "text": "My medal is gold." },
-            { "emoji": "🏅", "text": "I'm proud of my medal." }
+            { "emoji": "🏅", "text": "Look at my medal!" },
+            { "emoji": "🏅", "text": "I'm proud of my medal." },
+            { "emoji": "🏅", "text": "Can I see your medal?" },
+            { "emoji": "🏅", "text": "My medal is gold." }
           ]
         }
       }
@@ -539,7 +633,8 @@
             { "emoji": "🥇", "text": "Je monte sur le podium." },
             { "emoji": "🥇", "text": "Je suis premier sur le podium." },
             { "emoji": "🥇", "text": "J'ai gagné la compétition." },
-            { "emoji": "🥇", "text": "Je suis content d'être sur le podium." }
+            { "emoji": "🥇", "text": "Je suis content d'être sur le podium." },
+            { "emoji": "🥇", "text": "Puis-je monter sur le podium ?" }
           ]
         },
         "en": {
@@ -548,7 +643,8 @@
             { "emoji": "🥇", "text": "I step on the podium." },
             { "emoji": "🥇", "text": "I'm first on the podium." },
             { "emoji": "🥇", "text": "I won the competition." },
-            { "emoji": "🥇", "text": "I'm happy to be on the podium." }
+            { "emoji": "🥇", "text": "I'm happy to be on the podium." },
+            { "emoji": "🥇", "text": "Can I go on the podium?" }
           ]
         }
       }
@@ -563,7 +659,9 @@
             { "emoji": "🏆", "text": "Je participe à une compétition." },
             { "emoji": "🏆", "text": "Je veux gagner la compétition." },
             { "emoji": "🏆", "text": "J'aime les compétitions." },
-            { "emoji": "🏆", "text": "Je gagne le trophée." }
+            { "emoji": "🏆", "text": "Je gagne le trophée." },
+            { "emoji": "🏆", "text": "Puis-je participer à la compétition ?" },
+            { "emoji": "🏆", "text": "Aimes-tu les compétitions ?" }
           ]
         },
         "en": {
@@ -572,7 +670,9 @@
             { "emoji": "🏆", "text": "I participate in a competition." },
             { "emoji": "🏆", "text": "I want to win the competition." },
             { "emoji": "🏆", "text": "I like competitions." },
-            { "emoji": "🏆", "text": "I win the trophy." }
+            { "emoji": "🏆", "text": "I win the trophy." },
+            { "emoji": "🏆", "text": "Can I take part in the competition?" },
+            { "emoji": "🏆", "text": "Do you like competitions?" }
           ]
         }
       }

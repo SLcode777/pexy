@@ -14,7 +14,7 @@
         "en": {
           "label": "Doctor",
           "phrases": [
-            { "emoji": "👨‍⚕️", "text": "What does a doctor do ?" },
+            { "emoji": "👨‍⚕️", "text": "What does a doctor do?" },
             { "emoji": "👨‍⚕️", "text": "I want to be a doctor." }
           ]
         }
@@ -35,7 +35,7 @@
         "en": {
           "label": "Firefighter",
           "phrases": [
-            { "emoji": "👨‍🚒", "text": "What does a firefighter do ?" },
+            { "emoji": "👨‍🚒", "text": "What does a firefighter do?" },
             { "emoji": "👨‍🚒", "text": "I want to be a firefighter." }
           ]
         }
@@ -56,7 +56,7 @@
         "en": {
           "label": "Teacher",
           "phrases": [
-            { "emoji": "👨‍🏫", "text": "What does a teacher do ?" },
+            { "emoji": "👨‍🏫", "text": "What does a teacher do?" },
             { "emoji": "👨‍🏫", "text": "I want to be a teacher." }
           ]
         }
@@ -77,7 +77,7 @@
         "en": {
           "label": "Police Officer",
           "phrases": [
-            { "emoji": "👮", "text": "What does a police officer do ?" },
+            { "emoji": "👮", "text": "What does a police officer do?" },
             { "emoji": "👮", "text": "I want to be a police officer." }
           ]
         }
@@ -98,7 +98,7 @@
         "en": {
           "label": "Farmer",
           "phrases": [
-            { "emoji": "👨‍🌾", "text": "What does a farmer do ?" },
+            { "emoji": "👨‍🌾", "text": "What does a farmer do?" },
             { "emoji": "👨‍🌾", "text": "I want to be a farmer." }
           ]
         }
@@ -119,7 +119,7 @@
         "en": {
           "label": "Cook",
           "phrases": [
-            { "emoji": "👨‍🍳", "text": "What does a cook do ?" },
+            { "emoji": "👨‍🍳", "text": "What does a cook do?" },
             { "emoji": "👨‍🍳", "text": "I want to be a cook." }
           ]
         }
@@ -140,7 +140,7 @@
         "en": {
           "label": "Mechanic",
           "phrases": [
-            { "emoji": "👨‍🔧", "text": "What does a mechanic do ?" },
+            { "emoji": "👨‍🔧", "text": "What does a mechanic do?" },
             { "emoji": "👨‍🔧", "text": "I want to be a mechanic." }
           ]
         }
@@ -160,7 +160,7 @@
         "en": {
           "label": "Scientist",
           "phrases": [
-            { "emoji": "👨‍🔬", "text": "What does a scientist do ?" },
+            { "emoji": "👨‍🔬", "text": "What does a scientist do?" },
             { "emoji": "👨‍🔬", "text": "I want to be a scientist." }
           ]
         }
@@ -180,7 +180,7 @@
         "en": {
           "label": "Artist",
           "phrases": [
-            { "emoji": "👨‍🎨", "text": "What does an artist do ?" },
+            { "emoji": "👨‍🎨", "text": "What does an artist do?" },
             { "emoji": "👨‍🎨", "text": "I want to be an artist." }
           ]
         }
@@ -201,7 +201,7 @@
         "en": {
           "label": "Singer",
           "phrases": [
-            { "emoji": "👨‍🎤", "text": "What does a singer do ?" },
+            { "emoji": "👨‍🎤", "text": "What does a singer do?" },
             { "emoji": "👨‍🎤", "text": "I want to be a singer." }
           ]
         }
@@ -221,7 +221,7 @@
         "en": {
           "label": "Pilot",
           "phrases": [
-            { "emoji": "👨‍✈️", "text": "What does a pilot do ?" },
+            { "emoji": "👨‍✈️", "text": "What does a pilot do?" },
             { "emoji": "👨‍✈️", "text": "I want to be a pilot." }
           ]
         }
@@ -241,7 +241,7 @@
         "en": {
           "label": "Astronaut",
           "phrases": [
-            { "emoji": "👨‍🚀", "text": "What does an astronaut do ?" },
+            { "emoji": "👨‍🚀", "text": "What does an astronaut do?" },
             { "emoji": "👨‍🚀", "text": "I want to be an astronaut." }
           ]
         }
@@ -262,7 +262,7 @@
         "en": {
           "label": "Construction Worker",
           "phrases": [
-            { "emoji": "👷", "text": "What does a construction worker do ?" },
+            { "emoji": "👷", "text": "What does a construction worker do?" },
             { "emoji": "👷", "text": "I want to be a construction worker." }
           ]
         }
@@ -282,7 +282,7 @@
         "en": {
           "label": "Judge",
           "phrases": [
-            { "emoji": "🧑‍⚖️", "text": "What does a judge do ?" },
+            { "emoji": "🧑‍⚖️", "text": "What does a judge do?" },
             { "emoji": "🧑‍⚖️", "text": "I want to be a judge." }
           ]
         }
@@ -303,7 +303,7 @@
         "en": {
           "label": "Nurse",
           "phrases": [
-            { "emoji": "👩‍⚕️", "text": "What does a nurse do ?" },
+            { "emoji": "👩‍⚕️", "text": "What does a nurse do?" },
             { "emoji": "👩‍⚕️", "text": "I want to be a nurse." }
           ]
         }
@@ -323,7 +323,7 @@
         "en": {
           "label": "Dentist",
           "phrases": [
-            { "emoji": "🦷", "text": "What does a dentist do ?" },
+            { "emoji": "🦷", "text": "What does a dentist do?" },
             { "emoji": "🦷", "text": "I want to be a dentist." }
           ]
         }
@@ -344,7 +344,7 @@
         "en": {
           "label": "Pharmacist",
           "phrases": [
-            { "emoji": "💊", "text": "What does a pharmacist do ?" },
+            { "emoji": "💊", "text": "What does a pharmacist do?" },
             { "emoji": "💊", "text": "I want to be a pharmacist." }
           ]
         }
@@ -365,7 +365,7 @@
         "en": {
           "label": "Hairdresser",
           "phrases": [
-            { "emoji": "💇", "text": "What does a hairdresser do ?" },
+            { "emoji": "💇", "text": "What does a hairdresser do?" },
             { "emoji": "💇", "text": "I want to be a hairdresser." }
           ]
         }
@@ -386,7 +386,7 @@
         "en": {
           "label": "Mail Carrier",
           "phrases": [
-            { "emoji": "📬", "text": "What does a mail carrier do ?" },
+            { "emoji": "📬", "text": "What does a mail carrier do?" },
             { "emoji": "📬", "text": "I want to be a mail carrier." }
           ]
         }
@@ -407,7 +407,7 @@
         "en": {
           "label": "Delivery Person",
           "phrases": [
-            { "emoji": "📦", "text": "What does a delivery person do ?" },
+            { "emoji": "📦", "text": "What does a delivery person do?" },
             { "emoji": "📦", "text": "I want to be a delivery person." }
           ]
         }
@@ -428,7 +428,7 @@
         "en": {
           "label": "Bus Driver",
           "phrases": [
-            { "emoji": "🚌", "text": "What does a bus driver do ?" },
+            { "emoji": "🚌", "text": "What does a bus driver do?" },
             { "emoji": "🚌", "text": "I want to be a bus driver." }
           ]
         }
@@ -449,7 +449,7 @@
         "en": {
           "label": "Taxi Driver",
           "phrases": [
-            { "emoji": "🚕", "text": "What does a taxi driver do ?" },
+            { "emoji": "🚕", "text": "What does a taxi driver do?" },
             { "emoji": "🚕", "text": "I want to be a taxi driver." }
           ]
         }
@@ -470,7 +470,7 @@
         "en": {
           "label": "Waiter / Waitress",
           "phrases": [
-            { "emoji": "🍽️", "text": "What does a waiter do ?" },
+            { "emoji": "🍽️", "text": "What does a waiter do?" },
             { "emoji": "🍽️", "text": "I want to be a waiter." },
             { "emoji": "🍽️", "text": "I want to be a waitress." }
           ]
@@ -492,7 +492,7 @@
         "en": {
           "label": "Baker",
           "phrases": [
-            { "emoji": "🥖", "text": "What does a baker do ?" },
+            { "emoji": "🥖", "text": "What does a baker do?" },
             { "emoji": "🥖", "text": "I want to be a baker." }
           ]
         }
@@ -513,7 +513,7 @@
         "en": {
           "label": "Butcher",
           "phrases": [
-            { "emoji": "🥩", "text": "What does a butcher do ?" },
+            { "emoji": "🥩", "text": "What does a butcher do?" },
             { "emoji": "🥩", "text": "I want to be a butcher." }
           ]
         }
@@ -533,7 +533,7 @@
         "en": {
           "label": "Florist",
           "phrases": [
-            { "emoji": "💐", "text": "What does a florist do ?" },
+            { "emoji": "💐", "text": "What does a florist do?" },
             { "emoji": "💐", "text": "I want to be a florist." }
           ]
         }
@@ -554,7 +554,7 @@
         "en": {
           "label": "Gardener",
           "phrases": [
-            { "emoji": "🌻", "text": "What does a gardener do ?" },
+            { "emoji": "🌻", "text": "What does a gardener do?" },
             { "emoji": "🌻", "text": "I want to be a gardener." }
           ]
         }
@@ -575,7 +575,7 @@
         "en": {
           "label": "Electrician",
           "phrases": [
-            { "emoji": "⚡", "text": "What does an electrician do ?" },
+            { "emoji": "⚡", "text": "What does an electrician do?" },
             { "emoji": "⚡", "text": "I want to be an electrician." }
           ]
         }
@@ -596,7 +596,7 @@
         "en": {
           "label": "Plumber",
           "phrases": [
-            { "emoji": "🔧", "text": "What does a plumber do ?" },
+            { "emoji": "🔧", "text": "What does a plumber do?" },
             { "emoji": "🔧", "text": "I want to be a plumber." }
           ]
         }
@@ -616,7 +616,7 @@
         "en": {
           "label": "Architect",
           "phrases": [
-            { "emoji": "📐", "text": "What does an architect do ?" },
+            { "emoji": "📐", "text": "What does an architect do?" },
             { "emoji": "📐", "text": "I want to be an architect." }
           ]
         }
@@ -636,7 +636,7 @@
         "en": {
           "label": "Photographer",
           "phrases": [
-            { "emoji": "📷", "text": "What does a photographer do ?" },
+            { "emoji": "📷", "text": "What does a photographer do?" },
             { "emoji": "📷", "text": "I want to be a photographer." }
           ]
         }
@@ -656,7 +656,7 @@
         "en": {
           "label": "Journalist",
           "phrases": [
-            { "emoji": "📰", "text": "What does a journalist do ?" },
+            { "emoji": "📰", "text": "What does a journalist do?" },
             { "emoji": "📰", "text": "I want to be a journalist." }
           ]
         }
@@ -676,7 +676,7 @@
         "en": {
           "label": "Librarian",
           "phrases": [
-            { "emoji": "📚", "text": "What does a librarian do ?" },
+            { "emoji": "📚", "text": "What does a librarian do?" },
             { "emoji": "📚", "text": "I want to be a librarian." }
           ]
         }
@@ -697,7 +697,7 @@
         "en": {
           "label": "Cashier",
           "phrases": [
-            { "emoji": "💰", "text": "What does a cashier do ?" },
+            { "emoji": "💰", "text": "What does a cashier do?" },
             { "emoji": "💰", "text": "I want to be a cashier." }
           ]
         }
@@ -718,7 +718,7 @@
         "en": {
           "label": "Salesperson",
           "phrases": [
-            { "emoji": "🛍️", "text": "What does a salesperson do ?" },
+            { "emoji": "🛍️", "text": "What does a salesperson do?" },
             { "emoji": "🛍️", "text": "I want to be a salesperson." }
           ]
         }
@@ -738,7 +738,7 @@
         "en": {
           "label": "Secretary",
           "phrases": [
-            { "emoji": "🗂️", "text": "What does a secretary do ?" },
+            { "emoji": "🗂️", "text": "What does a secretary do?" },
             { "emoji": "🗂️", "text": "I want to be a secretary." }
           ]
         }
@@ -758,7 +758,7 @@
         "en": {
           "label": "Accountant",
           "phrases": [
-            { "emoji": "🧮", "text": "What does an accountant do ?" },
+            { "emoji": "🧮", "text": "What does an accountant do?" },
             { "emoji": "🧮", "text": "I want to be an accountant." }
           ]
         }
@@ -779,7 +779,7 @@
         "en": {
           "label": "Banker",
           "phrases": [
-            { "emoji": "🏦", "text": "What does a banker do ?" },
+            { "emoji": "🏦", "text": "What does a banker do?" },
             { "emoji": "🏦", "text": "I want to be a banker." }
           ]
         }
@@ -800,7 +800,7 @@
         "en": {
           "label": "Garbage Collector",
           "phrases": [
-            { "emoji": "🗑️", "text": "What does a garbage collector do ?" },
+            { "emoji": "🗑️", "text": "What does a garbage collector do?" },
             { "emoji": "🗑️", "text": "I want to be a garbage collector." }
           ]
         }
@@ -821,7 +821,7 @@
         "en": {
           "label": "Cleaner",
           "phrases": [
-            { "emoji": "🧹", "text": "What does a cleaner do ?" },
+            { "emoji": "🧹", "text": "What does a cleaner do?" },
             { "emoji": "🧹", "text": "I want to be a cleaner." }
           ]
         }
@@ -841,7 +841,7 @@
         "en": {
           "label": "Painter",
           "phrases": [
-            { "emoji": "🎨", "text": "What does a painter do ?" },
+            { "emoji": "🎨", "text": "What does a painter do?" },
             { "emoji": "🎨", "text": "I want to be a painter." }
           ]
         }
@@ -862,7 +862,7 @@
         "en": {
           "label": "Mason",
           "phrases": [
-            { "emoji": "🧱", "text": "What does a mason do ?" },
+            { "emoji": "🧱", "text": "What does a mason do?" },
             { "emoji": "🧱", "text": "I want to be a mason." }
           ]
         }
@@ -882,7 +882,7 @@
         "en": {
           "label": "Veterinarian",
           "phrases": [
-            { "emoji": "🐾", "text": "What does a veterinarian do ?" },
+            { "emoji": "🐾", "text": "What does a veterinarian do?" },
             { "emoji": "🐾", "text": "I want to be a veterinarian." }
           ]
         }
@@ -903,7 +903,7 @@
         "en": {
           "label": "Lawyer",
           "phrases": [
-            { "emoji": "⚖️", "text": "What does a lawyer do ?" },
+            { "emoji": "⚖️", "text": "What does a lawyer do?" },
             { "emoji": "⚖️", "text": "I want to be a lawyer." }
           ]
         }
@@ -924,7 +924,7 @@
         "en": {
           "label": "Engineer",
           "phrases": [
-            { "emoji": "⚙️", "text": "What does an engineer do ?" },
+            { "emoji": "⚙️", "text": "What does an engineer do?" },
             { "emoji": "⚙️", "text": "I want to be an engineer." }
           ]
         }
@@ -945,7 +945,7 @@
         "en": {
           "label": "Musician",
           "phrases": [
-            { "emoji": "🎵", "text": "What does a musician do ?" },
+            { "emoji": "🎵", "text": "What does a musician do?" },
             { "emoji": "🎵", "text": "I want to be a musician." }
           ]
         }
@@ -966,7 +966,7 @@
         "en": {
           "label": "Writer",
           "phrases": [
-            { "emoji": "✍️", "text": "What does a writer do ?" },
+            { "emoji": "✍️", "text": "What does a writer do?" },
             { "emoji": "✍️", "text": "I want to be a writer." }
           ]
         }
@@ -986,7 +986,7 @@
         "en": {
           "label": "Detective",
           "phrases": [
-            { "emoji": "🕵️", "text": "What does a detective do ?" },
+            { "emoji": "🕵️", "text": "What does a detective do?" },
             { "emoji": "🕵️", "text": "I want to be a detective." }
           ]
         }
@@ -1006,7 +1006,7 @@
         "en": {
           "label": "Sailor",
           "phrases": [
-            { "emoji": "⛵", "text": "What does a sailor do ?" },
+            { "emoji": "⛵", "text": "What does a sailor do?" },
             { "emoji": "⛵", "text": "I want to be a sailor." }
           ]
         }
@@ -1027,7 +1027,7 @@
         "en": {
           "label": "Lifeguard",
           "phrases": [
-            { "emoji": "🏊", "text": "What does a lifeguard do ?" },
+            { "emoji": "🏊", "text": "What does a lifeguard do?" },
             { "emoji": "🏊", "text": "I want to be a lifeguard." }
           ]
         }
@@ -1047,7 +1047,7 @@
         "en": {
           "label": "Astronomer",
           "phrases": [
-            { "emoji": "🔭", "text": "What does an astronomer do ?" },
+            { "emoji": "🔭", "text": "What does an astronomer do?" },
             { "emoji": "🔭", "text": "I want to be an astronomer." }
           ]
         }
@@ -1067,7 +1067,7 @@
         "en": {
           "label": "Archaeologist",
           "phrases": [
-            { "emoji": "🏺", "text": "What does an archaeologist do ?" },
+            { "emoji": "🏺", "text": "What does an archaeologist do?" },
             { "emoji": "🏺", "text": "I want to be an archaeologist." }
           ]
         }
@@ -1088,7 +1088,7 @@
         "en": {
           "label": "Magician",
           "phrases": [
-            { "emoji": "🎩", "text": "What does a magician do ?" },
+            { "emoji": "🎩", "text": "What does a magician do?" },
             { "emoji": "🎩", "text": "I want to be a magician." }
           ]
         }
@@ -1109,7 +1109,7 @@
         "en": {
           "label": "Professional Athlete",
           "phrases": [
-            { "emoji": "🏃", "text": "What does a professional athlete do ?" },
+            { "emoji": "🏃", "text": "What does a professional athlete do?" },
             { "emoji": "🏃", "text": "I want to be a professional athlete." }
           ]
         }
@@ -1130,7 +1130,7 @@
         "en": {
           "label": "Lumberjack",
           "phrases": [
-            { "emoji": "🪓", "text": "What does a lumberjack do ?" },
+            { "emoji": "🪓", "text": "What does a lumberjack do?" },
             { "emoji": "🪓", "text": "I want to be a lumberjack." }
           ]
         }
@@ -1151,7 +1151,7 @@
         "en": {
           "label": "Miner",
           "phrases": [
-            { "emoji": "⛏️", "text": "What does a miner do ?" },
+            { "emoji": "⛏️", "text": "What does a miner do?" },
             { "emoji": "⛏️", "text": "I want to be a miner." }
           ]
         }
@@ -1172,7 +1172,7 @@
         "en": {
           "label": "Fisherman",
           "phrases": [
-            { "emoji": "🎣", "text": "What does a fisherman do ?" },
+            { "emoji": "🎣", "text": "What does a fisherman do?" },
             { "emoji": "🎣", "text": "I want to be a fisherman." }
           ]
         }
@@ -1192,7 +1192,7 @@
         "en": {
           "label": "Priest",
           "phrases": [
-            { "emoji": "⛪", "text": "What does a priest do ?" },
+            { "emoji": "⛪", "text": "What does a priest do?" },
             { "emoji": "⛪", "text": "I want to be a priest." }
           ]
         }
@@ -1212,7 +1212,7 @@
         "en": {
           "label": "Soldier",
           "phrases": [
-            { "emoji": "🪖", "text": "What does a soldier do ?" },
+            { "emoji": "🪖", "text": "What does a soldier do?" },
             { "emoji": "🪖", "text": "I want to be a soldier." }
           ]
         }
@@ -1233,7 +1233,7 @@
         "en": {
           "label": "Carpenter",
           "phrases": [
-            { "emoji": "🪚", "text": "What does a carpenter do ?" },
+            { "emoji": "🪚", "text": "What does a carpenter do?" },
             { "emoji": "🪚", "text": "I want to be a carpenter." }
           ]
         }
@@ -1253,7 +1253,7 @@
         "en": {
           "label": "Truck Driver",
           "phrases": [
-            { "emoji": "🚛", "text": "What does a truck driver do ?" },
+            { "emoji": "🚛", "text": "What does a truck driver do?" },
             { "emoji": "🚛", "text": "I want to be a truck driver." }
           ]
         }
@@ -1277,7 +1277,7 @@
         "en": {
           "label": "Flight Attendant",
           "phrases": [
-            { "emoji": "✈️", "text": "What does a flight attendant do ?" },
+            { "emoji": "✈️", "text": "What does a flight attendant do?" },
             { "emoji": "✈️", "text": "I want to be a flight attendant." }
           ]
         }
@@ -1298,7 +1298,7 @@
         "en": {
           "label": "Actor / Actress",
           "phrases": [
-            { "emoji": "✈️", "text": "What does an actor do ?" },
+            { "emoji": "✈️", "text": "What does an actor do?" },
             { "emoji": "✈️", "text": "I want to be an actor." },
             { "emoji": "✈️", "text": "I want to be an actress." }
           ]

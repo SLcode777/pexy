@@ -19,6 +19,10 @@
             {
               "emoji": "❤️",
               "text": "J'aime les crayons de couleurs."
+            },
+            {
+              "emoji": "🖍️",
+              "text": "Puis-je avoir les crayons ?"
             }
           ]
         },
@@ -31,11 +35,15 @@
             },
             {
               "emoji": "👀",
-              "text": "Where are the pencils ?"
+              "text": "Where are the pencils?"
             },
             {
               "emoji": "❤️",
               "text": "I like colored pencils."
+            },
+            {
+              "emoji": "🖍️",
+              "text": "Can I have the pencils?"
             }
           ]
         }
@@ -50,7 +58,7 @@
           "phrases": [
             {
               "emoji": "🔴",
-              "text": "C'est rouge."
+              "text": "Puis-je avoir le rouge ?"
             },
             {
               "emoji": "🔴",
@@ -63,6 +71,14 @@
             {
               "emoji": "❤️",
               "text": "Le rouge est ma couleur préférée."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Aimes-tu le rouge ?"
+            },
+            {
+              "emoji": "🔴",
+              "text": "C'est rouge."
             }
           ]
         },
@@ -71,7 +87,7 @@
           "phrases": [
             {
               "emoji": "🔴",
-              "text": "It's red."
+              "text": "Can I have the red one?"
             },
             {
               "emoji": "🔴",
@@ -84,6 +100,14 @@
             {
               "emoji": "❤️",
               "text": "Red is my favorite color."
+            },
+            {
+              "emoji": "❤️",
+              "text": "Do you like red?"
+            },
+            {
+              "emoji": "🔴",
+              "text": "It's red."
             }
           ]
         }
@@ -98,7 +122,7 @@
           "phrases": [
             {
               "emoji": "🔵",
-              "text": "C'est bleu."
+              "text": "Puis-je avoir le bleu ?"
             },
             {
               "emoji": "🔵",
@@ -111,6 +135,14 @@
             {
               "emoji": "💙",
               "text": "Le bleu est ma couleur préférée."
+            },
+            {
+              "emoji": "💙",
+              "text": "Aimes-tu le bleu ?"
+            },
+            {
+              "emoji": "🔵",
+              "text": "C'est bleu."
             }
           ]
         },
@@ -119,7 +151,7 @@
           "phrases": [
             {
               "emoji": "🔵",
-              "text": "It's blue."
+              "text": "Can I have the blue one?"
             },
             {
               "emoji": "🔵",
@@ -132,6 +164,14 @@
             {
               "emoji": "💙",
               "text": "Blue is my favorite color."
+            },
+            {
+              "emoji": "💙",
+              "text": "Do you like blue?"
+            },
+            {
+              "emoji": "🔵",
+              "text": "It's blue."
             }
           ]
         }
@@ -146,7 +186,7 @@
           "phrases": [
             {
               "emoji": "🟠",
-              "text": "C'est orange."
+              "text": "Puis-je avoir l'orange ?"
             },
             {
               "emoji": "🟠",
@@ -159,6 +199,14 @@
             {
               "emoji": "🧡",
               "text": "L'orange est ma couleur préférée."
+            },
+            {
+              "emoji": "🧡",
+              "text": "Aimes-tu l'orange ?"
+            },
+            {
+              "emoji": "🟠",
+              "text": "C'est orange."
             }
           ]
         },
@@ -167,7 +215,7 @@
           "phrases": [
             {
               "emoji": "🟠",
-              "text": "It's orange."
+              "text": "Can I have the orange one?"
             },
             {
               "emoji": "🟠",
@@ -180,6 +228,14 @@
             {
               "emoji": "🧡",
               "text": "Orange is my favorite color."
+            },
+            {
+              "emoji": "🧡",
+              "text": "Do you like orange?"
+            },
+            {
+              "emoji": "🟠",
+              "text": "It's orange."
             }
           ]
         }
@@ -194,7 +250,7 @@
           "phrases": [
             {
               "emoji": "🟢",
-              "text": "C'est vert."
+              "text": "Puis-je avoir le vert ?"
             },
             {
               "emoji": "🟢",
@@ -207,6 +263,14 @@
             {
               "emoji": "💚",
               "text": "Le vert est ma couleur préférée."
+            },
+            {
+              "emoji": "💚",
+              "text": "Aimes-tu le vert ?"
+            },
+            {
+              "emoji": "🟢",
+              "text": "C'est vert."
             }
           ]
         },
@@ -215,7 +279,7 @@
           "phrases": [
             {
               "emoji": "🟢",
-              "text": "It's green."
+              "text": "Can I have the green one?"
             },
             {
               "emoji": "🟢",
@@ -228,6 +292,14 @@
             {
               "emoji": "💚",
               "text": "Green is my favorite color."
+            },
+            {
+              "emoji": "💚",
+              "text": "Do you like green?"
+            },
+            {
+              "emoji": "🟢",
+              "text": "It's green."
             }
           ]
         }
@@ -242,7 +314,7 @@
           "phrases": [
             {
               "emoji": "🟡",
-              "text": "C'est jaune."
+              "text": "Puis-je avoir le jaune ?"
             },
             {
               "emoji": "🟡",
@@ -255,6 +327,14 @@
             {
               "emoji": "💛",
               "text": "Le jaune est ma couleur préférée."
+            },
+            {
+              "emoji": "💛",
+              "text": "Aimes-tu le jaune ?"
+            },
+            {
+              "emoji": "🟡",
+              "text": "C'est jaune."
             }
           ]
         },
@@ -263,7 +343,7 @@
           "phrases": [
             {
               "emoji": "🟡",
-              "text": "It's yellow."
+              "text": "Can I have the yellow one?"
             },
             {
               "emoji": "🟡",
@@ -276,6 +356,14 @@
             {
               "emoji": "💛",
               "text": "Yellow is my favorite color."
+            },
+            {
+              "emoji": "💛",
+              "text": "Do you like yellow?"
+            },
+            {
+              "emoji": "🟡",
+              "text": "It's yellow."
             }
           ]
         }
@@ -290,7 +378,7 @@
           "phrases": [
             {
               "emoji": "🟣",
-              "text": "C'est violet."
+              "text": "Puis-je avoir le violet ?"
             },
             {
               "emoji": "🟣",
@@ -303,6 +391,14 @@
             {
               "emoji": "💜",
               "text": "Le violet est ma couleur préférée."
+            },
+            {
+              "emoji": "💜",
+              "text": "Aimes-tu le violet ?"
+            },
+            {
+              "emoji": "🟣",
+              "text": "C'est violet."
             }
           ]
         },
@@ -311,7 +407,7 @@
           "phrases": [
             {
               "emoji": "🟣",
-              "text": "It's purple."
+              "text": "Can I have the purple one?"
             },
             {
               "emoji": "🟣",
@@ -324,6 +420,14 @@
             {
               "emoji": "💜",
               "text": "Purple is my favorite color."
+            },
+            {
+              "emoji": "💜",
+              "text": "Do you like purple?"
+            },
+            {
+              "emoji": "🟣",
+              "text": "It's purple."
             }
           ]
         }
@@ -338,7 +442,7 @@
           "phrases": [
             {
               "emoji": "💗",
-              "text": "C'est rose."
+              "text": "Puis-je avoir le rose ?"
             },
             {
               "emoji": "💗",
@@ -351,6 +455,14 @@
             {
               "emoji": "💗",
               "text": "Le rose est ma couleur préférée."
+            },
+            {
+              "emoji": "💗",
+              "text": "Aimes-tu le rose ?"
+            },
+            {
+              "emoji": "💗",
+              "text": "C'est rose."
             }
           ]
         },
@@ -359,7 +471,7 @@
           "phrases": [
             {
               "emoji": "💗",
-              "text": "It's pink."
+              "text": "Can I have the pink one?"
             },
             {
               "emoji": "💗",
@@ -372,6 +484,14 @@
             {
               "emoji": "💗",
               "text": "Pink is my favorite color."
+            },
+            {
+              "emoji": "💗",
+              "text": "Do you like pink?"
+            },
+            {
+              "emoji": "💗",
+              "text": "It's pink."
             }
           ]
         }
@@ -386,7 +506,7 @@
           "phrases": [
             {
               "emoji": "🟤",
-              "text": "C'est marron."
+              "text": "Puis-je avoir le marron ?"
             },
             {
               "emoji": "🟤",
@@ -399,6 +519,14 @@
             {
               "emoji": "🤎",
               "text": "Le marron est ma couleur préférée."
+            },
+            {
+              "emoji": "🤎",
+              "text": "Aimes-tu le marron ?"
+            },
+            {
+              "emoji": "🟤",
+              "text": "C'est marron."
             }
           ]
         },
@@ -407,7 +535,7 @@
           "phrases": [
             {
               "emoji": "🟤",
-              "text": "It's brown."
+              "text": "Can I have the brown one?"
             },
             {
               "emoji": "🟤",
@@ -420,6 +548,14 @@
             {
               "emoji": "🤎",
               "text": "Brown is my favorite color."
+            },
+            {
+              "emoji": "🤎",
+              "text": "Do you like brown?"
+            },
+            {
+              "emoji": "🟤",
+              "text": "It's brown."
             }
           ]
         }
@@ -434,7 +570,7 @@
           "phrases": [
             {
               "emoji": "⚫",
-              "text": "C'est noir."
+              "text": "Puis-je avoir le noir ?"
             },
             {
               "emoji": "⚫",
@@ -447,6 +583,14 @@
             {
               "emoji": "🖤",
               "text": "Le noir est ma couleur préférée."
+            },
+            {
+              "emoji": "🖤",
+              "text": "Aimes-tu le noir ?"
+            },
+            {
+              "emoji": "⚫",
+              "text": "C'est noir."
             }
           ]
         },
@@ -455,7 +599,7 @@
           "phrases": [
             {
               "emoji": "⚫",
-              "text": "It's black."
+              "text": "Can I have the black one?"
             },
             {
               "emoji": "⚫",
@@ -468,6 +612,14 @@
             {
               "emoji": "🖤",
               "text": "Black is my favorite color."
+            },
+            {
+              "emoji": "🖤",
+              "text": "Do you like black?"
+            },
+            {
+              "emoji": "⚫",
+              "text": "It's black."
             }
           ]
         }
@@ -482,7 +634,7 @@
           "phrases": [
             {
               "emoji": "⚪",
-              "text": "C'est blanc."
+              "text": "Puis-je avoir le blanc ?"
             },
             {
               "emoji": "⚪",
@@ -495,6 +647,14 @@
             {
               "emoji": "🤍",
               "text": "Le blanc est ma couleur préférée."
+            },
+            {
+              "emoji": "🤍",
+              "text": "Aimes-tu le blanc ?"
+            },
+            {
+              "emoji": "⚪",
+              "text": "C'est blanc."
             }
           ]
         },
@@ -503,7 +663,7 @@
           "phrases": [
             {
               "emoji": "⚪",
-              "text": "It's white."
+              "text": "Can I have the white one?"
             },
             {
               "emoji": "⚪",
@@ -516,6 +676,14 @@
             {
               "emoji": "🤍",
               "text": "White is my favorite color."
+            },
+            {
+              "emoji": "🤍",
+              "text": "Do you like white?"
+            },
+            {
+              "emoji": "⚪",
+              "text": "It's white."
             }
           ]
         }
@@ -530,7 +698,7 @@
           "phrases": [
             {
               "emoji": "🌫️",
-              "text": "C'est gris."
+              "text": "Puis-je avoir le gris ?"
             },
             {
               "emoji": "🌫️",
@@ -543,6 +711,14 @@
             {
               "emoji": "🌫️",
               "text": "Le gris est ma couleur préférée."
+            },
+            {
+              "emoji": "🌫️",
+              "text": "Aimes-tu le gris ?"
+            },
+            {
+              "emoji": "🌫️",
+              "text": "C'est gris."
             }
           ]
         },
@@ -551,7 +727,7 @@
           "phrases": [
             {
               "emoji": "🌫️",
-              "text": "It's gray."
+              "text": "Can I have the gray one?"
             },
             {
               "emoji": "🌫️",
@@ -564,6 +740,14 @@
             {
               "emoji": "🌫️",
               "text": "Gray is my favorite color."
+            },
+            {
+              "emoji": "🌫️",
+              "text": "Do you like gray?"
+            },
+            {
+              "emoji": "🌫️",
+              "text": "It's gray."
             }
           ]
         }
@@ -578,7 +762,7 @@
           "phrases": [
             {
               "emoji": "🪟",
-              "text": "C'est transparent."
+              "text": "Puis-je avoir le transparent ?"
             },
             {
               "emoji": "🪟",
@@ -591,6 +775,14 @@
             {
               "emoji": "🪟",
               "text": "Le transparent est ma couleur préférée."
+            },
+            {
+              "emoji": "🪟",
+              "text": "Aimes-tu le transparent ?"
+            },
+            {
+              "emoji": "🪟",
+              "text": "C'est transparent."
             }
           ]
         },
@@ -599,7 +791,7 @@
           "phrases": [
             {
               "emoji": "🪟",
-              "text": "It's transparent."
+              "text": "Can I have the transparent one?"
             },
             {
               "emoji": "🪟",
@@ -612,6 +804,14 @@
             {
               "emoji": "🪟",
               "text": "Transparent is my favorite color."
+            },
+            {
+              "emoji": "🪟",
+              "text": "Do you like transparent?"
+            },
+            {
+              "emoji": "🪟",
+              "text": "It's transparent."
             }
           ]
         }
@@ -626,7 +826,7 @@
           "phrases": [
             {
               "emoji": "💙",
-              "text": "C'est cyan."
+              "text": "Puis-je avoir le cyan ?"
             },
             {
               "emoji": "💙",
@@ -639,6 +839,14 @@
             {
               "emoji": "💙",
               "text": "Le cyan est ma couleur préférée."
+            },
+            {
+              "emoji": "💙",
+              "text": "Aimes-tu le cyan ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "C'est cyan."
             }
           ]
         },
@@ -647,7 +855,7 @@
           "phrases": [
             {
               "emoji": "💙",
-              "text": "It's cyan."
+              "text": "Can I have the cyan one?"
             },
             {
               "emoji": "💙",
@@ -660,6 +868,14 @@
             {
               "emoji": "💙",
               "text": "Cyan is my favorite color."
+            },
+            {
+              "emoji": "💙",
+              "text": "Do you like cyan?"
+            },
+            {
+              "emoji": "💙",
+              "text": "It's cyan."
             }
           ]
         }
@@ -674,7 +890,7 @@
           "phrases": [
             {
               "emoji": "🔷",
-              "text": "C'est turquoise."
+              "text": "Puis-je avoir le turquoise ?"
             },
             {
               "emoji": "🔷",
@@ -687,6 +903,14 @@
             {
               "emoji": "💙",
               "text": "Le turquoise est ma couleur préférée."
+            },
+            {
+              "emoji": "💙",
+              "text": "Aimes-tu le turquoise ?"
+            },
+            {
+              "emoji": "🔷",
+              "text": "C'est turquoise."
             }
           ]
         },
@@ -695,7 +919,7 @@
           "phrases": [
             {
               "emoji": "🔷",
-              "text": "It's turquoise."
+              "text": "Can I have the turquoise one?"
             },
             {
               "emoji": "🔷",
@@ -708,6 +932,14 @@
             {
               "emoji": "💙",
               "text": "Turquoise is my favorite color."
+            },
+            {
+              "emoji": "💙",
+              "text": "Do you like turquoise?"
+            },
+            {
+              "emoji": "🔷",
+              "text": "It's turquoise."
             }
           ]
         }
@@ -722,7 +954,7 @@
           "phrases": [
             {
               "emoji": "🟪",
-              "text": "C'est prune."
+              "text": "Puis-je avoir le prune ?"
             },
             {
               "emoji": "🟪",
@@ -735,6 +967,14 @@
             {
               "emoji": "💜",
               "text": "Le prune est ma couleur préférée."
+            },
+            {
+              "emoji": "💜",
+              "text": "Aimes-tu le prune ?"
+            },
+            {
+              "emoji": "🟪",
+              "text": "C'est prune."
             }
           ]
         },
@@ -743,7 +983,7 @@
           "phrases": [
             {
               "emoji": "🟪",
-              "text": "It's plum."
+              "text": "Can I have the plum one?"
             },
             {
               "emoji": "🟪",
@@ -756,6 +996,14 @@
             {
               "emoji": "💜",
               "text": "Plum is my favorite color."
+            },
+            {
+              "emoji": "💜",
+              "text": "Do you like plum?"
+            },
+            {
+              "emoji": "🟪",
+              "text": "It's plum."
             }
           ]
         }
@@ -770,7 +1018,7 @@
           "phrases": [
             {
               "emoji": "🟫",
-              "text": "C'est beige."
+              "text": "Puis-je avoir le beige ?"
             },
             {
               "emoji": "🟫",
@@ -783,6 +1031,14 @@
             {
               "emoji": "🤎",
               "text": "Le beige est ma couleur préférée."
+            },
+            {
+              "emoji": "🤎",
+              "text": "Aimes-tu le beige ?"
+            },
+            {
+              "emoji": "🟫",
+              "text": "C'est beige."
             }
           ]
         },
@@ -791,7 +1047,7 @@
           "phrases": [
             {
               "emoji": "🟫",
-              "text": "It's beige."
+              "text": "Can I have the beige one?"
             },
             {
               "emoji": "🟫",
@@ -804,6 +1060,14 @@
             {
               "emoji": "🤎",
               "text": "Beige is my favorite color."
+            },
+            {
+              "emoji": "🤎",
+              "text": "Do you like beige?"
+            },
+            {
+              "emoji": "🟫",
+              "text": "It's beige."
             }
           ]
         }
@@ -818,7 +1082,7 @@
           "phrases": [
             {
               "emoji": "🥑",
-              "text": "C'est vert avocat."
+              "text": "Puis-je avoir le vert avocat ?"
             },
             {
               "emoji": "🥑",
@@ -831,6 +1095,14 @@
             {
               "emoji": "💚",
               "text": "Le vert avocat est ma couleur préférée."
+            },
+            {
+              "emoji": "💚",
+              "text": "Aimes-tu le vert avocat ?"
+            },
+            {
+              "emoji": "🥑",
+              "text": "C'est vert avocat."
             }
           ]
         },
@@ -839,7 +1111,7 @@
           "phrases": [
             {
               "emoji": "🥑",
-              "text": "It's avocado green."
+              "text": "Can I have the avocado one?"
             },
             {
               "emoji": "🥑",
@@ -852,6 +1124,14 @@
             {
               "emoji": "💚",
               "text": "Avocado green is my favorite color."
+            },
+            {
+              "emoji": "💚",
+              "text": "Do you like avocado green?"
+            },
+            {
+              "emoji": "🥑",
+              "text": "It's avocado green."
             }
           ]
         }
@@ -866,7 +1146,7 @@
           "phrases": [
             {
               "emoji": "💗",
-              "text": "C'est rose barbie."
+              "text": "Puis-je avoir le rose barbie ?"
             },
             {
               "emoji": "💗",
@@ -879,6 +1159,14 @@
             {
               "emoji": "💗",
               "text": "Le rose barbie est ma couleur préférée."
+            },
+            {
+              "emoji": "💗",
+              "text": "Aimes-tu le rose barbie ?"
+            },
+            {
+              "emoji": "💗",
+              "text": "C'est rose barbie."
             }
           ]
         },
@@ -887,7 +1175,7 @@
           "phrases": [
             {
               "emoji": "💗",
-              "text": "It's barbie pink."
+              "text": "Can I have the barbie pink one?"
             },
             {
               "emoji": "💗",
@@ -900,6 +1188,14 @@
             {
               "emoji": "💗",
               "text": "Barbie pink is my favorite color."
+            },
+            {
+              "emoji": "💗",
+              "text": "Do you like barbie pink?"
+            },
+            {
+              "emoji": "💗",
+              "text": "It's barbie pink."
             }
           ]
         }
@@ -914,7 +1210,7 @@
           "phrases": [
             {
               "emoji": "💙",
-              "text": "C'est bleu ciel."
+              "text": "Puis-je avoir le bleu ciel ?"
             },
             {
               "emoji": "💙",
@@ -927,6 +1223,14 @@
             {
               "emoji": "💙",
               "text": "Le bleu ciel est ma couleur préférée."
+            },
+            {
+              "emoji": "💙",
+              "text": "Aimes-tu le bleu ciel ?"
+            },
+            {
+              "emoji": "💙",
+              "text": "C'est bleu ciel."
             }
           ]
         },
@@ -935,7 +1239,7 @@
           "phrases": [
             {
               "emoji": "💙",
-              "text": "It's sky blue."
+              "text": "Can I have the sky blue one?"
             },
             {
               "emoji": "💙",
@@ -948,6 +1252,14 @@
             {
               "emoji": "💙",
               "text": "Sky blue is my favorite color."
+            },
+            {
+              "emoji": "💙",
+              "text": "Do you like sky blue?"
+            },
+            {
+              "emoji": "💙",
+              "text": "It's sky blue."
             }
           ]
         }
@@ -962,7 +1274,7 @@
           "phrases": [
             {
               "emoji": "🍏",
-              "text": "C'est vert pomme."
+              "text": "Puis-je avoir le vert pomme ?"
             },
             {
               "emoji": "🍏",
@@ -975,6 +1287,14 @@
             {
               "emoji": "💚",
               "text": "Le vert pomme est ma couleur préférée."
+            },
+            {
+              "emoji": "💚",
+              "text": "Aimes-tu le vert pomme ?"
+            },
+            {
+              "emoji": "🍏",
+              "text": "C'est vert pomme."
             }
           ]
         },
@@ -983,7 +1303,7 @@
           "phrases": [
             {
               "emoji": "🍏",
-              "text": "It's apple green."
+              "text": "Can I have the apple green one?"
             },
             {
               "emoji": "🍏",
@@ -996,6 +1316,14 @@
             {
               "emoji": "💚",
               "text": "Apple green is my favorite color."
+            },
+            {
+              "emoji": "💚",
+              "text": "Do you like apple green?"
+            },
+            {
+              "emoji": "🍏",
+              "text": "It's apple green."
             }
           ]
         }

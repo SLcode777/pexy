@@ -7,6 +7,12 @@
         "fr": {
           "label": "Casserole",
           "phrases": [
+            { "emoji": "🍲", "text": "J'ai besoin d'une casserole." },
+            { "emoji": "🍲", "text": "Peux-tu me passer la casserole ?" },
+            {
+              "emoji": "🍲",
+              "text": "Qu'est-ce qu'il y a dans la casserole ?"
+            },
             { "emoji": "🍲", "text": "Je cuisine dans une casserole." },
             { "emoji": "🍲", "text": "La casserole est sur le feu." },
             { "emoji": "🍲", "text": "Je remue dans la casserole." },
@@ -16,6 +22,9 @@
         "en": {
           "label": "Cooking Pot",
           "phrases": [
+            { "emoji": "🍲", "text": "I need a pot." },
+            { "emoji": "🍲", "text": "Can you pass me the pot?" },
+            { "emoji": "🍲", "text": "What's in the pot?" },
             { "emoji": "🍲", "text": "I cook in a pot." },
             { "emoji": "🍲", "text": "The pot is on the stove." },
             { "emoji": "🍲", "text": "I stir in the pot." },
@@ -31,18 +40,20 @@
         "fr": {
           "label": "Poêle",
           "phrases": [
+            { "emoji": "🍳", "text": "J'ai besoin d'une poêle." },
+            { "emoji": "🍳", "text": "La poêle est chaude." },
             { "emoji": "🍳", "text": "Je cuisine dans une poêle." },
             { "emoji": "🍳", "text": "Je fais frire des œufs." },
-            { "emoji": "🍳", "text": "La poêle est chaude." },
             { "emoji": "🍳", "text": "Je retourne les aliments." }
           ]
         },
         "en": {
           "label": "Frying Pan",
           "phrases": [
+            { "emoji": "🍳", "text": "I need a frying pan." },
+            { "emoji": "🍳", "text": "The pan is hot." },
             { "emoji": "🍳", "text": "I cook in a pan." },
             { "emoji": "🍳", "text": "I fry eggs." },
-            { "emoji": "🍳", "text": "The pan is hot." },
             { "emoji": "🍳", "text": "I flip the food." }
           ]
         }
@@ -55,18 +66,26 @@
         "fr": {
           "label": "Couteau",
           "phrases": [
+            { "emoji": "🔪", "text": "J'ai besoin d'un couteau." },
+            { "emoji": "🔪", "text": "Attention, le couteau est tranchant !" },
+            { "emoji": "🔪", "text": "Je fais attention avec le couteau." },
+            { "emoji": "🔪", "text": "Peux-tu le couper pour moi ?" },
+            { "emoji": "🔪", "text": "Puis-je le couper tout seul ?" },
             { "emoji": "🔪", "text": "Je coupe avec un couteau." },
             { "emoji": "🔪", "text": "Le couteau est tranchant." },
-            { "emoji": "🔪", "text": "Je fais attention avec le couteau." },
             { "emoji": "🔪", "text": "Je coupe les légumes." }
           ]
         },
         "en": {
           "label": "Knife",
           "phrases": [
+            { "emoji": "🔪", "text": "I need a knife." },
+            { "emoji": "🔪", "text": "Be careful, the knife is sharp!" },
+            { "emoji": "🔪", "text": "I'm careful with the knife." },
+            { "emoji": "🔪", "text": "Can you cut it for me?" },
+            { "emoji": "🔪", "text": "Can I cut it myself?" },
             { "emoji": "🔪", "text": "I cut with a knife." },
             { "emoji": "🔪", "text": "The knife is sharp." },
-            { "emoji": "🔪", "text": "I'm careful with the knife." },
             { "emoji": "🔪", "text": "I cut the vegetables." }
           ]
         }
@@ -79,6 +98,8 @@
         "fr": {
           "label": "Cuillère",
           "phrases": [
+            { "emoji": "🥄", "text": "J'ai besoin d'une cuillère." },
+            { "emoji": "🥄", "text": "Puis-je avoir une cuillère ?" },
             { "emoji": "🥄", "text": "Je remue avec une cuillère." },
             { "emoji": "🥄", "text": "Je goûte avec la cuillère." },
             { "emoji": "🥄", "text": "J'utilise une grande cuillère." },
@@ -88,6 +109,8 @@
         "en": {
           "label": "Spoon",
           "phrases": [
+            { "emoji": "🥄", "text": "I need a spoon." },
+            { "emoji": "🥄", "text": "Can I have a spoon?" },
             { "emoji": "🥄", "text": "I stir with a spoon." },
             { "emoji": "🥄", "text": "I taste with the spoon." },
             { "emoji": "🥄", "text": "I use a big spoon." },
@@ -103,6 +126,9 @@
         "fr": {
           "label": "Fourchette",
           "phrases": [
+            { "emoji": "🍴", "text": "J'ai besoin d'une fourchette." },
+            { "emoji": "🍴", "text": "Puis-je avoir une fourchette ?" },
+            { "emoji": "🍴", "text": "Puis-je mettre la table ?" },
             { "emoji": "🍴", "text": "J'utilise une fourchette." },
             { "emoji": "🍴", "text": "La fourchette pique les aliments." },
             { "emoji": "🍴", "text": "Je mets la table." },
@@ -112,6 +138,9 @@
         "en": {
           "label": "Fork",
           "phrases": [
+            { "emoji": "🍴", "text": "I need a fork." },
+            { "emoji": "🍴", "text": "Can I have a fork?" },
+            { "emoji": "🍴", "text": "Can I set the table?" },
             { "emoji": "🍴", "text": "I use a fork." },
             { "emoji": "🍴", "text": "The fork picks up food." },
             { "emoji": "🍴", "text": "I set the table." },
@@ -127,6 +156,8 @@
         "fr": {
           "label": "Fouet",
           "phrases": [
+            { "emoji": "🥄", "text": "J'ai besoin d'un fouet." },
+            { "emoji": "🥄", "text": "Peux-tu me passer le fouet ?" },
             { "emoji": "🥄", "text": "Je bats avec le fouet." },
             { "emoji": "🥄", "text": "Le fouet mélange bien." },
             { "emoji": "🥄", "text": "Je fouette les œufs." },
@@ -136,6 +167,8 @@
         "en": {
           "label": "Whisk",
           "phrases": [
+            { "emoji": "🥄", "text": "I need a whisk." },
+            { "emoji": "🥄", "text": "Can you pass me the whisk?" },
             { "emoji": "🥄", "text": "I beat with the whisk." },
             { "emoji": "🥄", "text": "The whisk mixes well." },
             { "emoji": "🥄", "text": "I whisk the eggs." },
@@ -152,18 +185,26 @@
           "label": "Four",
           "phrases": [
             { "emoji": "🔥", "text": "Je mets au four." },
+            { "emoji": "🔥", "text": "Est-ce que le four est chaud ?" },
+            { "emoji": "🔥", "text": "Peux-tu allumer le four ?" },
+            { "emoji": "🔥", "text": "Est-ce que c'est prêt ?" },
             { "emoji": "🔥", "text": "Le four chauffe." },
             { "emoji": "🔥", "text": "Je préchauffe le four." },
-            { "emoji": "🔥", "text": "Ça cuit dans le four." }
+            { "emoji": "🔥", "text": "Ça cuit dans le four." },
+            { "emoji": "🔥", "text": "Attention, le four est très chaud !" }
           ]
         },
         "en": {
           "label": "Oven",
           "phrases": [
             { "emoji": "🔥", "text": "I put it in the oven." },
+            { "emoji": "🔥", "text": "Is the oven hot?" },
+            { "emoji": "🔥", "text": "Can you turn on the oven?" },
+            { "emoji": "🔥", "text": "Is it ready yet?" },
             { "emoji": "🔥", "text": "The oven heats up." },
             { "emoji": "🔥", "text": "I preheat the oven." },
-            { "emoji": "🔥", "text": "It bakes in the oven." }
+            { "emoji": "🔥", "text": "It bakes in the oven." },
+            { "emoji": "🔥", "text": "Be careful, the oven is very hot!" }
           ]
         }
       }
@@ -175,6 +216,9 @@
         "fr": {
           "label": "Bol",
           "phrases": [
+            { "emoji": "🥣", "text": "J'ai besoin d'un bol." },
+            { "emoji": "🥣", "text": "Peux-tu me passer le bol ?" },
+            { "emoji": "🥣", "text": "Puis-je avoir un plus grand bol ?" },
             { "emoji": "🥣", "text": "Je mélange dans un bol." },
             { "emoji": "🥣", "text": "Le bol contient les ingrédients." },
             { "emoji": "🥣", "text": "Je verse dans le bol." },
@@ -184,6 +228,9 @@
         "en": {
           "label": "Mixing Bowl",
           "phrases": [
+            { "emoji": "🥣", "text": "I need a bowl." },
+            { "emoji": "🥣", "text": "Can you pass me the bowl?" },
+            { "emoji": "🥣", "text": "Can I have a bigger bowl?" },
             { "emoji": "🥣", "text": "I mix in a bowl." },
             { "emoji": "🥣", "text": "The bowl contains ingredients." },
             { "emoji": "🥣", "text": "I pour into the bowl." },
@@ -199,6 +246,10 @@
         "fr": {
           "label": "Assiette",
           "phrases": [
+            { "emoji": "🍽️", "text": "J'ai besoin d'une assiette." },
+            { "emoji": "🍽️", "text": "Puis-je avoir une assiette ?" },
+            { "emoji": "🍽️", "text": "Peux-tu me servir ?" },
+            { "emoji": "🍽️", "text": "Mon assiette est vide." },
             { "emoji": "🍽️", "text": "Je dresse dans une assiette." },
             { "emoji": "🍽️", "text": "L'assiette est prête." },
             { "emoji": "🍽️", "text": "Je sers sur une assiette." },
@@ -208,6 +259,10 @@
         "en": {
           "label": "Plate",
           "phrases": [
+            { "emoji": "🍽️", "text": "I need a plate." },
+            { "emoji": "🍽️", "text": "Can I have a plate?" },
+            { "emoji": "🍽️", "text": "Can you serve me?" },
+            { "emoji": "🍽️", "text": "My plate is empty." },
             { "emoji": "🍽️", "text": "I plate the food." },
             { "emoji": "🍽️", "text": "The plate is ready." },
             { "emoji": "🍽️", "text": "I serve on a plate." },
@@ -223,6 +278,10 @@
         "fr": {
           "label": "Verre doseur",
           "phrases": [
+            { "emoji": "🥛", "text": "J'ai besoin du verre doseur." },
+            { "emoji": "🥛", "text": "Puis-je mesurer ?" },
+            { "emoji": "🥛", "text": "Combien en faut-il ?" },
+            { "emoji": "🥛", "text": "Puis-je verser ?" },
             { "emoji": "🥛", "text": "Je mesure avec le verre doseur." },
             { "emoji": "🥛", "text": "Je verse la bonne quantité." },
             { "emoji": "🥛", "text": "Le verre doseur est gradué." },
@@ -232,6 +291,10 @@
         "en": {
           "label": "Measuring Cup",
           "phrases": [
+            { "emoji": "🥛", "text": "I need the measuring cup." },
+            { "emoji": "🥛", "text": "Can I measure it?" },
+            { "emoji": "🥛", "text": "How much do we need?" },
+            { "emoji": "🥛", "text": "Can I pour it?" },
             { "emoji": "🥛", "text": "I measure with the measuring cup." },
             { "emoji": "🥛", "text": "I pour the right amount." },
             { "emoji": "🥛", "text": "The measuring cup has markings." },
@@ -247,6 +310,13 @@
         "fr": {
           "label": "Planche à découper",
           "phrases": [
+            { "emoji": "📋", "text": "J'ai besoin d'une planche à découper." },
+            {
+              "emoji": "📋",
+              "text": "Peux-tu me passer la planche à découper ?"
+            },
+            { "emoji": "📋", "text": "Puis-je couper les légumes ?" },
+            { "emoji": "📋", "text": "Peux-tu m'aider à couper ?" },
             { "emoji": "📋", "text": "Je coupe sur la planche." },
             { "emoji": "📋", "text": "La planche protège le plan de travail." },
             { "emoji": "📋", "text": "J'utilise une planche." },
@@ -256,6 +326,10 @@
         "en": {
           "label": "Cutting Board",
           "phrases": [
+            { "emoji": "📋", "text": "I need a cutting board." },
+            { "emoji": "📋", "text": "Can you pass me the cutting board?" },
+            { "emoji": "📋", "text": "Can I chop the vegetables?" },
+            { "emoji": "📋", "text": "Can you help me cut?" },
             { "emoji": "📋", "text": "I cut on the board." },
             { "emoji": "📋", "text": "The board protects the counter." },
             { "emoji": "📋", "text": "I use a cutting board." },
@@ -271,6 +345,10 @@
         "fr": {
           "label": "Râpe",
           "phrases": [
+            { "emoji": "🧀", "text": "J'ai besoin de la râpe." },
+            { "emoji": "🧀", "text": "Puis-je râper le fromage ?" },
+            { "emoji": "🧀", "text": "Attention, la râpe est tranchante !" },
+            { "emoji": "🧀", "text": "Peux-tu le râper pour moi ?" },
             { "emoji": "🧀", "text": "Je râpe le fromage." },
             { "emoji": "🧀", "text": "J'utilise la râpe." },
             { "emoji": "🧀", "text": "La râpe est tranchante." },
@@ -280,6 +358,10 @@
         "en": {
           "label": "Grater",
           "phrases": [
+            { "emoji": "🧀", "text": "I need the grater." },
+            { "emoji": "🧀", "text": "Can I grate the cheese?" },
+            { "emoji": "🧀", "text": "Be careful, the grater is sharp!" },
+            { "emoji": "🧀", "text": "Can you grate it for me?" },
             { "emoji": "🧀", "text": "I grate the cheese." },
             { "emoji": "🧀", "text": "I use the grater." },
             { "emoji": "🧀", "text": "The grater is sharp." },
@@ -295,6 +377,13 @@
         "fr": {
           "label": "Rouleau à pâtisserie",
           "phrases": [
+            { "emoji": "🥖", "text": "J'ai besoin du rouleau à pâtisserie." },
+            { "emoji": "🥖", "text": "Puis-je étaler la pâte ?" },
+            {
+              "emoji": "🥖",
+              "text": "Peux-tu me passer le rouleau à pâtisserie ?"
+            },
+            { "emoji": "🥖", "text": "J'aime étaler la pâte." },
             { "emoji": "🥖", "text": "J'étale la pâte." },
             { "emoji": "🥖", "text": "J'utilise le rouleau." },
             { "emoji": "🥖", "text": "Je roule la pâte." },
@@ -304,6 +393,10 @@
         "en": {
           "label": "Rolling Pin",
           "phrases": [
+            { "emoji": "🥖", "text": "I need the rolling pin." },
+            { "emoji": "🥖", "text": "Can I roll out the dough?" },
+            { "emoji": "🥖", "text": "Can you pass me the rolling pin?" },
+            { "emoji": "🥖", "text": "I like rolling the dough." },
             { "emoji": "🥖", "text": "I roll out the dough." },
             { "emoji": "🥖", "text": "I use the rolling pin." },
             { "emoji": "🥖", "text": "I roll the dough." },
@@ -319,18 +412,24 @@
         "fr": {
           "label": "Mixeur",
           "phrases": [
+            { "emoji": "🥤", "text": "J'ai besoin du mixeur." },
+            { "emoji": "🥤", "text": "Le mixeur fait trop de bruit !" },
+            { "emoji": "🥤", "text": "Je fais un smoothie." },
+            { "emoji": "🥤", "text": "Puis-je appuyer sur le bouton ?" },
             { "emoji": "🥤", "text": "Je mixe les ingrédients." },
             { "emoji": "🥤", "text": "Le mixeur fait du bruit." },
-            { "emoji": "🥤", "text": "Je fais un smoothie." },
             { "emoji": "🥤", "text": "Le mixeur mélange bien." }
           ]
         },
         "en": {
           "label": "Blender",
           "phrases": [
+            { "emoji": "🥤", "text": "I need the blender." },
+            { "emoji": "🥤", "text": "The blender is too noisy!" },
+            { "emoji": "🥤", "text": "I make a smoothie." },
+            { "emoji": "🥤", "text": "Can I press the button?" },
             { "emoji": "🥤", "text": "I blend the ingredients." },
             { "emoji": "🥤", "text": "The blender is noisy." },
-            { "emoji": "🥤", "text": "I make a smoothie." },
             { "emoji": "🥤", "text": "The blender mixes well." }
           ]
         }
@@ -343,6 +442,10 @@
         "fr": {
           "label": "Grille-pain",
           "phrases": [
+            { "emoji": "🍞", "text": "Je veux du pain grillé." },
+            { "emoji": "🍞", "text": "Puis-je utiliser le grille-pain ?" },
+            { "emoji": "🍞", "text": "Puis-je avoir du pain grillé ?" },
+            { "emoji": "🍞", "text": "Est-ce que mon pain grillé est prêt ?" },
             { "emoji": "🍞", "text": "Je fais griller le pain." },
             { "emoji": "🍞", "text": "Le grille-pain chauffe." },
             { "emoji": "🍞", "text": "Le pain est doré." },
@@ -352,6 +455,10 @@
         "en": {
           "label": "Toaster",
           "phrases": [
+            { "emoji": "🍞", "text": "I want some toast." },
+            { "emoji": "🍞", "text": "Can I use the toaster?" },
+            { "emoji": "🍞", "text": "Can I have some toast?" },
+            { "emoji": "🍞", "text": "Is my toast ready?" },
             { "emoji": "🍞", "text": "I toast the bread." },
             { "emoji": "🍞", "text": "The toaster heats up." },
             { "emoji": "🍞", "text": "The bread is golden." },
@@ -368,6 +475,12 @@
           "label": "Réfrigérateur",
           "phrases": [
             { "emoji": "🧊", "text": "Je mets au frigo." },
+            { "emoji": "🧊", "text": "Peux-tu ouvrir le frigo ?" },
+            {
+              "emoji": "🧊",
+              "text": "Puis-je prendre quelque chose dans le frigo ?"
+            },
+            { "emoji": "🧊", "text": "Qu'est-ce qu'il y a dans le frigo ?" },
             { "emoji": "🧊", "text": "Le réfrigérateur garde au frais." },
             { "emoji": "🧊", "text": "J'ouvre le frigo." },
             { "emoji": "🧊", "text": "Les aliments sont au frais." }
@@ -377,6 +490,9 @@
           "label": "Refrigerator",
           "phrases": [
             { "emoji": "🧊", "text": "I put it in the fridge." },
+            { "emoji": "🧊", "text": "Can you open the fridge?" },
+            { "emoji": "🧊", "text": "Can I get something from the fridge?" },
+            { "emoji": "🧊", "text": "What is in the fridge?" },
             { "emoji": "🧊", "text": "The refrigerator keeps things cold." },
             { "emoji": "🧊", "text": "I open the fridge." },
             { "emoji": "🧊", "text": "The food is chilled." }
@@ -391,19 +507,23 @@
         "fr": {
           "label": "Bouilloire",
           "phrases": [
-            { "emoji": "☕", "text": "Je fais bouillir de l'eau." },
-            { "emoji": "☕", "text": "La bouilloire siffle." },
+            { "emoji": "☕", "text": "Peux-tu faire bouillir de l'eau ?" },
+            { "emoji": "☕", "text": "La bouilloire siffle !" },
             { "emoji": "☕", "text": "L'eau est chaude." },
-            { "emoji": "☕", "text": "Je prépare du thé." }
+            { "emoji": "☕", "text": "Je prépare du thé." },
+            { "emoji": "☕", "text": "Puis-je avoir du thé ?" },
+            { "emoji": "☕", "text": "Je fais bouillir de l'eau." }
           ]
         },
         "en": {
           "label": "Kettle",
           "phrases": [
-            { "emoji": "☕", "text": "I boil water." },
-            { "emoji": "☕", "text": "The kettle whistles." },
+            { "emoji": "☕", "text": "Can you boil some water?" },
+            { "emoji": "☕", "text": "The kettle is whistling!" },
             { "emoji": "☕", "text": "The water is hot." },
-            { "emoji": "☕", "text": "I make tea." }
+            { "emoji": "☕", "text": "I make tea." },
+            { "emoji": "☕", "text": "Can I have some tea?" },
+            { "emoji": "☕", "text": "I boil water." }
           ]
         }
       }
@@ -415,6 +535,9 @@
         "fr": {
           "label": "Passoire",
           "phrases": [
+            { "emoji": "🍝", "text": "Puis-je égoutter les pâtes ?" },
+            { "emoji": "🍝", "text": "J'ai besoin de la passoire." },
+            { "emoji": "🍝", "text": "Peux-tu me passer la passoire ?" },
             { "emoji": "🍝", "text": "J'égoutte les pâtes." },
             { "emoji": "🍝", "text": "J'utilise une passoire." },
             { "emoji": "🍝", "text": "L'eau s'écoule." },
@@ -424,6 +547,9 @@
         "en": {
           "label": "Colander",
           "phrases": [
+            { "emoji": "🍝", "text": "Can I drain the pasta?" },
+            { "emoji": "🍝", "text": "I need the colander." },
+            { "emoji": "🍝", "text": "Can you pass me the colander?" },
             { "emoji": "🍝", "text": "I drain the pasta." },
             { "emoji": "🍝", "text": "I use a colander." },
             { "emoji": "🍝", "text": "The water drains out." },
@@ -441,6 +567,9 @@
           "phrases": [
             { "emoji": "⏲️", "text": "Je règle le minuteur." },
             { "emoji": "⏲️", "text": "Le minuteur sonne." },
+            { "emoji": "⏲️", "text": "Combien de temps reste-t-il ?" },
+            { "emoji": "⏲️", "text": "Est-ce que c'est prêt ?" },
+            { "emoji": "⏲️", "text": "Puis-je régler le minuteur ?" },
             { "emoji": "⏲️", "text": "Je surveille le temps." },
             { "emoji": "⏲️", "text": "C'est bientôt prêt." }
           ]
@@ -450,6 +579,9 @@
           "phrases": [
             { "emoji": "⏲️", "text": "I set the timer." },
             { "emoji": "⏲️", "text": "The timer rings." },
+            { "emoji": "⏲️", "text": "How much time is left?" },
+            { "emoji": "⏲️", "text": "Is it ready yet?" },
+            { "emoji": "⏲️", "text": "Can I set the timer?" },
             { "emoji": "⏲️", "text": "I watch the time." },
             { "emoji": "⏲️", "text": "It's almost ready." }
           ]
@@ -463,19 +595,26 @@
         "fr": {
           "label": "Livre de recettes",
           "phrases": [
-            { "emoji": "📖", "text": "Je consulte le livre de recettes." },
-            { "emoji": "📖", "text": "Je suis la recette." },
+            {
+              "emoji": "📖",
+              "text": "Puis-je voir le livre de recettes ?"
+            },
+            { "emoji": "📖", "text": "Que dit la recette ?" },
             { "emoji": "📖", "text": "Je cherche une recette." },
-            { "emoji": "📖", "text": "Le livre a de bonnes idées." }
+            { "emoji": "📖", "text": "Le livre a de bonnes idées." },
+            { "emoji": "📖", "text": "Je consulte le livre de recettes." },
+            { "emoji": "📖", "text": "Je suis la recette." }
           ]
         },
         "en": {
           "label": "Recipe Book",
           "phrases": [
-            { "emoji": "📖", "text": "I check the recipe book." },
-            { "emoji": "📖", "text": "I follow the recipe." },
+            { "emoji": "📖", "text": "Can I look at the recipe book?" },
+            { "emoji": "📖", "text": "What does the recipe say?" },
             { "emoji": "📖", "text": "I look for a recipe." },
-            { "emoji": "📖", "text": "The book has good ideas." }
+            { "emoji": "📖", "text": "The book has good ideas." },
+            { "emoji": "📖", "text": "I check the recipe book." },
+            { "emoji": "📖", "text": "I follow the recipe." }
           ]
         }
       }
@@ -487,6 +626,10 @@
         "fr": {
           "label": "Tablier",
           "phrases": [
+            { "emoji": "👔", "text": "J'ai besoin d'un tablier." },
+            { "emoji": "👔", "text": "Peux-tu attacher mon tablier ?" },
+            { "emoji": "👔", "text": "Mon tablier est sale." },
+            { "emoji": "👔", "text": "Puis-je mettre un tablier ?" },
             { "emoji": "👔", "text": "Je mets mon tablier." },
             { "emoji": "👔", "text": "Le tablier protège mes vêtements." },
             { "emoji": "👔", "text": "Je cuisine avec un tablier." },
@@ -496,6 +639,10 @@
         "en": {
           "label": "Apron",
           "phrases": [
+            { "emoji": "👔", "text": "I need an apron." },
+            { "emoji": "👔", "text": "Can you tie my apron?" },
+            { "emoji": "👔", "text": "My apron is dirty." },
+            { "emoji": "👔", "text": "Can I wear an apron?" },
             { "emoji": "👔", "text": "I put on my apron." },
             { "emoji": "👔", "text": "The apron protects my clothes." },
             { "emoji": "👔", "text": "I cook with an apron." },
@@ -511,19 +658,25 @@
         "fr": {
           "label": "Micro-ondes",
           "phrases": [
+            { "emoji": "📦", "text": "Peux-tu le réchauffer au micro-ondes ?" },
+            { "emoji": "📦", "text": "Puis-je utiliser le micro-ondes ?" },
+            { "emoji": "📦", "text": "Combien de temps je le réchauffe ?" },
+            { "emoji": "📦", "text": "Le plat est chaud." },
             { "emoji": "📦", "text": "Je réchauffe au micro-ondes." },
             { "emoji": "📦", "text": "Le micro-ondes est rapide." },
-            { "emoji": "📦", "text": "Je mets 2 minutes." },
-            { "emoji": "📦", "text": "Le plat est chaud." }
+            { "emoji": "📦", "text": "Je mets 2 minutes." }
           ]
         },
         "en": {
           "label": "Microwave",
           "phrases": [
+            { "emoji": "📦", "text": "Can you heat it in the microwave?" },
+            { "emoji": "📦", "text": "Can I use the microwave?" },
+            { "emoji": "📦", "text": "How long do I heat it?" },
+            { "emoji": "📦", "text": "The dish is hot." },
             { "emoji": "📦", "text": "I heat in the microwave." },
             { "emoji": "📦", "text": "The microwave is fast." },
-            { "emoji": "📦", "text": "I set it for 2 minutes." },
-            { "emoji": "📦", "text": "The dish is hot." }
+            { "emoji": "📦", "text": "I set it for 2 minutes." }
           ]
         }
       }
@@ -535,6 +688,12 @@
         "fr": {
           "label": "Lave-vaisselle",
           "phrases": [
+            { "emoji": "🧽", "text": "Puis-je lancer le lave-vaisselle ?" },
+            {
+              "emoji": "🧽",
+              "text": "Peux-tu m'aider à remplir le lave-vaisselle ?"
+            },
+            { "emoji": "🧽", "text": "Est-ce que le lave-vaisselle a fini ?" },
             { "emoji": "🧽", "text": "Je mets au lave-vaisselle." },
             { "emoji": "🧽", "text": "Le lave-vaisselle nettoie." },
             { "emoji": "🧽", "text": "Je range la vaisselle sale." },
@@ -544,6 +703,9 @@
         "en": {
           "label": "Dishwasher",
           "phrases": [
+            { "emoji": "🧽", "text": "Can I start the dishwasher?" },
+            { "emoji": "🧽", "text": "Can you help me load the dishwasher?" },
+            { "emoji": "🧽", "text": "Is the dishwasher finished?" },
             { "emoji": "🧽", "text": "I put it in the dishwasher." },
             { "emoji": "🧽", "text": "The dishwasher cleans." },
             { "emoji": "🧽", "text": "I load the dirty dishes." },
@@ -559,6 +721,13 @@
         "fr": {
           "label": "Sel et poivre",
           "phrases": [
+            {
+              "emoji": "🧂",
+              "text": "Peux-tu me passer le sel et le poivre ?"
+            },
+            { "emoji": "🧂", "text": "Je veux plus de sel." },
+            { "emoji": "🧂", "text": "Puis-je goûter ?" },
+            { "emoji": "🧂", "text": "Il y a assez de sel." },
             { "emoji": "🧂", "text": "J'assaisonne avec sel et poivre." },
             { "emoji": "🧂", "text": "J'ajoute du sel." },
             { "emoji": "🧂", "text": "Je goûte et j'assaisonne." },
@@ -568,6 +737,10 @@
         "en": {
           "label": "Salt & Pepper",
           "phrases": [
+            { "emoji": "🧂", "text": "Can you pass me the salt and pepper?" },
+            { "emoji": "🧂", "text": "I want more salt." },
+            { "emoji": "🧂", "text": "Can I taste it?" },
+            { "emoji": "🧂", "text": "That's enough salt." },
             { "emoji": "🧂", "text": "I season with salt and pepper." },
             { "emoji": "🧂", "text": "I add salt." },
             { "emoji": "🧂", "text": "I taste and season." },
@@ -583,18 +756,20 @@
         "fr": {
           "label": "Friteuse",
           "phrases": [
+            { "emoji": "🍟", "text": "Pouvons-nous utiliser la friteuse ?" },
+            { "emoji": "🔥", "text": "L'huile est chaude." },
             { "emoji": "🍟", "text": "J'utilise la friteuse." },
             { "emoji": "🍟", "text": "Je fais des frites." },
-            { "emoji": "🔥", "text": "L'huile est chaude." },
             { "emoji": "😋", "text": "Les frites sont croustillantes." }
           ]
         },
         "en": {
           "label": "Deep Fryer",
           "phrases": [
+            { "emoji": "🍟", "text": "Can we use the deep fryer?" },
+            { "emoji": "🔥", "text": "The oil is hot." },
             { "emoji": "🍟", "text": "I use the deep fryer." },
             { "emoji": "🍟", "text": "I make fries." },
-            { "emoji": "🔥", "text": "The oil is hot." },
             { "emoji": "😋", "text": "The fries are crispy." }
           ]
         }
@@ -607,30 +782,42 @@
         "fr": {
           "label": "Cafetière",
           "phrases": [
+            { "emoji": "☕", "text": "Peux-tu préparer du café ?" },
+            { "emoji": "☕", "text": "Je veux un café." },
+            { "emoji": "😊", "text": "Veux-tu un café ?" },
+            { "emoji": "☕", "text": "J'aime l'odeur du café." },
+            { "emoji": "☕", "text": "Puis-je avoir un café ?" },
             { "emoji": "☕", "text": "Je prépare du café." },
             { "emoji": "☕", "text": "La cafetière fonctionne." },
-            { "emoji": "😊", "text": "Le café est prêt." },
-            { "emoji": "☕", "text": "J'aime l'odeur du café." }
+            { "emoji": "😊", "text": "Le café est prêt." }
           ]
         },
         "en": {
           "label": "Coffee Maker",
           "phrases": [
+            { "emoji": "☕", "text": "Can you make coffee?" },
+            { "emoji": "☕", "text": "I want a coffee." },
+            { "emoji": "😊", "text": "Do you want a coffee?" },
+            { "emoji": "☕", "text": "I love the smell of coffee." },
+            { "emoji": "☕", "text": "Can I have a coffee?" },
             { "emoji": "☕", "text": "I make coffee." },
             { "emoji": "☕", "text": "The coffee maker works." },
-            { "emoji": "😊", "text": "The coffee is ready." },
-            { "emoji": "☕", "text": "I love the smell of coffee." }
+            { "emoji": "😊", "text": "The coffee is ready." }
           ]
         }
       }
     },
     {
-      "id": "cooking-pot",
+      "id": "stockpot",
       "image": "🍲",
       "translations": {
         "fr": {
           "label": "Marmite",
           "phrases": [
+            { "emoji": "🍲", "text": "J'ai besoin d'une marmite." },
+            { "emoji": "🍲", "text": "Qu'est-ce qu'il y a dans la marmite ?" },
+            { "emoji": "🥘", "text": "Attention, la marmite est chaude !" },
+            { "emoji": "🍲", "text": "Puis-je remuer dans la marmite ?" },
             { "emoji": "🍲", "text": "Je cuisine dans une marmite." },
             { "emoji": "🍲", "text": "La soupe mijote dans la marmite." },
             { "emoji": "🥘", "text": "La marmite est grande." },
@@ -638,8 +825,12 @@
           ]
         },
         "en": {
-          "label": "Cooking Pot",
+          "label": "Stockpot",
           "phrases": [
+            { "emoji": "🍲", "text": "I need a pot." },
+            { "emoji": "🍲", "text": "What's in the pot?" },
+            { "emoji": "🥘", "text": "Be careful, the pot is hot!" },
+            { "emoji": "🍲", "text": "Can I stir the pot?" },
             { "emoji": "🍲", "text": "I cook in a pot." },
             { "emoji": "🍲", "text": "The soup simmers in the pot." },
             { "emoji": "🥘", "text": "The pot is big." },
@@ -655,6 +846,10 @@
         "fr": {
           "label": "Spatule",
           "phrases": [
+            { "emoji": "🥄", "text": "J'ai besoin d'une spatule." },
+            { "emoji": "🍳", "text": "Puis-je retourner les aliments ?" },
+            { "emoji": "🥄", "text": "Peux-tu me passer la spatule ?" },
+            { "emoji": "😊", "text": "Où est la spatule ?" },
             { "emoji": "🥄", "text": "J'utilise une spatule." },
             { "emoji": "🍳", "text": "Je retourne les aliments." },
             { "emoji": "🥄", "text": "La spatule est pratique." },
@@ -664,6 +859,10 @@
         "en": {
           "label": "Spatula",
           "phrases": [
+            { "emoji": "🥄", "text": "I need a spatula." },
+            { "emoji": "🍳", "text": "Can I flip the food?" },
+            { "emoji": "🥄", "text": "Can you pass me the spatula?" },
+            { "emoji": "😊", "text": "Where is the spatula?" },
             { "emoji": "🥄", "text": "I use a spatula." },
             { "emoji": "🍳", "text": "I flip the food." },
             { "emoji": "🥄", "text": "The spatula is useful." },
@@ -679,6 +878,8 @@
         "fr": {
           "label": "Couteau à pizza",
           "phrases": [
+            { "emoji": "🍕", "text": "Puis-je couper la pizza ?" },
+            { "emoji": "🔪", "text": "J'ai besoin du couteau à pizza." },
             { "emoji": "🍕", "text": "Je coupe la pizza." },
             { "emoji": "🔪", "text": "Le couteau à pizza roule." },
             { "emoji": "🍕", "text": "Je fais des parts égales." },
@@ -688,6 +889,8 @@
         "en": {
           "label": "Pizza Cutter",
           "phrases": [
+            { "emoji": "🍕", "text": "Can I cut the pizza?" },
+            { "emoji": "🔪", "text": "I need the pizza cutter." },
             { "emoji": "🍕", "text": "I cut the pizza." },
             { "emoji": "🔪", "text": "The pizza cutter rolls." },
             { "emoji": "🍕", "text": "I make equal slices." },
@@ -703,18 +906,20 @@
         "fr": {
           "label": "Grill",
           "phrases": [
+            { "emoji": "🔥", "text": "Pouvons-nous cuisiner au grill ?" },
+            { "emoji": "🔥", "text": "Le grill est chaud." },
             { "emoji": "🔥", "text": "Je cuisine au grill." },
             { "emoji": "🥩", "text": "Je grille de la viande." },
-            { "emoji": "🔥", "text": "Le grill est chaud." },
             { "emoji": "😋", "text": "Ça sent bon." }
           ]
         },
         "en": {
           "label": "Grill",
           "phrases": [
+            { "emoji": "🔥", "text": "Can we cook on the grill?" },
+            { "emoji": "🔥", "text": "The grill is hot." },
             { "emoji": "🔥", "text": "I cook on the grill." },
             { "emoji": "🥩", "text": "I grill meat." },
-            { "emoji": "🔥", "text": "The grill is hot." },
             { "emoji": "😋", "text": "It smells good." }
           ]
         }
@@ -727,19 +932,31 @@
         "fr": {
           "label": "Ustensiles",
           "phrases": [
-            { "emoji": "🍴", "text": "J'utilise des ustensiles." },
-            { "emoji": "🥄", "text": "Les ustensiles sont propres." },
+            { "emoji": "🍴", "text": "Peux-tu me passer les ustensiles ?" },
+            {
+              "emoji": "🥄",
+              "text": "Est-ce que les ustensiles sont propres ?"
+            },
             { "emoji": "🍴", "text": "Je range les ustensiles." },
-            { "emoji": "🔪", "text": "J'ai besoin d'ustensiles." }
+            { "emoji": "🔪", "text": "J'ai besoin d'ustensiles." },
+            {
+              "emoji": "🍴",
+              "text": "Puis-je aider à ranger les ustensiles ?"
+            },
+            { "emoji": "🍴", "text": "J'utilise des ustensiles." },
+            { "emoji": "🥄", "text": "Les ustensiles sont propres." }
           ]
         },
         "en": {
           "label": "Utensils",
           "phrases": [
-            { "emoji": "🍴", "text": "I use utensils." },
-            { "emoji": "🥄", "text": "The utensils are clean." },
+            { "emoji": "🍴", "text": "Can you pass me the utensils?" },
+            { "emoji": "🥄", "text": "Are the utensils clean?" },
             { "emoji": "🍴", "text": "I put away the utensils." },
-            { "emoji": "🔪", "text": "I need utensils." }
+            { "emoji": "🔪", "text": "I need utensils." },
+            { "emoji": "🍴", "text": "Can I help put away the utensils?" },
+            { "emoji": "🍴", "text": "I use utensils." },
+            { "emoji": "🥄", "text": "The utensils are clean." }
           ]
         }
       }
@@ -751,6 +968,12 @@
         "fr": {
           "label": "Plaque de cuisson",
           "phrases": [
+            { "emoji": "🔥", "text": "Peux-tu allumer la plaque de cuisson ?" },
+            { "emoji": "🔥", "text": "Est-ce que la plaque est chaude ?" },
+            {
+              "emoji": "🍲",
+              "text": "Peux-tu éteindre la plaque de cuisson ?"
+            },
             { "emoji": "🔥", "text": "J'allume la plaque de cuisson." },
             { "emoji": "🍳", "text": "Je cuisine sur la plaque." },
             { "emoji": "🔥", "text": "La plaque chauffe." },
@@ -760,6 +983,9 @@
         "en": {
           "label": "Cooktop",
           "phrases": [
+            { "emoji": "🔥", "text": "Can you turn on the cooktop?" },
+            { "emoji": "🔥", "text": "Is the cooktop hot?" },
+            { "emoji": "🍲", "text": "Can you turn off the cooktop?" },
             { "emoji": "🔥", "text": "I turn on the cooktop." },
             { "emoji": "🍳", "text": "I cook on the cooktop." },
             { "emoji": "🔥", "text": "The cooktop heats up." },
@@ -775,6 +1001,10 @@
         "fr": {
           "label": "Balance",
           "phrases": [
+            { "emoji": "⚖️", "text": "Puis-je peser les ingrédients ?" },
+            { "emoji": "⚖️", "text": "J'ai besoin de la balance." },
+            { "emoji": "📏", "text": "Combien ça pèse ?" },
+            { "emoji": "⚖️", "text": "Peux-tu me passer la balance ?" },
             { "emoji": "⚖️", "text": "Je pèse les ingrédients." },
             { "emoji": "⚖️", "text": "J'utilise une balance." },
             { "emoji": "📏", "text": "Je mesure avec précision." },
@@ -784,6 +1014,10 @@
         "en": {
           "label": "Scale",
           "phrases": [
+            { "emoji": "⚖️", "text": "Can I weigh the ingredients?" },
+            { "emoji": "⚖️", "text": "I need the scale." },
+            { "emoji": "📏", "text": "How much does it weigh?" },
+            { "emoji": "⚖️", "text": "Can you pass me the scale?" },
             { "emoji": "⚖️", "text": "I weigh the ingredients." },
             { "emoji": "⚖️", "text": "I use a scale." },
             { "emoji": "📏", "text": "I measure precisely." },

@@ -10,7 +10,6 @@
           "phrases": [
             { "emoji": "👋", "text": "C'est moi !" },
             { "emoji": "🙋", "text": "Je veux parler." },
-            { "emoji": "💭", "text": "Je pense que..." },
             { "emoji": "✋", "text": "Je suis là !" }
           ]
         },
@@ -19,7 +18,6 @@
           "phrases": [
             { "emoji": "👋", "text": "It's me!" },
             { "emoji": "🙋", "text": "I want to talk." },
-            { "emoji": "💭", "text": "I think that..." },
             { "emoji": "✋", "text": "I'm here!" }
           ]
         }
@@ -34,7 +32,7 @@
           "phrases": [
             { "emoji": "👋", "text": "Bonjour !" },
             { "emoji": "😊", "text": "Bonjour, comment ça va ?" },
-            { "emoji": "🌅", "text": "Bonjour, bonne journée !" },
+            { "emoji": "🌅", "text": "Bonne journée !" },
             { "emoji": "👋", "text": "Salut !" }
           ]
         },
@@ -497,7 +495,7 @@
         "en": {
           "label": "Pronouns",
           "phrases": [
-            { "emoji": "👤", "text": "What pronouns do you use ?" },
+            { "emoji": "👤", "text": "What pronouns do you use?" },
             { "emoji": "👤", "text": "I use pronouns." },
             { "emoji": "👤", "text": "My pronouns are he/him." },
             { "emoji": "👤", "text": "My pronouns are she/her." }
