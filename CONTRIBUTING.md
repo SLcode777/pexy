@@ -21,7 +21,7 @@ SLcode777/pexy  ──fork──▶  your-name/pexy  ──clone──▶  your 
 
 ## One-time setup
 
-1. Install [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org) (version 20 or newer) and [pnpm](https://pnpm.io/installation).
+1. Install [Git](https://git-scm.com/downloads), [Node.js](https://nodejs.org) (version 22 or newer) and [pnpm](https://pnpm.io/installation).
 2. On the [Pexy page](https://github.com/SLcode777/pexy), click **Fork** (top right), then **Create fork**.
 3. Clone your fork (replace `your-name` with your GitHub username):
 

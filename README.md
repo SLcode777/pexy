@@ -49,7 +49,7 @@ The sentences of each pictogram (in [`data/pictograms/`](data/pictograms)) are w
 
 ### Run the app on your computer
 
-You need [Node.js](https://nodejs.org) (version 20 or newer), [pnpm](https://pnpm.io/installation) and a phone.
+You need [Node.js](https://nodejs.org) (version 22 or newer), [pnpm](https://pnpm.io/installation) and a phone.
 
 ```bash
 git clone https://github.com/SLcode777/pexy.git
