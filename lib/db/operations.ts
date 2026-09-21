@@ -174,7 +174,7 @@ export const getCustomPictogramById = async (customId: string) => {
   return result[0] || null;
 };
 
-export const updateCustomPictogram = async (customId: string, data: { name?: string }) => {
+export const updateCustomPictogram = async (customId: string, data: { name?: string; imagePath?: string }) => {
   return await db
     .update(customPictograms)
     .set({ ...data, updatedAt: new Date().toISOString() })

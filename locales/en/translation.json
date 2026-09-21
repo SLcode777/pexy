@@ -154,6 +154,10 @@
     "saving": "Saving..."
   },
   "custom_picto": {
+    "edit_title": "Edit the pictogram",
+    "change_photo": "Change the photo",
+    "saving": "Saving...",
+    "error_update": "Unable to update the pictogram.",
     "rotate": "Rotate",
     "view_fullscreen": "View full screen",
     "create_title": "Create a pictogram",

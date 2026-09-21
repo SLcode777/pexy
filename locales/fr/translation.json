@@ -154,6 +154,10 @@
     "saving": "Enregistrement..."
   },
   "custom_picto": {
+    "edit_title": "Modifier le pictogramme",
+    "change_photo": "Changer la photo",
+    "saving": "Enregistrement...",
+    "error_update": "Impossible de modifier le pictogramme.",
     "rotate": "Pivoter",
     "view_fullscreen": "Voir en grand",
     "create_title": "Créer un pictogramme",

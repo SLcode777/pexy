@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   View,
   Text,
@@ -12,22 +12,42 @@ import {
   Alert,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { router } from 'expo-router';
+import { router, useLocalSearchParams } from 'expo-router';
 import * as ImagePicker from 'expo-image-picker';
 import * as ImageManipulator from 'expo-image-manipulator';
 import * as FileSystem from 'expo-file-system';
 import * as FileSystemLegacy from 'expo-file-system/legacy';
 import { useTranslation } from 'react-i18next';
 import { Colors } from '@/constants/colors';
-import { createCustomPictogram } from '@/lib/db/operations';
+import {
+  createCustomPictogram,
+  getCustomPictogramById,
+  updateCustomPictogram,
+} from '@/lib/db/operations';
 
 export default function CreateCustomPictogramModal() {
   const { t } = useTranslation();
-  const [step, setStep] = useState<'choose' | 'name'>('choose');
+  const { editId } = useLocalSearchParams<{ editId?: string }>();
+  const isEditing = !!editId;
+  const [step, setStep] = useState<'choose' | 'name'>(isEditing ? 'name' : 'choose');
+  const [existingImagePath, setExistingImagePath] = useState<string | null>(null);
   const [selectedImage, setSelectedImage] = useState<ImagePicker.ImagePickerAsset | null>(null);
   const [pictogramName, setPictogramName] = useState('');
   const [isSaving, setIsSaving] = useState(false);
   const [rotation, setRotation] = useState(0);
+
+  // Edit mode: prefill with the existing pictogram
+  useEffect(() => {
+    if (!editId) return;
+    getCustomPictogramById(editId).then((picto) => {
+      if (!picto) {
+        router.back();
+        return;
+      }
+      setPictogramName(picto.name);
+      setExistingImagePath(picto.imagePath);
+    });
+  }, [editId]);
 
   const requestCameraPermission = async () => {
     const { status } = await ImagePicker.requestCameraPermissionsAsync();
@@ -100,6 +120,60 @@ export default function CreateCustomPictogramModal() {
     }
   };
 
+  // Convert to WebP (applying the rotation), store it in the permanent directory, return its relative path
+  const saveImage = async (sourceUri: string, uniqueSuffix: string) => {
+    const manipulatedImage = await ImageManipulator.manipulateAsync(
+      sourceUri,
+      [
+        ...(rotation ? [{ rotate: rotation }] : []),
+        { resize: { width: 1024 } }, // Resize to max 1024px width while maintaining aspect ratio
+      ],
+      { compress: 0.8, format: ImageManipulator.SaveFormat.WEBP }
+    );
+
+    const imagePath = `custom_pictograms/picto_${uniqueSuffix}.webp`;
+    await FileSystemLegacy.copyAsync({
+      from: manipulatedImage.uri,
+      to: `${FileSystemLegacy.documentDirectory}${imagePath}`,
+    });
+    return imagePath;
+  };
+
+  const handleUpdate = async () => {
+    if (!editId || !pictogramName.trim()) return;
+
+    setIsSaving(true);
+
+    try {
+      const data: { name: string; imagePath?: string } = { name: pictogramName.trim() };
+
+      // New photo, or existing photo rotated: write a new file (a new name also avoids stale image caches)
+      const sourceUri =
+        selectedImage?.uri ??
+        (rotation && existingImagePath ? `${FileSystemLegacy.documentDirectory}${existingImagePath}` : null);
+      if (sourceUri) {
+        const suffix = `${Date.now()}_${Math.random().toString(36).substring(2, 8)}`;
+        data.imagePath = await saveImage(sourceUri, suffix);
+      }
+
+      // Same customId: favorites and custom phrases stay attached
+      await updateCustomPictogram(editId, data);
+
+      if (data.imagePath && existingImagePath) {
+        await FileSystemLegacy.deleteAsync(`${FileSystemLegacy.documentDirectory}${existingImagePath}`, {
+          idempotent: true,
+        });
+      }
+
+      router.back();
+    } catch (error) {
+      console.error('Error updating custom pictogram:', error);
+      Alert.alert(t('backup.error_title'), t('custom_picto.error_update'));
+    } finally {
+      setIsSaving(false);
+    }
+  };
+
   const handleCreate = async () => {
     if (!selectedImage || !pictogramName.trim()) return;
 
@@ -111,35 +185,18 @@ export default function CreateCustomPictogramModal() {
       const randomId = Math.random().toString(36).substring(2, 8);
       const customId = `custom_${timestamp}_${randomId}`;
 
-      // 2. Convert image to WebP format for better compression
-      const manipulatedImage = await ImageManipulator.manipulateAsync(
-        selectedImage.uri,
-        [
-          ...(rotation ? [{ rotate: rotation }] : []),
-          { resize: { width: 1024 } }, // Resize to max 1024px width while maintaining aspect ratio
-        ],
-        { compress: 0.8, format: ImageManipulator.SaveFormat.WEBP }
-      );
+      // 2. Convert image to WebP and copy it to the permanent directory
+      const imagePath = await saveImage(selectedImage.uri, `${timestamp}_${randomId}`);
 
-      // 3. Copy converted image to permanent directory
-      const filename = `picto_${timestamp}_${randomId}.webp`;
-      const destPath = `${FileSystemLegacy.documentDirectory}custom_pictograms/${filename}`;
-
-      // Copy image using legacy API
-      await FileSystemLegacy.copyAsync({
-        from: manipulatedImage.uri,
-        to: destPath,
-      });
-
-      // 4. Save to database
+      // 3. Save to database
       await createCustomPictogram({
         customId,
         name: pictogramName.trim(),
-        imagePath: `custom_pictograms/${filename}`,
+        imagePath,
         categoryId: 'custom',
       });
 
-      // 5. Redirect to pictogram page
+      // 4. Redirect to pictogram page
       router.replace(`/pictogram/custom/${customId}`);
     } catch (error) {
       console.error('Error creating custom pictogram:', error);
@@ -150,6 +207,13 @@ export default function CreateCustomPictogramModal() {
   };
 
   const handleBack = () => {
+    if (isEditing) {
+      // From the photo chooser, go back to the edit form; otherwise leave
+      if (step === 'choose') setStep('name');
+      else router.back();
+      return;
+    }
+
     if (step === 'name') {
       setStep('choose');
       setSelectedImage(null);
@@ -168,10 +232,14 @@ export default function CreateCustomPictogramModal() {
         {/* Header */}
         <View style={styles.header}>
           <TouchableOpacity onPress={handleBack} style={styles.closeButton}>
-            <Text style={styles.closeIcon}>{step === 'name' ? '←' : '✖️'}</Text>
+            <Text style={styles.closeIcon}>{(step === 'name') !== isEditing ? '←' : '✖️'}</Text>
           </TouchableOpacity>
           <Text style={styles.title}>
-            {step === 'choose' ? t('custom_picto.create_title') : t('custom_picto.name_title')}
+            {isEditing
+              ? t('custom_picto.edit_title')
+              : step === 'choose'
+                ? t('custom_picto.create_title')
+                : t('custom_picto.name_title')}
           </Text>
           <View style={styles.closeButton} />
         </View>
@@ -214,7 +282,11 @@ export default function CreateCustomPictogramModal() {
               {/* Image preview */}
               <View style={styles.previewContainer}>
                 <Image
-                  source={{ uri: selectedImage?.uri }}
+                  source={{
+                    uri:
+                      selectedImage?.uri ??
+                      (existingImagePath ? `${FileSystemLegacy.documentDirectory}${existingImagePath}` : undefined),
+                  }}
                   style={[styles.previewImage, { transform: [{ rotate: `${rotation}deg` }] }]}
                   resizeMode="cover"
                 />
@@ -226,6 +298,16 @@ export default function CreateCustomPictogramModal() {
                 >
                   <Text style={styles.rotateButtonText}>🔄 {t('custom_picto.rotate')}</Text>
                 </TouchableOpacity>
+                {isEditing && (
+                  <TouchableOpacity
+                    style={styles.rotateButton}
+                    onPress={() => setStep('choose')}
+                    accessibilityRole="button"
+                    accessibilityLabel={t('custom_picto.change_photo')}
+                  >
+                    <Text style={styles.rotateButtonText}>📷 {t('custom_picto.change_photo')}</Text>
+                  </TouchableOpacity>
+                )}
               </View>
 
               {/* Name input */}
@@ -238,7 +320,7 @@ export default function CreateCustomPictogramModal() {
                   value={pictogramName}
                   onChangeText={setPictogramName}
                   maxLength={50}
-                  autoFocus
+                  autoFocus={!isEditing}
                 />
                 <Text style={styles.charCount}>{pictogramName.length}/50</Text>
               </View>
@@ -251,11 +333,13 @@ export default function CreateCustomPictogramModal() {
           <View style={styles.footer}>
             <TouchableOpacity
               style={[styles.createButton, !pictogramName.trim() && styles.createButtonDisabled]}
-              onPress={handleCreate}
+              onPress={isEditing ? handleUpdate : handleCreate}
               disabled={!pictogramName.trim() || isSaving}
             >
               <Text style={styles.createButtonText}>
-                {isSaving ? t('custom_picto.creating') : t('custom_picto.create_button')}
+                {isEditing
+                  ? isSaving ? t('custom_picto.saving') : t('common.save')
+                  : isSaving ? t('custom_picto.creating') : t('custom_picto.create_button')}
               </Text>
             </TouchableOpacity>
           </View>

@@ -53,7 +53,9 @@ export default function PictogramScreen() {
   useFocusEffect(
     useCallback(() => {
       loadCustomPhrases();
-    }, [id, i18n.language]),
+      // A custom pictogram may have just been edited
+      if (categoryId === "custom") loadPictogram(true);
+    }, [categoryId, id, i18n.language]),
   );
 
   useEffect(() => {
@@ -61,8 +63,8 @@ export default function PictogramScreen() {
     checkFavorite();
   }, [categoryId, id]);
 
-  const loadPictogram = async () => {
-    setLoading(true);
+  const loadPictogram = async (silent = false) => {
+    if (!silent) setLoading(true);
 
     if (categoryId === "custom") {
       // Load custom pictogram from database
@@ -206,6 +208,18 @@ export default function PictogramScreen() {
           >
             <Text style={styles.icon}>{isFav ? "⭐" : "☆"}</Text>
           </TouchableOpacity>
+          {categoryId === "custom" && (
+            <TouchableOpacity
+              onPress={() =>
+                router.push({ pathname: "/create-custom-pictogram", params: { editId: id } })
+              }
+              style={styles.iconButton}
+              accessibilityRole="button"
+              accessibilityLabel={t("custom_picto.edit_title")}
+            >
+              <Text style={styles.icon}>✏️</Text>
+            </TouchableOpacity>
+          )}
           {categoryId === "custom" && (
             <TouchableOpacity
               onPress={handleDeleteCustomPictogram}
