@@ -1,1 +1,7 @@
 nodeLinker: hoisted
+
+# pnpm 11 stops the install until every dependency build script is allowed or denied.
+# These two work without their install scripts (install, test, typecheck and lint all pass).
+allowBuilds:
+  esbuild: false
+  unrs-resolver: false
