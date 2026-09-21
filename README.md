@@ -64,9 +64,11 @@ Then install **Expo Go** on your phone and scan the QR code shown in the termina
 
 ### Propose a change
 
+New to contributing on GitHub? Follow the **[step-by-step guide](CONTRIBUTING.md)** (fork, branch, pull request). In short:
+
 1. Pick an [open issue](https://github.com/SLcode777/pexy/issues), or open a new one to discuss your idea first. Leave a comment to say you are working on it.
 2. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the repository and create a branch for your change.
-3. Make your change and check that the app still runs. Run `pnpm lint` if you touched the code.
+3. Make your change and check that the app still runs. Run `pnpm test`, `pnpm typecheck` and `pnpm lint`.
 4. Open a pull request to `master`. Explain what you changed and why, and add a screenshot if it changes what the user sees.
 
 One pull request per topic is easier to review than one big pull request. If you are stuck, open the pull request anyway and ask: a draft is a fine way to get help.
