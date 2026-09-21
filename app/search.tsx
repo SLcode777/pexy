@@ -115,7 +115,6 @@ export default function SearchScreen() {
     }
 
     // Navigate to pictogram detail
-    // @ts-expect-error - Expo Router dynamic routes typing issue
     router.push(`/pictogram/${result.pictogram.categoryId}/${result.pictogram.id}`);
   };
 

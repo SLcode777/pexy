@@ -55,7 +55,6 @@ export default function FavoritesScreen() {
     speakWithPreferences(label);
 
     // Navigate to pictogram detail
-    // @ts-expect-error - Expo Router dynamic routes typing issue
     router.push(`/pictogram/${pictogram.categoryId}/${pictogram.id}`);
   };
 

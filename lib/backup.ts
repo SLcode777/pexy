@@ -272,6 +272,7 @@ export const importBackup = async (): Promise<void> => {
 
       // Restore images from base64
       for (const [imagePath, base64] of Object.entries(customPictograms.images)) {
+        if (typeof base64 !== "string") continue; // malformed entry in the backup file
         const filePath = `${FileSystem.documentDirectory}${imagePath}`;
         await FileSystem.writeAsStringAsync(filePath, base64, {
           encoding: FileSystem.EncodingType.Base64,

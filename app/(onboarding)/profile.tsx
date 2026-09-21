@@ -23,7 +23,6 @@ export default function ProfileScreen() {
     if (name.trim()) {
       // Navigate directly to welcome
       router.push({
-        // @ts-expect-error - Expo Router group routes typing issue
         pathname: "/(onboarding)/welcome",
         params: {
           name: name.trim(),

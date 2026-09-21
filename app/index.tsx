@@ -15,17 +15,14 @@ export default function Index() {
 
       if (profileExists) {
         // User has a profile, go to main app
-        // @ts-expect-error - Expo Router group routes typing issue
         router.replace('/(main)');
       } else {
         // No profile, go to onboarding
-        // @ts-expect-error - Expo Router group routes typing issue
         router.replace('/(onboarding)/profile');
       }
     } catch (error) {
       console.error('Error checking user profile:', error);
       // On error, default to onboarding
-      // @ts-expect-error - Expo Router group routes typing issue
       router.replace('/(onboarding)/profile');
     }
   };
