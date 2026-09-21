@@ -154,6 +154,8 @@
     "saving": "Saving..."
   },
   "custom_picto": {
+    "rotate": "Rotate",
+    "view_fullscreen": "View full screen",
     "create_title": "Create a pictogram",
     "name_title": "Name the pictogram",
     "choose_description": "Choose a photo to create your custom pictogram",

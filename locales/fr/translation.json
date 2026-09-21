@@ -154,6 +154,8 @@
     "saving": "Enregistrement..."
   },
   "custom_picto": {
+    "rotate": "Pivoter",
+    "view_fullscreen": "Voir en grand",
     "create_title": "Créer un pictogramme",
     "name_title": "Nommer le pictogramme",
     "choose_description": "Choisissez une photo pour créer votre pictogramme personnalisé",

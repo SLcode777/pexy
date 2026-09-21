@@ -27,6 +27,7 @@ export default function CreateCustomPictogramModal() {
   const [selectedImage, setSelectedImage] = useState<ImagePicker.ImagePickerAsset | null>(null);
   const [pictogramName, setPictogramName] = useState('');
   const [isSaving, setIsSaving] = useState(false);
+  const [rotation, setRotation] = useState(0);
 
   const requestCameraPermission = async () => {
     const { status } = await ImagePicker.requestCameraPermissionsAsync();
@@ -67,6 +68,7 @@ export default function CreateCustomPictogramModal() {
 
       if (!result.canceled && result.assets[0]) {
         setSelectedImage(result.assets[0]);
+        setRotation(0);
         setStep('name');
       }
     } catch (error) {
@@ -89,6 +91,7 @@ export default function CreateCustomPictogramModal() {
 
       if (!result.canceled && result.assets[0]) {
         setSelectedImage(result.assets[0]);
+        setRotation(0);
         setStep('name');
       }
     } catch (error) {
@@ -111,7 +114,10 @@ export default function CreateCustomPictogramModal() {
       // 2. Convert image to WebP format for better compression
       const manipulatedImage = await ImageManipulator.manipulateAsync(
         selectedImage.uri,
-        [{ resize: { width: 1024 } }], // Resize to max 1024px width while maintaining aspect ratio
+        [
+          ...(rotation ? [{ rotate: rotation }] : []),
+          { resize: { width: 1024 } }, // Resize to max 1024px width while maintaining aspect ratio
+        ],
         { compress: 0.8, format: ImageManipulator.SaveFormat.WEBP }
       );
 
@@ -209,9 +215,17 @@ export default function CreateCustomPictogramModal() {
               <View style={styles.previewContainer}>
                 <Image
                   source={{ uri: selectedImage?.uri }}
-                  style={styles.previewImage}
+                  style={[styles.previewImage, { transform: [{ rotate: `${rotation}deg` }] }]}
                   resizeMode="cover"
                 />
+                <TouchableOpacity
+                  style={styles.rotateButton}
+                  onPress={() => setRotation((r) => (r + 90) % 360)}
+                  accessibilityRole="button"
+                  accessibilityLabel={t('custom_picto.rotate')}
+                >
+                  <Text style={styles.rotateButtonText}>🔄 {t('custom_picto.rotate')}</Text>
+                </TouchableOpacity>
               </View>
 
               {/* Name input */}
@@ -328,6 +342,20 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     borderWidth: 2,
     borderColor: Colors.primary,
+  },
+  rotateButton: {
+    marginTop: 16,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: Colors.border,
+    backgroundColor: Colors.backgroundSecondary,
+  },
+  rotateButtonText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: Colors.text,
   },
   inputSection: {
     marginTop: 16,

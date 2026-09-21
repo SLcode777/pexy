@@ -17,6 +17,8 @@ import { useCallback, useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
 import {
   Alert,
+  Image,
+  Modal,
   ScrollView,
   StyleSheet,
   Text,
@@ -45,6 +47,7 @@ export default function PictogramScreen() {
   const [loading, setLoading] = useState(true);
   const [isFav, setIsFav] = useState(false);
   const [customPhrases, setCustomPhrases] = useState<CustomPhrase[]>([]);
+  const [isImageFullscreen, setIsImageFullscreen] = useState(false);
 
   // Reload custom phrases when screen is focused (after adding a new one)
   useFocusEffect(
@@ -220,19 +223,44 @@ export default function PictogramScreen() {
           { paddingBottom: insets.bottom + 24 },
         ]}
       >
-        {/* Pictogram */}
-        <TouchableOpacity
-          onPress={handleSpeakLabel}
-          style={styles.pictogramContainer}
-        >
-          <PictogramImage
-            source={pictogram.image}
-            size={120}
-            style={{ borderRadius: 20 }}
-          />
-          <Text style={styles.pictogramLabel}>{translation.label}</Text>
-          <Text style={styles.speakerIcon}>🔊</Text>
-        </TouchableOpacity>
+        {/* Pictogram: fullscreen (custom only) on the left, image, speaker on the right */}
+        <View style={styles.pictogramContainer}>
+          <View style={styles.pictogramRow}>
+            {categoryId === "custom" ? (
+              <TouchableOpacity
+                style={styles.sideButton}
+                onPress={() => setIsImageFullscreen(true)}
+                accessibilityRole="button"
+                accessibilityLabel={t("custom_picto.view_fullscreen")}
+              >
+                <Text style={styles.sideIcon}>🔍</Text>
+              </TouchableOpacity>
+            ) : (
+              <View style={styles.sideButton} />
+            )}
+
+            <TouchableOpacity onPress={handleSpeakLabel} activeOpacity={0.7}>
+              <PictogramImage
+                source={pictogram.image}
+                size={120}
+                style={{ borderRadius: 20 }}
+              />
+            </TouchableOpacity>
+
+            <TouchableOpacity
+              style={styles.sideButton}
+              onPress={handleSpeakLabel}
+              accessibilityRole="button"
+              accessibilityLabel={translation.label}
+            >
+              <Text style={styles.sideIcon}>🔊</Text>
+            </TouchableOpacity>
+          </View>
+
+          <TouchableOpacity onPress={handleSpeakLabel} activeOpacity={0.7}>
+            <Text style={styles.pictogramLabel}>{translation.label}</Text>
+          </TouchableOpacity>
+        </View>
 
         {/* Phrases */}
         <View style={styles.phrasesContainer}>
@@ -281,6 +309,30 @@ export default function PictogramScreen() {
           </TouchableOpacity>
         </View>
       </ScrollView>
+
+      {/* Fullscreen image viewer */}
+      <Modal
+        visible={isImageFullscreen}
+        transparent={false}
+        animationType="fade"
+        statusBarTranslucent
+        onRequestClose={() => setIsImageFullscreen(false)}
+      >
+        <TouchableOpacity
+          style={styles.fullscreenContainer}
+          activeOpacity={1}
+          onPress={() => setIsImageFullscreen(false)}
+          accessibilityRole="button"
+          accessibilityLabel={t("common.close")}
+        >
+          <Image
+            source={{ uri: pictogram.image }}
+            style={styles.fullscreenImage}
+            resizeMode="contain"
+          />
+          <Text style={[styles.fullscreenClose, { top: insets.top + 12 }]}>✖️</Text>
+        </TouchableOpacity>
+      </Modal>
     </SafeAreaView>
   );
 }
@@ -339,8 +391,36 @@ const styles = StyleSheet.create({
     marginBottom: 8,
     textAlign: "center",
   },
-  speakerIcon: {
-    fontSize: 24,
+  pictogramRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 16,
+    marginBottom: 16,
+  },
+  sideButton: {
+    width: 56,
+    height: 56,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  sideIcon: {
+    fontSize: 32,
+  },
+  fullscreenContainer: {
+    flex: 1,
+    backgroundColor: "#000000",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  fullscreenImage: {
+    width: "100%",
+    height: "100%",
+  },
+  fullscreenClose: {
+    position: "absolute",
+    right: 20,
+    fontSize: 28,
   },
   phrasesContainer: {
     gap: 12,
