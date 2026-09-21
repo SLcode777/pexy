@@ -1,5 +1,7 @@
 import type { Pictogram } from '@/types';
 import { CATEGORIES } from '@/constants/categories';
+import * as FileSystemLegacy from 'expo-file-system/legacy';
+import { getCustomPictograms } from '@/lib/db/operations';
 
 /**
  * Load pictograms for a specific category
@@ -71,11 +73,31 @@ export const loadAllPictograms = async (): Promise<Array<Pictogram & { categoryI
 };
 
 /**
- * Load favorite pictograms
+ * Load custom pictograms from the database
+ */
+export const loadCustomPictograms = async (): Promise<Array<Pictogram & { categoryId: string }>> => {
+  const customPictos = await getCustomPictograms();
+  return customPictos.map(cp => ({
+    id: cp.customId,
+    category: 'custom',
+    categoryId: 'custom',
+    image: `file://${FileSystemLegacy.documentDirectory}${cp.imagePath}`,
+    translations: {
+      fr: { label: cp.name, phrases: [] },
+      en: { label: cp.name, phrases: [] },
+    },
+  }));
+};
+
+/**
+ * Load favorite pictograms (custom pictograms included)
  */
 export const loadFavoritePictograms = async (favoriteIds: string[]): Promise<Array<Pictogram & { categoryId: string }>> => {
-  const allPictograms = await loadAllPictograms();
-  return allPictograms.filter(picto => favoriteIds.includes(picto.id));
+  const [customPictograms, allPictograms] = await Promise.all([
+    loadCustomPictograms(),
+    loadAllPictograms(),
+  ]);
+  return [...customPictograms, ...allPictograms].filter(picto => favoriteIds.includes(picto.id));
 };
 
 /**

@@ -12,7 +12,8 @@ import { router } from 'expo-router';
 import { useTranslation } from 'react-i18next';
 import { useSafeAreaInsets, SafeAreaView } from 'react-native-safe-area-context';
 import { Colors } from '@/constants/colors';
-import { loadAllPictograms } from '@/lib/pictograms';
+import { loadAllPictograms, loadCustomPictograms } from '@/lib/pictograms';
+import { PictogramImage } from '@/components/PictogramImage';
 import { getCustomPhrases } from '@/lib/db/operations';
 import { speakWithPreferences } from '@/lib/speakWithPreferences';
 import type { Pictogram, Phrase } from '@/types';
@@ -46,8 +47,12 @@ export default function SearchScreen() {
     const lowerQuery = query.toLowerCase();
 
     try {
-      // Load all pictograms
-      const allPictograms = await loadAllPictograms();
+      // Load all pictograms (custom pictograms included)
+      const [customPictograms, builtInPictograms] = await Promise.all([
+        loadCustomPictograms(),
+        loadAllPictograms(),
+      ]);
+      const allPictograms = [...customPictograms, ...builtInPictograms];
 
       // Search through pictograms
       for (const picto of allPictograms) {
@@ -127,7 +132,7 @@ export default function SearchScreen() {
         onPress={() => handleResultPress(item)}
         activeOpacity={0.7}
       >
-        <Text style={styles.resultIcon}>{item.pictogram.image}</Text>
+        <PictogramImage source={item.pictogram.image} size={40} style={styles.resultIcon} />
         {item.phrase && (
           <Text style={styles.resultEmoji}>{item.phrase.emoji}</Text>
         )}
@@ -272,8 +277,8 @@ const styles = StyleSheet.create({
     borderColor: Colors.pink,
   },
   resultIcon: {
-    fontSize: 32,
     marginRight: 12,
+    borderRadius: 8,
   },
   resultEmoji: {
     fontSize: 24,
