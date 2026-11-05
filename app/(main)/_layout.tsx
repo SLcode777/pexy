@@ -1,7 +1,7 @@
 import { Colors } from "@/constants/colors";
 import { Tabs } from "expo-router";
 import { useTranslation } from "react-i18next";
-import { Platform, Text as RNText } from "react-native";
+import { Image, Platform, Text as RNText } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function MainLayout() {
@@ -43,6 +43,24 @@ export default function MainLayout() {
           title: t("common.favorites"),
           tabBarIcon: ({ color }) => (
             <RNText style={{ fontSize: 22 }}>⭐</RNText>
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="routine"
+        options={{
+          title: "Routine",
+          tabBarIcon: ({ focused }) => (
+            <Image
+              source={require("@/assets/images/routine-icon.png")}
+              style={{
+                width: 40,
+                height: 40,
+                top: 2,
+                opacity: focused ? 1 : 0.6,
+              }}
+              resizeMode="contain"
+            />
           ),
         }}
       />
